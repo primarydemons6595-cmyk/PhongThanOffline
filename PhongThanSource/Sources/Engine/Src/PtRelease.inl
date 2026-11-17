@@ -119,6 +119,7 @@ struct State {
 };
 static State& Data();
 static std::string Lower(const std::string& value);
+static std::string ContextRoot();
 static std::string ExeRoot(){char path[MAX_PATH];DWORD n=GetModuleFileNameA(NULL,path,sizeof(path));if(!n||n>=sizeof(path))return "";char* slash=strrchr(path,'\\');if(!slash)return "";*slash=0;return path;}
 static bool Exists(const std::string& p){DWORD a=GetFileAttributesA(p.c_str());return a!=(DWORD)-1&&!(a&FILE_ATTRIBUTE_DIRECTORY);}
 static bool Required(){
