@@ -1243,10 +1243,12 @@ SOURCE=..\MultiServer\GameServer\KSOServer.cpp
 
 !IF  "$(CFG)" == "PhongThanClient - Win32 Release"
 
+# ADD CPP /D _WIN32_WINNT=0x0400
 # SUBTRACT CPP /YX /Yc /Yu
 
 !ELSEIF  "$(CFG)" == "PhongThanClient - Win32 Debug"
 
+# ADD CPP /D _WIN32_WINNT=0x0400
 # SUBTRACT CPP /YX /Yc /Yu
 
 !ENDIF 
@@ -1262,10 +1264,12 @@ SOURCE=..\MultiServer\GameServer\PhongThanRelayClient.cpp
 
 !IF  "$(CFG)" == "PhongThanClient - Win32 Release"
 
+# ADD CPP /D _WIN32_WINNT=0x0400
 # SUBTRACT CPP /YX /Yc /Yu
 
 !ELSEIF  "$(CFG)" == "PhongThanClient - Win32 Debug"
 
+# ADD CPP /D _WIN32_WINNT=0x0400
 # SUBTRACT CPP /YX /Yc /Yu
 
 !ENDIF 
