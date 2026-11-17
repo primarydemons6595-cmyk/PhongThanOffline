@@ -1215,9 +1215,6 @@ SOURCE=..\..\Lib\release\common.lib
 
 # End Source File
 # End Group
-# Begin Group "Embedded"
-
-# PROP Default_Filter ""
 # Begin Source File
 
 SOURCE=.\Embedded\PtEmbedded.h
@@ -1237,7 +1234,6 @@ SOURCE=.\Embedded\PtEmbeddedHost.cpp
 # Begin Source File
 
 SOURCE=..\MultiServer\GameServer\KSOServer.cpp
-
 # ADD CPP /Y-
 # End Source File
 # Begin Source File
@@ -1247,16 +1243,13 @@ SOURCE=..\MultiServer\GameServer\KSOServer.h
 # Begin Source File
 
 SOURCE=..\MultiServer\GameServer\PhongThanRelayClient.cpp
-
 # ADD CPP /Y-
 # End Source File
 # Begin Source File
 
 SOURCE=..\MultiServer\Goddess\PhongThanCharacterStore.cpp
-
 # ADD CPP /Y-
 # End Source File
-# End Group
 # Begin Source File
 
 SOURCE=.\ErrorCode.cpp
