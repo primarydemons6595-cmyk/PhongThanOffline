@@ -26,6 +26,7 @@ KPakList::KPakList()
 {
 	g_pPakList = this;
 	m_nPakNumber = 0;
+	m_nPtMode = 0;
 }
 
 //---------------------------------------------------------------------------
@@ -41,6 +42,7 @@ KPakList::~KPakList()
 //---------------------------------------------------------------------------
 void KPakList::Close()
 {
+	m_nPtMode = 0;
 	PtLooseClose(this);
 	for (int i = 0; i < m_nPakNumber; i++)
 		delete m_PakFilePtrList[i];
@@ -55,8 +57,8 @@ void KPakList::Close()
 //---------------------------------------------------------------------------
 bool KPakList::FindElemFile(unsigned long uId, XPackElemFileRef& ElemRef)
 {
-	if (PtReleaseEnabled()) { unsigned long size=0,entry=0; if(!PtReleaseLocate(uId,NULL,&entry,&size)) return false; memset(&ElemRef,0,sizeof(ElemRef)); ElemRef.uId=uId; ElemRef.nPackIndex=-4; ElemRef.nElemIndex=entry; ElemRef.nSize=size; return true; }
-	if (PtLooseOnlyEnabled()) return PtLooseFind(this, uId, ElemRef);
+	if (m_nPtMode == 1 || (m_nPtMode == 0 && PtReleaseEnabled())) { unsigned long size=0,entry=0; if(!PtReleaseLocate(uId,NULL,&entry,&size)) return false; memset(&ElemRef,0,sizeof(ElemRef)); ElemRef.uId=uId; ElemRef.nPackIndex=-4; ElemRef.nElemIndex=entry; ElemRef.nSize=size; return true; }
+	if (m_nPtMode == 2 || (m_nPtMode == 0 && PtLooseOnlyEnabled())) return PtLooseFind(this, uId, ElemRef);
 	bool bFounded = false;
 	for (int i = 0; i < m_nPakNumber; i++)
 	{
@@ -97,7 +99,7 @@ unsigned long KPakList::FileNameToId(const char* pszFileName)
 //---------------------------------------------------------------------------
 bool KPakList::FindElemFile(const char* pszFileName, XPackElemFileRef& ElemRef)
 {
-	if (PtReleaseEnabled())
+	if (m_nPtMode == 1 || (m_nPtMode == 0 && PtReleaseEnabled()))
 	{
 		if(!pszFileName || !pszFileName[0]) return false;
 		char pack[MAX_PATH], current[MAX_PATH]; g_GetFilePath(current);
@@ -106,7 +108,7 @@ bool KPakList::FindElemFile(const char* pszFileName, XPackElemFileRef& ElemRef)
 		unsigned long size=0,entry=0;if(!PtReleaseLocate(0,pack,&entry,&size))return false;
 		memset(&ElemRef,0,sizeof(ElemRef));ElemRef.uId=FileNameToId(pack);ElemRef.nPackIndex=-4;ElemRef.nElemIndex=entry;ElemRef.nSize=size;return true;
 	}
-	if (PtLooseOnlyEnabled())
+	if (m_nPtMode == 2 || (m_nPtMode == 0 && PtLooseOnlyEnabled()))
 	{
 		if (!pszFileName || !pszFileName[0]) return false;
 		char pack[MAX_PATH], current[MAX_PATH];
@@ -147,8 +149,17 @@ bool KPakList::FindElemFile(const char* pszFileName, XPackElemFileRef& ElemRef)
 bool KPakList::Open(const char* pPakListFile)
 {
 	Close();
-	if (PtReleaseEnabled()) return PtReleaseMount();
-	if (PtLooseOnlyEnabled()) return PtLooseOpen(this);
+	// The data mode is pinned per instance, decided by the root that is
+	// active while Open() runs. A standalone process holds one instance
+	// under one root, so its behavior is unchanged. An embedded (offline)
+	// process holds several instances under different roots: the client
+	// instances open under the game folder (secure release catalog), the
+	// embedded server instance opens under ServerData (loose_only.flag),
+	// and each lookup then follows its own instance's mode instead of the
+	// process-global release state, which can only ever mount one role.
+	if (PtLooseOnlyEnabled()) { m_nPtMode = 2; return PtLooseOpen(this); }
+	if (PtReleaseEnabled()) { m_nPtMode = 1; g_pPakList = this; return PtReleaseMount(); }
+	m_nPtMode = 3;
 
 	KIniFile IniFile;
 	#define	SECTION "Package"
@@ -207,8 +218,8 @@ bool KPakList::Open(const char* pPakListFile)
 int KPakList::ElemFileRead(XPackElemFileRef& ElemRef,
 					void* pBuffer, unsigned uSize)
 {
-	if (PtReleaseEnabled()) { unsigned long n=PtReleaseReadEntry(ElemRef.nElemIndex,ElemRef.nOffset,pBuffer,uSize); ElemRef.nOffset+=n; return n; }
-	if (PtLooseOnlyEnabled()) return PtLooseRead(this, ElemRef, pBuffer, uSize);
+	if (m_nPtMode == 1 || (m_nPtMode == 0 && PtReleaseEnabled())) { unsigned long n=PtReleaseReadEntry(ElemRef.nElemIndex,ElemRef.nOffset,pBuffer,uSize); ElemRef.nOffset+=n; return n; }
+	if (m_nPtMode == 2 || (m_nPtMode == 0 && PtLooseOnlyEnabled())) return PtLooseRead(this, ElemRef, pBuffer, uSize);
 	if (ElemRef.nPackIndex >= 0 && ElemRef.nPackIndex < m_nPakNumber)
 		return m_PakFilePtrList[ElemRef.nPackIndex]->ElemFileRead(ElemRef, pBuffer, uSize);
 	return 0;

@@ -44,6 +44,12 @@ if (Test-Path -LiteralPath $mapSleep) {
     [IO.File]::WriteAllText($mapSleep, $text)
 }
 
+# 3b) ServerData bat buoc co loose_only.flag: server nhung ghim che do du lieu
+# theo co nay (doc file roi trong ServerData), ke ca khi nua client la ban
+# phat hanh bao mat doc catalog. Thieu co nay server se tra du lieu sai cho.
+$looseFlag = Join-Path $serverData 'loose_only.flag'
+if (-not (Test-Path -LiteralPath $looseFlag)) { Set-Content -LiteralPath $looseFlag -Value 'LOOSE_ONLY' -Encoding ASCII }
+
 # 4) Thu muc chua nhan vat (moi nhan vat 1 file .pthc trong CharacterStore\<tai khoan>\)
 $store = Join-Path $serverData 'CharacterStore'
 if (-not (Test-Path -LiteralPath $store)) { New-Item -ItemType Directory -Path $store | Out-Null }

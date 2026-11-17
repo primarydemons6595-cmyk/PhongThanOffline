@@ -37,6 +37,7 @@ private:
 	#define MAX_PAK 128
 	XPackFile*			m_PakFilePtrList[MAX_PAK];
 	long				m_nPakNumber;
+	long				m_nPtMode;	// data mode pinned by Open(): 0 = derive live, 1 = secure release catalog, 2 = loose-only, 3 = classic pak list
 };
 
 extern ENGINE_API KPakList* g_pPakList;
