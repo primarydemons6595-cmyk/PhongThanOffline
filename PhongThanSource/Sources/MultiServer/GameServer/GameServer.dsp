@@ -102,6 +102,14 @@ SOURCE=.\KSOServer.cpp
 # End Source File
 # Begin Source File
 
+SOURCE=.\PtEmbeddedServerHooks.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\PtEmbeddedServerHooks.h
+# End Source File
+# Begin Source File
+
 SOURCE=.\PhongThanRelayClient.cpp
 # End Source File
 # Begin Source File

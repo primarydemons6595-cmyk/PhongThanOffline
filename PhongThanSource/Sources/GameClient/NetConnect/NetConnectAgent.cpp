@@ -10,6 +10,7 @@
 #include <initguid.h>
 #include "KEngine.h"
 #include "NetConnectAgent.h"
+#include "../Embedded/PtEmbedded.h"
 #include "NetMsgTargetObject.h"
 #include "../Ui/Elem/Wnds.h"
 #include "../Ui/UiCase/UiSysMsgCentre.h"
@@ -62,6 +63,15 @@ KNetConnectAgent::~KNetConnectAgent() {
 //	????????????
 //--------------------------------------------------------------------------
 int KNetConnectAgent::Initialize() {
+    if (PtEmbedded_IsEnabled()) {
+        // Offline mode: memory transports instead of Rainbow.dll.
+        m_pClientFactory = PtEmbedded_CreateClientFactory();
+        if (!m_pClientFactory)
+            return false;
+        m_pClientFactory->SetEnvironment(1024 * 512);
+        m_bIsClientConnecting = false;
+        return true;
+    }
     m_hModule = ::LoadLibrary(NETCONNECT_MODULE);
 
     if (m_hModule) {
@@ -84,6 +94,7 @@ int KNetConnectAgent::Initialize() {
 //	??????????
 //--------------------------------------------------------------------------
 void KNetConnectAgent::Exit() {
+    PtEmbedded_Shutdown();
     memset(&m_MsgTargetObjs, 0, sizeof(m_MsgTargetObjs));
     m_pPhongThanSessionTarget = NULL;
 
@@ -274,6 +285,9 @@ int KNetConnectAgent::SendMsg(const void *pBuffer, int nSize) {
 //	????????????????
 //--------------------------------------------------------------------------
 void KNetConnectAgent::Breathe() {
+    // Offline mode: run the embedded gateway + server for this frame
+    // before any queued packet is drained below.
+    PtEmbedded_Pump();
     //----????????----
     if (m_uClientRequestTime &&
         GetTickCount() - m_uClientRequestTime >= m_uClientTimeoutLimit) {

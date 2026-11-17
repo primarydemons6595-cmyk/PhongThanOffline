@@ -67,6 +67,7 @@
 #include "KTongProtocol.h"
 
 #include "KSOServer.h"
+#include "PtEmbeddedServerHooks.h"
 #include "../../../Headers/PhongThanClientMessageBudget.h"
 #include "../../../Headers/PhongThanHostPerformance.h"
 struct PTInputBudgetSettings {
@@ -252,6 +253,9 @@ static void UnbindPhongThanRelaySession(
 }
 
 KSwordOnLineSever g_SOServer;
+
+// Offline embedded mode flag: FALSE for the standalone cluster server.
+BOOL g_bPtEmbeddedMode = FALSE;
 
 enum PLAYER_GAME_STATUS
 {
@@ -609,7 +613,11 @@ BOOL KSwordOnLineSever::Init()
 
 	IServerFactory *pServerFactory = NULL;
 
-	if ( pFactroyFun && SUCCEEDED( pFactroyFun( IID_IServerFactory, reinterpret_cast< void ** >( &pServerFactory ) ) ) )
+	if ( g_bPtEmbeddedMode )
+	{
+		m_pServer = PtEmbedded_CreateMemoryServer( m_nMaxPlayer );
+	}
+	else if ( pFactroyFun && SUCCEEDED( pFactroyFun( IID_IServerFactory, reinterpret_cast< void ** >( &pServerFactory ) ) ) )
 	{
 		pServerFactory->SetEnvironment( m_nMaxPlayer, m_nPrecision, m_snMaxBuffer, m_snBufferSize  );
 
@@ -664,6 +672,13 @@ BOOL KSwordOnLineSever::Init()
 		m_dwInternetIp = m_dwIntranetIp;
 	if (m_dwIntranetIp == 0)
 		m_dwIntranetIp = m_dwInternetIp;
+	if (g_bPtEmbeddedMode)
+	{
+		if (m_dwIntranetIp == 0)
+			m_dwIntranetIp = 0x0100007F;
+		if (m_dwInternetIp == 0)
+			m_dwInternetIp = 0x0100007F;
+	}
 	if (m_dwIntranetIp == 0 || m_dwInternetIp == 0)
 	{
 		cout << "Can't get server ip" << endl;
@@ -715,7 +730,11 @@ BOOL KSwordOnLineSever::Init()
 
 	IClientFactory *pClientFactory = NULL;
 
-	if ( pClientFactroyFun && SUCCEEDED( pClientFactroyFun( IID_IClientFactory, reinterpret_cast< void ** >( &pClientFactory ) ) ) )
+	if ( g_bPtEmbeddedMode )
+	{
+		m_pDatabaseClient = PtEmbedded_CreateStoreClient();
+	}
+	else if ( pClientFactroyFun && SUCCEEDED( pClientFactroyFun( IID_IClientFactory, reinterpret_cast< void ** >( &pClientFactory ) ) ) )
 	{
 		pClientFactory->SetEnvironment( 1024 * 128 );
 
@@ -759,6 +778,8 @@ BOOL KSwordOnLineSever::Init()
 	 * share this self-describing transport; the three SwordOnline relay
 	 * sockets are deliberately not created.
 	 */
+	if (!g_bPtEmbeddedMode)
+	{
 	cout << "PhongThan relay IP: " << m_szRelayIP
 		 << " - Port: " << m_nRelayPort << endl;
 	if (!m_RelayClient.Connect(
@@ -802,6 +823,7 @@ BOOL KSwordOnLineSever::Init()
 	}
 	cout << "Connect PhongThan relay successful! ServiceId="
 		 << m_RelayClient.GetServiceId() << endl;
+	} // if (!g_bPtEmbeddedMode) - relay
 
 	/*
 	 * Connect gateway
@@ -811,7 +833,11 @@ BOOL KSwordOnLineSever::Init()
 
 	pClientFactory = NULL;
 
-	if ( pClientFactroyFun && SUCCEEDED( pClientFactroyFun( IID_IClientFactory, reinterpret_cast< void ** >( &pClientFactory ) ) ) )
+	if ( g_bPtEmbeddedMode )
+	{
+		m_pGatewayClient = PtEmbedded_CreateGatewayLink();
+	}
+	else if ( pClientFactroyFun && SUCCEEDED( pClientFactroyFun( IID_IClientFactory, reinterpret_cast< void ** >( &pClientFactory ) ) ) )
 	{
 		pClientFactory->SetEnvironment( 1024 * 1024 );
 
@@ -1061,7 +1087,7 @@ void KSwordOnLineSever::MessageLoop()
     }
 
 
-	if (!m_RelayClient.Pump())
+	if (!g_bPtEmbeddedMode && !m_RelayClient.Pump())
 	{
 		GameServerLoginDiag("native_relay_disconnected");
 		m_RelayClient.Disconnect();
@@ -2579,7 +2605,7 @@ void KSwordOnLineSever::PlayerMessageProcess(const unsigned long lnID, const cha
 		if (ProcessSyncReplyProtocol(lnID, pData, dataLength))
 		{
 			m_pCoreServerShell->AddPlayerToWorld(nIndex);
-			if (!BindPhongThanRelaySession(m_RelayClient, lnID, nIndex))
+			if (!g_bPtEmbeddedMode && !BindPhongThanRelaySession(m_RelayClient, lnID, nIndex))
 			{
 				GameServerLoginDiag(
 					"native_relay_session_bind_failed id=%lu index=%d",

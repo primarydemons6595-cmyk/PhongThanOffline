@@ -20,6 +20,10 @@ using OnlineGameLib::Win32::CPackager;
 #include "KTimer.h"
 #include "PhongThanRelayClient.h"
 
+// Offline embedded mode (server hosted inside the game client).
+// Defined in KSOServer.cpp; set by the in-client host before Init().
+extern BOOL g_bPtEmbeddedMode;
+
 //#define	CHECK_IPADDRESS		0
 //#define IPADDRESS			"AD17CAD2885008B2510DBB1EE67A6E12"	//7FD59087F7EEE0A5A8DF9F0480254AC4	192.168.94.1
 
