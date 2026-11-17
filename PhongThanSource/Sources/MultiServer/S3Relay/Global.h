@@ -127,7 +127,7 @@ extern S3PDBConVBC* pConnectDB;//TamLTM fix xu;
 
 
 #ifndef MAX_PLAYER_PER_ACCOUNT
-#define MAX_PLAYER_PER_ACCOUNT 3
+#define MAX_PLAYER_PER_ACCOUNT 30
 #endif
 
 /////////////////////////////////////////////////

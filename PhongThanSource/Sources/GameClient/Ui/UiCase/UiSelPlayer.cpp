@@ -544,10 +544,10 @@ void KUiSelPlayer::OnNew() {
 
 void KUiSelPlayer::OnDel() {
     if (m_nSelPlayer >= 0) {
-        //	KUiConnectInfo::OpenWindow(CI_MI_TO_DEL_ROLE, CI_NS_SEL_ROLE_WND, m_nSelPlayer);
+        KUiConnectInfo::OpenWindow(CI_MI_TO_DEL_ROLE, CI_NS_SEL_ROLE_WND, m_nSelPlayer);
 
         //Khong the xoa nhan vat nay
-        KUiConnectInfo::OpenWindow(CI_MI_INVALID_NOT_DELETE_PLAYER, CI_NS_SEL_ROLE_WND, 0);
+        /* Ban offline: da mo khoa xoa nhan vat (xem dong tren) */
         Hide();
 
         //	g_DebugLog("OpenWindow(CI_MI_TO_DEL_ROLE, CI_NS_SEL_ROLE_WND, m_nSelPlayer) HiÖn t¹i kh«ng thÓ xãa nh©n vËt nµy.");
