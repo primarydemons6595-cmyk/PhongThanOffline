@@ -1,0 +1,29 @@
+﻿{
+    "scope":  "Clothing 10x/ascended; Vu Si login/F5/body; Vietnamese profession names; owner-aware PvP faction cycle",
+    "files":  [
+                  {
+                      "role":  "Client",
+                      "relative":  "CoreClient.dll",
+                      "before":  "c0ffa90a54cae6f51f1ec8d2ac31a2cfa10fcb0423157d35d7c656a17fa75c8f",
+                      "sha256":  "dc30d929ceb34369307eeec3330c49ad3914a98d68f58d56bd3d15b33f2b4256"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "Game.exe",
+                      "before":  "5663d3d897da3aff1d8f7d81cf48f4548489437b09272da2b6e67cc34bb78ba4",
+                      "sha256":  "3447346d1bf7103b43556da55a865e181ee8c725681bdb3e30171f72a3516b3e"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "ui/vusi_skills.ini",
+                      "before":  null,
+                      "sha256":  "a85ab6cc0ad67ae935c1c6ee7561be4d5654aab96fc1168f61632c3a9da90e38"
+                  },
+                  {
+                      "role":  "Server",
+                      "relative":  "CoreServer.dll",
+                      "before":  "dba1cd1a6db0f875ef086794f53a448250e184d6d019079d053ceb29e7f9e93c",
+                      "sha256":  "0785a724547b0a9735e6d5e5b9c749a94de4f0d1a9074666e77dab3e4b04b564"
+                  }
+              ]
+}

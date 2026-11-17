@@ -1,0 +1,22 @@
+﻿{
+    "BackupSha256":  "d7327de585378ce726b5f1f8954304a9a96d0265a83bb5cf0d89cf69658e6f26",
+    "SqlVersion":  "Microsoft SQL Server 2022 (RTM) - 16.0.1000.6 (X64) \n\tOct  8 2022 05:58:25 \n\tCopyright (C) 2022 Microsoft Corporation\n\tExpress Edition (64-bit) on Windows 10 Pro 10.0 \u003cX64\u003e (Build 26200: ) (Hypervisor)\n",
+    "Tables":  {
+                   "Account_Habitus":  {
+                                           "Checksum":  -58224077,
+                                           "Rows":  14
+                                       },
+                   "ServerList":  {
+                                      "Checksum":  -1193344224,
+                                      "Rows":  4
+                                  },
+                   "Account_Info":  {
+                                        "Checksum":  -1933407329,
+                                        "Rows":  14
+                                    }
+               },
+    "CopyOnly":  true,
+    "ChecksumVerified":  true,
+    "Database":  "account",
+    "CreatedUtc":  "2026-11-10T10:11:01.0664013Z"
+}

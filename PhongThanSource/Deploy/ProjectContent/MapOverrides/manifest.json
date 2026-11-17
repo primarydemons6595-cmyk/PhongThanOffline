@@ -1,0 +1,12 @@
+{
+  "Schema": 1,
+  "Overrides": [
+    {
+      "Role": "Client",
+      "RelativePath": "maps\\\u00bc\u00d1\u00c3\u00ce\u00b9\u00d8\\v_104\\113_region_c.dat",
+      "Length": 10637,
+      "Sha256": "232AE14426C57DFDFF332C9A515D0D8994688FDEA506D18A07BA151092A8B5E9",
+      "Source": "Client_Original/data/Maps.pak"
+    }
+  ]
+}

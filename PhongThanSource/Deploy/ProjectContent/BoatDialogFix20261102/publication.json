@@ -1,0 +1,16 @@
+﻿{
+    "Scope":  "LOOSE_ONLY",
+    "Backup":  "E:\\ProjectAI\\PhongThan\\PT\\analysis\\boat_dialog_fix_20261102\\runtime-before-20261102_073414",
+    "Result":  "PASS",
+    "Files":  [
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\BoatDialogFix20261102\\binaries\\Server\\CoreServer.dll",
+                      "Path":  "Server/CoreServer.dll",
+                      "Done":  false,
+                      "After":  "154786185122B4F04A414E17A3116325FE203DBF638151C54C5F23468531E6F6",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\CoreServer.dll",
+                      "Before":  "EFFC045D121A29C8520E19FBF2F8C0EBBE5C66D679B57C00AD76B57AD158DDC2"
+                  }
+              ],
+    "PublishedAtUtc":  "2026-11-02T00:34:16.4702538Z"
+}

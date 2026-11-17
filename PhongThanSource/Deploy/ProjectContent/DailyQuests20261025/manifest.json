@@ -1,0 +1,620 @@
+{
+  "schema": 1,
+  "quests": 10,
+  "hopeCounter": 418,
+  "scoutSuccessfulRounds": 10,
+  "files": [
+    {
+      "role": "Server",
+      "relative": "script/item/ÕÐ»êá¦.lua",
+      "sha256": "87dbd54c0feb3ab300b7c1e8d030a604d3f36f1bc35bfa11cd87d17fa12e676b",
+      "before": "35840418c5927a7f7bdf802b6ab169af17658e855ea25b12e727d770b10002ec"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/daily/banner.lua",
+      "sha256": "6a40ab6f933422e4f1466024d017e2815f95d390f7707b61563398edf02d86db",
+      "before": null
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/daily/data.lua",
+      "sha256": "87ead3d6e32b954baa55adf987cecbfd9139068f569c62da32bfb6c9d037e33f",
+      "before": null
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/daily/npc_an_giao.lua",
+      "sha256": "5b8a65d854c955ce4df2aa18459f91e12aeecf8750dac0a33412b8e5c8b04210",
+      "before": null
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/daily/npc_an_hong.lua",
+      "sha256": "81515db254b9a3adc9416bbf8920c0f18feeb03e1cf80e6573631c3d465cddde",
+      "before": null
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/daily/npc_wine_giver.lua",
+      "sha256": "36a747911dd85724d21df002b22cc02fd658c382b4db8ec5bb599d748d99261a",
+      "before": null
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/daily/npc_wine_receiver.lua",
+      "sha256": "36a747911dd85724d21df002b22cc02fd658c382b4db8ec5bb599d748d99261a",
+      "before": null
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/daily/reward.lua",
+      "sha256": "264c694788afcb4d596722323e51d8225651722a3914ad891480debcae14cdf9",
+      "before": null
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/daily/runtime.lua",
+      "sha256": "aa363b800c5b3aab1e2a1e7ab981d15dc1f6e52a3d889ba2092b97ed1df42c12",
+      "before": null
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/daily/sieu_do.lua",
+      "sha256": "6207956d6c86046c856871c3ce70ca67212245c01ddae8fa3618194acae09520",
+      "before": null
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/daily/thien_cuong.lua",
+      "sha256": "88b505107a352e18cf6ceeacf3c881d11d7abf6e50b07fc39efd5ba5b44a46a2",
+      "before": null
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/daily/tong_tuu.lua",
+      "sha256": "a02fa44fe75ec601329f6462e3044a16b48e700141195f2628e595698b9ec671",
+      "before": null
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/daily/tu_linh.lua",
+      "sha256": "bc42522055177c7b5959757ebd887e93fc8a9285400aee684f7645982c8232f6",
+      "before": null
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/escort/cart.lua",
+      "sha256": "c1e4d72acd412e9ca866b3d032e2afae8fdae8c022e6143bd4e1aa70420995cc",
+      "before": "2a2a07c9df9172b5f42a18e5f6a77d568b5e67dc44e63a5c938d2b8a92dd9017"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_restore/1002_13.lua",
+      "sha256": "e85d7a54269961c096343fc79cfe89a065f49e65279d07a8d4aed5d0ce1768cc",
+      "before": "5117ed02b5c18886a283b06caec877391a8906e36eb1d6e679713fd4347e9124"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_restore/1003_08.lua",
+      "sha256": "dfe8c87d2a5629e7cfd373a83d8b49263775ccb6984977f337ef4ecef870b347",
+      "before": "ba95b016390af98733efffbe24e2dc3fef94d9b72967948d30b4f3e5776829e7"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_restore/1004_09.lua",
+      "sha256": "5431ef3eb8fa5f43ab8e30a40d433eb7354dc13562824b480c7502aef1d0c4d9",
+      "before": "539fa90f35138e8e3c02bea216eccb0de204d4e467047d8bfedb7216d2e379b8"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_restore/1020_03.lua",
+      "sha256": "fc198c60bc724f265f4392cb87691d7f98f7634af55ba75abd5751342e462d8d",
+      "before": "7016e29e70ece50794da7ee5a12750b4dd93f9fa9db7c73dfc4cea1d6579fa80"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_restore/1020_04.lua",
+      "sha256": "d9f18dfcddfb809af3f9fc56fb542c9786e9f03f09079950a857500e79593d0e",
+      "before": "73fd704a198f0496f73f7c7ed1811e07111a2bf54b1e1e9ee471ae016f44cd05"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_restore/1020_10.lua",
+      "sha256": "096eb7751515e0eda08ef6677ac019d3f59632e704f2476bac46bc65d7afed7d",
+      "before": "a79dcdabc8cdc23f79e087190804a01d6367291bed551c97d796536002e2fc90"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_restore/1021_03.lua",
+      "sha256": "b355329013690bf485772f6d63f8f94076090d592ce0c9ab82e989c7446f2973",
+      "before": "30028435f10353309174b41a8cc7a6d4f431431f6c9f8740a7d2bde70645aa23"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_restore/1021_12.lua",
+      "sha256": "1e2bebd5e40933f5eb3a2838dc819384ca8e7c1aa44b87708bd29dd4f8202979",
+      "before": "62fe9f30f1086075a8b47038e6109e1d1cd5959e5544745520778b9cad9c18c0"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_restore/1021_16.lua",
+      "sha256": "c4f0e855eabcb762f6b31cfbb5de22a35d8d287acd2b4b602f4565e8b001c92a",
+      "before": "b532766b510d662e2cccfe21219554ad6f049b41cba16ee1e65ebdbf9822b81e"
+    },
+    {
+      "role": "Server",
+      "relative": "script/²ÊÆ±/ØÔ.lua",
+      "sha256": "9530bfe86f60c26939940012b6293e13b996bc1cc21a1cbe5027187979e0c121",
+      "before": "7d3c284e709b18b0217bc68c6f165e97812f26dc663101b66d7bfca74cd42725"
+    },
+    {
+      "role": "Server",
+      "relative": "script/³¯¸è/»ÆÌì»¯.lua",
+      "sha256": "a01b0dbe8e8e20469c7b92989111db26ea521e2d7a26b7f1e5647aa328f37bb4",
+      "before": "74c1144b057f1a3293a30ebfbce75e064128b0e12508175f64c3b7db277bd19c"
+    },
+    {
+      "role": "Server",
+      "relative": "script/·âÉñÌ¨/°Ø¼ø.lua",
+      "sha256": "3f5454e2ff996f0beb4a1a5fae1635523517b427c4e07157508b443e42837d38",
+      "before": "06d32c903600f94be5f31a9a39ba6fc54d256825aa238780ca74090b81ce5f79"
+    },
+    {
+      "role": "Server",
+      "relative": "script/ÅÜÉÌ/»õÉÌºúÎ÷áª.lua",
+      "sha256": "c778823dc145036b893d9cb36ca530a378141cf736eafb49c385f82811491cfe",
+      "before": "9e53a88bc0d84e6c5b5bfa153cadd5e0a29242836442cbeffb513c0d75847328"
+    },
+    {
+      "role": "Server",
+      "relative": "script/ÅÜÉÌ/»õÉÌ¼ÖÐùÔ¯¶´3²ã.lua",
+      "sha256": "bbb8cf92879db5b80d28c8f91f4bb28983e21b62e5328fcb1a536f287e778da9",
+      "before": "d50ca37fdecc79290b0cbd19d1850d4dd5924a6b5a92d98edbe3cf605c195d16"
+    },
+    {
+      "role": "Server",
+      "relative": "script/ÅÜÉÌ/»õÉÌÀî³ç³Ç.lua",
+      "sha256": "c6408b105c5779e4277dc37ce6e8d94424e3467fbf75169993d0ae763dbb90a7",
+      "before": "61f04e150a6a412bcaec8c798ff4932e36e769c75d84050418fc1036414482ef"
+    },
+    {
+      "role": "Server",
+      "relative": "script/ÅÜÉÌ/»õÉÌÁõ¶«º£º£¹µ.lua",
+      "sha256": "82d0dba800c6b51076471ccdbf02d0636ff6c136e758f95e1d53a88e91633920",
+      "before": "344326149eea669d224b387d8eabc0ca4ff250e490aea4360b68969bc035bd1d"
+    },
+    {
+      "role": "Server",
+      "relative": "script/ÅÜÉÌ/»õÉÌÍõò¿ÓÈÄ¹.lua",
+      "sha256": "00a1bf7f282fa0848e336afbb1e040c3b7f316419e935c0dbf11989a49ca5b3b",
+      "before": "34a9e63186dcaca32182a465c64c5ea401cecc9ba69a64cc723db1706942396c"
+    },
+    {
+      "role": "Server",
+      "relative": "script/ÅÜÉÌ/»õÉÌÎâ´ó·ç±ù´¨.lua",
+      "sha256": "1737381436eb288d9e8fc088eff4de516e75450e1172a79961a1ba42f6589f12",
+      "before": "85da34733e9010cb2a169bca630dd0a7dfa2b2a2d24e4eb62a155a5173c6940d"
+    },
+    {
+      "role": "Server",
+      "relative": "script/ÅÜÉÌ/»õÉÌÕÅÓñÐé¹¬.lua",
+      "sha256": "e7121f6e6eb3cb74a27a88c5724ad31b776d0ece70bd117d4e674b7061299b1b",
+      "before": "971be2cc295238404baa70b4047b4f669bd755760ea64da97167f2ec37ad9ba4"
+    },
+    {
+      "role": "Server",
+      "relative": "script/ÅÜÉÌ/»õÉÌÕÔÉ³Ä®·çÌ².lua",
+      "sha256": "cc562fa16d6c7d4db25f1cb287cd275ee6bd1b127639c8e819e1ce96e1721e3f",
+      "before": "a8a220e796a852196f21f111e0b514788c89f7fe365d631fea1f3f96cc0362ca"
+    },
+    {
+      "role": "Server",
+      "relative": "script/ÅÜÉÌ/»õÉÌÖÜ³¯¸è.lua",
+      "sha256": "37257d9cd501898c50cb938e06d63f1ae553660c4248cd1ad4b93d4324aca0a9",
+      "before": "7eb2b70e9fe20e063fc8a44bf25a8d5160b14409e0aed33d8d4d902ac0763e99"
+    },
+    {
+      "role": "Server",
+      "relative": "script/Î÷áª/ÐÁÃâ.lua",
+      "sha256": "8a3f4096f25565ca65076469d3c48ceee665bd944172ae7e976e015beb679f1f",
+      "before": "f7ce85bff2a5f8d0b14017d91f9ba9232dbdfd044d9b0cf811f76964fd95a590"
+    },
+    {
+      "role": "Server",
+      "relative": "script/Ñþ³Ø/º¯Ö¥ÏÉ×Ó.lua",
+      "sha256": "decbcba44d5975bab158ea76189cfd6771e268211c39655a13ba0883ebf105fe",
+      "before": "1ef2413d9c81aadcd97c7e846b9c0be56b30f678531dc705f12040345d5ed2ad"
+    },
+    {
+      "role": "Server",
+      "relative": "script/Ñþ³Ø/Áú¼ª¹«Ö÷.lua",
+      "sha256": "77ba80d04c6052fb9d21fd90d2006e2e7604adb3a155b200c6270e0e91143d46",
+      "before": "926fb149166a01c5fde27afa139900213d622840facf146f070e88ac4b925c2a"
+    },
+    {
+      "role": "Server",
+      "relative": "settings/phongthan/npc_regions/1001/v_096/092_region_s.dat",
+      "sha256": "b53613360b63836f8bc948e85c31e877b52a4f2e6024d3f1ae31898627367137",
+      "before": null
+    },
+    {
+      "role": "Server",
+      "relative": "settings/phongthan/npc_regions/1001/v_097/103_region_s.dat",
+      "sha256": "d08c0421efd7d551478e31eafb712c694ff2fc7c553118fbbfd29ba1e6dd4b44",
+      "before": null
+    },
+    {
+      "role": "Server",
+      "relative": "settings/phongthan/npc_regions/1001/v_099/095_region_s.dat",
+      "sha256": "70d54ef524578441046ef6ae56ffa2e881f67f5a7cbccb8116d2925c17b9b27e",
+      "before": null
+    },
+    {
+      "role": "Server",
+      "relative": "settings/phongthan/npc_regions/1020/v_095/095_region_s.dat",
+      "sha256": "1a48d713c74035c1e22d80609b74a0f777948e4eeb3f3f004b370246a1112c15",
+      "before": null
+    },
+    {
+      "role": "Server",
+      "relative": "settings/phongthan/npc_regions/1044/v_096/118_region_s.dat",
+      "sha256": "906624beba1f5d058dfec44f0f02e731201610ec6309a636ab6d1a5f9969e71c",
+      "before": null
+    },
+    {
+      "role": "Server",
+      "relative": "settings/phongthan/npc_regions/1046/v_093/118_region_s.dat",
+      "sha256": "99d9a9c68827c8644fb39ca06d118fdc98a5b6b0f9008d98248399edaef90867",
+      "before": "4342cb32913b68306eacbc13b46d07a2f93ed96a4bf21dd90fc4333dc2d74f13"
+    },
+    {
+      "role": "Client",
+      "relative": "Ui/ui3/taskinfo.ini",
+      "sha256": "ff83c0941c5bc2e4f2bc2cfb061ad0d9d512a7e1eba2fbf95a9a11d893880dbc",
+      "before": "ae7437bc34cd9bd3b5c6d4f36ff17a03b3998d58abdf43399d6302fe12b37dbb"
+    },
+    {
+      "role": "Client",
+      "relative": "Ui/ui4/taskinfo.ini",
+      "sha256": "ff83c0941c5bc2e4f2bc2cfb061ad0d9d512a7e1eba2fbf95a9a11d893880dbc",
+      "before": "ae7437bc34cd9bd3b5c6d4f36ff17a03b3998d58abdf43399d6302fe12b37dbb"
+    },
+    {
+      "role": "Server",
+      "relative": "CoreServer.dll",
+      "sha256": "b35aebf1708cbf2087abd27b89cadef89a42adbeabe3f2e3d92922b680e5e605",
+      "before": "8f96441ad99c0561652cecfd8bc8f73a184de62d3d60f4e3ea9ac231ccc6486b"
+    },
+    {
+      "role": "Server",
+      "relative": "settings/phongthan/npc_regions/1016/v_098/102_region_s.dat",
+      "before": "6d3b377566a44cc012f4132ca9de9fab4a20a594c1605997197f02c7ffc87462",
+      "sha256": "958be4423a2f952605c3e70a4d2f5f9129042950e6a949fce88c021738437001"
+    },
+    {
+      "role": "Server",
+      "relative": "settings/phongthan/npc_regions/1016/v_100/102_region_s.dat",
+      "before": "39a48b62498b70bb6b2436c9ce0f37cdbaee3c0e4aade3ede82b6262d3d87673",
+      "sha256": "9186d1a19a70ff632c39c76d623bd308bd4c9e3d018323239a63235e7380b24b"
+    },
+    {
+      "role": "Server",
+      "relative": "settings/phongthan/npc_regions/1016/v_101/098_region_s.dat",
+      "before": "062fe8aa4cca0261bd8554afa47de65ca92281f85e5f1ddb8d1d2376d674f53f",
+      "sha256": "8aa5cf1b62ec1179f22170643384ae8ce0691adabfb4f5b52e22f12ba0193ded"
+    },
+    {
+      "role": "Server",
+      "relative": "settings/phongthan/npc_regions/1016/v_101/099_region_s.dat",
+      "before": "823799c8d7e47b57567039a6d4048110f7eed711a9b4e499c10c72da3bd3b8b9",
+      "sha256": "d0742071f48beadd086605baf201d8547026b144e6ad3889f017ad0d59b1fc80"
+    },
+    {
+      "role": "Server",
+      "relative": "settings/phongthan/npc_regions/1016/v_101/100_region_s.dat",
+      "before": "495b021b0393d97826b4f95f343a9aeeb3f663c77c5e9e3c92a3e71f0877495d",
+      "sha256": "5df4c064da042b03a0c946371d5bd82a864dccc6ef777257deb27f166547c365"
+    },
+    {
+      "role": "Server",
+      "relative": "settings/phongthan/npc_regions/1016/v_101/101_region_s.dat",
+      "before": "7b7b54adaa33bb9fbfe0a066eab54ddd0718914024f4459a6858fd446f341ba0",
+      "sha256": "2b6dc48fb834c7233aa6b37d687ea4bb77f4e800a19c02c78b259c7d22d1e1b8"
+    },
+    {
+      "role": "Server",
+      "relative": "settings/phongthan/npc_regions/1016/v_101/102_region_s.dat",
+      "before": "bc073419d0941b5deaabb94d479b3ef3be09eb01c7af8ceb112b84fa5cb1cc22",
+      "sha256": "0c22e00bc8c7bd9257ad18811d665e663c49529060a1ebe6bc52e21f6867d888"
+    }
+  ],
+  "originalCompletionHooks": {
+    "script/²ÊÆ±/ØÔ.lua": [
+      "seven"
+    ],
+    "script/³¯¸è/»ÆÌì»¯.lua": [
+      "scout"
+    ],
+    "script/·âÉñÌ¨/°Ø¼ø.lua": [
+      "tree"
+    ],
+    "script/ÅÜÉÌ/»õÉÌºúÎ÷áª.lua": [
+      "trade"
+    ],
+    "script/ÅÜÉÌ/»õÉÌ¼ÖÐùÔ¯¶´3²ã.lua": [
+      "trade"
+    ],
+    "script/ÅÜÉÌ/»õÉÌÀî³ç³Ç.lua": [
+      "trade"
+    ],
+    "script/ÅÜÉÌ/»õÉÌÁõ¶«º£º£¹µ.lua": [
+      "trade"
+    ],
+    "script/ÅÜÉÌ/»õÉÌÍõò¿ÓÈÄ¹.lua": [
+      "trade"
+    ],
+    "script/ÅÜÉÌ/»õÉÌÎâ´ó·ç±ù´¨.lua": [
+      "trade"
+    ],
+    "script/ÅÜÉÌ/»õÉÌÕÅÓñÐé¹¬.lua": [
+      "trade"
+    ],
+    "script/ÅÜÉÌ/»õÉÌÕÔÉ³Ä®·çÌ².lua": [
+      "trade"
+    ],
+    "script/ÅÜÉÌ/»õÉÌÖÜ³¯¸è.lua": [
+      "trade"
+    ],
+    "script/Î÷áª/ÐÁÃâ.lua": [
+      "tools"
+    ],
+    "script/Ñþ³Ø/º¯Ö¥ÏÉ×Ó.lua": [
+      "scout",
+      "tools"
+    ],
+    "script/Ñþ³Ø/Áú¼ª¹«Ö÷.lua": [
+      "soul"
+    ],
+    "script/phongthan/npc_restore/1002_13.lua": [
+      "trade"
+    ],
+    "script/phongthan/npc_restore/1003_08.lua": [
+      "trade"
+    ],
+    "script/phongthan/npc_restore/1004_09.lua": [
+      "trade"
+    ],
+    "script/phongthan/npc_restore/1020_10.lua": [
+      "trade"
+    ],
+    "script/phongthan/npc_restore/1021_12.lua": [
+      "trade"
+    ],
+    "script/phongthan/npc_restore/1021_16.lua": [
+      "scout"
+    ]
+  },
+  "npcAdditions": [
+    {
+      "map": 1001,
+      "tid": 190,
+      "name": "Ân Hồng",
+      "x": 190,
+      "y": 199,
+      "mps": [
+        48752,
+        102128
+      ],
+      "script": "script/phongthan/daily/npc_an_hong.lua",
+      "region": "settings/phongthan/npc_regions/1001/v_099/095_region_s.dat"
+    },
+    {
+      "map": 1001,
+      "tid": 190,
+      "name": "Ân Giao",
+      "x": 184,
+      "y": 193,
+      "mps": [
+        47216,
+        99056
+      ],
+      "script": "script/phongthan/daily/npc_an_giao.lua",
+      "region": "settings/phongthan/npc_regions/1001/v_096/092_region_s.dat"
+    },
+    {
+      "map": 1001,
+      "tid": 194,
+      "name": "Bách Giám",
+      "x": 206,
+      "y": 195,
+      "mps": [
+        52848,
+        100080
+      ],
+      "script": "script/·âÉñÌ¨/°Ø¼ø.lua",
+      "region": "settings/phongthan/npc_regions/1001/v_097/103_region_s.dat"
+    },
+    {
+      "map": 1020,
+      "tid": 190,
+      "name": "Tân Miễn",
+      "x": 190,
+      "y": 190,
+      "mps": [
+        48752,
+        97520
+      ],
+      "script": "script/Î÷áª/ÐÁÃâ.lua",
+      "region": "settings/phongthan/npc_regions/1020/v_095/095_region_s.dat"
+    },
+    {
+      "map": 1044,
+      "tid": 646,
+      "name": "Chủ tửu quán Tây Vực",
+      "x": 236,
+      "y": 192,
+      "mps": [
+        60528,
+        98544
+      ],
+      "script": "script/phongthan/daily/npc_wine_giver.lua",
+      "region": "settings/phongthan/npc_regions/1044/v_096/118_region_s.dat"
+    },
+    {
+      "map": 1046,
+      "tid": 646,
+      "name": "Bích Du Nhân",
+      "x": 237,
+      "y": 187,
+      "mps": [
+        60752,
+        95952
+      ],
+      "script": "script/phongthan/daily/npc_wine_receiver.lua",
+      "region": "settings/phongthan/npc_regions/1046/v_093/118_region_s.dat"
+    }
+  ],
+  "limitations": [
+    "New Siêu Độ, Tứ Linh, Tống Tửu, Thiên Cương gameplay is authored for this runtime, not byte-identical VNG script.",
+    "Nhập Hồn preserves the older installed original equipment infusion variant; modern dungeon variant not implemented.",
+    "Live visual and end-to-end gameplay acceptance has not been performed."
+  ],
+  "maxHope": 30,
+  "requiresNoPet": true,
+  "permanentAdoptionTask": 4363,
+  "repairedTamSonPositions": [
+    {
+      "map": 1016,
+      "tid": 190,
+      "x": 204,
+      "y": 197,
+      "name": "Đặng Cửu Công",
+      "script": "script/phongthan/giapsi/npc_dang.lua",
+      "kind": 3,
+      "level": 1,
+      "relative": "settings/phongthan/npc_regions/1016/v_098/102_npc_s.dat"
+    },
+    {
+      "map": 1016,
+      "tid": 149,
+      "x": 204,
+      "y": 200,
+      "name": "Đại Phu",
+      "script": "script/phongthan/giapsi/npc_doctor_tam.lua",
+      "kind": 3,
+      "level": 1,
+      "relative": "settings/phongthan/npc_regions/1016/v_100/102_region_s.dat"
+    },
+    {
+      "map": 1016,
+      "tid": 399,
+      "x": 196,
+      "y": 203,
+      "name": "Nguyên Sâm",
+      "script": "script/phongthan/giapsi/herb_0.lua",
+      "kind": 3,
+      "level": 1,
+      "relative": "settings/phongthan/npc_regions/1016/v_101/098_npc_s.dat"
+    },
+    {
+      "map": 1016,
+      "tid": 399,
+      "x": 197,
+      "y": 203,
+      "name": "Nguyên Sâm",
+      "script": "script/phongthan/giapsi/herb_1.lua",
+      "kind": 3,
+      "level": 1,
+      "relative": "settings/phongthan/npc_regions/1016/v_101/098_npc_s.dat"
+    },
+    {
+      "map": 1016,
+      "tid": 399,
+      "x": 198,
+      "y": 203,
+      "name": "Nguyên Sâm",
+      "script": "script/phongthan/giapsi/herb_2.lua",
+      "kind": 3,
+      "level": 1,
+      "relative": "settings/phongthan/npc_regions/1016/v_101/099_region_s.dat"
+    },
+    {
+      "map": 1016,
+      "tid": 399,
+      "x": 199,
+      "y": 203,
+      "name": "Nguyên Sâm",
+      "script": "script/phongthan/giapsi/herb_3.lua",
+      "kind": 3,
+      "level": 1,
+      "relative": "settings/phongthan/npc_regions/1016/v_101/099_region_s.dat"
+    },
+    {
+      "map": 1016,
+      "tid": 399,
+      "x": 200,
+      "y": 203,
+      "name": "Nguyên Sâm",
+      "script": "script/phongthan/giapsi/herb_4.lua",
+      "kind": 3,
+      "level": 1,
+      "relative": "settings/phongthan/npc_regions/1016/v_101/100_npc_s.dat"
+    },
+    {
+      "map": 1016,
+      "tid": 399,
+      "x": 201,
+      "y": 203,
+      "name": "Nguyên Sâm",
+      "script": "script/phongthan/giapsi/herb_5.lua",
+      "kind": 3,
+      "level": 1,
+      "relative": "settings/phongthan/npc_regions/1016/v_101/100_npc_s.dat"
+    },
+    {
+      "map": 1016,
+      "tid": 399,
+      "x": 202,
+      "y": 203,
+      "name": "Nguyên Sâm",
+      "script": "script/phongthan/giapsi/herb_6.lua",
+      "kind": 3,
+      "level": 1,
+      "relative": "settings/phongthan/npc_regions/1016/v_101/101_region_s.dat"
+    },
+    {
+      "map": 1016,
+      "tid": 399,
+      "x": 203,
+      "y": 203,
+      "name": "Nguyên Sâm",
+      "script": "script/phongthan/giapsi/herb_7.lua",
+      "kind": 3,
+      "level": 1,
+      "relative": "settings/phongthan/npc_regions/1016/v_101/101_region_s.dat"
+    },
+    {
+      "map": 1016,
+      "tid": 399,
+      "x": 204,
+      "y": 203,
+      "name": "Nguyên Sâm",
+      "script": "script/phongthan/giapsi/herb_8.lua",
+      "kind": 3,
+      "level": 1,
+      "relative": "settings/phongthan/npc_regions/1016/v_101/102_region_s.dat"
+    },
+    {
+      "map": 1016,
+      "tid": 399,
+      "x": 205,
+      "y": 203,
+      "name": "Nguyên Sâm",
+      "script": "script/phongthan/giapsi/herb_9.lua",
+      "kind": 3,
+      "level": 1,
+      "relative": "settings/phongthan/npc_regions/1016/v_101/102_region_s.dat"
+    }
+  ]
+}

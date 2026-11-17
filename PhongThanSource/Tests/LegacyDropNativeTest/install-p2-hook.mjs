@@ -1,0 +1,15 @@
+import fs from 'node:fs';import path from 'node:path';
+const root=path.resolve(import.meta.dirname,'../../..');
+const policy=path.join(root,'PhongThanSource/Sources/Core/Src/BlueMagicTestPolicy.h');let s=fs.readFileSync(policy,'latin1');
+s=s.replace('bool Prepare(const BlueMagicTableLoader& table,const BlueLimits& limits,const Config& c,int npc,int detail,int tier,int element,std::string& error){','bool Prepare(const BlueMagicTableLoader& table,const BlueLimits& limits,const Config& c,int npc,int detail,int tier,int element,std::string& error){return PrepareBound(table,limits,c,npc,detail,tier,element,false,error);}\n    // World caller must establish isolated companion-v1/P1 deployment readiness.\n    bool PrepareWorld(const BlueMagicTableLoader& table,const BlueLimits& limits,const Config& c,int npc,int detail,int tier,int element,std::string& error){return PrepareBound(table,limits,c,npc,detail,tier,element,true,error);}\nprivate:\n    bool PrepareBound(const BlueMagicTableLoader& table,const BlueLimits& limits,const Config& c,int npc,int detail,int tier,int element,bool world,std::string& error){');
+s=s.replace('if(c.mode==Config::LIVE_TEST){','if(c.mode==Config::LIVE_TEST&&!world){');
+s=s.replace('if(npc!=18||c.npc!=18){','if(c.npc!=npc||(!world&&npc!=18)||(world&&npc!=0&&npc!=7&&npc!=11&&npc!=15&&npc!=18)){');
+s=s.replace('    bool Draw(LegacyDrop::Random& rng,','public:\n    bool Draw(LegacyDrop::Random& rng,');fs.writeFileSync(policy,Buffer.from(s,'latin1'));
+const file=path.join(root,'PhongThanSource/Sources/Core/Src/LegacyDropRuntime.cpp');s=fs.readFileSync(file,'latin1');
+s=s.replace('#include <malloc.h>','#include <malloc.h>\n#include "P2BlueDropRuntime.h"');
+s=s.replace('return a>=b&&!_stricmp(exe+a-b,suffix)&&!_stricmp(exe,cwd)&&GetFileAttributesA("loose_only.flag")!=INVALID_FILE_ATTRIBUTES;','return (a>=b&&!_stricmp(exe+a-b,suffix)&&!_stricmp(exe,cwd)&&GetFileAttributesA("loose_only.flag")!=INVALID_FILE_ATTRIBUTES)||P2BlueScope();');
+const anchor='        Fields f;f["slot"]=Number(intent.slot);f["section"]=Number(intent.row);f["genre"]=Number(genre);';
+if(s.split(anchor).length!==2)throw Error('Unique item commit anchor missing');
+s=s.replace(anchor,'        if(made)P2BlueDecorate(Item[item.item],snap.templateId,seed,intent.slot,intent.row,death,logger);\n'+anchor);
+s=s.replace('    LocalConfig ini;if(!LoadConfig(ini)||Read(ini,"Main","SelfTestEnabled")','    P2BlueStatus(logger);\n    if(P2BlueScope())return; // P2: player kills only; never run automated spawn/death.\n    LocalConfig ini;if(!LoadConfig(ini)||Read(ini,"Main","SelfTestEnabled")');
+fs.writeFileSync(file,Buffer.from(s,'latin1'));

@@ -1,0 +1,32 @@
+﻿{
+    "Scope":  "LOOSE_ONLY",
+    "Backup":  "E:\\ProjectAI\\PhongThan\\PT\\analysis\\other_activation_fix_20261101\\runtime-before-20261101_230141",
+    "Result":  "PASS",
+    "Files":  [
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\OtherActivationFix20261101\\compiled\\Client\\CoreClient.dll",
+                      "Path":  "Client/CoreClient.dll",
+                      "Done":  false,
+                      "After":  "6EA75010D288B4F95EF0B5746E7C0CFA02C2D862499321205217D635ABEDE38C",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Client\\CoreClient.dll",
+                      "Before":  "942196EC4492D1DD746793BB6C999407B1CA2DBEE9CD4949321D014A0AF83986"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\OtherActivationFix20261101\\compiled\\Server\\CoreServer.dll",
+                      "Path":  "Server/CoreServer.dll",
+                      "Done":  false,
+                      "After":  "4585E4AB8E06E649974CADA5146FAA7460F47E9CDF4235D83D7BF54CFC99E9D5",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\CoreServer.dll",
+                      "Before":  "19FA766F4270E5A3DD31C6CC69AB797D9F46369DDD433DD3E6BB8F38F6A925A1"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\OtherActivationFix20261101\\compiled\\Client\\Game.exe",
+                      "Path":  "Client/Game.exe",
+                      "Done":  false,
+                      "After":  "44C84993FD8FAA8D5F2DCC48ADA3FAC9020607534E7B9439AAC39F922915F5DF",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Client\\Game.exe",
+                      "Before":  "DD58E8DCB563384EFEF8EB503CA8E178D94711E983048B10028A3EDD88C93AEE"
+                  }
+              ],
+    "PublishedAtUtc":  "2026-11-01T16:01:43.1580742Z"
+}

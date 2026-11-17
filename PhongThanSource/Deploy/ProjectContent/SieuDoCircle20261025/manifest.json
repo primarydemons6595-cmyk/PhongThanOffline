@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "feature": "SieuDoCircle",
+  "files": [
+    {
+      "role": "Server",
+      "relative": "script/phongthan/daily/runtime.lua",
+      "before": "2f8deabcc32a01cded3052e2b1d0491da97e019082e5a3b342f2f8fcd11abcc2",
+      "sha256": "e744609dac233d9df8d818c2483953f73ff37f39d473da51fe39a8d6864eaadf"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/daily/banner.lua",
+      "before": "a6abf0581b35552b54ac56a47858052295480022e1b8cf11473efbdc41290ecb",
+      "sha256": "e070aaec5a8679ddc9b3cdd850ed9660b33a19a4cc709f72398c6c1fe7088032"
+    },
+    {
+      "role": "Server",
+      "relative": "CoreServer.dll",
+      "before": "7d0255c24a3df4898ece9f354f6478d625f22ffad9887542d25b1a10709dc6b3",
+      "sha256": "e4a3aca1abb61f3124e621dff138a4140ea3924ce0d9c85254e3d2986f3787cf"
+    }
+  ],
+  "npcTemplates": [
+    551,
+    552,
+    553,
+    554
+  ],
+  "seconds": 200,
+  "radiusMps": 400,
+  "tests": {
+    "native": 52,
+    "luaChecks": 88
+  },
+  "clientBinaryChanged": false,
+  "clientVisualAcceptance": false
+}

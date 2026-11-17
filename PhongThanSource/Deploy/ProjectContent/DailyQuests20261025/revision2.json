@@ -1,0 +1,168 @@
+{
+  "schema": 1,
+  "quests": 10,
+  "hopeCounter": 418,
+  "scoutSuccessfulRounds": 10,
+  "files": [
+    {
+      "role": "Server",
+      "relative": "script/phongthan/daily/tong_tuu.lua",
+      "before": "cbb11fbe7f4b77b4b1402944c6b49862218dd5c43d74a62244809a2ce946b122",
+      "sha256": "a02fa44fe75ec601329f6462e3044a16b48e700141195f2628e595698b9ec671"
+    }
+  ],
+  "originalCompletionHooks": {
+    "script/²ÊÆ±/ØÔ.lua": [
+      "seven"
+    ],
+    "script/³¯¸è/»ÆÌì»¯.lua": [
+      "scout"
+    ],
+    "script/·âÉñÌ¨/°Ø¼ø.lua": [
+      "tree"
+    ],
+    "script/ÅÜÉÌ/»õÉÌºúÎ÷áª.lua": [
+      "trade"
+    ],
+    "script/ÅÜÉÌ/»õÉÌ¼ÖÐùÔ¯¶´3²ã.lua": [
+      "trade"
+    ],
+    "script/ÅÜÉÌ/»õÉÌÀî³ç³Ç.lua": [
+      "trade"
+    ],
+    "script/ÅÜÉÌ/»õÉÌÁõ¶«º£º£¹µ.lua": [
+      "trade"
+    ],
+    "script/ÅÜÉÌ/»õÉÌÍõò¿ÓÈÄ¹.lua": [
+      "trade"
+    ],
+    "script/ÅÜÉÌ/»õÉÌÎâ´ó·ç±ù´¨.lua": [
+      "trade"
+    ],
+    "script/ÅÜÉÌ/»õÉÌÕÅÓñÐé¹¬.lua": [
+      "trade"
+    ],
+    "script/ÅÜÉÌ/»õÉÌÕÔÉ³Ä®·çÌ².lua": [
+      "trade"
+    ],
+    "script/ÅÜÉÌ/»õÉÌÖÜ³¯¸è.lua": [
+      "trade"
+    ],
+    "script/Î÷áª/ÐÁÃâ.lua": [
+      "tools"
+    ],
+    "script/Ñþ³Ø/º¯Ö¥ÏÉ×Ó.lua": [
+      "scout",
+      "tools"
+    ],
+    "script/Ñþ³Ø/Áú¼ª¹«Ö÷.lua": [
+      "soul"
+    ],
+    "script/phongthan/npc_restore/1002_13.lua": [
+      "trade"
+    ],
+    "script/phongthan/npc_restore/1003_08.lua": [
+      "trade"
+    ],
+    "script/phongthan/npc_restore/1004_09.lua": [
+      "trade"
+    ],
+    "script/phongthan/npc_restore/1020_10.lua": [
+      "trade"
+    ],
+    "script/phongthan/npc_restore/1021_12.lua": [
+      "trade"
+    ],
+    "script/phongthan/npc_restore/1021_16.lua": [
+      "scout"
+    ]
+  },
+  "npcAdditions": [
+    {
+      "map": 1001,
+      "tid": 190,
+      "name": "Ân Hồng",
+      "x": 190,
+      "y": 199,
+      "mps": [
+        48752,
+        102128
+      ],
+      "script": "script/phongthan/daily/npc_an_hong.lua",
+      "region": "settings/phongthan/npc_regions/1001/v_099/095_region_s.dat"
+    },
+    {
+      "map": 1001,
+      "tid": 190,
+      "name": "Ân Giao",
+      "x": 184,
+      "y": 193,
+      "mps": [
+        47216,
+        99056
+      ],
+      "script": "script/phongthan/daily/npc_an_giao.lua",
+      "region": "settings/phongthan/npc_regions/1001/v_096/092_region_s.dat"
+    },
+    {
+      "map": 1001,
+      "tid": 194,
+      "name": "Bách Giám",
+      "x": 206,
+      "y": 195,
+      "mps": [
+        52848,
+        100080
+      ],
+      "script": "script/·âÉñÌ¨/°Ø¼ø.lua",
+      "region": "settings/phongthan/npc_regions/1001/v_097/103_region_s.dat"
+    },
+    {
+      "map": 1020,
+      "tid": 190,
+      "name": "Tân Miễn",
+      "x": 190,
+      "y": 190,
+      "mps": [
+        48752,
+        97520
+      ],
+      "script": "script/Î÷áª/ÐÁÃâ.lua",
+      "region": "settings/phongthan/npc_regions/1020/v_095/095_region_s.dat"
+    },
+    {
+      "map": 1044,
+      "tid": 646,
+      "name": "Chủ tửu quán Tây Vực",
+      "x": 236,
+      "y": 192,
+      "mps": [
+        60528,
+        98544
+      ],
+      "script": "script/phongthan/daily/npc_wine_giver.lua",
+      "region": "settings/phongthan/npc_regions/1044/v_096/118_region_s.dat"
+    },
+    {
+      "map": 1046,
+      "tid": 646,
+      "name": "Bích Du Nhân",
+      "x": 237,
+      "y": 187,
+      "mps": [
+        60752,
+        95952
+      ],
+      "script": "script/phongthan/daily/npc_wine_receiver.lua",
+      "region": "settings/phongthan/npc_regions/1046/v_093/118_region_s.dat"
+    }
+  ],
+  "limitations": [
+    "New Siêu Độ, Tứ Linh, Tống Tửu, Thiên Cương gameplay is authored for this runtime, not byte-identical VNG script.",
+    "Nhập Hồn preserves the older installed original equipment infusion variant; modern dungeon variant not implemented.",
+    "Live visual and end-to-end gameplay acceptance has not been performed."
+  ],
+  "maxHope": 30,
+  "requiresNoPet": true,
+  "permanentAdoptionTask": 4363
+}

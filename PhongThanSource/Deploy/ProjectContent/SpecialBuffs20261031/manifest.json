@@ -1,0 +1,82 @@
+{
+  "scope": "LOOSE_ONLY",
+  "files": [
+    {
+      "path": "Server/script/phongthan/test/event_handbook.lua",
+      "sha256": "cfa198e22561f36150ce2769c51c6bbf5373395837f207711125c5545f9f7773",
+      "before_sha256": "b2287860bd10fff4f81275ad5c7b107ef1baf7078cef66ee9510da3b750977ed"
+    },
+    {
+      "path": "Server/script/vnevent/items/thanh_long_lenh.lua",
+      "sha256": "9b062975b6ba0ba874b8e550690c480480e064457bdb5d3948936243f010ceaf",
+      "before_sha256": null
+    }
+  ],
+  "hope_entry": 16226,
+  "buffs": [
+    {
+      "id": 7446,
+      "seconds": 86400,
+      "attrs": [
+        [
+          146,
+          10
+        ],
+        [
+          126,
+          15
+        ],
+        [
+          115,
+          15
+        ],
+        [
+          114,
+          10
+        ],
+        [
+          233,
+          15
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "source_row_sha256": "3706f416049f9e7f3a5165189807920710246eb95c6089e3b14afb163db3265b"
+    },
+    {
+      "id": 7447,
+      "seconds": 86400,
+      "attrs": [
+        [
+          198,
+          10
+        ],
+        [
+          162,
+          15
+        ],
+        [
+          116,
+          15
+        ],
+        [
+          114,
+          10
+        ],
+        [
+          233,
+          15
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "source_row_sha256": "2f8119d579ce5eea34a8b6ddedd4f8173186819d4f0a5b48c77d21e70b34270d"
+    }
+  ],
+  "source_sha256": "277ed1b0da510b5b3efd3ef0478bbdb2f735c94d213a62ff0568c154f10c98e5",
+  "policy": "original VN item rows; missing use callback reconstructed; no Release changes"
+}

@@ -1,0 +1,42 @@
+﻿{
+    "Scope":  "LOOSE_ONLY",
+    "Backup":  "E:\\ProjectAI\\PhongThan\\PT\\analysis\\pet_pearl_compass_20261101\\runtime-before-20261101_025624.zip",
+    "Result":  "PASS",
+    "Files":  [
+                  {
+                      "Path":  "Server/settings/item/001/material.txt",
+                      "Before":  "7bd50a47306cb3c47285ba8522f128ee63aaea487a73c6cdb865c054368bd8ba",
+                      "After":  "066509cd7833ffed245a682874151ea66a462c8d766cbed96e5d411a199c58fd"
+                  },
+                  {
+                      "Path":  "Client/settings/item/001/material.txt",
+                      "Before":  "7bd50a47306cb3c47285ba8522f128ee63aaea487a73c6cdb865c054368bd8ba",
+                      "After":  "066509cd7833ffed245a682874151ea66a462c8d766cbed96e5d411a199c58fd"
+                  },
+                  {
+                      "Path":  "Client/ui/ui3/UiPetSale.ini",
+                      "Before":  "cbbf13d3a2e8ea679835580b1037f72756dc9eacc4d705523b27a5e0a477e99f",
+                      "After":  "df1d8b591667673d5c1f2ff66f2ebed9ac60a8cdaecbd4f97059d5f54aa5cb84"
+                  },
+                  {
+                      "Path":  "Server/CoreServer.dll",
+                      "Before":  "2dcecf3c256cfec86b3047a0a6e4314d75d71ac51f9a7e9096d2c5af397ed175",
+                      "After":  "6ef49dbe345333ddf3e0c69cd1d3c10d3920d66976f036f395b89e848c5c80f8"
+                  },
+                  {
+                      "Path":  "Client/CoreClient.dll",
+                      "Before":  "53337a4eaaa3662b89eee0fae6469aac1ef42f0c4aaa3ef5dbc83322753ad23c",
+                      "After":  "faddb6b7874f53139d7ae33ec6fcf77690c645f81a741e1725b1a1d1713d29c9"
+                  },
+                  {
+                      "Path":  "Client/Game.exe",
+                      "Before":  "7b8522acdbd1324c96def9db5697ad0266fa11c7af9bff4364e90ab15382250e",
+                      "After":  "a479169639adc01746298751b7e1326624dd5f075f61381f7da228cc0b1e6645"
+                  },
+                  {
+                      "Path":  "Server/GameServer.exe",
+                      "Before":  "6e9f27d08818d5cb4dcd3bc5b0820878f3bed6981e67c87abf1f875f0a420452",
+                      "After":  "3e805b9f04ed7c3df87f1fa2f81dad7df64adcf3df134f6f96703e8406c14e11"
+                  }
+              ]
+}

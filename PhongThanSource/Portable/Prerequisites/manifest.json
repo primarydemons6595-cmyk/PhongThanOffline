@@ -1,0 +1,38 @@
+[
+  {
+    "file": "SqlLocalDB.msi",
+    "url": "https://download.microsoft.com/download/3/8/d/38de7036-2433-4207-8eae-06e247e17b25/SqlLocalDB.msi",
+    "bytes": 63508480,
+    "sha256": "224d483992ef60368dac70cea174dcfaf43a3ca06ada331c67dc6119a26490f6"
+  },
+  {
+    "file": "windowsdesktop-runtime-10.0.14-win-x64.exe",
+    "url": "https://download.microsoft.com/download/9b53b153-e93a-4c89-8049-c7381505cf80/8de343c4-257a-40b1-9af3-3d7782328bc5/windowsdesktop-runtime-10.0.14-win-x64.exe",
+    "bytes": 60035296,
+    "sha256": "91c2795a7b1e2480caa83fce9514dc2e2d21e277d9a297311faba6040bad7330"
+  },
+  {
+    "file": "vc_redist.x64.exe",
+    "url": "https://aka.ms/vs/17/release/vc_redist.x64.exe",
+    "bytes": 25635768,
+    "sha256": "cc0ff0eb1dc3f5188ae6300faef32bf5beeba4bdd6e8e445a9184072096b713b"
+  },
+  {
+    "file": "vc_redist.x86.exe",
+    "url": "https://aka.ms/vs/17/release/vc_redist.x86.exe",
+    "bytes": 13953392,
+    "sha256": "0c09f2611660441084ce0df425c51c11e147e6447963c3690f97e0b25c55ed64"
+  },
+  {
+    "file": "dotnet-sdk-10.0.403-win-x64.exe",
+    "url": "https://download.microsoft.com/download/4a85064e-5a0f-43c9-85ea-a5a9d78047c5/7a651622-ad57-4db0-8c1e-12771c93f513/dotnet-sdk-10.0.403-win-x64.exe",
+    "bytes": 215399928,
+    "sha256": "c71a1710bf3b931318e24a58c8414c1b4cc5d4fcac4510c07965c64083846332"
+  },
+  {
+    "file": "windowsdesktop-runtime-8.0.33-win-x64.exe",
+    "url": "https://download.microsoft.com/download/9d8b4560-78de-40b0-91f9-d0a48dda818b/2317f3da-b666-45ac-baa4-72da1586d33c/windowsdesktop-runtime-8.0.33-win-x64.exe",
+    "bytes": 58398672,
+    "sha256": "4de14de0b327e801d7a691cb1afc8a00db5313a698ef53b979fc6f84fce631de"
+  }
+]

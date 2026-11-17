@@ -1,0 +1,71 @@
+PT_NEWS_BOSS_TITLE="\066\111\115\115\032\072\111\181\110\103\032\075\105\109\032\045\032"
+-- Project server heartbeat: original tips + warnings from the active schedule.
+-- UTC+7 is explicit. Dedupe each real UTC minute; do not replay missed warnings.
+PT_NEWS_LAST_MINUTE=-1
+PT_NEWS_BOSSES={{1,"H\231n \167\233n",102,26},{16,"C\239ng K\250",103,41},{31,"Thao Thi\213t",104,31},{46,"\167\224o Ng\233t",105,36},{59,"C\246u Anh",101,16},{119,"C\246u Anh",101,16},{179,"C\246u Anh",101,16},{239,"C\246u Anh",101,16},{299,"C\246u Anh",101,16},{359,"C\246u Anh",101,16},{419,"C\246u Anh",101,16},{479,"C\246u Anh",101,16},{539,"C\246u Anh",101,16},{599,"C\246u Anh",101,16},{659,"C\246u Anh",101,16},{719,"C\246u Anh",101,16},{721,"H\231n \167\233n",102,26},{736,"C\239ng K\250",103,41},{751,"Thao Thi\213t",104,31},{766,"\167\224o Ng\233t",105,36},{779,"C\246u Anh",101,16},{839,"C\246u Anh",101,16},{899,"C\246u Anh",101,16},{959,"C\246u Anh",101,16},{1019,"C\246u Anh",101,16},{1079,"C\246u Anh",101,16},{1082,"B\224n C\230",106,51},{1112,"\167\185i B\187ng",107,46},{1125,"D\173\172ng Ti\212n",108,65},{1139,"C\246u Anh",101,16},{1170,"Giao Long",109,55},{1190,"Ly Long",110,56},{1198,"C\246u Anh",101,16},{1199,"B\202t Ngh\220a H\199u",112,62},{1230,"C\199u Long",111,54},{1259,"C\246u Anh",101,16},{1319,"C\246u Anh",101,16},{1379,"C\246u Anh",101,16},{1439,"C\246u Anh",101,16}}
+PT_NEWS_VTT={}
+PT_NEWS_TIPS={"[Gîi ı] NhÊn phİm \"<color=green>TAB<color>\" ®Ó thay ®æi kİch th­íc b¶n ®å.","Chóng t«i sÏ kh«ng lÊy bÊt cø lı do g× hái th«ng tin vÒ tµi kho¶n vµ mËt m· cña b¹n. Xin cÈn thËn b¶o vÖ m×nh!","[Gîi ı] H·y ®¨ng nhËp vµo <color=green>www.phongthan.zing.vn<color> t×m hiÓu th«ng tin game.","[Gîi ı] NhÊn \"<color=green>F2<color>\" vµo <color=yellow>Kú Tr©n C¸c<color>.","[Gîi ı] NhÊn \"<color=green>Spacebar<color>\" ®æi tr¹ng th¸i tù ®éng ch¹y.","[Gîi ı] NhÊn \"<color=green>Ctrl + chuét tr¸i<color>\" ®ång thêi nhÊp chän vµo ng­êi ch¬i kh¸c ®Ó chat mËt.","[Gîi ı] NhÊn \"<color=green>Ctrl + chuét ph¶i<color>\" ®ång thêi nhÊp chän vµo ng­êi ch¬i kh¸c sÏ xuÊt hiÖn menu giao l­u.","[Gîi ı] NhÊn \"<color=green>F1<color>\" më giao diÖn gióp ®ì t×m hiÓu th«ng tin liªn quan.","[Gîi ı] NhÊn phİm \"<color=green>P<color>\" hoÆc \"<color=green>PrintScreen<color>\" ®Ó l­u l¹i h×nh ¶nh.","[Gîi ı] NhÊp chuét vµo biÓu t­îng kü n¨ng phİa d­íi, sau ®ã thiÕt lËp c¸c phİm t¾t \"<color=green>Q<color>\", \"<color=green>W<color>\", \"<color=green>E<color>\", \"<color=green>A<color>\", \"<color=green>S<color>\", \"<color=green>D<color>\", \"<color=green>Z<color>\", \"<color=green>X<color>\", \"<color=green>C<color>\" ®Ó chuyÓn ®æi nhanh gi÷a c¸c chiªu thøc.","[Gîi ı] NhÊn phİm \"<color=green>V<color>\" ®Ó täa thiÒn håi sinh lùc vµ néi lùc","[Gîi ı] NhÊn \"<color=green>Shift + chuét tr¸i<color>\" ®Ó t¸ch vËt phÈm.","[Gîi ı] NhÊn nót \"<color=green>Giao dŞch<color>\" ë gãc ph¶i thanh c«ng cô, chän ®èi t­îng cÇn giao dŞch vµ tiÕn hµnh giao dŞch.","[Gîi ı] B¶o vËt \"<color=red>Linh Lung Táa<color>\", c¨n cø vµo IP ®¨ng nhËp ®Ó më hoÆc hñy khãa b¶o vÖ vËt phÈm! Chi tiÕt \"<color=red>Linh Lung Táa<color>\" h·y ®Õn chç \"<color=green>Du §¹o<color>\" t×m hiÓu.","[Gîi ı] NhÊn \"<color=green>Alt + Enter<color>\" ®Ó thay ®æi giao diÖn d¹ng cöa sæ hoÆc toµn mµn h×nh.","[Gîi ı] §Õn \"<color=green>Thñ khè<color>\" nhËn nhiÖm vô: \"<color=yellow>Thu thËp<color>\".","[Gîi ı] §¹t cÊp \"<color=green>31<color>\", ®Õn \"<color=green>Thñ khè<color>\" ë TriÒu Ca hoÆc T©y Kú nhËn nhiÖm vô: \"<color=yellow>Tø T­îng<color>\".","[Gîi ı] §¹t cÊp \"<color=green>49<color>\", ®Õn \"<color=green>Long C¸t<color>\" ë Diªu Tr× nhËn nhiÖm vô: \"<color=yellow>NhËp hån<color>\".","[Gîi ı] §¹t cÊp \"<color=green>30<color>\", ®Õn chç <color=green>Hoµng Thiªn Hãa<color>\" ë TriÒu Ca nhËn nhiÖm vô: \"<color=yellow>Th¸m qu©n<color>\".","[Gîi ı] §¹t cÊp <color=green>50<color>, ®Õn <color=green>T©n MiÔn<color> ë T©y Kú nhËn nhiÖm vô: <color=yellow>§¹o cô<color>.","[Gîi ı] §¹t cÊp <color=green>20<color>, ®Õn <color=green>Nhµ Chiªm Tinh<color> ë TriÒu Ca hoÆc T©y Kú xoay <color=yellow>Cµn Kh«n Lu©n<color>.","[Gîi ı] §¹t cÊp <color=green>35<color>, ®Õn <color=green>NhŞ Lang ThÇn<color> ë Diªu Tr× nhËn nhiÖm vô: <color=yellow>Thiªn Thô<color>.","[Gîi ı] §¹t cÊp <color=green>30<color>, ®Õn <color=green>Thiªn Hïng<color> ë TriÒu Ca nhËn nhiÖm vô: <color=yellow>Ph¸ V¹n Tiªn trËn<color>, khiªu chiÕn Th«ng Thiªn gi¸o chñ.","[Gîi ı] §¹t cÊp <color=green>30<color>, ®Õn <color=green>Sïng Thµnh Doanh<color> vµo <color=yellow>V¹n Tiªn (Thæ)<color>, khiªu chiÕn Th«ng Thiªn gi¸o chñ.","[Gîi ı] §¹t cÊp <color=green>51<color>, ®Õn <color=green>Xi V­u Mé<color> vµo <color=yellow>V¹n Tiªn (Thñy)<color>, khiªu chiÕn Th«ng Thiªn gi¸o chñ.","[Gîi ı] §¹t cÊp <color=green>71<color>, ®Õn <color=green>Ngäc H­ Cung<color> vµo <color=yellow>V¹n Tiªn (Háa)<color>, khiªu chiÕn Th«ng Thiªn gi¸o chñ.","[Gîi ı] §¹t cÊp <color=green>91<color>, ®Õn <color=green>Phong ThÇn §µi<color> vµo <color=yellow>V¹n Tiªn (Phong)<color>, khiªu chiÕn Th«ng Thiªn gi¸o chñ.","[Gîi ı] §¹t cÊp <color=green>50<color>, ®Õn <color=green>Phong ThÇn §µi<color> vµo <color=yellow>ChiÕn tr­êng<color> lËp chiÕn c«ng.","[Gîi ı] <color=green>Hoµng Minh<color> ë TriÒu Ca cã thÓ gióp b¹n biÕn thó c­ìi thµnh B¸ L¹c Nh·n.","[Gîi ı] <color=green>Xİch Tïng Tö<color> ë Diªu Tr× cã thÓ gióp b¹n c­êng hãa c¸c lo¹i binh khİ.","[Gîi ı] Ng­êi ch¬i n÷ ®¹t cÊp <color=green>20<color> vµ ng­êi ch¬i nam ®¹t cÊp <color=green>22<color> cã thÓ ®¨ng kı kÕt h«n t¹i <color=green>T©y V­¬ng MÉu<color> ë Diªu Tr×.","[Gîi ı] §¹t cÊp <color=green>25<color>, ®Õn <color=green>T¹p th­¬ng<color> thuª L¹c §µ råi nhËn nhiÖm vô: <color=yellow>VËn chuyÓn<color>.","[Gîi ı] §¹t cÊp <color=green>21<color>, ®Õn <color=green>Na Tra<color> ë T©y Kú ®Ó n©ng søc lùc.","[Gîi ı] <color=green>Nhµ kh¶o cæ<color> ë T©y Kú gióp b¹n ®æi vËt phÈm bŞ mÊt.","[Gîi ı] NÕu d­íi cÊp <color=green>50<color>, b¸i s­ víi ng­êi cÊp cao h¬n, tæ ®éi ®Õn <color=green>Vâ s­<color> nhËn <color=yellow>NhiÖm vô s­ ®å <color>, hoµn thµnh sÏ nhËn ®­îc phÇn th­ëng kinh nghiÖm vµ trang bŞ cao cÊp.","[Gîi ı] §¹t ®Õn cÊp <color=green>51<color>, cã thÓ nhËn ng­êi ch¬i cÊp thÊp lµm ®å ®Ö, tæ ®éi ®Õn <color=green>Vâ s­ t©n thñ th«n<color> nhËn <color=yellow>NhiÖm vô s­ ®å<color>, <color=red>®iÓm s­ ®å<color> nhËn ®­îc cã thÓ ®æi Ph¸p B¶o cao cÊp vµ n©ng søc lùc cña b¹n.","[Gîi ı] Ng­êi ch¬i ®¹t cÊp <color=green>20<color> cã thÓ nhËn nhiÖm vô <color=yellow>§¸nh thuª<color> ë Tr¹i lİnh ®¸nh thuª, mçi ngµy nhËn ®­îc phÇn th­ëng ®iÓm kinh nghiÖm cao vµ n©ng cao n¨ng lùc kiÕn t¹o l·nh ®Şa.","[Gîi ı] Ng­êi ch¬i ®¹t cÊp <color=green>30<color> cã thÓ nhËn <color=yellow>NhiÖm vô t×m hoa<color> ë §iÖn Phong ThÇn, mçi ngµy nhËn ®­îc phÇn th­ëng ®iÓm kinh nghiÖm cao vµ lÊy ®­îc h­¬ng liÖu cho l·nh ®Şa.","[Gîi ı] Ng­êi ch¬i ®¹t cÊp <color=green>40<color> cã thÓ nhËn <color=yellow>NhiÖm vô luyÖn ®¬n<color>, mçi ngµy nhËn ®­îc phÇn th­ëng ®iÓm kinh nghiÖm cao vµ lÊy ®­îc gç cho l·nh ®Şa.","[Gîi ı] Ng­êi ch¬i ®¹t cÊp <color=green>43<color>, ®Õn <color=green>Con b¹c ë TriÒu Ca <color> nhËn nhiÖm vô: <color=yellow>Minh Ch©u<color>, nhËn ®­îc phÇn th­ëng Lam B¶o Th¹ch.","[Gîi ı] Ng­êi ch¬i ®¹t cÊp <color=green>57<color>, ®Õn <color=green>TiÓu B¶o ë T©y Kú<color> nhËn nhiÖm vô: <color=yellow>Vi Lao<color>, nhËn ®­îc phÇn th­ëng Hång B¶o Th¹ch.","[Gîi ı] Ng­êi ch¬i ®¹t cÊp <color=green>19<color>, ®Õn <color=green>Ng­êi T©y Vùc ë T©y Kú<color> nhËn nhiÖm vô: <color=yellow>Trïng Méc<color>, dïng B¸ L¹c Nh·n vµ LiÔu méc ®Ó c­êng hãa thó c­ìi.","[Gîi ı] Ng­êi ch¬i ®¹t cÊp <color=green>39<color>, ®Õn <color=green>Ng­êi T©y Vùc ë T©y Kú<color> nhËn nhiÖm vô: <color=yellow>Phi Tiªn<color>, dïng B¸ L¹c Nh·n c­êng hãa thó c­ìi.","[Gîi ı] Ng­êi ch¬i ®¹t cÊp <color=green>70<color>, ®Õn<color=green>Na Tra<color> ë T©y Kú dïng <color=red>®iÓm s­ ®å<color> ®æi ®iÓm søc lùc cao h¬n.","[Gîi ı] Ng­êi ch¬i ®¹t cÊp <color=green>15<color>, ®Õn <color=green>Lı TŞnh<color> ë Phong ThÇn §µi gãp m¶nh S¸ch ch­ hÇu, nhËn ®­îc nhiÒu kinh nghiÖm mçi ngµy.","[Gîi ı] T×m <color=green>Phï Ên S­<color> thi triÓn <color=yellow>Di Hån §¹i Ph¸p<color> nh©n vËt cña b¹n sÏ chuyÓn vµo tµi kho¶n kh¸c, nh©n vËt sÏ an toµn h¬n!","[Gîi ı] <color=green>Du §¹o<color> cã <color=yellow>B¶o hiÓm nh©n vËt<color> sÏ b¶o vÖ nh©n vËt b¹n ®¨ng nhËp! B¹n chØ cÇn chän 1 hay nhiÒu môc trong <color=green>kiÓm chøng IP<color>, <color=green>kiÓm chøng m¸y tİnh<color> vµ <color=green>kiÓm chøng mËt m·<color>, nh©n vËt cña b¹n sÏ ®­îc b¶o vÖ toµn diÖn h¬n!","[Gîi ı] <color=green>Du §¹o<color> cã <color=yellow>B¶o hiÓm vËt phÈm<color> b¹n sÏ kh«ng cÇn lo l¾ng sù an toµn cña vËt phÈm!","[Gîi ı] <color=green>Du §¹o<color> sÏ <color=yellow>khãa<color> Ph¸p B¶o hîp thµnh, thó c­ìi vµ nh©n vËt cña b¹n l¹i.","[Gîi ı] <color=red>§iÓm nh©n nghÜa<color> cã thÓ miÔn n¹p tiÒn mét sè nhiÖm vô. T×m <color=green>H­íng dÉn t©n thñ cao cÊp<color> t×m hiÓu chi tiÕt.","[Gîi ı] <color=red>Táa T­¬ng Hoµn<color> b¶o vÖ vËt phÈm cña b¹n hoµn thiÖn h¬n. §Õn chç <color=green>Du §¹o<color> t×m hiÓu chi tiÕt.","[Gîi ı] NhÊn <color=red>Ctrl + chuét tr¸i <color> t¹m dõng tr¹ng th¸i buff d­îc phÈm."}
+PT_NEWS_VTT_WARNING="[V\185n Ti\170n Tr\203n] C\223n "
+PT_NEWS_VTT_SUFFIX=" ph\243t m\235 \174\168ng k\253 b\232n tr\203n Th\230, Th\241y, H\225a, Phong. H\183y \174\213n c\230ng ph\239 h\238p c\202p \174\233; \174\168ng k\253 trong 5 ph\243t."
+PT_NEWS_BOSS_WARNING="[Boss] C\223n "
+PT_NEWS_BOSS_SUFFIX=" ph\243t \174\213n l\222ch xu\202t hi\214n. H\183y chu\200n b\222 t\230 \174\233i!"
+PT_NEWS_CLOSED="[V\185n Ti\170n Tr\203n] \167\183 h\213t gi\234 \174\168ng k\253 cho ng\173\234i v\224o m\237i. Ng\173\234i \174\183 b\184o danh c\227 th\211 ti\213p t\244c tr\203n."
+
+function main()
+    local utc=floor(SystemTime()/60)
+    if utc<=PT_NEWS_LAST_MINUTE then return end
+    PT_NEWS_LAST_MINUTE=utc
+    local minute=mod(utc+420,1440)
+    local emitted=0
+    for i=1,getn(PT_NEWS_VTT) do
+        local diff=mod(PT_NEWS_VTT[i]-minute+1440,1440)
+        if EventServiceOwns(1)==0 and (diff==10 or diff==5 or diff==1) then
+            AddNews(PT_NEWS_VTT_WARNING..diff..PT_NEWS_VTT_SUFFIX,1)
+            emitted=1
+        end
+        -- This is phase-specific: do not announce combat after a missed/restarted opening.
+        if EventServiceOwns(1)==0 and mod(minute-PT_NEWS_VTT[i]+1440,1440)==5 then
+            if GetGlobalValue(1)==2 or GetGlobalValue(2)==2 or GetGlobalValue(3)==2 or GetGlobalValue(4)==2 then
+                AddNews(PT_NEWS_CLOSED,1);emitted=1
+            end
+        end
+    end
+    for i=1,getn(PT_NEWS_BOSSES) do
+        local row=PT_NEWS_BOSSES[i]
+        local diff=mod(row[1]-minute+1440,1440)
+        if EventServiceOwns(1000+row[3])==0 and (diff==5 or diff==1) and GetGlobalValue(row[3])==-1 then
+            AddNews("<color=yellow>"..PT_NEWS_BOSS_TITLE..row[2].."<color>: "..PT_NEWS_BOSS_WARNING..diff..PT_NEWS_BOSS_SUFFIX,1)
+            emitted=1
+        end
+    end
+    if emitted==0 and mod(minute,3)==0 then
+        local index=mod(floor(utc/3),getn(PT_NEWS_TIPS))+1
+        AddNews(PT_NEWS_TIPS[index],1)
+    end
+end
+
+-- TGPT staggered schedule; managed service owns its own openings.
+pt_tgpt_previous_heartbeat=main
+pt_tgpt_last_minute=-1
+function main()
+ pt_tgpt_previous_heartbeat()
+ local minute=floor(SystemTime()/60)
+ if pt_tgpt_last_minute==minute then return end
+ pt_tgpt_last_minute=minute
+ local localminute=mod(minute+420,1440)
+ local hours={10,13,18,21,23}
+ for id=1,4 do
+  if EventServiceOwns(id)==0 then
+   for i=1,getn(hours) do
+    local start=hours[i]*60+(id-1)*5
+    local diff=mod(start-localminute+1440,1440)
+    if diff==5 or diff==1 then AddNews("[V¹n Tiªn TrËn] TrËn "..id.." cßn "..diff.." phót më cæng.",1) end
+    if diff==0 then
+     local old=SubWorld;SubWorld=SubWorldID2Idx(66+id)
+     if SubWorld>=0 and IsMission(id)==0 then OpenMission(id) end
+     SubWorld=old
+    end
+   end
+  end
+ end
+end

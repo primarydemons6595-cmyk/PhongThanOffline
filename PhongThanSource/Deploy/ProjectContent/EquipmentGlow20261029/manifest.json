@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "files": [
+    {
+      "role": "Client",
+      "relative": "CoreClient.dll",
+      "sha256": "6ca02d0f2e06f5c9afe7b6203acce3c2fe6e1878168701859ecd9d868b9ae1b6",
+      "before": "237afa90f57c8f035e18034159518861d1271b742a1bdf94b00346c15c80cf13"
+    },
+    {
+      "role": "Client",
+      "relative": "settings/npcres/zhuang_tai_tu_xing_dui_zhao_biao.txt",
+      "sha256": "cd73ca2d46daa0d9b2b0f10283ca3e1afc6ea1a3acd73603156768eb3a935b0f",
+      "before": "cd73ca2d46daa0d9b2b0f10283ca3e1afc6ea1a3acd73603156768eb3a935b0f"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/skill/magic/circle-perfect4.spr",
+      "sha256": "2124f266966294f8170561be6d0c110177eaf5cee3fb9dc2eb267816abcf4971",
+      "before": "2124f266966294f8170561be6d0c110177eaf5cee3fb9dc2eb267816abcf4971"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/skill/magic/circle-perfect5.spr",
+      "sha256": "5779045a96dd94e0c67ec85c03dab1a5dea51d902c2573bb4505973324b5e093",
+      "before": "5779045a96dd94e0c67ec85c03dab1a5dea51d902c2573bb4505973324b5e093"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/skill/magic/equipeffect3f2.spr",
+      "sha256": "a1d809719f62791520fd6be2cbc00fce1e9da19587c1ef81a2edd449f69c3c03",
+      "before": "a1d809719f62791520fd6be2cbc00fce1e9da19587c1ef81a2edd449f69c3c03"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/skill/magic/equipeffect3m2.spr",
+      "sha256": "c0909319df9dc29dc51913d090081c0f5358a5549c8ac1802461e7f907c79362",
+      "before": "c0909319df9dc29dc51913d090081c0f5358a5549c8ac1802461e7f907c79362"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/skill/magic/ÏÉÄ§ÂÌÌ×µÀ.spr",
+      "sha256": "72e50851286181cb5d794dc6b7b907714e283666db59ea3617ac90092806ca85",
+      "before": "72e50851286181cb5d794dc6b7b907714e283666db59ea3617ac90092806ca85"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/skill/magic/ÏÉÄ§ÂÌÌ×¼×.spr",
+      "sha256": "d6178d7db6637e0e504ac601b7bbae16d94171cff6d67959cafa098e2640018f",
+      "before": "d6178d7db6637e0e504ac601b7bbae16d94171cff6d67959cafa098e2640018f"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/skill/magic/ÏÉÄ§ÂÌÌ×Òì.spr",
+      "sha256": "b32ecd6b0c5cfe44a171dcc53987db7cf4cfcb4f58b77b609f7a98945f849945",
+      "before": "b32ecd6b0c5cfe44a171dcc53987db7cf4cfcb4f58b77b609f7a98945f849945"
+    },
+    {
+      "role": "Server",
+      "relative": "CoreServer.dll",
+      "sha256": "2fc2fe71a3c1ad72ed81b9965641d0ec3bb33662cfbac4dfd4459b33ceca8fe3",
+      "before": "e544633bb83a901bbb6dee5017c9df1bc63a7af3e78b94e363c041ad77d88ec5"
+    },
+    {
+      "role": "Server",
+      "relative": "settings/npcres/zhuang_tai_tu_xing_dui_zhao_biao.txt",
+      "sha256": "cd73ca2d46daa0d9b2b0f10283ca3e1afc6ea1a3acd73603156768eb3a935b0f",
+      "before": "cd73ca2d46daa0d9b2b0f10283ca3e1afc6ea1a3acd73603156768eb3a935b0f"
+    }
+  ]
+}

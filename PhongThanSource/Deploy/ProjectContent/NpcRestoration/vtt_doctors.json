@@ -1,0 +1,66 @@
+{
+  "doctors": [
+    {
+      "map": 1067,
+      "x": 42336,
+      "y": 104928,
+      "display": [
+        165,
+        204
+      ],
+      "template": 766,
+      "original_coordinate": false,
+      "script": "script/phongthan/van_tien/doctor.lua",
+      "override": "settings/phongthan/npc_regions/1067/v_102/082_region_s.dat"
+    },
+    {
+      "map": 1068,
+      "x": 56000,
+      "y": 114112,
+      "display": [
+        218,
+        222
+      ],
+      "template": 766,
+      "original_coordinate": false,
+      "script": "script/phongthan/van_tien/doctor.lua",
+      "override": "settings/phongthan/npc_regions/1068/v_111/109_region_s.dat"
+    },
+    {
+      "map": 1069,
+      "x": 52736,
+      "y": 108768,
+      "display": [
+        206,
+        212
+      ],
+      "template": 766,
+      "original_coordinate": false,
+      "script": "script/phongthan/van_tien/doctor.lua",
+      "override": "settings/phongthan/npc_regions/1069/v_106/103_region_s.dat"
+    },
+    {
+      "map": 1070,
+      "x": 53408,
+      "y": 97088,
+      "display": [
+        208,
+        189
+      ],
+      "template": 766,
+      "original_coordinate": false,
+      "script": "script/phongthan/van_tien/doctor.lua",
+      "override": "settings/phongthan/npc_regions/1070/v_094/104_region_s.dat"
+    }
+  ],
+  "original_script": {
+    "id": "7A4FF11E",
+    "pak": "Script.pak",
+    "entry": 556,
+    "sha256": "01165cf603b18fa9364cd53ac2004e77a752ffdde6e32c4ba88981a09bf3b2e9",
+    "bytes": 455,
+    "path": "\\script\\万仙阵\\医生.lua",
+    "raw_hex": "5c7363726970745ccdf2cfc9d5f35cd2bdc9fa2e6c7561"
+  },
+  "coordinate_provenance": "AUTHORED_WALKABLE_NEAR_ORIGINAL_ENTRY"
+}

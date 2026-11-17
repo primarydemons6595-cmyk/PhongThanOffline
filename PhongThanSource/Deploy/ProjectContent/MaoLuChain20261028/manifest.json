@@ -1,0 +1,77 @@
+{
+  "scope": "Complete four-visit Mao Lu chain for three classes, per-visit XP, recovery of previous incomplete phase, original Ngoc Hu merchant and warehouse services",
+  "files": [
+    {
+      "role": "Client",
+      "relative": "CoreClient.dll",
+      "before": "8860ca5ecfcc8f31262c7ad0b1ad53353313b2b94be3de8875d739cebf4b10c4",
+      "sha256": "acc46b844a340afed8fd28e8391b300e0c7525641a7a844667329d8e32fb630e"
+    },
+    {
+      "role": "Server",
+      "relative": "CoreServer.dll",
+      "before": "01acf42b227df0547983ad0bb1b7f9faa6849e1aee3a6f03f00335b28f91b3ab",
+      "sha256": "2e546a76c60945d1fa9cb93333b6220a854bafb13baaec61a0084dce3b5efa1c"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_recovered_batch/1004_7cc3eb20.lua",
+      "before": "228c3caba4d56e2c8d931398179170d8308d7378318062148c973f70e5117f5c",
+      "sha256": "d0a369db652a7701cf992bd538a298a694cae0eeb406a46534cd3b1970c9cd0c"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_recovered_batch/1004_d599fb23.lua",
+      "before": "a9265ed3e0a1583f48033d71282c0c1114f88a4a5501943d7c57bbf5d911add4",
+      "sha256": "c091fbe6a966ad056a97c040e9bd782ac13bebd36c193cd0b63628b62d38ff2f"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_restore/1002_02.lua",
+      "before": "7a2f613867778f79c01079a1567b89fd30002c663fb69d341b19937de697e759",
+      "sha256": "7db710aa8c28bf5b51d60b91ed28501453c0a55a8f872363dfaf4082d89f13f8"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_restore/1004_00.lua",
+      "before": "6c7aa0e9b50178f6ecb066e3843d0ce8f2157e95efbe39ff2cb449e8ad528653",
+      "sha256": "cfcfc2f95622a709448690149cf14e2ac42e57e88697c805434200f56224db53"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/restoration/maolu.lua",
+      "before": "6cf2dd23c4bba8ee5e07134f75e2098adb5e43cd50a5b5c14281fcae1828dd9a",
+      "sha256": "7870b52c6b9f3016d5dde9fcc8146b06156e07a2074e2121c6518dc0c9b6a75a"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/restoration/maolu_giao_dao.lua",
+      "before": null,
+      "sha256": "317834098b34fc0c33c5099a666fabc1969e46fb9b610defd701f93c38a8a778"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/restoration/maolu_store_dao.lua",
+      "before": null,
+      "sha256": "c4b8d546956bb056aeab1d0e128d1cc3f3aaa04c19319d775200275ac3426b1e"
+    },
+    {
+      "role": "Server",
+      "relative": "script/³ç³Ç´óÓª/²Ö¿â¹ÜÀíÔ±.lua",
+      "before": "f137b4cbdbfbe5b1914385efc323d744de5971eb160ef2fa8143bdfd0a52a2a2",
+      "sha256": "dea0288b8e7864b1770be344f8ec85ccf73051aef9beb0d861aecbb21cd3d9ac"
+    },
+    {
+      "role": "Server",
+      "relative": "script/³ç³Ç´óÓª/ÔÓ»õÉÌ.lua",
+      "before": "a120f7d1b815c9bd24b13e584e93f5e2497ff27b744bc313484fce42ac66f49c",
+      "sha256": "ed80b31f4f3aac02e38612ac750683a36ddbf144d99ef2f97e9d648b44f61dbc"
+    },
+    {
+      "role": "Server",
+      "relative": "script/ÓñÐé¹¬/´Èº½µÀÈË.lua",
+      "before": "685815dc422cd86e2853d33b537b98bda46088a0eff2bb1d53411cf41d462da4",
+      "sha256": "6f381089cf7b34f2c675514e08c6b758f484849bd0e69fa5a260c18c883c7bb4"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "scope": "LOOSE_ONLY",
+  "files": [
+    {
+      "path": "Client/Ui/ui3/UiGive.ini",
+      "before": "12f2a6d4b1de26ba7d7741cb22b3347658bf1ef163828d2b86d23209b8bd3f10",
+      "after": "12f2a6d4b1de26ba7d7741cb22b3347658bf1ef163828d2b86d23209b8bd3f10"
+    },
+    {
+      "path": "Client/Ui/ui4/UiGive.ini",
+      "before": "12f2a6d4b1de26ba7d7741cb22b3347658bf1ef163828d2b86d23209b8bd3f10",
+      "after": "12f2a6d4b1de26ba7d7741cb22b3347658bf1ef163828d2b86d23209b8bd3f10"
+    },
+    {
+      "path": "Client/spr/phongthan/destroy/panel.spr",
+      "before": "c4e9464fed2c354b2c4f0b156a19444a696264f300828f65e130bdfcdeb4c875",
+      "after": "c92dab8bc82920b4fad72a1cacc51fcb7e56d98af4d9ea23fa599fb7abb4a39a"
+    },
+    {
+      "path": "Client/loose_index.bin",
+      "before": "16289efe56c328a52f1eb5ae6c68230329e4301f9264f50565bd519f65ff77f3",
+      "after": "16289efe56c328a52f1eb5ae6c68230329e4301f9264f50565bd519f65ff77f3"
+    },
+    {
+      "path": "completion/studio_effective_overrides.json",
+      "before": "c4bc3fea2edff6581ea8ac9dc767d380e0283333f1903ed4a4bab6efef19cc21",
+      "after": "a1a11ba858e04aa03da6acd0b7005212ced1a388ad5a2398060e4b4661b78bd5"
+    }
+  ]
+}

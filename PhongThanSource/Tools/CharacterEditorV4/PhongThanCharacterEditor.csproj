@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Version>4.1.1</Version>
+  </PropertyGroup>
+  <ItemGroup><EmbeddedResource Include="LevelGrowth.json" /><EmbeddedResource Include="UiItem.layout.ini" /><EmbeddedResource Include="UiStoreBox.layout.ini" /></ItemGroup>
+  <ItemGroup>
+    <None Update="Native/UpgradeNative.exe" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="Native/Engine.dll" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="Native/LuaLibDll.dll" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

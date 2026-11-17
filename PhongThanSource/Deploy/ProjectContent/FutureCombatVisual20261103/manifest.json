@@ -1,0 +1,34 @@
+{
+  "utc": "2026-11-03T00:55:31.071068+00:00",
+  "files": [
+    {
+      "role": "Client",
+      "relative": "settings/phongthan/Npcs.txt",
+      "before": "eb020fbed707e9dcc71201ba14b06e60236de3c4347bbe7696ab87004e321447",
+      "sha256": "1496f2411c307019d73e5ded1480b605a88b2d239003884e6d440bb1be7cf08a",
+      "change": "Restore only template202 NpcResType to original passerby054"
+    },
+    {
+      "role": "Server",
+      "relative": "settings/phongthan/Npcs.txt",
+      "before": "ff806f149ab516afabfe0d1bb1c3cdf4a582450a9887f624248dbf1cd6a52ae4",
+      "sha256": "3181e8b49b663ce778a333dc203a072a71aa9abb9ff65f07fc553e853aaf9eed",
+      "change": "Restore only template202 NpcResType to original passerby054"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/giapsi/npc_tay.lua",
+      "before": "09bc2afd399291e802ffe19ce9b1def24fb12f4f8a61c53dbd415f90d2265e4c",
+      "sha256": "a447799a7cb3cdd588e7e3ba274235944280290c5f671de7b1ed9729a716b93c",
+      "change": "Enable combat only after successful guarded future-world travel"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/giapsi/npc_dac_future.lua",
+      "before": "fdb380424cc90ba8bb56300438f3bba7df120d731d78986d7379440e3b972e9a",
+      "sha256": "1f65fc8dc75a3eafdc1ad5f1860ab24da2e55ee5a0ec153381e0b054210d0cc9",
+      "change": "Enable combat only after successful guarded future-world travel"
+    }
+  ],
+  "backup": "E:\\ProjectAI\\PhongThan\\PT\\analysis\\event_assets_20261103\\before-future-fix"
+}

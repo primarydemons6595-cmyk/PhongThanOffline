@@ -1,0 +1,137 @@
+{
+  "schema": 1,
+  "npc": "TranNguyen",
+  "map": 1052,
+  "template": 202,
+  "position": [
+    46695,
+    101809
+  ],
+  "npcScriptId": "378B6D9A",
+  "files": [
+    {
+      "role": "Server",
+      "relative": "script/phongthan/tran_nguyen/npc.lua",
+      "before": null,
+      "sha256": "1eb673fd6f8c3e688221af13a4688012b669dcbf65f42ca7a41803b9917329fa"
+    },
+    {
+      "role": "Server",
+      "relative": "script/Ñþ³Ø/ÕòÔª´óÏÉ.lua",
+      "before": "9347897928d5e8147103dcbaa0ee62278396db218f6f161feec493e60e6ddfa6",
+      "sha256": "dc89d86dd553ac467b814008851fb92d49d769a8f7133095ad8c15378b5f2c4a"
+    },
+    {
+      "role": "Server",
+      "relative": "settings/item/001/magicscript.txt",
+      "before": "9ac52d319cabea342c00c379c3be79c2d7277220929e32ccea4c2135442b4b2f",
+      "sha256": "5d615c99974af9cf78ae6898ba4d8a79f33cfe454c283de1089d03531f12a161"
+    },
+    {
+      "role": "Client",
+      "relative": "settings/item/001/magicscript.txt",
+      "before": "9ac52d319cabea342c00c379c3be79c2d7277220929e32ccea4c2135442b4b2f",
+      "sha256": "5d615c99974af9cf78ae6898ba4d8a79f33cfe454c283de1089d03531f12a161"
+    },
+    {
+      "role": "Client",
+      "relative": "Ui/ui3/taskinfo.ini",
+      "before": "ff83c0941c5bc2e4f2bc2cfb061ad0d9d512a7e1eba2fbf95a9a11d893880dbc",
+      "sha256": "4fa9092b495717fb5c7ea617ce6c7636a493c4600384fda4ca4940a6773ca35d"
+    },
+    {
+      "role": "Client",
+      "relative": "Ui/ui4/taskinfo.ini",
+      "before": "ff83c0941c5bc2e4f2bc2cfb061ad0d9d512a7e1eba2fbf95a9a11d893880dbc",
+      "sha256": "4fa9092b495717fb5c7ea617ce6c7636a493c4600384fda4ca4940a6773ca35d"
+    },
+    {
+      "role": "Server",
+      "relative": "CoreServer.dll",
+      "before": "b35aebf1708cbf2087abd27b89cadef89a42adbeabe3f2e3d92922b680e5e605",
+      "sha256": "7d0255c24a3df4898ece9f354f6478d625f22ffad9887542d25b1a10709dc6b3"
+    },
+    {
+      "role": "Client",
+      "relative": "CoreClient.dll",
+      "before": "cbaa4cb343f225e485ca8223ddba503bde8b46c452386c1fd1d6ba5ace5f047c",
+      "sha256": "abd50bb66bce4223aa1d04d194b87785426d7f3dfed993572de7551f4f95e5ff"
+    },
+    {
+      "role": "Client",
+      "relative": "Game.exe",
+      "before": "f79bf05bf120421a2ee0273f491d34eda92ef7266cca01c6038ff6a2d9b09312",
+      "sha256": "ae06b6d28e3e7eec8ca366ffc899660676e31ef438780da07b695bf5905bbf32"
+    }
+  ],
+  "original": {
+    "relative": "script/Ñþ³Ø/ÕòÔª´óÏÉ.lua",
+    "proof": {
+      "id": "378B6D9A",
+      "pak": "Script.pak",
+      "entry": 267,
+      "sha256": "9347897928d5e8147103dcbaa0ee62278396db218f6f161feec493e60e6ddfa6",
+      "bytes": 142,
+      "path": "\\script\\瑶池\\镇元大仙.lua",
+      "raw_hex": "5c7363726970745cd1feb3d85cd5f2d4aab4f3cfc92e6c7561"
+    },
+    "same": true
+  },
+  "bossPositions": [
+    {
+      "tid": 546,
+      "map": 1027,
+      "x": 52336,
+      "y": 91376,
+      "guide": [
+        204,
+        178
+      ]
+    },
+    {
+      "tid": 547,
+      "map": 1037,
+      "x": 61808,
+      "y": 102128,
+      "guide": [
+        241,
+        199
+      ]
+    },
+    {
+      "tid": 548,
+      "map": 1023,
+      "x": 53360,
+      "y": 95472,
+      "guide": [
+        208,
+        186
+      ]
+    }
+  ],
+  "paperRowRepairs": [
+    {
+      "line": 223,
+      "detail": 220
+    },
+    {
+      "line": 226,
+      "detail": 223
+    },
+    {
+      "line": 229,
+      "detail": 226
+    },
+    {
+      "line": 283,
+      "detail": 280
+    }
+  ],
+  "recipes": 135,
+  "limitations": [
+    "Authored restoration; installed original script contains only greeting.",
+    "Classic type-2/group-2..6 recipes only. Later type-11 transformations are not enabled.",
+    "Physical learning papers are mapped only when the installed item identity is unambiguous; missing/ambiguous papers are not substituted.",
+    "Native/script tests passed; no live client visual/gameplay acceptance."
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "files": [
+    {
+      "role": "Client",
+      "relative": "CoreClient.dll",
+      "before": "3495666a58396c83af0a4e29962fc0013d10442409544e15f23ca4b4940912e3",
+      "sha256": "7a3b54adddee63965df10d58de663c28ad3249605a7069f7c741239b3baaaaea"
+    },
+    {
+      "role": "Server",
+      "relative": "CoreServer.dll",
+      "before": "b8d8486091a600bfd1b56a49361285090f41baf1a701de80fde4da850f60639c",
+      "sha256": "309f8717c21038b0627896940016202bcd40b8a383d38d83c36628b40b5a90a0"
+    },
+    {
+      "role": "Server",
+      "relative": "script/Ñþ³Ø/À×Õð×Ó.lua",
+      "before": "257524f98f7de4c2fe21dfc31f9034b1685d7198fa514094970951e502f384f5",
+      "sha256": "35faa26fbaba9e0aa54d5189ee654b5a073c041aa5cbf41505b98281f8852d35"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/jade/needle.lua",
+      "before": "f8eda14c95c104aaa3ff49fbe6706428c5fbd97774ce4a69e999a4daf6035332",
+      "sha256": "65e4da5a6d0c804bbbffa42216cab2d589f82c3eca510ea099c1ba63c23e5b0d"
+    },
+    {
+      "role": "completion",
+      "relative": "studio_effective_overrides.json",
+      "before": "608d14986d251e9b0d3b0daa6309767685880cfca61726e0b2bde4a4e971219b",
+      "sha256": "06f17683feebe7cc752ece135026002fbc78022c69194613874bd7655386cfb6"
+    }
+  ]
+}

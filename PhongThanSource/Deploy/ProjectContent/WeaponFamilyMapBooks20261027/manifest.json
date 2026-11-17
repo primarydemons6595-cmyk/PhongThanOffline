@@ -1,0 +1,35 @@
+﻿{
+    "scope":  "Half-size map quest books; original weapon 1x family mappings; Nghich Lan/Long/Loi Tinh native mount groups",
+    "files":  [
+                  {
+                      "role":  "Client",
+                      "relative":  "CoreClient.dll",
+                      "before":  "44d3db962362125b8dfea3bfcc2a24f46375717ed648dad4600f8e6c80cbf7e1",
+                      "sha256":  "83db5e33e4d1ac3f68c1afe214df9d81de06c1aa5df623c62abfc4031c1aa1af"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/item/PhongThanHorseVisual.txt",
+                      "before":  "2cef818304ec74e621a4677a11a281468e964f5fe0c5f79f98ee22c42eeb75c7",
+                      "sha256":  "986c9063bd88fd0037a952017eeadb7942d01e08b2b46dbec70612580fc59cc2"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/item/VNG_WeaponPart.txt",
+                      "before":  "18d97b3b62bbaed52d2da6ba2cb25a3c7ff7050d1912511b79831e64868e9e34",
+                      "sha256":  "1a269f10118df97e9d2f1db6456b535d1bc4c82fac7612ee7fb83f685ddaef1d"
+                  },
+                  {
+                      "role":  "Server",
+                      "relative":  "settings/item/PhongThanHorseVisual.txt",
+                      "before":  "2cef818304ec74e621a4677a11a281468e964f5fe0c5f79f98ee22c42eeb75c7",
+                      "sha256":  "986c9063bd88fd0037a952017eeadb7942d01e08b2b46dbec70612580fc59cc2"
+                  },
+                  {
+                      "role":  "Server",
+                      "relative":  "settings/item/VNG_WeaponPart.txt",
+                      "before":  "ecea286a661a505952f2a78e4d45241c622b532175338c1df79a17eca7e3f930",
+                      "sha256":  "1a269f10118df97e9d2f1db6456b535d1bc4c82fac7612ee7fb83f685ddaef1d"
+                  }
+              ]
+}

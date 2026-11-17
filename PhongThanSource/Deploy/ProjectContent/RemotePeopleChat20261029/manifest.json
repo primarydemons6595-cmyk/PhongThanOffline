@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "files": [
+    {
+      "role": "Client",
+      "relative": "CoreClient.dll",
+      "sha256": "32b470c00e3d48397b908c281b305342bf50fa77843c7a585fa351f20219ced6",
+      "before": "ca41746ec513eeb2bcaf60fb3f041ec5cff9c8c911ffde2b4315419150d7edf7"
+    },
+    {
+      "role": "Client",
+      "relative": "Game.exe",
+      "sha256": "be2016f689638d588117c675a6c617cc13adb5718fc7c49fae9dc4732c006cbd",
+      "before": "3afa9ea2897ca523229d482b4efb81c107ac34d56ed669af804f7a811792777a"
+    },
+    {
+      "role": "Server",
+      "relative": "CoreServer.dll",
+      "sha256": "5d936d34e007871e9027bfc5bf0ac25abf9fc10e28919b070aca3d7a98a7c227",
+      "before": "08da949f850bc2fe1409b07a991228a872d8567e11ddb670fa80b5ae5c6f3b2b"
+    }
+  ]
+}

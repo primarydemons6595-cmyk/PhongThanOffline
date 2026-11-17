@@ -1,0 +1,22 @@
+static void ServiceSeed(int detail,int count){int n=ItemSet.Add(4,0,0,0,detail,0,0,1);assert(n>0);Item[n].stack=count;Item[n].maxStack=count;ItemPos pos;assert(Player[1].m_ItemList.SearchPosition(1,1,&pos,true));assert(Player[1].m_ItemList.Add(n,pos.nPlace,pos.nX,pos.nY,false));}
+static int ServiceCases(){
+ CHECK(SetCurrentDirectoryA("../native-services"));g_SetRootPath(NULL);g_SetFilePath("\\");Setup();CHECK(PtStudioQuest::services.points.size()==1&&PtStudioQuest::services.offers.size()==4);
+ CHECK(PtStudioQuest::Act(1,4,0,1));CHECK(PtStudioQuest::Act(1,4,1,1)==2);CHECK(Player[1].m_cTask.GetSaveVal(5230)==10);CHECK(!PtStudioQuest::Act(1,4,1,1)&&Player[1].m_cTask.GetSaveVal(5230)==10);
+ // Deposit requires all exact materials before committing point gain.
+ ServiceSeed(27,2);CHECK(PtStudioQuest::Act(1,2,0,1));CHECK(PtStudioQuest::Act(1,2,1,1)==2&&Player[1].m_cTask.GetSaveVal(5230)==17);
+ CHECK(PtStudioQuest::Act(1,2,0,1));CHECK(!PtStudioQuest::Act(1,2,1,1)&&Player[1].m_cTask.GetSaveVal(5230)==17);
+ puts("PASS daily and repeatable deposit quests grant persistent named points only after material/reward transaction success");
+ Setup();Player[1].m_cTask.SetSaveVal(5230,100,TRUE);CHECK(PtStudioQuest::ServiceTrade(1,4,1,1,2)==2&&Player[1].m_cTask.GetSaveVal(5230)==60);CHECK(PtStudioQuest::ServiceTrade(1,4,1,1,4)==-2&&Player[1].m_cTask.GetSaveVal(5230)==60);
+ int count=Player[1].m_ItemList.Count();Player[1].m_ItemList.failSearch=true;CHECK(PtStudioQuest::ServiceTrade(1,4,1,1,1)==-2&&Player[1].m_cTask.GetSaveVal(5230)==60&&Player[1].m_ItemList.Count()==count);Player[1].m_ItemList.failSearch=false;
+ CHECK(PtStudioQuest::ServiceTrade(1,5,1,3,1)==-1);Npc[1].m_Series=1;CHECK(PtStudioQuest::ServiceTrade(1,5,1,3,1)==2&&Player[1].m_cTask.GetSaveVal(5230)==55);CHECK(PtStudioQuest::ServiceTrade(1,6,1,4,1)==-1);
+ ServiceSeed(26,3);CHECK(PtStudioQuest::ServiceTrade(1,4,1,2,2)==2&&Player[1].m_cTask.GetSaveVal(5230)==55);CHECK(PtStudioQuest::ServiceTrade(1,4,1,2,1)==-2);Npc[1].m_Series=0;CHECK(PtStudioQuest::ServiceTrade(1,4,1,2,1)==-2);
+ puts("PASS list/shop trade uses exact item IDs or point prices, scaled quantities, profession guards, insufficient balance/material checks and full-bag rollback");
+ Setup();Npc[1].m_Series=1;Player[1].m_cTask.SetSaveVal(5230,100,TRUE);CHECK(PtStudioQuest::ServiceOpen(1,5,1)==1&&questShopPacket.Count==1&&questShopPacket.Rows[0].Id==3&&questShopPacket.Rows[0].PaymentKind==2);PTEventShopBuy buy;memset(&buy,0,sizeof(buy));buy.EventId=questShopPacket.EventId;buy.ActorId=questShopPacket.ActorId;buy.MapId=questShopPacket.MapId;buy.Token=questShopPacket.Token;buy.Sequence=questShopPacket.Sequence;buy.GoodsId=3;buy.Lots=2;
+ PtStudioQuest::ServiceRequest(1,buy);CHECK(Player[1].m_cTask.GetSaveVal(5230)==90&&questShopPacket.Result==2);PtStudioQuest::ServiceRequest(1,buy);CHECK(Player[1].m_cTask.GetSaveVal(5230)==90);buy.Sequence=questShopPacket.Sequence;buy.Token++;PtStudioQuest::ServiceRequest(1,buy);CHECK(Player[1].m_cTask.GetSaveVal(5230)==90);buy.Token--;Npc[1].m_Series=0;PtStudioQuest::ServiceRequest(1,buy);CHECK(Player[1].m_cTask.GetSaveVal(5230)==90&&questShopPacket.Count==0);
+ Npc[1].m_Series=1;CHECK(PtStudioQuest::ServiceOpen(1,5,1)==1);buy.Token=questShopPacket.Token;buy.Sequence=questShopPacket.Sequence;buy.GoodsId=1;PtStudioQuest::ServiceRequest(1,buy);CHECK(Player[1].m_cTask.GetSaveVal(5230)==90);buy.Sequence=questShopPacket.Sequence;buy.GoodsId=3;Npc[1].x+=1000;PtStudioQuest::ServiceRequest(1,buy);CHECK(Player[1].m_cTask.GetSaveVal(5230)==90);
+ puts("PASS native shop wire: class-filtered rows, valid quantity purchase, token/sequence replay guard, hidden/wrong-menu goods rejection and distance checks");
+ Setup();CHECK(!PtStudioQuest::Act(1,1,0,1));CHECK(PtStudioQuest::Act(1,4,0,1));PtStudioQuest::Quest* q=PtStudioQuest::Find(4);q->pointCost=20;CHECK(!PtStudioQuest::Act(1,4,1,1));Player[1].m_cTask.SetSaveVal(5230,30,TRUE);CHECK(PtStudioQuest::Act(1,4,1,1)==2&&Player[1].m_cTask.GetSaveVal(5230)==20);
+ puts("PASS custom NPC menus preserve server-side quest access and completion point-cost/gain arithmetic");
+ Setup();PtStudioQuest::quests.clear();BOOL routed=FALSE;CHECK(PhongThanStudioQuestTryRoute(1,Npc[2].m_ActionScriptID,"main",88,&routed)&&routed&&Player[1].lastParam==88);CHECK(!PhongThanStudioQuestTryRoute(1,Npc[2].m_ActionScriptID,"buy",0,&routed));
+ puts("PASS existing NPC with shop-only custom menus routes its main dialogue while preserving original callbacks");return 0;
+}

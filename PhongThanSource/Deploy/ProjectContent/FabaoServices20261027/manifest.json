@@ -1,0 +1,40 @@
+{
+  "files": [
+    {
+      "role": "Client",
+      "relative": "Game.exe",
+      "before": "d26afec07d93a6688c83f8365c054def698d7e62c9a6e2e76ddf1d69685a5abf",
+      "sha256": "2c5e63b5ba8819eaeb1bae7251af83903808154315b22cb3a8505b46bf9cd77d"
+    },
+    {
+      "role": "Client",
+      "relative": "CoreClient.dll",
+      "before": "7a3b54adddee63965df10d58de663c28ad3249605a7069f7c741239b3baaaaea",
+      "sha256": "df59d852690761968e1dcf4e648fb6885f443fe34e5e06ba7c9dcb73bfdaf655"
+    },
+    {
+      "role": "Server",
+      "relative": "CoreServer.dll",
+      "before": "309f8717c21038b0627896940016202bcd40b8a383d38d83c36628b40b5a90a0",
+      "sha256": "209f45f0f2752b324153348de598e6f712a53c6a47f6ff2d2a0401fe03f6531e"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_services/xich_tung_tu.lua",
+      "before": "5effc0755ffa4e65e0de222bb299e528fa298686878242aac1f683ed4b719987",
+      "sha256": "b413e88edcf48a0e277425b784c4f2265701b138f9bb548627b72517a4a1d3d6"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_restore/1073_06.lua",
+      "before": "16dadee789b2116754b8f25afd0dbd0ffded9612368d0aca0f1d084e79f043b0",
+      "sha256": "c8b40d5ceafe6259beb507b9f056d730b5ab8c1a57e4a88dbfe93a8cbb5adcbe"
+    },
+    {
+      "role": "completion",
+      "relative": "studio_effective_overrides.json",
+      "before": "c4fc490160e2db66cfd077822ea6a5c386b53c14e7c6d1bd828916c6b0a41e11",
+      "sha256": "aae9e651cf0b3b4257c8bb6a7d856906e87edb651a8ad8cfd101f66430713424"
+    }
+  ]
+}

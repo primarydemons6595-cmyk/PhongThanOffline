@@ -1,0 +1,35 @@
+﻿{
+    "scope":  "LOOSE_ONLY",
+    "files":  [
+                  {
+                      "path":  "Server/script/phongthan/npc_recovered_batch/1001_d7dd3c53.lua",
+                      "before":  "3e3136a1202df8f26a21eccf11bd309a2aeb78faa14643f88ccae26b5e4dc0b6",
+                      "after":  "67a71162170daa277fe174c3a4f0625e86dbfffe355b54f7ea287f93001299f3"
+                  },
+                  {
+                      "path":  "Server/script/phongthan/npc_recovered_batch/1003_50e51c75.lua",
+                      "before":  "276899b3f7a70bf35f6a4ba0c96a34683bd83db6a92b3c15fec3c631f4f9f3dc",
+                      "after":  "8cc2b39f5753c89bfc12b547f39578205151951798e93bcca3f77fbae0341d89"
+                  },
+                  {
+                      "path":  "Server/script/phongthan/npc_recovered_batch/1004_5639b1df.lua",
+                      "before":  "a816d95d738095b56b7c43a2a6bcd4d3d26df1772ba2d8e9dfe434c5305277e9",
+                      "after":  "58054ba8bc1d9d2e7df8a046f35c3631502c4e97058d56672fa709897b0ec9eb"
+                  },
+                  {
+                      "path":  "Client/Game.exe",
+                      "before":  "e8a791b380abdb5b925674c633e3a93e6bb932b75e4e771e6a35e02222b7caa1",
+                      "after":  "6c6916bc6dd6df04f8e4a027c8acce6c81892e6313c53666e584e150d8165301"
+                  },
+                  {
+                      "path":  "Client/CoreClient.dll",
+                      "before":  "3544f5bda84b9ece75232b8afcb0eca74d91b9f19c4a69637343311905d2e3f2",
+                      "after":  "6b5021933f1b18e5df7a0070387cbc29da8971a2a6b8948653365af28d8c0feb"
+                  },
+                  {
+                      "path":  "Server/CoreServer.dll",
+                      "before":  "d112bf0622f1bdd0ad8bf814f54596e587b2095dd2402d6d85c0b28071dc30dc",
+                      "after":  "7f386fd4dfc032f1f84e4f69142f22ec90a328901060353defde58c5c56cb58e"
+                  }
+              ]
+}

@@ -1,0 +1,47 @@
+{
+  "scope": "LOOSE_ONLY",
+  "files": [
+    {
+      "path": "Server/settings/item/001/material.txt",
+      "before": "7bd50a47306cb3c47285ba8522f128ee63aaea487a73c6cdb865c054368bd8ba",
+      "after": "066509cd7833ffed245a682874151ea66a462c8d766cbed96e5d411a199c58fd"
+    },
+    {
+      "path": "Client/settings/item/001/material.txt",
+      "before": "7bd50a47306cb3c47285ba8522f128ee63aaea487a73c6cdb865c054368bd8ba",
+      "after": "066509cd7833ffed245a682874151ea66a462c8d766cbed96e5d411a199c58fd"
+    },
+    {
+      "path": "Client/ui/ui3/UiPetSale.ini",
+      "before": "cbbf13d3a2e8ea679835580b1037f72756dc9eacc4d705523b27a5e0a477e99f",
+      "after": "df1d8b591667673d5c1f2ff66f2ebed9ac60a8cdaecbd4f97059d5f54aa5cb84"
+    },
+    {
+      "path": "Server/CoreServer.dll",
+      "before": "2dcecf3c256cfec86b3047a0a6e4314d75d71ac51f9a7e9096d2c5af397ed175",
+      "after": "6ef49dbe345333ddf3e0c69cd1d3c10d3920d66976f036f395b89e848c5c80f8"
+    },
+    {
+      "path": "Client/CoreClient.dll",
+      "before": "53337a4eaaa3662b89eee0fae6469aac1ef42f0c4aaa3ef5dbc83322753ad23c",
+      "after": "faddb6b7874f53139d7ae33ec6fcf77690c645f81a741e1725b1a1d1713d29c9"
+    },
+    {
+      "path": "Client/Game.exe",
+      "before": "7b8522acdbd1324c96def9db5697ad0266fa11c7af9bff4364e90ab15382250e",
+      "after": "a479169639adc01746298751b7e1326624dd5f075f61381f7da228cc0b1e6645"
+    },
+    {
+      "path": "Server/GameServer.exe",
+      "before": "6e9f27d08818d5cb4dcd3bc5b0820878f3bed6981e67c87abf1f875f0a420452",
+      "after": "3e805b9f04ed7c3df87f1fa2f81dad7df64adcf3df134f6f96703e8406c14e11"
+    }
+  ],
+  "pearl_images": [
+    "\\spr\\item\\vng\\updatet12\\nguyen_to_loi.spr",
+    "\\spr\\item\\vng\\phienbanmoi\\bat_nha_hoang_ngoc.spr",
+    "\\spr\\item\\vng\\updatet12\\nguyen_to_hoa.spr",
+    "\\spr\\item\\vng\\updatet12\\nguyen_to_moc.spr"
+  ],
+  "pearl_max_stack": 999
+}

@@ -1,0 +1,56 @@
+﻿{
+    "Scope":  "LOOSE_ONLY",
+    "Backup":  "E:\\ProjectAI\\PhongThan\\PT\\analysis\\destroy_ui_hotfix_20261101\\runtime-before-20261101_171409",
+    "Result":  "PASS",
+    "Files":  [
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\DestroyUiHotfix20261101\\compiled\\Client\\Ui\\ui3\\UiGive.ini",
+                      "Path":  "Client/Ui/ui3/UiGive.ini",
+                      "Done":  true,
+                      "After":  "12f2a6d4b1de26ba7d7741cb22b3347658bf1ef163828d2b86d23209b8bd3f10",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Client\\Ui\\ui3\\UiGive.ini",
+                      "Before":  "12f2a6d4b1de26ba7d7741cb22b3347658bf1ef163828d2b86d23209b8bd3f10"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\DestroyUiHotfix20261101\\compiled\\Client\\Ui\\ui4\\UiGive.ini",
+                      "Path":  "Client/Ui/ui4/UiGive.ini",
+                      "Done":  true,
+                      "After":  "12f2a6d4b1de26ba7d7741cb22b3347658bf1ef163828d2b86d23209b8bd3f10",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Client\\Ui\\ui4\\UiGive.ini",
+                      "Before":  "12f2a6d4b1de26ba7d7741cb22b3347658bf1ef163828d2b86d23209b8bd3f10"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\DestroyUiHotfix20261101\\compiled\\Client\\spr\\phongthan\\destroy\\panel.spr",
+                      "Path":  "Client/spr/phongthan/destroy/panel.spr",
+                      "Done":  false,
+                      "After":  "c92dab8bc82920b4fad72a1cacc51fcb7e56d98af4d9ea23fa599fb7abb4a39a",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Client\\spr\\phongthan\\destroy\\panel.spr",
+                      "Before":  "c4e9464fed2c354b2c4f0b156a19444a696264f300828f65e130bdfcdeb4c875"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\DestroyUiHotfix20261101\\compiled\\Client\\loose_index.bin",
+                      "Path":  "Client/loose_index.bin",
+                      "Done":  true,
+                      "After":  "16289efe56c328a52f1eb5ae6c68230329e4301f9264f50565bd519f65ff77f3",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Client\\loose_index.bin",
+                      "Before":  "16289efe56c328a52f1eb5ae6c68230329e4301f9264f50565bd519f65ff77f3"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\DestroyUiHotfix20261101\\compiled\\completion\\studio_effective_overrides.json",
+                      "Path":  "completion/studio_effective_overrides.json",
+                      "Done":  false,
+                      "After":  "a1a11ba858e04aa03da6acd0b7005212ced1a388ad5a2398060e4b4661b78bd5",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\completion\\studio_effective_overrides.json",
+                      "Before":  "c4bc3fea2edff6581ea8ac9dc767d380e0283333f1903ed4a4bab6efef19cc21"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\DestroyUiHotfix20261101\\binaries\\Client\\Game.exe",
+                      "Path":  "Client/Game.exe",
+                      "Done":  false,
+                      "After":  "6990DBE2033A573B47CED38FCAEB07F96E3BD569DDDB91FB719659C41BF10C0D",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Client\\Game.exe",
+                      "Before":  "2F41DF06C5567BA022BFB8EC9F17A02C3C6E589CCF86C873E8431A3820563E55"
+                  }
+              ],
+    "PublishedAtUtc":  "2026-11-01T10:14:09.8713372Z"
+}

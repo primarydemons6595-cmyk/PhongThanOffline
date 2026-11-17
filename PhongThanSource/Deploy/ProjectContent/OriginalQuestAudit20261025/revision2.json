@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "feature": "OriginalQuestAuditPriorityRegions",
+  "files": [
+    {
+      "role": "Server",
+      "relative": "settings/phongthan/npc_regions/1016/v_101/098_region_s.dat",
+      "before": "8aa5cf1b62ec1179f22170643384ae8ce0691adabfb4f5b52e22f12ba0193ded",
+      "sha256": "e035790bb65a6bd177237d1cf08c85138bb4efcabf22f45d0f0ca49651a510e3"
+    },
+    {
+      "role": "Server",
+      "relative": "settings/phongthan/npc_regions/1016/v_101/100_region_s.dat",
+      "before": "5df4c064da042b03a0c946371d5bd82a864dccc6ef777257deb27f166547c365",
+      "sha256": "4e1779f0e18305efa1924f4dc74af6d73f30ade0eb1708751a383fd6aa7bf495"
+    }
+  ],
+  "removedShadowHerbNpcs": 4
+}

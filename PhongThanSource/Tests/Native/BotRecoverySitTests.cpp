@@ -1,0 +1,5 @@
+#include <stdio.h>
+#include "../../Headers/PhongThanBotRecovery.h"
+struct Actor {bool m_bRideHorse,allow;int m_Doing,sits,switches;Actor():m_bRideHorse(true),allow(true),m_Doing(0),sits(0),switches(0){}bool CanSwitchRideHorse(){return allow;}void SwitchRideHorse(int mounted){m_bRideHorse=mounted!=0;++switches;}void SendCommand(int command){if(command==1){if(m_bRideHorse)return;++sits;}m_Doing=command;}};
+#define CHECK(x) do{if(!(x)){printf("FAIL line%d\n",__LINE__);return 1;}}while(0)
+int main(){Actor a;CHECK(PTBotSitForRecovery(a,0,1));CHECK(!a.m_bRideHorse&&a.m_Doing==1&&a.switches==1&&a.sits==1);CHECK(PTBotSitForRecovery(a,0,1)&&a.sits==1);Actor locked;locked.allow=false;CHECK(!PTBotSitForRecovery(locked,0,1)&&locked.m_bRideHorse&&!locked.sits);locked.allow=true;CHECK(PTBotSitForRecovery(locked,0,1)&&!locked.m_bRideHorse&&locked.sits==1);CHECK(PTBotMissingRecovery(true,false,0,10));CHECK(!PTBotMissingRecovery(true,false,1,0));CHECK(PTBotMissingRecovery(false,true,10,0));puts("PASS production recovery: dismount before sitting, mount cooldown retry, no fake sit, missing medicine routing");return 0;}

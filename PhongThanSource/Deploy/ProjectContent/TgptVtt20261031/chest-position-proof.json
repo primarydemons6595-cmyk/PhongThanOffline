@@ -1,0 +1,114 @@
+[
+  {
+    "map": 1067,
+    "castle_cells": 5866,
+    "positions": [
+      [
+        51536,
+        106576
+      ],
+      [
+        51184,
+        107056
+      ],
+      [
+        50608,
+        106864
+      ],
+      [
+        50608,
+        106288
+      ],
+      [
+        51184,
+        106096
+      ]
+    ],
+    "all_inside_closed_gate_boss_component": true,
+    "legacy_cache_candidates_outside_castle": true
+  },
+  {
+    "map": 1068,
+    "castle_cells": 7441,
+    "positions": [
+      [
+        51600,
+        104144
+      ],
+      [
+        51248,
+        104624
+      ],
+      [
+        50672,
+        104432
+      ],
+      [
+        50672,
+        103856
+      ],
+      [
+        51248,
+        103664
+      ]
+    ],
+    "all_inside_closed_gate_boss_component": true,
+    "legacy_cache_candidates_outside_castle": true
+  },
+  {
+    "map": 1069,
+    "castle_cells": 5969,
+    "positions": [
+      [
+        50288,
+        102992
+      ],
+      [
+        49936,
+        103472
+      ],
+      [
+        49360,
+        103280
+      ],
+      [
+        49360,
+        102704
+      ],
+      [
+        49936,
+        102512
+      ]
+    ],
+    "all_inside_closed_gate_boss_component": true,
+    "legacy_cache_candidates_outside_castle": true
+  },
+  {
+    "map": 1070,
+    "castle_cells": 8837,
+    "positions": [
+      [
+        53488,
+        102416
+      ],
+      [
+        53136,
+        102896
+      ],
+      [
+        52560,
+        102704
+      ],
+      [
+        52560,
+        102128
+      ],
+      [
+        53136,
+        102032
+      ]
+    ],
+    "all_inside_closed_gate_boss_component": true,
+    "legacy_cache_candidates_outside_castle": true
+  }
+]

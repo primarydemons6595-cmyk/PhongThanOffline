@@ -1,0 +1,119 @@
+{
+  "scope": "Fortune teller duplicate-Include fix; seven evidenced rebirth script aliases; 300-second Sieu Do circle and dedicated original effect rendering",
+  "files": [
+    {
+      "role": "Client",
+      "relative": "CoreClient.dll",
+      "before": "acc46b844a340afed8fd28e8391b300e0c7525641a7a844667329d8e32fb630e",
+      "sha256": "ef994fda18d6a921cc42186ed337c1b7a9b2e966d6502279749f79a84a97d209"
+    },
+    {
+      "role": "Client",
+      "relative": "script/skill/zhuansheng/\u00b0\u00d9\u00c1\u00b6\u00b6\u00cd\u00cc\u00e5.lua",
+      "before": null,
+      "sha256": "dd343e033c24618e2306b788ba39cc4e521364e90571057040126d44fb702393"
+    },
+    {
+      "role": "Client",
+      "relative": "script/skill/zhuansheng/\u00b7\u00e2\u00c9\u00f1\u00d6\u00ae\u00c1\u00a6.lua",
+      "before": null,
+      "sha256": "dd45880c3a17fb4dd192fb50a74ac817d53ff9fbcc5b84ccb682bdc89389100c"
+    },
+    {
+      "role": "Client",
+      "relative": "script/skill/zhuansheng/\u00b9\u00c6\u00bb\u00f3\u00d6\u00da\u00c9\u00fa.lua",
+      "before": null,
+      "sha256": "7bf7c963fec5e443ae05e3379355cb74cc76a7bbeb027ac018d1cd170000f8d4"
+    },
+    {
+      "role": "Client",
+      "relative": "script/skill/zhuansheng/\u00ba\u00c6\u00c8\u00bb\u00d5\u00fd\u00c6\u00f8.lua",
+      "before": null,
+      "sha256": "5c897fa9cf48849333598ccd22ba2b06197c401d957908781a24a59eedc9df0a"
+    },
+    {
+      "role": "Client",
+      "relative": "script/skill/zhuansheng/\u00d2\u00b5\u00bb\u00f0\u00b7\u00d9\u00d0\u00c4.lua",
+      "before": null,
+      "sha256": "8a8cf2290b9ffd19fc9cbcf83182f3ffb7de51d91190b7fb14aaeef7cc1d2df5"
+    },
+    {
+      "role": "Client",
+      "relative": "script/skill/zhuansheng/\u00d2\u00bb\u00ce\u00c5\u00c7\u00a7\u00ce\u00f2.lua",
+      "before": null,
+      "sha256": "459e93d4f73b30ee29f842b31fc9d5b2ef9b08db2eb148c555197640b4c7a606"
+    },
+    {
+      "role": "Client",
+      "relative": "script/skill/zhuansheng/\u00d2\u00d4\u00d5\u00bd\u00d1\u00f8\u00d5\u00bd.lua",
+      "before": null,
+      "sha256": "937fdf5c7fd45e070998d19d53a257d8216f884d91a6cc546d2bda4ea1b9c15a"
+    },
+    {
+      "role": "Server",
+      "relative": "CoreServer.dll",
+      "before": "da19cff8076bfc4797fe3e6ee3c7b6eaae463a6d77fbe3fb7daf8ce250be0dbf",
+      "sha256": "3ed7497c745f21f212039c6e967ec119745626e4f573373b2a1a10b967a7704b"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/daily/banner.lua",
+      "before": "6a40ab6f933422e4f1466024d017e2815f95d390f7707b61563398edf02d86db",
+      "sha256": "93f8b2184f13f3cd8dc36c8bca856ac798ba0cff700961f94cae9fbb9d1fa75e"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/daily/runtime.lua",
+      "before": "0289346dee89072e6b3765fb7683d9abf53657337ddac801e77a8d694d201942",
+      "sha256": "431b8ef07771e16909641f51316aa220c9451fc1fc64d3d4441043ddd56eeaa3"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/restoration/tutuong.lua",
+      "before": "def221ced6a500bd2e3799c65011fe6c5011aa5142bfc1805767840262a57b84",
+      "sha256": "df95f11f3734ba06b13b8b9b894f935e0c632bcea68d6435eff820adb33c1a48"
+    },
+    {
+      "role": "Server",
+      "relative": "script/skill/zhuansheng/\u00b0\u00d9\u00c1\u00b6\u00b6\u00cd\u00cc\u00e5.lua",
+      "before": null,
+      "sha256": "dd343e033c24618e2306b788ba39cc4e521364e90571057040126d44fb702393"
+    },
+    {
+      "role": "Server",
+      "relative": "script/skill/zhuansheng/\u00b7\u00e2\u00c9\u00f1\u00d6\u00ae\u00c1\u00a6.lua",
+      "before": null,
+      "sha256": "dd45880c3a17fb4dd192fb50a74ac817d53ff9fbcc5b84ccb682bdc89389100c"
+    },
+    {
+      "role": "Server",
+      "relative": "script/skill/zhuansheng/\u00b9\u00c6\u00bb\u00f3\u00d6\u00da\u00c9\u00fa.lua",
+      "before": null,
+      "sha256": "7bf7c963fec5e443ae05e3379355cb74cc76a7bbeb027ac018d1cd170000f8d4"
+    },
+    {
+      "role": "Server",
+      "relative": "script/skill/zhuansheng/\u00ba\u00c6\u00c8\u00bb\u00d5\u00fd\u00c6\u00f8.lua",
+      "before": null,
+      "sha256": "5c897fa9cf48849333598ccd22ba2b06197c401d957908781a24a59eedc9df0a"
+    },
+    {
+      "role": "Server",
+      "relative": "script/skill/zhuansheng/\u00d2\u00b5\u00bb\u00f0\u00b7\u00d9\u00d0\u00c4.lua",
+      "before": null,
+      "sha256": "8a8cf2290b9ffd19fc9cbcf83182f3ffb7de51d91190b7fb14aaeef7cc1d2df5"
+    },
+    {
+      "role": "Server",
+      "relative": "script/skill/zhuansheng/\u00d2\u00bb\u00ce\u00c5\u00c7\u00a7\u00ce\u00f2.lua",
+      "before": null,
+      "sha256": "459e93d4f73b30ee29f842b31fc9d5b2ef9b08db2eb148c555197640b4c7a606"
+    },
+    {
+      "role": "Server",
+      "relative": "script/skill/zhuansheng/\u00d2\u00d4\u00d5\u00bd\u00d1\u00f8\u00d5\u00bd.lua",
+      "before": null,
+      "sha256": "937fdf5c7fd45e070998d19d53a257d8216f884d91a6cc546d2bda4ea1b9c15a"
+    }
+  ]
+}

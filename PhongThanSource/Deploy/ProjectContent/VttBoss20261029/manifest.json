@@ -1,0 +1,185 @@
+{
+  "schema": 1,
+  "files": [
+    {
+      "role": "Server",
+      "relative": "settings/phongthan/Npcs.txt",
+      "sha256": "143364bc4b4016390ee46f3f4a2477aebd7517317eddd4f1d802d178a5c6a29d"
+    },
+    {
+      "role": "Server",
+      "relative": "settings/npcres/\u00c6\u00d5\u00cd\u00a8npc\u00d7\u00ca\u00d4\u00b4.txt",
+      "sha256": "f655c26532bd48791f27d237ad3173e04515e59e0da8ab3959c725a492925c46"
+    },
+    {
+      "role": "Server",
+      "relative": "settings/npcres/\u00c6\u00d5\u00cd\u00a8npc\u00d7\u00ca\u00d4\u00b4\u00d0\u00c5\u00cf\u00a2.txt",
+      "sha256": "a9b317156df8ac0484e8d28c3686c95c058d13bd673dd465a0d6c0bce9e5e47d"
+    },
+    {
+      "role": "Server",
+      "relative": "settings/npcres/\u00c8\u00cb\u00ce\u00ef\u00c0\u00e0\u00d0\u00cd.txt",
+      "sha256": "a4322100d664d8ea50164b3d585581e1e0fe54f37aa5be99f77692e8920ae692"
+    },
+    {
+      "role": "Client",
+      "relative": "settings/phongthan/Npcs.txt",
+      "sha256": "1496f2411c307019d73e5ded1480b605a88b2d239003884e6d440bb1be7cf08a"
+    },
+    {
+      "role": "Client",
+      "relative": "settings/npcres/\u00c6\u00d5\u00cd\u00a8npc\u00d7\u00ca\u00d4\u00b4.txt",
+      "sha256": "eb28dd4ea6c414f8be15e2fd83d531f24ce257e569fe5260faeba331e9c9fcd2"
+    },
+    {
+      "role": "Client",
+      "relative": "settings/npcres/\u00c6\u00d5\u00cd\u00a8npc\u00d7\u00ca\u00d4\u00b4\u00d0\u00c5\u00cf\u00a2.txt",
+      "sha256": "86e2e0eccce7776b409ba6182585e29398db28e69249c85e3d02e2f73953b1e5"
+    },
+    {
+      "role": "Client",
+      "relative": "settings/npcres/\u00c8\u00cb\u00ce\u00ef\u00c0\u00e0\u00d0\u00cd.txt",
+      "sha256": "b1952328ff3fdfba0277b50434a968e310590191e51c1dbe31e24e6b53da09de"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/van_tien/boss1.lua",
+      "sha256": "94632f31c1644db9cc8bee088e6e0924bd8d9413a555d41152596798fe745ccf"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/van_tien/boss2.lua",
+      "sha256": "fe869b7f03dfb4646a3a43ba36be0b831a5558c5e32e663af0ee0456de494b55"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/van_tien/boss3.lua",
+      "sha256": "bd86828f42346950fdf91ffc6e8f53cbc093df40c011e81b2abf99399828880c"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/van_tien/boss4.lua",
+      "sha256": "a2ea22cd807cd10381b7862a5bbd2e5a2ac239354d2ab81064a949463d0498ba"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_recovered_batch/1002_f57647b5.lua",
+      "sha256": "b2d9a2610725a6b8d9f3236c78de7b2fe7bda9fdb90ea2595f43ca57ad7f425b"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_recovered_batch/1004_281c1583.lua",
+      "sha256": "6fee4fd455e4dec8a958185e33459814eba89f8dd9305b765f12beabc36d6eaa"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_recovered_batch/1003_479d2a84.lua",
+      "sha256": "63a5d9b1955663eaa083c2c7620d0e15c1dfda89f3ed0f9a091cdb518c3c8169"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_recovered_batch/1001_41e3ecb2.lua",
+      "sha256": "6b66eca3e5fb09c0e093d06c3004f518ba7c831c648ca6aaf2546fffa0676df7"
+    }
+  ],
+  "skills": [
+    {
+      "template": 133,
+      "slot": 1,
+      "skill": 70,
+      "name": "#npc Thi\u00aan Phong \u00a7\u00dea Nh\u00cbn"
+    },
+    {
+      "template": 133,
+      "slot": 2,
+      "skill": 78,
+      "name": "#npc Ng\u00f2 Nh\u00b9c Tri\u00d2u T\u00abng"
+    },
+    {
+      "template": 133,
+      "slot": 3,
+      "skill": 91,
+      "name": "#npc Khai S\u00acn Tr\u00b6m"
+    },
+    {
+      "template": 133,
+      "slot": 4,
+      "skill": 86,
+      "name": "#npc Huy\u00d2n N\u00f7 B\u00e6 Thi\u00aan"
+    },
+    {
+      "template": 138,
+      "slot": 1,
+      "skill": 11,
+      "name": "#H\u00b9n \u00a7\u00dea L\u00abi"
+    },
+    {
+      "template": 138,
+      "slot": 2,
+      "skill": 73,
+      "name": "#npc H\u00b9n \u00a7\u00dea L\u00abi"
+    },
+    {
+      "template": 138,
+      "slot": 3,
+      "skill": 81,
+      "name": "#npc Phong V\u00a9n L\u00abi \u00a7\u00e9ng"
+    },
+    {
+      "template": 138,
+      "slot": 4,
+      "skill": 85,
+      "name": "#npc L\u00abi \u00a7\u00e9ng C\u00f6u Thi\u00aan"
+    },
+    {
+      "template": 143,
+      "slot": 1,
+      "skill": 72,
+      "name": "#npc Th\u00cbp Ph\u00ad\u00acng Li\u00d6t H\u00e1a"
+    },
+    {
+      "template": 143,
+      "slot": 2,
+      "skill": 97,
+      "name": "#npc H\u00e1a Quang Tr\u00b6m"
+    },
+    {
+      "template": 143,
+      "slot": 3,
+      "skill": 80,
+      "name": "#npc Phong L\u00a9m H\u00e1a S\u00acn"
+    },
+    {
+      "template": 143,
+      "slot": 4,
+      "skill": 88,
+      "name": "#npc Tam V\u00de Ch\u00a9n H\u00e1a"
+    },
+    {
+      "template": 148,
+      "slot": 1,
+      "skill": 21,
+      "name": "#B\u00a8ng Phong B\u00b9o"
+    },
+    {
+      "template": 148,
+      "slot": 2,
+      "skill": 75,
+      "name": "#npc Thi\u00d5t M\u00b7 B\u00a8ng Qua"
+    },
+    {
+      "template": 148,
+      "slot": 3,
+      "skill": 71,
+      "name": "#npc B\u00a8ng Phong B\u00b9o"
+    },
+    {
+      "template": 148,
+      "slot": 4,
+      "skill": 87,
+      "name": "#npc B\u00a8ng Phong V\u00b9n L\u00fd"
+    }
+  ],
+  "chests": 4,
+  "lootSeconds": 600
+}

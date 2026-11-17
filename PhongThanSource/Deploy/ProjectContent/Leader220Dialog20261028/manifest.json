@@ -1,0 +1,11 @@
+{
+  "scope": "Clan leader template 220 and complete ActionScript path/hash binding for native quest services",
+  "files": [
+    {
+      "role": "Server",
+      "relative": "CoreServer.dll",
+      "before": "2e546a76c60945d1fa9cb93333b6220a854bafb13baaec61a0084dce3b5efa1c",
+      "sha256": "da19cff8076bfc4797fe3e6ee3c7b6eaae463a6d77fbe3fb7daf8ce250be0dbf"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "role": "Server",
+      "relative": "settings/item/001/ibitem.txt",
+      "before": "355734b9122706c7abca7a4d25022f3d5bf8b15cfe8bb7ccf432defae1159260",
+      "sha256": "5c138a28b4f18f2345dc93c76de1fdf26f08e2c198b22fab12d369bd4701a33b"
+    },
+    {
+      "role": "Client",
+      "relative": "settings/item/001/ibitem.txt",
+      "before": "9b67eb4fead7df1c300ebdc9c1b3bdc4f0b0c086e50b0a6898c5fd5747d90dea",
+      "sha256": "0a4275f5537d3722a9b4009cbad661cbcabbb11f2457f60e468c47ddb4b1c7fe"
+    },
+    {
+      "role": "Server",
+      "relative": "script/\u00ba\u00ec\u00c3\u00fb\u00b5\u00ba/\u00b4\u00ac\u00b7\u00f2.lua",
+      "before": "4394c69cbb97c9d6b668e8963f6b815a47429b16bb0e6ac5864c0d524608e63b",
+      "sha256": "958ab28c8af7ff2a65451d745d16154e0f674f945b22bc284a3b5eb7256cdf7d"
+    },
+    {
+      "role": "Server",
+      "relative": "CoreServer.dll",
+      "before": "72f24528f72471cbf7d8cd4a51d74783fed6c9c5a3396553370aa605dd968edc",
+      "sha256": "2ecaa3a779096a4f40a68e16ff9037ae3675a536a7343310b869e338d7944074"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType><TargetFramework>net10.0-windows</TargetFramework><UseWPF>true</UseWPF>
+    <StartupObject>PhongThan.EventService.ServiceApplication</StartupObject>
+    <AssemblyName>PhongThan.Event</AssemblyName>
+    <ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup><ProjectReference Include="../EventRuntime/PhongThan.Event.Runtime.csproj" /></ItemGroup>
+  <ItemGroup><None Include="PhongThan.Event.cfg" CopyToOutputDirectory="PreserveNewest" /></ItemGroup>
+</Project>

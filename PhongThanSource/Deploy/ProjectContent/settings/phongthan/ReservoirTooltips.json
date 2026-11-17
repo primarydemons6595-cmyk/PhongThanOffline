@@ -1,0 +1,248 @@
+{
+  "classification": "PROJECT_RECONSTRUCTION_FROM_PT_IBITEM",
+  "rows": [
+    {
+      "detail": 28,
+      "part": 3,
+      "capacity": 50000,
+      "effect": 153,
+      "rate": 50,
+      "path": "script/item/phongthan_reservoir/pool_28_3.lua",
+      "sha256": "76d07c2a8c3fd2eaf588361eaef9233d5f630f9ad851962c7543646178aabd4b"
+    },
+    {
+      "detail": 29,
+      "part": 4,
+      "capacity": 50000,
+      "effect": 154,
+      "rate": 50,
+      "path": "script/item/phongthan_reservoir/pool_29_4.lua",
+      "sha256": "8a65c18c12ff63d4bd2b87e8b3bd08dddb99ac4e05e4c82ef8a2531c9cc7c608"
+    },
+    {
+      "detail": 162,
+      "part": 3,
+      "capacity": 200000,
+      "effect": 153,
+      "rate": 50,
+      "path": "script/item/phongthan_reservoir/pool_162_3.lua",
+      "sha256": "50700372cdfa8cc7d7b6591848f64db072eddedeb69f9a48055594ed2cec627b"
+    },
+    {
+      "detail": 163,
+      "part": 4,
+      "capacity": 200000,
+      "effect": 154,
+      "rate": 50,
+      "path": "script/item/phongthan_reservoir/pool_163_4.lua",
+      "sha256": "d46bf158b9659b96fc52048f508942ea480bf9efc8e01f87ed9d5591db1041cb"
+    },
+    {
+      "detail": 198,
+      "part": 3,
+      "capacity": 35000,
+      "effect": 153,
+      "rate": 250,
+      "path": "script/item/phongthan_reservoir/pool_198_3.lua",
+      "sha256": "86c9830850960d30ab8aa33a0bfb6d9a913544c843e4ddb730b86533a6b08c4b"
+    },
+    {
+      "detail": 199,
+      "part": 4,
+      "capacity": 35000,
+      "effect": 154,
+      "rate": 250,
+      "path": "script/item/phongthan_reservoir/pool_199_4.lua",
+      "sha256": "6876a13e597a7b5760d44a050447a59c1d171512c8540ba2dfce73564877ac29"
+    },
+    {
+      "detail": 381,
+      "part": 3,
+      "capacity": 200000,
+      "effect": 153,
+      "rate": 50,
+      "path": "script/item/phongthan_reservoir/pool_381_3.lua",
+      "sha256": "c149940f911e28576de6f28b2aa0001b2e8be23ff8abd509648f2764a77bffa7"
+    },
+    {
+      "detail": 382,
+      "part": 4,
+      "capacity": 200000,
+      "effect": 154,
+      "rate": 50,
+      "path": "script/item/phongthan_reservoir/pool_382_4.lua",
+      "sha256": "7de283a950527a0b92e01465b217069c3fb157d6af2fb3484ce75a7d45bbbcdf"
+    },
+    {
+      "detail": 383,
+      "part": 3,
+      "capacity": 180000,
+      "effect": 153,
+      "rate": 250,
+      "path": "script/item/phongthan_reservoir/pool_383_3.lua",
+      "sha256": "79f714242ce183d022eecb5686cab4a33a04946737a6f1f1cdf94361b8fc7e29"
+    },
+    {
+      "detail": 384,
+      "part": 4,
+      "capacity": 180000,
+      "effect": 154,
+      "rate": 250,
+      "path": "script/item/phongthan_reservoir/pool_384_4.lua",
+      "sha256": "9093acb25f4e360625f42c4ee1e88bd3b68da566eaedf30449e2b5ccbe90d3a4"
+    },
+    {
+      "detail": 501,
+      "part": 3,
+      "capacity": 60000,
+      "effect": 153,
+      "rate": 1000,
+      "path": "script/item/phongthan_reservoir/pool_501_3.lua",
+      "sha256": "3a38f048c6dc6106745dc1e9cb9c41b993c55ece5cc51c243605e115209def78"
+    },
+    {
+      "detail": 735,
+      "part": 3,
+      "capacity": 120000,
+      "effect": 153,
+      "rate": 200,
+      "path": "script/item/phongthan_reservoir/pool_735_3.lua",
+      "sha256": "34ecc07f230d4d6a04c7d2665ab4dffbba9e902853e78677834fb693b569246e"
+    },
+    {
+      "detail": 736,
+      "part": 4,
+      "capacity": 120000,
+      "effect": 154,
+      "rate": 200,
+      "path": "script/item/phongthan_reservoir/pool_736_4.lua",
+      "sha256": "f8923904c18113e87b86a2db91a7da6ec3731fe7b2d46c13e34377f31b8c4d7c"
+    },
+    {
+      "detail": 779,
+      "part": 3,
+      "capacity": 50000,
+      "effect": 153,
+      "rate": 50,
+      "path": "script/item/phongthan_reservoir/pool_779_3.lua",
+      "sha256": "e7e72f28440a2220d46743ead76c0dbe4e58ff94c469684317de6c6e65017187"
+    },
+    {
+      "detail": 780,
+      "part": 4,
+      "capacity": 50000,
+      "effect": 154,
+      "rate": 50,
+      "path": "script/item/phongthan_reservoir/pool_780_4.lua",
+      "sha256": "302eaa542c32a6837e924e9d8ec4abdd1df624f00aa0c86438148d243054a2e0"
+    },
+    {
+      "detail": 1224,
+      "part": 3,
+      "capacity": 20000,
+      "effect": 153,
+      "rate": 50,
+      "path": "script/item/phongthan_reservoir/pool_1224_3.lua",
+      "sha256": "ecc98d11dd1dc641af7e759bea6b1f463a1f94dc0811148f5a4f6d06dda0b680"
+    },
+    {
+      "detail": 1225,
+      "part": 3,
+      "capacity": 20000,
+      "effect": 153,
+      "rate": 50,
+      "path": "script/item/phongthan_reservoir/pool_1225_3.lua",
+      "sha256": "0cbbd832320ce0defec6a87552da5f9dbc5094e584836dc0a427cd4900cf8e8a"
+    },
+    {
+      "detail": 1284,
+      "part": 3,
+      "capacity": 200000,
+      "effect": 153,
+      "rate": 50,
+      "path": "script/item/phongthan_reservoir/pool_1284_3.lua",
+      "sha256": "d773a4b43dcc7256247f1db40b12326c8efbebf379b64738f62d5c33b834fac7"
+    },
+    {
+      "detail": 1285,
+      "part": 4,
+      "capacity": 200000,
+      "effect": 154,
+      "rate": 50,
+      "path": "script/item/phongthan_reservoir/pool_1285_4.lua",
+      "sha256": "bb6678c6956b8b8ce5bb3ab7bcf860206e83ea752447209e28f5a37397c32cd5"
+    },
+    {
+      "detail": 1286,
+      "part": 3,
+      "capacity": 20000,
+      "effect": 153,
+      "rate": 200,
+      "path": "script/item/phongthan_reservoir/pool_1286_3.lua",
+      "sha256": "ab06d35629138e7fb1dff21a587c4759efda01db8e7ec2bae82b4ca5f8a923e9"
+    },
+    {
+      "detail": 1287,
+      "part": 4,
+      "capacity": 20000,
+      "effect": 154,
+      "rate": 200,
+      "path": "script/item/phongthan_reservoir/pool_1287_4.lua",
+      "sha256": "a4d3a8b0e4b311e43eb80666471e51767fdca5068e05b4216f81bab4cc022422"
+    },
+    {
+      "detail": 1301,
+      "part": 3,
+      "capacity": 7000,
+      "effect": 153,
+      "rate": 500,
+      "path": "script/item/phongthan_reservoir/pool_1301_3.lua",
+      "sha256": "e6d08929c7ed6213ed31f0e65d5f60a63c61f1e20731bb8965cfb4abf4264c4a"
+    },
+    {
+      "detail": 8729,
+      "part": 3,
+      "capacity": 140000,
+      "effect": 153,
+      "rate": 250,
+      "path": "script/item/phongthan_reservoir/pool_8729_3.lua",
+      "sha256": "baa67473bdb58a6f4847a4ceaf378dc59018131c970dd25184ce6b1e53335df4"
+    },
+    {
+      "detail": 8730,
+      "part": 4,
+      "capacity": 140000,
+      "effect": 154,
+      "rate": 250,
+      "path": "script/item/phongthan_reservoir/pool_8730_4.lua",
+      "sha256": "d2e85c1088e0c1c4500b8e9d8988ada42ff677fba17c59b1180e2ba4b17151a4"
+    },
+    {
+      "detail": 9550,
+      "part": 4,
+      "capacity": 35000,
+      "effect": 154,
+      "rate": 275,
+      "path": "script/item/phongthan_reservoir/pool_9550_4.lua",
+      "sha256": "fa68ae55fb179d2f921cebfdf83ed3571c0cffe994df3d4ff14f8a25c6ab8323"
+    }
+  ],
+  "excluded_instant_drinks": [
+    [
+      1054,
+      3
+    ],
+    [
+      1055,
+      4
+    ],
+    [
+      1353,
+      3
+    ],
+    [
+      1354,
+      4
+    ]
+  ]
+}

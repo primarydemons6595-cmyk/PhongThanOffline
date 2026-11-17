@@ -1,0 +1,13 @@
+{
+  "original_path": "Ui/ui3/bufferconfig.ini",
+  "original_pak": "Client_Original/data/vng00.pak",
+  "path_hash": "FF0CD8FA",
+  "entry_index": 5130,
+  "payload_bytes": 1083135,
+  "sha256": "6DDD62740F4C4E7BD6BE00FFDA855772848D1B8E8AFCF709A28F5CA77FF18549",
+  "evidence_path": "analysis/repair/pt_original_bufferconfig.bin",
+  "canonical_path": "PhongThanSource/Deploy/ProjectContent/Ui/ui3/PtConsumableBuff.ini",
+  "resource_bytes": "UNCHANGED_ORIGINAL",
+  "binding": "RECONSTRUCTED_FROM_CLIENT_CONTRACT: confirmed powder detail 0..27 -> BuffInfo_0..27",
+  "scope": "display only; no invented SkillID or cancellation request"
+}

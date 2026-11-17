@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "files": [
+    {
+      "role": "Client",
+      "relative": "CoreClient.dll",
+      "before": "86519e51a7672b41f0f98424add9304e1c9a4e0897f8849bb6cf3e6c68f1dd6f",
+      "sha256": "010cf499afc8686f69ac62b7e02ca1676237e95a521f2c7cb867b58306268306"
+    }
+  ]
+}

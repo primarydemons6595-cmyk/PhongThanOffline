@@ -1,0 +1,8 @@
+[account]
+Server=__PORTABLE_SQL_PIPE__;Trusted_Connection=Yes
+Port=1433
+DataBase=account
+User=
+PassWord=
+
+

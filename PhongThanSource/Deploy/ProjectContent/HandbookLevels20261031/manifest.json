@@ -1,0 +1,17 @@
+{
+  "scope": "LOOSE_ONLY",
+  "levels": [
+    50,
+    70,
+    90,
+    150,
+    200
+  ],
+  "files": [
+    {
+      "path": "Server/script/phongthan/test/event_handbook.lua",
+      "sha256": "9746709d82cdfae1eb0caf50afbbae8bf31d491d65acdca80233d120228eb73a",
+      "before_sha256": "cfa198e22561f36150ce2769c51c6bbf5373395837f207711125c5545f9f7773"
+    }
+  ]
+}

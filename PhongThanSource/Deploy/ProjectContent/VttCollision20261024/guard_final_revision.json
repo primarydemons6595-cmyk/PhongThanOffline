@@ -1,0 +1,22 @@
+{
+  "files": [
+    {
+      "role": "Server",
+      "relative": "script/phongthan/van_tien/boss4.lua",
+      "sha256": "76839e35d7006378c87f204954c5ce1a3ec60547efcb92a7e61f5cae4909e904",
+      "before": "01ea74dd45887f143e02870648be087d82df077024b2ad30436db90e4b5778ee"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/van_tien/guard4.lua",
+      "sha256": "d9c62ff6d92d1d9d60bdcc691d238e67ed4f959469df3ac0b2e18a632cd015c6",
+      "before": "94b8549f321ac8c695fc93473759fc70c1b99283eaf1e236bdcdcb5d3d1041a5"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/van_tien/mission04.lua",
+      "sha256": "26976abff799c926cf7f65ea5ec7d3c0347d8d05fb54ea88b1249876a9d3e8f5",
+      "before": "3d57f6fb458bc13d01197254b0cb62b9501a7c36671104ed8163f1eac4a15899"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "scope": "Use exact original life-skill progress SPRs; expanded-minimap region viewer; soul circle foot anchor, placement gate and native timed buff lifecycle",
+  "files": [
+    {
+      "role": "Client",
+      "relative": "CoreClient.dll",
+      "before": "b04d33e95be7f054c470d21be21984efdb80492f2bc3fa3fdf12eda3cdddb227",
+      "sha256": "a442a95a1ad32605bfa20269cc3ba56853523983823050d4b05bf9fddec9b3c6"
+    },
+    {
+      "role": "Client",
+      "relative": "Game.exe",
+      "before": "30e4fd095a1416ad98ad25a0de6fb223a731750d38de2b4c402f4036a059d67d",
+      "sha256": "4a0f6f5c2323c6be1a041be9432e53ecf4de7c5bb38028481a6940b9e7b1bbd8"
+    },
+    {
+      "role": "Client",
+      "relative": "script/phongthan/daily/banner.lua",
+      "before": null,
+      "sha256": "e8b28e61fcce4807567ddf75a9d5ce3bc787b8f5149e29152ef4a57f360f6cca"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/gather/background.spr",
+      "before": null,
+      "sha256": "39a1fcb7859acb74b37df133940282657544ea26bb8667c7a4fc16d1c63a7737"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/gather/fill.spr",
+      "before": null,
+      "sha256": "56e148400ed26eb85743b4bb0935b7ef1dfc674c743a2b0e7eb5a4aec249860a"
+    },
+    {
+      "role": "Server",
+      "relative": "CoreServer.dll",
+      "before": "6ba6210acd6012c3c31c71833b99f901a661ccd8b147f0215b18e27e91c8628f",
+      "sha256": "2d5e7291a2f0a47f941725c9cc59f7fd52df4bc5abe3839639bb8b341160f8f0"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/daily/banner.lua",
+      "before": "93f8b2184f13f3cd8dc36c8bca856ac798ba0cff700961f94cae9fbb9d1fa75e",
+      "sha256": "e8b28e61fcce4807567ddf75a9d5ce3bc787b8f5149e29152ef4a57f360f6cca"
+    }
+  ]
+}

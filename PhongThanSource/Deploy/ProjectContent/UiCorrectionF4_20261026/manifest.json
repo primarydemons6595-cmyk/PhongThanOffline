@@ -1,0 +1,293 @@
+{
+  "files": [
+    {
+      "role": "Client",
+      "relative": "ui/ui3/PtEquipSets.ini",
+      "before": null,
+      "sha256": "b1df2c2461b3b577a931bd20219d6e396adb9ab5215ca73d9de616935c17e61b"
+    },
+    {
+      "role": "Client",
+      "relative": "ui/ui3/PtMiniMapLeft.ini",
+      "before": "0ce2662d73008f00745112cff537a518ba92263575d4db835121d0ba759333be",
+      "sha256": "0a464720854ca1151dc679b6f17ff2ffa93fe1da04ac761cb23321a41e0f87cd"
+    },
+    {
+      "role": "Client",
+      "relative": "ui/ui3/UiItem.ini",
+      "before": "034c637c72df87d2d7070b8c8e31adaee33895b891eafe45f4a674e3f5428528",
+      "sha256": "2947e38354c95447c82a3b7fca43b6546225d6993a376f9b7b05d2c4ee598117"
+    },
+    {
+      "role": "Client",
+      "relative": "ui/ui3/UiWorldMap.ini",
+      "before": "48a7d443ac21008df03727102599a1a1bf9a3152a5435823c255b628f5cf9895",
+      "sha256": "a46bb6fb1c58f44401adf83306e27887f23122c44d42425d2cb14e6c68ae4132"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/regionmaps/1001.spr",
+      "before": null,
+      "sha256": "455239391edaaa5e219386a495d596ae497443c665d2d6025ab2c6008e65b007"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/regionmaps/1002.spr",
+      "before": null,
+      "sha256": "d69a6666f3394d50252aadec58d86970dfdb2f15de6812f505d47f74435c6636"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/regionmaps/1003.spr",
+      "before": null,
+      "sha256": "3f3251aed61193f4d1804c81db5746779515505aa38b6a8e2f510ba4d4980369"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/regionmaps/1004.spr",
+      "before": null,
+      "sha256": "00fc15a9e93a4423473773bb8c9a657da42f69214c09a45d36916bcb2676db6f"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/regionmaps/1005.spr",
+      "before": null,
+      "sha256": "f0e74156ab058a806405c25e997e87e111953e321b283dc0fb506bfa73deca1d"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/regionmaps/1006.spr",
+      "before": null,
+      "sha256": "4daa052bb6aa1700a2016cca87090775bce7d5f52f0c0246242c54f40bd8d07b"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/regionmaps/1007.spr",
+      "before": null,
+      "sha256": "d9a1dda9e9e5ebb1291d845fbdb61f21875bf3a9ab49be4bab34790500ea0c7e"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/regionmaps/1008.spr",
+      "before": null,
+      "sha256": "8a2e8c9c6d2cdb26231a5ee4b2ddc5118edd8de0167e7f403089d8da3fee6bed"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/regionmaps/1009.spr",
+      "before": null,
+      "sha256": "8a0cac1b39d3d692950b1a6e72dc4c739a17ee9f47fc7cd0b3c1fbf166b837ad"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/regionmaps/1010.spr",
+      "before": null,
+      "sha256": "bbc18946cc8319338cc121af09afecc75e021525300e80ea2cef4c696abb6b03"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/regionmaps/1011.spr",
+      "before": null,
+      "sha256": "a8114b6b2ad6f8bb8fcbe62b0eb41d22addc11f238c0ffaa0fe25802373073e7"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/regionmaps/1012.spr",
+      "before": null,
+      "sha256": "16d4703db7a7a7b2c182b2c6581b269467b303f3d7ba13056ebf238731baddf8"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/regionmaps/1013.spr",
+      "before": null,
+      "sha256": "6e62d984fca2c535f2f621da7f706950cc671a41d9f7c469dad49dbc52fa7a1a"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/regionmaps/1014.spr",
+      "before": null,
+      "sha256": "9b4b1980e367f2896842725babb8ca7edea64e9e8a617da36b385744ae55b061"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/regionmaps/1015.spr",
+      "before": null,
+      "sha256": "178b689a4314443f6d9634d885309f5d1b872c258c525cf00fb2377732fc75ed"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/regionmaps/1016.spr",
+      "before": null,
+      "sha256": "2498b97b77bba7c0e61a8acbec63007e9c9c8cc22f2b6a167d0f9048d2259ccb"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/regionmaps/1017.spr",
+      "before": null,
+      "sha256": "e1747c19154fa385cb1499c02522f9ee91b4fb3536a8c8feeef9d0d5540c46e4"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/regionmaps/1018.spr",
+      "before": null,
+      "sha256": "24d2fe8f4387594c100195cf50521b4fb246843b932c2712d54f3fc98c7d8cee"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/regionmaps/1019.spr",
+      "before": null,
+      "sha256": "aa97e9b17f0aa49fa5b3739475462fb1fb28d06bf110eabb5605c3d282c54899"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/regionmaps/1020.spr",
+      "before": null,
+      "sha256": "b446bfc618816efe2976c93d0e48320d789b7bc891bd62f956b7e82826421f61"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/regionmaps/1021.spr",
+      "before": null,
+      "sha256": "9b02ab1d4725b4695ba3a47d7b25753f6b6023195f125414ac8ace8774aa422e"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/regionmaps/1022.spr",
+      "before": null,
+      "sha256": "5a2387f1e9e4d4ed3c2a92cc1eec1d8ed60b9a6aac40c5902d97c05b35fc0de8"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/regionmaps/1027.spr",
+      "before": null,
+      "sha256": "78a407259598423d83e078c94f5eeb1accc44a01cd87b782ee01a3b0d3d73c6a"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/regionmaps/1032.spr",
+      "before": null,
+      "sha256": "ffb6f6bbe0714bbe677672aabe1793751b5f17c5a408fca226ca04b73a4192c6"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/regionmaps/1037.spr",
+      "before": null,
+      "sha256": "aac74d606b777f4f9c0107097a0543921667e1869f9c9e0a558e0776cd840f46"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/regionmaps/1042.spr",
+      "before": null,
+      "sha256": "552d418d476a06b549682c338efe19c0a10063bd62904cb3985b3ea4073b8e5f"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/regionmaps/1047.spr",
+      "before": null,
+      "sha256": "fa6fcb053da7ec8971eed08ceb8feaeddf9eb8badaa8757d7d7b6498ad52b339"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/regionmaps/1052.spr",
+      "before": null,
+      "sha256": "3924c1b4dea68150172bd2ac91c9d6dcb7e37e1db10bbc642e6f358292e73245"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/regionmaps/1054.spr",
+      "before": null,
+      "sha256": "0af78efbaeafd5b80895a9f74bbb83b38c27a98876ff5aa676c01428ac39b5a3"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/regionmaps/1055.spr",
+      "before": null,
+      "sha256": "01c8db49714e31e537488e56168205aab4b3ece7610eb5397fd8a9393fb20787"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/regionmaps/1056.spr",
+      "before": null,
+      "sha256": "643ddfe536df85102b35f513de1ffd8022a5c01876caedf4ca90a609a0f23d53"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/regionmaps/1065.spr",
+      "before": null,
+      "sha256": "0de8d3cbd81be47b79ccd288503d823bf2078c585a7cb3f340023208c3795137"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/uicorrection/0d1997db.spr",
+      "before": null,
+      "sha256": "d07715a7c333ec825b4b4ae378c3c2caf896b7af5576d1e8ce4cf47f76f890df"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/uicorrection/0faf0fb9.spr",
+      "before": null,
+      "sha256": "fb6e36efdd960dc10ad79c5596b20b0af933768111e522702e8437413c56317f"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/uicorrection/1411d77c.spr",
+      "before": null,
+      "sha256": "73105649ac49f4fd5056b6b92af3c58bbf6dcc0fd4eab861236bcf3b137ecb30"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/uicorrection/215c4970.spr",
+      "before": null,
+      "sha256": "ef54284f0792a66fe59f9bf8e26dd0be8620ab54ef49cb5f8c5c86b5bd19e818"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/uicorrection/568d138a.spr",
+      "before": null,
+      "sha256": "57861a0d2b68f9de52dcbb929034daa35dd7aab37d01f425ea01da5711198fd9"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/uicorrection/5a951e8c.spr",
+      "before": null,
+      "sha256": "87e71e5f46649e1fa6b61a8bd5d6d34f94233021d3a72033c116bda97c3c4e7b"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/uicorrection/a24bec28.spr",
+      "before": null,
+      "sha256": "cb67175769e3c5c7cf570a14ab5cc7b6aad136fb1ed80ffde82916dc6cd04eb1"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/uicorrection/a6fc0b73.spr",
+      "before": null,
+      "sha256": "528558f3ed221e892414a9e34d060162b08efb6f9eea6dbefa9252b8a89900e2"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/uicorrection/f334e457.spr",
+      "before": null,
+      "sha256": "3beac0c092f41912ffa2091e325d0b6967a1d15ba8ee7eb1a85a21c712c277fe"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/uicorrection/f94eb1f9.spr",
+      "before": null,
+      "sha256": "ef45600a29e7917adcc50b446053320b81f6e0b842b1d8bb38d573140a836f78"
+    },
+    {
+      "role": "Client",
+      "relative": "Game.exe",
+      "before": "c633c54cdc69fbf24558a06fc98718cd5d2ebe18ee051f905dd872c4db1f1a21",
+      "sha256": "033255b50bd8359f79b98ee7fea6a517322212312efe61fb29ff235bdf1630e2"
+    },
+    {
+      "role": "Client",
+      "relative": "CoreClient.dll",
+      "before": "571fc4c40b884b00aee2d913ddca63c40e59905c1726c3ce84040a85e90cfe1e",
+      "sha256": "46ab3a6295325c099c5f342b86161c58c9e554e07f5216de6d212eb6bee60e8b"
+    }
+  ],
+  "scope": "Client-only: original minimap anchor/positions and hover arrows; separate four-row shield menu; compact centred ESC; 32 original regional map viewers; original ten-set F4 equipment presets with server-acknowledged moves. Original Lei Zhen Zi script audited, no invented branches."
+}

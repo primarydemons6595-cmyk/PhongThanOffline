@@ -1,0 +1,338 @@
+{
+  "schema": 1,
+  "quests": 10,
+  "hopeCounter": 418,
+  "scoutSuccessfulRounds": 10,
+  "files": [
+    {
+      "role": "Server",
+      "relative": "settings/phongthan/npc_regions/1016/v_098/102_region_s.dat",
+      "before": "6d3b377566a44cc012f4132ca9de9fab4a20a594c1605997197f02c7ffc87462",
+      "sha256": "958be4423a2f952605c3e70a4d2f5f9129042950e6a949fce88c021738437001"
+    },
+    {
+      "role": "Server",
+      "relative": "settings/phongthan/npc_regions/1016/v_100/102_region_s.dat",
+      "before": "39a48b62498b70bb6b2436c9ce0f37cdbaee3c0e4aade3ede82b6262d3d87673",
+      "sha256": "9186d1a19a70ff632c39c76d623bd308bd4c9e3d018323239a63235e7380b24b"
+    },
+    {
+      "role": "Server",
+      "relative": "settings/phongthan/npc_regions/1016/v_101/098_region_s.dat",
+      "before": "062fe8aa4cca0261bd8554afa47de65ca92281f85e5f1ddb8d1d2376d674f53f",
+      "sha256": "8aa5cf1b62ec1179f22170643384ae8ce0691adabfb4f5b52e22f12ba0193ded"
+    },
+    {
+      "role": "Server",
+      "relative": "settings/phongthan/npc_regions/1016/v_101/099_region_s.dat",
+      "before": "823799c8d7e47b57567039a6d4048110f7eed711a9b4e499c10c72da3bd3b8b9",
+      "sha256": "d0742071f48beadd086605baf201d8547026b144e6ad3889f017ad0d59b1fc80"
+    },
+    {
+      "role": "Server",
+      "relative": "settings/phongthan/npc_regions/1016/v_101/100_region_s.dat",
+      "before": "495b021b0393d97826b4f95f343a9aeeb3f663c77c5e9e3c92a3e71f0877495d",
+      "sha256": "5df4c064da042b03a0c946371d5bd82a864dccc6ef777257deb27f166547c365"
+    },
+    {
+      "role": "Server",
+      "relative": "settings/phongthan/npc_regions/1016/v_101/101_region_s.dat",
+      "before": "7b7b54adaa33bb9fbfe0a066eab54ddd0718914024f4459a6858fd446f341ba0",
+      "sha256": "2b6dc48fb834c7233aa6b37d687ea4bb77f4e800a19c02c78b259c7d22d1e1b8"
+    },
+    {
+      "role": "Server",
+      "relative": "settings/phongthan/npc_regions/1016/v_101/102_region_s.dat",
+      "before": "bc073419d0941b5deaabb94d479b3ef3be09eb01c7af8ceb112b84fa5cb1cc22",
+      "sha256": "0c22e00bc8c7bd9257ad18811d665e663c49529060a1ebe6bc52e21f6867d888"
+    }
+  ],
+  "originalCompletionHooks": {
+    "script/²ÊÆ±/ØÔ.lua": [
+      "seven"
+    ],
+    "script/³¯¸è/»ÆÌì»¯.lua": [
+      "scout"
+    ],
+    "script/·âÉñÌ¨/°Ø¼ø.lua": [
+      "tree"
+    ],
+    "script/ÅÜÉÌ/»õÉÌºúÎ÷áª.lua": [
+      "trade"
+    ],
+    "script/ÅÜÉÌ/»õÉÌ¼ÖÐùÔ¯¶´3²ã.lua": [
+      "trade"
+    ],
+    "script/ÅÜÉÌ/»õÉÌÀî³ç³Ç.lua": [
+      "trade"
+    ],
+    "script/ÅÜÉÌ/»õÉÌÁõ¶«º£º£¹µ.lua": [
+      "trade"
+    ],
+    "script/ÅÜÉÌ/»õÉÌÍõò¿ÓÈÄ¹.lua": [
+      "trade"
+    ],
+    "script/ÅÜÉÌ/»õÉÌÎâ´ó·ç±ù´¨.lua": [
+      "trade"
+    ],
+    "script/ÅÜÉÌ/»õÉÌÕÅÓñÐé¹¬.lua": [
+      "trade"
+    ],
+    "script/ÅÜÉÌ/»õÉÌÕÔÉ³Ä®·çÌ².lua": [
+      "trade"
+    ],
+    "script/ÅÜÉÌ/»õÉÌÖÜ³¯¸è.lua": [
+      "trade"
+    ],
+    "script/Î÷áª/ÐÁÃâ.lua": [
+      "tools"
+    ],
+    "script/Ñþ³Ø/º¯Ö¥ÏÉ×Ó.lua": [
+      "scout",
+      "tools"
+    ],
+    "script/Ñþ³Ø/Áú¼ª¹«Ö÷.lua": [
+      "soul"
+    ],
+    "script/phongthan/npc_restore/1002_13.lua": [
+      "trade"
+    ],
+    "script/phongthan/npc_restore/1003_08.lua": [
+      "trade"
+    ],
+    "script/phongthan/npc_restore/1004_09.lua": [
+      "trade"
+    ],
+    "script/phongthan/npc_restore/1020_10.lua": [
+      "trade"
+    ],
+    "script/phongthan/npc_restore/1021_12.lua": [
+      "trade"
+    ],
+    "script/phongthan/npc_restore/1021_16.lua": [
+      "scout"
+    ]
+  },
+  "npcAdditions": [
+    {
+      "map": 1001,
+      "tid": 190,
+      "name": "Ân Hồng",
+      "x": 190,
+      "y": 199,
+      "mps": [
+        48752,
+        102128
+      ],
+      "script": "script/phongthan/daily/npc_an_hong.lua",
+      "region": "settings/phongthan/npc_regions/1001/v_099/095_region_s.dat"
+    },
+    {
+      "map": 1001,
+      "tid": 190,
+      "name": "Ân Giao",
+      "x": 184,
+      "y": 193,
+      "mps": [
+        47216,
+        99056
+      ],
+      "script": "script/phongthan/daily/npc_an_giao.lua",
+      "region": "settings/phongthan/npc_regions/1001/v_096/092_region_s.dat"
+    },
+    {
+      "map": 1001,
+      "tid": 194,
+      "name": "Bách Giám",
+      "x": 206,
+      "y": 195,
+      "mps": [
+        52848,
+        100080
+      ],
+      "script": "script/·âÉñÌ¨/°Ø¼ø.lua",
+      "region": "settings/phongthan/npc_regions/1001/v_097/103_region_s.dat"
+    },
+    {
+      "map": 1020,
+      "tid": 190,
+      "name": "Tân Miễn",
+      "x": 190,
+      "y": 190,
+      "mps": [
+        48752,
+        97520
+      ],
+      "script": "script/Î÷áª/ÐÁÃâ.lua",
+      "region": "settings/phongthan/npc_regions/1020/v_095/095_region_s.dat"
+    },
+    {
+      "map": 1044,
+      "tid": 646,
+      "name": "Chủ tửu quán Tây Vực",
+      "x": 236,
+      "y": 192,
+      "mps": [
+        60528,
+        98544
+      ],
+      "script": "script/phongthan/daily/npc_wine_giver.lua",
+      "region": "settings/phongthan/npc_regions/1044/v_096/118_region_s.dat"
+    },
+    {
+      "map": 1046,
+      "tid": 646,
+      "name": "Bích Du Nhân",
+      "x": 237,
+      "y": 187,
+      "mps": [
+        60752,
+        95952
+      ],
+      "script": "script/phongthan/daily/npc_wine_receiver.lua",
+      "region": "settings/phongthan/npc_regions/1046/v_093/118_region_s.dat"
+    }
+  ],
+  "limitations": [
+    "New Siêu Độ, Tứ Linh, Tống Tửu, Thiên Cương gameplay is authored for this runtime, not byte-identical VNG script.",
+    "Nhập Hồn preserves the older installed original equipment infusion variant; modern dungeon variant not implemented.",
+    "Live visual and end-to-end gameplay acceptance has not been performed."
+  ],
+  "maxHope": 30,
+  "requiresNoPet": true,
+  "permanentAdoptionTask": 4363,
+  "repairedTamSonPositions": [
+    {
+      "map": 1016,
+      "tid": 190,
+      "x": 204,
+      "y": 197,
+      "name": "Đặng Cửu Công",
+      "script": "script/phongthan/giapsi/npc_dang.lua",
+      "kind": 3,
+      "level": 1,
+      "relative": "settings/phongthan/npc_regions/1016/v_098/102_npc_s.dat"
+    },
+    {
+      "map": 1016,
+      "tid": 149,
+      "x": 204,
+      "y": 200,
+      "name": "Đại Phu",
+      "script": "script/phongthan/giapsi/npc_doctor_tam.lua",
+      "kind": 3,
+      "level": 1,
+      "relative": "settings/phongthan/npc_regions/1016/v_100/102_region_s.dat"
+    },
+    {
+      "map": 1016,
+      "tid": 399,
+      "x": 196,
+      "y": 203,
+      "name": "Nguyên Sâm",
+      "script": "script/phongthan/giapsi/herb_0.lua",
+      "kind": 3,
+      "level": 1,
+      "relative": "settings/phongthan/npc_regions/1016/v_101/098_npc_s.dat"
+    },
+    {
+      "map": 1016,
+      "tid": 399,
+      "x": 197,
+      "y": 203,
+      "name": "Nguyên Sâm",
+      "script": "script/phongthan/giapsi/herb_1.lua",
+      "kind": 3,
+      "level": 1,
+      "relative": "settings/phongthan/npc_regions/1016/v_101/098_npc_s.dat"
+    },
+    {
+      "map": 1016,
+      "tid": 399,
+      "x": 198,
+      "y": 203,
+      "name": "Nguyên Sâm",
+      "script": "script/phongthan/giapsi/herb_2.lua",
+      "kind": 3,
+      "level": 1,
+      "relative": "settings/phongthan/npc_regions/1016/v_101/099_region_s.dat"
+    },
+    {
+      "map": 1016,
+      "tid": 399,
+      "x": 199,
+      "y": 203,
+      "name": "Nguyên Sâm",
+      "script": "script/phongthan/giapsi/herb_3.lua",
+      "kind": 3,
+      "level": 1,
+      "relative": "settings/phongthan/npc_regions/1016/v_101/099_region_s.dat"
+    },
+    {
+      "map": 1016,
+      "tid": 399,
+      "x": 200,
+      "y": 203,
+      "name": "Nguyên Sâm",
+      "script": "script/phongthan/giapsi/herb_4.lua",
+      "kind": 3,
+      "level": 1,
+      "relative": "settings/phongthan/npc_regions/1016/v_101/100_npc_s.dat"
+    },
+    {
+      "map": 1016,
+      "tid": 399,
+      "x": 201,
+      "y": 203,
+      "name": "Nguyên Sâm",
+      "script": "script/phongthan/giapsi/herb_5.lua",
+      "kind": 3,
+      "level": 1,
+      "relative": "settings/phongthan/npc_regions/1016/v_101/100_npc_s.dat"
+    },
+    {
+      "map": 1016,
+      "tid": 399,
+      "x": 202,
+      "y": 203,
+      "name": "Nguyên Sâm",
+      "script": "script/phongthan/giapsi/herb_6.lua",
+      "kind": 3,
+      "level": 1,
+      "relative": "settings/phongthan/npc_regions/1016/v_101/101_region_s.dat"
+    },
+    {
+      "map": 1016,
+      "tid": 399,
+      "x": 203,
+      "y": 203,
+      "name": "Nguyên Sâm",
+      "script": "script/phongthan/giapsi/herb_7.lua",
+      "kind": 3,
+      "level": 1,
+      "relative": "settings/phongthan/npc_regions/1016/v_101/101_region_s.dat"
+    },
+    {
+      "map": 1016,
+      "tid": 399,
+      "x": 204,
+      "y": 203,
+      "name": "Nguyên Sâm",
+      "script": "script/phongthan/giapsi/herb_8.lua",
+      "kind": 3,
+      "level": 1,
+      "relative": "settings/phongthan/npc_regions/1016/v_101/102_region_s.dat"
+    },
+    {
+      "map": 1016,
+      "tid": 399,
+      "x": 205,
+      "y": 203,
+      "name": "Nguyên Sâm",
+      "script": "script/phongthan/giapsi/herb_9.lua",
+      "kind": 3,
+      "level": 1,
+      "relative": "settings/phongthan/npc_regions/1016/v_101/102_region_s.dat"
+    }
+  ]
+}

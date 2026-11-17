@@ -1,0 +1,56 @@
+﻿{
+    "Scope":  "LOOSE_ONLY",
+    "Backup":  "E:\\ProjectAI\\PhongThan\\PT\\analysis\\realm_final_fix_20261102\\runtime-before-20261102_125737",
+    "Result":  "PASS",
+    "Files":  [
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\RealmFinalFix20261102\\binaries\\Client\\CoreClient.dll",
+                      "Path":  "Client/CoreClient.dll",
+                      "Done":  false,
+                      "After":  "743c249b3c4a3a051574969beb63f57b116552eb6be744dde3f6475308c613a7",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Client\\CoreClient.dll",
+                      "Before":  "b7dc1989052f04b767529d851cff5c23d8fa6a0c44a3686ca5d5dbe799f92342"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\RealmFinalFix20261102\\binaries\\Server\\CoreServer.dll",
+                      "Path":  "Server/CoreServer.dll",
+                      "Done":  false,
+                      "After":  "1d12fedd96a3984a9bff3e0cefbe34fa5c65e4898a9c60f86591a161911568d3",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\CoreServer.dll",
+                      "Before":  "cc3e02b50328a82ef161db6e597d6f042a6ff7261e0323d45fcb920ff37b1722"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\RealmFinalFix20261102\\binaries\\Server\\script\\phongthan\\realm\\boat_dong_doanh.lua",
+                      "Path":  "Server/script/phongthan/realm/boat_dong_doanh.lua",
+                      "Done":  false,
+                      "After":  "a0e0e46ddf327099c77fbcaa468256f057e85e874f15ca6218a40601f79a65c0",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\script\\phongthan\\realm\\boat_dong_doanh.lua",
+                      "Before":  "ed4a48ce4ab127b7a3f7dcfa9bd915d6736cb21b51ae83d5e7cd49fc4cfc6758"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\RealmFinalFix20261102\\binaries\\Server\\script\\phongthan\\realm\\boat_tran_duong.lua",
+                      "Path":  "Server/script/phongthan/realm/boat_tran_duong.lua",
+                      "Done":  false,
+                      "After":  "a0e0e46ddf327099c77fbcaa468256f057e85e874f15ca6218a40601f79a65c0",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\script\\phongthan\\realm\\boat_tran_duong.lua",
+                      "Before":  "ed4a48ce4ab127b7a3f7dcfa9bd915d6736cb21b51ae83d5e7cd49fc4cfc6758"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\RealmFinalFix20261102\\binaries\\Server\\script\\Ñþ³Ø\\ÇíÏöÄïÄï.lua",
+                      "Path":  "Server/script/Ñþ³Ø/ÇíÏöÄïÄï.lua",
+                      "Done":  false,
+                      "After":  "661d29f5f63b234135cfe7c92d0ba610f7f655a60ec5fd34a7e56fd791d5d8cf",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\script\\Ñþ³Ø\\ÇíÏöÄïÄï.lua",
+                      "Before":  "1ed9ceb578187080bb690698d25c9794cab23fb5ea001255a0d2fb3af68986b8"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\RealmFinalFix20261102\\binaries\\Server\\settings\\phongthan\\IslandReputation.ini",
+                      "Path":  "Server/settings/phongthan/IslandReputation.ini",
+                      "Done":  false,
+                      "After":  "44949b20462b30edcf50e379035d15948d70f591a0b62dfe88133a1cc6561c67",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\settings\\phongthan\\IslandReputation.ini",
+                      "Before":  null
+                  }
+              ],
+    "PublishedAtUtc":  "2026-11-02T05:57:39.6005724Z"
+}

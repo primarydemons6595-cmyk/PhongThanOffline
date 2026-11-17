@@ -1,0 +1,57 @@
+{
+  "scope": "LOOSE_ONLY",
+  "files": [
+    {
+      "path": "Server/script/phongthan/items/compass.lua",
+      "before": "190cecd9d09efae4ce2c46d6513aee0592d4c4e360de26b61fa3abe86551c824",
+      "after": "770deb45e2cf9df26c396573e80feacb7ae921503bbef3ea48e3c5f5fb7b8921"
+    },
+    {
+      "path": "Server/script/phongthan/travel_items.lua",
+      "before": "1cd69681e7c4ad9f26c53ce455e6ce7b2ff2ed96a57ee79140cbd0b7b2645168",
+      "after": "db7851a6c39161c5a663a9babd87015a127a0719fe532bc9f67b3920898c08c8"
+    },
+    {
+      "path": "Server/settings/item/001/ibitem.txt",
+      "before": "b5801f43cfdc1c6a13011a94872c3583569c41f1e73fb6b202aa93d39d105fa8",
+      "after": "c77e89d55d8a81a9cfa9948baa3ea8d32b23461376717bfba525e32f3c9cc28f"
+    },
+    {
+      "path": "Server/settings/ibshop/ibshopgoods.txt",
+      "before": "d29e603d23200ef764b7d5eed26d032d2374cf5821bc5600ec35e5f27e8a7475",
+      "after": "bd7d9f5ff15084155cc40b29408ff2889ffe23ec3bd7bc7a0b438b1155f0f95a"
+    },
+    {
+      "path": "Client/settings/item/001/ibitem.txt",
+      "before": "a44d086de0c89e71491457914a4b8a0d7a8e1734849a9c745a29482541fd22ec",
+      "after": "b3a4c2b067ecce0066c928cf3fd0433639ba8e6a035dca0eac9a7c2d1693f254"
+    },
+    {
+      "path": "Client/settings/ibshop/ibshopgoods.txt",
+      "before": "d29e603d23200ef764b7d5eed26d032d2374cf5821bc5600ec35e5f27e8a7475",
+      "after": "bd7d9f5ff15084155cc40b29408ff2889ffe23ec3bd7bc7a0b438b1155f0f95a"
+    },
+    {
+      "path": "Client/Ui/ui3/PtConsumableBuff.ini",
+      "before": "d576a6aaa55eb7f200bac134a93957abbdf8ae3a0730aed6fd557c56c648db51",
+      "after": "272a642439e2946e82c865f6855b84b1fa6fb34e99186569e1641248fc4e2a22"
+    }
+  ],
+  "native": [
+    {
+      "path": "Server/CoreServer.dll",
+      "before": "80149497fdc1f7ccd132eb7927bcc0f8a230e7032d2bc24a56637d95f5ebfa44",
+      "after": "81c0e437298f98aa8f47ba5ee9fb16e85a44586083785ac658eeac2d5e6f5bb6"
+    },
+    {
+      "path": "Client/CoreClient.dll",
+      "before": "498132cf66cc5a51cd5f67d7abd9ddb0d47fa0944192aeb148e3e17134c3529f",
+      "after": "d4e82b235d000d33988b65fddf3e8b5f57e19702c0d0ba8e612f6d96ed936916"
+    },
+    {
+      "path": "Client/Game.exe",
+      "before": "fe41a4d53e9f4e56569eb23ba6a1fdcc86cbe58a90ec83998d93f5b31330d034",
+      "after": "2bbe3f24db809475bd9d479f503d6a598e84a0dc490cb0b84f786e254fcade0d"
+    }
+  ]
+}

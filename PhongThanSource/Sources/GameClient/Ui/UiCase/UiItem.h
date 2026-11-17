@@ -1,0 +1,104 @@
+/*****************************************************************************************
+//	界面--道具界面
+//	Copyright : Kingsoft 2002
+//	Author	:   Wooy(Wu yue)
+//	CreateTime:	2002-9-2
+------------------------------------------------------------------------------------------
+*****************************************************************************************/
+#pragma once
+
+#include "../elem/WndButton.h"
+#include "../elem/WndImage.h"
+#include "../elem/WndText.h"
+#include "../elem/WndObjContainer.h"
+#include "../Elem/WndShowAnimate.h"
+#include "../../../core/src/GameDataDef.h"
+
+struct KUiObjAtRegion;
+
+#include "UiItemF4Resources.h"
+#include "UiPtPetPreview.h"
+#define UIITEM_EQUIP_BOX_COUNT 12
+
+class KUiItem : public KWndShowAnimate {
+public:
+    UIOBJECT_CONTAINER CurrentInventoryContainer() const {return GetInventoryContainer();}
+    static KUiItem *OpenWindow(bool bFlag = true);                //打开窗口，返回唯一的一个类对象实例
+    static KUiItem *GetIfVisible();                //如果窗口正被显示，则返回实例指针
+    static void CloseWindow(bool bDestroy);    //关闭窗口，同时可以选则是否删除对象实例
+    static void LoadScheme(const char *pScheme);//载入界面方案
+    static void OnNpcTradeMode(bool bTrue);
+
+    void RefreshInventory() { UpdateData(); }
+    static void ConfirmRepairAll();
+    static void RepairAllEquipped(int quotedPrice);
+    bool PutExternalItem(KUiDraggedObject* item, UIOBJECT_CONTAINER container);
+    void UpdateItem(KUiObjAtRegion *pItem, int bAdd);
+    void UpdateExpandItem(KUiObjAtRegion *pItem, int bAdd);//物品变化更新
+    void UpdateEquip(KUiObjAtRegion *pEquip, int bAdd);
+    void Breathe();                                    //活动函数
+private:
+    KUiItem() {}
+
+    ~KUiItem() {}
+
+    void Initialize();                            //初始化
+    int WndProc(unsigned int uMsg, unsigned int uParam, int nParam);//窗口函数
+    void UpdateData();
+    void SetInventoryPage(int nPage);
+    void ApplyInventoryDelta(KUiObjAtRegion* item, int add);
+    bool HandleEquipRightClick(KWndWindow* source);
+    void RefreshF4Availability();
+    bool IsInventoryPageAccessible() const;
+    bool HandleF4ResourceButton(unsigned int window);
+    UIOBJECT_CONTAINER GetInventoryContainer() const;
+    void UpdateAllEquips();
+    void OnObjectPickDrop(ITEM_PICKDROP_PLACE *pPickPos, ITEM_PICKDROP_PLACE *pDropPos);
+    int GetEquipBoxIndex(KWndWindow *pWnd);
+
+    void OnClickItem(KUiDraggedObject *pItem, bool bDoImmed);
+
+    void OnRepairItem(KUiDraggedObject *pItem, bool equipped = false);
+
+    void OnItemPickDrop(ITEM_PICKDROP_PLACE *pPickPos, ITEM_PICKDROP_PLACE *pDropPos);
+
+    void OnGetMoney(int nMoney);
+
+    void OnBreakItem(KUiDraggedObject *pItem, bool bDoImmed);
+
+    void OnSetPrice(KUiDraggedObject *pItem);
+
+private:
+    static KUiItem *m_pSelf;
+private:
+    int m_nMoney;
+    KWndText256 m_Money;
+    KWndText256 m_ExtPoint;
+    int m_nExtPoint;
+
+    KWndButton m_GetMoneyBtn;
+    KWndImage m_TitleIcon, m_MoneyIcon, m_GoldIcon;
+    KWndButton m_CloseBtn;
+    KWndButton m_DiscardLockBtn;
+    KPtF4ResourceControls m_PtF4;
+    KWndImage m_EquipImage;
+    KWndButton m_ChangeEquipSet;
+    KWndButton m_NormalEquipBtn;
+    KWndButton m_JEvilEquipBtn;
+    KWndImage m_EquipSlotImage[UIITEM_EQUIP_BOX_COUNT];
+    KWndObjectBox m_EquipBox[UIITEM_EQUIP_BOX_COUNT];
+    KWndObjectMatrix m_ItemBox;
+    KWndButton m_OpenStatusPadBtn;
+    KWndButton m_MakeAdvBtn;
+    KWndButton m_MarkPriceBtn;
+    KWndButton m_MakeStallBtn;
+    BYTE m_byMark;
+    KWndButton m_PageBtn[4];
+    int m_nInventoryPage;
+    bool m_InventoryDirty;
+    KWndImage m_PetFrame;
+    KPtPetPreview m_PetPreview;
+    void UpdatePetPreview();
+
+    char m_szAdvStr[16];
+};

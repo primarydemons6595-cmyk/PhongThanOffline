@@ -1,0 +1,39 @@
+{
+  "files": [
+    {
+      "role": "Server",
+      "relative": "script/phongthan/services/bank_rental.lua",
+      "sha256": "5ee3e8c13c62950ad687e5ad61d71949e4344229bd1acee4a500a0e769657396"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_recovered_batch/1020_828485f4.lua",
+      "sha256": "f9845a846bdf5e93034913d6fbc2a6f1ebd3b51ddf4f082d08a2680d15ad502a"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_recovered_batch/1021_828485f4.lua",
+      "sha256": "6917e70c39e143049696951c06ea28f77c6f397cdbd4f6fd9f0b9b88ee1d1e3e"
+    }
+  ],
+  "prices": {
+    "2": [
+      45,
+      9
+    ],
+    "3": [
+      60,
+      20
+    ],
+    "4": [
+      99,
+      30
+    ],
+    "5": [
+      149,
+      45
+    ]
+  },
+  "rental_days": 30,
+  "legacy_storage_preserved": true
+}

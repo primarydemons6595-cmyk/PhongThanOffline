@@ -1,0 +1,337 @@
+{
+  "scope": "User-approved six-family Loose trial formulas + GUI, Thần Kỹ-only cooldown overrides; no normal profession edits",
+  "profile": "LooseOnly",
+  "releaseBuilt": false,
+  "files": [
+    {
+      "path": "Client/settings/phongthan/ThanKyExperimental.ini",
+      "before_sha256": null,
+      "sha256": "8d2a0d089fa4ce12256a528df9432a5fee9dc438215811a77e49bec8ab159129",
+      "bytes": 1389
+    },
+    {
+      "path": "Server/script/phongthan/services/ho_lo_dang.lua",
+      "before_sha256": "dae4f7a2660187b14528d1a2d7a7cd53f1815ceeb4775cb4e41dc53d6b214ab9",
+      "sha256": "71a8d4de2ab49e2890659934c8552fc28fceb5f6d657d08831f442146b0cb7d2",
+      "bytes": 27776
+    },
+    {
+      "path": "Server/script/phongthan/test/event_handbook.lua",
+      "before_sha256": "6d7e6638d3e53f0a0f8f411eb4bc2c10bb82f58d5efbed6100f63ee886d30e57",
+      "sha256": "48ac658f8f758d9e63a3ddebd4a7b6f9fdfdc3d18e80440370b952ec52290038",
+      "bytes": 4133618
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/bang_hon_tuyet_phach.lua",
+      "before_sha256": "3ebc6462cd18ff9135fc3d42287ee85b49c27740d7afb33125b340ea7da6ae2e",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/doan_binh_giao_tiep.lua",
+      "before_sha256": "3ebc6462cd18ff9135fc3d42287ee85b49c27740d7afb33125b340ea7da6ae2e",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/hinh_thien_chien_y_cuong_dao.lua",
+      "before_sha256": "3ebc6462cd18ff9135fc3d42287ee85b49c27740d7afb33125b340ea7da6ae2e",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/hinh_thien_chien_y_ngu_sau.lua",
+      "before_sha256": "3ebc6462cd18ff9135fc3d42287ee85b49c27740d7afb33125b340ea7da6ae2e",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/hinh_thien_chien_y_phong_uyen.lua",
+      "before_sha256": "3ebc6462cd18ff9135fc3d42287ee85b49c27740d7afb33125b340ea7da6ae2e",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/hoa_dia_vi_lao.lua",
+      "before_sha256": "3ebc6462cd18ff9135fc3d42287ee85b49c27740d7afb33125b340ea7da6ae2e",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/huyen_anh_tan_hoa.lua",
+      "before_sha256": "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/huyen_anh_tan_hoa_cap_2.lua",
+      "before_sha256": "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/huyen_anh_tan_hoa_cap_3.lua",
+      "before_sha256": "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/huyen_anh_tan_hoa_cap_4.lua",
+      "before_sha256": "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/huyen_anh_tan_hoa_cap_5.lua",
+      "before_sha256": "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/huyet_nguyet_tram.lua",
+      "before_sha256": "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/huyet_nguyet_tram_cap_2.lua",
+      "before_sha256": "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/huyet_nguyet_tram_cap_3.lua",
+      "before_sha256": "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/huyet_nguyet_tram_cap_4.lua",
+      "before_sha256": "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/huyet_nguyet_tram_cap_5.lua",
+      "before_sha256": "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/kho_moc_phung_xuan.lua",
+      "before_sha256": "3ebc6462cd18ff9135fc3d42287ee85b49c27740d7afb33125b340ea7da6ae2e",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/loi_hoa_toan_phong.lua",
+      "before_sha256": "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/loi_hoa_toan_phong_cap_2.lua",
+      "before_sha256": "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/loi_hoa_toan_phong_cap_3.lua",
+      "before_sha256": "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/loi_hoa_toan_phong_cap_4.lua",
+      "before_sha256": "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/loi_hoa_toan_phong_cap_5.lua",
+      "before_sha256": "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/manh_bang_hon_tuyet_phach.lua",
+      "before_sha256": "2854f280899dc47b0736b67c9783eda833d4bfe77707d28d4c4039f03f906f93",
+      "sha256": "2854f280899dc47b0736b67c9783eda833d4bfe77707d28d4c4039f03f906f93",
+      "bytes": 246
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/manh_doan_binh_giao_tiep.lua",
+      "before_sha256": "2854f280899dc47b0736b67c9783eda833d4bfe77707d28d4c4039f03f906f93",
+      "sha256": "2854f280899dc47b0736b67c9783eda833d4bfe77707d28d4c4039f03f906f93",
+      "bytes": 246
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/manh_hinh_thien_chien_y.lua",
+      "before_sha256": "2854f280899dc47b0736b67c9783eda833d4bfe77707d28d4c4039f03f906f93",
+      "sha256": "2854f280899dc47b0736b67c9783eda833d4bfe77707d28d4c4039f03f906f93",
+      "bytes": 246
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/manh_hoa_dia_vi_lao.lua",
+      "before_sha256": "2854f280899dc47b0736b67c9783eda833d4bfe77707d28d4c4039f03f906f93",
+      "sha256": "2854f280899dc47b0736b67c9783eda833d4bfe77707d28d4c4039f03f906f93",
+      "bytes": 246
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/manh_kho_moc_phung_xuan.lua",
+      "before_sha256": "2854f280899dc47b0736b67c9783eda833d4bfe77707d28d4c4039f03f906f93",
+      "sha256": "2854f280899dc47b0736b67c9783eda833d4bfe77707d28d4c4039f03f906f93",
+      "bytes": 246
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/manh_nam_minh_ly_hoa.lua",
+      "before_sha256": "2854f280899dc47b0736b67c9783eda833d4bfe77707d28d4c4039f03f906f93",
+      "sha256": "2854f280899dc47b0736b67c9783eda833d4bfe77707d28d4c4039f03f906f93",
+      "bytes": 246
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/manh_than_ky_trieu_hoi.lua",
+      "before_sha256": "2854f280899dc47b0736b67c9783eda833d4bfe77707d28d4c4039f03f906f93",
+      "sha256": "2854f280899dc47b0736b67c9783eda833d4bfe77707d28d4c4039f03f906f93",
+      "bytes": 246
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/manh_thien_toan_dia_chuyen.lua",
+      "before_sha256": "2854f280899dc47b0736b67c9783eda833d4bfe77707d28d4c4039f03f906f93",
+      "sha256": "2854f280899dc47b0736b67c9783eda833d4bfe77707d28d4c4039f03f906f93",
+      "bytes": 246
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/manh_xung_phong_ham_tran.lua",
+      "before_sha256": "2854f280899dc47b0736b67c9783eda833d4bfe77707d28d4c4039f03f906f93",
+      "sha256": "2854f280899dc47b0736b67c9783eda833d4bfe77707d28d4c4039f03f906f93",
+      "bytes": 246
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/nam_minh_ly_hoa.lua",
+      "before_sha256": "3ebc6462cd18ff9135fc3d42287ee85b49c27740d7afb33125b340ea7da6ae2e",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/phat_no_hoa_lien.lua",
+      "before_sha256": "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/phat_no_hoa_lien_cap_2.lua",
+      "before_sha256": "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/phat_no_hoa_lien_cap_3.lua",
+      "before_sha256": "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/phat_no_hoa_lien_cap_4.lua",
+      "before_sha256": "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/phat_no_hoa_lien_cap_5.lua",
+      "before_sha256": "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/thien_toan_dia_chuyen.lua",
+      "before_sha256": "3ebc6462cd18ff9135fc3d42287ee85b49c27740d7afb33125b340ea7da6ae2e",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/trieu_hoi.lua",
+      "before_sha256": "3ebc6462cd18ff9135fc3d42287ee85b49c27740d7afb33125b340ea7da6ae2e",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/truy_hon_tan_hoa.lua",
+      "before_sha256": "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/truy_hon_tan_hoa_cap_2.lua",
+      "before_sha256": "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/truy_hon_tan_hoa_cap_3.lua",
+      "before_sha256": "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/truy_hon_tan_hoa_cap_4.lua",
+      "before_sha256": "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/truy_hon_tan_hoa_cap_5.lua",
+      "before_sha256": "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/van_kiem_quy_tong.lua",
+      "before_sha256": "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/van_kiem_quy_tong_cap_2.lua",
+      "before_sha256": "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/van_kiem_quy_tong_cap_3.lua",
+      "before_sha256": "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/van_kiem_quy_tong_cap_4.lua",
+      "before_sha256": "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/van_kiem_quy_tong_cap_5.lua",
+      "before_sha256": "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/xung_phong_ham_tran.lua",
+      "before_sha256": "3ebc6462cd18ff9135fc3d42287ee85b49c27740d7afb33125b340ea7da6ae2e",
+      "sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "bytes": 958
+    },
+    {
+      "path": "Server/settings/phongthan/ThanKyBooks.ini",
+      "before_sha256": "c4a1bdccf049e683e58c5aba04dd7b66f68d285d1bc95ed789c7a74a23e1459e",
+      "sha256": "41e31555620d8253943fae213a6e2bb301ada6b8efe6bf311b5ec7ed3182335c",
+      "bytes": 3151
+    },
+    {
+      "path": "Server/settings/phongthan/ThanKyExperimental.ini",
+      "before_sha256": null,
+      "sha256": "8d2a0d089fa4ce12256a528df9432a5fee9dc438215811a77e49bec8ab159129",
+      "bytes": 1389
+    }
+  ]
+}

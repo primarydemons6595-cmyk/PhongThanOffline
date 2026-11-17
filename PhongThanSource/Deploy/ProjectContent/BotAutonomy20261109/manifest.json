@@ -1,0 +1,70 @@
+{
+  "profile": "LooseOnly",
+  "files": [
+    {
+      "path": "Server/settings/item/droprate/caoxian-blue.ini",
+      "sha256": "868025d131e625bd52d55e634597a5b9e295b7666bf23d8a91bdf89c00fb775e",
+      "before_sha256": "980060d9787894501b3fec01201fcff9ab187f1c9a6ed685991f8490f83504f3"
+    },
+    {
+      "path": "Server/settings/item/droprate/caoxian.ini",
+      "sha256": "29c7937c9fe39e846162404efe46525a96626369075a1e5144453b4a522b7595",
+      "before_sha256": "df9642ced6a8b220df1a509b68bfa5c70afa7235b79a849750c037c0369064bd"
+    },
+    {
+      "path": "Server/settings/item/droprate/dazhongren-blue.ini",
+      "sha256": "7fe878560a5b107175e6e00341320f2fd0f8c6e94b42aedc85bcf776576500b0",
+      "before_sha256": "d4127769e66a610cf4a3d685ae77d9e4a0f53bb6cded3cccbfc7fb21ab3e3a5d"
+    },
+    {
+      "path": "Server/settings/item/droprate/dazhongren.ini",
+      "sha256": "da7bc3511c6fc2a63e4ebb904b9efe567579684bbeeb66392ca8fe39baa4676f",
+      "before_sha256": "70478bac607636579927cd83fdcd463b18b105b5feba998da4f68929934ac3fa"
+    },
+    {
+      "path": "Server/settings/item/droprate/huangou-blue.ini",
+      "sha256": "4a836e3cd15460736b701144fa6f55eb3ca7ac7cf9e089968288a2ac33ce070a",
+      "before_sha256": "d4127769e66a610cf4a3d685ae77d9e4a0f53bb6cded3cccbfc7fb21ab3e3a5d"
+    },
+    {
+      "path": "Server/settings/item/droprate/huangou.ini",
+      "sha256": "dc7a27d86603d29c7f26c6cbe8f4666d4599d1550572f57458352b07f9b9084e",
+      "before_sha256": "3163b92834dab3c5b6c9232f0d216ef4e9464e0453c2fbc677e8228920d3cd05"
+    },
+    {
+      "path": "Server/settings/item/droprate/jingren-blue.ini",
+      "sha256": "153e20487bbc4351f0a5c6c6c7477aa3fc2909851601e7f466cbefd029ecb428",
+      "before_sha256": "d4127769e66a610cf4a3d685ae77d9e4a0f53bb6cded3cccbfc7fb21ab3e3a5d"
+    },
+    {
+      "path": "Server/settings/item/droprate/jingren.ini",
+      "sha256": "e3dc0f78b78477edc1b0e5ac1dc3582d87d3989e46584f23139bf84d421b7834",
+      "before_sha256": "7ce6744c5343e8f9c61226019c8d757015bdee3564d1f1eae7d7945d7fc90a6f"
+    },
+    {
+      "path": "Server/settings/item/droprate/xueyao-blue.ini",
+      "sha256": "21a1cf42322a636afae76dbb6f74b5aabe5269b8a32bfaa060bbeb2e5f9f2557",
+      "before_sha256": "d4127769e66a610cf4a3d685ae77d9e4a0f53bb6cded3cccbfc7fb21ab3e3a5d"
+    },
+    {
+      "path": "Server/settings/item/droprate/xueyao.ini",
+      "sha256": "2e1213b5bc2c64286f8c0f1aaf255418a801d29db2c4866f53f1caa3fd179d50",
+      "before_sha256": "49d582db94f1cdc51d46f9bf269e8b6ca53e16017db93a8239a044016075eaa5"
+    },
+    {
+      "path": "Server/settings/item/droprate/yanhuo-blue.ini",
+      "sha256": "2b2015ed8eb260a8da185533ad9930fa570fe5f96f1bdb35f3dc21ebe428770a",
+      "before_sha256": "ce8da690871c08fa2aa1d284ac4b8baeb08d7064e1d83c3b79faa3e00a3cf797"
+    },
+    {
+      "path": "Server/settings/item/droprate/yanhuo.ini",
+      "sha256": "a5fc4f9ab818a0959acb5e5c05bd804c02573edfeb0cc62d10ba7e9214ce43c4",
+      "before_sha256": "5d19cd93fb738fea5a174c09798f2dcb6059f963f64b3cc7e8b0eda33c7794d6"
+    },
+    {
+      "path": "Client/ui/realm_skills.ini",
+      "sha256": "b5a503ce3c5dcdd595a0a08c171b83bcd92ba5234497757d01e109b228e500f8",
+      "before_sha256": "ab84a9d583008c74488f17527ed8d285e9f391ada6d342f35675272fcc02dd94"
+    }
+  ]
+}

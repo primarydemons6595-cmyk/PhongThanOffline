@@ -1,0 +1,573 @@
+{
+  "schema": 1,
+  "feature": "TGPT_THUONG_CHU_20261103",
+  "files": [
+    {
+      "relative": "script/phongthan/npc_restore/1001_01.lua",
+      "sha256": "a8937de7f2203ca6f245533bc1c04d464ffc30204d807fcac756faa6ef0b0c29",
+      "before_sha256": "37a1ca72051b11b24efd103e2cacc5e6f2b390711783a4001cb67e0e683326d9",
+      "bytes": 2797
+    },
+    {
+      "relative": "script/phongthan/thuong_chu/stele_zhou.lua",
+      "sha256": "5cef7aae2930125d9fef1adf4f422683883e23505a7e026f69fbb9723b95890a",
+      "before_sha256": "f2a3e07cff7e6528aa2069538e81ec44a855554f2ddbe487aeb32e7ba0051131",
+      "bytes": 2797
+    },
+    {
+      "relative": "script/phongthan/thuong_chu/mission_npc.lua",
+      "sha256": "514c8ea04a83ff85c9e43a6bbca9c258680f7bec08b7981d69ff9fbcee74e25a",
+      "before_sha256": "4b034402ede79df99d064f8317b78e8bbaa9addecece77395fb1b3f54cd2a91e",
+      "bytes": 4358
+    },
+    {
+      "relative": "script/phongthan/npc_restore/1020_02.lua",
+      "sha256": "36ba3d27e7e969def202210881ddceff36d6d47115a680a2802d16f8022c7016",
+      "before_sha256": "e06a520fc93c85645e7e4c137bb2d980d1af18a9ec760c2d892cdfbedbfecb48",
+      "bytes": 131331
+    },
+    {
+      "relative": "script/phongthan/npc_restore/1021_14.lua",
+      "sha256": "49b3d138cc34cbc619451043c0d70bec5283d807095966ff1a987f4667f2b70f",
+      "before_sha256": "20b813de7092ac4bc4fa26dcd6c5620929f33649eec7f15761657149b6f44d86",
+      "bytes": 10966
+    },
+    {
+      "relative": "settings/phongthan/ThuongChu.ini",
+      "sha256": "cbd774165dedef15da9b453de7e546438559ecbde95b08efc1aeacae66247d33",
+      "before_sha256": "c99a51cb143ccc80f581f0465ed8343af6ad9e4f61540e6929f01573052072d7",
+      "bytes": 431
+    },
+    {
+      "relative": "settings/phongthan/npc_regions/1001/v_105/105_npc_s.dat",
+      "sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "before_sha256": "6814a5c3c0494620d3df5b5ba57d711247c0111dee702f34abc074361e7d083b",
+      "bytes": 12
+    },
+    {
+      "relative": "settings/phongthan/npc_regions/1071/v_101/089_region_s.dat",
+      "sha256": "9c841901337e57186f72a5a81fe310a13d85b0e556f479e10386508b7f5b2e92",
+      "before_sha256": "b3fdd8f24067945028c670975ebb4e4e93b1c5617f925edc9ddbd56a8ae07163",
+      "bytes": 2544
+    },
+    {
+      "relative": "settings/phongthan/npc_regions/1071/v_102/145_npc_s.dat",
+      "sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "before_sha256": "6654184f156f417c8f8133e94dcc240097f1632a0e2689466387d1ce1b8233b9",
+      "bytes": 12
+    },
+    {
+      "relative": "settings/phongthan/npc_regions/1001/v_102/106_npc_s.dat",
+      "sha256": "3d8d6374e273a0bd79cb049ae583801c7867b204379ed10c4b6977bd4b88e4a6",
+      "before_sha256": null,
+      "bytes": 116
+    },
+    {
+      "relative": "EventService/catalog.json",
+      "sha256": "fcfe6f2718c8fe11389a5a53a117c948ed95ce18e31bfdbe528a0ae462af287e",
+      "before_sha256": "db9710dc2a2cb03f3f7bbb4b4d1edf12ac65ed80dcbd029d6a59202c80bf0429",
+      "bytes": 12053
+    },
+    {
+      "relative": "script/phongthan/giapsi/death_0.lua",
+      "sha256": "751c2b1be01ea47efc941f2a7084bb0eb02278d09098ed938047698a9425fca9",
+      "before_sha256": "3d4b8b233f57475dcd7c4c09389ec51f3c5cc131283de9505a64cb1a7a0800af",
+      "bytes": 50533
+    },
+    {
+      "relative": "script/phongthan/giapsi/death_113.lua",
+      "sha256": "d5b4e572ff10c1d57b8f79b085c24d212b78f47f872649fd0a863f71401aefe5",
+      "before_sha256": "bb123fe4efe6e8dcc9138bb764feb7995c9b5537f16160518285110cb9a4aa3e",
+      "bytes": 51204
+    },
+    {
+      "relative": "script/phongthan/giapsi/death_116.lua",
+      "sha256": "0444816f6cb35008f53874946fa5e49affaea1a3865cd4ef1ccbb63f082f13cc",
+      "before_sha256": "4ea7ddd5019497809be4032643c23a5e123f5b7aaf47f924e137b6680e949712",
+      "bytes": 51191
+    },
+    {
+      "relative": "script/phongthan/giapsi/death_117.lua",
+      "sha256": "9f17200bedf3be0d977921de382b108fa6de481847318f9dd45dc5970f462e38",
+      "before_sha256": "06339b4d9ad1e3a0a63d15b73d055e30a3e72111017e0f556fdeba7a57a3a679",
+      "bytes": 52314
+    },
+    {
+      "relative": "script/phongthan/giapsi/death_118.lua",
+      "sha256": "d91ca41f1efa68f8731adf4b31444866fea1237cadeeb6163f140c8c1513f7cf",
+      "before_sha256": "95200989ca3a4e32121eacd88d1d41b98e7579c22e08be5cd8f59573043d8e59",
+      "bytes": 52273
+    },
+    {
+      "relative": "script/phongthan/giapsi/death_119.lua",
+      "sha256": "54f9a569dbbbad3d2c4c13479e8809eae5761574dd39b6db2aa2ebdf351d0ec9",
+      "before_sha256": "8dc63d859f974b453f1014999c7b15d5daf7ff1d6c575d9b979830fc110516ae",
+      "bytes": 52366
+    },
+    {
+      "relative": "script/phongthan/giapsi/death_120.lua",
+      "sha256": "8163222f6ebb283523b6d6d3d1f91db54e3615931bd2b810e69fbffb68ca8ded",
+      "before_sha256": "f297d18696354c2cc451a588bd736e468179c4ab084fb14f58380f642c919079",
+      "bytes": 52170
+    },
+    {
+      "relative": "script/phongthan/giapsi/death_121.lua",
+      "sha256": "da3815228b02e626e580b22caeefba2474af10c3403d1fb9dda70f4c0d8dce99",
+      "before_sha256": "c3135363eab01a8c5ca65b3dbc1a7dc6004565d241aa8a232fda0461d7674b20",
+      "bytes": 51865
+    },
+    {
+      "relative": "script/phongthan/giapsi/death_122.lua",
+      "sha256": "88ba8c0e4645ec19bebb27c0e816a8db52c4329a3603329ba713ac753fb8e60d",
+      "before_sha256": "9d097df6c087cd1b961fe397a8f45793c6c7f3124a38f301863141857cdbb1fe",
+      "bytes": 51159
+    },
+    {
+      "relative": "script/phongthan/giapsi/death_13.lua",
+      "sha256": "f1a9c3e83d158b37d9267a2c8521868164f15faabc6b4831dbb4634715f7a43e",
+      "before_sha256": "e03c48e7fb690547cc07d51a8fba7a85931caa4512d181e53260e1dd2007c0dc",
+      "bytes": 118768
+    },
+    {
+      "relative": "script/phongthan/giapsi/death_148.lua",
+      "sha256": "6be8fb6f8d35abe400d951102fac235862bb0b7cb09f4d79830a66c52584a811",
+      "before_sha256": "a37d99df0da7729d18b3e1fe0103c48b778d8f66f03a6f4db516fa8e31c4160c",
+      "bytes": 29197
+    },
+    {
+      "relative": "script/phongthan/giapsi/death_16.lua",
+      "sha256": "778cad6c563cf561ee6d279f586b70dcf5b1ea6678385d3b463030b8b1418d01",
+      "before_sha256": "bfada14824d63e686f8fffac22b4104672a92cd4bc052ea51abfcab4f3f622ac",
+      "bytes": 50534
+    },
+    {
+      "relative": "script/phongthan/giapsi/death_18.lua",
+      "sha256": "9ec7bb76eb775972c73fb4c20592add2e73a56fe4ed9a331962e2510b3bd4330",
+      "before_sha256": "63dcd2d8ccba38c90783508d3812bdd6359d756a016e89d5af04b5f2a5103135",
+      "bytes": 118768
+    },
+    {
+      "relative": "script/phongthan/giapsi/death_2703.lua",
+      "sha256": "d649841ce09dd5f8d867795ab24bf7479ad79394e619cbaf0b5644203e3abf4c",
+      "before_sha256": "9c16b574aef4011f8b157d901ef12d04dc4cf9321e2f404e6adf6102937b5762",
+      "bytes": 36051
+    },
+    {
+      "relative": "script/phongthan/giapsi/death_3.lua",
+      "sha256": "c899297ee18914616ba941aa9741302ccd955dfdc7527e1bf98096e941735855",
+      "before_sha256": "22fdb2b1fff92d2a9cb9a0ebae334eeaadc799b61667aaa411078dd6afcccd46",
+      "bytes": 50533
+    },
+    {
+      "relative": "script/phongthan/giapsi/death_541.lua",
+      "sha256": "acab90684787b96d93b105f8617f1bcf4bc11b1ff35272eda857ffdf0cab0eeb",
+      "before_sha256": "b6483dabea06c19783d2f60fdf314046e12670dfe8cacda7a223d4af25b6f800",
+      "bytes": 36050
+    },
+    {
+      "relative": "script/phongthan/giapsi/death_542.lua",
+      "sha256": "8a70dbee3a702bb2fab84d814389fc9f929740dfd9cf27ebd7212ba71bf69737",
+      "before_sha256": "c36b70cc7b316aead2d9d87ba165945a03a6fab362e7bfa8bebfec2260d7e82b",
+      "bytes": 36050
+    },
+    {
+      "relative": "script/phongthan/giapsi/death_543.lua",
+      "sha256": "af2610f7e3197dce9f9ba4df80c9ad9079398851f631ca1a1b48574b7f9874b4",
+      "before_sha256": "7141521e41754bc30282042034e21bce1babefb599b0879ee359748ea1ea945d",
+      "bytes": 36050
+    },
+    {
+      "relative": "script/phongthan/giapsi/death_575.lua",
+      "sha256": "1b07ba7216564585bef8d543a9eaa309f3e4b7856e377734cfa624474865f5ca",
+      "before_sha256": "213fd44a3db5c7074cd33b48d64a8eb75e3a467140ff3da7766bd5ce36ec6283",
+      "bytes": 51654
+    },
+    {
+      "relative": "script/phongthan/giapsi/death_576.lua",
+      "sha256": "0c7e886257f88cb58d80ccbac59185f45bb3e715f4ae2a2f98aa459595e788f9",
+      "before_sha256": "861395cb34f8f7555f06d5be6e4be2d69e6fddec639703cec7df1fe44187a949",
+      "bytes": 51193
+    },
+    {
+      "relative": "script/phongthan/giapsi/death_7.lua",
+      "sha256": "b2514d80d4b23e403df12a60e21a9d3ba2b72825221a6b2bd8497b2f2e6c46d7",
+      "before_sha256": "07f1f57b8143b6c02149a41149d3aefe7507b31231d54a34deca3af2c40eb39a",
+      "bytes": 118767
+    },
+    {
+      "relative": "script/phongthan/giapsi/death_82.lua",
+      "sha256": "64f129f647f52004f3ce4c1e42c196652b9d9969389cbe5de5dc67e147fbd45b",
+      "before_sha256": "5da4507ac63ba4f7cdc226c2d4617a919eab5ace5a7a60582b24d5a43035b226",
+      "bytes": 37710
+    },
+    {
+      "relative": "script/phongthan/giapsi/herb_0.lua",
+      "sha256": "9ce9a3b028b0a4fcd13e518a5a49424aefb7092b5a02cfbcdcac18042818dc8b",
+      "before_sha256": "08cb0927634ec0ee4c67a961dba1de11e7797cde80a32db21f0dadeee6c107fb",
+      "bytes": 35936
+    },
+    {
+      "relative": "script/phongthan/giapsi/herb_1.lua",
+      "sha256": "d2105950d94fa2fd8966bd72d08adf7e277a86be41b15f5f3fc701d79ed23dfe",
+      "before_sha256": "5b23eb0c38f544323447d40c118c808713536237970d69faae82098344a214e9",
+      "bytes": 35936
+    },
+    {
+      "relative": "script/phongthan/giapsi/herb_2.lua",
+      "sha256": "16cfdb716ac6b7aa79e887e86649d706e2845af7d380959734a798def6fea5ee",
+      "before_sha256": "85f7a2bd99aa20a361054c29bccf020ed79c00758f4aae38d234464cccabb5be",
+      "bytes": 35936
+    },
+    {
+      "relative": "script/phongthan/giapsi/herb_3.lua",
+      "sha256": "2a37bad77847ee001c33fc2dc5dea3e4303fd7fde4c190b86606786b4881072c",
+      "before_sha256": "d79517df63a75ec5eb6a730fbf2479654858d88af928abd29a9b600849653271",
+      "bytes": 35936
+    },
+    {
+      "relative": "script/phongthan/giapsi/herb_4.lua",
+      "sha256": "8843db1563db9fda72d63d5b725d76e36d4d1f4c2287d85164b698453e95704b",
+      "before_sha256": "200777576964d3f2be84210354e580e25e52346f2c9cbbb3bed852e5d69b5861",
+      "bytes": 35937
+    },
+    {
+      "relative": "script/phongthan/giapsi/herb_5.lua",
+      "sha256": "08c78537865a572b3e67f9dfacae67816752ec30d092a3e4de5c27c9caf775cd",
+      "before_sha256": "ec74e92e3f66df50a871d0b06a3bdf0856eb783208d3d53164a83c4a162b324d",
+      "bytes": 35937
+    },
+    {
+      "relative": "script/phongthan/giapsi/herb_6.lua",
+      "sha256": "76b5036c51093b637abe5bdd2bb92d48cd3fd2c4021e3ddcd40a2627eb6d3c1c",
+      "before_sha256": "9b08ccc9912df328c976b7855628997cb14aa3e9ce8e1a2107cb8d8225a0c0a8",
+      "bytes": 35937
+    },
+    {
+      "relative": "script/phongthan/giapsi/herb_7.lua",
+      "sha256": "f72da9465c37e182e66be47678569a7ebec7bba931e5cbb0050b26ab7fca91e9",
+      "before_sha256": "0d12bf48942033b7d9815b1f5931be0e518452510d3c7f734a09e44d71bfe9cc",
+      "bytes": 35938
+    },
+    {
+      "relative": "script/phongthan/giapsi/herb_8.lua",
+      "sha256": "97760750a6b082a7386475e0d4d5c7af3fbcef6e1a61be74eb43b3d22b73c055",
+      "before_sha256": "df47ea589c542ce2c1418f64b78db2a8e5e3714efd144a1614999c6484d7138c",
+      "bytes": 35938
+    },
+    {
+      "relative": "script/phongthan/giapsi/herb_9.lua",
+      "sha256": "8969f3b5d5016f45b9f2c2d9afbb01207bd745d5db066cbfc912d7a19f28fac9",
+      "before_sha256": "6aa3f58afc639bc70996d3ebd2608af58da73a531c17d7a8e8ef3815576bec70",
+      "bytes": 35938
+    },
+    {
+      "relative": "script/phongthan/giapsi/item_142.lua",
+      "sha256": "ab1acea27aa081ecd3973a377ee8616400d86546e9ca7f1eacb8ef49b518ca2e",
+      "before_sha256": "c23fbfcd40b79723c1e50a15dab94c9bde3bb21c565e2794255016096d1d7816",
+      "bytes": 112707
+    },
+    {
+      "relative": "script/phongthan/giapsi/item_181.lua",
+      "sha256": "0c35f170734c9855d3272534283db0f2c73cfa9b86f73a0a41469d9c0b0a7347",
+      "before_sha256": "12a9d112c51fe31cba157e070ac502ab3b3f2079e0b45cff5e1800ce28e29ec6",
+      "bytes": 110840
+    },
+    {
+      "relative": "script/phongthan/giapsi/item_34.lua",
+      "sha256": "eb24205c496b924daf40b0b7199ad69538dc7070f0d48b2202f7c7b1bda4bde0",
+      "before_sha256": "7281b7468e4a078fc37bde6e92683996fd00e6d241a154a1269c2754c52c308f",
+      "bytes": 112427
+    },
+    {
+      "relative": "script/phongthan/giapsi/item_9201.lua",
+      "sha256": "8b8af88283b53ff9ce903570510e64acf1cea5e3418dbfc2702e0740d66fa950",
+      "before_sha256": "c191b1bca5be453368db7db876bad0adc13ed6cfc061d4eee876da7d896d1a3f",
+      "bytes": 110448
+    },
+    {
+      "relative": "script/phongthan/giapsi/npc_cuudi.lua",
+      "sha256": "dedad797ec81b05d4a5209a32ce75ba97b0a93588b3fb9f5753d57ea7a18e3f0",
+      "before_sha256": "404fe3d640656adec91f94ef104e7a9fea189c1f1fe7146d2dccdfde84950f6d",
+      "bytes": 110244
+    },
+    {
+      "relative": "script/phongthan/giapsi/npc_dac_future.lua",
+      "sha256": "fdb380424cc90ba8bb56300438f3bba7df120d731d78986d7379440e3b972e9a",
+      "before_sha256": "64f1c102c715f825bf5545858775342be0d8e377fb0d94651ebfe065dc879de8",
+      "bytes": 111295
+    },
+    {
+      "relative": "script/phongthan/giapsi/npc_dac_young.lua",
+      "sha256": "6e50c2bbc691fe0f823bfc8452528ba205b2a53378e619a9a96e89ea7b757c2b",
+      "before_sha256": "905aabf503eb66a2083909e25e6429cdf9bd229bc1e194c0f2e3d658acf2e9cb",
+      "bytes": 120627
+    },
+    {
+      "relative": "script/phongthan/giapsi/npc_dang.lua",
+      "sha256": "fee7462fe110f90b6ce222f778c3999b56ec13a3a6e548c1da7937353d7f355a",
+      "before_sha256": "52f25f29308c5f58e6e2cb7f6071bfe5f65582227f27821d9f05e78227c2167f",
+      "bytes": 110242
+    },
+    {
+      "relative": "script/phongthan/giapsi/npc_doctor_dong.lua",
+      "sha256": "01fa05e239e093a20493e59e9cb61df3c6c13ba95902c23180b78271e19bb9c8",
+      "before_sha256": "01fa05e239e093a20493e59e9cb61df3c6c13ba95902c23180b78271e19bb9c8",
+      "bytes": 111350
+    },
+    {
+      "relative": "script/phongthan/giapsi/npc_doctor_tam.lua",
+      "sha256": "6b875f0714d6e0ca0eff54613592bf88c20fb681b228e57a8a98429b34596187",
+      "before_sha256": "6b875f0714d6e0ca0eff54613592bf88c20fb681b228e57a8a98429b34596187",
+      "bytes": 110954
+    },
+    {
+      "relative": "script/phongthan/giapsi/npc_khuong_young.lua",
+      "sha256": "ca781dd097a522d1e72b18dbf0e5f7952ea269d1dd6a7abe3c085e1a9f7696d0",
+      "before_sha256": "8fe27a0566782120c5d36014825798b5414f85a62d1091d0ab27cf2b8682b2a3",
+      "bytes": 120633
+    },
+    {
+      "relative": "script/phongthan/giapsi/npc_merchant.lua",
+      "sha256": "d0ff92224d15250655815efa61f1493fad5322a3158a774346d2b14e62bf0e50",
+      "before_sha256": "5bffc0d36161dc80c2a18a00dd24d3b66458e70fce5f5157bfa6398b8ad5d276",
+      "bytes": 110250
+    },
+    {
+      "relative": "script/phongthan/giapsi/npc_nguyen.lua",
+      "sha256": "ab7c26538acf268176c46118e321d30015d26afb8c3d59da274472845ae7ed32",
+      "before_sha256": "598fccd817556c39d6bc78428d7c62587dced859859606dabd10b2fcb725b0ee",
+      "bytes": 110246
+    },
+    {
+      "relative": "script/phongthan/giapsi/npc_nong.lua",
+      "sha256": "c17d5e11d0dcc262d012f520bbabbb2856a48d1ad428fc80e0b3a4c9fef99b06",
+      "before_sha256": "2836e55832116ac57ed7c11e923b62a14d4cccb628b92446831f62f1753485b8",
+      "bytes": 41072
+    },
+    {
+      "relative": "script/phongthan/giapsi/npc_tay.lua",
+      "sha256": "09bc2afd399291e802ffe19ce9b1def24fb12f4f8a61c53dbd415f90d2265e4c",
+      "before_sha256": "5718389aa22e9fb0b01ff4e182c24079a3996f7137d442f899f480c5747034b8",
+      "bytes": 111281
+    },
+    {
+      "relative": "script/phongthan/giapsi/npc_thong.lua",
+      "sha256": "16c6f9eb27cf91bbccd8e28488843f5d80f3efeb8f23a9d42fdc7b0bb19b112f",
+      "before_sha256": "017af0543bf4ef1fa7adbf5837abcc430820cfba361149498a670d4a6562565a",
+      "bytes": 110244
+    },
+    {
+      "relative": "script/phongthan/giapsi/willow_0.lua",
+      "sha256": "2f2955ee854de0fac2eeb4412e58e568e3e81a1b7d3af67843bcbd88b7883370",
+      "before_sha256": "983ea36eb765d671513589e0db165bbd411bf81aa94379f9d73545e06e10e219",
+      "bytes": 35933
+    },
+    {
+      "relative": "script/phongthan/giapsi/willow_1.lua",
+      "sha256": "8dafd99612bcf6b1555995625beec6b88fdd3a54cd4e29e11baa9a671f4eff3c",
+      "before_sha256": "f71c8f8c680a1ac0670459aa234eadcfbb9ea413a7cbf49199ac92eb24be8a3a",
+      "bytes": 35933
+    },
+    {
+      "relative": "script/phongthan/giapsi/willow_2.lua",
+      "sha256": "8f87446c364f57c735400948104d54050e5fa3fec05572ab7b9fcdaa67aed2ef",
+      "before_sha256": "cd4fa84bf9600691dda3552a7041bb273b9bd53ab462e56452a528536032f4b5",
+      "bytes": 35933
+    },
+    {
+      "relative": "script/phongthan/giapsi/willow_3.lua",
+      "sha256": "4fe4b501ff8f600c548865369e5cca221062683ab3f410c6c3e7c36b04d4cc60",
+      "before_sha256": "dcc3e9ade71aa284abcfd743da2205109379838a0e5a8087b83f22a372346646",
+      "bytes": 35933
+    },
+    {
+      "relative": "script/phongthan/giapsi/willow_4.lua",
+      "sha256": "40faad713fcf067d679db1860b4fd7d378d596035a00064016e29a2224abf8c7",
+      "before_sha256": "56f1884007488f52e12e713bfeaa0e0825595e29ff42d1ab03e2bebf946e6347",
+      "bytes": 35934
+    },
+    {
+      "relative": "settings/buysell.txt",
+      "sha256": "be59e833f72d00ed241470d0019973f47d1fd14fd1a9c0c69d625f7ce066d2c3",
+      "before_sha256": "01967c963631c5e5ae70edeee48d57adf6b1b4b8c48625336b9db45aafc3d262",
+      "bytes": 10154
+    },
+    {
+      "relative": "script/phongthan/services/doctor_1003.lua",
+      "sha256": "cc5dec4a85b0334ad119d1bb730d3446365b3df7b442389238d2cd567f4f8fd9",
+      "before_sha256": "ceded8e3b8ed34f36166aa34f2ed0f557f266aa31bd15f77122afd3267dc0482",
+      "bytes": 511
+    },
+    {
+      "relative": "script/phongthan/services/doctor_1004.lua",
+      "sha256": "cc5dec4a85b0334ad119d1bb730d3446365b3df7b442389238d2cd567f4f8fd9",
+      "before_sha256": "ceded8e3b8ed34f36166aa34f2ed0f557f266aa31bd15f77122afd3267dc0482",
+      "bytes": 511
+    },
+    {
+      "relative": "script/phongthan/services/doctor_1020.lua",
+      "sha256": "cc5dec4a85b0334ad119d1bb730d3446365b3df7b442389238d2cd567f4f8fd9",
+      "before_sha256": "ceded8e3b8ed34f36166aa34f2ed0f557f266aa31bd15f77122afd3267dc0482",
+      "bytes": 511
+    },
+    {
+      "relative": "script/phongthan/services/doctor_1021.lua",
+      "sha256": "cc5dec4a85b0334ad119d1bb730d3446365b3df7b442389238d2cd567f4f8fd9",
+      "before_sha256": "ceded8e3b8ed34f36166aa34f2ed0f557f266aa31bd15f77122afd3267dc0482",
+      "bytes": 511
+    },
+    {
+      "relative": "script/phongthan/services/doctor_1028.lua",
+      "sha256": "cc5dec4a85b0334ad119d1bb730d3446365b3df7b442389238d2cd567f4f8fd9",
+      "before_sha256": "ceded8e3b8ed34f36166aa34f2ed0f557f266aa31bd15f77122afd3267dc0482",
+      "bytes": 511
+    },
+    {
+      "relative": "script/phongthan/services/doctor_1030.lua",
+      "sha256": "cc5dec4a85b0334ad119d1bb730d3446365b3df7b442389238d2cd567f4f8fd9",
+      "before_sha256": "ceded8e3b8ed34f36166aa34f2ed0f557f266aa31bd15f77122afd3267dc0482",
+      "bytes": 511
+    },
+    {
+      "relative": "script/phongthan/services/doctor_1031.lua",
+      "sha256": "cc5dec4a85b0334ad119d1bb730d3446365b3df7b442389238d2cd567f4f8fd9",
+      "before_sha256": "ceded8e3b8ed34f36166aa34f2ed0f557f266aa31bd15f77122afd3267dc0482",
+      "bytes": 511
+    },
+    {
+      "relative": "script/phongthan/services/doctor_1037.lua",
+      "sha256": "cc5dec4a85b0334ad119d1bb730d3446365b3df7b442389238d2cd567f4f8fd9",
+      "before_sha256": "ceded8e3b8ed34f36166aa34f2ed0f557f266aa31bd15f77122afd3267dc0482",
+      "bytes": 511
+    },
+    {
+      "relative": "script/phongthan/services/doctor_1038.lua",
+      "sha256": "cc5dec4a85b0334ad119d1bb730d3446365b3df7b442389238d2cd567f4f8fd9",
+      "before_sha256": "ceded8e3b8ed34f36166aa34f2ed0f557f266aa31bd15f77122afd3267dc0482",
+      "bytes": 511
+    },
+    {
+      "relative": "script/phongthan/services/doctor_1040.lua",
+      "sha256": "cc5dec4a85b0334ad119d1bb730d3446365b3df7b442389238d2cd567f4f8fd9",
+      "before_sha256": "ceded8e3b8ed34f36166aa34f2ed0f557f266aa31bd15f77122afd3267dc0482",
+      "bytes": 511
+    },
+    {
+      "relative": "script/phongthan/services/doctor_1041.lua",
+      "sha256": "cc5dec4a85b0334ad119d1bb730d3446365b3df7b442389238d2cd567f4f8fd9",
+      "before_sha256": "ceded8e3b8ed34f36166aa34f2ed0f557f266aa31bd15f77122afd3267dc0482",
+      "bytes": 511
+    },
+    {
+      "relative": "script/phongthan/services/doctor_1042.lua",
+      "sha256": "cc5dec4a85b0334ad119d1bb730d3446365b3df7b442389238d2cd567f4f8fd9",
+      "before_sha256": "ceded8e3b8ed34f36166aa34f2ed0f557f266aa31bd15f77122afd3267dc0482",
+      "bytes": 511
+    },
+    {
+      "relative": "script/phongthan/services/doctor_1049.lua",
+      "sha256": "cc5dec4a85b0334ad119d1bb730d3446365b3df7b442389238d2cd567f4f8fd9",
+      "before_sha256": "ceded8e3b8ed34f36166aa34f2ed0f557f266aa31bd15f77122afd3267dc0482",
+      "bytes": 511
+    },
+    {
+      "relative": "script/phongthan/services/doctor_1053.lua",
+      "sha256": "cc5dec4a85b0334ad119d1bb730d3446365b3df7b442389238d2cd567f4f8fd9",
+      "before_sha256": "ceded8e3b8ed34f36166aa34f2ed0f557f266aa31bd15f77122afd3267dc0482",
+      "bytes": 511
+    },
+    {
+      "relative": "script/phongthan/services/doctor_1054.lua",
+      "sha256": "cc5dec4a85b0334ad119d1bb730d3446365b3df7b442389238d2cd567f4f8fd9",
+      "before_sha256": "ceded8e3b8ed34f36166aa34f2ed0f557f266aa31bd15f77122afd3267dc0482",
+      "bytes": 511
+    },
+    {
+      "relative": "script/phongthan/services/doctor_1055.lua",
+      "sha256": "cc5dec4a85b0334ad119d1bb730d3446365b3df7b442389238d2cd567f4f8fd9",
+      "before_sha256": "ceded8e3b8ed34f36166aa34f2ed0f557f266aa31bd15f77122afd3267dc0482",
+      "bytes": 511
+    },
+    {
+      "relative": "script/phongthan/services/doctor_1056.lua",
+      "sha256": "cc5dec4a85b0334ad119d1bb730d3446365b3df7b442389238d2cd567f4f8fd9",
+      "before_sha256": "ceded8e3b8ed34f36166aa34f2ed0f557f266aa31bd15f77122afd3267dc0482",
+      "bytes": 511
+    },
+    {
+      "relative": "script/phongthan/services/doctor_1057.lua",
+      "sha256": "cc5dec4a85b0334ad119d1bb730d3446365b3df7b442389238d2cd567f4f8fd9",
+      "before_sha256": "ceded8e3b8ed34f36166aa34f2ed0f557f266aa31bd15f77122afd3267dc0482",
+      "bytes": 511
+    },
+    {
+      "relative": "script/phongthan/services/doctor_1073.lua",
+      "sha256": "cc5dec4a85b0334ad119d1bb730d3446365b3df7b442389238d2cd567f4f8fd9",
+      "before_sha256": "ceded8e3b8ed34f36166aa34f2ed0f557f266aa31bd15f77122afd3267dc0482",
+      "bytes": 511
+    },
+    {
+      "relative": "script/phongthan/services/doctor_1074.lua",
+      "sha256": "cc5dec4a85b0334ad119d1bb730d3446365b3df7b442389238d2cd567f4f8fd9",
+      "before_sha256": "ceded8e3b8ed34f36166aa34f2ed0f557f266aa31bd15f77122afd3267dc0482",
+      "bytes": 511
+    },
+    {
+      "relative": "script/phongthan/services/doctor_1075.lua",
+      "sha256": "cc5dec4a85b0334ad119d1bb730d3446365b3df7b442389238d2cd567f4f8fd9",
+      "before_sha256": "ceded8e3b8ed34f36166aa34f2ed0f557f266aa31bd15f77122afd3267dc0482",
+      "bytes": 511
+    },
+    {
+      "relative": "script/phongthan/services/doctor_1076.lua",
+      "sha256": "cc5dec4a85b0334ad119d1bb730d3446365b3df7b442389238d2cd567f4f8fd9",
+      "before_sha256": "ceded8e3b8ed34f36166aa34f2ed0f557f266aa31bd15f77122afd3267dc0482",
+      "bytes": 511
+    },
+    {
+      "relative": "script/phongthan/services/doctor_1077.lua",
+      "sha256": "cc5dec4a85b0334ad119d1bb730d3446365b3df7b442389238d2cd567f4f8fd9",
+      "before_sha256": "ceded8e3b8ed34f36166aa34f2ed0f557f266aa31bd15f77122afd3267dc0482",
+      "bytes": 511
+    },
+    {
+      "relative": "script/phongthan/services/doctor_1078.lua",
+      "sha256": "cc5dec4a85b0334ad119d1bb730d3446365b3df7b442389238d2cd567f4f8fd9",
+      "before_sha256": "ceded8e3b8ed34f36166aa34f2ed0f557f266aa31bd15f77122afd3267dc0482",
+      "bytes": 511
+    },
+    {
+      "relative": "settings/phongthan/BotShopRegistry.tsv",
+      "sha256": "f570b7c52f50dff04874f237627b399d1483167e26c2ce7c56912a50d32072f7",
+      "before_sha256": "3042961d6da910fae48c4e829cb92c9deb154426ee31917a674cb37322ded238",
+      "bytes": 22680
+    }
+  ],
+  "event": {
+    "Id": 2101,
+    "Key": "thuong_chu",
+    "Name": "Chiến trường Thương Chu",
+    "Group": "Chiến trường",
+    "Adapter": "thuong_chu",
+    "Map": 1071,
+    "Mission": 0,
+    "Template": 0,
+    "BossFlag": -1,
+    "StartScriptHex": "",
+    "SourceEvidence": "TGPT article: https://pc.tamgioipt.vn/he-thong-nhiem-vu-phan-thuong-chien-truong-thuong-chu ; one random shared session mode; native engine plus ordinary NPC dialogs. Unspecified balance values documented in ThuongChu.ini.",
+    "Defaults": {
+      "Id": 2101,
+      "Enabled": true,
+      "DailyTimes": [
+        "12:00",
+        "20:00"
+      ],
+      "RegistrationSeconds": 600,
+      "DurationSeconds": 1800,
+      "MinimumLevel": 120,
+      "TicketCount": 0
+    }
+  },
+  "source": "https://pc.tamgioipt.vn/he-thong-nhiem-vu-phan-thuong-chien-truong-thuong-chu",
+  "notes": "One mode per session for all players and bots. Ancient variants use terrain1064. Only24 newly added doctors use isolated shop67; other doctors and original66 shop rows are preserved. GiapSi authored travel uses the explicit runtime-map API. Numeric XP/merit, respawn and equipment success defaults are local configuration where the article supplies no numbers."
+}

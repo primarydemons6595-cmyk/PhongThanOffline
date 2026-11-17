@@ -1,0 +1,113 @@
+{
+  "files": [
+    {
+      "role": "Client",
+      "relative": "CoreClient.dll",
+      "before": "bfdda01d21e0f818c38fb489e05641c5eec094823c718724ae5b33a0c2cfc2ab",
+      "sha256": "c0ffa90a54cae6f51f1ec8d2ac31a2cfa10fcb0423157d35d7c656a17fa75c8f"
+    },
+    {
+      "role": "Client",
+      "relative": "Game.exe",
+      "before": "2c5e63b5ba8819eaeb1bae7251af83903808154315b22cb3a8505b46bf9cd77d",
+      "sha256": "5663d3d897da3aff1d8f7d81cf48f4548489437b09272da2b6e67cc34bb78ba4"
+    },
+    {
+      "role": "Client",
+      "relative": "loose_index.bin",
+      "before": "df5eb9dc369d4bf01633054c5c491770672aba7cf914a014736b764006631c92",
+      "sha256": "aee722e0acd2450b65a78c1b99283ca15659124e6cc5f8d58e1e8517dc4d35ca"
+    },
+    {
+      "role": "Client",
+      "relative": "Ui/ui4/taskinfo.ini",
+      "before": "4fa9092b495717fb5c7ea617ce6c7636a493c4600384fda4ca4940a6773ca35d",
+      "sha256": "e1cca8215d1b597578c27be90482b83a32dc7cb63c567165e4182e505301ec47"
+    },
+    {
+      "role": "Server",
+      "relative": "CoreServer.dll",
+      "before": "7c9f45812f60b259ca9bfd8c8d9a55b9f3198e33bc8c32e9a8352c4aa3f106d6",
+      "sha256": "cd5ad5a83fcd2a4d8f9d72289fbe07df416116bc27a951cb6fb865067196ff41"
+    },
+    {
+      "role": "Server",
+      "relative": "loose_index.bin",
+      "before": "e1dc8e6560a4c7b78447d4fc38694977d502842e149bff7ec4d6c831ef75dc41",
+      "sha256": "aeb63c5491f61d8631a7aae728f6f721bce447134602cd354f801e8b3f96fd35"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/giapsi/npc_dac_young.lua",
+      "before": "f52b436409bb30260486ca4d70116dace73bcd6d6fd8c4230e11cb95403cffbe",
+      "sha256": "d925e32a7943f9d674f95117bb6fbd048289c54c762d5b81fa0044274dc72552"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/giapsi/npc_khuong_young.lua",
+      "before": "0e31f77733783eb1f11de5001272b790e0c020cdcd0d7a937f3e7b89232eb4f3",
+      "sha256": "da9c23a46f5d8b4ed39740cea5c006041bb8f29bf397042b7039a96d6d9eae0b"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_restore/1004_07.lua",
+      "before": "9fe31439bb8bd18649205d2df4b3ac87ff1979c799a84fefe3abeb85855223b6",
+      "sha256": "01b112c71862049c213e2d1618e3d82f568c50c509a39bf2e0e17e427b3848d4"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_restore/1052_04.lua",
+      "before": "ad8bbe3dfa5fa2b6b9fa3953cf3d07bc8392b8a2f88c276614e9275fed2b83f1",
+      "sha256": "3c915ee652ef3186bb8aea901671668a4ecf24d771f0974160d0192dd015eb8e"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_restore/1073_01.lua",
+      "before": "a086485ceeef2397e54dc9dc4c57a91d329ce6d999fccd96470fc213c0025a13",
+      "sha256": "db5245658e51acdeedc19335e0d5fae675f7c006d8b2c75e93f4d674990f0f41"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/realm/boat_dong_doanh.lua",
+      "before": null,
+      "sha256": "441200e744729528a4ceea72af5e1f2a39f8f97e5e01a3b6b36295af6904dd9a"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/realm/boat_tran_duong.lua",
+      "before": null,
+      "sha256": "441200e744729528a4ceea72af5e1f2a39f8f97e5e01a3b6b36295af6904dd9a"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/realm/linh_quang.lua",
+      "before": null,
+      "sha256": "3ba2a62b52375a040ade8d37fdd2cb60c68e72e980d8489bd908af496199d655"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/realm/portal.lua",
+      "before": null,
+      "sha256": "3ba2a62b52375a040ade8d37fdd2cb60c68e72e980d8489bd908af496199d655"
+    },
+    {
+      "role": "Server",
+      "relative": "script/Ñþ³Ø/ÔÆÏöÄïÄï.lua",
+      "before": "c5c3c684b371949bf6a84a575644cf471725f6fa9fd548270b15992b626a29bf",
+      "sha256": "5bc6b7a8e4108e218ce33da84cd27246a43f669d2fb7e697efbd902e7e8353ee"
+    },
+    {
+      "role": "Server",
+      "relative": "script/ÓñÐé¹¬/³à¾«×Ó.lua",
+      "before": "357a35c46267022ff67bc1d31703d8d27a0d4db10ecbbe3f7c59cd23e798db7b",
+      "sha256": "84ce75e85105fabb47296154a22fceacbe26d12829ef7406c0778015dd3fd5c5"
+    },
+    {
+      "role": "completion",
+      "relative": "studio_effective_overrides.json",
+      "before": "2bccd54b5265dd43a825cd630f3c17e460ef6745adc479025f95442171ee6d1b",
+      "sha256": "8cffd24aa9314256e01b6343424c466b2d06051b0304ce69fe25d7fc19ee841f"
+    }
+  ],
+  "scope": "Separate realm equipment banks, VNG personal/world progression, five-soul reputation and island boats/lure"
+}

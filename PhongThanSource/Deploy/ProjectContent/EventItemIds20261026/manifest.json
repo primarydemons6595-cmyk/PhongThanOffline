@@ -1,0 +1,52 @@
+{
+  "files": [
+    {
+      "role": "ManagerStudio",
+      "relative": "Wpf/PhongThanStudio.App/bin/Release/net10.0-windows/PhongThanStudio.dll",
+      "before": "39d6d56268a3951c72991212f679466974942b7fbe56b2837b1bfc99a38195de",
+      "sha256": "5872e0105046275c385d49a2bf8cabedd1bc26ec4d22f8bd4bf3e81585121de4"
+    },
+    {
+      "role": "ManagerStudio",
+      "relative": "Wpf/PhongThanStudio.App/bin/Release/net10.0-windows/PhongThanStudio.pdb",
+      "before": "a3d0898815aeaf3bd8c649d1b36aa54484434d11f7b4d6cc1c43c008a6a25a0e",
+      "sha256": "978871b4b6c994df05b10d41885b198a42d82dcc0d9d45e48ce8305bd94d24d0"
+    },
+    {
+      "role": "ManagerStudio",
+      "relative": "Wpf/PhongThanStudio.App/bin/Release/net10.0-windows/PhongThanStudio.Core.dll",
+      "before": "377a659d2163eaa50f99235674a85a406bcf1854bc59e88d9a73c81d04d8e851",
+      "sha256": "30df7e3b104fccda3892c355a857102000cbaa8108d28328d3c88e8c9eed5fc5"
+    },
+    {
+      "role": "ManagerStudio",
+      "relative": "Wpf/PhongThanStudio.App/bin/Release/net10.0-windows/PhongThanStudio.Core.pdb",
+      "before": "b6f5cb5d8ab95de49d774110413b6cd5244d93b2f529c7881729b2a11214cabe",
+      "sha256": "6375ef261f9f0e28dc265f1f15cb963037126b1a7748b8bf425ad8ac0217179e"
+    },
+    {
+      "role": "ManagerStudio",
+      "relative": "Wpf/PhongThanStudio.App/bin/Verified/PhongThanStudio.dll",
+      "before": "39d6d56268a3951c72991212f679466974942b7fbe56b2837b1bfc99a38195de",
+      "sha256": "5872e0105046275c385d49a2bf8cabedd1bc26ec4d22f8bd4bf3e81585121de4"
+    },
+    {
+      "role": "ManagerStudio",
+      "relative": "Wpf/PhongThanStudio.App/bin/Verified/PhongThanStudio.pdb",
+      "before": "a3d0898815aeaf3bd8c649d1b36aa54484434d11f7b4d6cc1c43c008a6a25a0e",
+      "sha256": "978871b4b6c994df05b10d41885b198a42d82dcc0d9d45e48ce8305bd94d24d0"
+    },
+    {
+      "role": "ManagerStudio",
+      "relative": "Wpf/PhongThanStudio.App/bin/Verified/PhongThanStudio.Core.dll",
+      "before": "377a659d2163eaa50f99235674a85a406bcf1854bc59e88d9a73c81d04d8e851",
+      "sha256": "30df7e3b104fccda3892c355a857102000cbaa8108d28328d3c88e8c9eed5fc5"
+    },
+    {
+      "role": "ManagerStudio",
+      "relative": "Wpf/PhongThanStudio.App/bin/Verified/PhongThanStudio.Core.pdb",
+      "before": "b6f5cb5d8ab95de49d774110413b6cd5244d93b2f529c7881729b2a11214cabe",
+      "sha256": "6375ef261f9f0e28dc265f1f15cb963037126b1a7748b8bf425ad8ac0217179e"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "mode": "built-in image_gen edit",
+  "prompt": "Use case: text-localization. Edit target/reference: attached extracted pixel-art buttons from the existing Phong Than PC game. Create a production UI sprite sheet with FOUR identical-sized horizontal rectangular gold/olive metal tab buttons, vertically stacked, each centered at the same X coordinate with equal gaps. All four buttons MUST contain the exact Vietnamese text \"Tiên-Ma\" with correct circumflex/accent and a plain hyphen, one line, very readable. Replace the Chinese character, do not include any Chinese characters or extra text. Match the right-hand reference's restrained antique yellow-gold beveled border, dark olive/gold textured interior, dark near-black pixel lettering and subtle light edge. Simple straight-on old 2D game UI raster art, clean pixel edges, not photorealistic, no oval buttons. Four states top to bottom: normal (muted medium gold); selected/pressed (darker inset interior with brighter gold rim); hover (subtle warm glow on rim); disabled (muted gray-olive). Each button aspect ratio exactly 2.5:1, same outer silhouette/dimensions, text does not move between states. Arrange as four separate isolated buttons on a fully transparent canvas with generous transparent gaps; no labels, no background, no shadows outside button. Output 1024x1024, each button 800x320 would not fit so instead each button 500x200, four buttons vertically with equal 35px transparent gaps and margins. This is a game-ready four-state atlas that will be converted to a small SPR; prioritize clear exact text and matching layout over embellishment.",
+  "source": "button-reference.png",
+  "generated": "tien-ma-generated.png",
+  "nativePreview": "tien-ma-native-preview.png",
+  "runtimeAsset": "Client/spr/pt_ui/tien_ma_tab.spr",
+  "format": "4 states, 60x22, indexed SPR; normal/selected/disabled/hover"
+}

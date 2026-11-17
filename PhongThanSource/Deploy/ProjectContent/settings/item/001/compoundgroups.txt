@@ -1,0 +1,9 @@
+EnchaseItemID	RuleGroup_0	RuleGroup_1	RuleGroup_2	RuleGroup_3	RuleGroup_4
+0	0				
+1	1				
+2	100				
+3	101				
+4	2	3	4	5	6
+5	7				
+6	8				
+7	9				

@@ -1,0 +1,50 @@
+{
+  "scope": "LOOSE_ONLY",
+  "files": [
+    {
+      "path": "Server/CoreServer.dll",
+      "before": "81c0e437298f98aa8f47ba5ee9fb16e85a44586083785ac658eeac2d5e6f5bb6",
+      "after": "f8d5aa3cd5deb0978311460daf44ac97e425986df96233af238df640b3d7afa1"
+    },
+    {
+      "path": "Client/CoreClient.dll",
+      "before": "d4e82b235d000d33988b65fddf3e8b5f57e19702c0d0ba8e612f6d96ed936916",
+      "after": "7b8f2570119ff1144b8a116bc03aed90f9e241fab949eb972c031280a5175e18"
+    },
+    {
+      "path": "Client/Game.exe",
+      "before": "2bbe3f24db809475bd9d479f503d6a598e84a0dc490cb0b84f786e254fcade0d",
+      "after": "7b8522acdbd1324c96def9db5697ad0266fa11c7af9bff4364e90ab15382250e"
+    },
+    {
+      "path": "Server/GameServer.exe",
+      "before": "21d70b22247e8b610be1912661ab9ed2691cade7b2503286fc4f6cce5a6cf0fd",
+      "after": "6e9f27d08818d5cb4dcd3bc5b0820878f3bed6981e67c87abf1f875f0a420452"
+    },
+    {
+      "path": "Server/Goddess.exe",
+      "before": "0060cd451c00b44471e78f91b789b36c350c11a83fe9f8385eaf50d48f7c9f53",
+      "after": "16ddd197e034a3eb2796be2eee0f225e8215aade92f74992d9e4a5e79270d014"
+    },
+    {
+      "path": "ManagerStudio/Release/PhongThanCharacterEditor.dll",
+      "before": "ff8feb15b6de4e50fcd7124b161fe8aa6fb370cd190fc74258a762dd80319a34",
+      "after": "1e018d437304545a6b3f19f5a310439cbd8533b068ce7a238d2dc856a11bc9cf"
+    },
+    {
+      "path": "ManagerStudio/Release/PhongThanStudio.Character.dll",
+      "before": "019d3b3cc45d1fc0cfd9d2a4738582f89510e65e1ef7bd77a6abba8e0aec9a41",
+      "after": "ef88821e9a2ac41488d37ebac0a4499a24cd35b9492a0c5a06f2513e0f8a0846"
+    },
+    {
+      "path": "ManagerStudio/Release/PhongThanStudio.Core.dll",
+      "before": "9713a5906c49f5199b9fce8449db90aecc52e4439b580e8b5b18f8cd38fb3c3d",
+      "after": "2e4d60227c9eb176ea9c7a85df2d440017c936e227e6d035d49bb91f194e0654"
+    },
+    {
+      "path": "ManagerStudio/Release/PhongThanStudio.dll",
+      "before": "73c02b2204bdd03e12f1ce98af0dcc6bf6e57f1af0f926f671840bec56956696",
+      "after": "db78293b462e97939d57e0c33df5445acde5ececc49522345120aadfefe0f690"
+    }
+  ]
+}

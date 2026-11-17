@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "classification": "REALM_UI_HANDBOOK_KHULAI_MISSILE_20261106",
+  "files": [
+    {
+      "side": "Client",
+      "relative": "settings/Missles.txt",
+      "id": "08BCD3FC",
+      "sha256": "e642bc8cc3b68cc4d5bbe91e7664bf52cdce398a81fd49d4c1d7bcc2103f3a3e",
+      "before_sha256": "e3b495a27771ba4f268e0b356f0f7170f28315cc96d27b9f318f4c55a031328c",
+      "bytes": 93835
+    },
+    {
+      "side": "Client",
+      "relative": "ui/realm_skills.ini",
+      "id": "ED99AA4D",
+      "sha256": "b5a503ce3c5dcdd595a0a08c171b83bcd92ba5234497757d01e109b228e500f8",
+      "before_sha256": "ab84a9d583008c74488f17527ed8d285e9f391ada6d342f35675272fcc02dd94",
+      "bytes": 7089
+    },
+    {
+      "side": "Client",
+      "relative": "spr/skill/bomb/earthbomb-01.spr",
+      "id": "48209431",
+      "sha256": "5c99b1804a9c113e5bcde60cbfa14e5dee332bb7c776ae996b5b10f0fdb6fbdf",
+      "before_sha256": "d652bde2d4321f0f4daab42ad098baa029eadf3137efd877de5b1e54817ae37d",
+      "bytes": 380458
+    },
+    {
+      "side": "Server",
+      "relative": "settings/Missles.txt",
+      "id": "08BCD3FC",
+      "sha256": "6945e719a0e178c65debf10997ce38f59a40e127bac39fd3d91d19b95e10f225",
+      "before_sha256": "a3b22fc7dbb16d511577991aaee82035876414c25e86ce62cd61dcada18a6af6",
+      "bytes": 94711
+    },
+    {
+      "side": "Server",
+      "relative": "script/phongthan/giapsi/item_142.lua",
+      "id": "CF4C60A5",
+      "sha256": "6b443a2c23c6d54acfb8a8aca9c3894f3163db0ec239eb8d279a74b7b0e1954a",
+      "before_sha256": "ab1acea27aa081ecd3973a377ee8616400d86546e9ca7f1eacb8ef49b518ca2e",
+      "bytes": 112909
+    },
+    {
+      "side": "Server",
+      "relative": "script/phongthan/giapsi/item_181.lua",
+      "id": "8A5E8DB6",
+      "sha256": "886bf874445d8726d3ee32feea44a4372c53615a6f4274f3a66ef716dba966d9",
+      "before_sha256": "0c35f170734c9855d3272534283db0f2c73cfa9b86f73a0a41469d9c0b0a7347",
+      "bytes": 111042
+    },
+    {
+      "side": "Server",
+      "relative": "script/phongthan/giapsi/item_34.lua",
+      "id": "9517F1AF",
+      "sha256": "5057130783e48a442bda48dd51a69c8d6a25897b9f77c2481d0e9f2f8ee4a7c7",
+      "before_sha256": "eb24205c496b924daf40b0b7199ad69538dc7070f0d48b2202f7c7b1bda4bde0",
+      "bytes": 112629
+    },
+    {
+      "side": "Server",
+      "relative": "script/phongthan/giapsi/item_9201.lua",
+      "id": "53685CF8",
+      "sha256": "a287285e3cf6d4448c1adbdb5ac5a5a02683cda84feba74a4083ae8f6618d085",
+      "before_sha256": "8b8af88283b53ff9ce903570510e64acf1cea5e3418dbfc2702e0740d66fa950",
+      "bytes": 110650
+    },
+    {
+      "side": "Server",
+      "relative": "script/phongthan/test/event_handbook.lua",
+      "id": "E4A99F92",
+      "sha256": "7156a036d16a84958a9368b166a45ca22a561e3a0cab04ca2990a1e2805c3cde",
+      "before_sha256": "afa5c04c81bfe06e39580f8b1453f3557d8ea1a54eeb2fb9a73d54725a31239b",
+      "bytes": 4122133
+    }
+  ],
+  "originalPakModified": false
+}

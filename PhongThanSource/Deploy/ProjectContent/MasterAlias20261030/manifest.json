@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "files": [
+    {
+      "role": "Server",
+      "relative": "script/\u00d3\u00f1\u00d0\u00e9\u00b9\u00ac/\u00bd\u00cc\u00ca\u00a6.lua",
+      "before": "373bf9eca2c0328bc9d4027943ad3125834c3d4e4a10198576c79268764e40bb",
+      "sha256": "cd7ffe48d9ff24988018709a9808b99d54605a7a7eedd66f6fb9800bf197cbf5"
+    },
+    {
+      "role": "Server",
+      "relative": "script/\u00b3\u00e7\u00b3\u00c7\u00b4\u00f3\u00d3\u00aa/\u00bd\u00cc\u00ca\u00a6.lua",
+      "before": "4830ecc758e038034966ef75ae09f5fd29a5585cf47296301a636ac6aff7844c",
+      "sha256": "e99fad10a1ffc5d9a4d570c12efba6439dc10aa9efcd6bd00a56ae95dd02ed04"
+    },
+    {
+      "role": "Server",
+      "relative": "script/\u00f2\u00bf\u00d3\u00c8\u00c4\u00b9/\u00bd\u00cc\u00ca\u00a6.lua",
+      "before": "bc356013d1a6b180e4cd48e348a017d3a0d43c60fd4577024427f26c7d53b061",
+      "sha256": "1a4ff228148d21b8b78944ee91b547cde4d6ef4115e359f55e0bc7b2661fe055"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_restore/1021_00.lua",
+      "before": "db3ca8519350b69023e47f05aac9d7ad2f5a31f9bb0565a3399e4c1166cc6cf9",
+      "sha256": "28a5433b2bdafa549e5cf12fd563ca213f50636ef62249d752eb15b3e68f8830"
+    },
+    {
+      "role": "Server",
+      "relative": "script/\u00b3\u00af\u00b8\u00e8/\u00bb\u00c6\u00b7\u00c9\u00bb\u00a2.lua",
+      "before": "8fccc041de01cef93ce1a6ebfaa262a0793f3342c3b4840da53f35e1f2aaf556",
+      "sha256": "f419302a93e0edfb5f22aab2b94ff9377c16912e1cb22ace1a6d44da2c2a5772"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_recovered_batch/1004_94a2d951.lua",
+      "before": "a6f26511146635860ef855f218bc407ae94f32f6603114973aec3f44cccd0ef0",
+      "sha256": "8f8784d1650fb324e0c2073c8f1c1303e5d63f45ec5a47de38e65422658f94f8"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_recovered_batch/1003_176efdac.lua",
+      "before": "373bf9eca2c0328bc9d4027943ad3125834c3d4e4a10198576c79268764e40bb",
+      "sha256": "cd7ffe48d9ff24988018709a9808b99d54605a7a7eedd66f6fb9800bf197cbf5"
+    },
+    {
+      "role": "Client",
+      "relative": "script/\u00d3\u00f1\u00d0\u00e9\u00b9\u00ac/\u00bd\u00cc\u00ca\u00a6.lua",
+      "before": "373bf9eca2c0328bc9d4027943ad3125834c3d4e4a10198576c79268764e40bb",
+      "sha256": "cd7ffe48d9ff24988018709a9808b99d54605a7a7eedd66f6fb9800bf197cbf5"
+    },
+    {
+      "role": "Client",
+      "relative": "script/\u00f2\u00bf\u00d3\u00c8\u00c4\u00b9/\u00bd\u00cc\u00ca\u00a6.lua",
+      "before": "c288d7d26fc5ecca8d0c168b3aa88fc573a3b55b247086160268fc460d6b12f3",
+      "sha256": "22f6577f2c1cae131fd8f433446c729802cd3109cbc5050bef7ecd3622abcd45"
+    },
+    {
+      "role": "Client",
+      "relative": "script/\u00b3\u00e7\u00b3\u00c7\u00b4\u00f3\u00d3\u00aa/\u00bd\u00cc\u00ca\u00a6.lua",
+      "before": "0cc981747861237da0a39a38fc68ce3b5ac8ddc39a2faf1f0553292ac9a3a53c",
+      "sha256": "aaf2e8be55736bb7643fffb2e7427664068ee3fb851c55a31ce938a9e9cf42c6"
+    },
+    {
+      "role": "Client",
+      "relative": "script/\u00b3\u00af\u00b8\u00e8/\u00bb\u00c6\u00b7\u00c9\u00bb\u00a2.lua",
+      "before": "8fccc041de01cef93ce1a6ebfaa262a0793f3342c3b4840da53f35e1f2aaf556",
+      "sha256": "f419302a93e0edfb5f22aab2b94ff9377c16912e1cb22ace1a6d44da2c2a5772"
+    }
+  ]
+}

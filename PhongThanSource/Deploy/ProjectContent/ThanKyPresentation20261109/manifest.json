@@ -1,0 +1,514 @@
+{
+  "profile": "LooseOnly",
+  "files": [
+    {
+      "path": "Server/settings/phongthan/NpcDisplayNames.txt",
+      "before_sha256": "922787dd3d0d6682ff836e53bdfa2386f94bbddfb5546174f234f42dc340ba22",
+      "sha256": "7dc91f7e919e93763efd1ec7fa221f204e8a679466331d5ca4b2c8f49f698efd",
+      "bytes": 7872,
+      "accepted_before_sha256": [
+        "174dc51a0998744ef242584054435517a0bceef8adc82d3b13406c94790b0d95",
+        "39492b3c0a843f0b740acf55394c4ca2b46336b8658dfa47fcf6df8c8d9adfc8",
+        "8e9b74ffefea094fc4d7b2a8b370855d0ad58d953ae6d33aae09a9b1ba961c5d",
+        "922787dd3d0d6682ff836e53bdfa2386f94bbddfb5546174f234f42dc340ba22",
+        "e65762a27e198412ccaceb1d6c1c63ba19b121efe7dcdbb0b3dd392fdf4dc36c"
+      ]
+    },
+    {
+      "path": "Server/settings/item/001/magicscript.txt",
+      "before_sha256": "3dee090438fb965e09154a06fbe072a7656f4977c1ed3a0bb92462ca23063725",
+      "sha256": "6e2bc53a632728a5e6eec2eb0d4ddfa663e9fa07ac4f8b0a833a29a6b3247596",
+      "bytes": 1335869,
+      "accepted_before_sha256": [
+        "1330ef159509d1e75854e56216006546995a38b77fbb6e530b647f399cce3800",
+        "1cd1e6b8daca538b3f9ef5dc1539233972bed92863b5c7174918bec7cdad3c45",
+        "51ffb74f1d93f995f63bcd456af28d871a8df7ad2605699748fc04f0d14f27bb",
+        "5224dcba355c52a97fcc4c8bf307c6297dc833390b20683c34381ada4c95ca1b",
+        "5d615c99974af9cf78ae6898ba4d8a79f33cfe454c283de1089d03531f12a161",
+        "76ac92ab6d526eaf0a66f1367c942714f0dbce04a2023377ffba5f7499d92307",
+        "9ac52d319cabea342c00c379c3be79c2d7277220929e32ccea4c2135442b4b2f",
+        "e3617bd59a331eeee7f1f100be13a6b0efd51c8741b6528ed072b1ebebc39021"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/bang_hon_tuyet_phach.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "3ebc6462cd18ff9135fc3d42287ee85b49c27740d7afb33125b340ea7da6ae2e",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/doan_binh_giao_tiep.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "3ebc6462cd18ff9135fc3d42287ee85b49c27740d7afb33125b340ea7da6ae2e",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/hinh_thien_chien_y_cuong_dao.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "3ebc6462cd18ff9135fc3d42287ee85b49c27740d7afb33125b340ea7da6ae2e",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/hinh_thien_chien_y_ngu_sau.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "3ebc6462cd18ff9135fc3d42287ee85b49c27740d7afb33125b340ea7da6ae2e",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/hinh_thien_chien_y_phong_uyen.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "3ebc6462cd18ff9135fc3d42287ee85b49c27740d7afb33125b340ea7da6ae2e",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/hoa_dia_vi_lao.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "3ebc6462cd18ff9135fc3d42287ee85b49c27740d7afb33125b340ea7da6ae2e",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/huyen_anh_tan_hoa.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/huyen_anh_tan_hoa_cap_2.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/huyen_anh_tan_hoa_cap_3.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/huyen_anh_tan_hoa_cap_4.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/huyen_anh_tan_hoa_cap_5.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/huyet_nguyet_tram.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/huyet_nguyet_tram_cap_2.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/huyet_nguyet_tram_cap_3.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/huyet_nguyet_tram_cap_4.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/huyet_nguyet_tram_cap_5.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/kho_moc_phung_xuan.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "3ebc6462cd18ff9135fc3d42287ee85b49c27740d7afb33125b340ea7da6ae2e",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/loi_hoa_toan_phong.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/loi_hoa_toan_phong_cap_2.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/loi_hoa_toan_phong_cap_3.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/loi_hoa_toan_phong_cap_4.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/loi_hoa_toan_phong_cap_5.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/nam_minh_ly_hoa.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "3ebc6462cd18ff9135fc3d42287ee85b49c27740d7afb33125b340ea7da6ae2e",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/phat_no_hoa_lien.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/phat_no_hoa_lien_cap_2.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/phat_no_hoa_lien_cap_3.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/phat_no_hoa_lien_cap_4.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/phat_no_hoa_lien_cap_5.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/thien_toan_dia_chuyen.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "3ebc6462cd18ff9135fc3d42287ee85b49c27740d7afb33125b340ea7da6ae2e",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/trieu_hoi.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "3ebc6462cd18ff9135fc3d42287ee85b49c27740d7afb33125b340ea7da6ae2e",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/truy_hon_tan_hoa.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/truy_hon_tan_hoa_cap_2.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/truy_hon_tan_hoa_cap_3.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/truy_hon_tan_hoa_cap_4.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/truy_hon_tan_hoa_cap_5.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/van_kiem_quy_tong.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/van_kiem_quy_tong_cap_2.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/van_kiem_quy_tong_cap_3.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/van_kiem_quy_tong_cap_4.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/van_kiem_quy_tong_cap_5.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "2cd06096af1d57d9239239b5b50db8cac5154dd288ff46814911ba0ccd0e62d5",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/vnevent/features/thanky/xung_phong_ham_tran.lua",
+      "before_sha256": "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a",
+      "sha256": "1189836627fdb010136654ca7630b33d35771f1113087f7f0bc0cb7c57595d50",
+      "bytes": 817,
+      "accepted_before_sha256": [
+        "3ebc6462cd18ff9135fc3d42287ee85b49c27740d7afb33125b340ea7da6ae2e",
+        "6a6ee13b69c5ea3e53bd33d6a83aa12629510f21070f46ccd5cc1ed8aeced98a"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/services/ho_lo_dang.lua",
+      "before_sha256": "71a8d4de2ab49e2890659934c8552fc28fceb5f6d657d08831f442146b0cb7d2",
+      "sha256": "e3e60eea4460e8e9b0516c7369e8b6c7f7bd9c5c21c89667e0ab59c7cd8a32cb",
+      "bytes": 27078,
+      "accepted_before_sha256": [
+        "71a8d4de2ab49e2890659934c8552fc28fceb5f6d657d08831f442146b0cb7d2",
+        "dae4f7a2660187b14528d1a2d7a7cd53f1815ceeb4775cb4e41dc53d6b214ab9"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/test/event_handbook.lua",
+      "before_sha256": "48ac658f8f758d9e63a3ddebd4a7b6f9fdfdc3d18e80440370b952ec52290038",
+      "sha256": "bd03895d7402471a25f37a3ca957bf1318e422d38abf8e79ab76d921b4875395",
+      "bytes": 4133780,
+      "accepted_before_sha256": [
+        "1791232af7e095b3aad563ac56f49f452f5b4d4f0a8da213263de8e3b82c64f8",
+        "27f8294a20760b3e8c7f1ca6d0739e8c78167efedd0f637e0c38219bfa4028eb",
+        "2bd5bbf7e32de0dfe3255994c0626a8133709d0e6569275f43ee52eda700e096",
+        "312cc062b8d6fd51be7acc49f6ebc111ca28e39b8833b30bc03cfe7ec529117e",
+        "3ffbfcae46a0a5daba3e41bb269b48de7e13131b1c650c6238a00758ab97a279",
+        "48ac658f8f758d9e63a3ddebd4a7b6f9fdfdc3d18e80440370b952ec52290038",
+        "6d7e6638d3e53f0a0f8f411eb4bc2c10bb82f58d5efbed6100f63ee886d30e57",
+        "7156a036d16a84958a9368b166a45ca22a561e3a0cab04ca2990a1e2805c3cde",
+        "9746709d82cdfae1eb0caf50afbbae8bf31d491d65acdca80233d120228eb73a",
+        "b2287860bd10fff4f81275ad5c7b107ef1baf7078cef66ee9510da3b750977ed",
+        "cfa198e22561f36150ce2769c51c6bbf5373395837f207711125c5545f9f7773"
+      ]
+    },
+    {
+      "path": "Client/settings/phongthan/NpcDisplayNames.txt",
+      "before_sha256": "f24f4079eb0217a4309981804b71573eab6b899a466500253254aa67fcfb40c7",
+      "sha256": "0aed7dc7742135732ec2cbc8794343de845a349e1a2ca310a6d410f810db03d3",
+      "bytes": 72816,
+      "accepted_before_sha256": [
+        "39492b3c0a843f0b740acf55394c4ca2b46336b8658dfa47fcf6df8c8d9adfc8",
+        "40bc95468eef53f1ff13c0b97a88c3a6cfb55f80509015ee24fad6b7fae72170",
+        "72e38723060eb09cd22efc5b77bb536e94802ecc0034dccecd95cb44e553ee53",
+        "bdfe862358c51c8625df74e1ba227400268b24bc929ccfeea04167ac2ff1d5d8",
+        "f24f4079eb0217a4309981804b71573eab6b899a466500253254aa67fcfb40c7"
+      ]
+    },
+    {
+      "path": "Client/settings/phongthan/Npcs.txt",
+      "before_sha256": "e92a5265ce103c8bbfb41fb21944a5ea93dc9d629d86fd4a2410b33c544ba334",
+      "sha256": "4811f9520b1f161997aeb612006d4a1306f20c58bcae2b10709397822c461dc4",
+      "bytes": 1153072,
+      "accepted_before_sha256": [
+        "0fd251c0cda5ed17ccb09d9afd64d3880eaa902256129a297ae11ad71bb4da53",
+        "1496f2411c307019d73e5ded1480b605a88b2d239003884e6d440bb1be7cf08a",
+        "6435041003b8fe4ba113df38e173fc4d1015c18b356875edd67cd58b4f4f1ace",
+        "865ca15ed6b9d9c3581246523dd0ee201ab899eb5256f588128bf0900815f324"
+      ]
+    },
+    {
+      "path": "Client/settings/item/001/magicscript.txt",
+      "before_sha256": "7584405fd9c7067247e57c3006874783b2a312c97b1b85895cd84e2441a63c05",
+      "sha256": "fe7bad3d4e541bf897f57b8f0a77505be577ce7fa275f7e0b0c9dbba75f94855",
+      "bytes": 1335867,
+      "accepted_before_sha256": [
+        "1330ef159509d1e75854e56216006546995a38b77fbb6e530b647f399cce3800",
+        "1cd1e6b8daca538b3f9ef5dc1539233972bed92863b5c7174918bec7cdad3c45",
+        "51ffb74f1d93f995f63bcd456af28d871a8df7ad2605699748fc04f0d14f27bb",
+        "5224dcba355c52a97fcc4c8bf307c6297dc833390b20683c34381ada4c95ca1b",
+        "5d615c99974af9cf78ae6898ba4d8a79f33cfe454c283de1089d03531f12a161",
+        "76ac92ab6d526eaf0a66f1367c942714f0dbce04a2023377ffba5f7499d92307",
+        "9ac52d319cabea342c00c379c3be79c2d7277220929e32ccea4c2135442b4b2f",
+        "e3617bd59a331eeee7f1f100be13a6b0efd51c8741b6528ed072b1ebebc39021"
+      ]
+    }
+  ]
+}

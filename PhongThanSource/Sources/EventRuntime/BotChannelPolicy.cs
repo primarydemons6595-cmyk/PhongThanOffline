@@ -1,0 +1,4 @@
+namespace PhongThan.Event.Runtime;
+public sealed record BotChannelPolicy(int PublicMinLevel,bool WorldEnabled,bool TradeEnabled){
+    public static BotChannelPolicy Read(string folder){string file=Path.Combine(folder,"channel-policy.ini");if(!File.Exists(file))File.WriteAllText(file,"[Policy]\nPublicMinLevel=10\nWorldEnabled=1\nTradeEnabled=1\n");var values=File.ReadAllLines(file).Where(l=>l.Contains('=')).Select(l=>l.Split('=',2)).GroupBy(p=>p[0].Trim(),StringComparer.OrdinalIgnoreCase).ToDictionary(g=>g.Key,g=>g.Last()[1].Trim(),StringComparer.OrdinalIgnoreCase);int Read(string key,int fallback)=>values.TryGetValue(key,out string? value)&&int.TryParse(value,out int number)?number:fallback;return new(Math.Clamp(Read("PublicMinLevel",10),1,200),Read("WorldEnabled",1)!=0,Read("TradeEnabled",1)!=0);}
+}

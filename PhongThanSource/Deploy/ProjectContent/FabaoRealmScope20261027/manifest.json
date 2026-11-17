@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "role": "Client",
+      "relative": "CoreClient.dll",
+      "before": "df59d852690761968e1dcf4e648fb6885f443fe34e5e06ba7c9dcb73bfdaf655",
+      "sha256": "bfdda01d21e0f818c38fb489e05641c5eec094823c718724ae5b33a0c2cfc2ab"
+    },
+    {
+      "role": "Server",
+      "relative": "CoreServer.dll",
+      "before": "209f45f0f2752b324153348de598e6f712a53c6a47f6ff2d2a0401fe03f6531e",
+      "sha256": "7c9f45812f60b259ca9bfd8c8d9a55b9f3198e33bc8c32e9a8352c4aa3f106d6"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_restore/1073_06.lua",
+      "before": "c8b40d5ceafe6259beb507b9f056d730b5ab8c1a57e4a88dbfe93a8cbb5adcbe",
+      "sha256": "37a7bbb9027d7d9b6ebbf1d93dbca09f7ae0b140e796126045ab2cbf361323d2"
+    },
+    {
+      "role": "completion",
+      "relative": "studio_effective_overrides.json",
+      "before": "aae9e651cf0b3b4257c8bb6a7d856906e87edb651a8ad8cfd101f66430713424",
+      "sha256": "2bccd54b5265dd43a825cd630f3c17e460ef6745adc479025f95442171ee6d1b"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+#ifndef PHONGTHAN_FISHING_H
+#define PHONGTHAN_FISHING_H
+enum {PT_FISHING_OBJECT=378,PT_FISHING_CAST_REACH=512,PT_FISHING_ROD_PARTICULAR=71};
+inline bool PhongThanIsFishingObject(int dataId){return dataId==PT_FISHING_OBJECT;}
+#endif

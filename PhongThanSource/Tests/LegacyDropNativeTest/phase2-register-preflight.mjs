@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const source=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../..'),file=path.join(source,'Sources/Core/Core.dsp');
+const bytes=fs.readFileSync(file),text=bytes.toString('latin1');if(text.includes('SOURCE=.\\Src\\LegacyDropPreflight.cpp'))process.exit(0);
+const backup=path.join(path.dirname(source),'analysis/legacy_drop_20261017/phase2/before/Core.dsp');if(!fs.existsSync(backup))fs.writeFileSync(backup,bytes);
+const newline=text.includes('\r\n')?'\r\n':'\n',anchor='SOURCE=.\\Src\\KBasPropTbl.CPP'+newline;
+if(text.split(anchor).length!==2)throw Error('Core project anchor changed');
+fs.writeFileSync(file,Buffer.from(text.replace(anchor,'SOURCE=.\\Src\\LegacyDropPreflight.cpp'+newline+'# End Source File'+newline+'# Begin Source File'+newline+newline+anchor),'latin1'));
+console.log('Registered inert shared preflight module. No KNpc.cpp hook change.');

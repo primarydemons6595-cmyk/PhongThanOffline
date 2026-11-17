@@ -1,0 +1,36 @@
+{
+  "files": [
+    {
+      "role": "Client",
+      "relative": "CoreClient.dll",
+      "before": "b172183f2259ad3d3cd80739201d9c5a4bcbf708c62cc30426b1210fa41442af",
+      "sha256": "f564341216949bdd1f50b085fd96fc6448ff4022f2ec19ca064732086e187635"
+    },
+    {
+      "role": "Client",
+      "relative": "Game.exe",
+      "before": "3ed000f8c337833f112e409b4eb00ac702c35e817c1e7cf8e855125fdc6edc51",
+      "sha256": "c019f7a1f46c4517a0aa6d0ca438ff1cec585c6aa5cfaaf7a5e2dff8e9003477"
+    },
+    {
+      "role": "completion",
+      "relative": "studio_effective_overrides.json",
+      "before": "a48c7869387fc4d50b1e3c603e411954339a3d176e8f48678e724830c310a9d0",
+      "sha256": "05202255fd855c3232df41a7eadcc5b2c12f34960dbd2fdf849393235e2751d7"
+    },
+    {
+      "role": "Server",
+      "relative": "CoreServer.dll",
+      "before": "6fa277092231dd32ad93fa75ea6d2567d29a32bc38f0f2d32a50c1f3f095f904",
+      "sha256": "f2120e9b2d2e39988c995a739862004edd0c7a748bc1f7337bd1314c8b55ca0a"
+    },
+    {
+      "role": "Server",
+      "relative": "script/Ñþ³Ø/À×Õð×Ó.lua",
+      "before": "bcbecccfb1464386ea04c9db7934b8ade1ec77e6482ec2ae29117c353e52173d",
+      "sha256": "f58467474d10355c9f311624db5716b8f5eb5144223882217d57676310753627"
+    }
+  ],
+  "scope": "reconstructed Lei socket branch",
+  "docs": "Docs/LEI_SOCKET_RESTORE_20261026.md"
+}

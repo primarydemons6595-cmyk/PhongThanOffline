@@ -1,0 +1,25 @@
+{
+  "scope": "LOOSE_FIRST",
+  "files": [
+    {
+      "path": "Server/script/item/ibitem/wildsuper.lua",
+      "before_sha256": "7dea42664a2177f33b8da604def51ff04b42dd4c6eb56bff0efd40c15cb1cdef",
+      "sha256": "ba98c8b62da6b9b0c3991e063d607bf5cd46f607f811e11e0d827e5bb80bdfb9"
+    },
+    {
+      "path": "Server/script/item/ibitem/bigwildsuper.lua",
+      "before_sha256": "a3c19f83392891a16252ded2ad5707e2cc70937f3164fc77a5bb878bb30a0ba2",
+      "sha256": "4389cc5d68e0179f5caf4668d39a6b6ef4e18a3fcc35bfbc2c71e8e78fa1ea20"
+    },
+    {
+      "path": "Server/script/phongthan/commerce/runtime.lua",
+      "before_sha256": "cfbefcf9b4185d9c5b8503c89fb986569acd4a85f27710f3f18083db7e3bb29a",
+      "sha256": "c68e555310b598445c7948175e20ec4e40a3b71e53987131eb126652e6b1d06e"
+    },
+    {
+      "path": "Server/script/phongthan/giapsi/npc_doctor_dong.lua",
+      "before_sha256": "403f163f7241b475639e7f731d7adbe04c7b99cbf7783a4245760f74d281b8b8",
+      "sha256": "c8c3b48a79c51fffdbc55ffb11a96020e73c17b27889c7f984a69bdf52a3ccc7"
+    }
+  ]
+}

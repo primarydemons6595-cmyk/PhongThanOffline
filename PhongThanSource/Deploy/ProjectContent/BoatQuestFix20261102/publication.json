@@ -1,0 +1,48 @@
+﻿{
+    "Scope":  "LOOSE_ONLY",
+    "Backup":  "E:\\ProjectAI\\PhongThan\\PT\\analysis\\boat_quest_fix_20261102\\runtime-before-20261102_100914",
+    "Result":  "PASS",
+    "Files":  [
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\BoatQuestFix20261102\\binaries\\Server\\CoreServer.dll",
+                      "Path":  "Server/CoreServer.dll",
+                      "Done":  false,
+                      "After":  "58EBF5B3C05F681EACB9CA5567D2F4887E7395CCCED9A55EF746996A5D94CC5A",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\CoreServer.dll",
+                      "Before":  "334453F90F571C57B07D28CBC2EA681530A9A889BE7834271AED3814835C31A4"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\BoatQuestFix20261102\\binaries\\Server\\script\\phongthan\\realm\\boat_dong_doanh.lua",
+                      "Path":  "Server/script/phongthan/realm/boat_dong_doanh.lua",
+                      "Done":  false,
+                      "After":  "676592EF7AC169E25B6AD875C135C4A2EC115D6D46EE915A88DA47B6CD22012F",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\script\\phongthan\\realm\\boat_dong_doanh.lua",
+                      "Before":  "441200E744729528A4CEEA72AF5E1F2A39F8F97E5E01A3B6B36295AF6904DD9A"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\BoatQuestFix20261102\\binaries\\Server\\script\\phongthan\\realm\\boat_tran_duong.lua",
+                      "Path":  "Server/script/phongthan/realm/boat_tran_duong.lua",
+                      "Done":  false,
+                      "After":  "676592EF7AC169E25B6AD875C135C4A2EC115D6D46EE915A88DA47B6CD22012F",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\script\\phongthan\\realm\\boat_tran_duong.lua",
+                      "Before":  "441200E744729528A4CEEA72AF5E1F2A39F8F97E5E01A3B6B36295AF6904DD9A"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\BoatQuestFix20261102\\binaries\\Client\\ui\\ui3\\taskinfo.ini",
+                      "Path":  "Client/ui/ui3/taskinfo.ini",
+                      "Done":  false,
+                      "After":  "25F4FF78A52B0FBA0F943117FF0C187F38847EBE76747D2B9DCA11AE85917701",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Client\\ui\\ui3\\taskinfo.ini",
+                      "Before":  "CAFF74C936B2B45A20414776D8D5614BCA52380D65D7A1038345052C7F9BA8B7"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\BoatQuestFix20261102\\binaries\\Client\\ui\\ui4\\taskinfo.ini",
+                      "Path":  "Client/ui/ui4/taskinfo.ini",
+                      "Done":  false,
+                      "After":  "73A32C89AAF1F8FD9F3FA87BBFDE62182E361DE63CA748466D984E6D448174BD",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Client\\ui\\ui4\\taskinfo.ini",
+                      "Before":  "FFD39B1C032B4E159F3EEF5C0440BB135A95EE8253BF809693C49D67E1ED546B"
+                  }
+              ],
+    "PublishedAtUtc":  "2026-11-02T03:09:16.2371513Z"
+}

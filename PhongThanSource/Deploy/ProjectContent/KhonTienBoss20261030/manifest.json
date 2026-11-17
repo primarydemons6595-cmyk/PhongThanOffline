@@ -1,0 +1,32 @@
+{
+  "scope": "LOOSE_ONLY",
+  "reason": "Standalone NPC section was shadowed by a combined region file",
+  "files": [
+    {
+      "path": "Server/settings/phongthan/npc_regions/1049/v_102/103_region_s.dat",
+      "sha256": "db243a3da31674dbe2ea2cc82b5cffbdc76c9987ed69d1dfe9865dbe9f49e5e4",
+      "before_sha256": "23d77ab4bb153660f6214104b0f34266e95dd1ffa9d6563a900236e05799743d"
+    },
+    {
+      "path": "Server/settings/phongthan/npc_regions/1049/v_094/105_region_s.dat",
+      "sha256": "4eaccafbe41346ac84526eac0a52d1e25ff620acd39ad7b9f9d1e181a9690f36",
+      "before_sha256": "f993430a12476342fe08c4b17d309f8bfd423895179026f3e82be9530f6f93a5"
+    }
+  ],
+  "placements": [
+    {
+      "map": 1049,
+      "template": 118,
+      "display_x": 206,
+      "display_y": 204,
+      "level": 75
+    },
+    {
+      "map": 1049,
+      "template": 118,
+      "display_x": 210,
+      "display_y": 188,
+      "level": 75
+    }
+  ]
+}

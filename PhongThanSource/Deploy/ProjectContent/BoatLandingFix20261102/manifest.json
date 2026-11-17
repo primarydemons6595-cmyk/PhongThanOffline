@@ -1,0 +1,10 @@
+{
+  "scope": "LOOSE_ONLY",
+  "files": [
+    {
+      "path": "Server/CoreServer.dll",
+      "before": "154786185122B4F04A414E17A3116325FE203DBF638151C54C5F23468531E6F6",
+      "after": "334453F90F571C57B07D28CBC2EA681530A9A889BE7834271AED3814835C31A4"
+    }
+  ]
+}

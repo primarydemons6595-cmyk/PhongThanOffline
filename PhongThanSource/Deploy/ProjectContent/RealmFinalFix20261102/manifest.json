@@ -1,0 +1,35 @@
+{
+  "scope": "LOOSE_ONLY",
+  "files": [
+    {
+      "path": "Client/CoreClient.dll",
+      "before": "b7dc1989052f04b767529d851cff5c23d8fa6a0c44a3686ca5d5dbe799f92342",
+      "after": "743c249b3c4a3a051574969beb63f57b116552eb6be744dde3f6475308c613a7"
+    },
+    {
+      "path": "Server/CoreServer.dll",
+      "before": "cc3e02b50328a82ef161db6e597d6f042a6ff7261e0323d45fcb920ff37b1722",
+      "after": "1d12fedd96a3984a9bff3e0cefbe34fa5c65e4898a9c60f86591a161911568d3"
+    },
+    {
+      "path": "Server/script/phongthan/realm/boat_dong_doanh.lua",
+      "before": "ed4a48ce4ab127b7a3f7dcfa9bd915d6736cb21b51ae83d5e7cd49fc4cfc6758",
+      "after": "a0e0e46ddf327099c77fbcaa468256f057e85e874f15ca6218a40601f79a65c0"
+    },
+    {
+      "path": "Server/script/phongthan/realm/boat_tran_duong.lua",
+      "before": "ed4a48ce4ab127b7a3f7dcfa9bd915d6736cb21b51ae83d5e7cd49fc4cfc6758",
+      "after": "a0e0e46ddf327099c77fbcaa468256f057e85e874f15ca6218a40601f79a65c0"
+    },
+    {
+      "path": "Server/script/Ñþ³Ø/ÇíÏöÄïÄï.lua",
+      "before": "1ed9ceb578187080bb690698d25c9794cab23fb5ea001255a0d2fb3af68986b8",
+      "after": "661d29f5f63b234135cfe7c92d0ba610f7f655a60ec5fd34a7e56fd791d5d8cf"
+    },
+    {
+      "path": "Server/settings/phongthan/IslandReputation.ini",
+      "before": null,
+      "after": "44949b20462b30edcf50e379035d15948d70f591a0b62dfe88133a1cc6561c67"
+    }
+  ]
+}

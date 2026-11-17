@@ -1,0 +1,128 @@
+﻿{
+    "Scope":  "LOOSE_ONLY",
+    "Backup":  "E:\\ProjectAI\\PhongThan\\PT\\analysis\\server_item_batch_20261101\\runtime-before-20261101_160022",
+    "Result":  "PASS",
+    "Files":  [
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\ServerItemBatch20261101\\compiled\\Server\\settings\\item\\001\\material.txt",
+                      "Path":  "Server/settings/item/001/material.txt",
+                      "Done":  false,
+                      "After":  "d2ad32007594aa1eee8ff903b0152291ff7246fbaeda562ea4ce4889cb780c0c",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\settings\\item\\001\\material.txt",
+                      "Before":  "066509cd7833ffed245a682874151ea66a462c8d766cbed96e5d411a199c58fd"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\ServerItemBatch20261101\\compiled\\Server\\settings\\item\\001\\ibitem.txt",
+                      "Path":  "Server/settings/item/001/ibitem.txt",
+                      "Done":  false,
+                      "After":  "2d20c6d33be3d846f19b4e06bf4d96c0a66f650cd17113925df20c200340e180",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\settings\\item\\001\\ibitem.txt",
+                      "Before":  "8cbeffd69b569529a958ae52a6c8161c1be5449f6824229451395984bd5bceae"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\ServerItemBatch20261101\\compiled\\Client\\settings\\item\\001\\material.txt",
+                      "Path":  "Client/settings/item/001/material.txt",
+                      "Done":  false,
+                      "After":  "d2ad32007594aa1eee8ff903b0152291ff7246fbaeda562ea4ce4889cb780c0c",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Client\\settings\\item\\001\\material.txt",
+                      "Before":  "066509cd7833ffed245a682874151ea66a462c8d766cbed96e5d411a199c58fd"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\ServerItemBatch20261101\\compiled\\Client\\settings\\item\\001\\ibitem.txt",
+                      "Path":  "Client/settings/item/001/ibitem.txt",
+                      "Done":  false,
+                      "After":  "bd0b1de50c1a1c4b5f7c2254c4b86c9a80283d8c092677979f261fd4b15de0f5",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Client\\settings\\item\\001\\ibitem.txt",
+                      "Before":  "4577d0cb0a63fbbdac662128ccab20589b5e47d28daa3aba7c56244c573f95a7"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\ServerItemBatch20261101\\compiled\\Server\\settings\\phongthan\\npc_regions\\1067\\v_102\\092_region_s.dat",
+                      "Path":  "Server/settings/phongthan/npc_regions/1067/v_102/092_region_s.dat",
+                      "Done":  false,
+                      "After":  "2fdd8bab0f15fcb721c0ad186a9cb0a30be1fb1b16c78a7e650a2a7508b97622",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\settings\\phongthan\\npc_regions\\1067\\v_102\\092_region_s.dat",
+                      "Before":  "435e4d0201fe3f3e7162d84ac5917295028b633c36c0065f9de460b680537dc6"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\ServerItemBatch20261101\\compiled\\Server\\settings\\phongthan\\npc_regions\\1067\\v_102\\093_region_s.dat",
+                      "Path":  "Server/settings/phongthan/npc_regions/1067/v_102/093_region_s.dat",
+                      "Done":  false,
+                      "After":  "9b96d9f4862305e70867aa43c8b47ae0302e1289c354e8621ecd228c1b3ae700",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\settings\\phongthan\\npc_regions\\1067\\v_102\\093_region_s.dat",
+                      "Before":  "ff68b65f664f56466f4cff859cda96b33d74654473df3b27937ed47b99c9960a"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\ServerItemBatch20261101\\compiled\\Server\\settings\\phongthan\\npc_regions\\1067\\v_102\\083_region_s.dat",
+                      "Path":  "Server/settings/phongthan/npc_regions/1067/v_102/083_region_s.dat",
+                      "Done":  false,
+                      "After":  "bded82fb64b8a62cc66395a0d4b5032c87a038fe3315e028b7cb94b2c141f8ce",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\settings\\phongthan\\npc_regions\\1067\\v_102\\083_region_s.dat",
+                      "Before":  null
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\ServerItemBatch20261101\\compiled\\Server\\settings\\phongthan\\npc_regions\\1021\\v_095\\109_npc_s.dat",
+                      "Path":  "Server/settings/phongthan/npc_regions/1021/v_095/109_npc_s.dat",
+                      "Done":  false,
+                      "After":  "5a270316fd022735572071fb7e49fb23dbe1ff7f2711543d2439d9214ed60d77",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\settings\\phongthan\\npc_regions\\1021\\v_095\\109_npc_s.dat",
+                      "Before":  null
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\ServerItemBatch20261101\\compiled\\Server\\script\\phongthan\\items\\destroy.lua",
+                      "Path":  "Server/script/phongthan/items/destroy.lua",
+                      "Done":  false,
+                      "After":  "601797a8e3223017ce33ebcb64905e39d946e2b67d49b61b3d768daa95f0d579",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\script\\phongthan\\items\\destroy.lua",
+                      "Before":  null
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\ServerItemBatch20261101\\compiled\\Client\\settings\\phongthan\\MapServiceLabels.txt",
+                      "Path":  "Client/settings/phongthan/MapServiceLabels.txt",
+                      "Done":  false,
+                      "After":  "423fd51842c05e0cb530a16ee604e52e9df98b601961c560271bd29b1f392ad4",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Client\\settings\\phongthan\\MapServiceLabels.txt",
+                      "Before":  "68a172f14421bfe6029b7d32638d77fa92aba4784ea2d97635970b6893bf8ce1"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\ServerItemBatch20261101\\compiled\\Server\\loose_index.bin",
+                      "Path":  "Server/loose_index.bin",
+                      "Done":  false,
+                      "After":  "02a002fb9a4d6d10148f22ae7b8277f11124fcb77a981db0204eabb43c8a63b5",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\loose_index.bin",
+                      "Before":  "b548855dfaf401c457961303ebc0ae9d4502fd8a1d6749953497f3094bce3bbb"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\ServerItemBatch20261101\\compiled\\completion\\studio_effective_overrides.json",
+                      "Path":  "completion/studio_effective_overrides.json",
+                      "Done":  false,
+                      "After":  "21349ab04f30f5c567e758103dd997c4a21449f68002a82e9a5043db673e16f2",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\completion\\studio_effective_overrides.json",
+                      "Before":  "6d95509b322a3927d6fce338dd5922d7e88f960c06ca0a008ab8d53618e5a86e"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\ServerItemBatch20261101\\binaries\\Client\\CoreClient.dll",
+                      "Path":  "Client/CoreClient.dll",
+                      "Done":  false,
+                      "After":  "151224139DFB31D525C1232A319C1F1E3EFF453C661E75C4CF168E6D3693EBD6",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Client\\CoreClient.dll",
+                      "Before":  "31AC602FC609587B329CDC44EC7705AD2DD5C330591C2A14D19220C789B238AC"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\ServerItemBatch20261101\\binaries\\Client\\Game.exe",
+                      "Path":  "Client/Game.exe",
+                      "Done":  false,
+                      "After":  "D178AB4DC7D26190F38966A0997E1CA8D67EF98AC76F8387A20894B9CF478CB4",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Client\\Game.exe",
+                      "Before":  "CBBCCC6753CB42F27206A5F0D79E0411DA2B16C92CDAAB8E2E2E658FE8DDFB6D"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\ServerItemBatch20261101\\binaries\\Server\\CoreServer.dll",
+                      "Path":  "Server/CoreServer.dll",
+                      "Done":  false,
+                      "After":  "7EFD74D57B63D8AA94A38356D5424A7E30DC81DA1B294D7006018DCBBCB22B1D",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\CoreServer.dll",
+                      "Before":  "22C5710EE91C25B4F22B43CD970154703562AE1743D0D5A41B4E6ED82CBE51C0"
+                  }
+              ],
+    "PublishedAtUtc":  "2026-11-01T09:00:25.0840249Z"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "skill": 1500,
+    "relative": "script/skill/zhuansheng/\u00b1\u00b3\u00cb\u00ae\u00d2\u00bb\u00d5\u00bd.lua",
+    "sha256": "73dccb06034b6750868e6274a2a382e47938840d22065fb4a2307bdc6bc9a7ab",
+    "provenance": "user_approved_reconstruction"
+  },
+  {
+    "skill": 1502,
+    "relative": "script/skill/zhuansheng/\u00b7\u00e9\u00bb\u00f0\u00c0\u00c7\u00d1\u00cc.lua",
+    "sha256": "90a9d6e34d7060d9ab93e35b00fb4b86ac430ef5c28ba8f2613ecc2391c2ec90",
+    "provenance": "user_approved_reconstruction"
+  },
+  {
+    "skill": 1516,
+    "relative": "script/skill/huanhun/\u00bb\u00ad\u00b5\u00d8\u00ce\u00aa\u00c0\u00ce.lua",
+    "sha256": "5b24cd85318798d9b8a4070e75cca47a7824dec5b6f1b57950d2e84026de8f51",
+    "provenance": "surviving_original_same_family_controller_alias_not_exact_legacy_formula"
+  },
+  {
+    "skill": 1517,
+    "relative": "script/skill/huanhun/\u00bb\u00ad\u00b5\u00d8\u00ce\u00aa\u00c0\u00ce\u00a1\u00a4\u00bc\u00ab.lua",
+    "sha256": "5b24cd85318798d9b8a4070e75cca47a7824dec5b6f1b57950d2e84026de8f51",
+    "provenance": "surviving_original_same_family_controller_alias_not_exact_legacy_formula"
+  }
+]

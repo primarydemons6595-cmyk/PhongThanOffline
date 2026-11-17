@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "files": [
+    {
+      "role": "Server",
+      "relative": "EventService/catalog.json",
+      "before": "6848c8e179f6d3e6915d14f2c0e9372879fd48007aefc33bdae308a5de85d25e",
+      "sha256": "02736b872940fe787713501b97c03e4c2e60ea96db16d10cab38361c84fbd926"
+    },
+    {
+      "role": "Server",
+      "relative": "EventService/catalog.tsv",
+      "before": "8a5cbb38a08c6e110e4c39a2dbd700a19b1874eda4720d5c84fa5e9b21c92ee3",
+      "sha256": "2885e7477635a31857500e5dded2c4948bec4d4ce2d3d8fd121ebf04611ffd8e"
+    },
+    {
+      "role": "Server",
+      "relative": "script/servertimer.lua",
+      "before": "db51b0a8b98a01914012ca3d4cff012eb0616c05f2c636f2adca4c9606ea1614",
+      "sha256": "464df2f4518ff0eb6e09b1e89e5d838126b66c920dfc72d2c2c5c305d44a0297"
+    }
+  ]
+}

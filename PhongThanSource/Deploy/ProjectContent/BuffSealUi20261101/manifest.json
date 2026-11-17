@@ -1,0 +1,30 @@
+{
+  "scope": "LOOSE_ONLY",
+  "files": [
+    {
+      "path": "Server/settings/item/001/ibitem.txt",
+      "before": "5ce772ddaa43e34132c80a9286453ae56c2f25a9014dc577b4baf921911f604e",
+      "after": "8cbeffd69b569529a958ae52a6c8161c1be5449f6824229451395984bd5bceae"
+    },
+    {
+      "path": "Client/settings/item/001/ibitem.txt",
+      "before": "8866c32d60c6706ad915879ed66d64d9f3ddefe40435be25e5695fa8c9dd98a8",
+      "after": "4577d0cb0a63fbbdac662128ccab20589b5e47d28daa3aba7c56244c573f95a7"
+    },
+    {
+      "path": "Client/ui/ui3/UiStatus.ini",
+      "before": "2ca5697d8d7bca788be4c5d229d983571244d715ac82a733e7b4c0bb11e1b668",
+      "after": "5c04e9d367c796eccb91b3b6d19019c1042036a89afd9f3ceb36e42ce7aa537f"
+    },
+    {
+      "path": "Server/CoreServer.dll",
+      "before": "f8d5aa3cd5deb0978311460daf44ac97e425986df96233af238df640b3d7afa1",
+      "after": "2dcecf3c256cfec86b3047a0a6e4314d75d71ac51f9a7e9096d2c5af397ed175"
+    },
+    {
+      "path": "Client/CoreClient.dll",
+      "before": "7b8f2570119ff1144b8a116bc03aed90f9e241fab949eb972c031280a5175e18",
+      "after": "53337a4eaaa3662b89eee0fae6469aac1ef42f0c4aaa3ef5dbc83322753ad23c"
+    }
+  ]
+}

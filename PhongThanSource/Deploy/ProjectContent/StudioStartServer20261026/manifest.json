@@ -1,0 +1,154 @@
+{
+  "files": [
+    {
+      "role": "ManagerStudio",
+      "relative": "Wpf/PhongThanStudio.App/bin/Release/net10.0-windows/PhongThanStudio.exe",
+      "before": "ae0354a7ad3fbea94fee6cb9982e638ae0d6593f4f41b21131f11d76247b7a66",
+      "sha256": "ae0354a7ad3fbea94fee6cb9982e638ae0d6593f4f41b21131f11d76247b7a66"
+    },
+    {
+      "role": "ManagerStudio",
+      "relative": "Wpf/PhongThanStudio.App/bin/Release/net10.0-windows/PhongThanStudio.dll",
+      "before": "a9fe512f1fe052a523cec848e5c8e1328a0d32c8aa6e94ca74f93480c6ba9d57",
+      "sha256": "39d6d56268a3951c72991212f679466974942b7fbe56b2837b1bfc99a38195de"
+    },
+    {
+      "role": "ManagerStudio",
+      "relative": "Wpf/PhongThanStudio.App/bin/Release/net10.0-windows/PhongThanStudio.pdb",
+      "before": "9b57c633e213a411773199cb3838789053de6b4f0e27e201e8309fa46c48e066",
+      "sha256": "a3d0898815aeaf3bd8c649d1b36aa54484434d11f7b4d6cc1c43c008a6a25a0e"
+    },
+    {
+      "role": "ManagerStudio",
+      "relative": "Wpf/PhongThanStudio.App/bin/Release/net10.0-windows/PhongThanStudio.deps.json",
+      "before": "fe21e31280f33921230d189022c5f5f9a70010cee40699f677e44d0014527ffc",
+      "sha256": "fe21e31280f33921230d189022c5f5f9a70010cee40699f677e44d0014527ffc"
+    },
+    {
+      "role": "ManagerStudio",
+      "relative": "Wpf/PhongThanStudio.App/bin/Release/net10.0-windows/PhongThanStudio.runtimeconfig.json",
+      "before": "96bc2946dff8790400d652ec7f8de7bb043e954980d59470c112788b68a1fbd3",
+      "sha256": "96bc2946dff8790400d652ec7f8de7bb043e954980d59470c112788b68a1fbd3"
+    },
+    {
+      "role": "ManagerStudio",
+      "relative": "Wpf/PhongThanStudio.App/bin/Release/net10.0-windows/PhongThanStudio.Core.dll",
+      "before": "a6e8a770963203f34615073b3557288afb789797e250e1a818d61218ab9f0cf5",
+      "sha256": "377a659d2163eaa50f99235674a85a406bcf1854bc59e88d9a73c81d04d8e851"
+    },
+    {
+      "role": "ManagerStudio",
+      "relative": "Wpf/PhongThanStudio.App/bin/Release/net10.0-windows/PhongThanStudio.Core.pdb",
+      "before": "40198ba520d84f7151cd03aca7d436d75fc5d170a24c5993530e6f1774e2695f",
+      "sha256": "b6f5cb5d8ab95de49d774110413b6cd5244d93b2f529c7881729b2a11214cabe"
+    },
+    {
+      "role": "ManagerStudio",
+      "relative": "Wpf/PhongThanStudio.App/bin/Release/net10.0-windows/PhongThanConsoleHost.exe",
+      "before": null,
+      "sha256": "bc5bcbcf8176ac90411bccc428c17a32dbecb62d145762d4e33d04a9ac9d7ecc"
+    },
+    {
+      "role": "ManagerStudio",
+      "relative": "Wpf/PhongThanStudio.App/bin/Release/net10.0-windows/PhongThanConsoleHost.dll",
+      "before": null,
+      "sha256": "fd97d18be0ffdd082d6dd80951fb4d2f4a97dc4bf53cd69d51746fe98b912c36"
+    },
+    {
+      "role": "ManagerStudio",
+      "relative": "Wpf/PhongThanStudio.App/bin/Release/net10.0-windows/PhongThanConsoleHost.pdb",
+      "before": null,
+      "sha256": "df0c2f14224777af734f5f38382041c9e2177754ed19ea82c4af78b883a6561f"
+    },
+    {
+      "role": "ManagerStudio",
+      "relative": "Wpf/PhongThanStudio.App/bin/Release/net10.0-windows/PhongThanConsoleHost.deps.json",
+      "before": null,
+      "sha256": "a800cda504bc0a12edcf9bb84522f23b2e8c2123f2b37aa6fb0c454b1ea5f9a1"
+    },
+    {
+      "role": "ManagerStudio",
+      "relative": "Wpf/PhongThanStudio.App/bin/Release/net10.0-windows/PhongThanConsoleHost.runtimeconfig.json",
+      "before": null,
+      "sha256": "3e965cd7cfd553c2ff4e842d8d8019aaae2da0a21d92ff85a87573dd8d1b95c6"
+    },
+    {
+      "role": "ManagerStudio",
+      "relative": "Wpf/PhongThanStudio.App/bin/Verified/PhongThanStudio.exe",
+      "before": "ae0354a7ad3fbea94fee6cb9982e638ae0d6593f4f41b21131f11d76247b7a66",
+      "sha256": "ae0354a7ad3fbea94fee6cb9982e638ae0d6593f4f41b21131f11d76247b7a66"
+    },
+    {
+      "role": "ManagerStudio",
+      "relative": "Wpf/PhongThanStudio.App/bin/Verified/PhongThanStudio.dll",
+      "before": "a9fe512f1fe052a523cec848e5c8e1328a0d32c8aa6e94ca74f93480c6ba9d57",
+      "sha256": "39d6d56268a3951c72991212f679466974942b7fbe56b2837b1bfc99a38195de"
+    },
+    {
+      "role": "ManagerStudio",
+      "relative": "Wpf/PhongThanStudio.App/bin/Verified/PhongThanStudio.pdb",
+      "before": "9b57c633e213a411773199cb3838789053de6b4f0e27e201e8309fa46c48e066",
+      "sha256": "a3d0898815aeaf3bd8c649d1b36aa54484434d11f7b4d6cc1c43c008a6a25a0e"
+    },
+    {
+      "role": "ManagerStudio",
+      "relative": "Wpf/PhongThanStudio.App/bin/Verified/PhongThanStudio.deps.json",
+      "before": "fe21e31280f33921230d189022c5f5f9a70010cee40699f677e44d0014527ffc",
+      "sha256": "fe21e31280f33921230d189022c5f5f9a70010cee40699f677e44d0014527ffc"
+    },
+    {
+      "role": "ManagerStudio",
+      "relative": "Wpf/PhongThanStudio.App/bin/Verified/PhongThanStudio.runtimeconfig.json",
+      "before": "96bc2946dff8790400d652ec7f8de7bb043e954980d59470c112788b68a1fbd3",
+      "sha256": "96bc2946dff8790400d652ec7f8de7bb043e954980d59470c112788b68a1fbd3"
+    },
+    {
+      "role": "ManagerStudio",
+      "relative": "Wpf/PhongThanStudio.App/bin/Verified/PhongThanStudio.Core.dll",
+      "before": "a6e8a770963203f34615073b3557288afb789797e250e1a818d61218ab9f0cf5",
+      "sha256": "377a659d2163eaa50f99235674a85a406bcf1854bc59e88d9a73c81d04d8e851"
+    },
+    {
+      "role": "ManagerStudio",
+      "relative": "Wpf/PhongThanStudio.App/bin/Verified/PhongThanStudio.Core.pdb",
+      "before": "fe4b57088dfc15a7f698ce7777990c9e8be20682b1411dfde7008c2c3757027b",
+      "sha256": "b6f5cb5d8ab95de49d774110413b6cd5244d93b2f529c7881729b2a11214cabe"
+    },
+    {
+      "role": "ManagerStudio",
+      "relative": "Wpf/PhongThanStudio.App/bin/Verified/PhongThanConsoleHost.exe",
+      "before": null,
+      "sha256": "bc5bcbcf8176ac90411bccc428c17a32dbecb62d145762d4e33d04a9ac9d7ecc"
+    },
+    {
+      "role": "ManagerStudio",
+      "relative": "Wpf/PhongThanStudio.App/bin/Verified/PhongThanConsoleHost.dll",
+      "before": null,
+      "sha256": "fd97d18be0ffdd082d6dd80951fb4d2f4a97dc4bf53cd69d51746fe98b912c36"
+    },
+    {
+      "role": "ManagerStudio",
+      "relative": "Wpf/PhongThanStudio.App/bin/Verified/PhongThanConsoleHost.pdb",
+      "before": null,
+      "sha256": "df0c2f14224777af734f5f38382041c9e2177754ed19ea82c4af78b883a6561f"
+    },
+    {
+      "role": "ManagerStudio",
+      "relative": "Wpf/PhongThanStudio.App/bin/Verified/PhongThanConsoleHost.deps.json",
+      "before": null,
+      "sha256": "a800cda504bc0a12edcf9bb84522f23b2e8c2123f2b37aa6fb0c454b1ea5f9a1"
+    },
+    {
+      "role": "ManagerStudio",
+      "relative": "Wpf/PhongThanStudio.App/bin/Verified/PhongThanConsoleHost.runtimeconfig.json",
+      "before": null,
+      "sha256": "3e965cd7cfd553c2ff4e842d8d8019aaae2da0a21d92ff85a87573dd8d1b95c6"
+    },
+    {
+      "role": "Client",
+      "relative": "Game.exe",
+      "before": "b359532d21c4fe9edf60db2438196b2a5827f000ddff44bc54bad911c895062b",
+      "sha256": "0243e177e7e8143469d301a3892a873607878b6dc583fd335600408e1001e94d"
+    }
+  ]
+}

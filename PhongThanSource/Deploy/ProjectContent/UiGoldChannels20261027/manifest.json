@@ -1,0 +1,58 @@
+{
+  "files": [
+    {
+      "role": "Client",
+      "relative": "spr/ui4/fsbook/npc_dui_hua_kuang.spr",
+      "before": "df1796fc8a3bed107b6f9f4531279d207952640bdb05109a48cf8954c41f4d30",
+      "sha256": "a87cfdab9b1ac63716dd7e1307980173503ca82e12203cc6f6a903d29ac91549"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/UI4/×´Ì¬Ö÷½çÃæ/ÏêÏ¸ÊôÐÔµ×°å.spr",
+      "before": "8a5ca865e3deef8cdfab3a6dde0aae8db2b5c6c08c0abb681bd470b288614715",
+      "sha256": "935649c4182f5a5ce74a21d4b21db96078f7633d7a6a8c26c433b98beb70688a"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/UI4/×´Ì¬Ö÷½çÃæ/¹¥»÷.spr",
+      "before": "102e2da513bef1f5027c0f1e198d8eb17cdedd018265a529bc2add685983534a",
+      "sha256": "6fc4ec96a576a5ed06d292bb76ce5bed1fab948419f072a3cb3219999bf59913"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/UI4/×´Ì¬Ö÷½çÃæ/·ÀÓù.spr",
+      "before": "803258d197453e1b5fcad596fa051df35da4b7e7a51e29858e7d91ba1bb26662",
+      "sha256": "44a25572852cdabb8bea55a9e52a8cb9e1053cc83b468d5e482c4334f4fefdb7"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/UI4/×´Ì¬Ö÷½çÃæ/ÆäËû.spr",
+      "before": "59e94a1bde951e162f073ce6b0b7a66959f795ccdbca939dbc99cd1ec4d76412",
+      "sha256": "42a36a189fdb15febc8063fcc63d8ce1d766e12330935d83706c7460699ab9ee"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/UI4/×´Ì¬Ö÷½çÃæ/¹¥»÷ÄÚÒ³.spr",
+      "before": "e0080e124994c6e3437eb36513e2d1d06025124b09a55fbc7331cef5dd0ccbc8",
+      "sha256": "eaf7af693352c855584f3d3968e7acdb5074f0037b846b18a177dfcfd4005a79"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/UI4/×´Ì¬Ö÷½çÃæ/·ÀÓùÄÚÒ³.spr",
+      "before": "2b8b2109105adf68512b5ce72d1b7f70ff3293272d120c64614d3f9ee261cf55",
+      "sha256": "d12180818f66c94587b832970a1f2af8808667068dc8ff8667bc4ae1e6d09b4a"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/UI4/×´Ì¬Ö÷½çÃæ/ÆäËûÄÚÒ³.spr",
+      "before": "2463f913fdd94d1524289f468747153360d84b2af60f9251ed3be73e70486e8e",
+      "sha256": "8f14e2485fe690d19cc55a63781796572c2e27c9902dc60d0421b5ea74a7becb"
+    },
+    {
+      "role": "completion",
+      "relative": "studio_effective_overrides.json",
+      "before": "06f17683feebe7cc752ece135026002fbc78022c69194613874bd7655386cfb6",
+      "sha256": "c4fc490160e2db66cfd077822ea6a5c386b53c14e7c6d1bd828916c6b0a41e11"
+    }
+  ]
+}

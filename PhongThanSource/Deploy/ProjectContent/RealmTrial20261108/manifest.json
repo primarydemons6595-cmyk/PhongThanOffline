@@ -1,0 +1,126 @@
+{
+  "profile": "LooseOnly",
+  "source": "LOOSE_EXPERIMENT_NOT_VNG",
+  "content": [
+    {
+      "path": "Client/ui/realm_skills.ini",
+      "before_sha256": "ab84a9d583008c74488f17527ed8d285e9f391ada6d342f35675272fcc02dd94",
+      "sha256": "ab84a9d583008c74488f17527ed8d285e9f391ada6d342f35675272fcc02dd94",
+      "bytes": 7089
+    },
+    {
+      "path": "Client/spr/pt_ui/tien_ma_tab.spr",
+      "before_sha256": "fc16f990fb75ca7cd1d289215bd6d8a8b563a61e305e524b1818d93f054ff288",
+      "sha256": "fc16f990fb75ca7cd1d289215bd6d8a8b563a61e305e524b1818d93f054ff288",
+      "bytes": 7580
+    },
+    {
+      "path": "Client/settings/phongthan/RealmSkillsExperimental.ini",
+      "before_sha256": "b7c2b27368251da97179459c7e55c82725070c3a1210489897318292cea87711",
+      "sha256": "b7c2b27368251da97179459c7e55c82725070c3a1210489897318292cea87711",
+      "bytes": 256
+    },
+    {
+      "path": "Client/script/skill/zhuansheng/\u00b6\u00be\u00d0\u00d0\u00cc\u00ec\u00cf\u00c2.lua",
+      "before_sha256": "5b79e59b891ff99350d0d1cc1c3d2d40e9c13b6802b82bf8511dd49aaed9619a",
+      "sha256": "5b79e59b891ff99350d0d1cc1c3d2d40e9c13b6802b82bf8511dd49aaed9619a",
+      "bytes": 387
+    },
+    {
+      "path": "Client/script/skill/zhuansheng/\u00d1\u00aa\u00d5\u00bd\u00c9\u00b3\u00b3\u00a1.lua",
+      "before_sha256": "5b79e59b891ff99350d0d1cc1c3d2d40e9c13b6802b82bf8511dd49aaed9619a",
+      "sha256": "5b79e59b891ff99350d0d1cc1c3d2d40e9c13b6802b82bf8511dd49aaed9619a",
+      "bytes": 387
+    },
+    {
+      "path": "Server/settings/phongthan/RealmBossExperimental.ini",
+      "before_sha256": "a47d63ab6f12f6c5d641481a3648be7184b80ee261be71535dfed6790a321a06",
+      "sha256": "a47d63ab6f12f6c5d641481a3648be7184b80ee261be71535dfed6790a321a06",
+      "bytes": 3571
+    },
+    {
+      "path": "Server/settings/phongthan/RealmSkillsExperimental.ini",
+      "before_sha256": "b7c2b27368251da97179459c7e55c82725070c3a1210489897318292cea87711",
+      "sha256": "b7c2b27368251da97179459c7e55c82725070c3a1210489897318292cea87711",
+      "bytes": 256
+    },
+    {
+      "path": "Server/script/vnevent/features/bosstienma/boss_tienma_bossdia.lua",
+      "before_sha256": "e5e0ff9e6250447b9d39de84fc89af0d18174f93a29efc735edd6bf734bc826a",
+      "sha256": "e5e0ff9e6250447b9d39de84fc89af0d18174f93a29efc735edd6bf734bc826a",
+      "bytes": 153
+    },
+    {
+      "path": "Server/script/vnevent/features/bosstienma/boss_tienma_bossnhan.lua",
+      "before_sha256": "e5e0ff9e6250447b9d39de84fc89af0d18174f93a29efc735edd6bf734bc826a",
+      "sha256": "e5e0ff9e6250447b9d39de84fc89af0d18174f93a29efc735edd6bf734bc826a",
+      "bytes": 153
+    },
+    {
+      "path": "Server/script/vnevent/features/bosstienma/boss_tienma_bossthien.lua",
+      "before_sha256": "e5e0ff9e6250447b9d39de84fc89af0d18174f93a29efc735edd6bf734bc826a",
+      "sha256": "e5e0ff9e6250447b9d39de84fc89af0d18174f93a29efc735edd6bf734bc826a",
+      "bytes": 153
+    },
+    {
+      "path": "Server/script/vnevent/features/bosstienma/boss_tienma_chuclong.lua",
+      "before_sha256": "e5e0ff9e6250447b9d39de84fc89af0d18174f93a29efc735edd6bf734bc826a",
+      "sha256": "e5e0ff9e6250447b9d39de84fc89af0d18174f93a29efc735edd6bf734bc826a",
+      "bytes": 153
+    },
+    {
+      "path": "Server/script/vnevent/features/bosstienma/boss_tienma_dilong.lua",
+      "before_sha256": "e5e0ff9e6250447b9d39de84fc89af0d18174f93a29efc735edd6bf734bc826a",
+      "sha256": "e5e0ff9e6250447b9d39de84fc89af0d18174f93a29efc735edd6bf734bc826a",
+      "bytes": 153
+    },
+    {
+      "path": "Server/script/vnevent/features/bosstienma/boss_tienma_giaolong.lua",
+      "before_sha256": "e5e0ff9e6250447b9d39de84fc89af0d18174f93a29efc735edd6bf734bc826a",
+      "sha256": "e5e0ff9e6250447b9d39de84fc89af0d18174f93a29efc735edd6bf734bc826a",
+      "bytes": 153
+    },
+    {
+      "path": "Server/script/vnevent/features/bosstienma/boss_tienma_huyetlong.lua",
+      "before_sha256": "e5e0ff9e6250447b9d39de84fc89af0d18174f93a29efc735edd6bf734bc826a",
+      "sha256": "e5e0ff9e6250447b9d39de84fc89af0d18174f93a29efc735edd6bf734bc826a",
+      "bytes": 153
+    },
+    {
+      "path": "Server/script/vnevent/features/bosstienma/boss_tienma_lylong.lua",
+      "before_sha256": "e5e0ff9e6250447b9d39de84fc89af0d18174f93a29efc735edd6bf734bc826a",
+      "sha256": "e5e0ff9e6250447b9d39de84fc89af0d18174f93a29efc735edd6bf734bc826a",
+      "bytes": 153
+    },
+    {
+      "path": "Server/script/vnevent/features/bosstienma/boss_tienma_minhsama.lua",
+      "before_sha256": "e5e0ff9e6250447b9d39de84fc89af0d18174f93a29efc735edd6bf734bc826a",
+      "sha256": "e5e0ff9e6250447b9d39de84fc89af0d18174f93a29efc735edd6bf734bc826a",
+      "bytes": 153
+    },
+    {
+      "path": "Server/script/vnevent/features/bosstienma/boss_tienma_ngudocxa.lua",
+      "before_sha256": "e5e0ff9e6250447b9d39de84fc89af0d18174f93a29efc735edd6bf734bc826a",
+      "sha256": "e5e0ff9e6250447b9d39de84fc89af0d18174f93a29efc735edd6bf734bc826a",
+      "bytes": 153
+    },
+    {
+      "path": "Server/script/vnevent/features/bosstienma/boss_tienma_thancongbao.lua",
+      "before_sha256": "e5e0ff9e6250447b9d39de84fc89af0d18174f93a29efc735edd6bf734bc826a",
+      "sha256": "e5e0ff9e6250447b9d39de84fc89af0d18174f93a29efc735edd6bf734bc826a",
+      "bytes": 153
+    },
+    {
+      "path": "Server/script/skill/zhuansheng/\u00b6\u00be\u00d0\u00d0\u00cc\u00ec\u00cf\u00c2.lua",
+      "before_sha256": "5b79e59b891ff99350d0d1cc1c3d2d40e9c13b6802b82bf8511dd49aaed9619a",
+      "sha256": "5b79e59b891ff99350d0d1cc1c3d2d40e9c13b6802b82bf8511dd49aaed9619a",
+      "bytes": 387
+    },
+    {
+      "path": "Server/script/skill/zhuansheng/\u00d1\u00aa\u00d5\u00bd\u00c9\u00b3\u00b3\u00a1.lua",
+      "before_sha256": "5b79e59b891ff99350d0d1cc1c3d2d40e9c13b6802b82bf8511dd49aaed9619a",
+      "sha256": "5b79e59b891ff99350d0d1cc1c3d2d40e9c13b6802b82bf8511dd49aaed9619a",
+      "bytes": 387
+    }
+  ]
+}

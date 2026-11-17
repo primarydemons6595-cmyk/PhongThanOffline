@@ -1,0 +1,24 @@
+﻿{
+    "Scope":  "LOOSE_ONLY",
+    "Backup":  "E:\\ProjectAI\\PhongThan\\PT\\analysis\\other_equipment_activation_20261101\\runtime-before-20261101_224124",
+    "Result":  "PASS",
+    "Files":  [
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\JadeSealQuality20261101\\binaries\\Client\\CoreClient.dll",
+                      "Path":  "Client/CoreClient.dll",
+                      "Done":  false,
+                      "After":  "942196EC4492D1DD746793BB6C999407B1CA2DBEE9CD4949321D014A0AF83986",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Client\\CoreClient.dll",
+                      "Before":  "ABD89DADB46AA13AC0E7865BA9E5B10318B1B4E9F0861C6AF162DCF40153349E"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\JadeSealQuality20261101\\binaries\\Server\\CoreServer.dll",
+                      "Path":  "Server/CoreServer.dll",
+                      "Done":  false,
+                      "After":  "19FA766F4270E5A3DD31C6CC69AB797D9F46369DDD433DD3E6BB8F38F6A925A1",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\CoreServer.dll",
+                      "Before":  "22C94FADA05BA338AC5AF24D4F619C96C263FFC3D96609FACD3377713FA749E7"
+                  }
+              ],
+    "PublishedAtUtc":  "2026-11-01T15:41:26.9085774Z"
+}

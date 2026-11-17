@@ -1,0 +1,115 @@
+{
+  "scope": "LOOSE_ONLY",
+  "files": [
+    {
+      "path": "Server/settings/MagicDesc.Ini",
+      "before": "a1e1989d9f980761e04adecf569807c7d5db89adf3191d54d96bf5bd654eb70d",
+      "after": "41cd67b1a14116479163d80488135db92718beec226105e40265c372737e097c"
+    },
+    {
+      "path": "Server/settings/item/PhongThanHorseVisual.txt",
+      "before": "986c9063bd88fd0037a952017eeadb7942d01e08b2b46dbec70612580fc59cc2",
+      "after": "6d4a49ab0a815736c2eeb5a9d8876a8cf31ec923c52b73d7a4772931a6c43d6b"
+    },
+    {
+      "path": "Client/settings/MagicDesc.Ini",
+      "before": "a1e1989d9f980761e04adecf569807c7d5db89adf3191d54d96bf5bd654eb70d",
+      "after": "41cd67b1a14116479163d80488135db92718beec226105e40265c372737e097c"
+    },
+    {
+      "path": "Client/spr/npcres/human/jsx07_ht_ra0.spr",
+      "before": "bea89f34bc138744755caf4001860ccb3c5605065bd63ac13c0761fad08b56d6",
+      "after": "df2ce55222322d86aa4250bcc5918fc0ca729f89138da0b404d2c0fe746e0a76"
+    },
+    {
+      "path": "Client/spr/npcres/human/yrf01_hh_ra0.spr",
+      "before": "f2af4dc0b63fa492cc259a31d82f55151120f579272f4b88378fa68999d794ab",
+      "after": "c58745c8414b622929054387a2fe686176d8b0c87fbcdfe79f60614b00f11ffe"
+    },
+    {
+      "path": "Client/spr/npcres/human/yrf01_hh_rr0.spr",
+      "before": "9fbff9d29ae665c0c551df1bfed82991491aefc060b6bc68880882d73467ea1c",
+      "after": "6368382db50d7c578c9db1699c2d101f553f0d778758bd3a08436a4bf763ddbe"
+    },
+    {
+      "path": "Client/spr/npcres/human/yrf01_ht_ra0.spr",
+      "before": "fbd9d2a060ef033349a2e4d45a94a8a38204a130bbfa5ae113341270925fdeb1",
+      "after": "db748cd1a0207e39baafce3170514dc7f84ee55bfccefcb4c85cbab496203843"
+    },
+    {
+      "path": "Client/spr/npcres/human/yrm05_hh_ra0.spr",
+      "before": "d31376983e9ec9ff15298106fca79e88ab4f491e2fc1d6ea050b2b27d770ae66",
+      "after": "3a18dce5a371b85ace5a736cc7a232e322ec96912b3059dfde50251601899ad0"
+    },
+    {
+      "path": "Client/spr/npcres/human/yrm05_ht_ra0.spr",
+      "before": "3a18dce5a371b85ace5a736cc7a232e322ec96912b3059dfde50251601899ad0",
+      "after": "d31376983e9ec9ff15298106fca79e88ab4f491e2fc1d6ea050b2b27d770ae66"
+    },
+    {
+      "path": "Client/settings/item/PhongThanHorseVisual.txt",
+      "before": "986c9063bd88fd0037a952017eeadb7942d01e08b2b46dbec70612580fc59cc2",
+      "after": "6d4a49ab0a815736c2eeb5a9d8876a8cf31ec923c52b73d7a4772931a6c43d6b"
+    },
+    {
+      "path": "Client/settings/npcres/nv_yi_ren_ma_hou_xin_xi.txt",
+      "before": "45ebc9d7a5ec0ea308d70f297c97dfc274dd51006ea5564525c7c5e281e60cf0",
+      "after": "923dfd8d01ccbe2fb2cd4cd914d140da3e7854d25202719480daaaa2c3f1e30c"
+    },
+    {
+      "path": "Client/settings/npcres/nv_yi_ren_ma_qian_xin_xi.txt",
+      "before": "45ebc9d7a5ec0ea308d70f297c97dfc274dd51006ea5564525c7c5e281e60cf0",
+      "after": "923dfd8d01ccbe2fb2cd4cd914d140da3e7854d25202719480daaaa2c3f1e30c"
+    },
+    {
+      "path": "Client/settings/npcres/ÄÐ¼×Ê¿ÂíºóÐÅÏ¢.txt",
+      "before": "3b17e2ca290d956d44184cffe5239c80000c919f64a0580b88dfff4e18cb6a4b",
+      "after": "d9e52827895a37a2a34f126f1c49b714c1a8698beec96aa4b55ed90fb245cbb5"
+    },
+    {
+      "path": "Client/settings/npcres/Å®¼×Ê¿ÂíºóÐÅÏ¢.txt",
+      "before": "59d668c1844ab6a8e46a2a81dd2b6b5c638541eef0d03a4c3bc47263003f737c",
+      "after": "3898c1efc4cd7cf571f27775e7e67f099d84204fd4bd23f05c34429f2e4d3fe6"
+    },
+    {
+      "path": "Client/settings/npcres/Å®ÒìÈËÂíºóÐÅÏ¢.txt",
+      "before": "45ebc9d7a5ec0ea308d70f297c97dfc274dd51006ea5564525c7c5e281e60cf0",
+      "after": "923dfd8d01ccbe2fb2cd4cd914d140da3e7854d25202719480daaaa2c3f1e30c"
+    },
+    {
+      "path": "Client/settings/npcres/Å®ÒìÈËÂíºó×ÊÔ´.txt",
+      "before": "e1da7dcc75e0e639c1c6b455e0009b6861165350c2d99315a7c0b832e82d752b",
+      "after": "0adc6e6a4e2f50a88774a84f22b8b302cca6e54ad46e341395376064de6ab9ae"
+    },
+    {
+      "path": "Client/settings/npcres/Å®ÒìÈËÂíÇ°ÐÅÏ¢.txt",
+      "before": "45ebc9d7a5ec0ea308d70f297c97dfc274dd51006ea5564525c7c5e281e60cf0",
+      "after": "923dfd8d01ccbe2fb2cd4cd914d140da3e7854d25202719480daaaa2c3f1e30c"
+    },
+    {
+      "path": "Client/settings/npcres/Å®ÒìÈËÂíÇ°×ÊÔ´.txt",
+      "before": "e1da7dcc75e0e639c1c6b455e0009b6861165350c2d99315a7c0b832e82d752b",
+      "after": "0adc6e6a4e2f50a88774a84f22b8b302cca6e54ad46e341395376064de6ab9ae"
+    },
+    {
+      "path": "Server/CoreServer.dll",
+      "before": "6ef49dbe345333ddf3e0c69cd1d3c10d3920d66976f036f395b89e848c5c80f8",
+      "after": "70cde9d48e4affe4230a4dc92144a3d72f26cdfee802a372ea5d4e1caff5e53e"
+    },
+    {
+      "path": "Client/CoreClient.dll",
+      "before": "faddb6b7874f53139d7ae33ec6fcf77690c645f81a741e1725b1a1d1713d29c9",
+      "after": "c12db6745dd80ee4689052f259df39f6ec923b9934bc589a97bd096228c90b1b"
+    },
+    {
+      "path": "Client/Game.exe",
+      "before": "a479169639adc01746298751b7e1326624dd5f075f61381f7da228cc0b1e6645",
+      "after": "733c398852d796db7c04d957104335bb1ff1995585b8163da5b9af33cc42bbcd"
+    },
+    {
+      "path": "Server/GameServer.exe",
+      "before": "3e805b9f04ed7c3df87f1fa2f81dad7df64adcf3df134f6f96703e8406c14e11",
+      "after": "b9f30fc6ff3b39bcbb614fd6532b453f862d2e97ce10cf843f8354b4b52ff7ed"
+    }
+  ]
+}

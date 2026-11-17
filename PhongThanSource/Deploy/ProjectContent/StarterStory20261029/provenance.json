@@ -1,0 +1,359 @@
+{
+  "string_table": {
+    "id": "EE5FAD05",
+    "pak": "vng00.pak",
+    "entry": 4810,
+    "sha256": "a911c9a7126e80ca3f6d3c8218a940dba15fc70a1d8d17dbb74f36b07fba4d15",
+    "bytes": 479897,
+    "path": "\\settings\\StringResource.txt",
+    "raw_hex": "5c73657474696e67735c537472696e675265736f757263652e747874"
+  },
+  "scripts": [
+    {
+      "id": "95C816F9",
+      "pak": "Script.pak",
+      "entry": 697,
+      "sha256": "0f7814e0a5f30a4348118b90e5a0bd5dc474998b56275520ea1a81e58b7821d0",
+      "bytes": 4449,
+      "path": "\\script\\崇城大营\\崇黑虎.lua",
+      "raw_hex": "5c7363726970745cb3e7b3c7b4f3d3aa5cb3e7badabba22e6c7561"
+    },
+    {
+      "id": "75A20565",
+      "pak": "Script.pak",
+      "entry": 527,
+      "sha256": "86c0eeac25753f09f5c420be3196e88c16f63536933321964ed2b2a877b8b50f",
+      "bytes": 1412,
+      "path": "\\script\\崇城大营\\崇侯虎.lua",
+      "raw_hex": "5c7363726970745cb3e7b3c7b4f3d3aa5cb3e7baeebba22e6c7561"
+    },
+    {
+      "id": "3555B97C",
+      "pak": "Script.pak",
+      "entry": 254,
+      "sha256": "1b6e5bb47b18bd10a7b0cc3cc3e65289b3bc7f71c4e8403414680ac2c50e7b0f",
+      "bytes": 4185,
+      "path": "\\script\\崇城大营\\崇应彪.lua",
+      "raw_hex": "5c7363726970745cb3e7b3c7b4f3d3aa5cb3e7d3a6b1eb2e6c7561"
+    },
+    {
+      "id": "F6DECFF6",
+      "pak": "Script.pak",
+      "entry": 1190,
+      "sha256": "373850cf08fdb2f2d2160892701ca24e611e7da1cbf205846d725932b7819176",
+      "bytes": 13203,
+      "path": "\\script\\崇城大营\\鲁雄.lua",
+      "raw_hex": "5c7363726970745cb3e7b3c7b4f3d3aa5cc2b3d0db2e6c7561"
+    },
+    {
+      "id": "22CFC9D9",
+      "pak": "Script.pak",
+      "entry": 173,
+      "sha256": "239853a77168b75c934bf6d49db1c2287447e78ff1cad7947d1f45c60481fc74",
+      "bytes": 1676,
+      "path": "\\script\\崇城大营\\邬文化.lua",
+      "raw_hex": "5c7363726970745cb3e7b3c7b4f3d3aa5cdaf9cec4bbaf2e6c7561"
+    },
+    {
+      "id": "2D519F0B",
+      "pak": "Script.pak",
+      "entry": 219,
+      "sha256": "26209860b2a07437a5bc357ca4e704a3afaf619a9d5d82a6f4c33a91d6ccaefc",
+      "bytes": 2216,
+      "path": "\\script\\玉虚宫\\南极仙翁.lua",
+      "raw_hex": "5c7363726970745cd3f1d0e9b9ac5cc4cfbcabcfc9cecc2e6c7561"
+    },
+    {
+      "id": "EA6D4D65",
+      "pak": "Script.pak",
+      "entry": 1120,
+      "sha256": "c23fd7c3e0408431d1c3fa06e50bf172b78d3a690ea26c97a95a55896ce9edd9",
+      "bytes": 914,
+      "path": "\\script\\玉虚宫\\黄龙真人.lua",
+      "raw_hex": "5c7363726970745cd3f1d0e9b9ac5cbbc6c1fad5e6c8cb2e6c7561"
+    },
+    {
+      "id": "5E7611CC",
+      "pak": "Script.pak",
+      "entry": 432,
+      "sha256": "11cd7b389ac66d1193fd0ec0ad5f018747199c2bd0744624718a580fa6e51f18",
+      "bytes": 1603,
+      "path": "\\script\\玉虚宫\\燃灯道人.lua",
+      "raw_hex": "5c7363726970745cd3f1d0e9b9ac5cc8bcb5c6b5c0c8cb2e6c7561"
+    },
+    {
+      "id": "0E218796",
+      "pak": "Script.pak",
+      "entry": 76,
+      "sha256": "fd1c827a45a1c8c51beac848546da9df44533a9e9a3f0de85b097ec7a4515bd2",
+      "bytes": 1049,
+      "path": "\\script\\蚩尤墓\\后土图腾.lua",
+      "raw_hex": "5c7363726970745cf2bfd3c8c4b95cbaf3cdc1cdbcccda2e6c7561"
+    },
+    {
+      "id": "17E03323",
+      "pak": "Script.pak",
+      "entry": 113,
+      "sha256": "34b949ffe3af63562451290b92def36cef0f60a757616973eaec544a72d24312",
+      "bytes": 3488,
+      "path": "\\script\\蚩尤墓\\高觉.lua",
+      "raw_hex": "5c7363726970745cf2bfd3c8c4b95cb8dfbef52e6c7561"
+    },
+    {
+      "id": "962D5317",
+      "pak": "Script.pak",
+      "entry": 699,
+      "sha256": "648a274ff21001f7ab3ab8e32f55b6f2637805bbb6fd2f0875fbff522c4c718e",
+      "bytes": 1315,
+      "path": "\\script\\蚩尤墓\\高明.lua",
+      "raw_hex": "5c7363726970745cf2bfd3c8c4b95cb8dfc3f72e6c7561"
+    },
+    {
+      "id": "1B0929A3",
+      "pak": "Script.pak",
+      "entry": 134,
+      "sha256": "36270790f2c28c515e234be6a65aa5f9d4a42024c64fc27e31bba9214e935ca5",
+      "bytes": 14316,
+      "path": "\\script\\蚩尤墓\\刑天.lua",
+      "raw_hex": "5c7363726970745cf2bfd3c8c4b95cd0ccccec2e6c7561"
+    }
+  ],
+  "dialogue": [
+    {
+      "task": 21,
+      "phase": 0,
+      "id": 10269,
+      "original": "#Nghe nói quân Đông Bá Hầu Khương Văn Hoán đã chế tạo đại đao mới. Ngươi hãy tìm <c=r>Âu Thiên Hóa<c> hỏi xem có cách gì chế tạo vũ khí mới hay không?",
+      "display": "Nghe nói quân Đông Bá Hầu Khương Văn Hoán đã chế tạo đại đao mới. Ngươi hãy tìm <color=red>Âu Thiên Hóa<color> hỏi xem có cách gì chế tạo vũ khí mới hay không?",
+      "adaptations": []
+    },
+    {
+      "task": 21,
+      "phase": 0,
+      "id": 10270,
+      "original": "#Vũ khí không sánh bằng quân địch, trong chiến tranh quân ta chẳng khác nào cá nằm trên thớt. Đây là chuyện liên quan đến tính mạng!",
+      "display": "Vũ khí không sánh bằng quân địch, trong chiến tranh quân ta chẳng khác nào cá nằm trên thớt. Đây là chuyện liên quan đến tính mạng!",
+      "adaptations": []
+    },
+    {
+      "task": 21,
+      "phase": 1,
+      "id": 10279,
+      "original": "#Ta không biết phải dùng vật liệu gì để chế tạo thứ vũ khí mới đó. Đại công tử <c=r>Sùng ứng Bưu<c> hiểu nhiều biết rộng, hãy đến đó hỏi thử xem!",
+      "display": "Ta không biết phải dùng vật liệu gì để chế tạo thứ vũ khí mới đó. Đại công tử <color=red>Sùng ứng Bưu<color> hiểu nhiều biết rộng, hãy đến đó hỏi thử xem!",
+      "adaptations": []
+    },
+    {
+      "task": 21,
+      "phase": 2,
+      "id": 10250,
+      "original": "#Quân của Đông Bá Hầu chuyên dùng <c=r>Đoản Kiếm<c>. Ngươi hãy lên Yến Sơn đánh bọn <c=r>Kiếm Nhân<c> lấy về 10 thanh Đoản kiếm cho Âu Thiên Hóa xem thử",
+      "display": "Quân của Đông Bá Hầu chuyên dùng <color=red>Đoản Kiếm<color>. Ngươi hãy lên Yến Sơn đánh bọn <color=red>Kiếm Nhân<color> lấy về 10 thanh Đoản kiếm cho Âu Thiên Hóa xem thử",
+      "adaptations": []
+    },
+    {
+      "task": 21,
+      "phase": 3,
+      "id": 10278,
+      "original": "#Muốn thay đổi vật liệu đúc tạo đao kiếm, phải được <c=r>Bắc Bá Hầu Sùng Hầu Hổ<c> phê chuẩn mới được. Hãy để những vật liệu này ở chỗ ta, ngươi hãy đi tìm Hầu Gia trước!",
+      "display": "Muốn thay đổi vật liệu đúc tạo đao kiếm, phải được <color=red>Bắc Bá Hầu Sùng Hầu Hổ<color> phê chuẩn mới được. Hãy để những vật liệu này ở chỗ ta, ngươi hãy đi tìm Hầu Gia trước!",
+      "adaptations": []
+    },
+    {
+      "task": 21,
+      "phase": 4,
+      "id": 10247,
+      "original": "#Phương pháp đúc rèn do tổ tiên truyền lại sao có thể thay đổi chứ! Nói Lỗ Hùng dừng làm những chuyện điên rồ nữa!",
+      "display": "Phương pháp đúc rèn do tổ tiên truyền lại sao có thể thay đổi chứ! Nói Lỗ Hùng dừng làm những chuyện điên rồ nữa!",
+      "adaptations": []
+    },
+    {
+      "task": 21,
+      "phase": 5,
+      "id": 10268,
+      "original": "#Bắc Bá Hầu không cho phép, biết làm sao đây? Đúng rồi! Ngươi hãy đến tìm <c=r>Sùng Hắc Hổ<c>, ông ấy nhất định sẽ thuyết phục Bắc Bá Hầu.",
+      "display": "Bắc Bá Hầu không cho phép, biết làm sao đây? Đúng rồi! Ngươi hãy đến tìm <color=red>Sùng Hắc Hổ<color>, ông ấy nhất định sẽ thuyết phục Bắc Bá Hầu.",
+      "adaptations": []
+    },
+    {
+      "task": 21,
+      "phase": 6,
+      "id": 10240,
+      "original": "#Ta sẽ đi tìm huynh trưởng, ngươi không cần đợi ta, hãy đi bảo Âu Thiên Hóa thay đổi vật liệu.",
+      "display": "Ta sẽ đi tìm huynh trưởng, ngươi không cần đợi ta, hãy đi bảo Âu Thiên Hóa thay đổi vật liệu.",
+      "adaptations": []
+    },
+    {
+      "task": 21,
+      "phase": 7,
+      "id": 10277,
+      "original": "#Vừa mới nhận được thông báo của Bắc Bá Hầu. Ta sẽ thử nghiệm những vật liệu mới",
+      "display": "Vừa mới nhận được thông báo của Bắc Bá Hầu. Ta sẽ thử nghiệm những vật liệu mới",
+      "adaptations": []
+    },
+    {
+      "task": 21,
+      "phase": 8,
+      "id": 10267,
+      "original": "#Hay lắm! Thật vất vả cho ngươi! Xin nhận chút phần thưởng!",
+      "display": "Hay lắm! Thật vất vả cho ngươi! Xin nhận chút phần thưởng!",
+      "adaptations": []
+    },
+    {
+      "task": 11,
+      "phase": 0,
+      "id": 10536,
+      "original": "#Ta đang chế luyện bộ pháp bảo Ngũ Thất Phiến, cần có <c=r>2 Băng Cơ<c> và <c=g>lửa<c>. <c=r>Thợ đồng<c> có rất nhiều Băng Cơ. <c=r>Kim Hà Đồng Tử<c> có lửa, ngươi có thể giúp ta không?",
+      "display": "Ta đang chế luyện bộ pháp bảo Ngũ Thất Phiến, cần có <color=red>10 Băng Cơ<color> và <color=green>lửa<color>. <color=red>Hoàng Long Chân Nhân<color> có rất nhiều Băng Cơ. <color=red>Nhiên Đăng Đạo Nhân<color> có lửa, ngươi có thể giúp ta không?",
+      "adaptations": [
+        [
+          "2 Băng Cơ",
+          "10 Băng Cơ"
+        ],
+        [
+          "Thợ đồng",
+          "Hoàng Long Chân Nhân"
+        ],
+        [
+          "Kim Hà Đồng Tử",
+          "Nhiên Đăng Đạo Nhân"
+        ]
+      ]
+    },
+    {
+      "task": 11,
+      "phase": 0,
+      "id": 10537,
+      "original": "#Vậy chuyện này trông cậy vào ngươi, nhớ <c=r>Thợ đồng<c> có băng Cơ, <c=r>Kim Hà Đồng Tử<c> có lửa.",
+      "display": "Vậy chuyện này trông cậy vào ngươi, nhớ <color=red>Hoàng Long Chân Nhân<color> có băng Cơ, <color=red>Nhiên Đăng Đạo Nhân<color> có lửa.",
+      "adaptations": [
+        [
+          "Thợ đồng",
+          "Hoàng Long Chân Nhân"
+        ],
+        [
+          "Kim Hà Đồng Tử",
+          "Nhiên Đăng Đạo Nhân"
+        ]
+      ]
+    },
+    {
+      "task": 11,
+      "phase": 1,
+      "id": 10557,
+      "original": "#Thật không may! Băng Cơ vừa dùng hết! Nhưng ở chân núi Côn Lôn có rất nhiều <c=r>Tuyết Quái<c> giữ Băng Cơ. Hãy tìm 10 miếng giao cho Nam Cực Tiên ông.",
+      "display": "Thật không may! Băng Cơ vừa dùng hết! Nhưng ở chân núi Côn Lôn có rất nhiều <color=red>Tuyết Quái<color> giữ Băng Cơ. Hãy tìm 10 miếng giao cho Nam Cực Tiên ông.",
+      "adaptations": []
+    },
+    {
+      "task": 11,
+      "phase": 2,
+      "id": 10535,
+      "original": "#Làm phiền ngươi quá! Nhưng để chế luyện cần phải có một loại lửa đặc biệt. Ngươi hãy đến <c=r>Kim Hà Đồng Tử<c> mượn lửa giúp ta!",
+      "display": "Làm phiền ngươi quá! Nhưng để chế luyện cần phải có một loại lửa đặc biệt. Ngươi hãy đến <color=red>Nhiên Đăng Đạo Nhân<color> mượn lửa giúp ta!",
+      "adaptations": [
+        [
+          "Kim Hà Đồng Tử",
+          "Nhiên Đăng Đạo Nhân"
+        ]
+      ]
+    },
+    {
+      "task": 11,
+      "phase": 3,
+      "id": 10527,
+      "original": "#Mau đem Hỏa Thạch giao cho <c=r>Xích Tinh Tử<c>.",
+      "display": "Mau đem Hỏa Thạch giao cho <color=red>Nam Cực Tiên Ông<color>.",
+      "adaptations": [
+        [
+          "Xích Tinh Tử",
+          "Nam Cực Tiên Ông"
+        ]
+      ]
+    },
+    {
+      "task": 11,
+      "phase": 4,
+      "id": 10534,
+      "original": "#Tốt lắm! Nhất định sẽ luyện được thành công Ngũ Thất Phiến. Đây là phần thưởng cho ngươi!",
+      "display": "Tốt lắm! Nhất định sẽ luyện được thành công Ngũ Thất Phiến. Đây là phần thưởng cho ngươi!",
+      "adaptations": []
+    },
+    {
+      "task": 31,
+      "phase": 0,
+      "id": 10156,
+      "original": "#Ta cần những trang bị có thể tăng năng lực cho Dị Nhân. Ngươi có thể giúp ta tìm không?",
+      "display": "Ta cần những trang bị có thể tăng năng lực cho Dị Nhân. Ngươi có thể giúp ta tìm không?",
+      "adaptations": []
+    },
+    {
+      "task": 31,
+      "phase": 0,
+      "id": 10157,
+      "original": "#<c=r>Thợ đồng<c> biết dị nhân cần loại trang bị nào.",
+      "display": "<color=red>Cao Giác<color> biết dị nhân cần loại trang bị nào.",
+      "adaptations": [
+        [
+          "Thợ đồng",
+          "Cao Giác"
+        ]
+      ]
+    },
+    {
+      "task": 31,
+      "phase": 1,
+      "id": 10143,
+      "original": "#Muốn tăng thêm năng lực cho trang bị? Ta nhất thời không nghĩ ra cách. Ngươi đến tìm huynh trưởng <c=r>Cao Minh<c> của ta đi! Huynh ấy có thể giúp!",
+      "display": "Muốn tăng thêm năng lực cho trang bị? Ta nhất thời không nghĩ ra cách. Ngươi đến tìm huynh trưởng <color=red>Cao Minh<color> của ta đi! Huynh ấy có thể giúp!",
+      "adaptations": []
+    },
+    {
+      "task": 31,
+      "phase": 2,
+      "id": 10149,
+      "original": "#Nguyên liệu để tăng năng lực trang bị? Ta sẽ giúp ngươi! Nhưng trước tiên hãy giúp ta báo tin này cho <c=r>Hình Thiên<c> đã!",
+      "display": "Nguyên liệu để tăng năng lực trang bị? Ta sẽ giúp ngươi! Nhưng trước tiên hãy giúp ta báo tin này cho <color=red>Hình Thiên<color> đã!",
+      "adaptations": []
+    },
+    {
+      "task": 31,
+      "phase": 3,
+      "id": 10179,
+      "original": "#Cao Minh quả thật không hỗ danh là Thiên Lý Nhãn. Tin tức này rất chính xác, ngươi có thể trở về phục mệnh với hắn!",
+      "display": "Cao Minh quả thật không hỗ danh là Thiên Lý Nhãn. Tin tức này rất chính xác, ngươi có thể trở về phục mệnh với hắn!",
+      "adaptations": []
+    },
+    {
+      "task": 31,
+      "phase": 4,
+      "id": 10148,
+      "original": "#Ta đã tìm hiểu giúp ngươi rồi, nguyên liệu cần là <c=Red>Mặt Quỷ<color>, trên <color=red>Miêu Cương<color> có rất nhiều Hỏa Diện, chúng sẽ rơi Mặt Quỷ. Chỉ cần lấy 10 cái là đủ!",
+      "display": "Ta đã tìm hiểu giúp ngươi rồi, nguyên liệu cần là <color=red>Mặt Quỷ<color>, trên <color=red>Xi Vưu Mộ<color> có rất nhiều Hỏa Diện, chúng sẽ rơi Mặt Quỷ. Chỉ cần lấy 10 cái là đủ!",
+      "adaptations": [
+        [
+          "Miêu Cương",
+          "Xi Vưu Mộ"
+        ]
+      ]
+    },
+    {
+      "task": 31,
+      "phase": 5,
+      "id": 10155,
+      "original": "#Thợ đồng:Ngươi đã tìm được Mặt quỷ ta cần, mau về báo tin cho <c=r>Hậu Thổ<c>!",
+      "display": "Ngươi đã tìm được Mặt quỷ ta cần, ta sẽ dùng chúng để tăng năng lực trang bị!",
+      "adaptations": [
+        [
+          "Thợ đồng:",
+          ""
+        ],
+        [
+          "mau về báo tin cho <c=r>Hậu Thổ<c>!",
+          "ta sẽ dùng chúng để tăng năng lực trang bị!"
+        ]
+      ]
+    }
+  ],
+  "reward_policy": "USER_REQUEST: 500 EXP each successful intermediate step, 5000 final; 600 final money retained; not original VNG reward policy"
+}

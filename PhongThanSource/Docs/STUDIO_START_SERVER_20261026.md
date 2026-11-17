@@ -1,0 +1,15 @@
+# Start Server and login-exit correction
+
+Status: published and hash verified (25 files). Live world-only restart saved and exited cleanly; support process IDs unchanged. New GameServer PID 48580 is running through ConPTY host PID 113596; its actual startup console was rendered and inspected. World readiness verified from a fresh PID-matched snapshot with 4,044 entities.
+
+Replace the existing server-status tab with Start Server. Whole-cluster and per-service Start / Stop / Restart controls cover Goddess, Account, Relay, Bishop, GameServer, and the optional Event service. Starting a service starts required predecessors; stopping an upstream service first saves/stops the world and stops dependent services. Restart restores the dependent services that were previously running. A failed/timed-out world save leaves support services running and aborts restart. World-only restart preserves support process IDs.
+
+The main pane is a live GameServer console using Windows ConPTY. A separate PhongThanConsoleHost process owns the pseudoconsole and the GameServer process; closing Studio or changing tabs only disconnects its viewer. Current-user-only named pipes transport console output and input; a bounded memory history supports reconnecting. The console pane does not tail a file. Other support services retain diagnostic output files. A pre-existing GameServer started outside the console host must restart once to become attached to the integrated console.
+
+The window shows current service PIDs and requires a fresh world snapshot with the current PID before reporting readiness. Old snapshots cannot mark a restarted world ready. Console history and visible text are bounded to avoid unbounded UI memory use. No force-kill path is used for GameServer.
+
+Validation: Release build with zero warnings/errors; 25 lifecycle/readiness/text tests; real ConPTY fixture verifies direct stdout, stdin, continued process operation after viewer disconnect, reconnect history, and clean host exit. Rendered and inspected the new tab with an actual connected fixture console. Full native cluster cycling is covered by an isolated fake-host test; no claim of a live whole-cluster stop/start test. Live world-only restart verified; actual GameServer startup console received directly and inspected in the new view.
+
+Login bug: KUiSelServer::OnCancel opened the obsolete KUiInit menu after leaving the outer region list. Its two buttons used confirm/cancel artwork, but dispatched EnterGame/ExitGame, explaining the misleading labels and empty background. Exit now closes the selector and requests game shutdown. The nested server list still returns to its region list. An extracted production method harness verifies both branches. GameClient Release build passed; direct interactive click verification is pending.
+
+Evidence and package: analysis/studio_start_server_20261026 and Deploy/ProjectContent/StudioStartServer20261026. The existing client CoreClient.dll, server binary, mounted-model tables, and character equipment presets remain untouched by this package.

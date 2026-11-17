@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "files": [
+    {
+      "role": "Client",
+      "relative": "CoreClient.dll",
+      "sha256": "ca41746ec513eeb2bcaf60fb3f041ec5cff9c8c911ffde2b4315419150d7edf7",
+      "before": "6ca02d0f2e06f5c9afe7b6203acce3c2fe6e1878168701859ecd9d868b9ae1b6"
+    },
+    {
+      "role": "Server",
+      "relative": "CoreServer.dll",
+      "sha256": "08da949f850bc2fe1409b07a991228a872d8567e11ddb670fa80b5ae5c6f3b2b",
+      "before": "2fc2fe71a3c1ad72ed81b9965641d0ec3bb33662cfbac4dfd4459b33ceca8fe3"
+    }
+  ]
+}

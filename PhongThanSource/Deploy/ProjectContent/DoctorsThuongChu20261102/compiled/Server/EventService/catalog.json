@@ -1,0 +1,454 @@
+[
+  {
+    "Id": 1,
+    "Key": "vtt_tho",
+    "Name": "Vạn Tiên Trận Thổ",
+    "Group": "Vạn Tiên Trận",
+    "Adapter": "vtt",
+    "Map": 1067,
+    "Mission": 1,
+    "Template": 0,
+    "BossFlag": -1,
+    "StartScriptHex": "5c7363726970745c70686f6e677468616e5c76616e5f7469656e5c6f70656e312e6c7561",
+    "SourceEvidence": "TGPT VTT reference; five pearl chests and lottery odds overridden by user on 2026-10-31.",
+    "Defaults": {
+      "Id": 1,
+      "DailyTimes": [
+        "10:00",
+        "13:00",
+        "18:00",
+        "21:00",
+        "23:00"
+      ],
+      "RegistrationSeconds": 300,
+      "DurationSeconds": 1800,
+      "TicketGenre": 3,
+      "TicketDetail": 62,
+      "TicketCount": 1,
+      "MinimumLevel": 30
+    }
+  },
+  {
+    "Id": 2,
+    "Key": "vtt_thuy",
+    "Name": "Vạn Tiên Trận Thủy",
+    "Group": "Vạn Tiên Trận",
+    "Adapter": "vtt",
+    "Map": 1068,
+    "Mission": 2,
+    "Template": 0,
+    "BossFlag": -1,
+    "StartScriptHex": "5c7363726970745c70686f6e677468616e5c76616e5f7469656e5c6f70656e322e6c7561",
+    "SourceEvidence": "TGPT VTT reference; five pearl chests and lottery odds overridden by user on 2026-10-31.",
+    "Defaults": {
+      "Id": 2,
+      "DailyTimes": [
+        "10:05",
+        "13:05",
+        "18:05",
+        "21:05",
+        "23:05"
+      ],
+      "RegistrationSeconds": 300,
+      "DurationSeconds": 1800,
+      "TicketGenre": 3,
+      "TicketDetail": 63,
+      "TicketCount": 1,
+      "MinimumLevel": 51
+    }
+  },
+  {
+    "Id": 3,
+    "Key": "vtt_hoa",
+    "Name": "Vạn Tiên Trận Hỏa",
+    "Group": "Vạn Tiên Trận",
+    "Adapter": "vtt",
+    "Map": 1069,
+    "Mission": 3,
+    "Template": 0,
+    "BossFlag": -1,
+    "StartScriptHex": "5c7363726970745c70686f6e677468616e5c76616e5f7469656e5c6f70656e332e6c7561",
+    "SourceEvidence": "TGPT VTT reference; five pearl chests and lottery odds overridden by user on 2026-10-31.",
+    "Defaults": {
+      "Id": 3,
+      "DailyTimes": [
+        "10:10",
+        "13:10",
+        "18:10",
+        "21:10",
+        "23:10"
+      ],
+      "RegistrationSeconds": 300,
+      "DurationSeconds": 1800,
+      "TicketGenre": 3,
+      "TicketDetail": 64,
+      "TicketCount": 1,
+      "MinimumLevel": 71
+    }
+  },
+  {
+    "Id": 4,
+    "Key": "vtt_phong",
+    "Name": "Vạn Tiên Trận Phong",
+    "Group": "Vạn Tiên Trận",
+    "Adapter": "vtt",
+    "Map": 1070,
+    "Mission": 4,
+    "Template": 0,
+    "BossFlag": -1,
+    "StartScriptHex": "5c7363726970745c70686f6e677468616e5c76616e5f7469656e5c6f70656e342e6c7561",
+    "SourceEvidence": "TGPT VTT reference; five pearl chests and lottery odds overridden by user on 2026-10-31.",
+    "Defaults": {
+      "Id": 4,
+      "DailyTimes": [
+        "10:15",
+        "13:15",
+        "18:15",
+        "21:15",
+        "23:15"
+      ],
+      "RegistrationSeconds": 300,
+      "DurationSeconds": 1800,
+      "TicketGenre": 3,
+      "TicketDetail": 65,
+      "TicketCount": 1,
+      "MinimumLevel": 91
+    }
+  },
+  {
+    "Id": 1102,
+    "Key": "boss_102",
+    "Name": "Boss Hoàng Kim - Hỗn Độn",
+    "Group": "Boss Server",
+    "Adapter": "boss",
+    "Map": 1026,
+    "Mission": 0,
+    "Template": 90,
+    "BossFlag": 102,
+    "StartScriptHex": "5c7363726970745c626f7373cba2d0c25cbbece3e72e6c7561",
+    "SourceEvidence": "Original client script 1D9D25DB; recovered OriginalWorldSchedule. Drop engine and global tables unchanged.",
+    "Defaults": {
+      "Id": 1102,
+      "DailyTimes": [
+        "00:01",
+        "12:01"
+      ]
+    }
+  },
+  {
+    "Id": 1103,
+    "Key": "boss_103",
+    "Name": "Boss Hoàng Kim - Cùng Kỳ",
+    "Group": "Boss Server",
+    "Adapter": "boss",
+    "Map": 1041,
+    "Mission": 0,
+    "Template": 87,
+    "BossFlag": 103,
+    "StartScriptHex": "5c7363726970745c626f7373cba2d0c25cc7eec6e62e6c7561",
+    "SourceEvidence": "Original client script 6D8407A3; recovered OriginalWorldSchedule. Drop engine and global tables unchanged.",
+    "Defaults": {
+      "Id": 1103,
+      "DailyTimes": [
+        "00:16",
+        "12:16"
+      ]
+    }
+  },
+  {
+    "Id": 1104,
+    "Key": "boss_104",
+    "Name": "Boss Hoàng Kim - Thao Thiết",
+    "Group": "Boss Server",
+    "Adapter": "boss",
+    "Map": 1031,
+    "Mission": 0,
+    "Template": 89,
+    "BossFlag": 104,
+    "StartScriptHex": "5c7363726970745c626f7373cba2d0c25cf7d2f7d12e6c7561",
+    "SourceEvidence": "Original client script D1234FDF; recovered OriginalWorldSchedule. Drop engine and global tables unchanged.",
+    "Defaults": {
+      "Id": 1104,
+      "DailyTimes": [
+        "00:31",
+        "12:31"
+      ]
+    }
+  },
+  {
+    "Id": 1105,
+    "Key": "boss_105",
+    "Name": "Boss Hoàng Kim - Đào Ngột",
+    "Group": "Boss Server",
+    "Adapter": "boss",
+    "Map": 1036,
+    "Mission": 0,
+    "Template": 88,
+    "BossFlag": 105,
+    "StartScriptHex": "5c7363726970745c626f7373cba2d0c25c9783e8bb2e6c7561",
+    "SourceEvidence": "Original client script 837FAE93; recovered OriginalWorldSchedule. Drop engine and global tables unchanged.",
+    "Defaults": {
+      "Id": 1105,
+      "DailyTimes": [
+        "00:46",
+        "12:46"
+      ]
+    }
+  },
+  {
+    "Id": 1101,
+    "Key": "boss_101",
+    "Name": "Boss Hoàng Kim - Cửu Anh",
+    "Group": "Boss Server",
+    "Adapter": "boss",
+    "Map": 1016,
+    "Mission": 0,
+    "Template": 86,
+    "BossFlag": 101,
+    "StartScriptHex": "5c7363726970745c626f7373cba2d0c25cbec5d3a42e6c7561",
+    "SourceEvidence": "Original client script A866120A; recovered OriginalWorldSchedule. Drop engine and global tables unchanged.",
+    "Defaults": {
+      "Id": 1101,
+      "DailyTimes": [
+        "00:59",
+        "01:59",
+        "02:59",
+        "03:59",
+        "04:59",
+        "05:59",
+        "06:59",
+        "07:59",
+        "08:59",
+        "09:59",
+        "10:59",
+        "11:59",
+        "12:59",
+        "13:59",
+        "14:59",
+        "15:59",
+        "16:59",
+        "17:59",
+        "18:59",
+        "19:58",
+        "20:59",
+        "21:59",
+        "22:59",
+        "23:59"
+      ]
+    }
+  },
+  {
+    "Id": 1106,
+    "Key": "boss_106",
+    "Name": "Boss Hoàng Kim - Bàn Cổ",
+    "Group": "Boss Server",
+    "Adapter": "boss",
+    "Map": 1051,
+    "Mission": 0,
+    "Template": 82,
+    "BossFlag": 106,
+    "StartScriptHex": "5c7363726970745c626f7373cba2d0c25cc5ccb9c52e6c7561",
+    "SourceEvidence": "Original client script 91ECAFE6; recovered OriginalWorldSchedule. Drop engine and global tables unchanged.",
+    "Defaults": {
+      "Id": 1106,
+      "DailyTimes": [
+        "18:02"
+      ]
+    }
+  },
+  {
+    "Id": 1107,
+    "Key": "boss_107",
+    "Name": "Boss Hoàng Kim - Đại Bằng",
+    "Group": "Boss Server",
+    "Adapter": "boss",
+    "Map": 1046,
+    "Mission": 0,
+    "Template": 85,
+    "BossFlag": 107,
+    "StartScriptHex": "5c7363726970745c626f7373cba2d0c25cb4f3c5f42e6c7561",
+    "SourceEvidence": "Original client script 2D18FACF; recovered OriginalWorldSchedule. Drop engine and global tables unchanged.",
+    "Defaults": {
+      "Id": 1107,
+      "DailyTimes": [
+        "18:32"
+      ]
+    }
+  },
+  {
+    "Id": 1108,
+    "Key": "boss_108",
+    "Name": "Boss Hoàng Kim - Dương Tiễn",
+    "Group": "Boss Server",
+    "Adapter": "boss",
+    "Map": 1065,
+    "Mission": 0,
+    "Template": 96,
+    "BossFlag": 108,
+    "StartScriptHex": "5c7363726970745c626f7373cba2d0c25cd1eeeaaf2e6c7561",
+    "SourceEvidence": "Original client script D5255FF5; recovered OriginalWorldSchedule. Drop engine and global tables unchanged.",
+    "Defaults": {
+      "Id": 1108,
+      "DailyTimes": [
+        "18:45"
+      ]
+    }
+  },
+  {
+    "Id": 1109,
+    "Key": "boss_109",
+    "Name": "Boss Hoàng Kim - Giao Long",
+    "Group": "Boss Server",
+    "Adapter": "boss",
+    "Map": 1055,
+    "Mission": 0,
+    "Template": 97,
+    "BossFlag": 109,
+    "StartScriptHex": "5c7363726970745c626f7373cba2d0c25cf2d4c1fa2e6c7561",
+    "SourceEvidence": "Original client script 881552C4; recovered OriginalWorldSchedule. Drop engine and global tables unchanged.",
+    "Defaults": {
+      "Id": 1109,
+      "DailyTimes": [
+        "19:30"
+      ]
+    }
+  },
+  {
+    "Id": 1110,
+    "Key": "boss_110",
+    "Name": "Boss Hoàng Kim - Ly Long",
+    "Group": "Boss Server",
+    "Adapter": "boss",
+    "Map": 1056,
+    "Mission": 0,
+    "Template": 98,
+    "BossFlag": 110,
+    "StartScriptHex": "5c7363726970745c626f7373cba2d0c25cf3a4c1fa2e6c7561",
+    "SourceEvidence": "Original client script EA2123FC; recovered OriginalWorldSchedule. Drop engine and global tables unchanged.",
+    "Defaults": {
+      "Id": 1110,
+      "DailyTimes": [
+        "19:50"
+      ]
+    }
+  },
+  {
+    "Id": 1112,
+    "Key": "boss_112",
+    "Name": "Boss Hoàng Kim - Bất Nghĩa Hầu",
+    "Group": "Boss Server",
+    "Adapter": "boss",
+    "Map": 1062,
+    "Mission": 0,
+    "Template": 125,
+    "BossFlag": 112,
+    "StartScriptHex": "5c7363726970745c626f7373cba2d0c25cb2bbd2e5baee2e6c7561",
+    "SourceEvidence": "Original client script F516020D; recovered OriginalWorldSchedule. Drop engine and global tables unchanged.",
+    "Defaults": {
+      "Id": 1112,
+      "DailyTimes": [
+        "19:59"
+      ]
+    }
+  },
+  {
+    "Id": 1111,
+    "Key": "boss_111",
+    "Name": "Boss Hoàng Kim - Cầu Long",
+    "Group": "Boss Server",
+    "Adapter": "boss",
+    "Map": 1054,
+    "Mission": 0,
+    "Template": 99,
+    "BossFlag": 111,
+    "StartScriptHex": "5c7363726970745c626f7373cba2d0c25cf2b0c1fa2e6c7561",
+    "SourceEvidence": "Original client script E142CDB6; recovered OriginalWorldSchedule. Drop engine and global tables unchanged.",
+    "Defaults": {
+      "Id": 1111,
+      "DailyTimes": [
+        "20:30"
+      ]
+    }
+  },
+  {
+    "Id": 2001,
+    "Key": "van_luong",
+    "Name": "Vận Lương",
+    "Group": "Nhiệm vụ",
+    "Adapter": "van_luong",
+    "Map": 1015,
+    "Mission": 0,
+    "Template": 556,
+    "BossFlag": -1,
+    "StartScriptHex": "",
+    "SourceEvidence": "VNG 2007 guide: Phong Lam191/212 → Truong Que Phuong164/196 → Phong Lam; 20/day, 1 free; 100000 XP screenshot. Existing IB267 is the compatibility Kim Bai Giap variant, not proof of original random Li Tinh exchange; no invented random rates.",
+    "Defaults": {
+      "Id": 2001,
+      "DailyTimes": [],
+      "MinimumLevel": 55,
+      "RequireTong": true,
+      "DailyLimit": 20,
+      "FreeRuns": 1,
+      "TicketGenre": 8,
+      "TicketDetail": 268,
+      "TicketParticular": 2,
+      "TicketCount": 1,
+      "RewardGenre": 8,
+      "RewardDetail": 267,
+      "RewardCount": 1,
+      "RewardExperience": 100000
+    }
+  },
+  {
+    "Id": 2002,
+    "Key": "van_tieu",
+    "Name": "Vận Tiêu",
+    "Group": "Nhiệm vụ",
+    "Adapter": "van_tieu",
+    "Map": 1019,
+    "Mission": 0,
+    "Template": 363,
+    "BossFlag": -1,
+    "StartScriptHex": "",
+    "SourceEvidence": "Original AC557A46/F4A59849 spawn at Tuyet Long; 162B1F5B completion: bounty/10 credit/Ngoc ty. Compatibility follow-cart movement; daily20 is an editable project default, not an asserted VNG limit.",
+    "Defaults": {
+      "Id": 2002,
+      "DailyTimes": [],
+      "MinimumLevel": 30,
+      "MinimumCredit": 10,
+      "DailyLimit": 20,
+      "FreeRuns": 20,
+      "TicketCount": 0,
+      "RewardGenre": 3,
+      "RewardDetail": 83,
+      "RewardCount": 1,
+      "RewardMoney": 500000,
+      "RewardCredit": 10
+    }
+  },
+  {
+    "Id": 2101,
+    "Key": "thuong_chu",
+    "Name": "Chiến trường Thương Chu",
+    "Group": "Chiến trường",
+    "Adapter": "thuong_chu",
+    "Map": 1071,
+    "Mission": 0,
+    "Template": 0,
+    "BossFlag": -1,
+    "StartScriptHex": "",
+    "SourceEvidence": "Reconstructed native session from https://phongthan.zing.vn/cam-nang/tinh-nang/chien-truong-thuong-chu.html ; original PAK battle program not recovered. Original item tuple3.5093 verified from live registry.",
+    "Defaults": {
+      "Id": 2101,
+      "Enabled": true,
+      "DailyTimes": [
+        "14:00",
+        "20:00"
+      ],
+      "RegistrationSeconds": 900,
+      "DurationSeconds": 2700,
+      "MinimumLevel": 120,
+      "TicketCount": 0
+    }
+  }
+]

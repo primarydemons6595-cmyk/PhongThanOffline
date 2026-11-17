@@ -1,0 +1,149 @@
+﻿{
+    "Scope":  "LOOSE_ONLY",
+    "Backup":  "E:\\ProjectAI\\PhongThan\\PT\\analysis\\npc_daily_single_entry_20261102\\runtime-before-20261102_155805",
+    "Result":  "PASS",
+    "Files":  [
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\SingleEntrySmith20261102\\binaries\\Client\\CoreClient.dll",
+                      "Path":  "Client/CoreClient.dll",
+                      "Done":  false,
+                      "After":  "3544f5bda84b9ece75232b8afcb0eca74d91b9f19c4a69637343311905d2e3f2",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Client\\CoreClient.dll",
+                      "Before":  "82bbee15201a17ac88b1e333cfcaa29f0f83c19270ca34bfab10e83d67f65b0a"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\SingleEntrySmith20261102\\binaries\\Client\\Game.exe",
+                      "Path":  "Client/Game.exe",
+                      "Done":  false,
+                      "After":  "e8a791b380abdb5b925674c633e3a93e6bb932b75e4e771e6a35e02222b7caa1",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Client\\Game.exe",
+                      "Before":  "3823f09d5f6da2883a6a5e8fa5a8974e137419b99d85357a34908142b1e20282"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\SingleEntrySmith20261102\\binaries\\Server\\CoreServer.dll",
+                      "Path":  "Server/CoreServer.dll",
+                      "Done":  false,
+                      "After":  "d112bf0622f1bdd0ad8bf814f54596e587b2095dd2402d6d85c0b28071dc30dc",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\CoreServer.dll",
+                      "Before":  "7a633eda9e0af21197f9ed17044bf4d49b465a0036d3d96b5a9035b6489850ba"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\SingleEntrySmith20261102\\binaries\\Server\\script\\phongthan\\daily\\tu_linh.lua",
+                      "Path":  "Server/script/phongthan/daily/tu_linh.lua",
+                      "Done":  false,
+                      "After":  "ae9305a53d103dc404173c8554c2243fd15c82b287201949537ee18654a739ad",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\script\\phongthan\\daily\\tu_linh.lua",
+                      "Before":  "04e271a2317ce0e1263e6729607b717087a78362c63247322999764dc6ca48dc"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\SingleEntrySmith20261102\\binaries\\Server\\script\\phongthan\\giapsi\\npc_dac_young.lua",
+                      "Path":  "Server/script/phongthan/giapsi/npc_dac_young.lua",
+                      "Done":  false,
+                      "After":  "905aabf503eb66a2083909e25e6429cdf9bd229bc1e194c0f2e3d658acf2e9cb",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\script\\phongthan\\giapsi\\npc_dac_young.lua",
+                      "Before":  "cb15dc6262b4ae3ee668b182fae20b8cfa0517dce304f36191d3881d277b5b57"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\SingleEntrySmith20261102\\binaries\\Server\\script\\phongthan\\giapsi\\npc_khuong_young.lua",
+                      "Path":  "Server/script/phongthan/giapsi/npc_khuong_young.lua",
+                      "Done":  false,
+                      "After":  "8fe27a0566782120c5d36014825798b5414f85a62d1091d0ab27cf2b8682b2a3",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\script\\phongthan\\giapsi\\npc_khuong_young.lua",
+                      "Before":  "5e5b4d65764bef66d1df5c5ef5174402763b2672308208b7e66780fbd5a6f0c0"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\SingleEntrySmith20261102\\binaries\\Server\\script\\phongthan\\npc_recovered_batch\\1001_41e3ecb2.lua",
+                      "Path":  "Server/script/phongthan/npc_recovered_batch/1001_41e3ecb2.lua",
+                      "Done":  false,
+                      "After":  "2202dab194aea67a7b051f04d507648bd5b00f45b6359b8a8c15290ec4c94deb",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\script\\phongthan\\npc_recovered_batch\\1001_41e3ecb2.lua",
+                      "Before":  "d7d18f0f5bd54d37d0d304b09e7141941426210dd6e87484cdb516b9225792cc"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\SingleEntrySmith20261102\\binaries\\Server\\script\\phongthan\\npc_recovered_batch\\1002_f57647b5.lua",
+                      "Path":  "Server/script/phongthan/npc_recovered_batch/1002_f57647b5.lua",
+                      "Done":  false,
+                      "After":  "d78df27af0aa3654bb29f130b3e82f71b946e9484d3f316d61adbed87b006495",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\script\\phongthan\\npc_recovered_batch\\1002_f57647b5.lua",
+                      "Before":  "dba7b11486ddd5ba145165906cbf30ecadf0fa7ce4402de8dd01e12192c707fd"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\SingleEntrySmith20261102\\binaries\\Server\\script\\phongthan\\npc_recovered_batch\\1003_479d2a84.lua",
+                      "Path":  "Server/script/phongthan/npc_recovered_batch/1003_479d2a84.lua",
+                      "Done":  false,
+                      "After":  "c6b2df6026e4ce887c21a50405c7c71ef962a1eda7e05f0dabee722f6edee088",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\script\\phongthan\\npc_recovered_batch\\1003_479d2a84.lua",
+                      "Before":  "e720e0715f032063ffe072f7d7576e80fa843536010b4e4fee92405b6431fc92"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\SingleEntrySmith20261102\\binaries\\Server\\script\\phongthan\\npc_recovered_batch\\1004_281c1583.lua",
+                      "Path":  "Server/script/phongthan/npc_recovered_batch/1004_281c1583.lua",
+                      "Done":  false,
+                      "After":  "02eb7924835df7cf703ca7f6c4fcfe83cd729ab8f40d6d87d76dd86faa1157b9",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\script\\phongthan\\npc_recovered_batch\\1004_281c1583.lua",
+                      "Before":  "d66928249e2174a71b7b8dc563014529f79b790a7b2b51c53d34997a25b1886d"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\SingleEntrySmith20261102\\binaries\\Server\\script\\phongthan\\npc_restore\\1004_07.lua",
+                      "Path":  "Server/script/phongthan/npc_restore/1004_07.lua",
+                      "Done":  false,
+                      "After":  "507d9a40831cced5aa58a938d350d5f9390f76fc47680ca96dc12dce95d8d9be",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\script\\phongthan\\npc_restore\\1004_07.lua",
+                      "Before":  "20b5ccd3ee7856468ce56da55f8ae07adb868442fa54f805bfd61f797ce70754"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\SingleEntrySmith20261102\\binaries\\Server\\script\\phongthan\\npc_restore\\1052_04.lua",
+                      "Path":  "Server/script/phongthan/npc_restore/1052_04.lua",
+                      "Done":  false,
+                      "After":  "3678f39a471d9ca28f8ba1197e51257b719e3eeab72e0905f56d537eada9b9fc",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\script\\phongthan\\npc_restore\\1052_04.lua",
+                      "Before":  "3c915ee652ef3186bb8aea901671668a4ecf24d771f0974160d0192dd015eb8e"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\SingleEntrySmith20261102\\binaries\\Server\\script\\phongthan\\npc_restore\\1073_01.lua",
+                      "Path":  "Server/script/phongthan/npc_restore/1073_01.lua",
+                      "Done":  false,
+                      "After":  "383ed8a8b76df32c6ffd9a88d7632b239f10da018e375ea68fac8c8e45f96eba",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\script\\phongthan\\npc_restore\\1073_01.lua",
+                      "Before":  "db5245658e51acdeedc19335e0d5fae675f7c006d8b2c75e93f4d674990f0f41"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\SingleEntrySmith20261102\\binaries\\Server\\script\\phongthan\\realm\\boat_dong_doanh.lua",
+                      "Path":  "Server/script/phongthan/realm/boat_dong_doanh.lua",
+                      "Done":  false,
+                      "After":  "08d718daef00ca7a2fc4c847c2bd79c29bb1940ca735c8b0c4e2bca5b6d5a19d",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\script\\phongthan\\realm\\boat_dong_doanh.lua",
+                      "Before":  "a0e0e46ddf327099c77fbcaa468256f057e85e874f15ca6218a40601f79a65c0"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\SingleEntrySmith20261102\\binaries\\Server\\script\\phongthan\\realm\\boat_tran_duong.lua",
+                      "Path":  "Server/script/phongthan/realm/boat_tran_duong.lua",
+                      "Done":  false,
+                      "After":  "08d718daef00ca7a2fc4c847c2bd79c29bb1940ca735c8b0c4e2bca5b6d5a19d",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\script\\phongthan\\realm\\boat_tran_duong.lua",
+                      "Before":  "a0e0e46ddf327099c77fbcaa468256f057e85e874f15ca6218a40601f79a65c0"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\SingleEntrySmith20261102\\binaries\\Server\\script\\phongthan\\realm\\linh_quang.lua",
+                      "Path":  "Server/script/phongthan/realm/linh_quang.lua",
+                      "Done":  false,
+                      "After":  "d0f59fe2c2e400805bf7e72584c750ffe7e7c32ea3906788bef43c27e2e54eda",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\script\\phongthan\\realm\\linh_quang.lua",
+                      "Before":  "3ba2a62b52375a040ade8d37fdd2cb60c68e72e980d8489bd908af496199d655"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\SingleEntrySmith20261102\\binaries\\Server\\script\\phongthan\\realm\\portal.lua",
+                      "Path":  "Server/script/phongthan/realm/portal.lua",
+                      "Done":  false,
+                      "After":  "d0f59fe2c2e400805bf7e72584c750ffe7e7c32ea3906788bef43c27e2e54eda",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\script\\phongthan\\realm\\portal.lua",
+                      "Before":  "3ba2a62b52375a040ade8d37fdd2cb60c68e72e980d8489bd908af496199d655"
+                  }
+              ],
+    "PublishedAtUtc":  "2026-11-02T08:58:08.0584946Z",
+    "TimeoutTextRefinement":  {
+                                  "Backup":  "E:\\ProjectAI\\PhongThan\\PT\\analysis\\npc_daily_single_entry_20261102\\Game-before-timeout-text.exe",
+                                  "Before":  "5db472dbf52d62a3b5379ae1b1a156173c25a7ce94c7742f8a9a32df6a7eb5ec",
+                                  "After":  "e8a791b380abdb5b925674c633e3a93e6bb932b75e4e771e6a35e02222b7caa1"
+                              }
+}

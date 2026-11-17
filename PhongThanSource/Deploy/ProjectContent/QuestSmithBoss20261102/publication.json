@@ -1,0 +1,237 @@
+﻿{
+    "Scope":  "LOOSE_ONLY",
+    "Backup":  "E:\\ProjectAI\\PhongThan\\PT\\analysis\\quest_smith_handbook_20261102\\runtime-before-20261102_152547",
+    "Result":  "PASS",
+    "Files":  [
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\QuestSmithBoss20261102\\binaries\\Client\\CoreClient.dll",
+                      "Path":  "Client/CoreClient.dll",
+                      "Done":  false,
+                      "After":  "82bbee15201a17ac88b1e333cfcaa29f0f83c19270ca34bfab10e83d67f65b0a",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Client\\CoreClient.dll",
+                      "Before":  "743c249b3c4a3a051574969beb63f57b116552eb6be744dde3f6475308c613a7"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\QuestSmithBoss20261102\\binaries\\Client\\Game.exe",
+                      "Path":  "Client/Game.exe",
+                      "Done":  false,
+                      "After":  "3823f09d5f6da2883a6a5e8fa5a8974e137419b99d85357a34908142b1e20282",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Client\\Game.exe",
+                      "Before":  "44c84993fd8faa8d5f2dcc48ada3fac9020607534e7b9439aac39f922915f5df"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\QuestSmithBoss20261102\\binaries\\Client\\settings\\NpcS.txt",
+                      "Path":  "Client/settings/NpcS.txt",
+                      "Done":  false,
+                      "After":  "666bfddce72cb14c25901a14519d992ae7eefeab282d1307a903f49c237c8e9d",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Client\\settings\\NpcS.txt",
+                      "Before":  "12363eb119d4f0f41876154196c908248df77d541cc5133b71d2d01c1e9f70e5"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\QuestSmithBoss20261102\\binaries\\Client\\settings\\item\\001\\ibitem.txt",
+                      "Path":  "Client/settings/item/001/ibitem.txt",
+                      "Done":  false,
+                      "After":  "c5fc59ef48d4c3240045eac49ace4a023a130c0f4b05421d20f29c2b14d45b58",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Client\\settings\\item\\001\\ibitem.txt",
+                      "Before":  "bd0b1de50c1a1c4b5f7c2254c4b86c9a80283d8c092677979f261fd4b15de0f5"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\QuestSmithBoss20261102\\binaries\\Client\\settings\\item\\001\\magicscript.txt",
+                      "Path":  "Client/settings/item/001/magicscript.txt",
+                      "Done":  false,
+                      "After":  "7584405fd9c7067247e57c3006874783b2a312c97b1b85895cd84e2441a63c05",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Client\\settings\\item\\001\\magicscript.txt",
+                      "Before":  "1cd1e6b8daca538b3f9ef5dc1539233972bed92863b5c7174918bec7cdad3c45"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\QuestSmithBoss20261102\\binaries\\Client\\settings\\item\\001\\material.txt",
+                      "Path":  "Client/settings/item/001/material.txt",
+                      "Done":  false,
+                      "After":  "7b345b6d0c2867b9d06d69a0155e2641e04a02deb2f6c815760f086169304c4a",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Client\\settings\\item\\001\\material.txt",
+                      "Before":  "d2ad32007594aa1eee8ff903b0152291ff7246fbaeda562ea4ce4889cb780c0c"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\QuestSmithBoss20261102\\binaries\\Client\\settings\\item\\001\\questkey.txt",
+                      "Path":  "Client/settings/item/001/questkey.txt",
+                      "Done":  false,
+                      "After":  "988c476e440efac32fb998d7ae45812ee11b59399b2419a8c38b21069cc525da",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Client\\settings\\item\\001\\questkey.txt",
+                      "Before":  "2a6069b05472f817a0bc4948cfde932d9b9bc4219c9bcca1e8048261f3d3e26d"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\QuestSmithBoss20261102\\binaries\\Client\\settings\\item\\001\\zhuang_bei_he_cheng_gui_ze_biao.txt",
+                      "Path":  "Client/settings/item/001/zhuang_bei_he_cheng_gui_ze_biao.txt",
+                      "Done":  false,
+                      "After":  "8fc99971e553c48bcf1941f79ac69aef319e2cb710d24e35faed0ad28254c319",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Client\\settings\\item\\001\\zhuang_bei_he_cheng_gui_ze_biao.txt",
+                      "Before":  "5cd4ddc5fb99b15d5f183873deafef1135ac21b73d0e8ef79be86a3dc6cafb87"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\QuestSmithBoss20261102\\binaries\\Client\\settings\\item\\001\\zhuang_bei_he_cheng_jin_qian_xu_qiu.txt",
+                      "Path":  "Client/settings/item/001/zhuang_bei_he_cheng_jin_qian_xu_qiu.txt",
+                      "Done":  false,
+                      "After":  "46a94025b49b588641585b513e208a0a800b8214eebb4cc8abb2f7a4c17ba312",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Client\\settings\\item\\001\\zhuang_bei_he_cheng_jin_qian_xu_qiu.txt",
+                      "Before":  "aac64fc86b90a0d0ede8b2dccbe257eb509f3cfde48448b571042fa4b213a376"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\QuestSmithBoss20261102\\binaries\\Client\\settings\\phongthan\\EventHandbookCatalog.txt",
+                      "Path":  "Client/settings/phongthan/EventHandbookCatalog.txt",
+                      "Done":  false,
+                      "After":  "47091aab31a4cc503671d859977a17e4593523321a3e9e39e2090f04fb739068",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Client\\settings\\phongthan\\EventHandbookCatalog.txt",
+                      "Before":  null
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\QuestSmithBoss20261102\\binaries\\Client\\settings\\phongthan\\Npcs.txt",
+                      "Path":  "Client/settings/phongthan/Npcs.txt",
+                      "Done":  false,
+                      "After":  "eb020fbed707e9dcc71201ba14b06e60236de3c4347bbe7696ab87004e321447",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Client\\settings\\phongthan\\Npcs.txt",
+                      "Before":  "1496f2411c307019d73e5ded1480b605a88b2d239003884e6d440bb1be7cf08a"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\QuestSmithBoss20261102\\binaries\\Server\\CoreServer.dll",
+                      "Path":  "Server/CoreServer.dll",
+                      "Done":  false,
+                      "After":  "7a633eda9e0af21197f9ed17044bf4d49b465a0036d3d96b5a9035b6489850ba",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\CoreServer.dll",
+                      "Before":  "1d12fedd96a3984a9bff3e0cefbe34fa5c65e4898a9c60f86591a161911568d3"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\QuestSmithBoss20261102\\binaries\\Server\\script\\phongthan\\daily\\runtime.lua",
+                      "Path":  "Server/script/phongthan/daily/runtime.lua",
+                      "Done":  false,
+                      "After":  "f01a0e93ee657a6bd6a66b507c6755469ac0034e7ac099b4c27bf706783bc62f",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\script\\phongthan\\daily\\runtime.lua",
+                      "Before":  "bb3ed16fe08378749e3142b3d1a0134a6e27956b18a7f785d82e241ec516b070"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\QuestSmithBoss20261102\\binaries\\Server\\script\\phongthan\\daily\\tu_linh.lua",
+                      "Path":  "Server/script/phongthan/daily/tu_linh.lua",
+                      "Done":  false,
+                      "After":  "04e271a2317ce0e1263e6729607b717087a78362c63247322999764dc6ca48dc",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\script\\phongthan\\daily\\tu_linh.lua",
+                      "Before":  "f61f853fc298fed0562f888981f19e35e8bdb5ec97ce86bc141c706ee8652fef"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\QuestSmithBoss20261102\\binaries\\Server\\script\\phongthan\\npc_recovered_batch\\1001_d7dd3c53.lua",
+                      "Path":  "Server/script/phongthan/npc_recovered_batch/1001_d7dd3c53.lua",
+                      "Done":  false,
+                      "After":  "3e3136a1202df8f26a21eccf11bd309a2aeb78faa14643f88ccae26b5e4dc0b6",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\script\\phongthan\\npc_recovered_batch\\1001_d7dd3c53.lua",
+                      "Before":  "e86bc3915198005485e01e5b32ace3d1ff565646fad260108694f48c113b77b1"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\QuestSmithBoss20261102\\binaries\\Server\\script\\phongthan\\npc_recovered_batch\\1003_50e51c75.lua",
+                      "Path":  "Server/script/phongthan/npc_recovered_batch/1003_50e51c75.lua",
+                      "Done":  false,
+                      "After":  "276899b3f7a70bf35f6a4ba0c96a34683bd83db6a92b3c15fec3c631f4f9f3dc",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\script\\phongthan\\npc_recovered_batch\\1003_50e51c75.lua",
+                      "Before":  "f728a50a9342e65f023462606d2877f033ae3d2afabdbea4d732ba14f6283551"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\QuestSmithBoss20261102\\binaries\\Server\\script\\phongthan\\npc_recovered_batch\\1004_5639b1df.lua",
+                      "Path":  "Server/script/phongthan/npc_recovered_batch/1004_5639b1df.lua",
+                      "Done":  false,
+                      "After":  "a816d95d738095b56b7c43a2a6bcd4d3d26df1772ba2d8e9dfe434c5305277e9",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\script\\phongthan\\npc_recovered_batch\\1004_5639b1df.lua",
+                      "Before":  "8ae64f584acc2781e0741bb6868689caad99f09a3d47bac0c233b7a351b2d512"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\QuestSmithBoss20261102\\binaries\\Server\\script\\phongthan\\npc_services\\xich_tung_tu.lua",
+                      "Path":  "Server/script/phongthan/npc_services/xich_tung_tu.lua",
+                      "Done":  false,
+                      "After":  "35edb83067d3657ac9d911bdc2fdd5ea055f921b433630b9784d83dc9b17f846",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\script\\phongthan\\npc_services\\xich_tung_tu.lua",
+                      "Before":  "217d5bc07050304256aead1df1f7e38a18357225988516a983a2b175269aaa8b"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\QuestSmithBoss20261102\\binaries\\Server\\script\\phongthan\\test\\event_handbook.lua",
+                      "Path":  "Server/script/phongthan/test/event_handbook.lua",
+                      "Done":  false,
+                      "After":  "b035f7a38707ffdb7bf73fb34f2226ad3b2f068604c2f07b1be99354b6040f04",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\script\\phongthan\\test\\event_handbook.lua",
+                      "Before":  "27f8294a20760b3e8c7f1ca6d0739e8c78167efedd0f637e0c38219bfa4028eb"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\QuestSmithBoss20261102\\binaries\\Server\\settings\\NpcS.txt",
+                      "Path":  "Server/settings/NpcS.txt",
+                      "Done":  false,
+                      "After":  "666bfddce72cb14c25901a14519d992ae7eefeab282d1307a903f49c237c8e9d",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\settings\\NpcS.txt",
+                      "Before":  "12363eb119d4f0f41876154196c908248df77d541cc5133b71d2d01c1e9f70e5"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\QuestSmithBoss20261102\\binaries\\Server\\settings\\item\\001\\ibitem.txt",
+                      "Path":  "Server/settings/item/001/ibitem.txt",
+                      "Done":  false,
+                      "After":  "9ffbe46de51e6edee8b8896277b741c11d79c2ac51eb1eddefe3d4846559e1dd",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\settings\\item\\001\\ibitem.txt",
+                      "Before":  "2d20c6d33be3d846f19b4e06bf4d96c0a66f650cd17113925df20c200340e180"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\QuestSmithBoss20261102\\binaries\\Server\\settings\\item\\001\\magicscript.txt",
+                      "Path":  "Server/settings/item/001/magicscript.txt",
+                      "Done":  false,
+                      "After":  "7584405fd9c7067247e57c3006874783b2a312c97b1b85895cd84e2441a63c05",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\settings\\item\\001\\magicscript.txt",
+                      "Before":  "1cd1e6b8daca538b3f9ef5dc1539233972bed92863b5c7174918bec7cdad3c45"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\QuestSmithBoss20261102\\binaries\\Server\\settings\\item\\001\\material.txt",
+                      "Path":  "Server/settings/item/001/material.txt",
+                      "Done":  false,
+                      "After":  "7b345b6d0c2867b9d06d69a0155e2641e04a02deb2f6c815760f086169304c4a",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\settings\\item\\001\\material.txt",
+                      "Before":  "d2ad32007594aa1eee8ff903b0152291ff7246fbaeda562ea4ce4889cb780c0c"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\QuestSmithBoss20261102\\binaries\\Server\\settings\\item\\001\\questkey.txt",
+                      "Path":  "Server/settings/item/001/questkey.txt",
+                      "Done":  false,
+                      "After":  "988c476e440efac32fb998d7ae45812ee11b59399b2419a8c38b21069cc525da",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\settings\\item\\001\\questkey.txt",
+                      "Before":  "2a6069b05472f817a0bc4948cfde932d9b9bc4219c9bcca1e8048261f3d3e26d"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\QuestSmithBoss20261102\\binaries\\Server\\settings\\item\\001\\zhuang_bei_he_cheng_gui_ze_biao.txt",
+                      "Path":  "Server/settings/item/001/zhuang_bei_he_cheng_gui_ze_biao.txt",
+                      "Done":  false,
+                      "After":  "8fc99971e553c48bcf1941f79ac69aef319e2cb710d24e35faed0ad28254c319",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\settings\\item\\001\\zhuang_bei_he_cheng_gui_ze_biao.txt",
+                      "Before":  "5cd4ddc5fb99b15d5f183873deafef1135ac21b73d0e8ef79be86a3dc6cafb87"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\QuestSmithBoss20261102\\binaries\\Server\\settings\\item\\001\\zhuang_bei_he_cheng_jin_qian_xu_qiu.txt",
+                      "Path":  "Server/settings/item/001/zhuang_bei_he_cheng_jin_qian_xu_qiu.txt",
+                      "Done":  false,
+                      "After":  "46a94025b49b588641585b513e208a0a800b8214eebb4cc8abb2f7a4c17ba312",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\settings\\item\\001\\zhuang_bei_he_cheng_jin_qian_xu_qiu.txt",
+                      "Before":  "aac64fc86b90a0d0ede8b2dccbe257eb509f3cfde48448b571042fa4b213a376"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\QuestSmithBoss20261102\\binaries\\Server\\settings\\phongthan\\EventHandbookCatalog.txt",
+                      "Path":  "Server/settings/phongthan/EventHandbookCatalog.txt",
+                      "Done":  false,
+                      "After":  "47091aab31a4cc503671d859977a17e4593523321a3e9e39e2090f04fb739068",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\settings\\phongthan\\EventHandbookCatalog.txt",
+                      "Before":  "e85391cc7f4b5eba8e63d7d7b208cdb944c85079f7696a88eacc81f4aba28992"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\QuestSmithBoss20261102\\binaries\\Server\\settings\\phongthan\\Npcs.txt",
+                      "Path":  "Server/settings/phongthan/Npcs.txt",
+                      "Done":  false,
+                      "After":  "ff806f149ab516afabfe0d1bb1c3cdf4a582450a9887f624248dbf1cd6a52ae4",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\settings\\phongthan\\Npcs.txt",
+                      "Before":  "3181e8b49b663ce778a333dc203a072a71aa9abb9ff65f07fc553e853aaf9eed"
+                  }
+              ],
+    "PublishedAtUtc":  "2026-11-02T08:25:50.9271163Z",
+    "HoverRefinement":  {
+                            "Backup":  "E:\\ProjectAI\\PhongThan\\PT\\analysis\\quest_smith_handbook_20261102\\Game-before-hover.exe",
+                            "Before":  "0ff17fd356f6a8610ad49f90a46f8e5e34dd404711ac8ca32d3afccd44a0a698",
+                            "After":  "3823f09d5f6da2883a6a5e8fa5a8974e137419b99d85357a34908142b1e20282"
+                        }
+}

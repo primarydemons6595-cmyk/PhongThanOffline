@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "files": [
+    {
+      "role": "Client",
+      "relative": "Game.exe",
+      "sha256": "c409ec7931a41f3b32e7b0f3c562aecac223229a70e7bc7c151376e2bb87cdef",
+      "before": "be2016f689638d588117c675a6c617cc13adb5718fc7c49fae9dc4732c006cbd"
+    }
+  ]
+}

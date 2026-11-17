@@ -1,0 +1,1146 @@
+{
+  "profile": "LooseOnly",
+  "contractId": "8605557E",
+  "files": [
+    {
+      "path": "Server/script/player/playerlogin.lua",
+      "before_sha256": "9dccd735090953aed2459eebe73c8d89510a1cf2293d46f0306d3aa0d1f47771",
+      "sha256": "96c2a1a7408f71bf6e07d57bbb6e2d333602d3f693ce2bd22def8f804ea4083b",
+      "accepted_before_sha256": [
+        "508d7fecba00f4a4b2ddc1a8716269478457476ceabe638380badcda3602dfb8",
+        "600eafcd2ff041122b95ff14b01c4a9f91ee96b5bc4424d74a8ebfcfff467166",
+        "657c421230a4a157a11f82f294a51cbeaa5a6f2af6597665848cc2421084aee1",
+        "9dccd735090953aed2459eebe73c8d89510a1cf2293d46f0306d3aa0d1f47771",
+        "ccbd4d238b49fbe7e9a2f52686ec4d21e63efc73c19876a7b4fdb7537161d5d3"
+      ]
+    },
+    {
+      "path": "Server/script/\u00b3\u00e7\u00b3\u00c7\u00b4\u00f3\u00d3\u00aa/\u00b2\u00d6\u00bf\u00e2\u00b9\u00dc\u00c0\u00ed\u00d4\u00b1.lua",
+      "before_sha256": "dea0288b8e7864b1770be344f8ec85ccf73051aef9beb0d861aecbb21cd3d9ac",
+      "sha256": "6993f47a1cd08bb65c6063097702d2ce6b1f74777b9aa75bd41ed7df86e04938",
+      "accepted_before_sha256": [
+        "dea0288b8e7864b1770be344f8ec85ccf73051aef9beb0d861aecbb21cd3d9ac",
+        "f137b4cbdbfbe5b1914385efc323d744de5971eb160ef2fa8143bdfd0a52a2a2"
+      ]
+    },
+    {
+      "path": "Server/script/\u00f2\u00bf\u00d3\u00c8\u00c4\u00b9/\u00b2\u00d6\u00bf\u00e2\u00b9\u00dc\u00c0\u00ed\u00d4\u00b1.lua",
+      "before_sha256": "2e581654cf064cca5fd56464ef80c8ee5ae011a8c6c2fa0b26c7eee25b05989a",
+      "sha256": "1099e1c6abbf21179ed80ec311635c414999a3eb8faa979ea769828dff4478d3",
+      "accepted_before_sha256": []
+    },
+    {
+      "path": "Server/script/\u00d3\u00f1\u00d0\u00e9\u00b9\u00ac/\u00b2\u00d6\u00bf\u00e2\u00b9\u00dc\u00c0\u00ed\u00d4\u00b1.lua",
+      "before_sha256": "2bf63ea0fe6597ed52685b2e6f169c042cbb544ce3f79470f7a9d3c7e7976e6a",
+      "sha256": "8eeefd782544a6f433cc2f26b2a93464b26f9cdbd1dc5dc83bc273f597ca5d81",
+      "accepted_before_sha256": []
+    },
+    {
+      "path": "Server/script/\u00d3\u00f1\u00d0\u00e9\u00b9\u00ac/\u00b3\u00e0\u00be\u00ab\u00d7\u00d3.lua",
+      "before_sha256": "d3148a2def66b74534765d135119b9aa07cbf50df7559c76a5057d817356cb85",
+      "sha256": "0de589d3bc6993fc97a0760f6ab84afcd80ebfe5f81040b27eecece8e67a5d48",
+      "accepted_before_sha256": [
+        "1a647ba3c316ea70321d0abd6ab7003d94f8a7033b7b747a1b81100ed24a255e",
+        "357a35c46267022ff67bc1d31703d8d27a0d4db10ecbbe3f7c59cd23e798db7b",
+        "57ce37d2779f0b7bc7af7e44e9bcaf3dff652a9dbf316f9f908873c47ff5c062",
+        "6e1ecd48bdf96d7c91e2a67766f962dd7b2ac2bf03b2614b80b5bbcf7568f275",
+        "84ce75e85105fabb47296154a22fceacbe26d12829ef7406c0778015dd3fd5c5",
+        "c089a7975f0e28fafe46d22e202615b677d26def2e6813f76f74c3f4595d36a1",
+        "c39197a0093c7055a09af02bb373d8f629edc9688cf5bf242623b8dc8bc2c1d5",
+        "cf04019d67a6ebc166f6c308db682892a5650653af0116e35d5a0513d4f5bddd",
+        "d3148a2def66b74534765d135119b9aa07cbf50df7559c76a5057d817356cb85"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/npc_recovered_batch/1001_1a469ad5.lua",
+      "before_sha256": "9c26cd8316025b227195e63f062b6aee345cd511fa5225ff4ea1817a7fb91fbc",
+      "sha256": "58d3abc77db12de6740cf53f2472204c3124397dbd1835c16106925340eaab57",
+      "accepted_before_sha256": [
+        "1baf6329df97753e3b0cad18881acc6b183b37abff3ad6f872b8f61266d7e770",
+        "2de4d98fe8b670e1563a9d88fb34170a8d97ec8b2d158c9c6e49eddac22ae133",
+        "60e2256877116fcf0f478e1e5496292cd70e25b68b97739af8b0f9b55c682bf2",
+        "82c4940c6cc1b8ea2a9524c6600a111b78908f49fab7e284899e4305e6c17ed4",
+        "9c26cd8316025b227195e63f062b6aee345cd511fa5225ff4ea1817a7fb91fbc",
+        "a9f622aa195f90c3cea2ef089d31434f95022c479abae02c369a89e8a2b6af73",
+        "d4bfae2426205929f9ae11caade9b91eb1ce742be895cd535140cd800b990b49"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/npc_recovered_batch/1003_acdf0300.lua",
+      "before_sha256": "7ed86d247294c1a7da15393c46c258f0386c4d6e9185ea9c4e66d01555b66e5b",
+      "sha256": "d969311f857afa586ac6cde0ec50e3646b4a44276446ef2f8b46875238025743",
+      "accepted_before_sha256": [
+        "7ed86d247294c1a7da15393c46c258f0386c4d6e9185ea9c4e66d01555b66e5b",
+        "97bd5bcafbd10bfa611630a06fb709ef7578cbf98a96310ebae31bee35076568",
+        "c7df02494e37cb19fa944b10aa9a81cf792ce56d2597cb6f0d72d2901d7ebafb"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/npc_recovered_batch/1004_7cc3eb20.lua",
+      "before_sha256": "d0a369db652a7701cf992bd538a298a694cae0eeb406a46534cd3b1970c9cd0c",
+      "sha256": "e02c97fd779d0f5a7db19939f9e51d74c8d5375467d41f869ffd6a00d87caced",
+      "accepted_before_sha256": [
+        "228c3caba4d56e2c8d931398179170d8308d7378318062148c973f70e5117f5c",
+        "5dbe6dcf8c3a9e0fc5e3fdb39b979aa3a4db67a5f05e7e92294e594c0effca27",
+        "d0a369db652a7701cf992bd538a298a694cae0eeb406a46534cd3b1970c9cd0c"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/npc_recovered_batch/1020_1cbd6c1b.lua",
+      "before_sha256": "0cf5e065d254e7b819f2d9244a864813a296a588bb889a9c98cff3f2378bba09",
+      "sha256": "cd58e781019012d5a6acce722405b787009994bd613c078bbc76df3e03cafb2e",
+      "accepted_before_sha256": [
+        "0cf5e065d254e7b819f2d9244a864813a296a588bb889a9c98cff3f2378bba09",
+        "67caecc659e3dd7acfab38c19c1a0eb7745a4f88be59c92a83c9e1485cfe8648",
+        "9828a534745d8f132df8ae061e36f3375c396f906e544773d6d43e8355bb38e1",
+        "b4133fb342da270ddffd9d7be48f684d8abdbfe17c6424023df2d50478cf64c3",
+        "f84554d5c74c9880af2d8fb96ca36f2694a9a643287ffa2fafe523eb7a9f52b2",
+        "f9949cb04c84d054cb20da783378adcbc673d8c8c98c7f5a20becda8f9803405",
+        "fda42bd493ac724f8ed0586443b2d7c82835637bcba020e67daa086d252c753c"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/npc_recovered_batch/1020_828485f4.lua",
+      "before_sha256": "f9845a846bdf5e93034913d6fbc2a6f1ebd3b51ddf4f082d08a2680d15ad502a",
+      "sha256": "77730efc40891ac0527e944131555121e4cc59414131cb7e917b77924a1ddcfe",
+      "accepted_before_sha256": [
+        "d3bd5b1d5b7cefc2c7ffd29e732e220db8ff72c292f6c44625f678f15d0f9bce",
+        "dbcfae1064eb97ce382a403eeb68330f29cc832db2e12da0cfcccfe3753f9a0b",
+        "f9845a846bdf5e93034913d6fbc2a6f1ebd3b51ddf4f082d08a2680d15ad502a"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/npc_recovered_batch/1020_c70224a3.lua",
+      "before_sha256": "653ecf584459a0be7a836e3f7b18b6d36fdb326cbd07ba73c6c7b09c268cb12c",
+      "sha256": "1c967f5e285e12e1f49dfd1357c66e1096b6dd44fa40f0f410cfb964f3b1c65e",
+      "accepted_before_sha256": [
+        "2e0d80645da750069f8e2f5288fded9815865d318f7d249a244e60303b76248d",
+        "2fceb2fffe4d8018aea63edffccadbdc5fe1e02b6c3f952abeaf1508b5bcfb84",
+        "653ecf584459a0be7a836e3f7b18b6d36fdb326cbd07ba73c6c7b09c268cb12c",
+        "9d28cac13f34d3866113bd82a279b363a13817574d4b001d40cf98fd5a0bb4d0",
+        "9e01330c850b7222b484e8ff7e2c2c55a5532b20b4357340d7e5a0157bf1af89",
+        "b7b8c71d0f53033d7f36685c1bca16c08da3fc98d3a9bc8b1eeb141fe2f1d41e",
+        "b98996528583dfcbfc6bb3ff389d9d8d17354a099070fd72b81f302d1d4bb5b0"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/npc_recovered_batch/1021_517a52ae.lua",
+      "before_sha256": "97669b399c6bf2f2c7b31d42376a18161dd6121f91cebc0e91258374ca9bff4f",
+      "sha256": "c083323e2acee88ba584a1c43c3d9fadee8849d4f07a21eb59b202a8d35f8d40",
+      "accepted_before_sha256": [
+        "127f088c9b08818f9e3f8a9064aff76e16f4ccf6d990568bfa6b91ef571d513b",
+        "21a53e4a56085596028b67001e6894a787eb277ad7da51b5f0e19e23ea671b9e",
+        "3f00ff995f91085295ccc2b387e6f99701e99f0501cd159fe900e59046e71af5",
+        "6fa2bcc4e63e1248f364d8c9ac989fcefe370832ed4e42fbcd29204b925f4d47",
+        "97669b399c6bf2f2c7b31d42376a18161dd6121f91cebc0e91258374ca9bff4f",
+        "a9bfb5684ca46e4b3dcaabbfc151e8902e4daddba24218adc3b7148ab21f25ca",
+        "bdd11a29a3df7eac1ce1aea6ef41cfb03df494604f9a7f5f7d10cdc899056bd1"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/npc_recovered_batch/1021_828485f4.lua",
+      "before_sha256": "6917e70c39e143049696951c06ea28f77c6f397cdbd4f6fd9f0b9b88ee1d1e3e",
+      "sha256": "2507fbbb52ec2d5947d03e857f3461ad535ed578ae368931c9c72cbdce5c73a4",
+      "accepted_before_sha256": [
+        "0317f3115165ce5da8c592acbec9d207080fa9a196ceb692b43b3f419850785f",
+        "6917e70c39e143049696951c06ea28f77c6f397cdbd4f6fd9f0b9b88ee1d1e3e",
+        "c8892aa016af9ee2344233408f35f7e1a1485a2f9971f9151f2d58bda9e5a9da"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/npc_restore/1004_07.lua",
+      "before_sha256": "507d9a40831cced5aa58a938d350d5f9390f76fc47680ca96dc12dce95d8d9be",
+      "sha256": "83cadd49ac1b4bf9495742a6902ded0ce8bbe4143f9bb9dafe11e9b7cec06c8d",
+      "accepted_before_sha256": [
+        "01b112c71862049c213e2d1618e3d82f568c50c509a39bf2e0e17e427b3848d4",
+        "0c527173f7b091ec410252b388131d0920d354eb502da69444b26270ed7ac1b0",
+        "20b5ccd3ee7856468ce56da55f8ae07adb868442fa54f805bfd61f797ce70754",
+        "26db374b6e9a601ad1d2eaa99eb2b28f21de8382514312e91091e225bacea7c3",
+        "309ea3f137c54611cfbea4588383bd185e48da0db7ad0d8c0273042ddb3c134b",
+        "8dd5c39097e224daf3ecd30f07f7e720977757ab676a7a8e448311601c57cedd",
+        "9520af68f3908e5783c27869810f8b39c7f41d3dc023bea0648311bc4c4bdb3d",
+        "96dfc3b933ed16e56c0d5cbe89cb4b1b3df475d814d8442073471a0a914446b9",
+        "9fe31439bb8bd18649205d2df4b3ac87ff1979c799a84fefe3abeb85855223b6",
+        "d0f58bc1ef84491706e96fb259a1df30999cf6233a5662f3f8ab2c79e3937f6d",
+        "d91d79441179320520c4daca9526ebd35a6c6f3a0110300ecaa76a543c3d1757",
+        "e0416f69ab64a0dae702bec2829c26529468e0095fb70922fa85834d6b017cf9"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/npc_restore/1020_01.lua",
+      "before_sha256": "47ec10ff6f1280d0fb6e557ebe441fb34e5be988b12ad01dc567b35a9e1c97b7",
+      "sha256": "40d929743920c14f2e248f8a1ed9e7a7a51f4d1c7a43c3d7917cfa0bfcb7dbae",
+      "accepted_before_sha256": [
+        "003688328517594c84931873609e3118301ef76948194ce5069001e087bee5dd",
+        "13227d847a32a3104c8e39c4c70b3f6607dc46e689a57bf7bafd6d36240112d1",
+        "287cc0fe11acb81d65e4166a8c562ce794928310895e0b0b867fab2ea0b74811",
+        "403fbe1dfb133889be416effbfbe0a4d27726d1038a1b916d566cf9168ea5d5f",
+        "47ec10ff6f1280d0fb6e557ebe441fb34e5be988b12ad01dc567b35a9e1c97b7",
+        "7ed5768269846a2451c18e1f695b9b6b228c1433131a54baf6a97e45e8d22771",
+        "953f2067b793ae8de305d4911314aa47d585b3dbf644611ec314999311cba85c",
+        "cf49a26e482c1b09b6ceec260d3ce5b3b61350da4e3c59c8aae2eca28714042f"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/npc_restore/1020_03.lua",
+      "before_sha256": "fefee86f792b221635f92b2d6ff41c1f458c5cc12360c11729ca9a29f1d865ae",
+      "sha256": "3d85325ee857ff13d773e90c04265ce9b01a8e516d1de2f2702475e4f7d90ebe",
+      "accepted_before_sha256": [
+        "10f8166df20ca8a7320504da8ca159db75454bb5bb7d48b86c06a5d098651743",
+        "4f854f4b5375f3c4d156243b502a4d7a06b3a8f15a9dcf9b39d1fbfdaf0dc3d8",
+        "7016e29e70ece50794da7ee5a12750b4dd93f9fa9db7c73dfc4cea1d6579fa80",
+        "cdcc939d4af1550b91835c617accb2211804d0d57480625755cbb133b05d3799",
+        "d76f9a0178d5f23b4550b3e2a37ce4cb539c454745341de30677190750f146ed",
+        "eb11d08b6b7db37256a44035df673625877f5d5c95c1b03ac10d5c5c641aa7f2",
+        "fc198c60bc724f265f4392cb87691d7f98f7634af55ba75abd5751342e462d8d",
+        "fefee86f792b221635f92b2d6ff41c1f458c5cc12360c11729ca9a29f1d865ae"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/npc_restore/1020_04.lua",
+      "before_sha256": "59b33b389186aa7fe5961a0caf2ef84c887c232893ca2502b6bf2abd28a1ce86",
+      "sha256": "4ece0d560d46ade1f8dfc96581187932521816eb333c8fc35c1b8c4ee2171dfc",
+      "accepted_before_sha256": [
+        "50b1be6472477519b31a865dd749e155b2ec752de091e0a9626b7c80da0e63f1",
+        "59b33b389186aa7fe5961a0caf2ef84c887c232893ca2502b6bf2abd28a1ce86",
+        "70a583b6ad3e9c47df48d6771776b314d0bc7e1ffcd6aa84bd57d1a56901ac88",
+        "73fd704a198f0496f73f7c7ed1811e07111a2bf54b1e1e9ee471ae016f44cd05",
+        "8998fb9c3825e2d0fd7f457cafbfe77130d11ead60bdf415e2e625f182a33aa1",
+        "948461806c8334d10c903dd50971f8ebcba99049ececb9729e795157fe79a2c3",
+        "a0da6fa43aa061b5a8f107bd1de4230aa96476212af5212e55975c7047792f93",
+        "d9f18dfcddfb809af3f9fc56fb542c9786e9f03f09079950a857500e79593d0e"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/npc_restore/1020_05.lua",
+      "before_sha256": "74047b2f4a75d8f4ae4da0527e8275e24cfb3f2265257ef4cdd5f6ab921645f0",
+      "sha256": "42ae84e5ce842d5093d9dc2518295e9b5461b9cf3b98f4a035911dd987fab2d0",
+      "accepted_before_sha256": [
+        "0c900370d7e0ce8b6499daa84f168528d96786107bf208383c6d7eb5a43dae52",
+        "46829a1a0b0e7f0a9ce89d6b76d29405be986fdc558cfd714a9160eb00b12bd5",
+        "5c252dabc6bc7e438bae5d2b57693723e32bf16b1a2fabfb167fcca27734d64b",
+        "74047b2f4a75d8f4ae4da0527e8275e24cfb3f2265257ef4cdd5f6ab921645f0",
+        "7654b9da348384c0f2244af1ae3fb1864adc46917bfeebfd9770fa77799b75d6",
+        "7a3f6abac19cb7c9f4a771aabc97de8ca953ece0860313a79adaff22d5a90baa",
+        "e2f373de77b895d78d6ea5b37225e1cbb8ddc511b5e41b5594ad20d660c8d3bd"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/npc_restore/1020_12.lua",
+      "before_sha256": "a18d115eccc62f052a0f46b3bda730b8c58ce2e506118badff4e3b04d4664cb0",
+      "sha256": "57b72a7a7c73cc034a725e053e1fd63a2d27e843652011f39f202cdd6a39028d",
+      "accepted_before_sha256": [
+        "255e3dcb4611039f9852453408d5c819a8ff65f8158f6600c0939c170c04d880",
+        "27c684677678c9a868998c35c31bfd602606f055f82005398a80448af63e6ea4",
+        "52ef4fce2e1590621a3eb0066217cc6c391471eef7a1da31c527c01258316321",
+        "6501e2feefd4677bd3f797bbab0c807409a2c1743499f33ffd11cfe572274446",
+        "8dc29e630901f2852ab4b84733605326623b6df959067a7f3c4e17d3f66a7408",
+        "a18d115eccc62f052a0f46b3bda730b8c58ce2e506118badff4e3b04d4664cb0",
+        "a3ed38e8ea70f56df0a3ea668ddd936338354d25aa6ebfc8974b8716153a2ed5"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/npc_restore/1020_13.lua",
+      "before_sha256": "30036ac9663d9e197e7ddfabb7b9bebd878383235acc8fe9e8af1612cd4385ce",
+      "sha256": "cbcf88d8a7d761d1691b91d1361da8988f360ec823cc3d5473fab3e3d1e6abc7",
+      "accepted_before_sha256": [
+        "21e58289d86dfb66aa0dce274922a711099c05e00ec717b0ec320ace8232e8ce",
+        "30036ac9663d9e197e7ddfabb7b9bebd878383235acc8fe9e8af1612cd4385ce",
+        "65473510ffaeabb1e392fbc87fda475e8fa87d2d23803c05eddce80be16d7195",
+        "a27f290226adceb6365184cfaf83934b8b084e2a0cc7681048b3f5e688dc33c0",
+        "a97e624c53a89c4b760f1db1006110b0d80f423649fee79b5e5f0132f5a9eb11",
+        "e7c2a34cc58193a13c20b26004e8e44dd8075213ba1a81610f0404a15a02f334",
+        "f1a2066a952d2c5cdb34980368fdc833804d267720ad0674204c418025d65e34"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/npc_restore/1020_14.lua",
+      "before_sha256": "a0c02ccb50477595786905dc384bcf62408e5f3f233fdb2ef9b2a60cd7780b0e",
+      "sha256": "ab808915c265ae4d77727b41847f2155530298a3197d62a2feadaaea83ffede6",
+      "accepted_before_sha256": [
+        "76672ab4fdc8f7fe6e748dae730aeced00e880d101c2eb29996f0cf5796d4f0b",
+        "9d367e566d78b35898f45482855df407f49c50f6b85b7725b760356de4f01f46",
+        "a0c02ccb50477595786905dc384bcf62408e5f3f233fdb2ef9b2a60cd7780b0e",
+        "a26472fe796f467836a65cdc430cac9e2489d4322b0b2da1f6a03eb3931c5924",
+        "a4ccc297951c5dd05f312b38c5580c64aa810c8f1eaf4f0914cc7e7045fcf585",
+        "b5324bd6bf33309e4316337985a841b9939628df701c8bfa83c5f6fd91785775",
+        "d2788d6427e63d5306bb550a053b53702686caf52912825fb54fbe26b339cccc"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/npc_restore/1021_03.lua",
+      "before_sha256": "8ec1d5df6ebaf946f172e5a4c1a0efaefbaf19ba92c10c63abc19797b39b81f8",
+      "sha256": "97da11e6341c8e7a165cd13d9ea1cc5033d9d9cee3a427ce860a366672de6a7e",
+      "accepted_before_sha256": [
+        "30028435f10353309174b41a8cc7a6d4f431431f6c9f8740a7d2bde70645aa23",
+        "31fd8fbed02771082b84ebe321d83bb80db569c5d1ee705c1b28274c02aa9395",
+        "6d55d9bb8fc7e28fc56f302446dbab55b3146b36944c26263406b5d4b711c5c6",
+        "8ec1d5df6ebaf946f172e5a4c1a0efaefbaf19ba92c10c63abc19797b39b81f8",
+        "b355329013690bf485772f6d63f8f94076090d592ce0c9ab82e989c7446f2973",
+        "c27404ab115b95ae97a50736b4d305dc9e46411f30a66ba8db6c2bc177eac570",
+        "f49510eb30e57a3a9956e6ac63abd885bd1cd80e1948cea0e09b60de70d44da3",
+        "f74491b8bbfb6ee0a6f9b260e5f8fc597e3bc378db39cb6c1cc7b2470445f423"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/npc_restore/1021_04.lua",
+      "before_sha256": "60a847a2ae571ab1fafd628cde49be48ec48897b276bcb37fdaa153aa3e6c39b",
+      "sha256": "bb49df917babcdeee57382e6ef372ed4e9576bd683cd666dea41649b968f27b9",
+      "accepted_before_sha256": [
+        "0322098ec18d2da32ede999d705001e17062acd5e9370a255e16223535cfa2ed",
+        "31d6836b413b3aed3822f146e2802bed879f64167e955ec287273b8b210660cf",
+        "38b6f9cf735053b59e74d1d6f3f7a869e558195af688f8f20531428f16669b3c",
+        "60a847a2ae571ab1fafd628cde49be48ec48897b276bcb37fdaa153aa3e6c39b",
+        "66ee51cb43fbd2363ebd467643bb9350d3a8e76fc1a71e5c17d016402c6778f9",
+        "e3749f1b66524a2707b1c8c544462bc6bebc9f5b7f5dd68392586ee0b504bce9",
+        "f4abe429c0511e307c3331fbd64308e48ce6bc241ce972809610b6e9e015f6e9"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/npc_restore/1021_05.lua",
+      "before_sha256": "fe83cb8d6d20bbbfe8322254c87397aeabbb338cc6a956bd8210b5ee0c14b7cd",
+      "sha256": "1297da16c5b66affcf3e01019a93d0937239960ea60c4a478d1e6a8af6920bbc",
+      "accepted_before_sha256": [
+        "381c194e5f43025354d575439be6fc02d275bb333cdaf31ad98cb5c966d39626",
+        "78d95465f207d1026996cf5852663be61dbbda4bfa796d8f3b0d4b60ee392aaf",
+        "98848ca0d92e8234af5b777a8edaa406539ca911b2cfb44099bafda375ad43a6",
+        "a02feb4d7ecfc56cd5ac4f4a4eeb9152d3e612dba6a038fcb3f403746162c54d",
+        "ab6de606605f479719ac1c4ca4a31506e18a5d9ce42c9d60bd5277d599ef4b9a",
+        "c8f2f2bf9cfb76ae4f7ebfe99c820e5fdacf8c8367a46d76a29e606ec80b643c",
+        "fe83cb8d6d20bbbfe8322254c87397aeabbb338cc6a956bd8210b5ee0c14b7cd"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/npc_restore/1021_06.lua",
+      "before_sha256": "7893046036c322ee29f31e3d7b18b6518ecf465ae56c3225dd46aaabfc564f69",
+      "sha256": "2b4d4386bd71e3f1b92ba386d6a8910f696f94ed915c5bbc43c49a063d9819fa",
+      "accepted_before_sha256": [
+        "0eff4fd3a5d0b2823f7343a42597a148643bf2156373a0a75e75a54c8aad1fb8",
+        "2ee61e23647a5ccce1604dbaa2e24249f40d8493016f49f577b68fd80d2c4484",
+        "333044c53c72b54fcf61484636abf5fef8e1947e27b21f8b937b697395b3397f",
+        "7893046036c322ee29f31e3d7b18b6518ecf465ae56c3225dd46aaabfc564f69",
+        "881d15fc98783614bab6c328c9c7c9079b68fc5405571a340a34b838ae114d8b",
+        "e05cb27ec33d6e84f06e8961ffa5a29413506ca6e746021c4485b41d6f458a82",
+        "ea51f1637a5697aa47954fcac243fa17a5d03704844112eb2cedcc45a90c8046"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/npc_restore/1021_08.lua",
+      "before_sha256": "f9f49e4d4d81e20e60f9c53833cf7ad42949ee7a58998d82db2d8e4d33dde143",
+      "sha256": "cf951c7bd8c336521712d74f0eaee93560f31ba1cceb7ef8db98f8879da5e2ae",
+      "accepted_before_sha256": [
+        "429983744ac2b8b67e0531834bff77fbeae6e898ac37734bd4fd57d3f37a9b40",
+        "6a5706bfe27ab76bb1152664a8ceec8602b855f74fc2f6a0f8d3de759c45e023",
+        "c59652a7c203c051ac3d7ba8e1ddf59223008f3e3e9b04fa48aa1642de6ea5bf",
+        "ddd7601a988c6c275c323130c2b0d4d2cf43cf43bf89effafd22092dfe445373",
+        "f00d6ad9d69d0151bad85ea814af428ec249f5ef3ec389df288e9a95d7f02f7f",
+        "f440800c4dfe9b9a9d1ddc0c251ee61bf1eb569bfc2f771ae6b265a1062f9078",
+        "f9f49e4d4d81e20e60f9c53833cf7ad42949ee7a58998d82db2d8e4d33dde143"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/restoration/maolu_store_dao.lua",
+      "before_sha256": "7ed86d247294c1a7da15393c46c258f0386c4d6e9185ea9c4e66d01555b66e5b",
+      "sha256": "d969311f857afa586ac6cde0ec50e3646b4a44276446ef2f8b46875238025743",
+      "accepted_before_sha256": [
+        "7ed86d247294c1a7da15393c46c258f0386c4d6e9185ea9c4e66d01555b66e5b",
+        "c4b8d546956bb056aeab1d0e128d1cc3f3aaa04c19319d775200275ac3426b1e"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/caogiac.lua",
+      "before_sha256": "20b740adcc81bb31763b4020916539d89712635efd363361a828c853b6fa9ddc",
+      "sha256": "b1f3b434095fd753e6150e2309274a37ce3cb80567639841bd350df9a89e349e",
+      "accepted_before_sha256": [
+        "0cb6c572b8215a017632dff7e7fdb2de316a6c2b97c600e1edc7b69db54c87f3",
+        "198e58c2622cd5e33adfd020b956b60cebd4111fa6db4998433ffa2fa6d2a01e",
+        "20b740adcc81bb31763b4020916539d89712635efd363361a828c853b6fa9ddc",
+        "2d035a8d69eb02f4d43d75239708da1a4ac5337005d31e761cde11a8f8aefc35",
+        "b48b2af60c556af31311ae3ca3f35063683838c8708805d5b14cfdbffe15fdb1",
+        "c47d7687ddf88922ba52b3a50430690260ffd93219b3adf1d7d4e9be52be1948",
+        "decbf7f01ecf9c8c86db0d47aab7af27f4428fbf283dfe042aaf4e765c110304",
+        "e304a8ecb1aa61c3ba6b038719cc4a66ae69fb68035faaaba9a9018304c5ca30",
+        "f6485fc802f9a9c95b176687d26cecf4b4f7381deb58981d08dad80e6d242975",
+        "ff3de3fa43cde0418cfef19be88dbd2e34b9af58e8092708ac12c24568881868"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/death_10.lua",
+      "before_sha256": "52d521c36393b6f613ad86c1fa41d2513327cc710e0056ba85bcd78217701992",
+      "sha256": "bb3c93d66900453edd563a28b8ef3e90d7a8f396aaeda1337d47d7866bc886d8",
+      "accepted_before_sha256": [
+        "282e5f6baac9144916266ea4cf7c71e70e8527d7a91efe487b5ba8b909d70a50",
+        "52d521c36393b6f613ad86c1fa41d2513327cc710e0056ba85bcd78217701992",
+        "6ba9ea4485bbab0f110f599e77772ee4a6044a01e0bc060af992ceb9c68db689",
+        "6c8a876d789ab280a51c9bbad4e3fda91613a5f488ff08be2d5d33c2d6f1d39d",
+        "89d154c1cf2d55e3798ede0806e8a02475d55bb2c0b55ca2667a20acb61c5581",
+        "9d0efab513d10993f8c47469d58b592cd8a96526f4583a1b679d9219a2465ba8"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/death_104.lua",
+      "before_sha256": "459c289acf37414178a3b73f54f0b30df72007e0204922c358281e592520b9eb",
+      "sha256": "432d6d46d18beb07f37f585992dfb4abc4ba8cd64d410516b2a63908efd35dc0",
+      "accepted_before_sha256": [
+        "00f55f6d566cca35771163dd5b65a96763d9dcee501b079ae7045e1f9e7418f9",
+        "228816f6b7b07f5400c9e9693011cd6bce1aa32fae6653b77b91969ae5e098d2",
+        "459c289acf37414178a3b73f54f0b30df72007e0204922c358281e592520b9eb",
+        "4c88cc1008c1488571e7382138f9d848343c7c6b1d7ee47fe7dc208480e9a1b7",
+        "539e571f37f64eaeac01f17b07f765ccb787d1ec591713a4c80ec7818dee0997",
+        "ef6418f35884e13364dd948340b078e5b2db6792e14634c339ea02fc3acc8d83"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/death_108.lua",
+      "before_sha256": "75853c31bbe2c7f96c103d6d8d71d4238c402e00ce48bd7a98f2a23a9779f339",
+      "sha256": "3a3f6c1582932dba12bd828174d3f791ba5961c92dfa518927251f4061d5de39",
+      "accepted_before_sha256": [
+        "031f2434866cee4b513d6c6d7f77dc90724be0f30966e15eb56fb025c18a5a34",
+        "18e2b124e0d9e9d113d5d4e6c12f9c69df946f46b7dc05de222141bbc1798b2e",
+        "6644495d7a92acd3ea5b1eb4819ff22edb861da9101aebc86fbc0c7c29161a3b",
+        "6d06f06194fb793a4d7437e47838496acfb1716ea97864af18841713f43a65c2",
+        "75853c31bbe2c7f96c103d6d8d71d4238c402e00ce48bd7a98f2a23a9779f339",
+        "f5fee6e3c4154c1b311a57c42899c957795bcc5019738ba4dadd61fbbe1f6583"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/death_110.lua",
+      "before_sha256": "4aef33ca7d7ded68bc525c921a5792fb4f5e78083ad3e44d646e1c0a54e001c5",
+      "sha256": "bad0dfd44cf254a697333d7ccd754909f9773b77f8c3252b296641890afab54a",
+      "accepted_before_sha256": [
+        "04e1bc339db00bfc9ea3c0137df061b60f3b683d032c3245cc0f2583f57af63b",
+        "0c1478bb88d2f44d5492c6413d55fe86d4b06a2396e1ff3f0568f0db17363e43",
+        "1478e7fdd57b560798d3a84c90e7967666726e94d2b1b096faf323201672051e",
+        "18e6f89a828fbc9fed7e082325286993b3e20bbf95ba8d152777fc5bd1e723a5",
+        "4aef33ca7d7ded68bc525c921a5792fb4f5e78083ad3e44d646e1c0a54e001c5",
+        "a61958230cc88058cfe3bce1dda63d7214cad602ddc7ee9158944d34eb79a321"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/death_111.lua",
+      "before_sha256": "06f70dd31440bb3be5bc2da35ec2c5024a4d38ccf87115ec283db6aae04bc50f",
+      "sha256": "223eabff914ae4240068ad329fc429f6da5151fde10ac55ed845255bbb4550e5",
+      "accepted_before_sha256": [
+        "06f70dd31440bb3be5bc2da35ec2c5024a4d38ccf87115ec283db6aae04bc50f",
+        "243a5752de604cb966fbbd97e3f99e2a2105abd3bc453b0cd642a8da40aec3b7",
+        "3627ba8010781de3108415b46216f8c0c5dafc51e9ca80e07f90ed0fc24b8dec",
+        "7a9f797bed56b5e4bb832039463c22e39fd059016eee5d4f609513dc1fa21a7f",
+        "b373383e33ef0f7fb4ad350d11ac604de2222b55b6d11e642c28d3b95e92f2ba",
+        "c1409a55fe45be6936b9a00e8b61e75da8ea71720751928c45c19b6192d1684d"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/death_112.lua",
+      "before_sha256": "02d0cea0bdcb6eb1d1b9dea36540a90d0e9aa4bf4d1eac3f316ac58476af05b4",
+      "sha256": "ff2f006e236cd9873e77070238ff534dfbb7e0b540c976910b2214fd8449fd20",
+      "accepted_before_sha256": [
+        "02d0cea0bdcb6eb1d1b9dea36540a90d0e9aa4bf4d1eac3f316ac58476af05b4",
+        "3c5acdfd2f4d2c7c2fbf5e25913e8a6fc7e9c39fa4a42df27b92eb0cc50b40bc",
+        "4204b3ccc26495baee6e9d5c7eb6a1fb1c91470e01a3205602fd9f47fee82792",
+        "74db9e899f337bbc2142a726936282dba027592dfeb2bf8f946b2f25bbf45bc6",
+        "ac0bcfd12ea3303a244f25c63eacf1549371f0549e1e37f98d51fa49dcabca64",
+        "fa1d3556f099f276695a91ddf1a40cc0bc516a9caad8e41f738ae7276ece8599"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/death_114.lua",
+      "before_sha256": "8256363be239920e088a2c1d37322f8031b2f37f96693cb710833306d8ca9acd",
+      "sha256": "3105636dc9aab739a3b8ae92d7491063f56e6eb4dc864c3d298b7db7a0f89fb2",
+      "accepted_before_sha256": [
+        "1ac0cb2a98a69b6a9b1a56b475ff2619e160c8d1745f421752a853292c7fb8d3",
+        "8256363be239920e088a2c1d37322f8031b2f37f96693cb710833306d8ca9acd",
+        "8f55c1af9e9011e5c88486ddfa1384756c5334dcbc4b8cfde1171a8ff0efd3af",
+        "932b514dff8be39879588e43946bff15412816534adfdeeefe22ecbc24824436",
+        "d8ed4e9ec2a02892545675f00b3733c15bf8906ab405225a37f1cde7252390f4",
+        "f8710941dc15586b77f06a8f26492a2f268221e0f59a7b90181b507fb72e14d8"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/death_7.lua",
+      "before_sha256": "01eb12a5ff03fb1c3cfa55ac715e9442f651dd22437d2840312b36af614e32e5",
+      "sha256": "3a86c2bf7875f413d3bc2f5f7a6a62322be6ddbc79a1442a4560c8ff661c1b45",
+      "accepted_before_sha256": [
+        "01eb12a5ff03fb1c3cfa55ac715e9442f651dd22437d2840312b36af614e32e5",
+        "0ccab907e1695286b87ff7be7cacde8bb9ae8228d53a31341f54de8ac1a0247e",
+        "8176ef9c2e28fb398ab10e415b1740bc58e21624d43627538382427216627197",
+        "8bbe269d8779d89112cd070453d52f3e13a2fbeb82a40517e927333917c51b38",
+        "90332a8407fbe38db1ac76adcdb0f39fe370fa84e3985f8869a15c40f83cc91c",
+        "be41f2906bf2063f8883f027619060e33af940e169d61599c9a70ed2796cb6bc",
+        "df62bc3e77f4750adf89f9c3539b08caefbbc3f774875ced841e2979e1716164"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/death_8.lua",
+      "before_sha256": "15efb40929aac582b8af3a43f6e7ccfe7ae052a4c6739d455e2e89435f39b349",
+      "sha256": "72479c5f50e4b7996e662b40018093d6e43a75c470a170b29491a0f6456c7704",
+      "accepted_before_sha256": [
+        "15efb40929aac582b8af3a43f6e7ccfe7ae052a4c6739d455e2e89435f39b349",
+        "8af1a95850212ab079d6116e214ef94d7841b4c937cfc08410a789efdaa8b7b5",
+        "cdf2898661d66b40b2b2e0ef83eddcd8d01e9d1e38a6d648bae1652600a48d5a",
+        "d0e2d61b13bc2493302d8f0ada863921f353942abfc787623aef82d0689a264f",
+        "db8c9c597816b90ca252b3e198aa129d43aae3713d426c43c11fc31cab0a03dc",
+        "f73b9eb3eb99bf4f04a11a77c5552a25caf87ce471630bb496927ba965aa65f7"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/death_9.lua",
+      "before_sha256": "201bf230cbb5e94c49b1a72a6fb78ffca78105d7d05946992dd016c407d7a955",
+      "sha256": "2a08799a83077098aa3818ddaa13d8318a4e7c0ff659a21788fa802c1cc01e05",
+      "accepted_before_sha256": [
+        "201bf230cbb5e94c49b1a72a6fb78ffca78105d7d05946992dd016c407d7a955",
+        "3c9167fed5df510e4a23af16aa6a4da0a251cdc60a98f6a1e138a880ae0dd8e7",
+        "924e22f3ed98a0792a417f2b9159ef0154811bdc0f25b728ff9a99bb4d6dd6a7",
+        "ad148dfc87a910c4899a8f54cda6e0ad7441a49393cdd94cf456c28181b00a89",
+        "e03fb57c6b839b87535aa46bf6468a00cde7182bb858b64ff06d6dfb3e06323e",
+        "eb7913a8110b0203d3735751285c72f0ba0d0a04f420577b637ea6ee9e76e02d"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/star_0.lua",
+      "before_sha256": "1f81736886f125c8f2aaf813b3517f0f4fa1ad6bdc74ad460dff8ed9903c9489",
+      "sha256": "059843a3725088c654a914824b91aee72474fe394436b7c31ebb79d224890a78",
+      "accepted_before_sha256": [
+        "1f81736886f125c8f2aaf813b3517f0f4fa1ad6bdc74ad460dff8ed9903c9489",
+        "2396ea5a048757c86bf6b078019feece405262d62d67c850d5d28a2cbc92837e",
+        "8a263dfa46b49020b52bc6a30893ea4917cc74197d715f2c40fa89fdeed4de6a",
+        "8c0a2872145791f54509376f566aecc486b47fe7c38000d3f0af784fc9bae05e",
+        "af4496cc5f926669afd7570618cb775de074be7ad6b575c4af4f714d75fb7669",
+        "f2c9e0250b573b8c69a967cfa36cce9824203f056e00678b05f164bbd902c7e0"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/star_1.lua",
+      "before_sha256": "3d4abeaee9c4caed1ec59e6609a07f19b72c92b23815f4596df2ba5e1b0ae3a1",
+      "sha256": "93c23b1ccc87cf7396f49b3580c647e4832d7b88311e28b9f76b64191bd9d4b7",
+      "accepted_before_sha256": [
+        "3d4abeaee9c4caed1ec59e6609a07f19b72c92b23815f4596df2ba5e1b0ae3a1",
+        "858352b0bd618e68c402f319fb9b80f2020bff05d43ceeceea1aef644244ac49",
+        "95bd4860d26c2ef98fb15a444d47f6649a797687a99436633c1acb5a73144ff7",
+        "9858bfe025d9c11be2d232761f9149c14f8ac293b99086c88c764f7d809fa692",
+        "bbc3099f6594267351d7f13f012d9004859f6e61944585505ca5faa95ba9efb6",
+        "dd426755e51823d1f45b22e15f478eae71bfb587451afadf50f26ce56c6aea7f"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/star_10.lua",
+      "before_sha256": "7a9318048f8ecdf0737d5af1044822e51386a4b3d2a02433e495a669d3ff9015",
+      "sha256": "3d398ab805f1dec978ce5ebdde51de4fec1a1e645f0b4afb4f1300bb7d1ab1ce",
+      "accepted_before_sha256": [
+        "1510499ac702fe2d7d88271c61c8e4491a496d48f425aaa2dabfaab4286b1bb6",
+        "27d15c280903bc2801f88e6d402ad709246507aeac177a3268a952158f27c25a",
+        "6898fe19dcd028756b753d1a105ebc6807e24a452a594b858f12b3e498569b6a",
+        "7a9318048f8ecdf0737d5af1044822e51386a4b3d2a02433e495a669d3ff9015",
+        "acead8b7eb0cd76098c8878d7aa23da41d131af3cafa03ff48c0577a165c2730",
+        "b7e6ed1712cfea297004be162d96eb1f619eb69f4beb3e9d6ee09a7bce96b35a"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/star_11.lua",
+      "before_sha256": "650c5d65dedf824eb7befa7e156b10084fbbf95e7b0b8edcf27d7cee3fa37d42",
+      "sha256": "e546a84d6bd0d03c5980e1b1c4a7413d6886ee5acc9dff675854482711b35e03",
+      "accepted_before_sha256": [
+        "1d8d6aec14a2b8fca2e5efc9aa250f4669d0bc3482c07dbeeab8ba61ba2329cd",
+        "2b2b7575caa547c2ab49ec6587db14d69d317945bb31bd4efabc90aeeb9e79cd",
+        "37c33dd9b86f065d4f83cf0e690a1356679e7a1ade39191b51e2048630e074ac",
+        "4173404b2d9caae9e3eadff579a4ab53a9fa268aa6304a4b3a0fb6d8afaf48e3",
+        "650c5d65dedf824eb7befa7e156b10084fbbf95e7b0b8edcf27d7cee3fa37d42",
+        "ba697a0e9aeb935ee3eab5bf0c39420861d68523ed0ced249a5959a4aa672c66"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/star_12.lua",
+      "before_sha256": "8275886663eddb1b93004776e46de9029df5027cf9e58c760007416aa52e0eb9",
+      "sha256": "605f442da067b3d50f58b0174f9cfa6e4535561511c6420ea5cc66f3cf65f9e8",
+      "accepted_before_sha256": [
+        "52b67a8163350b137022f3e196f0a4d43085f637d07614d622475bc969bad088",
+        "76a35a867165b573cc3637f2e3918b2c01da8ab3cc865acc78f40ab0c35342a6",
+        "8275886663eddb1b93004776e46de9029df5027cf9e58c760007416aa52e0eb9",
+        "b84e4fca8ba23cd759dc1ca4ca5acaaf1ed2a2d2f6b74fad8b8795eca3d0bcc6",
+        "cc4646a2d883dbe0b7c0214ef7c13b85c7d35e790beb8a1393e9acba844ccc34",
+        "edd921c270a3355cf03f82431c59555393f2235ab828570239c8bd9a74e8f474"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/star_13.lua",
+      "before_sha256": "59e7cfc9471796f7dc8ef1803a36f86e7fb7f2b5edd2235470f0fa4752e48c1f",
+      "sha256": "19c9f7bc705eee8d9ac6fc0d04593e7dd904d3d059a8f46e9d109b71066d71f0",
+      "accepted_before_sha256": [
+        "04f0527409b591a32933100abf54cb2a5975df506ca029620301010afcee0353",
+        "212b96f959d52f016a531a1ee9439c1d8e5ecf72da3ff4da6b62d2d62413593b",
+        "59e7cfc9471796f7dc8ef1803a36f86e7fb7f2b5edd2235470f0fa4752e48c1f",
+        "c1e36f1ae448cd6748e1d2ff3bda62783a53e642194ed68119c767c0ced89fcf",
+        "ed530501617b2d006d6b6b684f60cc64edc547bcac0c28f6abc2f4208bbfdb6a",
+        "f617b42f45b732ab2f106ed4fc3facfa63a43b21778ff15afc768bf81eaea4d1"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/star_14.lua",
+      "before_sha256": "f6a3565aa341b55626f273a7025019807205d6e37e3cf3732bcb6257f47c6ced",
+      "sha256": "b6c98451bb62f1e9817e1b3fd83aee2784f3a0d6fb7e826687781c33f9009173",
+      "accepted_before_sha256": [
+        "76cb19d1bb0eb3cbc1dbc0ea7116a03e01a3f51807f97f7938261e6bc6243a4e",
+        "9a24f22a45bcaee04cb234fbab15356aef96fce2624e75b62e5255d1bb3a5181",
+        "a2904d8ddf6a19fe27a2afd4369ec418ee0a329b0cd2e7e753ce4853bf23763d",
+        "c2e542dd445562eec8f75f5af811b971768ef37d666d50b83bab071a8b0140b2",
+        "e3111178d1b1c9e6dd7f9785778c4a7c761e103b89baa86e60259b913f078f8e",
+        "f6a3565aa341b55626f273a7025019807205d6e37e3cf3732bcb6257f47c6ced"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/star_15.lua",
+      "before_sha256": "34ff6908855c6afb18ac7c672c5d16bd90d004f4d9c7996537ba9dfee9832970",
+      "sha256": "2815a6854d8a86e30298078b5939e934e35394d8ce90c37772e6ffc2a26550a3",
+      "accepted_before_sha256": [
+        "030e5e3ec672a1b97032698655e91eb26ddd2406c04879969333c8984d3376c1",
+        "34ff6908855c6afb18ac7c672c5d16bd90d004f4d9c7996537ba9dfee9832970",
+        "74043498f8631a0e0653cbdcee94eae7355fb7436066bba17695172dc58601d8",
+        "df391230bf51c6bda27145bd073a4bb10ff01b536c701b1d4bd9e7c19b7f5276",
+        "e3dbe0b8ce99a2287fe62771d0063b06f3aeabafcb3e30aea01daf995637814b",
+        "e76116bf526906230d15a2fb37d2a5211746599442ed408e338fb3007e5ae532"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/star_16.lua",
+      "before_sha256": "b7e52f04ddd08f665bc6444ae11995f32a4c3d7771fc97f4dfcad4c020d1f4c3",
+      "sha256": "1ea30c2fd73e583655fb99c5a1113d4e65f2ad94faf6a0ebc9cb44cae3ecb16a",
+      "accepted_before_sha256": [
+        "34c2bc0f43287ea57f6dfdfc48f398ab36909ef8c16d37d139080ff349aee89c",
+        "62680fb9783de55b9640ad898907b432fe8b72097adb76baaba599ecbba978a3",
+        "7934a0a6847678c241246c3e497755bce71a678945fd8676609cc00ac5aba431",
+        "7e1c56b5087295ae7b5382c8ab21b485136dbeeee8ff86f25a59cfed7f677959",
+        "b7e52f04ddd08f665bc6444ae11995f32a4c3d7771fc97f4dfcad4c020d1f4c3",
+        "e895faa3dc731bc9f382025685734c1e11281189d09cc37e3aa1e96690d78bf4"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/star_17.lua",
+      "before_sha256": "807392a9d3f30ea64c085e8a2b4399bd5a2bc61b77dfdf18cb55b318819dabc1",
+      "sha256": "e8d71c4a11b575ca733431c692b397cc998d66e3be15722e5cf4b370d3fb6c58",
+      "accepted_before_sha256": [
+        "3a1d9abbc9b57a2554140e0dc40300ea3694c19756867af49bfeeaaac2ac85e7",
+        "5726a63f4dc53e1373a901efbb886107d0f0a0262b2d2e565a55019e204135ca",
+        "59971a6ba1e32a3ac3cb95fbae73e99df4b954d56def32ee8fdaa571fe8dc817",
+        "807392a9d3f30ea64c085e8a2b4399bd5a2bc61b77dfdf18cb55b318819dabc1",
+        "eb9e9b045efe74819baa5c50c0a599e080a140cfb0b9ba9fb9a10af14a602803",
+        "f733c163fc2a28c3697de9c808c6c1ab4e5557969467c54e0cc28e3e0f1d9f7a"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/star_18.lua",
+      "before_sha256": "883f4aa30ef15c265a01d7c407bf008263d7f049900375350923e0bf83a54f91",
+      "sha256": "dd063b006af6106bff00e9e689254e1bda7b092b4e0d287d71fd593d0a59adf0",
+      "accepted_before_sha256": [
+        "0533f3211bbe6f7f175a9d258840a8e97178e8e730c3b39e72c79f9d5ee12005",
+        "2bc476d9fdf7878fd5d0c2d1d54be910b2b0b29f944b1d6a1e7c37c5cd2f129c",
+        "4845dd73353bac261c672cba39f18f64ab42414d29102832fbe338d7aee4ce35",
+        "86fac86ab1b736176ca0d31dc4646763343a45fd07cc8182ec9d4967a4898646",
+        "883f4aa30ef15c265a01d7c407bf008263d7f049900375350923e0bf83a54f91",
+        "d664f9a37db636f9fb65febb6b3bf0bb5d01096ae0c6253615b299525109125b"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/star_19.lua",
+      "before_sha256": "78d1e948a26835607b656fd0b07565489f541e448a3f73e2246907d7155ef1b0",
+      "sha256": "aa9308bbd6eabf8e869434592e77594c01a8dd95420344ab44aca0d386eb8ca7",
+      "accepted_before_sha256": [
+        "153c2b4cc5cfb34a15b5716c0d6025e13d3f05cc41f73a7d1d5963d1745d1385",
+        "599b323b686e6ceebd42d237922fa8a1906a14ee27e34483a7b0aebddbc0f04a",
+        "78d1e948a26835607b656fd0b07565489f541e448a3f73e2246907d7155ef1b0",
+        "8fb0996c7d71230466743f75cfbc306226303df0733046fa5c341650bc6fda90",
+        "abd334b3352fbe5abf35c1c1770ff8cc40aa4ac9b3c050b99138a96f20abd02b",
+        "b12b3f338c26855ed8c7b4057cb2f76b00b1fa48f29296cd55ffa41b76054943"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/star_2.lua",
+      "before_sha256": "57e7186723588538296c2864c9b12823578ccb304008495b3453977330daaa0d",
+      "sha256": "f5983251b9c40ab2997030ee43a935ea5af6bec0fe8730c517b4ad0af782713d",
+      "accepted_before_sha256": [
+        "4cc0dc7f69b45d045a7ca466855dbd2ea45e86e5a0e9f8c34f2e876beb10628c",
+        "57e7186723588538296c2864c9b12823578ccb304008495b3453977330daaa0d",
+        "5cc33a6205813eb90ec746d7a62a5582cc17ade1cb7b7ea1fe6d9071f5bbbdf7",
+        "78bdec445c9ced390aa2681f59493fdf58e2f65d13d3945d63934b5e1984b864",
+        "d995f6077cc12567e6f5297cdfb83d8bb9f37e6076a63601b95fcb3bdf1987e6",
+        "e516e916775001148768b24cc48d962ecc5f99b0ddb60a83ff2d8f123a4da628"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/star_20.lua",
+      "before_sha256": "08ef0f3e616c21651946c7788d2460d5ee1db26eaa3dbe95eb1f75b6fe65fad1",
+      "sha256": "338bb0f8aa249f437e0adc2a959019b7febc54cdb7060b5f69e6be73b408a88e",
+      "accepted_before_sha256": [
+        "08ef0f3e616c21651946c7788d2460d5ee1db26eaa3dbe95eb1f75b6fe65fad1",
+        "13e88dac4b7aa2e46416c74f1ba216377f16ee30e58e65906a2fd41bac08d2b6",
+        "2916af42ab2399f93dd218c5e2278894f8be1d668a20ede29837a35bf8f9e907",
+        "47616aa373811ffa82a21ee810d1928786f4e5d0b21c68f653edac1603e99900",
+        "5b9b2a4178f483c3c41d77b03f94ff3591a12a8dbce9e99f664094ade2d0dcdd",
+        "75d448ec31ca9315b96ee1bfc8bb3094c3f5c6fdb17002ec28d0fd4a722e5b0d"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/star_21.lua",
+      "before_sha256": "f53ac4e7c653e5aa5434cadf827bed76ba62d50a18502bb3ef901c1582c3c2b7",
+      "sha256": "982b77a4aeb9f360ca7e87a45ea6c5667d0d00054c862c78312305d7e672c7d7",
+      "accepted_before_sha256": [
+        "0cc4ea7085c314fb49ef07dd633ec89eabb90b732c9b91320fa492f1bc2495b0",
+        "3f01539a38ff9fdb176be91977d9d9d91d61c77fe474c68a29c34f9b49c273b8",
+        "7dd19d404d85800ee4f066000dd717cb15e914c0b775d60a5109675d1a532beb",
+        "896f43b409ceb3f6f663bb54137ed5d2017de1241b6273e8248946cc9767b6aa",
+        "a91a0385db48d8369d7a1141d6519edf1eee1b2ffba52f547f5801ea6bbdcbe6",
+        "f53ac4e7c653e5aa5434cadf827bed76ba62d50a18502bb3ef901c1582c3c2b7"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/star_22.lua",
+      "before_sha256": "2b5cb9b17e93b5c64352de4ac34c724923a9f26b3d1fbdb34ea1851d6b319779",
+      "sha256": "ab29b047657811ea85b82716a1447e27a0bd4997bb98d24598d07d5b5dd16841",
+      "accepted_before_sha256": [
+        "00e3c0f02367ae37ba9f2e161c7e4b6f4252afff434e8a1553cd2ecced069e43",
+        "0e735ce17cd7d2ea08f3d6625f0424024ce5b94c1579f230fbf3b96fe211eb37",
+        "1e5fd3608c0cb08642a4325aa38a17131f760793930fe5628915ce1fd029450e",
+        "2b5cb9b17e93b5c64352de4ac34c724923a9f26b3d1fbdb34ea1851d6b319779",
+        "6291de3f9832e41eb6a39b746cac00ed051cb631ffd0a7533f4dc162556f8c07",
+        "dcf2e540ae683bd8df9ad408ea38902ae6ed9b4d3edc66cf7827c9f356cf3f04"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/star_23.lua",
+      "before_sha256": "8eacc56f122363c7736e3901750ae50c3612baafcd04d9eb0bd6ef2e9d8d6c66",
+      "sha256": "8b4085925ff20a9b6b7f37384222281b963b0089ec4ab94993f56bd4e3eb2e9a",
+      "accepted_before_sha256": [
+        "0e61fe6dfe7bcfd98a5b78c1808d1f03d009a14fefea304aa50de110ed0b5d9f",
+        "7122dcb09834510683d0702f45ab17d2e002c0186ad96f0e43752537d5b9e833",
+        "8eacc56f122363c7736e3901750ae50c3612baafcd04d9eb0bd6ef2e9d8d6c66",
+        "998ff8d44b8679639bd0f9be637147e17ef7bcb55d9e5c8e621e5b09de984ee2",
+        "b44cbd9833f6946dc9a10331f609b11be212743e3ccb11c8d829d98c9578017e",
+        "d8830079aff9a2e418784b308cca519d53822e3060bdb617bd727d9fcebe6722"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/star_24.lua",
+      "before_sha256": "ba434a0395bf7f1aad88fc0fd6a56c75bcd254970512211201fdb0bc46e77ff0",
+      "sha256": "917133f69170c916f8f1bfb72ce23932b69d07ccf7069379a51528f523569728",
+      "accepted_before_sha256": [
+        "4406e59a0950755a2afb64397fa51f567f0532b569342dbfcd527afa1f537100",
+        "47267eea21a4adac902d490e87e98c5caf8f0d3e7805c31e407ae2334f4f0593",
+        "70efa0e0bb7a8b12ee1670e9ae418a1c6f80b023aa6c99ae48b6e4d60330bf09",
+        "aee193cf52438679f4a842d0b5552cadc9ba78983d194415fbff4fc741903d39",
+        "ba434a0395bf7f1aad88fc0fd6a56c75bcd254970512211201fdb0bc46e77ff0",
+        "f518cb74e6ff36824b3425cf5bca1a45087366938c49e2003c12017c74cb73fd"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/star_25.lua",
+      "before_sha256": "c4c14423a9eaf3f289436f0f862988c3e670628d01bbbe9c8331faf398651cbb",
+      "sha256": "429752fe645c5af71e9e25eaf9ab197bc6388813518399d6b7dd9f7bdb8a0fc3",
+      "accepted_before_sha256": [
+        "0edabb35d29e4764aab3cdbecaeb78525d564eab6e4743168da41a6353fde6b4",
+        "1e6741b676a7a16d1f09961655a3da2f13876266d90768a99699cca9f6f50b04",
+        "26fb4f83d39a5d80afbeaf55e371c71ac005dfb75cffd4d6991bbdaa8655f23b",
+        "424c82a7851d591495cc0aad645ee58682de158bac5e4db1a1ca5abf3cf88e24",
+        "c4c14423a9eaf3f289436f0f862988c3e670628d01bbbe9c8331faf398651cbb",
+        "d9eee6390d4194775baa20a481a1b77bd279dc8f68abc70e98a50fa7c09581d8"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/star_26.lua",
+      "before_sha256": "43fd2b743979a0c263af05bcb28664ef5f4e2f2f5ac80fd034581368dfbdf894",
+      "sha256": "b474ac08f032eedba48f584ec26c99bfe146dd6532815026660a5c5293b99abf",
+      "accepted_before_sha256": [
+        "09fc55ef287780f2be85d377d7f45aa26f6c61a2812b15293d541d1e670520dd",
+        "2e8cdc73296de15d8e66d9e6601d45a4b4a408571eb31d87590829595a12c7dd",
+        "43fd2b743979a0c263af05bcb28664ef5f4e2f2f5ac80fd034581368dfbdf894",
+        "7bbdda3dc3c0bbddb0c3c2e20f4faf270b4afc7eec5ba7e3f3970ddb2b82b2ea",
+        "860c30d6188aa3f98e86736c5f6b2fd8352cfa9a200a32aff11f13ba17b7678a",
+        "8a94b4b370529ca28cb33f000e9c11da7dae1b1c0cd529569245345cd8e8517f"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/star_27.lua",
+      "before_sha256": "78ade6c45163127abc24bc71ad259158c8c7401c664f1a8ee255affb4e29aad0",
+      "sha256": "7a925dca5dd1e302e653a5c2334c8ad505000adff718592d2886104f10a22d59",
+      "accepted_before_sha256": [
+        "0642bfa7589b3165eedba0f8489f070f14171b255af9faae051f75353e98d9e8",
+        "75e048b63b3e3f6c974027c1b51a5059c5b59ab571001a94effaccd1101a4d94",
+        "78ade6c45163127abc24bc71ad259158c8c7401c664f1a8ee255affb4e29aad0",
+        "909a7b4f2001c50f52949794a3d1d1e6a14cfa027cb2fa166e2c9906f6324288",
+        "9b8edfc483a5a184ba92224276d5bec64199579baf501988d1f9ae7320b97f96",
+        "e8007e1e4b8769eca89ac3d3482709b5741114167951e5b0bcd3fceb68e78ed2"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/star_28.lua",
+      "before_sha256": "f05b717b925cbb24810459b79dcd74d284c7d31afb15bf7d4ddf1af0c67803df",
+      "sha256": "f5c2b76ea68491369915ed41f8f0c9a93ee1873215c4cff3786c80696b20cdd5",
+      "accepted_before_sha256": [
+        "06eb0c88391c1dbb0f123ad764a4c9b42848bf16b2e07944e32ca7484d93559b",
+        "1c84424cf46fd094bd523c7768c4f5d79fd4e63d9fa8bae64004c44b24c1cd80",
+        "57cce0333ad1d1f963bec236a47ff474a077dab76b5d971a7a6714f38346c519",
+        "645535cc858f5ea5e3d5a61f79e3aff7a901d80929b5a96606784e9c99b060e8",
+        "7a376bfd53cf3290fd9a375df586e3b63f5803c3fd49d5a703cfc5cfa7f31f55",
+        "f05b717b925cbb24810459b79dcd74d284c7d31afb15bf7d4ddf1af0c67803df"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/star_29.lua",
+      "before_sha256": "93904798bd9dd01ad9ced0a267da6af9291a0b77230c6c587258b05466d0ce07",
+      "sha256": "2bc21336b16f6fdb173e0d68b39262e3ea14445c74c2ed3788daef59cb44505c",
+      "accepted_before_sha256": [
+        "3340e952ac29c7f41ff9cc6f41a187a92427bc20a2d43606b3d38df7c073f9d6",
+        "83a3c0712da85567704be5388d3d6875a5ac7176ccef9654a1f63c5fb4b4fa24",
+        "93904798bd9dd01ad9ced0a267da6af9291a0b77230c6c587258b05466d0ce07",
+        "b7030aa82f556f6dd34934009d5f6ffea6ac6f3ff9eb51b5fd140d7e145f3f6e",
+        "ec03ec1b2b0071bcd6510126b7993b49606d49efa1d4dea4c267dc5bab63f798",
+        "ed4de08c1e58dd24fc8b73e5c88d55bc3082288cb9142f074c2fda268e8073c2"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/star_3.lua",
+      "before_sha256": "498937e089e57092be6a415694e402596578aaabc2cf1db9367c6c3957c1142b",
+      "sha256": "55ee2a7b63a36b1904e58b4ed0420934c30de304b74bc763deb85091f757478d",
+      "accepted_before_sha256": [
+        "0e4386c9d273f00535e0a30de6c7dc1b7c7dbb995be7dda00139f7a7afba05d1",
+        "1b9bd4193858d14d42fccc576cf7393f24a1ed90752f064e1ca9a36ae754f578",
+        "225a7b6e8bb77d6b096880ad388fbb614d3d23330adf13d7111ae35ccc92c210",
+        "498937e089e57092be6a415694e402596578aaabc2cf1db9367c6c3957c1142b",
+        "4d5920d41de26de2409ed1cdcde12ffdfa3897619d5463771a6421b0154039a7",
+        "5f3fb33475db4b275dba6e5e1236c35b101caa51dbb2e90f19788c07e1d6ca33"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/star_30.lua",
+      "before_sha256": "05845bc3a6dc19ba5c2f95bc5e212d4780c6aa76d68b9a4acfc2d0c40a4e20e9",
+      "sha256": "7f0ba42252d8a119c2ea6f37035d7684d84ce5c851839bd691a7e9508bb89165",
+      "accepted_before_sha256": [
+        "0179b6df82d47fc24e2a1b39ecaeb6115d019bbe5c1285591e7df3c7bfce8131",
+        "05845bc3a6dc19ba5c2f95bc5e212d4780c6aa76d68b9a4acfc2d0c40a4e20e9",
+        "41d33a84e4c8610d70330999f1890e50c80c4ab3417941d630d2ac06e24c7386",
+        "4301e1825d45c4aa2333e605484a70d08e71d46aa90e397518ab3f8cd1eac6e0",
+        "c124e28784f73781fdf843e57847a41002fb312dcd674b8fb4eed9b6e25ebc7f",
+        "f543420c747de00ac0c22e314904e303cca4b64d83189c42f202fd745c2b0b01"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/star_31.lua",
+      "before_sha256": "a2adead62694b576fa5069d73922cf856d1ff448f168a8e49eef4da80f5c375f",
+      "sha256": "1d9b3bcc14c5d2e7cb644e6800b2234624d2c5a238522afa6df054da6937c31b",
+      "accepted_before_sha256": [
+        "2841b472dda59f2ee778bec0a99623ca3d7c39210c82647420808509a1821250",
+        "31d6770bc9794f62444ddb7a47a8b91d7831696062dea168e0613a1bd50af2cf",
+        "6680aaa02d54f8dae9f7d5e1ddcb85a35cf4d180af0c87d640056dc98745917f",
+        "71b1c8708e838e466f33a4a8b656f26889a56af1409589969752cec5a0b4d8fb",
+        "a2adead62694b576fa5069d73922cf856d1ff448f168a8e49eef4da80f5c375f",
+        "b2ed3a68c2e195da4a85c8119918ac66ca155ee12fea4ba2d823f2e7e8057d92"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/star_32.lua",
+      "before_sha256": "69d9129cf145df2ac529f94bbd58751544df82f5358c6846f087d78265c3e117",
+      "sha256": "3b3943bf6182fba7e934e306be1a6c799b6214b9fc1abd5843de1161794d2a9a",
+      "accepted_before_sha256": [
+        "11fdbc232ef31d2553e681fc11e7c42b877661e4a14732065275b2491db2e71d",
+        "5f8630dcc4b883a723dc86469a2150afb8c31e4b49d63d133f5d0e7cfe61dbb8",
+        "69d9129cf145df2ac529f94bbd58751544df82f5358c6846f087d78265c3e117",
+        "7da4219939c9125557c13b47e31e8212e52b5ac910295231a85136d23f6ad7ed",
+        "88506ba837d84400553d5b9d3ae4f77279d920b425e0fdfea75bc3f5cdff8e8b",
+        "f176294a7a610579b622e8e1324ce8e2319e2f480fc23cb3b14220b91718eb09"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/star_33.lua",
+      "before_sha256": "6268eac46a0d1575c77a303936fd7448a3e5515702a1cdd2412fbaefee55d953",
+      "sha256": "9d95763992ee7c9d4b64609b2bacfd6a20106e02a3a7b664918bfc484ecfd1ec",
+      "accepted_before_sha256": [
+        "6268eac46a0d1575c77a303936fd7448a3e5515702a1cdd2412fbaefee55d953",
+        "63de77245d24a549b6bc96b6bb4ee792f331fcd48f6cacc506ee954ce2f11147",
+        "76f1104ef71c83726c27140cccc4c13b79435d6b91bf1ff13ac47e3c7b0038eb",
+        "9d202a996b4f30fd0eda9c4fc713a6453a945d6ab74f7d5332f1466424522b8b",
+        "b8e79cc760ebde2062cac1f9542d17972da797b686e13dccaededc25ea172c43",
+        "bb47a7135c12397c2def7b6cfe5074ebf1b94922adf6154c92342f08bb339cf0"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/star_34.lua",
+      "before_sha256": "4053f0af8fdf4e3c8a2823d341e056117bd4b2f0da6be7a8dd9be68c857e379f",
+      "sha256": "216bc0c682fc3394c2dfe9514cbd1552d5e1b5373f43ee3175d781f80642f127",
+      "accepted_before_sha256": [
+        "34552f0d630e2b0fe34979c5f05b7ebdb989c720eae812164a7de7560425b905",
+        "4053f0af8fdf4e3c8a2823d341e056117bd4b2f0da6be7a8dd9be68c857e379f",
+        "52a87caa38364c60d91b6e9c3e0e3082e1d1cc224eb74d03bc9b9de597dd6ff5",
+        "a5728cba80fef4a61bb361efa50ea365c092dcfa3b64bb4850112816d685976d",
+        "a5bddf36b7229fe62a77ba7e39308f769d8745b0f425c8d1fbb003864d75a856",
+        "ed31eab6a1f520292978b98e0a080f60d587c1d2a9dbd28c8dd4424da06f4820"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/star_35.lua",
+      "before_sha256": "0aff27c2c88abc5b1fba10a65e1e8a783bc476863d43d83a4b635a32043c7de3",
+      "sha256": "08fd5d8c25e3742fff6e71b4a9a86bb303b8d1b62ce02991c998bbafd64293d7",
+      "accepted_before_sha256": [
+        "0aff27c2c88abc5b1fba10a65e1e8a783bc476863d43d83a4b635a32043c7de3",
+        "53eaaac18d77f8a6bcaa31a099f79dc66deb877c35bb0155554c580933ba5014",
+        "a89fcdc09d5b01a7dc0b348867bbfb854afd7662483df06eda53623a82ccab3e",
+        "b9f08438adc4df2ff39f198289306d34897bc1b146a4e242344b3f766744f886",
+        "bbdf26f70e1cda61200968d7e67965f7c0430916c9f1de69e67394669a6d42c9",
+        "df840e25d7b7d3168b082daa3603a11fe44b646b559bd830bd3649cbf853de31"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/star_4.lua",
+      "before_sha256": "9f5e3060bf95f531643954d815895df4f5626ad69cdabf5ecb957429ae34cdd0",
+      "sha256": "2ae92b6ddba5f8241819ea6c8b6018e8e5086bad04dadfd42199aca35a4eca61",
+      "accepted_before_sha256": [
+        "7d07aac0c2a8875f79a9bcf9dd3536bc7b4e5b38e5bb2a118601cd1008d23ebb",
+        "87d283dc1cede0c0d61be0dfe5dcc3acbbbe282795fd02474e1d523b46c75d40",
+        "9f5e3060bf95f531643954d815895df4f5626ad69cdabf5ecb957429ae34cdd0",
+        "a3de33104f6b858e9adfdd251facd26290e5efa869c595de5012b3f03034a824",
+        "a9e78f8fa78cb16859f43f5765ccea4c106661375f6e74aca846f5d72dbe8641",
+        "e3277954ca56fb14bf1be3e85fec4c222f52b378503d0505f711b2604aafe3ba"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/star_5.lua",
+      "before_sha256": "f4045af2dfdcdd737ab30883b5a8fc35763c152f6fc5732574e87ebb3a0390b4",
+      "sha256": "434734718246b83627d58a2e5c5c824204ed8ba316c1b2c02d4f615878482899",
+      "accepted_before_sha256": [
+        "076ee50dd9382b6cecb4ba20cb78cd2b0b4609c8785a01692a1807b0d8424e6b",
+        "709327aa74d9707fdaef92f14757802f8c55c6175873c0a65683d151e05bc023",
+        "93517ec45b88655a44056c44314c9aec640ff47fefcc9c052c37cd7d0c04faa5",
+        "b4c0cae53ae2e769590a08b758e9d207e429845b8bebd8c84dac6f99094b62a1",
+        "e337cd4396b8f6e70818d57cd0117f4317e7b1ba98ef75e471013c5f17643da2",
+        "f4045af2dfdcdd737ab30883b5a8fc35763c152f6fc5732574e87ebb3a0390b4"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/star_6.lua",
+      "before_sha256": "940c00f489743198458e4dc8cfe972017310d96ecf3a21d47f7de5fb7e04118f",
+      "sha256": "e3ebcb94cff4f7328d150006587d01da1bd9f00d3a738815aed55d2e9df76323",
+      "accepted_before_sha256": [
+        "42cf00b9dabbeed892be3a768888f5fc2139bed726545302b9be14c43250c0ae",
+        "79e92de6d4692073d788093fcf37b3ee0529f04f9bb38158ae9e967bd1090bed",
+        "940c00f489743198458e4dc8cfe972017310d96ecf3a21d47f7de5fb7e04118f",
+        "a864b7218a53b49331c56833376a237df2b1e241064e5a7894ff04b938ed39a1",
+        "d48907589ef63430d165237b0ccd520fef0f6dcd71b9b7b7c6d9a8b887510c77",
+        "de012a6a327c287a4c3c7cd5744bcf7d727e06552c6cdc63de06cb7255298a86"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/star_7.lua",
+      "before_sha256": "5aa654d614f9862eeacff109e87480a923562ed604baff30f3f05eb0832a1873",
+      "sha256": "81937a685c01e9d0076c8629d6a9763ce517f859d915fd07aa115b044b0de1bf",
+      "accepted_before_sha256": [
+        "1282675aedc8a985ed24ff42f708493484eaa0ea1020730892a7de5b50d36ff3",
+        "5aa654d614f9862eeacff109e87480a923562ed604baff30f3f05eb0832a1873",
+        "7e73fd14c585c1aa84c623227cd143a4accd82676ac5db587833c69ac38fd005",
+        "e3938ff38dd036d2084d9779118fe9c9cc660442e8e3b9f7a5965e7cad7b4c74",
+        "e5039966e76eba2a7d3824202f1007adf9c8d39a84a5e12f7976c91fd505100f",
+        "fdf8c96b06fac88d32e9f67d61bf326dc13c8a67e8d0359502690ccd5ddc6eff"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/star_8.lua",
+      "before_sha256": "9239102738c1665239e5ea6882afdcc5760666893e64fdfdfb590d6a5be5f9ad",
+      "sha256": "cae6eb6ac1f1a6ff16fb26c4a1e8c1b937752c7eeefd274c3796fd055d552141",
+      "accepted_before_sha256": [
+        "9239102738c1665239e5ea6882afdcc5760666893e64fdfdfb590d6a5be5f9ad",
+        "9edeeb6f3ec3bcbac82592f6e6223ad8835032ad824a91cc5e0a6461810f7aff",
+        "afbb384c5e246a3a8a665884430ddc86a08229987b0b259dbc6f73eee5ca4183",
+        "d3e11f89ec4e903e54f21db8a90ed088345501b7a78ad30638e01b41a774044c",
+        "e8cd16333b29d6052a03fea9ccc1cdd7b1fbfd8a9a173c0f34322da9790fc625",
+        "fa13ba5eed8122b2491a8736bf8c7f7ac3d0146b94f4f5c65e9f9515c0091076"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/star_9.lua",
+      "before_sha256": "44278b0d8f4486fedfe5c9914ac61b7909a0d6edca98f5287081a92678fe380d",
+      "sha256": "86e273765f51392f102bbfefadd01df189b29bb168e96850a27ef2bb0f451299",
+      "accepted_before_sha256": [
+        "1cbfe1149570ff8c3287fcd88dfe6a38f54ae559aac9cac6c3bdff336a491345",
+        "44278b0d8f4486fedfe5c9914ac61b7909a0d6edca98f5287081a92678fe380d",
+        "ceb7cd4bddcd4b9ae6ed82cbe6847f6d32a98a187fed2f7dfcebfa37ab4880fe",
+        "da1e613a243d2396bc2c2f49fb54815e45ca2b84329224b9e492c7c83d9bd9f3",
+        "e555b8dc0fb1b9ba5aff11594bbcc234a89a32fd4083022187ed2f57c82e8db1",
+        "ffb7b28414f1505647f4dc7ec856e7b65bcdcd0e73918c75f28320882f049a98"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/tower_0.lua",
+      "before_sha256": "45d80b85e8ccbc229d5fab3118ebdb4db9b6f191eb1eeaf31de880e8284bdabd",
+      "sha256": "c448c2e21390159ec75908421c0d96deb2a4ca3a6228dbfcb4edbf66adf3312d",
+      "accepted_before_sha256": [
+        "2161ba90a35be34b74783cf2120513e79cb7c7533757444ae2bd07194015e881",
+        "45d80b85e8ccbc229d5fab3118ebdb4db9b6f191eb1eeaf31de880e8284bdabd",
+        "52af809708b13e0aded5d9ccd2bc425b75f78a52f9099fb049c2a01425eeaeb9",
+        "946b958221f00c204a193f037d294256b72cc834f580f0b99aa51469e6bcdeca",
+        "9ba8f21f6da6c8e4425c321ca2c4f62f874e4bf6c4f5a67639e7c8e1ee7c1caf",
+        "f66aa010d327d9f42e618811d3c624bed0902a94c295eb0cf7bcccf0c94b30c5"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/tower_1.lua",
+      "before_sha256": "0b002584078176d2b44cb4d2341666a8218728020b86e024d181279560d8fdb9",
+      "sha256": "41934d5d085d021754199d36a2c6747c3ab7d807ac3a950830705dc5f350f5e2",
+      "accepted_before_sha256": [
+        "0b002584078176d2b44cb4d2341666a8218728020b86e024d181279560d8fdb9",
+        "0c585f7eee706226d05c2887ad2351678d31b523597e0a42bb21f4d9e55a7858",
+        "20dfff048bcc617f9e5d89ee311fa05858261b72dc919b3001f9c49babb08c7f",
+        "250ab52c2a7e850f08d251ff2a2871dbabe7fe1db243fc680f666033f8e9a149",
+        "d7b5d4d2c08b59323bef2372681aff4e62be876320f065ca5e5f4e190247d975",
+        "f5f8d62f54fcb17c9545d26c3d99a1b05a444807eee4cbaaebff08c9734e8b07"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/tower_2.lua",
+      "before_sha256": "515d83300fc0fb1775d7ab546295a0632df180b70c864055b61dd04e1bdc7f0d",
+      "sha256": "04d0581f4c74bfb50a42579713df3f708df76036ccd70f5c57c318fa69266579",
+      "accepted_before_sha256": [
+        "059d7f4f9bebadb73c2ff5f939ec9356099f5f8ca0c02c720dfb5fd813192f3a",
+        "155d06bd7908aa807268d639122d850b2d141d5cf435eac34aa0eccd3303c889",
+        "19315ea1882ccb0d2607b372ee15ebbc6ce6666a204e2c12b755951847dc40aa",
+        "515d83300fc0fb1775d7ab546295a0632df180b70c864055b61dd04e1bdc7f0d",
+        "55d2694ec7bf303ff87ffb12eeb0ecd67c5492429e768ece453e4ff6515b6852",
+        "91eca52c51425c7077e6a81ee7dfc15cb9216fa38a019439756d84b2fbae6863"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/tower_3.lua",
+      "before_sha256": "7ffb1362f0c5e2d9f9bcf3d1c267b99e47a7fba573bbbe90de0d1f99b0baa9b4",
+      "sha256": "342b811473822ca49176913e2ea7a096a70ac9245684b872cf1a6f10492b6c72",
+      "accepted_before_sha256": [
+        "0344d6c7e2eae123e724c103607b086305e736a91a8467d4a341020a2aff6db1",
+        "435df7155a25456930ff103bc48741315c71ef080ab533de7bc095db5167984e",
+        "4d6dc8295122d0154ad82d781277845025c3b7a99600edd8b14188f567fb42cd",
+        "7ffb1362f0c5e2d9f9bcf3d1c267b99e47a7fba573bbbe90de0d1f99b0baa9b4",
+        "cbb2b010100a668a2355f93a9945aa3a9c00eb05cd6cdee516b6ff51c542be0c",
+        "d3f1eb35ef18b78cd4ea5b3c66d5b9393dfebd6d543ddde8450dce9ba578606d"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/tower_4.lua",
+      "before_sha256": "20303dad6b8b59e735ce9cb938bb0cbddaf11cc42d7c39768df62ae131d05087",
+      "sha256": "60ecaf2f9b6f075bbd92c8e0b90f602be125a9e7e92a269c2354d31f3f9259a5",
+      "accepted_before_sha256": [
+        "1695e4ed828f20925afe6df95f16a4ac32989b95c1109783dd0dc8386ca31df4",
+        "20303dad6b8b59e735ce9cb938bb0cbddaf11cc42d7c39768df62ae131d05087",
+        "3294264d61bf35c571b7828223e9ac55cd23361a7d0741435fe78327de0f0408",
+        "4b2ea1fdd2e8f2526e8a9f9197c4dd249bfcab6b4f01f44fddcb5896edd8f94b",
+        "b83e0e604a8170d8fd6a464157a56671b3aeafe64a92aa78fea722cbcfd67c30",
+        "c7c3168105eb4d0a059e984d53a4aa64f2f821fec9dc1972968dd0bb83ccf6a4"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/shared/tower_5.lua",
+      "before_sha256": "afbebcf855be895af13c08807a1b0859fa1b6161e817acd035e0d5bcc6680c15",
+      "sha256": "ba4865db8098c7ba251905b9c11c01fcae8ae84e53a0008d8e6f8195f51a95be",
+      "accepted_before_sha256": [
+        "004e4f5f99d6f0e6f7fe0c56b9c341d9ded2bf832ed28fc814cc50e3f3b844f1",
+        "0841d7683d790d7a55c4b9ab9379b3138482acc855b5f02c5a6a4503a9f2e357",
+        "6fa4188e6eb0cd1cc9cedf3c057b2a063d849f5a8d89cc9e2728e2c2d636b5c0",
+        "78094db42929406c59d56c0508a87148b9971a8a4d1460e61c9824a8bef59db4",
+        "afbebcf855be895af13c08807a1b0859fa1b6161e817acd035e0d5bcc6680c15",
+        "fbb8d5cb248239d3e93ded053715be535e2df5485bb046ddd0a19bea15dc4af6"
+      ]
+    },
+    {
+      "path": "Server/script/phongthan/bots/npc_goals.lua",
+      "before_sha256": null,
+      "sha256": "60d5e5c01ad0bbdcb5e74f561d3bb8ad12d94a200f97d23a25e9cec5cd79564e",
+      "accepted_before_sha256": []
+    },
+    {
+      "path": "Server/settings/phongthan/BotShopRegistry.tsv",
+      "before_sha256": "f570b7c52f50dff04874f237627b399d1483167e26c2ce7c56912a50d32072f7",
+      "sha256": "3f67b8c45132d64a536ddc421d6aac2e275550ea3bc6aeae9e955ac6aee88b90",
+      "accepted_before_sha256": [
+        "3042961d6da910fae48c4e829cb92c9deb154426ee31917a674cb37322ded238",
+        "f570b7c52f50dff04874f237627b399d1483167e26c2ce7c56912a50d32072f7"
+      ]
+    }
+  ],
+  "banks": [
+    "Server/script/\u00b3\u00e7\u00b3\u00c7\u00b4\u00f3\u00d3\u00aa/\u00b2\u00d6\u00bf\u00e2\u00b9\u00dc\u00c0\u00ed\u00d4\u00b1.lua",
+    "Server/script/\u00f2\u00bf\u00d3\u00c8\u00c4\u00b9/\u00b2\u00d6\u00bf\u00e2\u00b9\u00dc\u00c0\u00ed\u00d4\u00b1.lua",
+    "Server/script/\u00d3\u00f1\u00d0\u00e9\u00b9\u00ac/\u00b2\u00d6\u00bf\u00e2\u00b9\u00dc\u00c0\u00ed\u00d4\u00b1.lua",
+    "Server/script/phongthan/npc_recovered_batch/1003_acdf0300.lua",
+    "Server/script/phongthan/npc_recovered_batch/1004_7cc3eb20.lua",
+    "Server/script/phongthan/restoration/maolu_store_dao.lua"
+  ],
+  "shared": [
+    "Server/script/player/playerlogin.lua",
+    "Server/script/\u00d3\u00f1\u00d0\u00e9\u00b9\u00ac/\u00b3\u00e0\u00be\u00ab\u00d7\u00d3.lua",
+    "Server/script/phongthan/npc_recovered_batch/1001_1a469ad5.lua",
+    "Server/script/phongthan/npc_recovered_batch/1020_1cbd6c1b.lua",
+    "Server/script/phongthan/npc_recovered_batch/1020_c70224a3.lua",
+    "Server/script/phongthan/npc_recovered_batch/1021_517a52ae.lua",
+    "Server/script/phongthan/npc_restore/1004_07.lua",
+    "Server/script/phongthan/npc_restore/1020_01.lua",
+    "Server/script/phongthan/npc_restore/1020_03.lua",
+    "Server/script/phongthan/npc_restore/1020_04.lua",
+    "Server/script/phongthan/npc_restore/1020_05.lua",
+    "Server/script/phongthan/npc_restore/1020_12.lua",
+    "Server/script/phongthan/npc_restore/1020_13.lua",
+    "Server/script/phongthan/npc_restore/1020_14.lua",
+    "Server/script/phongthan/npc_restore/1021_03.lua",
+    "Server/script/phongthan/npc_restore/1021_04.lua",
+    "Server/script/phongthan/npc_restore/1021_05.lua",
+    "Server/script/phongthan/npc_restore/1021_06.lua",
+    "Server/script/phongthan/npc_restore/1021_08.lua",
+    "Server/script/phongthan/shared/caogiac.lua",
+    "Server/script/phongthan/shared/death_10.lua",
+    "Server/script/phongthan/shared/death_104.lua",
+    "Server/script/phongthan/shared/death_108.lua",
+    "Server/script/phongthan/shared/death_110.lua",
+    "Server/script/phongthan/shared/death_111.lua",
+    "Server/script/phongthan/shared/death_112.lua",
+    "Server/script/phongthan/shared/death_114.lua",
+    "Server/script/phongthan/shared/death_7.lua",
+    "Server/script/phongthan/shared/death_8.lua",
+    "Server/script/phongthan/shared/death_9.lua",
+    "Server/script/phongthan/shared/star_0.lua",
+    "Server/script/phongthan/shared/star_1.lua",
+    "Server/script/phongthan/shared/star_10.lua",
+    "Server/script/phongthan/shared/star_11.lua",
+    "Server/script/phongthan/shared/star_12.lua",
+    "Server/script/phongthan/shared/star_13.lua",
+    "Server/script/phongthan/shared/star_14.lua",
+    "Server/script/phongthan/shared/star_15.lua",
+    "Server/script/phongthan/shared/star_16.lua",
+    "Server/script/phongthan/shared/star_17.lua",
+    "Server/script/phongthan/shared/star_18.lua",
+    "Server/script/phongthan/shared/star_19.lua",
+    "Server/script/phongthan/shared/star_2.lua",
+    "Server/script/phongthan/shared/star_20.lua",
+    "Server/script/phongthan/shared/star_21.lua",
+    "Server/script/phongthan/shared/star_22.lua",
+    "Server/script/phongthan/shared/star_23.lua",
+    "Server/script/phongthan/shared/star_24.lua",
+    "Server/script/phongthan/shared/star_25.lua",
+    "Server/script/phongthan/shared/star_26.lua",
+    "Server/script/phongthan/shared/star_27.lua",
+    "Server/script/phongthan/shared/star_28.lua",
+    "Server/script/phongthan/shared/star_29.lua",
+    "Server/script/phongthan/shared/star_3.lua",
+    "Server/script/phongthan/shared/star_30.lua",
+    "Server/script/phongthan/shared/star_31.lua",
+    "Server/script/phongthan/shared/star_32.lua",
+    "Server/script/phongthan/shared/star_33.lua",
+    "Server/script/phongthan/shared/star_34.lua",
+    "Server/script/phongthan/shared/star_35.lua",
+    "Server/script/phongthan/shared/star_4.lua",
+    "Server/script/phongthan/shared/star_5.lua",
+    "Server/script/phongthan/shared/star_6.lua",
+    "Server/script/phongthan/shared/star_7.lua",
+    "Server/script/phongthan/shared/star_8.lua",
+    "Server/script/phongthan/shared/star_9.lua",
+    "Server/script/phongthan/shared/tower_0.lua",
+    "Server/script/phongthan/shared/tower_1.lua",
+    "Server/script/phongthan/shared/tower_2.lua",
+    "Server/script/phongthan/shared/tower_3.lua",
+    "Server/script/phongthan/shared/tower_4.lua",
+    "Server/script/phongthan/shared/tower_5.lua"
+  ],
+  "wheels": [
+    "Server/script/phongthan/npc_recovered_batch/1020_828485f4.lua",
+    "Server/script/phongthan/npc_recovered_batch/1021_828485f4.lua"
+  ]
+}

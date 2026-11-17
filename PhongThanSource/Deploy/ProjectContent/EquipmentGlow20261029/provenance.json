@@ -1,0 +1,112 @@
+{
+  "table": {
+    "id": "9BE4F4F4",
+    "pak": "vng00.pak",
+    "entry": 3183,
+    "sha256": "cd73ca2d46daa0d9b2b0f10283ca3e1afc6ea1a3acd73603156768eb3a935b0f",
+    "bytes": 15222,
+    "path": "\\settings\\npcres\\zhuang_tai_tu_xing_dui_zhao_biao.txt",
+    "raw_hex": "5c73657474696e67735c6e70637265735c7a6875616e675f7461695f74755f78696e675f6475695f7a68616f5f6269616f2e747874"
+  },
+  "effects": [
+    {
+      "state": 44,
+      "logical": "\\spr\\skill\\magic\\circle-perfect4.spr",
+      "relative": "spr/skill/magic/circle-perfect4.spr",
+      "source": {
+        "id": "6E37C2B2",
+        "pak": "update0_122-163.pak",
+        "entry": 4616,
+        "sha256": "2124f266966294f8170561be6d0c110177eaf5cee3fb9dc2eb267816abcf4971",
+        "bytes": 169324,
+        "path": "\\spr\\skill\\magic\\circle-perfect4.spr",
+        "raw_hex": "5c7370725c736b696c6c5c6d616769635c636972636c652d70657266656374342e737072"
+      }
+    },
+    {
+      "state": 45,
+      "logical": "\\spr\\skill\\magic\\circle-perfect5.spr",
+      "relative": "spr/skill/magic/circle-perfect5.spr",
+      "source": {
+        "id": "6B7A1CD2",
+        "pak": "update0_122-163.pak",
+        "entry": 4501,
+        "sha256": "5779045a96dd94e0c67ec85c03dab1a5dea51d902c2573bb4505973324b5e093",
+        "bytes": 210896,
+        "path": "\\spr\\skill\\magic\\circle-perfect5.spr",
+        "raw_hex": "5c7370725c736b696c6c5c6d616769635c636972636c652d70657266656374352e737072"
+      }
+    },
+    {
+      "state": 62,
+      "logical": "\\spr\\skill\\magic\\仙魔绿套甲.spr",
+      "relative": "spr/skill/magic/ÏÉÄ§ÂÌÌ×¼×.spr",
+      "source": {
+        "id": "EFFA9668",
+        "pak": "update0_122-163.pak",
+        "entry": 10424,
+        "sha256": "d6178d7db6637e0e504ac601b7bbae16d94171cff6d67959cafa098e2640018f",
+        "bytes": 229286,
+        "path": "\\spr\\skill\\magic\\仙魔绿套甲.spr",
+        "raw_hex": "5c7370725c736b696c6c5c6d616769635ccfc9c4a7c2ccccd7bcd72e737072"
+      }
+    },
+    {
+      "state": 63,
+      "logical": "\\spr\\skill\\magic\\仙魔绿套道.spr",
+      "relative": "spr/skill/magic/ÏÉÄ§ÂÌÌ×µÀ.spr",
+      "source": {
+        "id": "3EB021EF",
+        "pak": "update0_122-163.pak",
+        "entry": 2592,
+        "sha256": "72e50851286181cb5d794dc6b7b907714e283666db59ea3617ac90092806ca85",
+        "bytes": 229286,
+        "path": "\\spr\\skill\\magic\\仙魔绿套道.spr",
+        "raw_hex": "5c7370725c736b696c6c5c6d616769635ccfc9c4a7c2ccccd7b5c02e737072"
+      }
+    },
+    {
+      "state": 64,
+      "logical": "\\spr\\skill\\magic\\仙魔绿套异.spr",
+      "relative": "spr/skill/magic/ÏÉÄ§ÂÌÌ×Òì.spr",
+      "source": {
+        "id": "96F7B4D2",
+        "pak": "update0_122-163.pak",
+        "entry": 6330,
+        "sha256": "b32ecd6b0c5cfe44a171dcc53987db7cf4cfcb4f58b77b609f7a98945f849945",
+        "bytes": 229286,
+        "path": "\\spr\\skill\\magic\\仙魔绿套异.spr",
+        "raw_hex": "5c7370725c736b696c6c5c6d616769635ccfc9c4a7c2ccccd7d2ec2e737072"
+      }
+    },
+    {
+      "state": 72,
+      "logical": "\\spr\\skill\\magic\\equipeffect3f2.spr",
+      "relative": "spr/skill/magic/equipeffect3f2.spr",
+      "source": {
+        "id": "49443DE2",
+        "pak": "update0_122-163.pak",
+        "entry": 3071,
+        "sha256": "a1d809719f62791520fd6be2cbc00fce1e9da19587c1ef81a2edd449f69c3c03",
+        "bytes": 244552,
+        "path": "\\spr\\skill\\magic\\equipeffect3f2.spr",
+        "raw_hex": "5c7370725c736b696c6c5c6d616769635c65717569706566666563743366322e737072"
+      }
+    },
+    {
+      "state": 73,
+      "logical": "\\spr\\skill\\magic\\equipeffect3m2.spr",
+      "relative": "spr/skill/magic/equipeffect3m2.spr",
+      "source": {
+        "id": "9BA5DF54",
+        "pak": "update0_122-163.pak",
+        "entry": 6528,
+        "sha256": "c0909319df9dc29dc51913d090081c0f5358a5549c8ac1802461e7f907c79362",
+        "bytes": 72688,
+        "path": "\\spr\\skill\\magic\\equipeffect3m2.spr",
+        "raw_hex": "5c7370725c736b696c6c5c6d616769635c6571756970656666656374336d322e737072"
+      }
+    }
+  ],
+  "index_entries_added": 0
+}

@@ -1,0 +1,7350 @@
+{
+  "scope": "LOOSE_ONLY",
+  "files": [
+    {
+      "path": "Server/script/phongthan/life/skills.lua",
+      "sha256": "eda303150f08acb719e17a9ebadd6c60002607093636d4eea32ddba5fa6cb4b2",
+      "before_sha256": null
+    },
+    {
+      "path": "Server/script/phongthan/npc_restore/1002_18.lua",
+      "sha256": "cef2420ef19f8a529274dce85ea425d3aff4de70afc1aa32dcb13755d577117d",
+      "before_sha256": "c47dc31b3ded063d0766941352cacd85f4616a6354b99592800608232152e562"
+    },
+    {
+      "path": "Server/script/phongthan/npc_restore/1003_15.lua",
+      "sha256": "cef2420ef19f8a529274dce85ea425d3aff4de70afc1aa32dcb13755d577117d",
+      "before_sha256": "2aa51976fad8666e768711149d70ab18852b4be61dfc5234acfa29900b984f16"
+    },
+    {
+      "path": "Server/script/phongthan/npc_restore/1004_15.lua",
+      "sha256": "cef2420ef19f8a529274dce85ea425d3aff4de70afc1aa32dcb13755d577117d",
+      "before_sha256": "c80fe0246c8c115477b9ef1b9a0423a42e7f79ffa3cfc2bca73fb33b3b63e3ae"
+    },
+    {
+      "path": "Server/script/phongthan/life/teacher_1020.lua",
+      "sha256": "cef2420ef19f8a529274dce85ea425d3aff4de70afc1aa32dcb13755d577117d",
+      "before_sha256": null
+    },
+    {
+      "path": "Server/settings/phongthan/npc_regions/1020/v_095/093_npc_s.dat",
+      "sha256": "720d7616b1235378c93a1a1e52b3008777b53f1032e0bf97b1317e1f03bdb48c",
+      "before_sha256": null
+    },
+    {
+      "path": "Server/script/phongthan/life/teacher_1021.lua",
+      "sha256": "cef2420ef19f8a529274dce85ea425d3aff4de70afc1aa32dcb13755d577117d",
+      "before_sha256": null
+    },
+    {
+      "path": "Server/settings/phongthan/npc_regions/1021/v_097/108_npc_s.dat",
+      "sha256": "420a8d16206281d55c4b6565c06a08abce5644b6eefb658357a6f0ca404c0c2c",
+      "before_sha256": null
+    },
+    {
+      "path": "Server/settings/phongthan/NpcDisplayNames.txt",
+      "sha256": "e65762a27e198412ccaceb1d6c1c63ba19b121efe7dcdbb0b3dd392fdf4dc36c",
+      "before_sha256": "8e9b74ffefea094fc4d7b2a8b370855d0ad58d953ae6d33aae09a9b1ba961c5d"
+    },
+    {
+      "path": "Client/settings/phongthan/NpcDisplayNames.txt",
+      "sha256": "bdfe862358c51c8625df74e1ba227400268b24bc929ccfeea04167ac2ff1d5d8",
+      "before_sha256": "40bc95468eef53f1ff13c0b97a88c3a6cfb55f80509015ee24fad6b7fae72170"
+    },
+    {
+      "path": "Server/script/Ñþ³Ø/Í­½³.lua",
+      "sha256": "92c33e793618af69a80c8d11672d266156a1e37d42fff1e5e4fcccf3122d2ddd",
+      "before_sha256": "80f1d060f0cf1c271dcee155373f686132f9ac7b2905ea3c067eb1c7d80c9811"
+    },
+    {
+      "path": "Server/script/phongthan/life/bronze_return.lua",
+      "sha256": "da854c5b789612f3774b4e50302ce360b048f4cfc22108abf5bce0795526f846",
+      "before_sha256": null
+    },
+    {
+      "path": "Server/settings/phongthan/LifeMiningLoot.ini",
+      "sha256": "a13271d1c7d02610cda221342dada111a5de93516867184229c840f766908ce7",
+      "before_sha256": null
+    },
+    {
+      "path": "Server/settings/phongthan/npc_regions/1057/v_096/100_region_s.dat",
+      "sha256": "0a12107bb6191f4ed314b5b1f23458603270a114344f7cd48354b0975664dad9",
+      "before_sha256": null
+    },
+    {
+      "path": "Server/script/phongthan/life/harvest.lua",
+      "sha256": "6e489aa61f0ff7cada102015e40e81b7f6cec8f9127d75566356ca6e3e3e991b",
+      "before_sha256": null
+    }
+  ],
+  "recipes": {
+    "1": {
+      "id": 1,
+      "name": "Bạch Trà Tinh Hoa",
+      "needs": [
+        [
+          3,
+          910,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            956,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 10,
+      "rank": 1,
+      "strength": 14,
+      "energy": 0,
+      "chance": 70,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "2": {
+      "id": 2,
+      "name": "Địa Hoàng Tinh Hoa",
+      "needs": [
+        [
+          3,
+          911,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            957,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 10,
+      "rank": 1,
+      "strength": 14,
+      "energy": 0,
+      "chance": 70,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "3": {
+      "id": 3,
+      "name": "Huyên Thảo Tinh Hoa",
+      "needs": [
+        [
+          3,
+          912,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            958,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 10,
+      "rank": 1,
+      "strength": 14,
+      "energy": 0,
+      "chance": 70,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "4": {
+      "id": 4,
+      "name": "Cát Căn Tinh Hoa",
+      "needs": [
+        [
+          3,
+          913,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            959,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 10,
+      "rank": 2,
+      "strength": 16,
+      "energy": 0,
+      "chance": 70,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "5": {
+      "id": 5,
+      "name": "Liên Kiều Tinh Hoa",
+      "needs": [
+        [
+          3,
+          914,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            960,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 10,
+      "rank": 3,
+      "strength": 19,
+      "energy": 0,
+      "chance": 70,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "6": {
+      "id": 6,
+      "name": "Lạc Thạch Đằng Tinh Hoa",
+      "needs": [
+        [
+          3,
+          915,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            961,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 10,
+      "rank": 4,
+      "strength": 23,
+      "energy": 0,
+      "chance": 60,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "7": {
+      "id": 7,
+      "name": "Tiên Hạc Thảo Tinh Hoa",
+      "needs": [
+        [
+          3,
+          916,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            962,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 10,
+      "rank": 5,
+      "strength": 27,
+      "energy": 0,
+      "chance": 60,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "8": {
+      "id": 8,
+      "name": "Bạch Phụ Tử Tinh Hoa",
+      "needs": [
+        [
+          3,
+          917,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            963,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 10,
+      "rank": 6,
+      "strength": 33,
+      "energy": 0,
+      "chance": 60,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "9": {
+      "id": 9,
+      "name": "Hà Thủ Ô Tinh Hoa",
+      "needs": [
+        [
+          3,
+          918,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            964,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 10,
+      "rank": 7,
+      "strength": 38,
+      "energy": 0,
+      "chance": 50,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "10": {
+      "id": 10,
+      "name": "Mặc Long Quy Tinh Hoa",
+      "needs": [
+        [
+          3,
+          919,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            965,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 10,
+      "rank": 8,
+      "strength": 46,
+      "energy": 0,
+      "chance": 50,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "11": {
+      "id": 11,
+      "name": "Mặc Long Đảm Tinh Hoa",
+      "needs": [
+        [
+          3,
+          920,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            966,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 10,
+      "rank": 8,
+      "strength": 46,
+      "energy": 0,
+      "chance": 50,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "12": {
+      "id": 12,
+      "name": "Phục Thần Tử Tinh Hoa",
+      "needs": [
+        [
+          3,
+          921,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            967,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 10,
+      "rank": 9,
+      "strength": 55,
+      "energy": 0,
+      "chance": 50,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "13": {
+      "id": 13,
+      "name": "Trường Bạch Sâm Tinh Hoa",
+      "needs": [
+        [
+          3,
+          922,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            968,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 10,
+      "rank": 9,
+      "strength": 55,
+      "energy": 0,
+      "chance": 50,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "14": {
+      "id": 14,
+      "name": "Tiên Vân Lão Sâm Tinh Hoa",
+      "needs": [
+        [
+          3,
+          923,
+          0,
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            969,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 10,
+      "rank": 10,
+      "strength": 200,
+      "energy": 0,
+      "chance": 50,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "15": {
+      "id": 15,
+      "name": "Tuyết Chi Phục Linh Tinh Hoa",
+      "needs": [
+        [
+          3,
+          924,
+          0,
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            970,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 10,
+      "rank": 10,
+      "strength": 200,
+      "energy": 0,
+      "chance": 50,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "16": {
+      "id": 16,
+      "name": "Long Huyết Linh Chi Tinh Hoa",
+      "needs": [
+        [
+          3,
+          925,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            971,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 10,
+      "rank": 10,
+      "strength": 300,
+      "energy": 0,
+      "chance": 50,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "17": {
+      "id": 17,
+      "name": "Thịt Tôm xanh",
+      "needs": [
+        [
+          3,
+          944,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            972,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 8,
+      "rank": 1,
+      "strength": 14,
+      "energy": 0,
+      "chance": 70,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "18": {
+      "id": 18,
+      "name": "Thịt Tôm hùm",
+      "needs": [
+        [
+          3,
+          945,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            973,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 8,
+      "rank": 2,
+      "strength": 16,
+      "energy": 0,
+      "chance": 70,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "19": {
+      "id": 19,
+      "name": "Thịt cá diếc",
+      "needs": [
+        [
+          3,
+          946,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            974,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 8,
+      "rank": 3,
+      "strength": 19,
+      "energy": 0,
+      "chance": 70,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "20": {
+      "id": 20,
+      "name": "Thịt Hồng Lý",
+      "needs": [
+        [
+          3,
+          947,
+          0,
+          0,
+          0,
+          0,
+          4
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            975,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 8,
+      "rank": 4,
+      "strength": 23,
+      "energy": 0,
+      "chance": 60,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "21": {
+      "id": 21,
+      "name": "Thịt Cá ngát",
+      "needs": [
+        [
+          3,
+          948,
+          0,
+          0,
+          0,
+          0,
+          4
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            976,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 8,
+      "rank": 5,
+      "strength": 27,
+      "energy": 0,
+      "chance": 60,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "22": {
+      "id": 22,
+      "name": "Bàn Đầu Liên",
+      "needs": [
+        [
+          3,
+          949,
+          0,
+          0,
+          0,
+          0,
+          4
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            977,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 8,
+      "rank": 6,
+      "strength": 33,
+      "energy": 0,
+      "chance": 60,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "23": {
+      "id": 23,
+      "name": "Thịt Kim Bang Lý",
+      "needs": [
+        [
+          3,
+          950,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            978,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 8,
+      "rank": 7,
+      "strength": 38,
+      "energy": 0,
+      "chance": 50,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "24": {
+      "id": 24,
+      "name": "Thịt Ngân Tuyết Bạng",
+      "needs": [
+        [
+          3,
+          951,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            979,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 8,
+      "rank": 8,
+      "strength": 46,
+      "energy": 0,
+      "chance": 50,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "25": {
+      "id": 25,
+      "name": "Thịt Cẩm Vân Ngư",
+      "needs": [
+        [
+          3,
+          952,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            980,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 8,
+      "rank": 9,
+      "strength": 55,
+      "energy": 0,
+      "chance": 50,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "26": {
+      "id": 26,
+      "name": "Thịt Phi Ngân Tuyết Ngư",
+      "needs": [
+        [
+          3,
+          953,
+          0,
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            981,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 8,
+      "rank": 10,
+      "strength": 150,
+      "energy": 0,
+      "chance": 50,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "27": {
+      "id": 27,
+      "name": "Thịt Tinh Ban Điêu Ngư",
+      "needs": [
+        [
+          3,
+          954,
+          0,
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            982,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 8,
+      "rank": 10,
+      "strength": 150,
+      "energy": 0,
+      "chance": 50,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "28": {
+      "id": 28,
+      "name": "Thịt Cửu Vĩ Long Ngư",
+      "needs": [
+        [
+          3,
+          955,
+          0,
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            983,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 8,
+      "rank": 10,
+      "strength": 150,
+      "energy": 0,
+      "chance": 50,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "29": {
+      "id": 29,
+      "name": "Hoàng đồng sa",
+      "needs": [
+        [
+          3,
+          928,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            984,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 9,
+      "rank": 1,
+      "strength": 14,
+      "energy": 0,
+      "chance": 70,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "30": {
+      "id": 30,
+      "name": "Hoàng đồng khối",
+      "needs": [
+        [
+          3,
+          984,
+          0,
+          0,
+          0,
+          0,
+          4
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            985,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 9,
+      "rank": 2,
+      "strength": 16,
+      "energy": 0,
+      "chance": 70,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "31": {
+      "id": 31,
+      "name": "Hoàng đồng đĩnh",
+      "needs": [
+        [
+          3,
+          985,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            986,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 9,
+      "rank": 3,
+      "strength": 19,
+      "energy": 0,
+      "chance": 70,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "32": {
+      "id": 32,
+      "name": "Tử đồng sa",
+      "needs": [
+        [
+          3,
+          929,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            987,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 9,
+      "rank": 4,
+      "strength": 23,
+      "energy": 0,
+      "chance": 60,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "33": {
+      "id": 33,
+      "name": "Tử đồng khối",
+      "needs": [
+        [
+          3,
+          987,
+          0,
+          0,
+          0,
+          0,
+          4
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            988,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 9,
+      "rank": 5,
+      "strength": 27,
+      "energy": 0,
+      "chance": 60,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "34": {
+      "id": 34,
+      "name": "Tử đồng đĩnh",
+      "needs": [
+        [
+          3,
+          988,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            989,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 9,
+      "rank": 6,
+      "strength": 33,
+      "energy": 0,
+      "chance": 60,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "35": {
+      "id": 35,
+      "name": "Xích đồng sa",
+      "needs": [
+        [
+          3,
+          930,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            990,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 9,
+      "rank": 7,
+      "strength": 38,
+      "energy": 0,
+      "chance": 50,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "36": {
+      "id": 36,
+      "name": "Xích đồng khối",
+      "needs": [
+        [
+          3,
+          990,
+          0,
+          0,
+          0,
+          0,
+          4
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            991,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 9,
+      "rank": 8,
+      "strength": 46,
+      "energy": 0,
+      "chance": 50,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "37": {
+      "id": 37,
+      "name": "Xích đồng đĩnh",
+      "needs": [
+        [
+          3,
+          991,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            992,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 9,
+      "rank": 9,
+      "strength": 55,
+      "energy": 0,
+      "chance": 50,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "38": {
+      "id": 38,
+      "name": "Huyền đồng",
+      "needs": [
+        [
+          3,
+          986,
+          0,
+          0,
+          0,
+          0,
+          5
+        ],
+        [
+          3,
+          989,
+          0,
+          0,
+          0,
+          0,
+          5
+        ],
+        [
+          3,
+          992,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            993,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 9,
+      "rank": 10,
+      "strength": 140,
+      "energy": 0,
+      "chance": 50,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "39": {
+      "id": 39,
+      "name": "Ngọc Hàn thiết",
+      "needs": [
+        [
+          3,
+          931,
+          0,
+          0,
+          0,
+          0,
+          6
+        ],
+        [
+          3,
+          987,
+          0,
+          0,
+          0,
+          0,
+          5
+        ],
+        [
+          3,
+          6,
+          0,
+          0,
+          0,
+          0,
+          10
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            994,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 9,
+      "rank": 4,
+      "strength": 22,
+      "energy": 0,
+      "chance": 50,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "40": {
+      "id": 40,
+      "name": "Ngân quang đồng",
+      "needs": [
+        [
+          3,
+          932,
+          0,
+          0,
+          0,
+          0,
+          5
+        ],
+        [
+          3,
+          988,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          3,
+          6,
+          0,
+          0,
+          0,
+          0,
+          10
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            995,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 9,
+      "rank": 5,
+      "strength": 26,
+      "energy": 0,
+      "chance": 50,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "41": {
+      "id": 41,
+      "name": "Xích vân đồng",
+      "needs": [
+        [
+          3,
+          933,
+          0,
+          0,
+          0,
+          0,
+          3
+        ],
+        [
+          3,
+          989,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          6,
+          0,
+          0,
+          0,
+          0,
+          10
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            996,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 9,
+      "rank": 6,
+      "strength": 32,
+      "energy": 0,
+      "chance": 50,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "42": {
+      "id": 42,
+      "name": "Vân Cương Kim",
+      "needs": [
+        [
+          3,
+          934,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          3,
+          990,
+          0,
+          0,
+          0,
+          0,
+          5
+        ],
+        [
+          3,
+          6,
+          0,
+          0,
+          0,
+          0,
+          20
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            997,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 9,
+      "rank": 7,
+      "strength": 38,
+      "energy": 0,
+      "chance": 50,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "43": {
+      "id": 43,
+      "name": "Trảm Nguyệt Kim",
+      "needs": [
+        [
+          3,
+          935,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          3,
+          991,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          3,
+          6,
+          0,
+          0,
+          0,
+          0,
+          20
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            998,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 9,
+      "rank": 8,
+      "strength": 46,
+      "energy": 0,
+      "chance": 50,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "44": {
+      "id": 44,
+      "name": "Nguyên Linh Kim",
+      "needs": [
+        [
+          3,
+          936,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          992,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          6,
+          0,
+          0,
+          0,
+          0,
+          20
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            999,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 9,
+      "rank": 9,
+      "strength": 55,
+      "energy": 0,
+      "chance": 50,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "45": {
+      "id": 45,
+      "name": "Huyền Hoa Kim",
+      "needs": [
+        [
+          3,
+          937,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          993,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          6,
+          0,
+          0,
+          0,
+          0,
+          50
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            1000,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 9,
+      "rank": 10,
+      "strength": 600,
+      "energy": 0,
+      "chance": 50,
+      "bonus": 10,
+      "uses": 0,
+      "default": 1
+    },
+    "46": {
+      "id": 46,
+      "name": "Chỉ Huyết Lộ",
+      "needs": [
+        [
+          3,
+          957,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          3,
+          956,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            905,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            928,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 5,
+      "rank": 1,
+      "strength": 0,
+      "energy": 22,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "47": {
+      "id": 47,
+      "name": "ích thần lộ",
+      "needs": [
+        [
+          3,
+          958,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          3,
+          956,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            906,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            929,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 5,
+      "rank": 1,
+      "strength": 0,
+      "energy": 22,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "48": {
+      "id": 48,
+      "name": "Thiên Lang Đơn",
+      "needs": [
+        [
+          3,
+          959,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          956,
+          0,
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            907,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            930,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 5,
+      "rank": 2,
+      "strength": 0,
+      "energy": 26,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "49": {
+      "id": 49,
+      "name": "Chu Tước Đơn",
+      "needs": [
+        [
+          3,
+          960,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          3,
+          25,
+          0,
+          0,
+          0,
+          0,
+          10
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            908,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            931,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 5,
+      "rank": 3,
+      "strength": 0,
+      "energy": 31,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "50": {
+      "id": 50,
+      "name": "Bạch Hổ Đơn",
+      "needs": [
+        [
+          3,
+          960,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          3,
+          22,
+          0,
+          0,
+          0,
+          0,
+          10
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            909,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            932,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 5,
+      "rank": 3,
+      "strength": 0,
+      "energy": 31,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "51": {
+      "id": 51,
+      "name": "Thanh Long Đơn",
+      "needs": [
+        [
+          3,
+          960,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          3,
+          24,
+          0,
+          0,
+          0,
+          0,
+          10
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            910,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            933,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 5,
+      "rank": 3,
+      "strength": 0,
+      "energy": 31,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "52": {
+      "id": 52,
+      "name": "Huyền Vũ Đơn",
+      "needs": [
+        [
+          3,
+          960,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          3,
+          23,
+          0,
+          0,
+          0,
+          0,
+          10
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            911,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            934,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 5,
+      "rank": 3,
+      "strength": 0,
+      "energy": 31,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "53": {
+      "id": 53,
+      "name": "Hộ Sinh Lộ",
+      "needs": [
+        [
+          3,
+          961,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          957,
+          0,
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            912,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            935,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 5,
+      "rank": 4,
+      "strength": 0,
+      "energy": 38,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "54": {
+      "id": 54,
+      "name": "Lạc Thần Lộ",
+      "needs": [
+        [
+          3,
+          961,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          958,
+          0,
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            913,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            936,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 5,
+      "rank": 4,
+      "strength": 0,
+      "energy": 38,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "55": {
+      "id": 55,
+      "name": "Nộ Phong Tán",
+      "needs": [
+        [
+          3,
+          962,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          956,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          3,
+          24,
+          0,
+          0,
+          0,
+          0,
+          10
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            914,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            937,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 5,
+      "rank": 5,
+      "strength": 0,
+      "energy": 45,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "56": {
+      "id": 56,
+      "name": "Ngọc Bạch Tán",
+      "needs": [
+        [
+          3,
+          962,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          956,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          3,
+          22,
+          0,
+          0,
+          0,
+          0,
+          10
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            915,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            938,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 5,
+      "rank": 5,
+      "strength": 0,
+      "energy": 45,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "57": {
+      "id": 57,
+      "name": "Lệ Ma Tán",
+      "needs": [
+        [
+          3,
+          963,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          957,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          3,
+          23,
+          0,
+          0,
+          0,
+          0,
+          10
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            916,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            939,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 5,
+      "rank": 6,
+      "strength": 0,
+      "energy": 54,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "58": {
+      "id": 58,
+      "name": "Liệt Bạch Tán",
+      "needs": [
+        [
+          3,
+          963,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          958,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          3,
+          25,
+          0,
+          0,
+          0,
+          0,
+          10
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            917,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            940,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 5,
+      "rank": 6,
+      "strength": 0,
+      "energy": 54,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "59": {
+      "id": 59,
+      "name": "Diệu Sinh Lộ",
+      "needs": [
+        [
+          3,
+          964,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          957,
+          0,
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            918,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            941,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 5,
+      "rank": 7,
+      "strength": 0,
+      "energy": 65,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "60": {
+      "id": 60,
+      "name": "Diệu Thần Lộ",
+      "needs": [
+        [
+          3,
+          964,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          958,
+          0,
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            919,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            942,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 5,
+      "rank": 7,
+      "strength": 0,
+      "energy": 65,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "61": {
+      "id": 61,
+      "name": "Dung Băng Hoàn",
+      "needs": [
+        [
+          3,
+          965,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          966,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          956,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            920,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            943,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 5,
+      "rank": 8,
+      "strength": 0,
+      "energy": 78,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "62": {
+      "id": 62,
+      "name": "Ngưng Sương Hoàn",
+      "needs": [
+        [
+          3,
+          967,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          968,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          956,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            921,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            944,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 5,
+      "rank": 9,
+      "strength": 0,
+      "energy": 96,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "63": {
+      "id": 63,
+      "name": "Chúc Dung Thần Đơn",
+      "needs": [
+        [
+          3,
+          967,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          969,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          113,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            922,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            945,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 5,
+      "rank": 10,
+      "strength": 0,
+      "energy": 300,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "64": {
+      "id": 64,
+      "name": "Liệt Điện Thần Đơn",
+      "needs": [
+        [
+          3,
+          968,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          969,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          111,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            923,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            946,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 5,
+      "rank": 10,
+      "strength": 0,
+      "energy": 300,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "65": {
+      "id": 65,
+      "name": "Hậu Thổ Thần Đơn",
+      "needs": [
+        [
+          3,
+          967,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          970,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          110,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            924,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            947,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 5,
+      "rank": 10,
+      "strength": 0,
+      "energy": 300,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "66": {
+      "id": 66,
+      "name": "Cộng Công Thần Đơn",
+      "needs": [
+        [
+          3,
+          968,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          970,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          112,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            925,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            948,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 5,
+      "rank": 10,
+      "strength": 0,
+      "energy": 300,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "67": {
+      "id": 67,
+      "name": "Cửu Chuyển Hoàn Mệnh Đơn",
+      "needs": [
+        [
+          3,
+          969,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          971,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          114,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            926,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            949,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 5,
+      "rank": 10,
+      "strength": 0,
+      "energy": 400,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "68": {
+      "id": 68,
+      "name": "Cửu Chuyển Hoàn Thần Đơn",
+      "needs": [
+        [
+          3,
+          970,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          971,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          114,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            927,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            950,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 5,
+      "rank": 10,
+      "strength": 0,
+      "energy": 400,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "69": {
+      "id": 69,
+      "name": "Tôm xào",
+      "needs": [
+        [
+          3,
+          972,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          957,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            951,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            969,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 6,
+      "rank": 1,
+      "strength": 0,
+      "energy": 22,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "70": {
+      "id": 70,
+      "name": "Canh suông",
+      "needs": [
+        [
+          3,
+          972,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          958,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            952,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            970,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 6,
+      "rank": 1,
+      "strength": 0,
+      "energy": 22,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "71": {
+      "id": 71,
+      "name": "Tôm kho",
+      "needs": [
+        [
+          3,
+          973,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          956,
+          0,
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            953,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            971,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 6,
+      "rank": 2,
+      "strength": 0,
+      "energy": 26,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "72": {
+      "id": 72,
+      "name": "Canh cá diếc",
+      "needs": [
+        [
+          3,
+          974,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          956,
+          0,
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            954,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            972,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 6,
+      "rank": 3,
+      "strength": 0,
+      "energy": 31,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "73": {
+      "id": 73,
+      "name": "Cá chép sốt chua ngọt",
+      "needs": [
+        [
+          3,
+          975,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          957,
+          0,
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            955,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            973,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 6,
+      "rank": 4,
+      "strength": 0,
+      "energy": 38,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "74": {
+      "id": 74,
+      "name": "Cá viên chiên",
+      "needs": [
+        [
+          3,
+          975,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          958,
+          0,
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            956,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            974,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 6,
+      "rank": 4,
+      "strength": 0,
+      "energy": 38,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "75": {
+      "id": 75,
+      "name": "Cá ngát hấp",
+      "needs": [
+        [
+          3,
+          976,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          956,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          938,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            957,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            975,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 6,
+      "rank": 5,
+      "strength": 0,
+      "energy": 45,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "76": {
+      "id": 76,
+      "name": "Đầu cá hấp tiêu",
+      "needs": [
+        [
+          3,
+          977,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          956,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          939,
+          0,
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            958,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            976,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 6,
+      "rank": 6,
+      "strength": 0,
+      "energy": 54,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "77": {
+      "id": 77,
+      "name": "Cá giấm Tây Hồ",
+      "needs": [
+        [
+          3,
+          978,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          957,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          940,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            959,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            977,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 6,
+      "rank": 7,
+      "strength": 0,
+      "energy": 65,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "78": {
+      "id": 78,
+      "name": "Ngân Tuyết Bao",
+      "needs": [
+        [
+          3,
+          979,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          958,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          941,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            960,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            978,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 6,
+      "rank": 8,
+      "strength": 0,
+      "energy": 78,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "79": {
+      "id": 79,
+      "name": "Vượt Vũ Môn",
+      "needs": [
+        [
+          3,
+          980,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          957,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          942,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            961,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            979,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 6,
+      "rank": 9,
+      "strength": 0,
+      "energy": 96,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "80": {
+      "id": 80,
+      "name": "Canh Bách Bổ",
+      "needs": [
+        [
+          3,
+          980,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          958,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          942,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            962,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            980,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 6,
+      "rank": 9,
+      "strength": 0,
+      "energy": 96,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "81": {
+      "id": 81,
+      "name": "Thần Tiên Thiên Cửu Sí",
+      "needs": [
+        [
+          3,
+          981,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          114,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          3,
+          943,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            963,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            981,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 6,
+      "rank": 10,
+      "strength": 0,
+      "energy": 300,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "82": {
+      "id": 82,
+      "name": "Cẩm Y Du Long Bao ",
+      "needs": [
+        [
+          3,
+          982,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          115,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          943,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            964,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            982,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 6,
+      "rank": 10,
+      "strength": 0,
+      "energy": 300,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "83": {
+      "id": 83,
+      "name": "Đan Châu Phù Dung Đỗ ",
+      "needs": [
+        [
+          3,
+          983,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          113,
+          0,
+          0,
+          0,
+          0,
+          5
+        ],
+        [
+          3,
+          943,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            965,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            983,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 6,
+      "rank": 10,
+      "strength": 0,
+      "energy": 300,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "84": {
+      "id": 84,
+      "name": "Hỏa Vũ Đào Hoa Sí",
+      "needs": [
+        [
+          3,
+          983,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          110,
+          0,
+          0,
+          0,
+          0,
+          5
+        ],
+        [
+          3,
+          943,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            966,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            984,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 6,
+      "rank": 10,
+      "strength": 0,
+      "energy": 300,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "85": {
+      "id": 85,
+      "name": "Băng Trấn Long Đảm Tửu",
+      "needs": [
+        [
+          3,
+          983,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          112,
+          0,
+          0,
+          0,
+          0,
+          5
+        ],
+        [
+          3,
+          943,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            967,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            985,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 6,
+      "rank": 10,
+      "strength": 0,
+      "energy": 300,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "86": {
+      "id": 86,
+      "name": "Song Long Hý Châu Bao",
+      "needs": [
+        [
+          3,
+          983,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          111,
+          0,
+          0,
+          0,
+          0,
+          5
+        ],
+        [
+          3,
+          943,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            968,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            986,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 6,
+      "rank": 10,
+      "strength": 0,
+      "energy": 300,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "87": {
+      "id": 87,
+      "name": "Thiên Linh Thạch",
+      "needs": [
+        [
+          3,
+          984,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          987,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          990,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            6,
+            1,
+            587,
+            1,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 7,
+      "rank": 1,
+      "strength": 0,
+      "energy": 40,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "88": {
+      "id": 88,
+      "name": "Kiên Quân Phù",
+      "needs": [
+        [
+          3,
+          994,
+          0,
+          0,
+          0,
+          0,
+          4
+        ],
+        [
+          3,
+          984,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            558,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 7,
+      "rank": 1,
+      "strength": 0,
+      "energy": 100,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "89": {
+      "id": 89,
+      "name": "Lợi Binh Lục",
+      "needs": [
+        [
+          3,
+          995,
+          0,
+          0,
+          0,
+          0,
+          4
+        ],
+        [
+          3,
+          984,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            559,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 7,
+      "rank": 1,
+      "strength": 0,
+      "energy": 120,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "90": {
+      "id": 90,
+      "name": "Ngự Long Phù",
+      "needs": [
+        [
+          3,
+          996,
+          0,
+          0,
+          0,
+          0,
+          3
+        ],
+        [
+          3,
+          558,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          985,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            560,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 7,
+      "rank": 3,
+      "strength": 0,
+      "energy": 200,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "91": {
+      "id": 91,
+      "name": "Chiến Long Lục",
+      "needs": [
+        [
+          3,
+          997,
+          0,
+          0,
+          0,
+          0,
+          3
+        ],
+        [
+          3,
+          559,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          985,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            561,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 7,
+      "rank": 3,
+      "strength": 0,
+      "energy": 240,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "92": {
+      "id": 92,
+      "name": "Thiên Tường Phù",
+      "needs": [
+        [
+          3,
+          998,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          3,
+          560,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          986,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            562,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 7,
+      "rank": 5,
+      "strength": 0,
+      "energy": 300,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "93": {
+      "id": 93,
+      "name": "Thiên Nộ Lục",
+      "needs": [
+        [
+          3,
+          999,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          3,
+          561,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          986,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            563,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 7,
+      "rank": 5,
+      "strength": 0,
+      "energy": 360,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "94": {
+      "id": 94,
+      "name": "Ngũ sắc Kiên Quân Phù",
+      "needs": [
+        [
+          3,
+          1000,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          993,
+          0,
+          0,
+          0,
+          0,
+          3
+        ],
+        [
+          3,
+          994,
+          0,
+          0,
+          0,
+          0,
+          20
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            564,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 7,
+      "rank": 2,
+      "strength": 0,
+      "energy": 1000,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "95": {
+      "id": 95,
+      "name": "Ngũ sắc Lợi Binh Lục",
+      "needs": [
+        [
+          3,
+          1000,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          993,
+          0,
+          0,
+          0,
+          0,
+          3
+        ],
+        [
+          3,
+          995,
+          0,
+          0,
+          0,
+          0,
+          18
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            565,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 7,
+      "rank": 2,
+      "strength": 0,
+      "energy": 1200,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "96": {
+      "id": 96,
+      "name": "Ngũ sắc Ngự Long Phù",
+      "needs": [
+        [
+          3,
+          1000,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          3,
+          993,
+          0,
+          0,
+          0,
+          0,
+          3
+        ],
+        [
+          3,
+          996,
+          0,
+          0,
+          0,
+          0,
+          14
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            566,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 7,
+      "rank": 4,
+      "strength": 0,
+      "energy": 2000,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "97": {
+      "id": 97,
+      "name": "Ngũ sắc Chiến Long Lục",
+      "needs": [
+        [
+          3,
+          1000,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          3,
+          993,
+          0,
+          0,
+          0,
+          0,
+          3
+        ],
+        [
+          3,
+          997,
+          0,
+          0,
+          0,
+          0,
+          12
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            567,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 7,
+      "rank": 4,
+      "strength": 0,
+      "energy": 2400,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "98": {
+      "id": 98,
+      "name": "Ngũ sắc Thiên Tường Phù",
+      "needs": [
+        [
+          3,
+          1000,
+          0,
+          0,
+          0,
+          0,
+          3
+        ],
+        [
+          3,
+          993,
+          0,
+          0,
+          0,
+          0,
+          3
+        ],
+        [
+          3,
+          998,
+          0,
+          0,
+          0,
+          0,
+          8
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            568,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 7,
+      "rank": 6,
+      "strength": 0,
+      "energy": 3000,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "99": {
+      "id": 99,
+      "name": "Ngũ sắc Thiên Nộ Lục",
+      "needs": [
+        [
+          3,
+          1000,
+          0,
+          0,
+          0,
+          0,
+          3
+        ],
+        [
+          3,
+          993,
+          0,
+          0,
+          0,
+          0,
+          3
+        ],
+        [
+          3,
+          999,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            569,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 7,
+      "rank": 6,
+      "strength": 0,
+      "energy": 3600,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "100": {
+      "id": 100,
+      "name": "Tật Phong Đơn",
+      "needs": [
+        [
+          3,
+          963,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          964,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            987,
+            2,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 5,
+      "rank": 7,
+      "strength": 0,
+      "energy": 65,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 10,
+      "default": 0
+    },
+    "101": {
+      "id": 101,
+      "name": "Băng Tâm Đơn",
+      "needs": [
+        [
+          3,
+          965,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          966,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            988,
+            2,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 5,
+      "rank": 8,
+      "strength": 0,
+      "energy": 78,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 10,
+      "default": 0
+    },
+    "102": {
+      "id": 102,
+      "name": "Phá Thuẫn Đơn",
+      "needs": [
+        [
+          3,
+          965,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          969,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          114,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            989,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            1000,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 5,
+      "rank": 10,
+      "strength": 0,
+      "energy": 300,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 10,
+      "default": 0
+    },
+    "103": {
+      "id": 103,
+      "name": "Tuyệt Băng Đơn",
+      "needs": [
+        [
+          3,
+          965,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          970,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          112,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            990,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            1001,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 5,
+      "rank": 10,
+      "strength": 0,
+      "energy": 300,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 10,
+      "default": 0
+    },
+    "104": {
+      "id": 104,
+      "name": "Tật Điện Đơn",
+      "needs": [
+        [
+          3,
+          965,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          969,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          111,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            991,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            1002,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 5,
+      "rank": 10,
+      "strength": 0,
+      "energy": 300,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 10,
+      "default": 0
+    },
+    "105": {
+      "id": 105,
+      "name": "Thanh Hỏa Đơn",
+      "needs": [
+        [
+          3,
+          966,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          970,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          113,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            992,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            1003,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 5,
+      "rank": 10,
+      "strength": 0,
+      "energy": 300,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 10,
+      "default": 0
+    },
+    "106": {
+      "id": 106,
+      "name": "Thổ Thuẫn Đơn",
+      "needs": [
+        [
+          3,
+          966,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          969,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          110,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            993,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            1004,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 5,
+      "rank": 10,
+      "strength": 0,
+      "energy": 300,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 10,
+      "default": 0
+    },
+    "107": {
+      "id": 107,
+      "name": "Cánh Cực Hỏa Đào Hoa",
+      "needs": [
+        [
+          3,
+          981,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          943,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          113,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            994,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 6,
+      "rank": 10,
+      "strength": 0,
+      "energy": 300,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 10,
+      "default": 0
+    },
+    "108": {
+      "id": 108,
+      "name": "Cực Khôn Phù Dung Đỗ ",
+      "needs": [
+        [
+          3,
+          981,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          943,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          110,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            995,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 6,
+      "rank": 10,
+      "strength": 0,
+      "energy": 300,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 10,
+      "default": 0
+    },
+    "109": {
+      "id": 109,
+      "name": "Cực Điện Long Châu Bao",
+      "needs": [
+        [
+          3,
+          982,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          943,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          111,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            996,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 6,
+      "rank": 10,
+      "strength": 0,
+      "energy": 300,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 10,
+      "default": 0
+    },
+    "110": {
+      "id": 110,
+      "name": "Cực Băng Long Đảm Tửu",
+      "needs": [
+        [
+          3,
+          982,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          943,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          112,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            997,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 6,
+      "rank": 10,
+      "strength": 0,
+      "energy": 300,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 10,
+      "default": 0
+    },
+    "111": {
+      "id": 111,
+      "name": "Mảnh Hoàng thủy tinh",
+      "needs": [
+        [
+          3,
+          1004,
+          0,
+          0,
+          0,
+          0,
+          10
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            88,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 7,
+      "rank": 6,
+      "strength": 0,
+      "energy": 200,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 10,
+      "default": 0
+    },
+    "112": {
+      "id": 112,
+      "name": "Mảnh Hồng thủy tinh",
+      "needs": [
+        [
+          3,
+          1001,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            77,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 7,
+      "rank": 1,
+      "strength": 0,
+      "energy": 20,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "113": {
+      "id": 113,
+      "name": "Mảnh Lục Thủy tinh",
+      "needs": [
+        [
+          3,
+          1002,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            248,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 7,
+      "rank": 2,
+      "strength": 0,
+      "energy": 40,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "114": {
+      "id": 114,
+      "name": "Mảnh Lam thủy tinh",
+      "needs": [
+        [
+          3,
+          1003,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            78,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 7,
+      "rank": 3,
+      "strength": 0,
+      "energy": 80,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "115": {
+      "id": 115,
+      "name": "Phá Thủy Hoàn",
+      "needs": [
+        [
+          3,
+          975,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          112,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            546,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 6,
+      "rank": 4,
+      "strength": 0,
+      "energy": 38,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "116": {
+      "id": 116,
+      "name": "Cấn Thổ Hoàn",
+      "needs": [
+        [
+          3,
+          975,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          110,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            548,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 6,
+      "rank": 4,
+      "strength": 0,
+      "energy": 38,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "117": {
+      "id": 117,
+      "name": "Tốn Phong Hoàn",
+      "needs": [
+        [
+          3,
+          974,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          111,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            550,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 6,
+      "rank": 4,
+      "strength": 0,
+      "energy": 38,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "118": {
+      "id": 118,
+      "name": "Ly Hỏa Hoàn",
+      "needs": [
+        [
+          3,
+          974,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          113,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            552,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 6,
+      "rank": 4,
+      "strength": 0,
+      "energy": 38,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "119": {
+      "id": 119,
+      "name": "Phá Thủy Thất Tinh Hoàn",
+      "needs": [
+        [
+          3,
+          978,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          112,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            547,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 6,
+      "rank": 7,
+      "strength": 0,
+      "energy": 65,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "120": {
+      "id": 120,
+      "name": "Cấn Thổ Thập Phương Hoàn",
+      "needs": [
+        [
+          3,
+          978,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          110,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            549,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 6,
+      "rank": 7,
+      "strength": 0,
+      "energy": 65,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "121": {
+      "id": 121,
+      "name": "Tốn Phong Bát Vận Hoàn",
+      "needs": [
+        [
+          3,
+          977,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          111,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            551,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 6,
+      "rank": 7,
+      "strength": 0,
+      "energy": 65,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "122": {
+      "id": 122,
+      "name": "Ly Hỏa Cửu Cung Hoàn",
+      "needs": [
+        [
+          3,
+          977,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          113,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            553,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 6,
+      "rank": 7,
+      "strength": 0,
+      "energy": 65,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "123": {
+      "id": 123,
+      "name": "Tụ Lôi Tán",
+      "needs": [
+        [
+          3,
+          963,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          3,
+          956,
+          0,
+          0,
+          0,
+          0,
+          3
+        ],
+        [
+          3,
+          23,
+          0,
+          0,
+          0,
+          0,
+          10
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            1029,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            1033,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 5,
+      "rank": 6,
+      "strength": 0,
+      "energy": 54,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 10,
+      "default": 0
+    },
+    "124": {
+      "id": 124,
+      "name": "Tụ Băng Tán",
+      "needs": [
+        [
+          3,
+          963,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          3,
+          956,
+          0,
+          0,
+          0,
+          0,
+          3
+        ],
+        [
+          3,
+          24,
+          0,
+          0,
+          0,
+          0,
+          10
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            1030,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            1034,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 5,
+      "rank": 6,
+      "strength": 0,
+      "energy": 54,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 10,
+      "default": 0
+    },
+    "125": {
+      "id": 125,
+      "name": "Tụ Hỏa Tán",
+      "needs": [
+        [
+          3,
+          963,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          3,
+          956,
+          0,
+          0,
+          0,
+          0,
+          3
+        ],
+        [
+          3,
+          25,
+          0,
+          0,
+          0,
+          0,
+          10
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            1031,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            1035,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 5,
+      "rank": 6,
+      "strength": 0,
+      "energy": 54,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 10,
+      "default": 0
+    },
+    "126": {
+      "id": 126,
+      "name": "Tụ Thổ Tán",
+      "needs": [
+        [
+          3,
+          963,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          3,
+          956,
+          0,
+          0,
+          0,
+          0,
+          3
+        ],
+        [
+          3,
+          22,
+          0,
+          0,
+          0,
+          0,
+          10
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            8,
+            1032,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 80
+        },
+        {
+          "item": [
+            8,
+            1036,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 20
+        }
+      ],
+      "cost": 0,
+      "skill": 5,
+      "rank": 6,
+      "strength": 0,
+      "energy": 54,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 10,
+      "default": 0
+    },
+    "127": {
+      "id": 127,
+      "name": "Tiên Lộ",
+      "needs": [
+        [
+          3,
+          915,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          3,
+          916,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          3,
+          917,
+          0,
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            1011,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 10,
+      "rank": 4,
+      "strength": 23,
+      "energy": 0,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    },
+    "128": {
+      "id": 128,
+      "name": "Tiên Lộ Tinh Hoa",
+      "needs": [
+        [
+          3,
+          1011,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "outputs": [
+        {
+          "item": [
+            3,
+            1184,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "chance": 100
+        }
+      ],
+      "cost": 0,
+      "skill": 5,
+      "rank": 4,
+      "strength": 0,
+      "energy": 38,
+      "chance": 100,
+      "bonus": 0,
+      "uses": 0,
+      "default": 1
+    }
+  },
+  "nodes": [
+    {
+      "map": 1057,
+      "object": 284,
+      "detail": 3,
+      "skill": 3,
+      "rank": 1,
+      "x": 51728,
+      "y": 99024,
+      "name": "Thanh Đồng Khoáng"
+    },
+    {
+      "map": 1057,
+      "object": 284,
+      "detail": 3,
+      "skill": 3,
+      "rank": 1,
+      "x": 51472,
+      "y": 99280,
+      "name": "Thanh Đồng Khoáng"
+    },
+    {
+      "map": 1057,
+      "object": 284,
+      "detail": 3,
+      "skill": 3,
+      "rank": 1,
+      "x": 51216,
+      "y": 99024,
+      "name": "Thanh Đồng Khoáng"
+    },
+    {
+      "map": 1057,
+      "object": 284,
+      "detail": 3,
+      "skill": 3,
+      "rank": 1,
+      "x": 51472,
+      "y": 98768,
+      "name": "Thanh Đồng Khoáng"
+    },
+    {
+      "map": 1008,
+      "object": 355,
+      "detail": 910,
+      "skill": 1,
+      "rank": 1,
+      "x": 59568,
+      "y": 89712,
+      "name": "Bạch Trà"
+    },
+    {
+      "map": 1008,
+      "object": 356,
+      "detail": 911,
+      "skill": 1,
+      "rank": 1,
+      "x": 59312,
+      "y": 89968,
+      "name": "Địa Hoàng"
+    },
+    {
+      "map": 1008,
+      "object": 357,
+      "detail": 912,
+      "skill": 1,
+      "rank": 1,
+      "x": 59056,
+      "y": 89712,
+      "name": "Huyên thảo"
+    },
+    {
+      "map": 1009,
+      "object": 358,
+      "detail": 913,
+      "skill": 1,
+      "rank": 2,
+      "x": 54864,
+      "y": 110480,
+      "name": "Cát Căn"
+    },
+    {
+      "map": 1009,
+      "object": 359,
+      "detail": 914,
+      "skill": 1,
+      "rank": 3,
+      "x": 54608,
+      "y": 110736,
+      "name": "Liên Kiều"
+    },
+    {
+      "map": 1010,
+      "object": 360,
+      "detail": 915,
+      "skill": 1,
+      "rank": 4,
+      "x": 46224,
+      "y": 99984,
+      "name": "Lạc Thạch Đằng"
+    },
+    {
+      "map": 1010,
+      "object": 361,
+      "detail": 916,
+      "skill": 1,
+      "rank": 5,
+      "x": 45968,
+      "y": 100240,
+      "name": "Tiên Hạc Thảo"
+    },
+    {
+      "map": 1016,
+      "object": 362,
+      "detail": 917,
+      "skill": 1,
+      "rank": 6,
+      "x": 52528,
+      "y": 102160,
+      "name": "Bạch Phụ Tử"
+    },
+    {
+      "map": 1016,
+      "object": 363,
+      "detail": 918,
+      "skill": 1,
+      "rank": 7,
+      "x": 52272,
+      "y": 102416,
+      "name": "Hà Thủ Ô"
+    },
+    {
+      "map": 1017,
+      "object": 364,
+      "detail": 919,
+      "skill": 1,
+      "rank": 8,
+      "x": 56176,
+      "y": 106160,
+      "name": "Mặc Long Quy"
+    },
+    {
+      "map": 1017,
+      "object": 365,
+      "detail": 920,
+      "skill": 1,
+      "rank": 9,
+      "x": 55920,
+      "y": 106416,
+      "name": "Mặc Long Đảm"
+    },
+    {
+      "map": 1056,
+      "object": 366,
+      "detail": 921,
+      "skill": 1,
+      "rank": 10,
+      "x": 54288,
+      "y": 96784,
+      "name": "Phục Thần Tử"
+    },
+    {
+      "map": 1056,
+      "object": 367,
+      "detail": 922,
+      "skill": 1,
+      "rank": 10,
+      "x": 54032,
+      "y": 97040,
+      "name": "Trường Bạch Sâm"
+    },
+    {
+      "map": 1056,
+      "object": 368,
+      "detail": 923,
+      "skill": 1,
+      "rank": 10,
+      "x": 53776,
+      "y": 96784,
+      "name": "Tiên Vân Lão Sâm"
+    },
+    {
+      "map": 1056,
+      "object": 369,
+      "detail": 924,
+      "skill": 1,
+      "rank": 10,
+      "x": 54032,
+      "y": 96528,
+      "name": "Tuyết Chi Phục Linh"
+    },
+    {
+      "map": 1056,
+      "object": 370,
+      "detail": 925,
+      "skill": 1,
+      "rank": 10,
+      "x": 54288,
+      "y": 96528,
+      "name": "Long Huyết Linh Chi"
+    },
+    {
+      "map": 1057,
+      "object": 283,
+      "detail": 928,
+      "skill": 3,
+      "rank": 1,
+      "x": 51728,
+      "y": 98768,
+      "name": "Hoàng đồng"
+    },
+    {
+      "map": 1057,
+      "object": 284,
+      "detail": 929,
+      "skill": 3,
+      "rank": 2,
+      "x": 51216,
+      "y": 98768,
+      "name": "Đồng đỏ"
+    },
+    {
+      "map": 1057,
+      "object": 285,
+      "detail": 930,
+      "skill": 3,
+      "rank": 3,
+      "x": 51984,
+      "y": 99024,
+      "name": "Xích đồng"
+    },
+    {
+      "map": 1065,
+      "object": 371,
+      "detail": 931,
+      "skill": 3,
+      "rank": 4,
+      "x": 52368,
+      "y": 96272,
+      "name": "Hàn thiết"
+    },
+    {
+      "map": 1065,
+      "object": 372,
+      "detail": 932,
+      "skill": 3,
+      "rank": 5,
+      "x": 52112,
+      "y": 96528,
+      "name": "Bạch kim"
+    },
+    {
+      "map": 1065,
+      "object": 373,
+      "detail": 933,
+      "skill": 3,
+      "rank": 6,
+      "x": 51856,
+      "y": 96272,
+      "name": "Xích Kim"
+    },
+    {
+      "map": 1065,
+      "object": 374,
+      "detail": 934,
+      "skill": 3,
+      "rank": 7,
+      "x": 52112,
+      "y": 96016,
+      "name": "Kim Cương Thạch"
+    },
+    {
+      "map": 1056,
+      "object": 375,
+      "detail": 935,
+      "skill": 3,
+      "rank": 8,
+      "x": 53776,
+      "y": 96528,
+      "name": "Nguyệt Quang Thạch"
+    },
+    {
+      "map": 1056,
+      "object": 376,
+      "detail": 936,
+      "skill": 3,
+      "rank": 9,
+      "x": 54032,
+      "y": 97296,
+      "name": "Nguyên Linh Thạch"
+    },
+    {
+      "map": 1056,
+      "object": 377,
+      "detail": 937,
+      "skill": 3,
+      "rank": 10,
+      "x": 54032,
+      "y": 96272,
+      "name": "Huyễn Hóa Thạch"
+    },
+    {
+      "map": 1057,
+      "object": 283,
+      "detail": 938,
+      "skill": 3,
+      "rank": 1,
+      "x": 50960,
+      "y": 99024,
+      "name": "Lịch Diêm"
+    },
+    {
+      "map": 1057,
+      "object": 283,
+      "detail": 939,
+      "skill": 3,
+      "rank": 2,
+      "x": 51472,
+      "y": 98512,
+      "name": "Thô Diêm"
+    },
+    {
+      "map": 1057,
+      "object": 283,
+      "detail": 940,
+      "skill": 3,
+      "rank": 3,
+      "x": 50960,
+      "y": 99536,
+      "name": "Thanh Diêm"
+    },
+    {
+      "map": 1065,
+      "object": 283,
+      "detail": 941,
+      "skill": 3,
+      "rank": 4,
+      "x": 52368,
+      "y": 96528,
+      "name": "Thạch Bối Diêm"
+    },
+    {
+      "map": 1065,
+      "object": 283,
+      "detail": 942,
+      "skill": 3,
+      "rank": 5,
+      "x": 51856,
+      "y": 96528,
+      "name": "Tuyết Sa Diêm"
+    },
+    {
+      "map": 1065,
+      "object": 283,
+      "detail": 943,
+      "skill": 3,
+      "rank": 6,
+      "x": 52368,
+      "y": 96016,
+      "name": "Kim Hương Diêm"
+    },
+    {
+      "map": 1006,
+      "object": 378,
+      "detail": 944,
+      "skill": 4,
+      "rank": 1,
+      "x": 55728,
+      "y": 96432,
+      "name": "Tôm xanh"
+    },
+    {
+      "map": 1006,
+      "object": 378,
+      "detail": 945,
+      "skill": 4,
+      "rank": 2,
+      "x": 55472,
+      "y": 96688,
+      "name": "Tôm hùm"
+    },
+    {
+      "map": 1006,
+      "object": 378,
+      "detail": 946,
+      "skill": 4,
+      "rank": 3,
+      "x": 55472,
+      "y": 96176,
+      "name": "Ca diết"
+    },
+    {
+      "map": 1014,
+      "object": 378,
+      "detail": 947,
+      "skill": 4,
+      "rank": 4,
+      "x": 50672,
+      "y": 108112,
+      "name": "Hồng Lý"
+    },
+    {
+      "map": 1014,
+      "object": 378,
+      "detail": 948,
+      "skill": 4,
+      "rank": 5,
+      "x": 50416,
+      "y": 108368,
+      "name": "Cá ngát"
+    },
+    {
+      "map": 1014,
+      "object": 378,
+      "detail": 949,
+      "skill": 4,
+      "rank": 6,
+      "x": 50160,
+      "y": 108112,
+      "name": "Bàn Đầu Liên"
+    },
+    {
+      "map": 1012,
+      "object": 378,
+      "detail": 950,
+      "skill": 4,
+      "rank": 7,
+      "x": 55312,
+      "y": 106224,
+      "name": "Kim Bang Lý"
+    },
+    {
+      "map": 1012,
+      "object": 378,
+      "detail": 951,
+      "skill": 4,
+      "rank": 8,
+      "x": 55056,
+      "y": 106480,
+      "name": "Ngân Tuyết Bạng"
+    },
+    {
+      "map": 1012,
+      "object": 378,
+      "detail": 952,
+      "skill": 4,
+      "rank": 9,
+      "x": 54800,
+      "y": 106224,
+      "name": "Cẩm Vân Ngư"
+    },
+    {
+      "map": 1052,
+      "object": 378,
+      "detail": 953,
+      "skill": 4,
+      "rank": 10,
+      "x": 49584,
+      "y": 102096,
+      "name": "Phi Ngân Tuyết Ngư"
+    },
+    {
+      "map": 1052,
+      "object": 378,
+      "detail": 954,
+      "skill": 4,
+      "rank": 10,
+      "x": 49328,
+      "y": 102352,
+      "name": "Tinh Ban Điêu Ngư"
+    },
+    {
+      "map": 1052,
+      "object": 378,
+      "detail": 955,
+      "skill": 4,
+      "rank": 10,
+      "x": 49072,
+      "y": 102096,
+      "name": "Cửu Vĩ Long Ngư"
+    }
+  ],
+  "teacher_sites": [
+    {
+      "map": 1020,
+      "template": 1362,
+      "x": 48000,
+      "y": 98048,
+      "display_x": 187,
+      "display_y": 191,
+      "path": "script/phongthan/life/teacher_1020.lua"
+    },
+    {
+      "map": 1021,
+      "template": 1363,
+      "x": 55680,
+      "y": 99584,
+      "display_x": 217,
+      "display_y": 194,
+      "path": "script/phongthan/life/teacher_1021.lua"
+    }
+  ],
+  "source_tables": [
+    {
+      "path": "settings\\liveskill\\Éú»î¼¼ÄÜºÏ³É¹æÔò±í.txt",
+      "sha256": "d757597967aed8d701e924eb5f937a208ed6acb47173373b23afe388a873c65c"
+    },
+    {
+      "path": "settings\\liveskill\\ÊìÁ·¶È³É³¤±í.txt",
+      "sha256": "3d5b75f6ec42b0c5efe5736d98d254beba22c80978d06e4840f22e092f237d65"
+    },
+    {
+      "path": "settings\\liveskill\\jing_li_ti_li_shang_xian_dui_zhao_biao.txt",
+      "sha256": "6f3e9ea2699c6a065638d3461bc719eee8bff44981178fc1afbc69bc6274b136"
+    }
+  ],
+  "policy": "ORIGINAL_RECIPE_ROWS; AUTHORED_TRAINING_FOR_NINE_PROFESSIONS_AND_HARVEST_SITES; not a claim of complete VNG server recovery"
+}

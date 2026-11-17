@@ -1,0 +1,84 @@
+{
+  "scope": "LOOSE_ONLY",
+  "files": [
+    {
+      "path": "Server/script/phongthan/khai_minh/boatman.lua",
+      "before": null,
+      "after": "958ab28c8af7ff2a65451d745d16154e0f674f945b22bc284a3b5eb7256cdf7d"
+    },
+    {
+      "path": "Server/script/phongthan/khai_minh/doctor.lua",
+      "before": null,
+      "after": "cca9480bea088f1d419fa8345dd2cb31bd4693efe8045f73a75ac5d9d40dad86"
+    },
+    {
+      "path": "Server/settings/phongthan/npc_regions/1072/v_101/099_region_s.dat",
+      "before": null,
+      "after": "9c97671ea82ce817d57dbd3690c5fa439970cabd0f73e9e2eb58abe25e87edcb"
+    },
+    {
+      "path": "Server/settings/phongthan/npc_regions/1072/v_100/100_region_s.dat",
+      "before": null,
+      "after": "73cab708d15beefc4abd3c30021e9dee75ffe183df0550a4efa1bcc930f8a81e"
+    },
+    {
+      "path": "Client/settings/phongthan/MapServiceLabels.txt",
+      "before": null,
+      "after": "68a172f14421bfe6029b7d32638d77fa92aba4784ea2d97635970b6893bf8ce1"
+    },
+    {
+      "path": "Server/loose_index.bin",
+      "before": "4182e1982dd08b24102dec0b0de150142b263f5c68ca7bf13125461e14193c7b",
+      "after": "9a745b7083899d1e65af1b2a4d85cbd35482c2ddb8aaca37ab00586732216902"
+    },
+    {
+      "path": "Client/loose_index.bin",
+      "before": "dcd41173109e23213b0289ddac0a2a2ec097389c1eb205efcc167fdbcf3dfc1c",
+      "after": "5754e0f39a216e37b18773ed6d48ed4e1369093e5e4d6d79fe9d165a550db80b"
+    },
+    {
+      "path": "completion/studio_effective_overrides.json",
+      "before": "a131343b76360ab0f4da4658eea5aa52f8efca7280040e4e4584caf793965bf8",
+      "after": "345fb0b91899806acd7702243efaa77568486a926773f6e7b591573d93f48229"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Thuyền Phu",
+      "template": 1453,
+      "x": 51152,
+      "y": 103696,
+      "display": [
+        199,
+        202
+      ],
+      "script": "script/phongthan/khai_minh/boatman.lua",
+      "original": "script/ºìÃûµº/´¬·ò.lua",
+      "original_sha256": "958ab28c8af7ff2a65451d745d16154e0f674f945b22bc284a3b5eb7256cdf7d",
+      "authored_placement": true,
+      "walkable": true,
+      "connected_to_entry": true
+    },
+    {
+      "name": "Đại Phu",
+      "template": 766,
+      "x": 51344,
+      "y": 103216,
+      "display": [
+        200,
+        201
+      ],
+      "script": "script/phongthan/khai_minh/doctor.lua",
+      "original": "script/ºìÃûµº/Ò½Éú.lua",
+      "original_sha256": "cca9480bea088f1d419fa8345dd2cb31bd4693efe8045f73a75ac5d9d40dad86",
+      "authored_placement": true,
+      "walkable": true,
+      "connected_to_entry": true
+    }
+  ],
+  "arrival": [
+    51328,
+    103680
+  ],
+  "connected_cells": 1387
+}

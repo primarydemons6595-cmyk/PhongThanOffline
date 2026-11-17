@@ -1,0 +1,17 @@
+{
+  "scope": "Restore authoritative gathering progress in final player overhead overlay and broadcast start/update/stop snapshots",
+  "files": [
+    {
+      "role": "Server",
+      "relative": "CoreServer.dll",
+      "before": "3ed7497c745f21f212039c6e967ec119745626e4f573373b2a1a10b967a7704b",
+      "sha256": "6ba6210acd6012c3c31c71833b99f901a661ccd8b147f0215b18e27e91c8628f"
+    },
+    {
+      "role": "Client",
+      "relative": "CoreClient.dll",
+      "before": "ef994fda18d6a921cc42186ed337c1b7a9b2e966d6502279749f79a84a97d209",
+      "sha256": "b04d33e95be7f054c470d21be21984efdb80492f2bc3fa3fdf12eda3cdddb227"
+    }
+  ]
+}

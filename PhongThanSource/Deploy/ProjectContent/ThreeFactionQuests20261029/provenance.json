@@ -1,0 +1,122 @@
+{
+  "books": [
+    {
+      "quest": {
+        "f": 0,
+        "map": 1002,
+        "level": 6,
+        "task": 1035,
+        "id": 3160,
+        "detail": 24,
+        "skill": 27,
+        "gifts": [],
+        "path": "script/phongthan/npc_restore/1002_00.lua",
+        "npc": "Tô Hộ",
+        "book": "Tế Huyết Trảm",
+        "reference": "7269c8d467302031a5b211d2ba7841d738b2049d4dbff5f27ff6984d1cba7937"
+      },
+      "source": {
+        "path": "\\script\\崇城大营\\苏护.lua",
+        "evidence": {
+          "pak": "D:\\Lam game phong than\\online-source-audit\\phuchung-paks\\script.pak",
+          "source_kind": "COMMUNITY_PAK",
+          "entry": 3789,
+          "id": "C23BF2BC",
+          "sha256": "7269c8d467302031a5b211d2ba7841d738b2049d4dbff5f27ff6984d1cba7937",
+          "bytes": 12295,
+          "index_sha256": "be72ef1a6d860253681587d20c609ef301707b182e6ed75b25d151c7831d37e3"
+        },
+        "root": true,
+        "object": "objects/7269c8d467302031a5b211d2ba7841d738b2049d4dbff5f27ff6984d1cba7937.lua",
+        "dependencies": [],
+        "dynamic_dependencies": [],
+        "runtime_enabled": false,
+        "review": "NOT_FUNCTIONALLY_REVIEWED"
+      }
+    },
+    {
+      "quest": {
+        "f": 1,
+        "map": 1003,
+        "level": 3,
+        "task": 1073,
+        "id": 3161,
+        "detail": 0,
+        "skill": 3,
+        "gifts": [
+          [
+            7,
+            1,
+            4,
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "path": "script/ÓñÐé¹¬/ÔÆÖÐ×Ó.lua",
+        "npc": "Vân Trung Tử",
+        "book": "Chưởng Tâm Lôi",
+        "reference": "84d9360d5fb5df66bcf2ec51e52ee3dacf836e5e756ac274a318b00de23aeba1"
+      },
+      "source": {
+        "path": "\\script\\玉虚宫\\云中子.lua",
+        "evidence": {
+          "pak": "D:\\Lam game phong than\\online-source-audit\\phuchung-paks\\script.pak",
+          "source_kind": "COMMUNITY_PAK",
+          "entry": 2397,
+          "id": "7F1A3960",
+          "sha256": "84d9360d5fb5df66bcf2ec51e52ee3dacf836e5e756ac274a318b00de23aeba1",
+          "bytes": 17097,
+          "index_sha256": "be72ef1a6d860253681587d20c609ef301707b182e6ed75b25d151c7831d37e3"
+        },
+        "root": true,
+        "object": "objects/84d9360d5fb5df66bcf2ec51e52ee3dacf836e5e756ac274a318b00de23aeba1.lua",
+        "dependencies": [],
+        "dynamic_dependencies": [],
+        "runtime_enabled": false,
+        "review": "NOT_FUNCTIONALLY_REVIEWED"
+      }
+    },
+    {
+      "quest": {
+        "f": 2,
+        "map": 1004,
+        "level": 4,
+        "task": 1090,
+        "id": 3162,
+        "detail": 49,
+        "skill": 450,
+        "gifts": [],
+        "path": "script/phongthan/npc_restore/1004_00.lua",
+        "npc": "Thiếu Hạo",
+        "book": "Lực Sĩ Tế",
+        "reference": "e16dfc06f00f4d444bfb6c90aec334f643967fc362d2edc0760a7ffbd2c0d26b"
+      },
+      "source": {
+        "path": "\\script\\蚩尤墓\\少昊图腾.lua",
+        "evidence": {
+          "pak": "D:\\Lam game phong than\\online-source-audit\\phuchung-paks\\script.pak",
+          "source_kind": "COMMUNITY_PAK",
+          "entry": 1824,
+          "id": "6084F85C",
+          "sha256": "e16dfc06f00f4d444bfb6c90aec334f643967fc362d2edc0760a7ffbd2c0d26b",
+          "bytes": 8273,
+          "index_sha256": "be72ef1a6d860253681587d20c609ef301707b182e6ed75b25d151c7831d37e3"
+        },
+        "root": true,
+        "object": "objects/e16dfc06f00f4d444bfb6c90aec334f643967fc362d2edc0760a7ffbd2c0d26b.lua",
+        "dependencies": [],
+        "dynamic_dependencies": [],
+        "runtime_enabled": false,
+        "review": "NOT_FUNCTIONALLY_REVIEWED"
+      }
+    }
+  ],
+  "changes": {
+    "giap_menu": 71,
+    "two_menu": 58,
+    "giap_marker": 72,
+    "two_marker": 57
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "scope": "Original offline rules plus authorized configurable missing formulas; native nation book ledger; original book costs and explicit Loose route extension",
+  "files": [
+    {
+      "path": "Server/script/system/uythac.lua",
+      "sha256": "9fd35bccc0a3cf8ffc6f476ab45a428aa4e22c333418d9402c78ba0a4e51176c",
+      "before_sha256": null
+    },
+    {
+      "path": "Server/settings/phongthan/OfflinePolicy.ini",
+      "sha256": "2e232b581d4c9aa12552ecb4d12f0d1869c9e1a4711700c69b221872d6e2c645",
+      "before_sha256": null
+    },
+    {
+      "path": "Client/Ui/ui3/UiESCDlg.ini",
+      "sha256": "d9cf6049b52742dfb7479e02f0789484b2975c2db2eb00a3b96c7f579f46d4fa",
+      "before_sha256": "8ad43744a1643f2119585fe687cebc6723f3ae99cfc5dabe2f54773269903b6a"
+    },
+    {
+      "path": "Server/script/phongthan/territory/books.lua",
+      "sha256": "6df0379946e3812c53a12c03bcc1d3f84f16ea26a32d3ca6f5ce6bc5291e7073",
+      "before_sha256": null
+    },
+    {
+      "path": "Server/script/·âÉñÌ¨/ÍÐËþÀîÌìÍõ.lua",
+      "sha256": "983274bb91f00396f506fda34ff33d87038a459542e5053b0c46458092d88c1c",
+      "before_sha256": "55e183d21aa69023a04e64411cc95e5b690af70ae93ba14af5422baa8431047d"
+    },
+    {
+      "path": "Server/script/ÓñÐé¹¬/³à¾«×Ó.lua",
+      "sha256": "d3148a2def66b74534765d135119b9aa07cbf50df7559c76a5057d817356cb85",
+      "before_sha256": "6e1ecd48bdf96d7c91e2a67766f962dd7b2ac2bf03b2614b80b5bbcf7568f275"
+    },
+    {
+      "path": "Server/script/ò¿ÓÈÄ¹/¸ß¾õ.lua",
+      "sha256": "5ac04188ade21436af6db1f9852f3762e492ce978f9b1d4d3c89efc1178a2fb8",
+      "before_sha256": "8c76f733bded1ea39b1597b52aa7fd7c5eacd07748a44bb3535b4088947545ec"
+    },
+    {
+      "path": "Server/script/phongthan/shared/caogiac.lua",
+      "sha256": "20b740adcc81bb31763b4020916539d89712635efd363361a828c853b6fa9ddc",
+      "before_sha256": "c47d7687ddf88922ba52b3a50430690260ffd93219b3adf1d7d4e9be52be1948"
+    }
+  ]
+}

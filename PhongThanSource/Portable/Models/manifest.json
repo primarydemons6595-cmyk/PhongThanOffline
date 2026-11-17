@@ -1,0 +1,22 @@
+{
+  "target": "PhongThanRuntime-Loose/Server/BotAIgent/LocalAI/Qwen3-4B-Instruct-2507-Q4_K_M.gguf",
+  "sha256": "3605803b982cb64aead44f6c1b2ae36e3acdb41d8e46c8a94c6533bc4c67e597",
+  "bytes": 2497281120,
+  "parts": [
+    {
+      "file": "Qwen3-4B-Instruct-2507-Q4_K_M.gguf.part1",
+      "sha256": "6bf516b5e9aa68d4cb1759bf8a9f9ce9982fddc1182178fab4617d0067db3d77",
+      "bytes": 943718400
+    },
+    {
+      "file": "Qwen3-4B-Instruct-2507-Q4_K_M.gguf.part2",
+      "sha256": "f34f559503cbdf7b807215b71cc885f47955c5db964bff3fdc99c2d5aac30020",
+      "bytes": 943718400
+    },
+    {
+      "file": "Qwen3-4B-Instruct-2507-Q4_K_M.gguf.part3",
+      "sha256": "0035e7cc510b3e8c1ea110997dfadaa2c3157b013f49f64e52aef1145eb52f95",
+      "bytes": 609844320
+    }
+  ]
+}

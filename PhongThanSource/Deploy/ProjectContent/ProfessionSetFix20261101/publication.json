@@ -1,0 +1,24 @@
+﻿{
+    "Scope":  "LOOSE_ONLY",
+    "Backup":  "E:\\ProjectAI\\PhongThan\\PT\\analysis\\profession_equipment_20261101\\runtime-before-20261101_222042",
+    "Result":  "PASS",
+    "Files":  [
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\ProfessionSetFix20261101\\binaries\\Client\\CoreClient.dll",
+                      "Path":  "Client/CoreClient.dll",
+                      "Done":  false,
+                      "After":  "60C9F01DA4394D73345C6B313755F99354FD11499CAD11F011D0AE4FB1C2B333",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Client\\CoreClient.dll",
+                      "Before":  "151224139DFB31D525C1232A319C1F1E3EFF453C661E75C4CF168E6D3693EBD6"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\ProfessionSetFix20261101\\binaries\\Server\\CoreServer.dll",
+                      "Path":  "Server/CoreServer.dll",
+                      "Done":  false,
+                      "After":  "71C5B80A3EC23ECCD5E767087F93B6AA38D6AE94C1ACE606A0C9051BBBDF63DB",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\CoreServer.dll",
+                      "Before":  "7EFD74D57B63D8AA94A38356D5424A7E30DC81DA1B294D7006018DCBBCB22B1D"
+                  }
+              ],
+    "PublishedAtUtc":  "2026-11-01T15:20:44.6814102Z"
+}

@@ -1,0 +1,130 @@
+{
+  "files": [
+    {
+      "role": "Client",
+      "relative": "CoreClient.dll",
+      "before": "942029519c6545208103493f04346041470a37a36b7159ea5d955a7d676a4c4f",
+      "sha256": "259d2c1b3bf69966e3ea7d576e01cc33fa181039423b2d41a8e366beb527c8ff"
+    },
+    {
+      "role": "Server",
+      "relative": "settings/item/PhongThanHorseVisual.txt",
+      "before": "9426465dd110b4afec656155b4bde8415244b59e60ce5d9c673404878509ab44",
+      "sha256": "2cef818304ec74e621a4677a11a281468e964f5fe0c5f79f98ee22c42eeb75c7"
+    },
+    {
+      "role": "Client",
+      "relative": "settings/item/PhongThanHorseVisual.txt",
+      "before": "9426465dd110b4afec656155b4bde8415244b59e60ce5d9c673404878509ab44",
+      "sha256": "2cef818304ec74e621a4677a11a281468e964f5fe0c5f79f98ee22c42eeb75c7"
+    },
+    {
+      "role": "Client",
+      "relative": "settings/npcres/nan_yi_ren_ma_hou.txt",
+      "before": "da137556cf1994353889f02c66b5c626a37bd27916cc93e962a599a59053e700",
+      "sha256": "0ba0678ad667fdb5887561e8bb48042404dca97af7d09b9537a2218707d1c662"
+    },
+    {
+      "role": "Client",
+      "relative": "settings/npcres/nan_yi_ren_ma_hou_xin_xi.txt",
+      "before": "eab6d7b21c1cba09b0723e2a56efd3a184dcd8020254c146fd658732d031eb06",
+      "sha256": "c5106a9a30a1fc716c04a1d540a3be10d745b91b0732b666da2d86d439515391"
+    },
+    {
+      "role": "Client",
+      "relative": "settings/npcres/nan_yi_ren_ma_qian.txt",
+      "before": "ef014308f18e21ac64059c3c2a1b7e2738d70153badf5218be97beeb4c15a27f",
+      "sha256": "4ca48f64e5d0c720e9f3bed43315aebb07e29a6a371805a83a1505f74165cf28"
+    },
+    {
+      "role": "Client",
+      "relative": "settings/npcres/nan_yi_ren_ma_qian_xin_xi.txt",
+      "before": "eab6d7b21c1cba09b0723e2a56efd3a184dcd8020254c146fd658732d031eb06",
+      "sha256": "c5106a9a30a1fc716c04a1d540a3be10d745b91b0732b666da2d86d439515391"
+    },
+    {
+      "role": "Client",
+      "relative": "settings/npcres/nv_yi_ren_ma_hou.txt",
+      "before": "5798561cfec9fb9658914b306060206c11522720fcd5dee6bab37b3ceb7ab56d",
+      "sha256": "75773c534ae353e3a93c21f49196fc8d972446c2b348b9926674686c5c340446"
+    },
+    {
+      "role": "Client",
+      "relative": "settings/npcres/nv_yi_ren_ma_hou_xin_xi.txt",
+      "before": "eab6d7b21c1cba09b0723e2a56efd3a184dcd8020254c146fd658732d031eb06",
+      "sha256": "45ebc9d7a5ec0ea308d70f297c97dfc274dd51006ea5564525c7c5e281e60cf0"
+    },
+    {
+      "role": "Client",
+      "relative": "settings/npcres/nv_yi_ren_ma_qian.txt",
+      "before": "1ef907390730c4112441157d40ee29629e4a344540302f5751d35b3e69661b7a",
+      "sha256": "a9b86851aa2ea7629c2e36be0c931257a0b25d718b613064c0c013d2476f1c2d"
+    },
+    {
+      "role": "Client",
+      "relative": "settings/npcres/nv_yi_ren_ma_qian_xin_xi.txt",
+      "before": "eab6d7b21c1cba09b0723e2a56efd3a184dcd8020254c146fd658732d031eb06",
+      "sha256": "45ebc9d7a5ec0ea308d70f297c97dfc274dd51006ea5564525c7c5e281e60cf0"
+    },
+    {
+      "role": "Client",
+      "relative": "settings/npcres/ÄÐÒìÈËÂíºó.txt",
+      "before": "751e1f983c71341611aa4b94f0f6a85a8d6f906457517c3779128225b8b21425",
+      "sha256": "0ba0678ad667fdb5887561e8bb48042404dca97af7d09b9537a2218707d1c662"
+    },
+    {
+      "role": "Client",
+      "relative": "settings/npcres/ÄÐÒìÈËÂíºóÐÅÏ¢.txt",
+      "before": "7fa3a518c50b817c248afb1bfd417f80cdc913aa8bb3870dcd1be1607c2f91d2",
+      "sha256": "c5106a9a30a1fc716c04a1d540a3be10d745b91b0732b666da2d86d439515391"
+    },
+    {
+      "role": "Client",
+      "relative": "settings/npcres/ÄÐÒìÈËÂíÇ°.txt",
+      "before": "e856a3ff51aa380a170878c3ba89feac80c2dc09da399d67fa26d3e8da7c97b5",
+      "sha256": "4ca48f64e5d0c720e9f3bed43315aebb07e29a6a371805a83a1505f74165cf28"
+    },
+    {
+      "role": "Client",
+      "relative": "settings/npcres/ÄÐÒìÈËÂíÇ°ÐÅÏ¢.txt",
+      "before": "7fa3a518c50b817c248afb1bfd417f80cdc913aa8bb3870dcd1be1607c2f91d2",
+      "sha256": "c5106a9a30a1fc716c04a1d540a3be10d745b91b0732b666da2d86d439515391"
+    },
+    {
+      "role": "Client",
+      "relative": "settings/npcres/ÄÐÒìÈËÅû·ç.txt",
+      "before": "026c6fcd8fa48b4144b4bc19a066dce17991513efe5914963a1ba7bf90923bd6",
+      "sha256": "b0afa1c30a62a8fde87863905bb46428b74f911698bef9e82276028dd498e49d"
+    },
+    {
+      "role": "Client",
+      "relative": "settings/npcres/Å®ÒìÈËÂíºó.txt",
+      "before": "a904897ea44a85fdcf063b5415ed79bac8d2357d03a9ad6e8ca29aaacefb5b4c",
+      "sha256": "75773c534ae353e3a93c21f49196fc8d972446c2b348b9926674686c5c340446"
+    },
+    {
+      "role": "Client",
+      "relative": "settings/npcres/Å®ÒìÈËÂíºóÐÅÏ¢.txt",
+      "before": "7fa3a518c50b817c248afb1bfd417f80cdc913aa8bb3870dcd1be1607c2f91d2",
+      "sha256": "45ebc9d7a5ec0ea308d70f297c97dfc274dd51006ea5564525c7c5e281e60cf0"
+    },
+    {
+      "role": "Client",
+      "relative": "settings/npcres/Å®ÒìÈËÂíÇ°.txt",
+      "before": "d72297ed4274721c85b6b79b854abb88d846a2f23c32e6df6f4494ff01acb0bc",
+      "sha256": "a9b86851aa2ea7629c2e36be0c931257a0b25d718b613064c0c013d2476f1c2d"
+    },
+    {
+      "role": "Client",
+      "relative": "settings/npcres/Å®ÒìÈËÂíÇ°ÐÅÏ¢.txt",
+      "before": "7fa3a518c50b817c248afb1bfd417f80cdc913aa8bb3870dcd1be1607c2f91d2",
+      "sha256": "45ebc9d7a5ec0ea308d70f297c97dfc274dd51006ea5564525c7c5e281e60cf0"
+    },
+    {
+      "role": "Client",
+      "relative": "settings/npcres/Å®ÒìÈËÅû·ç.txt",
+      "before": "bddcf94a828968b31473f29294e64c1495521fe65d24ffa571f38184b83e9c12",
+      "sha256": "a67ca8779d48bb998922a7606670000bb556a224242dde74758d43a743818315"
+    }
+  ]
+}

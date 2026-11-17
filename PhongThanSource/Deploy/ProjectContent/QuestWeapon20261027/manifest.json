@@ -1,0 +1,17 @@
+﻿{
+    "scope":  "Quest weapon native family mapping: Tich Lich kiem N.v and sibling quest families; preserve palette and other records",
+    "files":  [
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/item/VNG_WeaponPart.txt",
+                      "before":  "1a269f10118df97e9d2f1db6456b535d1bc4c82fac7612ee7fb83f685ddaef1d",
+                      "sha256":  "6c9d3533ffa7fd22cf1524d047444a8edc5f31c36a6ea4a0c42c64effc43b1b9"
+                  },
+                  {
+                      "role":  "Server",
+                      "relative":  "settings/item/VNG_WeaponPart.txt",
+                      "before":  "1a269f10118df97e9d2f1db6456b535d1bc4c82fac7612ee7fb83f685ddaef1d",
+                      "sha256":  "6c9d3533ffa7fd22cf1524d047444a8edc5f31c36a6ea4a0c42c64effc43b1b9"
+                  }
+              ]
+}

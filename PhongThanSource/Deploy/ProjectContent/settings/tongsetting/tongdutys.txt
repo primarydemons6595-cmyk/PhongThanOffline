@@ -1,0 +1,6 @@
+DutyID	DutyName	DutyRank	RightSet	DutyType	DutyDesc
+1	#L·nh chóa	1	1&2&3&4&5&6&7&8&9&10&11&12&13&14&15&16&17&18	0	#Ng­êi cã quyÒn lùc cao nhÊt trong l·nh ®Þa
+2	#Bæ ChÝnh	2	2&3&4&5&6&7&10&11&12&13&16	1	#Trî thñ cña l·nh chóa
+3	#§¹i thÇn	3	3&5&6&7&10&11&12	1	#Ng­êi chÊp hµnh quyÒn lùc cña l·nh chóa
+4	#D©n chóng	4	3&7&10	2	#Thµnh viªn cña l·nh ®Þa
+5	#Kh¸ch mêi	5		3	#Ng­êi ®­îc Mêi gia nhËp 1 l·nh ®Þa

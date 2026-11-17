@@ -1,0 +1,12 @@
+{
+  "classification": "ORIGINAL_PT_BYTES",
+  "original": "Client_Original/data/vng00.pak",
+  "entry_index": 655,
+  "entry_id": "27955344",
+  "virtual_path": "\\settings\\summonskill.txt",
+  "sha256": "c73438cabef2fd089f44d2d4fffc9f2c8689fe689ad68b6538d715a539863029",
+  "ordinary_ui_ids": [450, 451, 452, 453, 454, 455, 456, 457, 458],
+  "ui_resource": "CA5AA31C/SkillPage_1",
+  "runtime_status": "CONSUMER_IMPLEMENTED_DEPLOY_WITH_Publish-SummonUpdate",
+  "notes": "Exact nine UI labels match registry names byte-for-byte. Not Skills.txt rows; not a license to reuse the inherited JX CreateNpc gameplay branch."
+}

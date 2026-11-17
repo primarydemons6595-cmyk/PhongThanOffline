@@ -1,0 +1,34 @@
+{
+  "files": [
+    {
+      "role": "Client",
+      "relative": "CoreClient.dll",
+      "before": "a9493d283e14c1c4f197b259489fa5044c3380bfbaf6aab33e3e24b1234ded4d",
+      "sha256": "fbf3ed4f66c6fc63953496e12f318de19c6ab901df86799ef945bb40b720a50b"
+    },
+    {
+      "role": "completion",
+      "relative": "studio_effective_overrides.json",
+      "before": "b8cb0997c7d8cb12be178e96c74addc189ae3ba2551a5e09ec6d09884b0c1f9b",
+      "sha256": "96bae509c3d0c0c1c03cb87c10ec37fe7f93c2e634c23d496b2a6cb578ac7497"
+    },
+    {
+      "role": "Server",
+      "relative": "CoreServer.dll",
+      "before": "4ec2976256edc7a9be9b5686f0b7a35f5a2a04bf9abb91f95664ee995c0fde39",
+      "sha256": "028bcd2937610b603f0957866c2d4c24c19610838e4ccc78eae4e40189a53b80"
+    },
+    {
+      "role": "Server",
+      "relative": "settings/phongthan/EventHandbookCatalog.txt",
+      "before": "2f24db252005912279ec5cd405aba8f4c3a7ab7ab21dd6eb25b105aa7c708b22",
+      "sha256": "4b400278544214e8e995c38e0ff14556388ae98c5b96023619ca5f39cca02def"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/test/event_handbook.lua",
+      "before": "3ffbfcae46a0a5daba3e41bb269b48de7e13131b1c650c6238a00758ab97a279",
+      "sha256": "312cc062b8d6fd51be7acc49f6ebc111ca28e39b8833b30bc03cfe7ec529117e"
+    }
+  ]
+}

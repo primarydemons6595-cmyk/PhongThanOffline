@@ -1,0 +1,242 @@
+--description: ÍòÏÉÕó[Ë®]
+--author: yujin
+--date: 2005/4/14
+
+function main(sel)
+	tasks = 
+	{
+		{"V¹n Tiªn trËn","renwu2";show=1}
+	}
+	if(GetGlobalValue(2)==0)then
+		SayTask(11134,tasks)			
+	elseif(GetGlobalValue(2)==1)then
+		SayTask(11135,tasks)			
+	elseif(GetGlobalValue(2)==2)then
+		SayTask(11136,tasks)			
+	end;
+end;
+
+function no()
+		CloseDialog()
+end;
+---------------------------
+function   renwu2()
+	idx = SubWorldID2Idx(68); -- ?±£µØÍ¼ÔÚÕâÌ¨·þÎñÆ÷
+	if (idx == -1) then 
+		return
+	end;
+	SubWorld = idx; -- ?Îñ¿ªÆô±ØÐèµÄ±äÁ¿
+	if ( GetMorphType()==364)or(IsPlayerInsideWeapon(PlayerIndex)>0)then
+			Talk(1,"no",11137)
+	elseif(GetLevel()<=50)or(GetLevel()>=71)then
+			Talk(1,"no",11138)
+	elseif(7~=GetCamp())or(87<GetPK())then
+			Talk(1,"no","ChØ cho phÐp nh©n vËt phe xanh  vµo.")
+	elseif(HaveNormalItem(3,63,0,0)>=1)or(GetTask(421)==GetMissionV(1))then
+			MsgBox(11139,"yes_wxz","no")
+	else
+			Talk(1,"no",11140)
+	end;
+end;
+
+function do_enter()
+	DelHandItem(3,66,0,0)
+	DelHandItem(3,67,0,0)
+	DelHandItem(3,68,0,0)
+	DelHandItem(3,69,0,0)
+	for i=1,60 do
+			if(HaveNormalItem(3,66,0,0)>=1)then
+						DelNormalItem(3,66,0,0)
+			elseif(HaveNormalItem(3,67,0,0)>=1)then
+						DelNormalItem(3,67,0,0)	
+			elseif(HaveNormalItem(3,68,0,0)>=1)then
+						DelNormalItem(3,68,0,0)
+			elseif(HaveNormalItem(3,69,0,0)>=1)then
+						DelNormalItem(3,69,0,0)
+			else
+						break;
+			end;
+	end;
+	local mission_step = GetGlobalValue(2)
+	if (mission_step == 1) then
+		SetFightState(0)
+	else
+		SetFightState(1)
+	end
+	AddMSPlayer(2,1)
+	SetLogoutRV(1)
+	SetTask(421,GetMissionV(1))
+	LockCamp(1)--Ëø¶¨ÕóÓª
+	NewWorld(68,1752,3567)
+	StopUsePills()
+	Msg2Player("Tr¹ng th¸i tu luyÖn tù ®éng t¾t!")
+	CloseDialog()
+end
+
+function  yes_ib()
+	idx = SubWorldID2Idx(68); -- ?±£µØÍ¼ÔÚÕâÌ¨·þÎñÆ÷
+	if (idx == -1) then 
+		return
+	end;
+	SubWorld = idx; -- ?Îñ¿ªÆô±ØÐèµÄ±äÁ¿
+
+	local mission_step = GetGlobalValue(2)
+	local ibplayer_count =  GetGlobalValue(66)
+	local noneib_player_count = GetGlobalValue(62)
+	local player_count = ibplayer_count + noneib_player_count
+	local player_key = GetTask(421)
+	local mission_key = GetMissionV(1)
+
+	if (mission_step == 1) then
+		if(player_count <200) then
+			if(player_key ~= mission_key) then
+				if(FindAValidIBItem(8,145,2,0)>=1)then
+					DelNormalItem(3,63,0,0)
+					CostIBItem(FindAValidIBItem(8,145,2,0))
+					SetGlobalValue(66,GetGlobalValue(66)+1)
+					do_enter()
+				else
+					Talk(1,"no","Xin lçi! Ng­¬i kh«ng cã Thñy Linh th¹ch!")
+				end
+			else
+				do_enter()
+			end	
+		else
+			Talk(1,"no","Sè ng­êi trong trËn ®· ®Çy, Linh Th¹ch còng kh«ng thÓ gióp ng­¬i vµo trong.")
+		end
+	elseif(mission_step == 2) then
+		if(player_count < 200 and player_key==mission_key) then
+			do_enter()
+		else
+			Talk(1,"no","Ng­¬i ®Õn trÔ ma qu¸i trong trËn ®· hãa phÐp ng¨n chÆn cöa vµo!")
+		end
+	else
+		Talk(1,"no",11143)
+	end
+
+end
+
+
+function  yes_wxz()
+	idx = SubWorldID2Idx(68); -- ?±£µØÍ¼ÔÚÕâÌ¨·þÎñÆ÷
+	if (idx == -1) then 
+		return
+	end;
+	SubWorld = idx; -- ?Îñ¿ªÆô±ØÐèµÄ±äÁ¿
+
+	local mission_step = GetGlobalValue(2)
+	local ibplayer_count =  GetGlobalValue(66)
+	local noneib_player_count = GetGlobalValue(62)
+	local player_count = ibplayer_count + noneib_player_count
+	local player_key = GetTask(421)
+	local mission_key = GetMissionV(1)
+	
+	if (player_key == mission_key) then
+		if (mission_step == 1 or mission_step == 2) then
+			do_enter()
+		else
+			Talk(1,"no",11143)
+		end
+	else
+		if (mission_step == 1) then
+			if(player_count < 200 )then
+				if(noneib_player_count < 50) then
+					DelNormalItem(3,63,0,0)
+					SetGlobalValue(62,noneib_player_count+1)
+					do_enter()
+				else
+					MsgBox("Sè ng­êi trong V¹n Tiªn trËn ®· ®Çy, nÕu ng­¬i cã <color=green>Thñy Linh th¹ch<color> ta sÏ gióp ng­êi vµo bªn trong.","yes_ib","no")
+				end
+			else
+				Talk(1,"no","Ng­¬i ®Õn trÔ ma qu¸i trong trËn ®· hãa phÐp ng¨n chÆn cöa vµo!")
+			end
+		else
+			Talk(1,"no",11143)
+		end
+	end
+end;
+
+-- Project no-fee recovery mode; no currency or tickets consumed.
+PT_ID=2
+PT_MAP=68
+PT_LEVEL=60
+PT_FIRST=134
+PT_BOSS=138
+PT_LABEL="Thuy"
+PT_REWARD_TASK=4931
+PT_ENTRY_TASK=4935
+PT_CLAIM_TASK=4939
+PT_REWARD_DETAIL=64
+PT_ENTRY_X=1752
+PT_ENTRY_Y=3567
+PT_EXIT_MAP=4
+PT_EXIT_X=1548
+PT_EXIT_Y=3232
+PT_POINTS={{51040,105568},{56128,105568},{51008,109376},{56192,109376},{53600,107488}}
+PT_MOBS={{134,50400,104928},{135,51680,104928},{136,52960,104960},{137,54272,104928},{134,55520,104928},{135,56832,104896},{136,50400,106528},{137,51680,106528},{134,52960,106528},{135,54240,106528},{136,55520,106528},{137,56800,106528},{134,50400,108128},{135,51680,108128},{136,52960,108128},{137,54240,108128},{134,55520,108128},{135,56768,108096},{136,50400,109728},{137,51712,109760},{134,52960,109728},{135,54240,109728},{136,55520,109728},{137,56800,109728}}
+
+function no() CloseDialog() end
+function main()
+    Say("Van Tien Tran ("..PT_LABEL.."): 02:20, 10:20, 13:20, 18:20, 21:20, 23:20. Dang ky 5 phut, chien dau 30 phut. Ban phuc hoi mien phi.",3,"Vao tran/pt_enter","Nhan thuong/pt_claim","Thoat/no")
+end
+function pt_enter()
+    SubWorld=SubWorldID2Idx(PT_MAP)
+    if SubWorld<0 then Say("Ban do Van Tien Tran chua san sang. Bao loi cho quan tri vien.",1,"Thoat/no");return end
+    local state=GetGlobalValue(PT_ID)
+    if state==0 then Say("Chua den gio mo tran. Dang ky 02:20, 10:20, 13:20, 18:20, 21:20, 23:20 (gio Viet Nam), trong 5 phut.",1,"Thoat/no");return end
+    if GetLevel()<51 or GetLevel()>70 then
+        Say("Cap do khong phu hop voi tran nay.",1,"Thoat/no");return
+    end
+    if GetTask(PT_REWARD_TASK)>0 then Say("Hay nhan thuong tran truoc truoc khi vao tran moi.",1,"Thoat/no");return end
+    if state==2 and GetTask(PT_ENTRY_TASK)~=GetMissionV(1) then Say("Da het gio dang ky.",1,"Thoat/no");return end
+    if NewWorld(PT_MAP,PT_ENTRY_X,PT_ENTRY_Y)~=1 then
+        Say("Chua the chuyen map. Hay thu lai.",1,"Thoat/no");return
+    end
+    AddMSPlayer(PT_ID,1)
+    SetTask(PT_ENTRY_TASK,GetMissionV(1))
+    SetLogoutRV(1);LockCamp(1)
+    if state==1 then SetFightState(0) else SetFightState(1) end
+    if state==1 then ShowMissionCountdown(PT_ID,3003) else ShowMissionCountdown(PT_ID,3004) end
+    CloseDialog()
+end
+function pt_claim()
+    local reward=GetTask(PT_REWARD_TASK)
+    if reward==0 then Say("Chua co thuong cho ban.",1,"Thoat/no");return end
+    if GetTask(PT_CLAIM_TASK)==reward then SetTask(PT_REWARD_TASK,0);CloseDialog();return end
+    if QuestExchange(PT_CLAIM_TASK,GetTask(PT_CLAIM_TASK),reward,{},{{3,PT_REWARD_DETAIL,0,0,0,0,2}})~=1 then
+        Say("Hay de trong 2 o F4. Thuong van duoc giu, khong bi mat.",1,"Thoat/no");return
+    end
+    SetTask(PT_REWARD_TASK,0)
+    Say("Da nhan 2 Linh Phu thuong Van Tien Tran.",1,"Thoat/no")
+end
+
+-- Atomic native admission; no consumption before a successful local transfer.
+function main()
+    Say("Van Tien Tran: can 1 Linh Phu dung loai cho moi luot moi. Vao lai cung luot khong thu them. Lich va ve do Studio quan ly. Thuong theo NPC nhiem vu va drop goc.",3,"Vao tran/pt_enter","Thuong ton tu ban cu/pt_claim","Ket thuc doi thoai/no")
+end
+function pt_enter()
+    SubWorld=SubWorldID2Idx(PT_MAP)
+    local result=EventEnterVanTien(PT_ID,PT_ENTRY_X,PT_ENTRY_Y)
+    if result~=1 then
+        local message="Chua den gio dang ky, het cho hoac dieu kien cap do chua phu hop."
+        if result==-1 then message="Thieu Linh Phu dung loai trong F4. Chua tru ve."
+        elseif result==-2 then message="Chua the xu ly hanh trang. Hay ket thuc giao dich va thu lai." end
+        Say(message,1,"Ket thuc doi thoai/no");return
+    end
+    SetLogoutRV(1);LockCamp(1)
+    local phase=GetGlobalValue(PT_ID)
+    if phase==1 then SetFightState(0);ShowMissionCountdown(PT_ID,3003)
+    else SetFightState(1);ShowMissionCountdown(PT_ID,3004) end
+    CloseDialog()
+end
+pt_old_pending_claim=pt_claim
+function pt_claim()
+    local reward=GetTask(PT_REWARD_TASK)
+    local now=floor(SystemTime()/60)*4
+    -- Legacy authored pending payments must match the old admission generation.
+    -- Never interpret arbitrary IBBuff values as a reward or clear those slots.
+    if reward<now-172800 or reward>now+4 or GetTask(4935)~=reward then
+        Say("Thuong tran hien tai theo nhiem vu goc tai Thien Hung va vat pham roi. Khong phat them 2 Linh Phu.",1,"Ket thuc doi thoai/no");return
+    end
+    return pt_old_pending_claim()
+end

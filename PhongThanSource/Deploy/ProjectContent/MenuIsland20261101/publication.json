@@ -1,0 +1,88 @@
+﻿{
+    "Scope":  "LOOSE_ONLY",
+    "Backup":  "E:\\ProjectAI\\PhongThan\\PT\\analysis\\player_menu_island_20261101\\runtime-before-20261101_110314",
+    "Result":  "PASS",
+    "Files":  [
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\MenuIsland20261101\\compiled\\Server\\script\\phongthan\\khai_minh\\boatman.lua",
+                      "Path":  "Server/script/phongthan/khai_minh/boatman.lua",
+                      "Done":  true,
+                      "After":  "958ab28c8af7ff2a65451d745d16154e0f674f945b22bc284a3b5eb7256cdf7d",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\script\\phongthan\\khai_minh\\boatman.lua",
+                      "Before":  null
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\MenuIsland20261101\\compiled\\Server\\script\\phongthan\\khai_minh\\doctor.lua",
+                      "Path":  "Server/script/phongthan/khai_minh/doctor.lua",
+                      "Done":  true,
+                      "After":  "cca9480bea088f1d419fa8345dd2cb31bd4693efe8045f73a75ac5d9d40dad86",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\script\\phongthan\\khai_minh\\doctor.lua",
+                      "Before":  null
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\MenuIsland20261101\\compiled\\Server\\settings\\phongthan\\npc_regions\\1072\\v_101\\099_region_s.dat",
+                      "Path":  "Server/settings/phongthan/npc_regions/1072/v_101/099_region_s.dat",
+                      "Done":  true,
+                      "After":  "9c97671ea82ce817d57dbd3690c5fa439970cabd0f73e9e2eb58abe25e87edcb",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\settings\\phongthan\\npc_regions\\1072\\v_101\\099_region_s.dat",
+                      "Before":  null
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\MenuIsland20261101\\compiled\\Server\\settings\\phongthan\\npc_regions\\1072\\v_100\\100_region_s.dat",
+                      "Path":  "Server/settings/phongthan/npc_regions/1072/v_100/100_region_s.dat",
+                      "Done":  true,
+                      "After":  "73cab708d15beefc4abd3c30021e9dee75ffe183df0550a4efa1bcc930f8a81e",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\settings\\phongthan\\npc_regions\\1072\\v_100\\100_region_s.dat",
+                      "Before":  null
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\MenuIsland20261101\\compiled\\Client\\settings\\phongthan\\MapServiceLabels.txt",
+                      "Path":  "Client/settings/phongthan/MapServiceLabels.txt",
+                      "Done":  true,
+                      "After":  "68a172f14421bfe6029b7d32638d77fa92aba4784ea2d97635970b6893bf8ce1",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Client\\settings\\phongthan\\MapServiceLabels.txt",
+                      "Before":  null
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\MenuIsland20261101\\compiled\\Server\\loose_index.bin",
+                      "Path":  "Server/loose_index.bin",
+                      "Done":  false,
+                      "After":  "9a745b7083899d1e65af1b2a4d85cbd35482c2ddb8aaca37ab00586732216902",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\loose_index.bin",
+                      "Before":  "4182e1982dd08b24102dec0b0de150142b263f5c68ca7bf13125461e14193c7b"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\MenuIsland20261101\\compiled\\Client\\loose_index.bin",
+                      "Path":  "Client/loose_index.bin",
+                      "Done":  false,
+                      "After":  "5754e0f39a216e37b18773ed6d48ed4e1369093e5e4d6d79fe9d165a550db80b",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Client\\loose_index.bin",
+                      "Before":  "dcd41173109e23213b0289ddac0a2a2ec097389c1eb205efcc167fdbcf3dfc1c"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\MenuIsland20261101\\compiled\\completion\\studio_effective_overrides.json",
+                      "Path":  "completion/studio_effective_overrides.json",
+                      "Done":  false,
+                      "After":  "345fb0b91899806acd7702243efaa77568486a926773f6e7b591573d93f48229",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\completion\\studio_effective_overrides.json",
+                      "Before":  "a131343b76360ab0f4da4658eea5aa52f8efca7280040e4e4584caf793965bf8"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Output\\Client\\CoreClient.dll",
+                      "Path":  "Client/CoreClient.dll",
+                      "Done":  false,
+                      "After":  "31AC602FC609587B329CDC44EC7705AD2DD5C330591C2A14D19220C789B238AC",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Client\\CoreClient.dll",
+                      "Before":  "CFF8C9F28B8D9E7D86BA50AE9364E0230528CFE04CBD30A503323B652622B7A0"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Output\\Client\\Game.exe",
+                      "Path":  "Client/Game.exe",
+                      "Done":  false,
+                      "After":  "CBBCCC6753CB42F27206A5F0D79E0411DA2B16C92CDAAB8E2E2E658FE8DDFB6D",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Client\\Game.exe",
+                      "Before":  "733C398852D796DB7C04D957104335BB1FF1995585B8163DA5B9AF33CC42BBCD"
+                  }
+              ],
+    "PublishedAtUtc":  "2026-11-01T04:03:15.0818949Z"
+}

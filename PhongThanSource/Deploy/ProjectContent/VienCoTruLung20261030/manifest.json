@@ -1,0 +1,167 @@
+{
+  "scope": "LOOSE_ONLY",
+  "placements": [
+    {
+      "map": 1064,
+      "template": 998,
+      "level": 1,
+      "name": "Điểm chuyển tiếp",
+      "x": 50704,
+      "y": 104400,
+      "display_x": 198,
+      "display_y": 203,
+      "overlay": "settings/phongthan/npc_regions/1064/v_101/099_region_s.dat",
+      "base_sha256": "ad1012aa85ae9b355035f539900c7884257358756cb44d325fa21cc828726b44",
+      "record_hex": "e603000010c60000d097010000000000a769d36d2063687579d36e207469d570000000000000000000000000000000000100000000000300060024005c7363726970745c70686f6e677468616e5c676174655c7375706572747261702e6c7561",
+      "origin": "AUTHORED_PLACEMENT_ON_EXISTING_WALKABLE_GEOMETRY"
+    },
+    {
+      "map": 1066,
+      "template": 126,
+      "level": 40,
+      "name": "Phủ Đầu Đại Lão",
+      "x": 49808,
+      "y": 101136,
+      "display_x": 194,
+      "display_y": 197,
+      "overlay": "settings/phongthan/npc_regions/1066/v_098/097_region_s.dat",
+      "base_sha256": "aa01901c46d92db7b9872c441e743eb41f5607887fe71f2282ad3aefdf5f3a4c",
+      "record_hex": "7e00000090c20000108b010000000000b8abcdb7b4f3c0d0000000000000000000000000000000000000000000000000280000000000000005000000",
+      "origin": "AUTHORED_PLACEMENT_ON_EXISTING_WALKABLE_GEOMETRY"
+    },
+    {
+      "map": 1066,
+      "template": 127,
+      "level": 40,
+      "name": "Trư Lung Thần",
+      "x": 52880,
+      "y": 102928,
+      "display_x": 206,
+      "display_y": 201,
+      "overlay": "settings/phongthan/npc_regions/1066/v_100/103_region_s.dat",
+      "base_sha256": "9a8ee661bcc904e2d49354577831314c4c23fd778ce15b528d4fa63143e0249b",
+      "record_hex": "7f00000090ce00001092010000000000d6edc1fdc9f10000000000000000000000000000000000000000000000000000280000000000000005000000",
+      "origin": "AUTHORED_PLACEMENT_ON_EXISTING_WALKABLE_GEOMETRY"
+    },
+    {
+      "map": 1066,
+      "template": 128,
+      "level": 40,
+      "name": "Hỏa Tà Thần",
+      "x": 55504,
+      "y": 105808,
+      "display_x": 216,
+      "display_y": 206,
+      "overlay": "settings/phongthan/npc_regions/1066/v_103/108_region_s.dat",
+      "base_sha256": "b9cf3dc5227f168de10ba1e3d86b3ab312a8dfd7dca7a936effcdc420535b5de",
+      "record_hex": "80000000d0d80000509d010000000000bbf0d0b0c9f10000000000000000000000000000000000000000000000000000280000000000000005000000",
+      "origin": "AUTHORED_PLACEMENT_ON_EXISTING_WALKABLE_GEOMETRY"
+    }
+  ],
+  "drop_audit": [
+    {
+      "file": "zhulong.ini",
+      "original": {
+        "id": "4BE538C9",
+        "pak": "serverlist.pak",
+        "entry": 796,
+        "sha256": "d3757bb8942bdcf2042a116e4cd481bade8c570e381aca06328c9ecec37651d1",
+        "bytes": 2103,
+        "path": "\\settings\\item\\droprate\\zhulong.ini",
+        "raw_hex": "5c73657474696e67735c6974656d5c64726f70726174655c7a68756c6f6e672e696e69"
+      },
+      "runtime_sha256": "49eafc9fde027314cd4e955b3ae8c3cba26945eeef6640d1b1db368349352c65",
+      "differences": [
+        [
+          "31",
+          "genre",
+          "6",
+          "0"
+        ],
+        [
+          "31",
+          "detail",
+          "1",
+          "4"
+        ],
+        [
+          "31",
+          "particular",
+          "2020",
+          "0"
+        ]
+      ],
+      "action": "PRESERVE_EXISTING_REVIEWED_LOOSE_TABLE; NO_DROP_EDITS"
+    },
+    {
+      "file": "npcdroprate.ini",
+      "original": {
+        "id": "5EEA91D5",
+        "pak": "serverlist.pak",
+        "entry": 1010,
+        "sha256": "5708c4ad5de30fa893205bdc38ae841c679605327061c20ba10acc5a19f41071",
+        "bytes": 2459,
+        "path": "\\settings\\item\\droprate\\npcdroprate.ini",
+        "raw_hex": "5c73657474696e67735c6974656d5c64726f70726174655c6e706364726f70726174652e696e69"
+      },
+      "runtime_sha256": "4c55e050d5515c37aa735a26e22ff4728502c319f74bec74dbfa4abc3eb77abe",
+      "differences": [
+        [
+          "34",
+          "genre",
+          "6",
+          "0"
+        ],
+        [
+          "34",
+          "detail",
+          "1",
+          "4"
+        ],
+        [
+          "34",
+          "particular",
+          "2020",
+          "0"
+        ]
+      ],
+      "action": "PRESERVE_EXISTING_REVIEWED_LOOSE_TABLE; NO_DROP_EDITS"
+    }
+  ],
+  "portal_script": "\\script\\phongthan\\gate\\supertrap.lua",
+  "portal_sprite": "Client\\spr\\npcres\\passerby\\NpcS_passerby099.spr",
+  "portal_sprite_sha256": "1dd951de5a17e44659ceaf8a72235b5c26a509fa264c49eb1dff3b7b89deff28",
+  "respawn": "native same-entity DoRevive/OnRevive; 64800 frames at GAME_FPS=18",
+  "files": [
+    {
+      "path": "Server/settings/phongthan/npc_regions/1064/v_101/099_region_s.dat",
+      "sha256": "94de7990ddefe0d593d07595fad0b539236686170fe9f8f8f30fb82b7a9b0acd",
+      "before_sha256": null
+    },
+    {
+      "path": "Server/settings/phongthan/npc_regions/1066/v_098/097_region_s.dat",
+      "sha256": "728fb406b5a8dbdf35dfd4f6092fc0d43fc062bdc33b45489a7e5c3f111f40f7",
+      "before_sha256": "aa01901c46d92db7b9872c441e743eb41f5607887fe71f2282ad3aefdf5f3a4c"
+    },
+    {
+      "path": "Server/settings/phongthan/npc_regions/1066/v_100/103_region_s.dat",
+      "sha256": "97a727ecaf2e9966bcf48260ab52042c9992b9c617ea73b5b86a2341384ab1cc",
+      "before_sha256": "9a8ee661bcc904e2d49354577831314c4c23fd778ce15b528d4fa63143e0249b"
+    },
+    {
+      "path": "Server/settings/phongthan/npc_regions/1066/v_103/108_region_s.dat",
+      "sha256": "535aab1f9751614e89e5510f89be7c6cba63d0927d702d953a051a9e6cd69c73",
+      "before_sha256": null
+    },
+    {
+      "path": "Server/settings/phongthan/NpcDisplayNames.txt",
+      "sha256": "8e9b74ffefea094fc4d7b2a8b370855d0ad58d953ae6d33aae09a9b1ba961c5d",
+      "before_sha256": "174dc51a0998744ef242584054435517a0bceef8adc82d3b13406c94790b0d95"
+    },
+    {
+      "path": "Client/settings/phongthan/NpcDisplayNames.txt",
+      "sha256": "40bc95468eef53f1ff13c0b97a88c3a6cfb55f80509015ee24fad6b7fae72170",
+      "before_sha256": "72e38723060eb09cd22efc5b77bb536e94802ecc0034dccecd95cb44e553ee53"
+    }
+  ]
+}

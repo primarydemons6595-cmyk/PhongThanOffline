@@ -1,0 +1,248 @@
+<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Phong Thần — Tra cứu cấu hình đồ rơi</title><style>
+:root{color-scheme:dark;--bg:#0d1422;--panel:#151f31;--text:#e8eef8;--muted:#b4c0d3;--border:#344259;--control:#a8c8ff;--rate:#75dfc5;--magic:#d8b4fe;--level:#ffd18a;--money:#f8df81;--source:#aebfd4;--equip:#93c5fd;--potion:#fda4af;--material:#67e8f9;--fabao:#e9b5ff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif}main{max-width:1240px;margin:auto;padding:36px 24px 70px}h1{font-size:32px;line-height:1.25;margin:10px 0 16px}h2{font-size:23px;margin:0 0 14px}h3{font-size:18px;margin:24px 0 10px}p{margin:10px 0}.muted,small{color:var(--muted)}.eyebrow{color:var(--rate);font-weight:700;letter-spacing:1px}.panel{padding:24px;background:var(--panel);border:1px solid var(--border);border-radius:14px;margin-top:24px}nav{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0}nav a{color:var(--control);text-decoration:none;border:1px solid var(--border);padding:6px 12px;border-radius:8px}a{color:var(--control)}.tag{display:inline-block;border:1px solid currentColor;border-radius:6px;padding:1px 7px;font-size:12px;white-space:nowrap}.legend{display:flex;flex-wrap:wrap;gap:9px;margin:14px 0}.control{color:var(--control)}.rate{color:var(--rate)}.magic{color:var(--magic)}.level{color:var(--level)}.money{color:var(--money)}.source{color:var(--source)}.equip{color:var(--equip)}.potion{color:var(--potion)}.material{color:var(--material)}.fabao{color:var(--fabao)}.scroll{overflow-x:auto}table{width:100%;border-collapse:collapse;text-align:left;font-size:14px}th{font-size:12px;color:var(--muted);background:#111a2b}th,td{border-bottom:1px solid var(--border);padding:12px;vertical-align:top}td.value{max-width:310px;overflow-wrap:anywhere}code{font-family:Consolas,"Courier New",monospace;font-size:.94em}pre{background:#0b1220;border-radius:10px;padding:18px;overflow:auto;font-size:14px;line-height:1.7;max-height:520px}.comment{color:#9aaac1}.section{color:#f8df81;font-weight:bold}.literal{color:#e9eef7}.notice{border-left:4px solid var(--level);padding:12px 16px;background:#252331;border-radius:6px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.toolbar{display:flex;gap:12px;flex-wrap:wrap;margin:20px 0}input,select{background:#0b1424;color:var(--text);border:1px solid #718199;border-radius:7px;padding:10px;font:inherit}input[type=search]{width:min(100%,430px)}label{display:block;font-size:14px}label input{display:block;width:100%;margin-top:5px}.result{font-size:36px;font-weight:750;color:var(--rate);margin:12px 0}details summary{cursor:pointer;color:var(--control);font-weight:600;padding:8px 0}.search-empty{color:var(--muted)}[hidden]{display:none!important}.steps{display:flex;gap:12px;flex-wrap:wrap}.step{flex:1;min-width:220px;padding:16px;border:1px solid var(--border);border-radius:10px}button{background:#233951;color:#ecf3ff;border:1px solid #66829e;border-radius:8px;padding:7px 14px;cursor:pointer;font:inherit}@media(max-width:760px){main{padding:20px 12px 40px}.panel{padding:16px}.grid{grid-template-columns:1fr}h1{font-size:25px}th,td{padding:9px}}@media print{:root{color-scheme:light;--bg:white;--panel:white;--text:#111;--muted:#444;--border:#ccc;--control:#174ea6;--rate:#006b51;--magic:#6b21a8;--level:#875000;--money:#725a00;--source:#43526a;--equip:#174ea6;--potion:#a51e43;--material:#00666f;--fabao:#6b21a8}body,th{background:white}.toolbar,.no-print{display:none}.panel{break-inside:auto}pre{background:#f3f4f6}.literal{color:#111}.notice{background:#fff9ea}nav{display:none}}
+</style></head><body><main>
+<div class="eyebrow">PHONG THẦN · TÀI LIỆU CẤU HÌNH</div><h1>Đọc cấu hình đồ rơi theo màu</h1><p class="muted">Ảnh chụp cấu hình ngày 28/10/2026 · dùng ngoại tuyến · giải thích theo code mô phỏng hiện tại.</p>
+<nav aria-label="Mục lục"><a href="#overview">Cách hoạt động</a><a href="#drop">Bảng rơi</a><a href="#items">33 mục vật phẩm</a><a href="#blue">Thuộc tính</a><a href="#calc">Máy tính tỷ lệ</a></nav>
+<div class="toolbar"><input id="search" type="search" aria-label="Tìm trong bảng" placeholder="Tìm: MagicRate, bảo thạch, Đạo Sĩ…"><select id="category" aria-label="Lọc nhóm"><option value="">Tất cả nhóm</option><option value="control">Điều khiển</option><option value="rate">Tỷ lệ</option><option value="magic">Thuộc tính</option><option value="level">Bậc trang bị</option><option value="money">Tiền</option><option value="source">Nguồn dữ liệu</option><option value="equip">Trang bị</option><option value="potion">Dược phẩm</option><option value="material">Bảo thạch</option><option value="fabao">Pháp bảo</option></select><button id="print" type="button">In / lưu PDF</button></div>
+<div class="legend"><span class="tag control">Điều khiển</span><span class="tag rate">Tỷ lệ</span><span class="tag magic">Thuộc tính</span><span class="tag level">Bậc trang bị</span><span class="tag money">Tiền</span><span class="tag source">Nguồn dữ liệu</span><span class="tag equip">Trang bị</span><span class="tag potion">Dược phẩm</span><span class="tag material">Bảo thạch</span><span class="tag fabao">Pháp bảo</span></div>
+<section id="overview" class="panel"><h2>Hai bước tạo đồ rơi</h2><div class="steps"><div class="step"><b class="rate">1 · Quay loại đồ</b><p><code>npcdroprate-blue.ini</code></p><small>RandRate quyết định loại trang bị, thuốc hoặc bảo thạch nào trúng khi được xét.</small></div><div class="step"><b class="magic">2 · Thêm thuộc tính</b><p><code>NativeDropBlue.ini</code></p><small>Chỉ xét trang bị trắng đã tạo và có loại/bậc được hỗ trợ. Thuốc và bảo thạch không qua bước này.</small></div></div><p class="notice"><b>Phân biệt:</b> Hai file này không chỉnh tỷ lệ xuất hiện quái xanh. Tỷ lệ đó nằm trong <code>RandomBlueNpc.ini</code>. Nhãn <code>OFFICIAL</code> là tên chế độ nội bộ; thuật toán thuộc tính chưa được chứng minh giống hoàn toàn bản gốc.</p></section>
+<section id="drop" class="panel"><h2>npcdroprate-blue.ini · [Main]</h2><div class="scroll"><table><thead><tr><th>Nhóm</th><th>Tham số</th><th>Giá trị hiện tại</th><th>Giải thích</th></tr></thead><tbody><tr data-category="control"><td><span class="tag control">Điều khiển</span></td><td><code class="control">Count</code></td><td class="value"><code>33</code></td><td>Số mục vật phẩm [1]…[33]. Khi thêm/bớt mục, cập nhật số này.</td></tr><tr data-category="rate"><td><span class="tag rate">Tỷ lệ</span></td><td><code class="rate">RandRange</code></td><td class="value"><code>1000000</code></td><td>Mẫu số khi quay tỷ lệ. Tỷ lệ một mục khi được xét = RandRate ÷ RandRange × 100%.</td></tr><tr data-category="magic"><td><span class="tag magic">Thuộc tính</span></td><td><code class="magic">MagicRate</code></td><td class="value"><code>1</code></td><td>Hệ số nhân cơ hội thêm thuộc tính: BlueChancePerMillion × MagicRate, giới hạn 1.000.000.</td></tr><tr data-category="money"><td><span class="tag money">Tiền</span></td><td><code class="money">MoneyRate</code></td><td class="value"><code>0</code></td><td>Ngưỡng quay trúng tiền trên RandRange. Bằng 0 nghĩa là bảng này không rơi tiền.</td></tr><tr data-category="money"><td><span class="tag money">Tiền</span></td><td><code class="money">MoneyScale</code></td><td class="value"><code>0</code></td><td>Số tiền nhận nếu lượt quay tiền trúng trong chính sách FLAT_BERNOULLI hiện tại.</td></tr><tr data-category="level"><td><span class="tag level">Bậc trang bị</span></td><td><code class="level">MinItemLevel</code></td><td class="value"><code>1</code></td><td>Giới hạn bậc trang bị thấp nhất. Đây là bậc danh mục, không phải màu/phẩm chất.</td></tr><tr data-category="level"><td><span class="tag level">Bậc trang bị</span></td><td><code class="level">MinItemLevelScale</code></td><td class="value"><code>10</code></td><td>Trong chế độ MONSTER_EQUIPMENT_CATALOG: lấy phần nguyên cấp quái chia giá trị này để tính bậc thấp.</td></tr><tr data-category="level"><td><span class="tag level">Bậc trang bị</span></td><td><code class="level">MaxItemLevel</code></td><td class="value"><code>10</code></td><td>Giới hạn bậc trang bị cao nhất.</td></tr><tr data-category="level"><td><span class="tag level">Bậc trang bị</span></td><td><code class="level">MaxItemLevelScale</code></td><td class="value"><code>10</code></td><td>Lấy phần nguyên cấp quái chia giá trị này để tính bậc cao; sau đó giới hạn theo Min/MaxItemLevel và lọc danh mục hợp lệ.</td></tr></tbody></table></div><p class="notice"><b>Quy tắc dừng hiện tại:</b> <code>TreasureRule=SUCCESS_CAP</code>. Các mục được xét theo thứ tự, dừng khi đủ số món cho phép. Thạch Thần/Lam Cốt có giới hạn một món ở bảng chung này. Vì vậy tỷ lệ ở bảng dưới là tỷ lệ <b>khi tới lượt xét</b>, không phải xác suất cuối cùng trên mỗi lần giết quái.</p><p>Ví dụ: mục [1] có 2%; nếu giới hạn một món và mục [1] đã trúng, mục [2] không được xét. Với cùng tỷ lệ 2%, xác suất trúng mục [2] khi bắt đầu bảng là 98% × 2% = 1,96%.</p><p><span class="level">Ví dụ bậc đồ:</span> quái cấp 75 ÷ 10 → bậc 7; cấp 80 ÷ 10 → bậc 8. Bậc đồ khác màu/phẩm chất. Code còn lọc danh mục và yêu cầu cấp trang bị; cấp nhân vật không làm đồ tự tăng bậc.</p><details><summary>Xem nguyên văn cấu hình có tô màu</summary><pre><code><span class="section">[Main]</span>
+<span class="control">Count</span><span class="comment">=</span><span class="literal">33</span>
+<span class="rate">RandRange</span><span class="comment">=</span><span class="literal">1000000</span>
+<span class="magic">MagicRate</span><span class="comment">=</span><span class="literal">1</span>
+<span class="money">MoneyRate</span><span class="comment">=</span><span class="literal">0</span>
+<span class="money">MoneyScale</span><span class="comment">=</span><span class="literal">0</span>
+<span class="level">MinItemLevel</span><span class="comment">=</span><span class="literal">1</span>
+<span class="level">MinItemLevelScale</span><span class="comment">=</span><span class="literal">10</span>
+<span class="level">MaxItemLevel</span><span class="comment">=</span><span class="literal">10</span>
+<span class="level">MaxItemLevelScale</span><span class="comment">=</span><span class="literal">10</span>
+
+<span class="section">[1]</span>
+<span class="control">Genre</span><span class="comment">=</span><span class="literal">0</span>
+<span class="control">Detail</span><span class="comment">=</span><span class="literal">0</span>
+<span class="control">Particular</span><span class="comment">=</span><span class="literal">0</span>
+<span class="rate">RandRate</span><span class="comment">=</span><span class="literal">20000</span>
+
+<span class="section">[2]</span>
+<span class="control">Genre</span><span class="comment">=</span><span class="literal">0</span>
+<span class="control">Detail</span><span class="comment">=</span><span class="literal">0</span>
+<span class="control">Particular</span><span class="comment">=</span><span class="literal">1</span>
+<span class="rate">RandRate</span><span class="comment">=</span><span class="literal">20000</span>
+
+<span class="section">[3]</span>
+<span class="control">Genre</span><span class="comment">=</span><span class="literal">0</span>
+<span class="control">Detail</span><span class="comment">=</span><span class="literal">0</span>
+<span class="control">Particular</span><span class="comment">=</span><span class="literal">2</span>
+<span class="rate">RandRate</span><span class="comment">=</span><span class="literal">25000</span>
+
+<span class="section">[4]</span>
+<span class="control">Genre</span><span class="comment">=</span><span class="literal">0</span>
+<span class="control">Detail</span><span class="comment">=</span><span class="literal">0</span>
+<span class="control">Particular</span><span class="comment">=</span><span class="literal">3</span>
+<span class="rate">RandRate</span><span class="comment">=</span><span class="literal">25000</span>
+
+<span class="section">[5]</span>
+<span class="control">Genre</span><span class="comment">=</span><span class="literal">0</span>
+<span class="control">Detail</span><span class="comment">=</span><span class="literal">2</span>
+<span class="control">Particular</span><span class="comment">=</span><span class="literal">0</span>
+<span class="rate">RandRate</span><span class="comment">=</span><span class="literal">25000</span>
+
+<span class="section">[6]</span>
+<span class="control">Genre</span><span class="comment">=</span><span class="literal">0</span>
+<span class="control">Detail</span><span class="comment">=</span><span class="literal">2</span>
+<span class="control">Particular</span><span class="comment">=</span><span class="literal">1</span>
+<span class="rate">RandRate</span><span class="comment">=</span><span class="literal">25000</span>
+
+<span class="section">[7]</span>
+<span class="control">Genre</span><span class="comment">=</span><span class="literal">0</span>
+<span class="control">Detail</span><span class="comment">=</span><span class="literal">2</span>
+<span class="control">Particular</span><span class="comment">=</span><span class="literal">2</span>
+<span class="rate">RandRate</span><span class="comment">=</span><span class="literal">25000</span>
+
+<span class="section">[8]</span>
+<span class="control">Genre</span><span class="comment">=</span><span class="literal">0</span>
+<span class="control">Detail</span><span class="comment">=</span><span class="literal">5</span>
+<span class="control">Particular</span><span class="comment">=</span><span class="literal">0</span>
+<span class="rate">RandRate</span><span class="comment">=</span><span class="literal">25000</span>
+
+<span class="section">[9]</span>
+<span class="control">Genre</span><span class="comment">=</span><span class="literal">0</span>
+<span class="control">Detail</span><span class="comment">=</span><span class="literal">5</span>
+<span class="control">Particular</span><span class="comment">=</span><span class="literal">1</span>
+<span class="rate">RandRate</span><span class="comment">=</span><span class="literal">25000</span>
+
+<span class="section">[10]</span>
+<span class="control">Genre</span><span class="comment">=</span><span class="literal">0</span>
+<span class="control">Detail</span><span class="comment">=</span><span class="literal">5</span>
+<span class="control">Particular</span><span class="comment">=</span><span class="literal">2</span>
+<span class="rate">RandRate</span><span class="comment">=</span><span class="literal">25000</span>
+
+<span class="section">[11]</span>
+<span class="control">Genre</span><span class="comment">=</span><span class="literal">0</span>
+<span class="control">Detail</span><span class="comment">=</span><span class="literal">6</span>
+<span class="control">Particular</span><span class="comment">=</span><span class="literal">0</span>
+<span class="rate">RandRate</span><span class="comment">=</span><span class="literal">25000</span>
+
+<span class="section">[12]</span>
+<span class="control">Genre</span><span class="comment">=</span><span class="literal">0</span>
+<span class="control">Detail</span><span class="comment">=</span><span class="literal">6</span>
+<span class="control">Particular</span><span class="comment">=</span><span class="literal">1</span>
+<span class="rate">RandRate</span><span class="comment">=</span><span class="literal">25000</span>
+
+<span class="section">[13]</span>
+<span class="control">Genre</span><span class="comment">=</span><span class="literal">0</span>
+<span class="control">Detail</span><span class="comment">=</span><span class="literal">6</span>
+<span class="control">Particular</span><span class="comment">=</span><span class="literal">2</span>
+<span class="rate">RandRate</span><span class="comment">=</span><span class="literal">25000</span>
+
+<span class="section">[14]</span>
+<span class="control">Genre</span><span class="comment">=</span><span class="literal">0</span>
+<span class="control">Detail</span><span class="comment">=</span><span class="literal">7</span>
+<span class="control">Particular</span><span class="comment">=</span><span class="literal">0</span>
+<span class="rate">RandRate</span><span class="comment">=</span><span class="literal">25000</span>
+
+<span class="section">[15]</span>
+<span class="control">Genre</span><span class="comment">=</span><span class="literal">0</span>
+<span class="control">Detail</span><span class="comment">=</span><span class="literal">7</span>
+<span class="control">Particular</span><span class="comment">=</span><span class="literal">1</span>
+<span class="rate">RandRate</span><span class="comment">=</span><span class="literal">25000</span>
+
+<span class="section">[16]</span>
+<span class="control">Genre</span><span class="comment">=</span><span class="literal">0</span>
+<span class="control">Detail</span><span class="comment">=</span><span class="literal">7</span>
+<span class="control">Particular</span><span class="comment">=</span><span class="literal">2</span>
+<span class="rate">RandRate</span><span class="comment">=</span><span class="literal">25000</span>
+
+<span class="section">[17]</span>
+<span class="control">Genre</span><span class="comment">=</span><span class="literal">0</span>
+<span class="control">Detail</span><span class="comment">=</span><span class="literal">9</span>
+<span class="control">Particular</span><span class="comment">=</span><span class="literal">0</span>
+<span class="rate">RandRate</span><span class="comment">=</span><span class="literal">25000</span>
+
+<span class="section">[18]</span>
+<span class="control">Genre</span><span class="comment">=</span><span class="literal">0</span>
+<span class="control">Detail</span><span class="comment">=</span><span class="literal">9</span>
+<span class="control">Particular</span><span class="comment">=</span><span class="literal">1</span>
+<span class="rate">RandRate</span><span class="comment">=</span><span class="literal">25000</span>
+
+<span class="section">[19]</span>
+<span class="control">Genre</span><span class="comment">=</span><span class="literal">0</span>
+<span class="control">Detail</span><span class="comment">=</span><span class="literal">9</span>
+<span class="control">Particular</span><span class="comment">=</span><span class="literal">2</span>
+<span class="rate">RandRate</span><span class="comment">=</span><span class="literal">25000</span>
+
+<span class="section">[20]</span>
+<span class="control">Genre</span><span class="comment">=</span><span class="literal">1</span>
+<span class="control">Detail</span><span class="comment">=</span><span class="literal">1</span>
+<span class="control">Particular</span><span class="comment">=</span><span class="literal">0</span>
+<span class="rate">RandRate</span><span class="comment">=</span><span class="literal">50000</span>
+
+<span class="section">[21]</span>
+<span class="control">Genre</span><span class="comment">=</span><span class="literal">1</span>
+<span class="control">Detail</span><span class="comment">=</span><span class="literal">4</span>
+<span class="control">Particular</span><span class="comment">=</span><span class="literal">0</span>
+<span class="rate">RandRate</span><span class="comment">=</span><span class="literal">50000</span>
+
+<span class="section">[22]</span>
+<span class="control">Genre</span><span class="comment">=</span><span class="literal">0</span>
+<span class="control">Detail</span><span class="comment">=</span><span class="literal">0</span>
+<span class="control">Particular</span><span class="comment">=</span><span class="literal">4</span>
+<span class="rate">RandRate</span><span class="comment">=</span><span class="literal">10</span>
+
+<span class="section">[23]</span>
+<span class="control">Genre</span><span class="comment">=</span><span class="literal">0</span>
+<span class="control">Detail</span><span class="comment">=</span><span class="literal">0</span>
+<span class="control">Particular</span><span class="comment">=</span><span class="literal">5</span>
+<span class="rate">RandRate</span><span class="comment">=</span><span class="literal">10</span>
+
+<span class="section">[24]</span>
+<span class="control">Genre</span><span class="comment">=</span><span class="literal">0</span>
+<span class="control">Detail</span><span class="comment">=</span><span class="literal">0</span>
+<span class="control">Particular</span><span class="comment">=</span><span class="literal">6</span>
+<span class="rate">RandRate</span><span class="comment">=</span><span class="literal">10</span>
+
+<span class="section">[25]</span>
+<span class="control">Genre</span><span class="comment">=</span><span class="literal">0</span>
+<span class="control">Detail</span><span class="comment">=</span><span class="literal">0</span>
+<span class="control">Particular</span><span class="comment">=</span><span class="literal">7</span>
+<span class="rate">RandRate</span><span class="comment">=</span><span class="literal">10</span>
+
+<span class="section">[26]</span>
+<span class="control">Genre</span><span class="comment">=</span><span class="literal">0</span>
+<span class="control">Detail</span><span class="comment">=</span><span class="literal">4</span>
+<span class="control">Particular</span><span class="comment">=</span><span class="literal">0</span>
+<span class="rate">RandRate</span><span class="comment">=</span><span class="literal">25</span>
+
+<span class="section">[27]</span>
+<span class="control">Genre</span><span class="comment">=</span><span class="literal">0</span>
+<span class="control">Detail</span><span class="comment">=</span><span class="literal">4</span>
+<span class="control">Particular</span><span class="comment">=</span><span class="literal">1</span>
+<span class="rate">RandRate</span><span class="comment">=</span><span class="literal">25</span>
+
+<span class="section">[28]</span>
+<span class="control">Genre</span><span class="comment">=</span><span class="literal">0</span>
+<span class="control">Detail</span><span class="comment">=</span><span class="literal">4</span>
+<span class="control">Particular</span><span class="comment">=</span><span class="literal">2</span>
+<span class="rate">RandRate</span><span class="comment">=</span><span class="literal">25</span>
+
+<span class="section">[29]</span>
+<span class="control">Genre</span><span class="comment">=</span><span class="literal">0</span>
+<span class="control">Detail</span><span class="comment">=</span><span class="literal">4</span>
+<span class="control">Particular</span><span class="comment">=</span><span class="literal">3</span>
+<span class="rate">RandRate</span><span class="comment">=</span><span class="literal">25</span>
+
+<span class="section">[30]</span>
+<span class="control">Genre</span><span class="comment">=</span><span class="literal">0</span>
+<span class="control">Detail</span><span class="comment">=</span><span class="literal">4</span>
+<span class="control">Particular</span><span class="comment">=</span><span class="literal">4</span>
+<span class="rate">RandRate</span><span class="comment">=</span><span class="literal">25</span>
+
+<span class="section">[31]</span>
+<span class="control">Genre</span><span class="comment">=</span><span class="literal">0</span>
+<span class="control">Detail</span><span class="comment">=</span><span class="literal">4</span>
+<span class="control">Particular</span><span class="comment">=</span><span class="literal">5</span>
+<span class="rate">RandRate</span><span class="comment">=</span><span class="literal">25</span>
+
+<span class="section">[32]</span>
+<span class="control">Genre</span><span class="comment">=</span><span class="literal">3</span>
+<span class="control">Detail</span><span class="comment">=</span><span class="literal">41</span>
+<span class="control">Particular</span><span class="comment">=</span><span class="literal">0</span>
+<span class="rate">RandRate</span><span class="comment">=</span><span class="literal">10</span>
+
+<span class="section">[33]</span>
+<span class="control">Genre</span><span class="comment">=</span><span class="literal">3</span>
+<span class="control">Detail</span><span class="comment">=</span><span class="literal">79</span>
+<span class="control">Particular</span><span class="comment">=</span><span class="literal">0</span>
+<span class="rate">RandRate</span><span class="comment">=</span><span class="literal">10</span></code></pre></details></section>
+<section id="items" class="panel"><h2>Đủ 33 mục vật phẩm</h2><p><code>Genre / Detail / Particular</code> là bộ mã tra danh mục. Với Genre 0: trang bị/pháp bảo; Genre 1: thuốc; Genre 3: nguyên liệu/vật phẩm.</p><div class="scroll"><table><thead><tr><th>Mục</th><th>Nhóm</th><th>Loại đồ</th><th>Genre / Detail / Particular</th><th>RandRate</th><th>Tỷ lệ khi được xét</th></tr></thead><tbody><tr data-category="equip"><td><code>[1]</code></td><td><span class="tag equip">Trang bị</span></td><td>Đoản binh Giáp Sĩ</td><td><code>0 / 0 / 0</code></td><td class="rate">20000</td><td class="rate">2%</td></tr><tr data-category="equip"><td><code>[2]</code></td><td><span class="tag equip">Trang bị</span></td><td>Trường binh Giáp Sĩ</td><td><code>0 / 0 / 1</code></td><td class="rate">20000</td><td class="rate">2%</td></tr><tr data-category="equip"><td><code>[3]</code></td><td><span class="tag equip">Trang bị</span></td><td>Vũ khí Đạo Sĩ</td><td><code>0 / 0 / 2</code></td><td class="rate">25000</td><td class="rate">2.5%</td></tr><tr data-category="equip"><td><code>[4]</code></td><td><span class="tag equip">Trang bị</span></td><td>Vũ khí Dị Nhân</td><td><code>0 / 0 / 3</code></td><td class="rate">25000</td><td class="rate">2.5%</td></tr><tr data-category="equip"><td><code>[5]</code></td><td><span class="tag equip">Trang bị</span></td><td>Áo Giáp Sĩ</td><td><code>0 / 2 / 0</code></td><td class="rate">25000</td><td class="rate">2.5%</td></tr><tr data-category="equip"><td><code>[6]</code></td><td><span class="tag equip">Trang bị</span></td><td>Áo Đạo Sĩ</td><td><code>0 / 2 / 1</code></td><td class="rate">25000</td><td class="rate">2.5%</td></tr><tr data-category="equip"><td><code>[7]</code></td><td><span class="tag equip">Trang bị</span></td><td>Áo Dị Nhân</td><td><code>0 / 2 / 2</code></td><td class="rate">25000</td><td class="rate">2.5%</td></tr><tr data-category="equip"><td><code>[8]</code></td><td><span class="tag equip">Trang bị</span></td><td>Giày Giáp Sĩ</td><td><code>0 / 5 / 0</code></td><td class="rate">25000</td><td class="rate">2.5%</td></tr><tr data-category="equip"><td><code>[9]</code></td><td><span class="tag equip">Trang bị</span></td><td>Giày Đạo Sĩ</td><td><code>0 / 5 / 1</code></td><td class="rate">25000</td><td class="rate">2.5%</td></tr><tr data-category="equip"><td><code>[10]</code></td><td><span class="tag equip">Trang bị</span></td><td>Giày Dị Nhân</td><td><code>0 / 5 / 2</code></td><td class="rate">25000</td><td class="rate">2.5%</td></tr><tr data-category="equip"><td><code>[11]</code></td><td><span class="tag equip">Trang bị</span></td><td>Yêu đái Giáp Sĩ</td><td><code>0 / 6 / 0</code></td><td class="rate">25000</td><td class="rate">2.5%</td></tr><tr data-category="equip"><td><code>[12]</code></td><td><span class="tag equip">Trang bị</span></td><td>Yêu đái Đạo Sĩ</td><td><code>0 / 6 / 1</code></td><td class="rate">25000</td><td class="rate">2.5%</td></tr><tr data-category="equip"><td><code>[13]</code></td><td><span class="tag equip">Trang bị</span></td><td>Yêu đái Dị Nhân</td><td><code>0 / 6 / 2</code></td><td class="rate">25000</td><td class="rate">2.5%</td></tr><tr data-category="equip"><td><code>[14]</code></td><td><span class="tag equip">Trang bị</span></td><td>Mũ Giáp Sĩ</td><td><code>0 / 7 / 0</code></td><td class="rate">25000</td><td class="rate">2.5%</td></tr><tr data-category="equip"><td><code>[15]</code></td><td><span class="tag equip">Trang bị</span></td><td>Mũ Đạo Sĩ</td><td><code>0 / 7 / 1</code></td><td class="rate">25000</td><td class="rate">2.5%</td></tr><tr data-category="equip"><td><code>[16]</code></td><td><span class="tag equip">Trang bị</span></td><td>Mũ Dị Nhân</td><td><code>0 / 7 / 2</code></td><td class="rate">25000</td><td class="rate">2.5%</td></tr><tr data-category="equip"><td><code>[17]</code></td><td><span class="tag equip">Trang bị</span></td><td>Phi phong / Lệnh Giáp Sĩ</td><td><code>0 / 9 / 0</code></td><td class="rate">25000</td><td class="rate">2.5%</td></tr><tr data-category="equip"><td><code>[18]</code></td><td><span class="tag equip">Trang bị</span></td><td>Phi phong / Lệnh Đạo Sĩ</td><td><code>0 / 9 / 1</code></td><td class="rate">25000</td><td class="rate">2.5%</td></tr><tr data-category="equip"><td><code>[19]</code></td><td><span class="tag equip">Trang bị</span></td><td>Phi phong / Lệnh Dị Nhân</td><td><code>0 / 9 / 2</code></td><td class="rate">25000</td><td class="rate">2.5%</td></tr><tr data-category="potion"><td><code>[20]</code></td><td><span class="tag potion">Dược phẩm</span></td><td>Trung Hồng Đơn</td><td><code>1 / 1 / 0</code></td><td class="rate">50000</td><td class="rate">5%</td></tr><tr data-category="potion"><td><code>[21]</code></td><td><span class="tag potion">Dược phẩm</span></td><td>Trung Hoàn Đơn</td><td><code>1 / 4 / 0</code></td><td class="rate">50000</td><td class="rate">5%</td></tr><tr data-category="equip"><td><code>[22]</code></td><td><span class="tag equip">Trang bị</span></td><td>Đoản binh Giáp Sĩ — nhánh Particular 4</td><td><code>0 / 0 / 4</code></td><td class="rate">10</td><td class="rate">0.001%</td></tr><tr data-category="equip"><td><code>[23]</code></td><td><span class="tag equip">Trang bị</span></td><td>Trường binh Giáp Sĩ — nhánh Particular 5</td><td><code>0 / 0 / 5</code></td><td class="rate">10</td><td class="rate">0.001%</td></tr><tr data-category="equip"><td><code>[24]</code></td><td><span class="tag equip">Trang bị</span></td><td>Vũ khí Đạo Sĩ — nhánh Particular 6</td><td><code>0 / 0 / 6</code></td><td class="rate">10</td><td class="rate">0.001%</td></tr><tr data-category="equip"><td><code>[25]</code></td><td><span class="tag equip">Trang bị</span></td><td>Vũ khí Dị Nhân — nhánh Particular 7</td><td><code>0 / 0 / 7</code></td><td class="rate">10</td><td class="rate">0.001%</td></tr><tr data-category="fabao"><td><code>[26]</code></td><td><span class="tag fabao">Pháp bảo</span></td><td>Pháp bảo — nhánh Particular 0</td><td><code>0 / 4 / 0</code></td><td class="rate">25</td><td class="rate">0.0025%</td></tr><tr data-category="fabao"><td><code>[27]</code></td><td><span class="tag fabao">Pháp bảo</span></td><td>Pháp bảo — nhánh Particular 1</td><td><code>0 / 4 / 1</code></td><td class="rate">25</td><td class="rate">0.0025%</td></tr><tr data-category="fabao"><td><code>[28]</code></td><td><span class="tag fabao">Pháp bảo</span></td><td>Pháp bảo — nhánh Particular 2</td><td><code>0 / 4 / 2</code></td><td class="rate">25</td><td class="rate">0.0025%</td></tr><tr data-category="fabao"><td><code>[29]</code></td><td><span class="tag fabao">Pháp bảo</span></td><td>Pháp bảo — nhánh Particular 3</td><td><code>0 / 4 / 3</code></td><td class="rate">25</td><td class="rate">0.0025%</td></tr><tr data-category="fabao"><td><code>[30]</code></td><td><span class="tag fabao">Pháp bảo</span></td><td>Pháp bảo — nhánh Particular 4</td><td><code>0 / 4 / 4</code></td><td class="rate">25</td><td class="rate">0.0025%</td></tr><tr data-category="fabao"><td><code>[31]</code></td><td><span class="tag fabao">Pháp bảo</span></td><td>Pháp bảo — nhánh Particular 5</td><td><code>0 / 4 / 5</code></td><td class="rate">25</td><td class="rate">0.0025%</td></tr><tr data-category="material"><td><code>[32]</code></td><td><span class="tag material">Bảo thạch</span></td><td>Lam Bảo Thạch</td><td><code>3 / 41 / 0</code></td><td class="rate">10</td><td class="rate">0.001%</td></tr><tr data-category="material"><td><code>[33]</code></td><td><span class="tag material">Bảo thạch</span></td><td>Hồng Bảo Thạch</td><td><code>3 / 79 / 0</code></td><td class="rate">10</td><td class="rate">0.001%</td></tr></tbody></table></div><p class="muted">Particular 4–7 là các nhánh vũ khí riêng, không suy ra màu đồ chỉ từ tên. Ngoài bảng chung này, Thạch Thần/Lam Cốt còn có bảng phụ riêng như wuluoshen-blue.ini / siling-blue.ini.</p></section>
+<section id="blue" class="panel"><h2>NativeDropBlue.ini · [BlueMagicExperimental]</h2><div class="scroll"><table><thead><tr><th>Nhóm</th><th>Tham số</th><th>Giá trị hiện tại</th><th>Giải thích</th></tr></thead><tbody><tr data-category="control"><td><span class="tag control">Điều khiển</span></td><td><code class="control">Enabled</code></td><td class="value"><code>1</code></td><td>1 bật, 0 tắt lớp thêm thuộc tính. Không tắt toàn bộ vật phẩm rơi.</td></tr><tr data-category="control"><td><span class="tag control">Điều khiển</span></td><td><code class="control">Mode</code></td><td class="value"><code>OFFICIAL</code></td><td>Chế độ runtime đang dùng. OFFICIAL là nhãn nội bộ của bản mô phỏng, không xác nhận giống thuật toán Kingsoft gốc.</td></tr><tr data-category="control"><td><span class="tag control">Điều khiển</span></td><td><code class="control">NpcAllowlist</code></td><td class="value"><code>ALL</code></td><td>ALL áp dụng cho các NPC thuộc luồng rơi đồ này, gồm cả quái thường và quái xanh.</td></tr><tr data-category="source"><td><span class="tag source">Nguồn dữ liệu</span></td><td><code class="source">LimitTableVersion</code></td><td class="value"><code>0</code></td><td>0 tương ứng bảng giới hạn ở thư mục 000; 1 tương ứng 001. Phải khớp đường dẫn và checksum.</td></tr><tr data-category="magic"><td><span class="tag magic">Thuộc tính</span></td><td><code class="magic">MagicWeightGroup</code></td><td class="value"><code>0</code></td><td>Chọn nhóm trọng số 0, 1 hoặc 2 trong bảng thuộc tính; số lớn hơn không mặc định là đồ mạnh hơn.</td></tr><tr data-category="rate"><td><span class="tag rate">Tỷ lệ</span></td><td><code class="rate">BlueChancePerMillion</code></td><td class="value"><code>100000</code></td><td>Cơ hội nền trên 1.000.000. 100000 = 10%, 300000 = 30%. Sau đó còn nhân MagicRate của bảng rơi.</td></tr><tr data-category="magic"><td><span class="tag magic">Thuộc tính</span></td><td><code class="magic">MagicLineCount</code></td><td class="value"><code>3</code></td><td>Số dòng thuộc tính mong muốn, hợp lệ 1–6. Số thực tế vẫn chịu bảng giới hạn và tập thuộc tính hợp lệ.</td></tr><tr data-category="magic"><td><span class="tag magic">Thuộc tính</span></td><td><code class="magic">LineCountRule</code></td><td class="value"><code>UP_TO_CONFIG_AND_CATALOG_LIMIT</code></td><td>UP_TO_CONFIG_AND_CATALOG_LIMIT cho phép giảm số dòng khi không đủ giới hạn hoặc ứng viên; EXACT yêu cầu đúng số dòng.</td></tr><tr data-category="magic"><td><span class="tag magic">Thuộc tính</span></td><td><code class="magic">DuplicateAttributeRule</code></td><td class="value"><code>UNIQUE_TYPE</code></td><td>UNIQUE_TYPE: không chọn lặp cùng loại thuộc tính trong một lần sinh đồ.</td></tr><tr data-category="magic"><td><span class="tag magic">Thuộc tính</span></td><td><code class="magic">BlankElementRule</code></td><td class="value"><code>UNRESTRICTED</code></td><td>UNRESTRICTED: dòng không ghi ngũ hành dùng được cho mọi ngũ hành. Dòng có giới hạn vẫn phải khớp.</td></tr><tr data-category="level"><td><span class="tag level">Bậc trang bị</span></td><td><code class="level">AttributeLevelRule</code></td><td class="value"><code>AT_MOST_ITEM_TIER</code></td><td>AT_MOST_ITEM_TIER: bậc thuộc tính không vượt bậc trang bị.</td></tr><tr data-category="control"><td><span class="tag control">Điều khiển</span></td><td><code class="control">Seed</code></td><td class="value"><code>20261018</code></td><td>Giá trị khởi tạo RNG; không phải hệ số may mắn. Code còn phối hợp seed của lượt rơi và mã vật phẩm.</td></tr><tr data-category="source"><td><span class="tag source">Nguồn dữ liệu</span></td><td><code class="source">MagicPathHex</code></td><td class="value"><code>5c73657474696e67735c6974656d5c3030305c6d61676963617474726962a3b12e747874</code></td><td>Đường dẫn dạng hex tới bảng thuộc tính, hiện thuộc settings/item/000/. Không phải tỷ lệ rơi.</td></tr><tr data-category="source"><td><span class="tag source">Nguồn dữ liệu</span></td><td><code class="source">MagicSha256</code></td><td class="value"><code>5eb9f38f13c139de8cb28c7127af760d2405c65c8cc22e6010ef2b89f5447f62</code></td><td>Checksum SHA-256 của nội dung bảng thuộc tính. Không khớp thì lớp thuộc tính bị chặn.</td></tr><tr data-category="source"><td><span class="tag source">Nguồn dữ liệu</span></td><td><code class="source">LimitPathHex</code></td><td class="value"><code>5c73657474696e67735c6974656d5c3030305cc0b6d7b0c4a7b7a8caf4d0d4b5f4c2e4cfded6c6b1ed2e747874</code></td><td>Đường dẫn dạng hex tới bảng giới hạn số dòng theo loại và bậc trang bị.</td></tr><tr data-category="source"><td><span class="tag source">Nguồn dữ liệu</span></td><td><code class="source">LimitSha256</code></td><td class="value"><code>4417b193819d606c24c6f3bf6c4d3e6a701c4dd06c4cbc2558ecd158045bc098</code></td><td>Checksum SHA-256 của bảng giới hạn. Phải cập nhật đúng nếu thay nội dung bảng nguồn.</td></tr></tbody></table></div><p class="notice"><b>Phạm vi:</b> Chỉ thêm thuộc tính vào trang bị trắng hợp lệ. Món đã có thuộc tính được giữ. Không phải mọi loại đều được hỗ trợ; ví dụ pháp bảo chưa có ánh xạ hợp lệ trong bảng giới hạn của lớp này. Đặt 100% cũng không khiến mỗi quái chắc chắn rơi đồ có thuộc tính.</p><details><summary>Xem nguyên văn cấu hình có tô màu</summary><pre><code><span class="comment">; Loose Native Drop v1 official blue settings.</span>
+<span class="section">[BlueMagicExperimental]</span>
+<span class="control">Enabled</span><span class="comment">=</span><span class="literal">1</span>
+<span class="control">Mode</span><span class="comment">=</span><span class="literal">OFFICIAL</span>
+<span class="control">NpcAllowlist</span><span class="comment">=</span><span class="literal">ALL</span>
+<span class="source">LimitTableVersion</span><span class="comment">=</span><span class="literal">0</span>
+<span class="magic">MagicWeightGroup</span><span class="comment">=</span><span class="literal">0</span>
+<span class="rate">BlueChancePerMillion</span><span class="comment">=</span><span class="literal">100000</span>
+<span class="magic">MagicLineCount</span><span class="comment">=</span><span class="literal">3</span>
+<span class="magic">LineCountRule</span><span class="comment">=</span><span class="literal">UP_TO_CONFIG_AND_CATALOG_LIMIT</span>
+<span class="magic">DuplicateAttributeRule</span><span class="comment">=</span><span class="literal">UNIQUE_TYPE</span>
+<span class="magic">BlankElementRule</span><span class="comment">=</span><span class="literal">UNRESTRICTED</span>
+<span class="level">AttributeLevelRule</span><span class="comment">=</span><span class="literal">AT_MOST_ITEM_TIER</span>
+<span class="control">Seed</span><span class="comment">=</span><span class="literal">20261018</span>
+<span class="source">MagicPathHex</span><span class="comment">=</span><span class="literal">5c73657474696e67735c6974656d5c3030305c6d61676963617474726962a3b12e747874</span>
+<span class="source">MagicSha256</span><span class="comment">=</span><span class="literal">5eb9f38f13c139de8cb28c7127af760d2405c65c8cc22e6010ef2b89f5447f62</span>
+<span class="source">LimitPathHex</span><span class="comment">=</span><span class="literal">5c73657474696e67735c6974656d5c3030305cc0b6d7b0c4a7b7a8caf4d0d4b5f4c2e4cfded6c6b1ed2e747874</span>
+<span class="source">LimitSha256</span><span class="comment">=</span><span class="literal">4417b193819d606c24c6f3bf6c4d3e6a701c4dd06c4cbc2558ecd158045bc098</span></code></pre></details></section>
+<section id="calc" class="panel"><h2>Tính thử tỷ lệ</h2><p class="muted">Các ô dưới chỉ tính minh họa trong trình duyệt, không ghi vào file INI.</p><div class="grid"><div><h3 class="rate">Tỷ lệ một mục được xét</h3><label>RandRate<input id="randRate" type="number" min="0" max="1000000" value="20000"></label><label>RandRange<input id="randRange" type="number" min="1" value="1000000"></label><output id="dropResult" class="result" aria-live="polite"></output><p><code>RandRate ÷ RandRange × 100%</code></p><small>Chưa tính việc mục trước đã trúng và chạm giới hạn số món.</small></div><div><h3 class="magic">Cơ hội thêm thuộc tính</h3><label>BlueChancePerMillion<input id="baseChance" type="number" min="0" max="1000000" value="100000"></label><label>MagicRate<input id="magicRate" type="number" min="0" value="1"></label><output id="blueResult" class="result" aria-live="polite"></output><p><code>min(1.000.000, mức nền × hệ số) ÷ 1.000.000 × 100%</code></p><small>Đây là cơ hội sau khi đã tạo được trang bị trắng hợp lệ.</small></div></div></section>
+<section class="panel"><h2>Chọn đúng tham số cần sửa</h2><div class="scroll"><table><thead><tr><th>Mục đích</th><th>Tham số</th></tr></thead><tbody><tr data-category="rate"><td>Tăng một loại đồ rơi</td><td class="rate">RandRate của mục tương ứng</td></tr><tr data-category="magic"><td>Tăng thuộc tính cho đồ từ bảng quái xanh</td><td class="magic">MagicRate trong npcdroprate-blue.ini</td></tr><tr data-category="rate"><td>Tăng cơ hội nền cho toàn luồng quái thường/xanh</td><td class="rate">BlueChancePerMillion trong NativeDropBlue.ini</td></tr><tr data-category="magic"><td>Tăng số dòng thuộc tính</td><td class="magic">MagicLineCount, vẫn chịu giới hạn danh mục</td></tr><tr data-category="level"><td>Đổi bậc trang bị rơi</td><td class="level">MinItemLevel… / MaxItemLevel…</td></tr></tbody></table></div><p>Sao lưu trước khi chỉnh, giữ nguyên mã hóa của INI và khởi động lại world sau khi nhân vật đã thoát để nạp cấu hình chắc chắn.</p></section>
+<footer class="muted"><p>Tài liệu tự chứa, không tải thư viện hoặc gửi dữ liệu ra mạng. Giá trị là ảnh chụp tại lúc tạo; sửa INI sau đó không tự cập nhật trang này.</p><p>Nguồn code: <code>LegacyDropExecutionPolicy.h</code>, <code>LegacyDropMonsterEquipmentResolver.h</code>, <code>P2BlueDropRuntime.h</code>, <code>BlueMagicTestPolicy.h</code>.</p></footer>
+<script>
+const search=document.getElementById('search'), category=document.getElementById('category');
+function filterRows(){const q=search.value.trim().toLocaleLowerCase('vi'),c=category.value;document.querySelectorAll('tbody tr').forEach(row=>{row.hidden=!!((q&&!row.textContent.toLocaleLowerCase('vi').includes(q))||(c&&row.dataset.category!==c));});}
+search.addEventListener('input',filterRows);category.addEventListener('change',filterRows);
+function number(id){const el=document.getElementById(id);return el.value.trim()===''?NaN:Number(el.value);}
+function pct(n){return new Intl.NumberFormat('vi-VN',{maximumFractionDigits:6}).format(n)+'%';}
+function calculate(){const rate=number('randRate'),range=number('randRange'),base=number('baseChance'),magic=number('magicRate');document.getElementById('dropResult').textContent=Number.isInteger(rate)&&Number.isInteger(range)&&range>0&&rate>=0&&rate<=range?pct(rate/range*100):'Giá trị không hợp lệ';document.getElementById('blueResult').textContent=Number.isInteger(base)&&Number.isInteger(magic)&&base>=0&&base<=1000000&&magic>=0?pct(Math.min(1000000,base*magic)/1000000*100):'Giá trị không hợp lệ';}
+['randRate','randRange','baseChance','magicRate'].forEach(id=>document.getElementById(id).addEventListener('input',calculate));document.getElementById('print').addEventListener('click',()=>window.print());calculate();
+</script></main></body></html>

@@ -1,0 +1,55 @@
+{
+  "status": "approved_reconstruction_not_recovered_original",
+  "originalDataSearch": "All 93668 decodable small entries across configured original PAK versions; 654 unique skill level scripts; neither exact original formula recovered.",
+  "skills": [
+    {
+      "id": 1500,
+      "name": "Bối Thủy Nhất Chiến",
+      "maxRank": 10,
+      "durationTicks": 540,
+      "cooldownTicks": 540,
+      "attributes": {
+        "lifereplenish_v": {
+          "base": 5,
+          "perRank": 5
+        },
+        "addexdefense_v": {
+          "base": 20,
+          "perRank": 10
+        }
+      },
+      "mana": {
+        "base": 30,
+        "perRank": 5
+      },
+      "reference": "Attribute identities and cooldown from original skill row. Regeneration/defense progression matches the surviving Guardian Lua pattern, adapted to the original 1500 cooldown. This is not evidence of original 1500 values."
+    },
+    {
+      "id": 1502,
+      "name": "Phong Hỏa Lang Yên",
+      "maxRank": 10,
+      "durationTicks": 540,
+      "cooldownTicks": 810,
+      "attributes": {
+        "lifemax_v": {
+          "base": 0,
+          "perRank": 100
+        },
+        "attackratingenhance_p": {
+          "base": 0,
+          "perRank": 2
+        },
+        "addphysicsdamage_p": {
+          "base": 0,
+          "perRank": 3
+        }
+      },
+      "mana": {
+        "base": 60,
+        "perRank": 5
+      },
+      "reference": "Attribute identities and cooldown from original skill row. Proposed conservative values; original numeric progression unknown."
+    }
+  ],
+  "approval": "User explicitly chose editable replacement formulas on 2026-11-10."
+}

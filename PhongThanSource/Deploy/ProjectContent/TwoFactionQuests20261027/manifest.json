@@ -1,0 +1,407 @@
+{
+  "files": [
+    {
+      "role": "Client",
+      "relative": "loose_index.bin",
+      "before": "aee722e0acd2450b65a78c1b99283ca15659124e6cc5f8d58e1e8517dc4d35ca",
+      "sha256": "0cb074043b6c4f6b7306ce97be45ec69b1cfdcf2f874550d8154fc094595ff38"
+    },
+    {
+      "role": "Client",
+      "relative": "settings/item/001/magicscript.txt",
+      "before": "e3617bd59a331eeee7f1f100be13a6b0efd51c8741b6528ed072b1ebebc39021",
+      "sha256": "1330ef159509d1e75854e56216006546995a38b77fbb6e530b647f399cce3800"
+    },
+    {
+      "role": "Client",
+      "relative": "Ui/ui3/taskinfo.ini",
+      "before": "4fa9092b495717fb5c7ea617ce6c7636a493c4600384fda4ca4940a6773ca35d",
+      "sha256": "141853e2c83885ca43752778b472ba1adcde2fd459fae3ee9c28f13664ca9efc"
+    },
+    {
+      "role": "Client",
+      "relative": "Ui/ui4/taskinfo.ini",
+      "before": "e1cca8215d1b597578c27be90482b83a32dc7cb63c567165e4182e505301ec47",
+      "sha256": "7da44ff6623144c35a94fb93d5990922757c504ed4f8fa21d6c935319f762168"
+    },
+    {
+      "role": "Server",
+      "relative": "CoreServer.dll",
+      "before": "cd5ad5a83fcd2a4d8f9d72289fbe07df416116bc27a951cb6fb865067196ff41",
+      "sha256": "dba1cd1a6db0f875ef086794f53a448250e184d6d019079d053ceb29e7f9e93c"
+    },
+    {
+      "role": "Server",
+      "relative": "loose_index.bin",
+      "before": "aeb63c5491f61d8631a7aae728f6f721bce447134602cd354f801e8b3f96fd35",
+      "sha256": "6f5bbe9f85b7104fa0fe5a863500d78305e5f9e70ac96aa2076687092ec18f38"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/giapsi/death_13.lua",
+      "before": "9cae19f5c1dd0328d362e5e5fbf0d92c4be3d213a2c0fe62846f8b6798c232ea",
+      "sha256": "5ac94be241bd7edc83dbe7edf28b85309fc120f5ee5f2d0b519ef30a5bc87595"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/giapsi/death_18.lua",
+      "before": "16d7497c45636c946a4e5c802be037cbb48f8204723933ac0cf8961598a21dcb",
+      "sha256": "fbd58bc45673607d256954d97ff3699f816c13d4146ca237a706cd9fd70ca814"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/giapsi/death_7.lua",
+      "before": "50a9f21644ba9f8da2f4186ae75d33a83d42e854a522137095bcfc617737023d",
+      "sha256": "62bab5429a90f77fde64dc402b808032f0b69fd482062f44894c75dd99be0341"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/giapsi/item_142.lua",
+      "before": "3f68aa8119fa83cfc3e9cf80db2b97d88e7117d7fb73b11f8d597c1a6d338708",
+      "sha256": "fa430c51a16064dac0ffa816efac41e4e10ba1a997e1d6d1d32cef6b24927a8b"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/giapsi/item_181.lua",
+      "before": "7172955d5c13da4ad12c1357dd8977e6e89061d2155238076a1950fca3ceebb1",
+      "sha256": "1f7507cbf8bd66b3e1d351bd9f8ec0791eeb9863b4cff8ab18e80f964353e8c0"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/giapsi/item_34.lua",
+      "before": "530df939bc991afebfb0d2c9af241bc27d1bcd750f258981880b1241ec94a1b9",
+      "sha256": "8dadd92e398084b727d6514cf093c22adeb9c4330fe9b0d3fd395be4aaf53cf2"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/giapsi/item_9201.lua",
+      "before": "8cd73e8bd40969c207031b0c45324e7881595e029a2b20361f2ae9233e3a3f53",
+      "sha256": "173eb2edee4ae07e40fadbc0195d4c6edd2c6e4c1f019f74ed7d1f5135875a29"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/giapsi/npc_cuudi.lua",
+      "before": "655a91f0928f312f00a3095815c9299062c3c2ce5434c65bb3be58c26041099e",
+      "sha256": "6ed935e68e97f2a41329ccd5af79b0331bbe23173b714245f3b5c8b3ba74b2b7"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/giapsi/npc_dac_future.lua",
+      "before": "9596c4ac628041e15a171731c912abd2c1d99641770cbab770f0ced9051228f5",
+      "sha256": "8486a1575bf440e5c47cbb2209e827f0dde379288ef0acd5d91da2a3df2ea1d1"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/giapsi/npc_dac_young.lua",
+      "before": "d925e32a7943f9d674f95117bb6fbd048289c54c762d5b81fa0044274dc72552",
+      "sha256": "6b63c756d0fe532591dae1d4b46ab125d9b45467f565bac0b66d4cb7d670e163"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/giapsi/npc_dang.lua",
+      "before": "15e1b2d6a83f8f4b025d16200f33d19f7179932628ced09bec7552df63aca3af",
+      "sha256": "ead97832b2eb2077b4d994e5ebebbd0dc47fd082fb28968d8d5e16432841890b"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/giapsi/npc_doctor_dong.lua",
+      "before": "e6869ad06f7b8cc9caa7ca2a64c5fc4429d264721e044ae204611d7b097e7be2",
+      "sha256": "0410897834e9faa50fff51a3f7960a3c93412552e5131e3992f54e5841b1a7c0"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/giapsi/npc_doctor_tam.lua",
+      "before": "cebe6048feed9e83ae066a0d1c8a77a18a0aed83d40059a6383e0ebf182c295f",
+      "sha256": "3f8fa4e66384ff1498514c2d99c0305b7078b3e81c441186bd7c83566d189f2f"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/giapsi/npc_khuong_young.lua",
+      "before": "da9c23a46f5d8b4ed39740cea5c006041bb8f29bf397042b7039a96d6d9eae0b",
+      "sha256": "2f6d90cb8aa3f7aa3770018d83af2430e9af9e723d10fe1b48896171960adb77"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/giapsi/npc_merchant.lua",
+      "before": "781cb005ca2f13ab0933c11eea20606ac4b041666bd135694cb7038f2c3a490e",
+      "sha256": "4fa49646912b39e11bde7eb0f8b28fff379c1a57a2a4c1d7ae78a073bb88cb72"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/giapsi/npc_nguyen.lua",
+      "before": "d6b96089da2daf6b54e41e19a28dd1e44044e59d92a94e2408139deee56afbf9",
+      "sha256": "55b96b48ddc8e24bbec3ffb46978216dd1eda996f2362dbfcc7abcdacb862cc0"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/giapsi/npc_tay.lua",
+      "before": "c2f9b4a6d9f66d38565b688973c72f4424628098d0376901524e4c4cce557167",
+      "sha256": "d0d49cb1ab7af76c4cc11889c0614937e9ddd1d72b1d773cefa158918eb93fc6"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/giapsi/npc_thong.lua",
+      "before": "c348d1ad1d1f0c9640e1e8f6738eae386165bc3947441b00af8ff8f8ece2cca8",
+      "sha256": "7992e775816151759294631b348dda90691546e7f760e96efbd8de2c29c6f098"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_restore/1003_02.lua",
+      "before": "002314e1cfb619e91993a1f294d1e97d8feebeeaf380c43c6d5e07fc130eb953",
+      "sha256": "dff082a70b86aac3bc2b6c8955db815bee2374d014506c14b3b4a9f11a2b5b9d"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_restore/1003_03.lua",
+      "before": "014405354b1012e990bd297684ab28ac1abde7f3d9d40ceb1219d03abfdd8588",
+      "sha256": "146364a9b855c4207291060db5b87dc63345aeb71a6b2d09c5cb5d9bc6e7326f"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_restore/1003_15.lua",
+      "before": "a20d2eb35814b5a0d25ee26bbf2df13f815e5faafdad9f8c1aac93d65fe55c8c",
+      "sha256": "52e7e18785863d57fc02b4c3a260da41bf306eedc4ba33828f24125319d2278d"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_restore/1004_00.lua",
+      "before": "7fe8aebe08e319e4af6bb983663ad7a75ba98d0d1d6929d572ab1175bcf811d4",
+      "sha256": "7ac78aa5f2f0369da59f15e2a971176316bda3eb858352c49ec42f8293b5eac6"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_restore/1004_01.lua",
+      "before": "ed686fcc613b99d38389850baa14142ad3a4ec4ee230077309778677866c44ed",
+      "sha256": "911c4ca513d6d079739d6b5d544c9263dd2aa14c231ee114f78883038cde2881"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_restore/1004_02.lua",
+      "before": "de33e830e49f0be2a5afa92d5c60300e1bbd0b7ba0c2cc9362c68ef105c56a2c",
+      "sha256": "e7814dc0d3d3fc85f369110c3667b75872dba184aa8595615bdbf1565d9bbdd3"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_restore/1004_03.lua",
+      "before": "cacdcc842c360238a5bd7a4e51d5b720037f47ce21754e708253ab9cf794e8d0",
+      "sha256": "0046e57e4649b5fe77bf04770b4e2630db268465036909442d8cba7bf1584623"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_restore/1004_04.lua",
+      "before": "bb1a14d3d5860d5495eb1e2fb375e246f6ea15db572eee5b3582fc2d5671cb46",
+      "sha256": "acbbf6a92ef09f71d91c0acd37a73ee3ca7e80773ca12a940979ba6db3962b05"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_restore/1004_07.lua",
+      "before": "01b112c71862049c213e2d1618e3d82f568c50c509a39bf2e0e17e427b3848d4",
+      "sha256": "8dd5c39097e224daf3ecd30f07f7e720977757ab676a7a8e448311601c57cedd"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_restore/1004_15.lua",
+      "before": "4ef979c43aea61372ffce9f5510a89c5217356bb21b2bc77c7297fce70212f79",
+      "sha256": "3ee725b1fceed39f481205fcadbf753d871fcc2ef3498f297f517cc51e34d373"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_restore/1015_01.lua",
+      "before": "c55ca2ad6f006efa2e097a68cab5e6946089842043f7ab2ba3e9a7d680e31243",
+      "sha256": "567ec678f9735af17f2b948f421c896aa657b423cf94a9ae0537cf29bfda246f"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_restore/1015_03.lua",
+      "before": "f63b4a0d0271184c33da750915510df556988dc8d4f04541202b19742ab4c91f",
+      "sha256": "4bef4479ba41611a47f696397c9b689bde1ed77084c197e42a93b0367b210b7c"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_restore/1020_02.lua",
+      "before": "87d7e6cb3a2b1c7b59ed70b32ba6fd3a7de2d0fc4c7e9200cd21958a0447b85c",
+      "sha256": "9285763400e70ad8c089892377044961191beda890bcfe683258cad3a5078adb"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_restore/1021_00.lua",
+      "before": "0ce22e37d91360c44c337add86c3f352ae5e22ef26e66e44e37801cc70cb0201",
+      "sha256": "1c1f7ac6ad1f3029d23e38feed062cabe986edc4165aca5161fc0e2e70a766c1"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_restore/1021_01.lua",
+      "before": "71b498e9acd62dce7f4c393849f4b32df62d914f9afd728c192152af74271fe3",
+      "sha256": "33c5965ab08c1f54c3fb548e1cfaf38db9f3b804a5814cb2196b20564f0e7dac"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_restore/1021_02.lua",
+      "before": "0666fd2854606fe2726a0f712502b3c978fbd846ffa7b5252e21510d9083b8ea",
+      "sha256": "6ea2a1d65e3a413f170344b3e2e1f19e13b1076b5631929e013e4cc87e33ddc6"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_restore/1021_07.lua",
+      "before": "3ec3dc536ab776aa107fb33eff6780585a2c8b26886d205caa9086172b870d4b",
+      "sha256": "2b1ea19378fd7d309c463673c04c89a8012be73ef702bbed28da2964442ade50"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_restore/1021_15.lua",
+      "before": "34930c5507258b412f7f51142b3a7310c802fea41a770fb470eb74aa3bff912e",
+      "sha256": "e57a5aba7bea4243ca994f413ffd4d70bbb853e8b019730f88a1fc0407e6920b"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_restore/1021_16.lua",
+      "before": "c4f0e855eabcb762f6b31cfbb5de22a35d8d287acd2b4b602f4565e8b001c92a",
+      "sha256": "786d7efdb0bdddb4fecdbae25e5691bd048d66fa1115456814b27025159bac90"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_restore/1065_00.lua",
+      "before": "92610d7cb5d4537dbaf0a46a8f2114a6710c2f903f1b804f25ff7b3eff08fa23",
+      "sha256": "318f41c6281e1dc2b52f3bf4155db02e3cd4d44bb3bdb7852e07d0392a735d8b"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/shared/caogiac.lua",
+      "before": "decbf7f01ecf9c8c86db0d47aab7af27f4428fbf283dfe042aaf4e765c110304",
+      "sha256": "198e58c2622cd5e33adfd020b956b60cebd4111fa6db4998433ffa2fa6d2a01e"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/two_faction/da_bao.lua",
+      "before": null,
+      "sha256": "fa41e228cf03ad9160404c827c12745e7001c323b24f391b528133d98747ca99"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/two_faction/hien_vien.lua",
+      "before": null,
+      "sha256": "72bc35ed1e4fb69bbc1c166bf874577d616761a751f8be461d7dfff708df44e9"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/two_faction/hinh_thien.lua",
+      "before": null,
+      "sha256": "96332284e6c7a03cbca8cb1e0a544662f93a73139e9ea2be89c0c5e710a64a56"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/two_faction/journal.lua",
+      "before": null,
+      "sha256": "8daf96cde4013486edbcb2c80f5a26cb256362688e1d1a9c824bbe521806ab67"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/two_faction/khoa_phu.lua",
+      "before": null,
+      "sha256": "cfdcaa09efe7fbc363cd7f9811b2bb1608889258bb6e8ef389bb89fc7c38ccce"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/two_faction/ngo_long.lua",
+      "before": null,
+      "sha256": "27e0581118e684474e5db75fddf4baae6d8b30cb2aad030efac83e29440b6489"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/two_faction/toc_nhan.lua",
+      "before": null,
+      "sha256": "eb32cc776e8e0d3365da09b8524e7bb12545bd2b7840c94cfab2ca87a5f6084a"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/two_faction/xi_vuu.lua",
+      "before": null,
+      "sha256": "ce0a0077427283db6ebdec63113df751a2eaf4e989ab3579b99ab425e3c03c9e"
+    },
+    {
+      "role": "Server",
+      "relative": "script/ÁúÌ×/Ò°ÍâÒ½Éú-ÃÏ½ò.lua",
+      "before": "9d0dc8cdcebe79b392a80c09ebcfb53f2d021896f2380f450bfb2bbb8d538b94",
+      "sha256": "83467ba6b7ad0e46d2339c61296bc6a47501942be9494c00f9fb3acd4d4c778c"
+    },
+    {
+      "role": "Server",
+      "relative": "script/äü¹Ø/ÎÅÌ«Ê¦.lua",
+      "before": "df54d0b9db35f8fa1639d1dfe0cadeca46ad8394e51e7eecfec7b6eb0aa68a9f",
+      "sha256": "7aa684e0175912233ab2c374f7251510577db904886d23a517c5e651a1f58138"
+    },
+    {
+      "role": "Server",
+      "relative": "script/Î÷áª/½ª×ÓÑÀ.lua",
+      "before": "fdb5bbab4b2b434fa33284b374caeb64a3486af02ae50e430b6f04c416b1face",
+      "sha256": "095aa968c39aab1736fb3a607e7e8536a87cf2dab0c2365a3cde469a181aceb4"
+    },
+    {
+      "role": "Server",
+      "relative": "script/Î÷áª/À×Õð×Ó.lua",
+      "before": "131cfd1429759d79f3b542ce3cf31a5f1eb21f6c9da510f77e0949ac851a4434",
+      "sha256": "4027fd97faab41d518b663f803eea3f0a3c52680d0cffbefe94fafc563364e03"
+    },
+    {
+      "role": "Server",
+      "relative": "script/ò¿ÓÈÄ¹/¸ß¾õ.lua",
+      "before": "3654215e7322d781ee99044d820c1a414cdd01678ec5a6c68ef95feb1bbb6fb4",
+      "sha256": "733e59fb29595ce34f9f16deaae79ae294293b5074b7f17cef29d44cc7bf6257"
+    },
+    {
+      "role": "Server",
+      "relative": "script/ÓñÐé¹¬/³à¾«×Ó.lua",
+      "before": "84ce75e85105fabb47296154a22fceacbe26d12829ef7406c0778015dd3fd5c5",
+      "sha256": "c39197a0093c7055a09af02bb373d8f629edc9688cf5bf242623b8dc8bc2c1d5"
+    },
+    {
+      "role": "Server",
+      "relative": "script/ÓñÐé¹¬/´Èº½µÀÈË.lua",
+      "before": "0f926b42f94081478a6dfd4df92bbf719c950e90c9465e3629fd4e32190255bf",
+      "sha256": "a0d8642c77c93f39c33e1f23bebfb667d84ee65b3de350070458ffe3dfe57ce5"
+    },
+    {
+      "role": "Server",
+      "relative": "script/ÓñÐé¹¬/»ÆÁúÕæÈË.lua",
+      "before": "5dd168bdda97d54756fdb59d0041420e1478af11a33428a07379cc92ec3e0702",
+      "sha256": "02e64d9266f598edc906dbdbac3391167ebf0354d752a826493d2a9097b770ba"
+    },
+    {
+      "role": "Server",
+      "relative": "script/ÓñÐé¹¬/È¼µÆµÀÈË.lua",
+      "before": "808022b3b07078f28831671d452504ab095aed8b115bb8bd17fc82cf6ab762dd",
+      "sha256": "475a699e3d3e5f3a03a162adbe5cf305305068629b7541e1c8841e09165c9b64"
+    },
+    {
+      "role": "Server",
+      "relative": "script/ÓñÐé¹¬/ÔÆÖÐ×Ó.lua",
+      "before": "9661a5b621fc404bb6aa9abe71aab34ba2e9041116c3d486b5cf0a989f9bf05d",
+      "sha256": "3c67f01629368199d9a49629681ce1ef709f678b894128fefe8ee4beae29e521"
+    },
+    {
+      "role": "Server",
+      "relative": "settings/item/001/magicscript.txt",
+      "before": "e3617bd59a331eeee7f1f100be13a6b0efd51c8741b6528ed072b1ebebc39021",
+      "sha256": "1330ef159509d1e75854e56216006546995a38b77fbb6e530b647f399cce3800"
+    },
+    {
+      "role": "Server",
+      "relative": "settings/phongthan/npc_regions/1004/v_100/097_npc_s.dat",
+      "before": "2655cb75e0accb8ab720f33e7d1ba09a84e0fe0dbee1220028c925d896c5190a",
+      "sha256": "c8e762da8d0335d49c620c5de2edd050425fe3436675acf10345821fde2d48fd"
+    },
+    {
+      "role": "Server",
+      "relative": "settings/phongthan/npc_regions/1004/v_102/100_region_s.dat",
+      "before": "8a1e2f17bae651cfa5a2eeeeab0a48508975e13dac3530698d850430ed79315a",
+      "sha256": "51a8a7210e1d76aa1cbb79ed465bd038d8105192961fd0861316531d6425075a"
+    },
+    {
+      "role": "completion",
+      "relative": "studio_effective_overrides.json",
+      "before": "8cffd24aa9314256e01b6343424c466b2d06051b0304ce69fe25d7fc19ee841f",
+      "sha256": "30afb8b9b25ae2574288ae1d62e063019fb7c9d463169d78276d9561523030a1"
+    }
+  ],
+  "scope": "Scoped Dao Si and Di Nhan beginner, side and main quests; original Lua audit, typed rewards and journal updates"
+}

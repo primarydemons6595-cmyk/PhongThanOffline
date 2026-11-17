@@ -1,0 +1,229 @@
+{
+  "files": [
+    {
+      "relative": "script/phongthan/commerce/runtime.lua",
+      "sha256": "7978e7460042b2993b8a0f1550eaefaff9dcfa2ec29bdf22907865d4e0ff918d",
+      "before": null
+    },
+    {
+      "relative": "settings/phongthan/npc_regions/1002/v_098/109_npc_s.dat",
+      "sha256": "5f001b0e40ab74b281af8330dd4407a3aee31316580c4e0381fb1f54fded1b01",
+      "before": "ebb17bd6618eb355a99bbd50f41435c35464b201772a9dc87da38790b290d37a"
+    },
+    {
+      "relative": "script/phongthan/npc_restore/1002_13.lua",
+      "sha256": "d409306e1a8fb8e8edd27a37423603f4df5a80bb9a24464086740b6702d5278c",
+      "before": "e85d7a54269961c096343fc79cfe89a065f49e65279d07a8d4aed5d0ce1768cc"
+    },
+    {
+      "relative": "settings/phongthan/npc_regions/1003/v_100/100_npc_s.dat",
+      "sha256": "4fed64c174ff6040c1dacc16036c88e4a17e63a32a5bfe47be7667e1a72a73d3",
+      "before": "278e4e4734a0b4751f5a135ee90951733693dd1ee0778929b86696d866e75f0d"
+    },
+    {
+      "relative": "script/phongthan/npc_restore/1003_08.lua",
+      "sha256": "2f38920e2f736eb357968b3227e09847299005932253fa49d46d75a1eb9a1eaa",
+      "before": "dfe8c87d2a5629e7cfd373a83d8b49263775ccb6984977f337ef4ecef870b347"
+    },
+    {
+      "relative": "settings/phongthan/npc_regions/1004/v_104/097_npc_s.dat",
+      "sha256": "1788aef3188adfb77948316daeac9c2d1880c43f3cf2591260d57d11d5d2298b",
+      "before": "f7982893ed5d9028a86d4739305f059610e78077c72d968ec1d7ce27157b374a"
+    },
+    {
+      "relative": "script/phongthan/npc_restore/1004_09.lua",
+      "sha256": "2fed079928207727d865bd12087337d63079aa28d3d2a7da0415c40609f61dec",
+      "before": "5431ef3eb8fa5f43ab8e30a40d433eb7354dc13562824b480c7502aef1d0c4d9"
+    },
+    {
+      "relative": "settings/phongthan/npc_regions/1021/v_099/105_npc_s.dat",
+      "sha256": "fa5601be426b10ff11d53caf34f9a41b76a0da3447f8251b4c692744f140f442",
+      "before": "dd2a76579831cde8f733c70d4d6b5a91b9a6a814988cb5f5e364be8cb2413917"
+    },
+    {
+      "relative": "script/phongthan/npc_restore/1021_12.lua",
+      "sha256": "96cd56ac9ebcfc3139203bd655992f1461ee78956cd7b5af4799202a8414d6fb",
+      "before": "1e2bebd5e40933f5eb3a2838dc819384ca8e7c1aa44b87708bd29dd4f8202979"
+    },
+    {
+      "relative": "settings/phongthan/npc_regions/1020/v_094/097_region_s.dat",
+      "sha256": "51e531b9364319b71a2ba725ac010e4edda960b393f242459072014962d7ad5b",
+      "before": "0f247ac714375195e4d3b1464ff09c24cd680cbdd18ca60af42ee58d75d98612"
+    },
+    {
+      "relative": "script/phongthan/npc_restore/1020_10.lua",
+      "sha256": "dd3261456aa836ffbd14487acd4f325ed3e11ad00a07af476d54e0a15ec14213",
+      "before": "096eb7751515e0eda08ef6677ac019d3f59632e704f2476bac46bc65d7afed7d"
+    },
+    {
+      "relative": "settings/phongthan/npc_regions/1024/v_099/100_region_s.dat",
+      "sha256": "9a7b1cf318e8d60d5f4b434a96680bec041f5dde9df17302ab9638c0d37ce114",
+      "before": "71f1c13ee2b81257686f078168046ab39f067e34b50abf2c03b780b1eb6199cd"
+    },
+    {
+      "relative": "script/phongthan/commerce/shop06.lua",
+      "sha256": "5805664b8f3495d58d32b8d04f2bfbb51121d80581d7813abd29d32e38a1ac82",
+      "before": null
+    },
+    {
+      "relative": "settings/phongthan/npc_regions/1039/v_090/116_region_s.dat",
+      "sha256": "86811a517a9bc925b9e9e560f203b7f4110b9dd44139799ac212f73bdb259a99",
+      "before": "7f75031da5728c4a190b208a47bd7c1470866ff2b8d44ee3b09f3e7f98cb0e98"
+    },
+    {
+      "relative": "script/phongthan/commerce/shop07.lua",
+      "sha256": "b68a870691cd8086f271785cdd8b17d3c41f236f054a4498fb480e0c982db889",
+      "before": null
+    },
+    {
+      "relative": "settings/phongthan/npc_regions/1029/v_091/096_region_s.dat",
+      "sha256": "0a4ac6679e2a76c36910061f5b9afc957a4a2097eae38481dc239982b239caa5",
+      "before": "a773055f94d1a33ac937143bfd2de08acafa0217e2a0c6f7a9ab221702b56c83"
+    },
+    {
+      "relative": "script/phongthan/commerce/shop08.lua",
+      "sha256": "5671f0d019541ccfd82d6cacac25bafdc53931b046940252fdedeb211b8ec075",
+      "before": null
+    },
+    {
+      "relative": "settings/phongthan/npc_regions/1034/v_099/092_region_s.dat",
+      "sha256": "6b95905b6a84e5a7c5c5fa4b7327a34f2d1397075f8af2dab77b70f363386c9a",
+      "before": null
+    },
+    {
+      "relative": "script/phongthan/commerce/shop09.lua",
+      "sha256": "3feb43a77cfec7ddc937a3df1971835b5dc6ce88b8f0f61d9f0c37b7d1290c4f",
+      "before": null
+    }
+  ],
+  "merchants": [
+    {
+      "shop": 1,
+      "map": 1002,
+      "x": 55936,
+      "y": 101120,
+      "display": [
+        218,
+        197
+      ],
+      "city": "Sùng Thành Doanh",
+      "name": "Thương Điếm - Lý",
+      "script": "script/phongthan/npc_restore/1002_13.lua",
+      "region": "settings/phongthan/npc_regions/1002/v_098/109_npc_s.dat"
+    },
+    {
+      "shop": 2,
+      "map": 1003,
+      "x": 51328,
+      "y": 102656,
+      "display": [
+        200,
+        200
+      ],
+      "city": "Ngọc Hư Cung",
+      "name": "Thương Điếm - Trương",
+      "script": "script/phongthan/npc_restore/1003_08.lua",
+      "region": "settings/phongthan/npc_regions/1003/v_100/100_npc_s.dat"
+    },
+    {
+      "shop": 3,
+      "map": 1004,
+      "x": 50048,
+      "y": 106752,
+      "display": [
+        195,
+        208
+      ],
+      "city": "Xi Vưu Mộ",
+      "name": "Thương Điếm - Vương",
+      "script": "script/phongthan/npc_restore/1004_09.lua",
+      "region": "settings/phongthan/npc_regions/1004/v_104/097_npc_s.dat"
+    },
+    {
+      "shop": 4,
+      "map": 1021,
+      "x": 54096,
+      "y": 101616,
+      "display": [
+        211,
+        198
+      ],
+      "city": "Triều Ca",
+      "name": "Thương Điếm - Chu",
+      "script": "script/phongthan/npc_restore/1021_12.lua",
+      "region": "settings/phongthan/npc_regions/1021/v_099/105_npc_s.dat"
+    },
+    {
+      "shop": 5,
+      "map": 1020,
+      "x": 50048,
+      "y": 97024,
+      "display": [
+        195,
+        189
+      ],
+      "city": "Tây Kỳ",
+      "name": "Thương Điếm - Hồ",
+      "script": "script/phongthan/npc_restore/1020_10.lua",
+      "region": "settings/phongthan/npc_regions/1020/v_094/097_region_s.dat"
+    },
+    {
+      "shop": 6,
+      "map": 1024,
+      "x": 51312,
+      "y": 102128,
+      "display": [
+        200,
+        199
+      ],
+      "city": "Sa Mạc Phong Thần",
+      "name": "Thương Điếm - Triệu",
+      "script": "script/phongthan/commerce/shop06.lua",
+      "region": "settings/phongthan/npc_regions/1024/v_099/100_region_s.dat"
+    },
+    {
+      "shop": 7,
+      "map": 1039,
+      "x": 59760,
+      "y": 92400,
+      "display": [
+        233,
+        180
+      ],
+      "city": "Đông Hải Hải Câu",
+      "name": "Thương Điếm - Lưu",
+      "script": "script/phongthan/commerce/shop07.lua",
+      "region": "settings/phongthan/npc_regions/1039/v_090/116_region_s.dat"
+    },
+    {
+      "shop": 8,
+      "map": 1029,
+      "x": 49264,
+      "y": 93424,
+      "display": [
+        192,
+        182
+      ],
+      "city": "Hiên Viên Động 3",
+      "name": "Thương Điếm - Giả",
+      "script": "script/phongthan/commerce/shop08.lua",
+      "region": "settings/phongthan/npc_regions/1029/v_091/096_region_s.dat"
+    },
+    {
+      "shop": 9,
+      "map": 1034,
+      "x": 47472,
+      "y": 101616,
+      "display": [
+        185,
+        198
+      ],
+      "city": "Đại Phong Băng Xuyên",
+      "name": "Thương Điếm - Ngô",
+      "script": "script/phongthan/commerce/shop09.lua",
+      "region": "settings/phongthan/npc_regions/1034/v_099/092_region_s.dat"
+    }
+  ],
+  "source": "https://pt.vnggames.com/su-kien/huong-dan-tan-thu-cum-2008/bao-thuong.html",
+  "note": "Trieu Ca keeps installed (211,198); web overview also 211 while table221 contradicts."
+}

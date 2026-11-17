@@ -1,0 +1,299 @@
+﻿{
+    "scope":  "Current-world mini/Tab quest books; actual Vu Si resource aliases and missing action links; ordinary Tinh Quan vs realm clothing classification; armed idle all professions/sexes; level-1 starter weapons use 1x",
+    "files":  [
+                  {
+                      "role":  "Client",
+                      "relative":  "CoreClient.dll",
+                      "before":  "e15d92f2d6b43db21383f470011c6bb0c7fa3e3e87f0a8611031f95798d0b076",
+                      "sha256":  "44d3db962362125b8dfea3bfcc2a24f46375717ed648dad4600f8e6c80cbf7e1"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "Game.exe",
+                      "before":  "ac713bb96f24068a9ea9603587327bc11c4124eed96b4901a3e6b209a033f756",
+                      "sha256":  "5d240eff654d9598809dfd564814bbde0b8277b54b5fd7bffeb5eb9af2c76f35"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/item/VNG_WeaponPart.txt",
+                      "before":  "acb19e2eb0519cb8634b28c3e24e7caaaf97ef299c77ee4753989e2459a886b6",
+                      "sha256":  "18d97b3b62bbaed52d2da6ba2cb25a3c7ff7050d1912511b79831e64868e9e34"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/¼×Ê¿ÆïÂí¹ØÁª±í.txt",
+                      "before":  "a13703b124142f4a45fd62c73edb91dd93f99e7f949d0abaac99ca00a698e0ff",
+                      "sha256":  "05ae82e7f6ea0d65cba557f02e0fff022af30eed2640f635f37b2dcaf49e260a"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/¼×Ê¿Î´ÆïÂí¹ØÁª±í.txt",
+                      "before":  "7f0d759e17de2b94dcacc2d8dec7f19a1ceff82fb2f3abcc88b81a07fe7030e7",
+                      "sha256":  "3f68ff77cb5d5f5f9ff1a268eebbccc650edf87d653f21a2503721f54e7ad759"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/ÄÐÓðÊ¿·¢ÐÍ.txt",
+                      "before":  null,
+                      "sha256":  "c9abb9c2fe7e28205f194d04252c7aa55585e7abc209874cf8e05b9619a82d16"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/ÄÐÓðÊ¿·¢ÐÍÐÅÏ¢.txt",
+                      "before":  null,
+                      "sha256":  "6aa36bc1ebaf3d763f0a647fb49d19007967f84491caee836a00ccf12ab68d82"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/ÄÐÓðÊ¿Âíºó.txt",
+                      "before":  null,
+                      "sha256":  "8ddb87adff420196ec830da660798c38705cd1f4b737c526242c1b5f9a1352fa"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/ÄÐÓðÊ¿ÂíºóÐÅÏ¢.txt",
+                      "before":  null,
+                      "sha256":  "77dea3cbe9f1d6ddbf6cb294d8942992dcc0d3258e62b8adae81c43f3027cd86"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/ÄÐÓðÊ¿ÂíÇ°.txt",
+                      "before":  null,
+                      "sha256":  "da1895ef79c1d0df605c2f5ce059e7988412f5863f4d690b1cac0ce82456a1bc"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/ÄÐÓðÊ¿ÂíÇ°ÐÅÏ¢.txt",
+                      "before":  null,
+                      "sha256":  "77dea3cbe9f1d6ddbf6cb294d8942992dcc0d3258e62b8adae81c43f3027cd86"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/ÄÐÓðÊ¿ÂíÖÐ.txt",
+                      "before":  null,
+                      "sha256":  "b2f351fa0ca1f28ddf3c3b3dc655c6624ae2a68d8e743f04d14846d241fd1cd4"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/ÄÐÓðÊ¿Åû·ç.txt",
+                      "before":  null,
+                      "sha256":  "63e54ff8178e0fc176603092b93336f245f91a1aac95d89ee7281a6aac56cb87"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/ÄÐÓðÊ¿Åû·çÐÅÏ¢.txt",
+                      "before":  null,
+                      "sha256":  "a4dd9c01489134f0eae5c56ffecf1421561fd3b80c8f1bc5d9ce8e59e5ed7ab9"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/ÄÐÓðÊ¿ÇûÌå.txt",
+                      "before":  null,
+                      "sha256":  "46cb3f865d995e6b34df9b74f13c64a7897926f68bd9dd506bfa70ab08ee508c"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/ÄÐÓðÊ¿ÇûÌåÐÅÏ¢.txt",
+                      "before":  null,
+                      "sha256":  "0a59d8a9aeac628beb8e52391ef4d0d5cb611f823f17e95e6916c62954b2c0ec"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/ÄÐÓðÊ¿ÌùÍ¼Ë³Ðò±í.txt",
+                      "before":  null,
+                      "sha256":  "56306ad0bb28fe57131cece65e32a4dc0a461eb805143c0adc8cf1595f6c705a"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/ÄÐÓðÊ¿Í·²¿.txt",
+                      "before":  null,
+                      "sha256":  "78cee152f1346578877d85fcb072d81a9c5a389d50f60c8d0979b23bb44e7cd4"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/ÄÐÓðÊ¿Í·²¿ÐÅÏ¢.txt",
+                      "before":  null,
+                      "sha256":  "9dedf9d4c4e40b73d55fcd182b8ac6ec9883a378e505c10c47b6712f8dfe356f"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/ÄÐÓðÊ¿ÓÒÊÖÎäÆ÷.txt",
+                      "before":  null,
+                      "sha256":  "0290eb790a17664f872a491e733e7c8aa30bf204853372635c4bc575c386b513"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/ÄÐÓðÊ¿ÓÒÊÖÎäÆ÷ÐÅÏ¢.txt",
+                      "before":  null,
+                      "sha256":  "a0f743a5437f50cc578eae64c3e4b91949e35e305215ea1132b6ac3561e10738"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/ÄÐÓðÊ¿×óÊÖÎäÆ÷.txt",
+                      "before":  null,
+                      "sha256":  "43a612cdd7dcaa7267f8be42db747a36c99e574914f49d7f632ad752768c9edf"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/ÄÐÓðÊ¿×óÊÖÎäÆ÷ÐÅÏ¢.txt",
+                      "before":  null,
+                      "sha256":  "c75be67795e1a0d03ac6cf3ef2f524ae9d2af0878dd0b1f1cc80df9b60126ef0"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/Å®ÓðÊ¿·¢ÐÍ.txt",
+                      "before":  null,
+                      "sha256":  "6f35e3d1b50944c276e899d44cc9d674fec1f62c145ce4ddbff25c5109c2302c"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/Å®ÓðÊ¿·¢ÐÍÐÅÏ¢.txt",
+                      "before":  null,
+                      "sha256":  "013287e2e361391a555b4c5c9ecdfe71e149e6dcb568b5b0c0b46b25ed22698c"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/Å®ÓðÊ¿Âíºó.txt",
+                      "before":  null,
+                      "sha256":  "8ddb87adff420196ec830da660798c38705cd1f4b737c526242c1b5f9a1352fa"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/Å®ÓðÊ¿ÂíºóÐÅÏ¢.txt",
+                      "before":  null,
+                      "sha256":  "0b194d2fa7edc8d7f1d5e69e8a91be3137dea86e9217c6305a6379f5b5023b67"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/Å®ÓðÊ¿ÂíÇ°.txt",
+                      "before":  null,
+                      "sha256":  "da1895ef79c1d0df605c2f5ce059e7988412f5863f4d690b1cac0ce82456a1bc"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/Å®ÓðÊ¿ÂíÇ°ÐÅÏ¢.txt",
+                      "before":  null,
+                      "sha256":  "0b194d2fa7edc8d7f1d5e69e8a91be3137dea86e9217c6305a6379f5b5023b67"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/Å®ÓðÊ¿ÂíÖÐ.txt",
+                      "before":  null,
+                      "sha256":  "703648217d46afd3d46e8d5a45c18c95cf6458f4994a83bb4f80ef502122ebbc"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/Å®ÓðÊ¿Åû·ç.txt",
+                      "before":  null,
+                      "sha256":  "7fe14767d822854d2b800a2d98456f4ea68ae99d60537e89b737dfccc1e9623d"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/Å®ÓðÊ¿Åû·çÐÅÏ¢.txt",
+                      "before":  null,
+                      "sha256":  "0c20b9d0035e694b1bce4ce7e486f5c276a0d29e9c3101064b63562c6558a140"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/Å®ÓðÊ¿ÇûÌå.txt",
+                      "before":  null,
+                      "sha256":  "ecbdbdbcf8a24665f8a951ce5d8df780a5176d4d6922fdba7b9f0abd4f3ec763"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/Å®ÓðÊ¿ÇûÌåÐÅÏ¢.txt",
+                      "before":  null,
+                      "sha256":  "afde5bb47261020516eb934475ce3cd2cc4914879a17f27c6786ffb41a613bae"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/Å®ÓðÊ¿ÌùÍ¼Ë³Ðò±í.txt",
+                      "before":  null,
+                      "sha256":  "cfc0870e27daaf4fb1c2216c945f57ffb816f2547ab4870ff84980f935a1270f"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/Å®ÓðÊ¿Í·²¿.txt",
+                      "before":  null,
+                      "sha256":  "b81a555ebd25d205a1d218e498adf20c75c1885298abcfe79e2200652f9efd0c"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/Å®ÓðÊ¿Í·²¿ÐÅÏ¢.txt",
+                      "before":  null,
+                      "sha256":  "afde5bb47261020516eb934475ce3cd2cc4914879a17f27c6786ffb41a613bae"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/Å®ÓðÊ¿ÓÒÊÖÎäÆ÷.txt",
+                      "before":  null,
+                      "sha256":  "43a612cdd7dcaa7267f8be42db747a36c99e574914f49d7f632ad752768c9edf"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/Å®ÓðÊ¿ÓÒÊÖÎäÆ÷ÐÅÏ¢.txt",
+                      "before":  null,
+                      "sha256":  "a0f743a5437f50cc578eae64c3e4b91949e35e305215ea1132b6ac3561e10738"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/Å®ÓðÊ¿×óÊÖÎäÆ÷.txt",
+                      "before":  null,
+                      "sha256":  "07b8031cd8c8d15947e6092c2424213d87ad8910c1fcf879e6791447323bc827"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/Å®ÓðÊ¿×óÊÖÎäÆ÷ÐÅÏ¢.txt",
+                      "before":  null,
+                      "sha256":  "b05b750e2f9568345a86719b77b4b1fe695496d02ff0d27997824529e569fea1"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/ÊõÊ¿ÆïÂí¹ØÁª±í.txt",
+                      "before":  "ec73838d6c889d2d9fa474e0c341be577189ae36d7e30eb8ff3e3fe29afac8bc",
+                      "sha256":  "ec73838d6c889d2d9fa474e0c341be577189ae36d7e30eb8ff3e3fe29afac8bc"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/ÊõÊ¿Î´ÆïÂí¹ØÁª±í.txt",
+                      "before":  "c49717cf6d6d8f5b83c27ed589eae2544e301640987100e8b199cb176247b45e",
+                      "sha256":  "7e590642d012013b45465e0c16389090758100ce46bf0316ae3f3bf7484b3fa2"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/ÒìÈËÆïÂí¹ØÁª±í.txt",
+                      "before":  "966647d6a91872fb4cdd68d5b91a86d89fe2857545b8195fa779d2c50a4bfe61",
+                      "sha256":  "966647d6a91872fb4cdd68d5b91a86d89fe2857545b8195fa779d2c50a4bfe61"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/ÒìÈËÎ´ÆïÂí¹ØÁª±í.txt",
+                      "before":  "3a556dee4694405dae2b86d4ef30939b405d74cb0b5ceea3871669eaf8aa6878",
+                      "sha256":  "e57d788bf639a0eb947c85476b8765e272c0712373edbf074e5b5c71614fc5c8"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/ÓðÊ¿ÆïÂí¹ØÁª±í.txt",
+                      "before":  null,
+                      "sha256":  "d56d3efeb7e69a30705e3ff730e5fed85f8996f14d0c7188f235417e370befd5"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "settings/npcres/ÓðÊ¿Î´ÆïÂí¹ØÁª±í.txt",
+                      "before":  null,
+                      "sha256":  "05b4dcd1fde13fc693acc120e30b974c4d327b37c1a66895a680fc5ae5e20ae6"
+                  },
+                  {
+                      "role":  "Server",
+                      "relative":  "CoreServer.dll",
+                      "before":  "65d2a008dd0c8ba0fd8ae64ad49b94ec8fd2ff3760305c019eb75642104921c4",
+                      "sha256":  "8cdc6108bbfbb5197fc99d190a8e8a09c4f1e265812bd99f30bc3cb7b08969b8"
+                  },
+                  {
+                      "role":  "Server",
+                      "relative":  "settings/item/VNG_WeaponPart.txt",
+                      "before":  "cb6c0249a0e7d4872899b6c67690cc2065c077d77426b4085886c0331fc3e57f",
+                      "sha256":  "ecea286a661a505952f2a78e4d45241c622b532175338c1df79a17eca7e3f930"
+                  }
+              ]
+}

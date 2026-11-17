@@ -1,0 +1,526 @@
+{
+  "scope": "LOOSE_ONLY",
+  "files": [
+    {
+      "path": "Server/settings/item/001/material.txt",
+      "before": "066509cd7833ffed245a682874151ea66a462c8d766cbed96e5d411a199c58fd",
+      "after": "d2ad32007594aa1eee8ff903b0152291ff7246fbaeda562ea4ce4889cb780c0c"
+    },
+    {
+      "path": "Server/settings/item/001/ibitem.txt",
+      "before": "8cbeffd69b569529a958ae52a6c8161c1be5449f6824229451395984bd5bceae",
+      "after": "2d20c6d33be3d846f19b4e06bf4d96c0a66f650cd17113925df20c200340e180"
+    },
+    {
+      "path": "Client/settings/item/001/material.txt",
+      "before": "066509cd7833ffed245a682874151ea66a462c8d766cbed96e5d411a199c58fd",
+      "after": "d2ad32007594aa1eee8ff903b0152291ff7246fbaeda562ea4ce4889cb780c0c"
+    },
+    {
+      "path": "Client/settings/item/001/ibitem.txt",
+      "before": "4577d0cb0a63fbbdac662128ccab20589b5e47d28daa3aba7c56244c573f95a7",
+      "after": "bd0b1de50c1a1c4b5f7c2254c4b86c9a80283d8c092677979f261fd4b15de0f5"
+    },
+    {
+      "path": "Server/settings/phongthan/npc_regions/1067/v_102/092_region_s.dat",
+      "before": "435e4d0201fe3f3e7162d84ac5917295028b633c36c0065f9de460b680537dc6",
+      "after": "2fdd8bab0f15fcb721c0ad186a9cb0a30be1fb1b16c78a7e650a2a7508b97622"
+    },
+    {
+      "path": "Server/settings/phongthan/npc_regions/1067/v_102/093_region_s.dat",
+      "before": "ff68b65f664f56466f4cff859cda96b33d74654473df3b27937ed47b99c9960a",
+      "after": "9b96d9f4862305e70867aa43c8b47ae0302e1289c354e8621ecd228c1b3ae700"
+    },
+    {
+      "path": "Server/settings/phongthan/npc_regions/1067/v_102/083_region_s.dat",
+      "before": null,
+      "after": "bded82fb64b8a62cc66395a0d4b5032c87a038fe3315e028b7cb94b2c141f8ce"
+    },
+    {
+      "path": "Server/settings/phongthan/npc_regions/1021/v_095/109_npc_s.dat",
+      "before": null,
+      "after": "5a270316fd022735572071fb7e49fb23dbe1ff7f2711543d2439d9214ed60d77"
+    },
+    {
+      "path": "Server/script/phongthan/items/destroy.lua",
+      "before": null,
+      "after": "601797a8e3223017ce33ebcb64905e39d946e2b67d49b61b3d768daa95f0d579"
+    },
+    {
+      "path": "Client/settings/phongthan/MapServiceLabels.txt",
+      "before": "68a172f14421bfe6029b7d32638d77fa92aba4784ea2d97635970b6893bf8ce1",
+      "after": "423fd51842c05e0cb530a16ee604e52e9df98b601961c560271bd29b1f392ad4"
+    },
+    {
+      "path": "Server/loose_index.bin",
+      "before": "b548855dfaf401c457961303ebc0ae9d4502fd8a1d6749953497f3094bce3bbb",
+      "after": "02a002fb9a4d6d10148f22ae7b8277f11124fcb77a981db0204eabb43c8a63b5"
+    },
+    {
+      "path": "completion/studio_effective_overrides.json",
+      "before": "6d95509b322a3927d6fce338dd5922d7e88f960c06ca0a008ab8d53618e5a86e",
+      "after": "21349ab04f30f5c567e758103dd997c4a21449f68002a82e9a5043db673e16f2"
+    }
+  ],
+  "npcs": [
+    {
+      "world": 1067,
+      "template": 766,
+      "name": "Đại Phu",
+      "x": 42576,
+      "y": 104944,
+      "display": [
+        166,
+        204
+      ],
+      "script": "script/phongthan/van_tien/doctor.lua",
+      "override": "settings/phongthan/npc_regions/1067/v_102/083_region_s.dat"
+    },
+    {
+      "world": 1067,
+      "template": 155,
+      "name": "Thiên Hùng",
+      "x": 42576,
+      "y": 104464,
+      "display": [
+        166,
+        204
+      ],
+      "script": "script/phongthan/van_tien/thien_hung.lua",
+      "override": "settings/phongthan/npc_regions/1067/v_102/083_region_s.dat"
+    },
+    {
+      "world": 1021,
+      "template": 766,
+      "name": "Tiêu Hủy Đồ",
+      "x": 55920,
+      "y": 98032,
+      "display": [
+        218,
+        191
+      ],
+      "script": "script/phongthan/items/destroy.lua",
+      "override": "settings/phongthan/npc_regions/1021/v_095/109_npc_s.dat"
+    }
+  ],
+  "weights": [
+    {
+      "role": "Server",
+      "file": "material.txt",
+      "identity": [
+        "3",
+        "8"
+      ],
+      "name": "#Hỏa vũ",
+      "old": "1"
+    },
+    {
+      "role": "Server",
+      "file": "material.txt",
+      "identity": [
+        "3",
+        "9"
+      ],
+      "name": "#Ngọc cốt",
+      "old": "1"
+    },
+    {
+      "role": "Server",
+      "file": "material.txt",
+      "identity": [
+        "3",
+        "10"
+      ],
+      "name": "#Đoản Kiếm",
+      "old": "1"
+    },
+    {
+      "role": "Server",
+      "file": "material.txt",
+      "identity": [
+        "3",
+        "11"
+      ],
+      "name": "#Mảnh Giáp",
+      "old": "1"
+    },
+    {
+      "role": "Server",
+      "file": "material.txt",
+      "identity": [
+        "3",
+        "12"
+      ],
+      "name": "#Mặt Quỷ",
+      "old": "1"
+    },
+    {
+      "role": "Server",
+      "file": "material.txt",
+      "identity": [
+        "3",
+        "13"
+      ],
+      "name": "#Băng cơ",
+      "old": "1"
+    },
+    {
+      "role": "Server",
+      "file": "material.txt",
+      "identity": [
+        "3",
+        "22"
+      ],
+      "name": "#Địa tâm",
+      "old": "1"
+    },
+    {
+      "role": "Server",
+      "file": "material.txt",
+      "identity": [
+        "3",
+        "23"
+      ],
+      "name": "#Phong lệ",
+      "old": "1"
+    },
+    {
+      "role": "Server",
+      "file": "material.txt",
+      "identity": [
+        "3",
+        "24"
+      ],
+      "name": "#Thủy hồn",
+      "old": "1"
+    },
+    {
+      "role": "Server",
+      "file": "material.txt",
+      "identity": [
+        "3",
+        "25"
+      ],
+      "name": "#Hỏa linh",
+      "old": "1"
+    },
+    {
+      "role": "Server",
+      "file": "material.txt",
+      "identity": [
+        "3",
+        "208"
+      ],
+      "name": "#Tứ tượng tinh thạch",
+      "old": "1"
+    },
+    {
+      "role": "Server",
+      "file": "ibitem.txt",
+      "identity": [
+        "8",
+        "285",
+        "2"
+      ],
+      "name": "#Túi Lục đạo",
+      "old": "1"
+    },
+    {
+      "role": "Server",
+      "file": "ibitem.txt",
+      "identity": [
+        "8",
+        "286",
+        "2"
+      ],
+      "name": "#Túi Tứ Tượng",
+      "old": "1"
+    },
+    {
+      "role": "Server",
+      "file": "magicscript.txt",
+      "identity": [
+        "6",
+        "1",
+        "1653"
+      ],
+      "name": "#Túi Qu?Lục Đạo (Nh? (Khóa)",
+      "old": "0"
+    },
+    {
+      "role": "Server",
+      "file": "magicscript.txt",
+      "identity": [
+        "6",
+        "1",
+        "1835"
+      ],
+      "name": "#Túi qu?nh?Lục Đạo T?Tượng",
+      "old": "0"
+    },
+    {
+      "role": "Server",
+      "file": "magicscript.txt",
+      "identity": [
+        "6",
+        "1",
+        "1949"
+      ],
+      "name": "#Gói Lục Đạo Tinh Hoa (Lớn)",
+      "old": "0"
+    },
+    {
+      "role": "Server",
+      "file": "magicscript.txt",
+      "identity": [
+        "6",
+        "1",
+        "1974"
+      ],
+      "name": "#Gói Nguyên Liệu Lục Đạo (Lớn)",
+      "old": "0"
+    },
+    {
+      "role": "Server",
+      "file": "magicscript.txt",
+      "identity": [
+        "6",
+        "1",
+        "2293"
+      ],
+      "name": "#Gói Lục Đạo Tinh Hoa (Lớn)",
+      "old": "0"
+    },
+    {
+      "role": "Server",
+      "file": "magicscript.txt",
+      "identity": [
+        "6",
+        "1",
+        "7155"
+      ],
+      "name": "#<c=pk>Lục Đạo Tinh Hoa<c>",
+      "old": "0"
+    },
+    {
+      "role": "Client",
+      "file": "material.txt",
+      "identity": [
+        "3",
+        "8"
+      ],
+      "name": "#Hỏa vũ",
+      "old": "1"
+    },
+    {
+      "role": "Client",
+      "file": "material.txt",
+      "identity": [
+        "3",
+        "9"
+      ],
+      "name": "#Ngọc cốt",
+      "old": "1"
+    },
+    {
+      "role": "Client",
+      "file": "material.txt",
+      "identity": [
+        "3",
+        "10"
+      ],
+      "name": "#Đoản Kiếm",
+      "old": "1"
+    },
+    {
+      "role": "Client",
+      "file": "material.txt",
+      "identity": [
+        "3",
+        "11"
+      ],
+      "name": "#Mảnh Giáp",
+      "old": "1"
+    },
+    {
+      "role": "Client",
+      "file": "material.txt",
+      "identity": [
+        "3",
+        "12"
+      ],
+      "name": "#Mặt Quỷ",
+      "old": "1"
+    },
+    {
+      "role": "Client",
+      "file": "material.txt",
+      "identity": [
+        "3",
+        "13"
+      ],
+      "name": "#Băng cơ",
+      "old": "1"
+    },
+    {
+      "role": "Client",
+      "file": "material.txt",
+      "identity": [
+        "3",
+        "22"
+      ],
+      "name": "#Địa tâm",
+      "old": "1"
+    },
+    {
+      "role": "Client",
+      "file": "material.txt",
+      "identity": [
+        "3",
+        "23"
+      ],
+      "name": "#Phong lệ",
+      "old": "1"
+    },
+    {
+      "role": "Client",
+      "file": "material.txt",
+      "identity": [
+        "3",
+        "24"
+      ],
+      "name": "#Thủy hồn",
+      "old": "1"
+    },
+    {
+      "role": "Client",
+      "file": "material.txt",
+      "identity": [
+        "3",
+        "25"
+      ],
+      "name": "#Hỏa linh",
+      "old": "1"
+    },
+    {
+      "role": "Client",
+      "file": "material.txt",
+      "identity": [
+        "3",
+        "208"
+      ],
+      "name": "#Tứ tượng tinh thạch",
+      "old": "1"
+    },
+    {
+      "role": "Client",
+      "file": "ibitem.txt",
+      "identity": [
+        "8",
+        "285",
+        "2"
+      ],
+      "name": "#Túi Lục đạo",
+      "old": "1"
+    },
+    {
+      "role": "Client",
+      "file": "ibitem.txt",
+      "identity": [
+        "8",
+        "286",
+        "2"
+      ],
+      "name": "#Túi Tứ Tượng",
+      "old": "1"
+    },
+    {
+      "role": "Client",
+      "file": "ibitem.txt",
+      "identity": [
+        "8",
+        "9584",
+        "2"
+      ],
+      "name": "#Gói Quà Tinh Hoa Lục Đạo",
+      "old": "1"
+    },
+    {
+      "role": "Client",
+      "file": "ibitem.txt",
+      "identity": [
+        "8",
+        "9629",
+        "0"
+      ],
+      "name": "#BUFF x2 Tứ Tượng Linh Tê",
+      "old": "1"
+    },
+    {
+      "role": "Client",
+      "file": "magicscript.txt",
+      "identity": [
+        "6",
+        "1",
+        "1653"
+      ],
+      "name": "#Túi Qu?Lục Đạo (Nh? (Khóa)",
+      "old": "0"
+    },
+    {
+      "role": "Client",
+      "file": "magicscript.txt",
+      "identity": [
+        "6",
+        "1",
+        "1835"
+      ],
+      "name": "#Túi qu?nh?Lục Đạo T?Tượng",
+      "old": "0"
+    },
+    {
+      "role": "Client",
+      "file": "magicscript.txt",
+      "identity": [
+        "6",
+        "1",
+        "1949"
+      ],
+      "name": "#Gói Lục Đạo Tinh Hoa (Lớn)",
+      "old": "0"
+    },
+    {
+      "role": "Client",
+      "file": "magicscript.txt",
+      "identity": [
+        "6",
+        "1",
+        "1974"
+      ],
+      "name": "#Gói Nguyên Liệu Lục Đạo (Lớn)",
+      "old": "0"
+    },
+    {
+      "role": "Client",
+      "file": "magicscript.txt",
+      "identity": [
+        "6",
+        "1",
+        "2293"
+      ],
+      "name": "#Gói Lục Đạo Tinh Hoa (Lớn)",
+      "old": "0"
+    },
+    {
+      "role": "Client",
+      "file": "magicscript.txt",
+      "identity": [
+        "6",
+        "1",
+        "7155"
+      ],
+      "name": "#<c=pk>Lục Đạo Tinh Hoa<c>",
+      "old": "0"
+    }
+  ]
+}

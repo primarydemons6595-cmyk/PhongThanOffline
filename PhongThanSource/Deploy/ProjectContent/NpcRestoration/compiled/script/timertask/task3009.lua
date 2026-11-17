@@ -1,0 +1,127 @@
+
+function pt_each(fn)
+    local cursor=0
+    local old=PlayerIndex
+    for n=1,500 do
+        local player
+        cursor,player=GetNextPlayer(PT_ID,cursor,0)
+        if cursor==0 then break end
+        if player>0 then PlayerIndex=player;fn() end
+    end
+    PlayerIndex=old
+end
+function pt_fight() SetFightState(1) end
+function pt_exit()
+    LockCamp(0);SetFightState(0);SetLogoutRV(0)
+    NewWorld(PT_EXIT_MAP,PT_EXIT_X,PT_EXIT_Y)
+end
+function pt_spawn(tid,x,y,death)
+    local npc=AddNpc(tid,PT_LEVEL,SubWorld,x,y,1)
+    if npc==0 then return 0 end
+    local owned=AddMSNpc(PT_ID,npc,0)
+    if owned==nil or owned<=0 then DelNpc(npc);return 0 end
+    if death~=nil then
+        if SetNpcDeathScript(npc,death)~=1 then DelNpc(npc);return 0 end
+    end
+    return npc
+end
+function pt_progress()
+    if GetGlobalValue(PT_ID)~=2 then return end
+    for n=1,4 do
+        if GetMissionV(10+n)==0 and GetMissionV(20+n)==0 then
+            local p=PT_POINTS[n]
+            local npc=pt_spawn(PT_FIRST+n-1,p[1],p[2],"\\script\\phongthan\\van_tien\\guard"..PT_ID..".lua")
+            if npc>0 then SetMissionV(20+n,npc) end
+        end
+    end
+    if GetMissionV(11)+GetMissionV(12)+GetMissionV(13)+GetMissionV(14)==4 and GetMissionV(30)==0 then
+        local p=PT_POINTS[5]
+        local npc=pt_spawn(PT_BOSS,p[1],p[2],"\\script\\phongthan\\van_tien\\boss"..PT_ID..".lua")
+        if npc>0 then SetMissionV(30,npc);Msg2MSAll(PT_ID,"Da ha bon ho phap. Thong Thien Giao Chu xuat hien!") end
+    end
+end
+function OnTimer()
+    local world=SubWorldIdx2ContentID(SubWorld)
+    local id=world-66
+    if id<1 or id>4 then return end
+    if id==1 then
+PT_ID=1
+PT_MAP=67
+PT_LEVEL=40
+PT_FIRST=129
+PT_BOSS=133
+PT_LABEL="Tho"
+PT_REWARD_TASK=4930
+PT_ENTRY_TASK=4934
+PT_CLAIM_TASK=4938
+PT_REWARD_DETAIL=63
+PT_ENTRY_X=1325
+PT_ENTRY_Y=3280
+PT_EXIT_MAP=2
+PT_EXIT_X=1650
+PT_EXIT_Y=3159
+PT_POINTS={{44640,101344},{49760,101344},{44608,105152},{49760,105184},{47200,103264}}
+PT_MOBS={{129,44000,100704},{130,45248,100640},{131,46560,100704},{132,47840,100704},{129,49120,100704},{130,50400,100704},{131,44000,102304},{132,45280,102304},{129,46560,102304},{130,47840,102304},{131,49120,102304},{132,50336,102240},{129,44032,103872},{130,45280,103904},{131,46528,103904},{132,47776,103840},{129,49120,103904},{130,50368,103872},{131,44000,105504},{132,45280,105504},{129,46560,105472},{130,47776,105472},{131,49120,105504},{132,50336,105536}}
+    end
+    if id==2 then
+PT_ID=2
+PT_MAP=68
+PT_LEVEL=60
+PT_FIRST=134
+PT_BOSS=138
+PT_LABEL="Thuy"
+PT_REWARD_TASK=4931
+PT_ENTRY_TASK=4935
+PT_CLAIM_TASK=4939
+PT_REWARD_DETAIL=64
+PT_ENTRY_X=1752
+PT_ENTRY_Y=3567
+PT_EXIT_MAP=4
+PT_EXIT_X=1548
+PT_EXIT_Y=3232
+PT_POINTS={{51040,105568},{56128,105568},{51008,109376},{56192,109376},{53600,107488}}
+PT_MOBS={{134,50400,104928},{135,51680,104928},{136,52960,104960},{137,54272,104928},{134,55520,104928},{135,56832,104896},{136,50400,106528},{137,51680,106528},{134,52960,106528},{135,54240,106528},{136,55520,106528},{137,56800,106528},{134,50400,108128},{135,51680,108128},{136,52960,108128},{137,54240,108128},{134,55520,108128},{135,56768,108096},{136,50400,109728},{137,51712,109760},{134,52960,109728},{135,54240,109728},{136,55520,109728},{137,56800,109728}}
+    end
+    if id==3 then
+PT_ID=3
+PT_MAP=69
+PT_LEVEL=80
+PT_FIRST=139
+PT_BOSS=143
+PT_LABEL="Hoa"
+PT_REWARD_TASK=4932
+PT_ENTRY_TASK=4936
+PT_CLAIM_TASK=4940
+PT_REWARD_DETAIL=65
+PT_ENTRY_X=1650
+PT_ENTRY_Y=3400
+PT_EXIT_MAP=3
+PT_EXIT_X=1709
+PT_EXIT_Y=3105
+PT_POINTS={{50624,103136},{55744,103136},{50624,106976},{55744,106976},{53184,105056}}
+PT_MOBS={{139,49984,102496},{140,51200,102560},{141,52544,102496},{142,53824,102496},{139,55104,102496},{140,56288,102400},{141,49984,104096},{142,51296,104032},{139,52512,104128},{140,53824,104096},{141,55104,104096},{142,56288,104000},{139,49984,105696},{140,51264,105696},{141,52544,105696},{142,53824,105696},{139,55104,105696},{140,56288,105600},{141,49984,107296},{142,51264,107296},{139,52544,107296},{140,53824,107296},{141,55104,107296},{142,56288,107200}}
+    end
+    if id==4 then
+PT_ID=4
+PT_MAP=70
+PT_LEVEL=100
+PT_FIRST=144
+PT_BOSS=148
+PT_LABEL="Phong"
+PT_REWARD_TASK=4933
+PT_ENTRY_TASK=4937
+PT_CLAIM_TASK=4941
+PT_REWARD_DETAIL=65
+PT_ENTRY_X=1671
+PT_ENTRY_Y=3035
+PT_EXIT_MAP=1
+PT_EXIT_X=1510
+PT_EXIT_Y=3290
+PT_POINTS={{52832,99008},{57952,99008},{52832,102848},{57952,102848},{55392,100928}}
+PT_MOBS={{144,52192,98368},{145,53472,98368},{146,54752,98368},{147,56000,98336},{144,57312,98368},{145,58336,98112},{146,52192,99968},{147,53472,99968},{144,54752,99968},{145,56032,99968},{146,57312,99968},{147,58336,99712},{144,52192,101568},{145,53472,101568},{146,54752,101568},{147,56032,101568},{144,57312,101568},{145,58336,101312},{146,52192,103168},{147,53472,103168},{144,54784,103200},{145,56032,103168},{146,57280,103136},{147,58336,102912}}
+    end
+    pt_progress()
+end
+
+-- Native mission timers dispatch this callback, unlike player timers.
+OnMissionTimer=OnTimer

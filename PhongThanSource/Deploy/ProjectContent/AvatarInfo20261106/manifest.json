@@ -1,0 +1,14 @@
+{
+  "files": [
+    {
+      "path": "Client/settings/phongthan/AvatarInfo.ini",
+      "sha256": "2ea140fa89559e2ec76cf144e4a0ec7ec4cd3f2deffdf423eaf358be8fbe42c1",
+      "before_sha256": "8c2e1b7431c00c49793af1b602783dddcd497820e26927ed1fd887efbfb33e20"
+    },
+    {
+      "path": "Client/Ui/ui3/UiESCDlg.ini",
+      "before_sha256": "d9cf6049b52742dfb7479e02f0789484b2975c2db2eb00a3b96c7f579f46d4fa",
+      "sha256": "5cab55c8620898a7f7de93e0d83d22f9a59e3a1bb76c9e38f9bfe00d9d9f88dd"
+    }
+  ]
+}

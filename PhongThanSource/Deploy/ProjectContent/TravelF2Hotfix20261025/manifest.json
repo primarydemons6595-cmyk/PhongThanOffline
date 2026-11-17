@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "feature": "TravelF2Hotfix",
+  "files": [
+    {
+      "role": "Server",
+      "relative": "CoreServer.dll",
+      "sha256": "f324ddbb934df64517ac98b2e68b72b9a98e2f9f27fb578f184c3add39255864",
+      "before": "1e666117d65b5f503050adb6fcfd025e815925a7185e9d64b5067c4345974b2c"
+    },
+    {
+      "role": "Client",
+      "relative": "CoreClient.dll",
+      "sha256": "86519e51a7672b41f0f98424add9304e1c9a4e0897f8849bb6cf3e6c68f1dd6f",
+      "before": "751d72dfcbcef67cebaa6c5aaa4bcd03dcc23526effb9e0a0d5c739d1404e098"
+    }
+  ]
+}

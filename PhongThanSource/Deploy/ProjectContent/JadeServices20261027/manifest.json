@@ -1,0 +1,251 @@
+{
+  "files": [
+    {
+      "role": "Client",
+      "relative": "CoreClient.dll",
+      "before": "9560dd0bdd22f46f5c097b04a1a658a3ebf7b736f11fb6bbb7fb01022fe4f180",
+      "sha256": "a9493d283e14c1c4f197b259489fa5044c3380bfbaf6aab33e3e24b1234ded4d"
+    },
+    {
+      "role": "Client",
+      "relative": "loose_index.bin",
+      "before": "dc82bd5be5d81f9bae79d5dae719f1f0e12e602c1cea23d4c60d9339567953de",
+      "sha256": "a0b43789c311a85bf7d9927940e068b455cd417070599d7016c2c5846ad7ccd9"
+    },
+    {
+      "role": "Client",
+      "relative": "settings/item/001/jade_magic.txt",
+      "before": null,
+      "sha256": "abfca63f0efbab52ec506c43f7e790eaf05483706e37088b687caac3551e845c"
+    },
+    {
+      "role": "Client",
+      "relative": "settings/item/001/magicscript.txt",
+      "before": "76ac92ab6d526eaf0a66f1367c942714f0dbce04a2023377ffba5f7499d92307",
+      "sha256": "e3617bd59a331eeee7f1f100be13a6b0efd51c8741b6528ed072b1ebebc39021"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/pt_test/09d9d3d04daa.spr",
+      "before": null,
+      "sha256": "ace7e8904967c86d17200c7bbb0a966deefe58002b307e1b9e8fd3827d5e124c"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/pt_test/1150c0a87570.spr",
+      "before": null,
+      "sha256": "cb1d0d96ad73fad10369dc55d4108fcb0e4f8ea44c960da10a0942d0546f84b5"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/pt_test/1dd84b288e88.spr",
+      "before": null,
+      "sha256": "8f7f354fe9a105199cc6c64a83e6086e86cb67c02fef1e31e19d15333ffaaf0b"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/pt_test/1eb57a99c24e.spr",
+      "before": null,
+      "sha256": "1bb78d1e7c17bbfc04826317778a66147c11be0fb0d225c7031bbf827d94243d"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/pt_test/2dbc1e0531e7.spr",
+      "before": null,
+      "sha256": "8aa3f0b44a01d2038bc462f02146f79b1a83a4c68f5f7189b158e4f35ef1060a"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/pt_test/30770d9570da.spr",
+      "before": null,
+      "sha256": "51da0f9fbc8ca9bdfda3c8054cc85fa70543b5cd4d61e58cfc375791f3df58fe"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/pt_test/3defded504d0.spr",
+      "before": null,
+      "sha256": "04b818f491f3286585e8fd8baa5393284835a1c3d23f31ae7ff5dd830bca0ddc"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/pt_test/4510aa223960.spr",
+      "before": null,
+      "sha256": "648749ac8c89e809183980fbbfe18dde532b0a0d7f92cd5d0ec5653f87871481"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/pt_test/50bedb98bc49.spr",
+      "before": null,
+      "sha256": "990802c38b4b51aacbf0e773f48c258aff0f569ce3d26023905d6adb4cbc92e3"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/pt_test/56f159f4eb78.spr",
+      "before": null,
+      "sha256": "05f3abe37fb9c426e3bb468b0693ba997e9f04278b639c6140e5ddd51966ad4e"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/pt_test/5724cfb4d7a1.spr",
+      "before": null,
+      "sha256": "9313691706371ac3c0a410a7e426f86938bafc982bc495b8f9e23dea43cecc76"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/pt_test/58248c245fb3.spr",
+      "before": null,
+      "sha256": "962211d4d43e302a1629c6a4dd04ce9aa19ce4cc2b835725946e7a320823b9ab"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/pt_test/5dcb560a552f.spr",
+      "before": null,
+      "sha256": "e666aa4ad49cdce22be82a768431fe3f3dac212c648229f2517fd12a42ddeb2b"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/pt_test/6763a77c90d8.spr",
+      "before": null,
+      "sha256": "9a0785a6c7ca9e89cf01ebc1da698e4622ed927e7f07d68f4f89f5af7d44247c"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/pt_test/8c948a7c6b68.spr",
+      "before": null,
+      "sha256": "36a8e0e15c2726dcd42b875c0fea0a6cd010585b3709d90cb4856f00d34b375f"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/pt_test/941619ca78f5.spr",
+      "before": null,
+      "sha256": "6dc26d189134af09fc45fbb2bc0833945e1f45f0c59df207546a15fb7ce60011"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/pt_test/94748d71030e.spr",
+      "before": null,
+      "sha256": "8e3f0fe490d53c72ccfcea8d71748282b452fedbfb717891f36bfdaa88fb2734"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/pt_test/949028d55ac9.spr",
+      "before": null,
+      "sha256": "787ca36b542376b5974010a596fb1da63fc1b2dd6e49ae1ad8c1bf1fedd2c745"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/pt_test/a79eaaa51d44.spr",
+      "before": null,
+      "sha256": "d7a6c2502103004273c2087235078d51214714eb26457b3671220771dc275476"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/pt_test/b135f9c66858.spr",
+      "before": null,
+      "sha256": "af9c3fbc3571b7a0983561443969ecb66cfe4618ac53cff13d55bd0710f74003"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/pt_test/ca17a5723f5f.spr",
+      "before": null,
+      "sha256": "c02e366ca5d73a4a80444668041329e920754e4618c1579318ce7be6bb00eca1"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/pt_test/d27d05931edc.spr",
+      "before": null,
+      "sha256": "d600ab262a1234b1bf018f8478b79083624e8bb63041e3f7df8547e4e2a04980"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/pt_test/e031c67392d4.spr",
+      "before": null,
+      "sha256": "a50435a2ba8f9b7c6f7158d8fbc1e919a8129289b757aadfe20bb96e57bea32f"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/pt_test/e1431d1f3a56.spr",
+      "before": null,
+      "sha256": "9d751588e4905baf10de139bd93bce01ee1e8aec348a16285c2601c835595512"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/pt_test/e5edb6c74506.spr",
+      "before": null,
+      "sha256": "b2bc0e31b0fd3a1e575eaf69e764c0307cec4f37aa6c44ea87de91dc093bf990"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/pt_test/e8f0ff8921e5.spr",
+      "before": null,
+      "sha256": "fa5689eb12be3f397c4ad8f33c753315ba00c4626db33b04ccb69233d39de13d"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/pt_test/f1f4ce366548.spr",
+      "before": null,
+      "sha256": "3b7ebda7cd1cf10406c06f5c6e178802cc0cea9696ead991146c1cbfb8a48638"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/pt_test/fea57f286a23.spr",
+      "before": null,
+      "sha256": "238dff04b4a7b7d84ed2422c4b53f0255f0902dda0eccc3a50b0139c2621f334"
+    },
+    {
+      "role": "Server",
+      "relative": "CoreServer.dll",
+      "before": "a7c974a8e65a727d52cbb37ba8f5684ee38f0add814ece2a81ee1d1350dbe891",
+      "sha256": "4ec2976256edc7a9be9b5686f0b7a35f5a2a04bf9abb91f95664ee995c0fde39"
+    },
+    {
+      "role": "Server",
+      "relative": "loose_index.bin",
+      "before": "745b978acb8e7f029730594ae83c3d695a62b9255b7b00e4bb1ca9bbcdde1979",
+      "sha256": "e1dc8e6560a4c7b78447d4fc38694977d502842e149bff7ec4d6c831ef75dc41"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/jade/needle.lua",
+      "before": null,
+      "sha256": "5f995375fc1878d67c4e173829270dd622b653aec511d195ab5afeedf1e1b6ca"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/test/event_handbook.lua",
+      "before": "2c4e9e1f67347d1b4177de0e9843f080db02cf10a2d630b3460fbdc35c3791de",
+      "sha256": "3ffbfcae46a0a5daba3e41bb269b48de7e13131b1c650c6238a00758ab97a279"
+    },
+    {
+      "role": "Server",
+      "relative": "script/Ñþ³Ø/À×Õð×Ó.lua",
+      "before": "f58467474d10355c9f311624db5716b8f5eb5144223882217d57676310753627",
+      "sha256": "5dd13d1d7217cf7ec5e9306f236b4227cb10ed35c6a87c70ec7f62d2b7d5d6c4"
+    },
+    {
+      "role": "Server",
+      "relative": "settings/item/001/jade_magic.txt",
+      "before": null,
+      "sha256": "abfca63f0efbab52ec506c43f7e790eaf05483706e37088b687caac3551e845c"
+    },
+    {
+      "role": "Server",
+      "relative": "settings/item/001/magicscript.txt",
+      "before": "76ac92ab6d526eaf0a66f1367c942714f0dbce04a2023377ffba5f7499d92307",
+      "sha256": "e3617bd59a331eeee7f1f100be13a6b0efd51c8741b6528ed072b1ebebc39021"
+    },
+    {
+      "role": "Server",
+      "relative": "settings/phongthan/EventHandbookCatalog.txt",
+      "before": "96dcf890ffc713cfba1f0d5195ad8ae9751d98f01d5fff2ec8d7235aa46833f1",
+      "sha256": "2f24db252005912279ec5cd405aba8f4c3a7ab7ab21dd6eb25b105aa7c708b22"
+    },
+    {
+      "role": "completion",
+      "relative": "studio_effective_overrides.json",
+      "before": "d6ae1c07f89a85517acb6ffac97c140d3884f891c5e6bfb3d6c73c893580d857",
+      "sha256": "b8cb0997c7d8cb12be178e96c74addc189ae3ba2551a5e09ec6d09884b0c1f9b"
+    }
+  ],
+  "scope": "Jade generation/refinement/extraction/polishing and handbook materials"
+}

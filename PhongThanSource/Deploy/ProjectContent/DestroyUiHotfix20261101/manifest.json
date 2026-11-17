@@ -1,0 +1,25 @@
+{
+  "scope": "LOOSE_ONLY",
+  "files": [
+    {
+      "path": "Client/Ui/ui3/UiGive.ini",
+      "before": null,
+      "after": "0d5adcf8ea1809f7e6625ee7872ac4fdc0260c25a8a168cec43564dce35fc1d0"
+    },
+    {
+      "path": "Client/Ui/ui4/UiGive.ini",
+      "before": null,
+      "after": "0d5adcf8ea1809f7e6625ee7872ac4fdc0260c25a8a168cec43564dce35fc1d0"
+    },
+    {
+      "path": "Client/loose_index.bin",
+      "before": "5754e0f39a216e37b18773ed6d48ed4e1369093e5e4d6d79fe9d165a550db80b",
+      "after": "37b3d046474d39d2154476f02b75108be085c698844e3899a5c50108edd59af0"
+    },
+    {
+      "path": "completion/studio_effective_overrides.json",
+      "before": "21349ab04f30f5c567e758103dd997c4a21449f68002a82e9a5043db673e16f2",
+      "after": "935f12205d00573dcaaca5b0689cc9783e4f1e5ae484fdb7d0504f897d6a1cb3"
+    }
+  ]
+}

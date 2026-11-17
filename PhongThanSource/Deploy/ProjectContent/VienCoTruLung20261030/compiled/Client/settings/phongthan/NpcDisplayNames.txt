@@ -1,0 +1,2638 @@
+Name	DisplayName
+1	1
+10	10
+2	2
+3	3
+4	4
+5	5
+6	6
+7	7
+8	8
+9	9
+<bclr=g>µÂ¸ßÍûÖØ	§øc Cao Väng Träng
+<bclr=g>ºúÏ²ÃÄ	Hå Hû MŞ
+<bclr=g>ÄÄß¸	Na Tra
+<bclr=g>ÎÅÖÙ	V¨n Träng
+<bclr=g>ÒÂ²§Ïà´«	Y B¸t T TruyÒn
+<bclr=g>ÕÔ¹«Ã÷	TriÖu C«ng Minh
+<c=b>À¶¹í<c>	Lam Quû
+<c=g>³¤°×²Î¾«<c>	Tr­êng B¹ch S©m Tinh
+<c=g>´óÍ·Óã<c>	§¹i §Çu Ng­
+<c=g>¹íĞ°ÑıÈË<c>	QuØ tµ yªu nh©n
+<c=g>¹íĞ°ÑıÈËµÄÔªÉñ<c>	Nguyªn thÇn cña QuØ tµ yªu nh©n
+<c=g>º³Áúá¦<c>	Hµm Long Ph­ín
+<c=g>ºÀÖíÀÏµù<c>	Nhİm L·o Gia
+<c=g>»Æ½ğ¾òµØÊó<c>	Hoµng Kim QuËt §Şa Thö
+<c=g>»ğÀëĞ¡Ñı<c>	L·o Hå l«
+<c=g>¾Ş¹ÇÉàÓã<c>	Cù Cèt ThiÖt Ng­
+<c=g>¾òµØÊó<c>	QuËt §Şa Thö
+<c=g>ÁúÑªÁéÖ¥¾«<c>	Long HuyÕt Linh Chi Tinh
+<c=g>ÂÌ¹í<c>	Lôc Quû
+<c=g>Ä§¡¤ÇÕÔ­£¨É½£©<c>	Ma Kh©m Nguyªn(S¬n)
+<c=g>ÈıÁúÊ¹Õß<c>	Sø Gi¶ Tam Long
+<c=g>Ê§×ÙµÄ×åÈË<c>	Téc ng­êi mÊt tİch
+<c=g>Ê³Ò©ÊŞ<c>	Thùc D­îc Thó
+<c=g>Ê×ÑôÉñÄ¾<c>	Thñ D­¬ng ThÇn Méc
+<c=g>Ìú¿øÓãÍõ<c>	ThiÕt Ng­ v­¬ng
+<c=g>Î´¿ª»¨µÄÂüÍÓÂŞ»ª	M¹n §µ La Hoa ch­a në hoa
+<c=g>Î´¿ª»¨µÄÂüÖéÉ³»ª	M¹n Ch©u Sa Hoa ch­a në hoa
+<c=g>ÎäÊ¿¹ê»ÃÏó<c>	¶o C¶nh Lôc Quy
+<c=g>ÎäÊ¿¹êÍ·Áì<c>	Lôc Quy §Çu LÜnh
+<c=g>Ğ¡ºÀÖí<c>	Nhİm Cá
+<c=g>ÕÜÂŞÓã<c>	TriÕt La Ng­
+<c=g>ó´Áú<c>	Bµn Long
+<c=pk>°×Ö½á¦<c>	B¹ch ChØ Phiªn
+<c=pk>±ùÁ×<c>	B¨ng L©n
+<c=pk>±ùÁéÊ×Áì<c>	Thñ LÜnh B¨ng Linh
+<c=pk>±ùÈ¼¶ñ¹í<c>	B¨ng Nhiªn ¸c Quû
+<c=pk>³¤³ËÉñÊ×Áì<c>	Thñ LÜnh S¬n D­¬ng Yªu
+<c=pk>³Ë»ÆÊ×Áì<c>	Thñ LÜnh ThiÕt Tinh
+<c=pk>³àÀË<c>	Xİch Lang
+<c=pk>´«Áî¹Ù<c>	TruyÒn LÖnh Quang
+<c=pk>µ¶ÇİÊ×Áì<c>	Thñ LÜnh §ao CÇm
+<c=pk>µØÁÒ»¤·¨<c>	§Şa LiÖt Hé VÖ
+<c=pk>µØÁÒÊØÎÀ<c>	§Şa LiÖt Thñ VÖ
+<c=pk>µØá¦<c>	§Şa PhiÕn
+<c=pk>µØá¦»¤·¨Õß<c>	§Şa PhiÕn Hé Ph¸p Gi¶
+<c=pk>¶­Ìì¾ı<c>	§ång Thiªn Qu©n
+<c=pk>·É¼×Ê×Áì<c>	Thñ LÜnh Phi Gi¸p
+<c=pk>·çºğ»¤·¨<c>	Phong Hãng Hé Ph¸p
+<c=pk>·çºğÊØÎÀ<c>	Phong Hãng Thñ VÖ
+<c=pk>¹¶Ã¢ÉñÊ×Áì<c>	Thñ Linh CÈu Mang
+<c=pk>¹â¹íÊ×Áì<c>	Thñ LÜnh Quang Quû
+<c=pk>¹íµÆÊ×Áì<c>	Thñ LÜnh §¨ng Hån
+<c=pk>¹í÷È<c>	Quû MŞ
+<c=pk>º®±ù»¤ÎÀ<c>	Hµn B¨ng Hé VÖ
+<c=pk>º®±ùÕóÁé<c>	Hµn B¨ng TrËn Linh
+<c=pk>ºÚÉ³¾«Áé<c>	H¾c Sa Tinh Linh
+<c=pk>ºìºùÂ«<c>	Hång Hå L«
+<c=pk>ºìÉ«É³Áé<c>	Hång S¾c Sa Linh
+<c=pk>ºìÉ°ÊØÎÀ<c>	Hång Sa Thñ VÖ
+<c=pk>ºìÉ°Õó»ê<c>	Hång Sa TrËn Hån
+<c=pk>ºìÉ°ÕóÁé<c>	Hång Sa Tr©n Linh
+<c=pk>ºìË®µÀÍ½<c>	Hång Thñy §¹o §å
+<c=pk>ºìË®ÊØÎÀ<c>	Hång Thñy Thñ VÖ
+<c=pk>ºìË®ÕóÁé<c>	Hång Thñy TrËn Linh
+<c=pk>ºìá¦<c>	Hång PhiÕn
+<c=pk>»¯Ñª»¤ÎÀ<c>	Hãa HuyÕt Hé VÖ
+<c=pk>»¯ÑªÎ×Ê¦<c>	Hãa HuyÕt Vu S­
+<c=pk>»¯ÑªÕóÁé<c>	Hãa HuyÕt TrËn Linh
+<c=pk>»Ã¾«Ê×Áì<c>	Thñ LÜnh  HuyÔn Linh
+<c=pk>»ÄÖíÊ×Áì<c>	Thñ LÜnh Hoa Tr­
+<c=pk>»ğÀëĞ¡ÑıÊ×Áì<c>	Thñ LÜnh L·o Hå L«
+<c=pk>»ğĞ°Ê×Áì<c>	Thñ LÜnh Háa Tµ
+<c=pk>»ğÓãÊ×Áì<c>	Thñ LÜnh Háa Ng­
+<c=pk>¼³ÑªÑıÊ×Áì<c>	Thñ LÜnh HuyÕt Yªu
+<c=pk>½ğ¹â»¤ÎÀ<c>	Kim Quang Hé VÖ
+<c=pk>½ğ¹âÊ¥ÊŞ<c>	Kim Quang Th¸nh Thó
+<c=pk>¾µÅ«<c>	Kİnh N«
+<c=pk>¾Ş´óÉ³»ê<c>	Cù §¹i Sa Hån
+<c=pk>¾ŞÊ¯ÉñÊ×Áì<c>	Thñ LÜnh Cù Tr¹ch
+<c=pk>¿ªÃ÷ÉñÊ×Áì<c>	Thñ LÜnh Khai Minh ThÇn
+<c=pk>À×ÃùÊŞ<c>	L«i Minh Thó
+<c=pk>À×ÔóÉñÊ×Áì<c>	Thñ LÜnh L«i Tr¹ch ThÇn
+<c=pk>ÁÒ·ç·¨Éí<c>	Phong LiÖt Ph¸p Th©n
+<c=pk>ÁÒÑæ»¤ÎÀ<c>	LiÖt Diªm Hé VÖ
+<c=pk>Á×ÑıÊ×Áì<c>	Thñ LÜnh Lam Qu¸i
+<c=pk>Â½Îá´óÉñÊ×Áì<c>	Thñ LÜnh Lôc Ng« ThÇn
+<c=pk>ÃÀÅ®°öÊ×Áì<c>	Thñ LÜnh Ngäc N÷
+<c=pk>ÄüÊ×Áì<c>	Thñ LÜnh Ninh Miªu
+<c=pk>Å®³óÊ×Áì<c>	Thñ LÜnh N÷ Xó
+<c=pk>Å®¼ÀÊ×Áì<c>	Thñ LÜnh N÷ TÕ
+<c=pk>ÆæëÅÊ×Áì<c>	Thñ LÜnh C¬ Qu©n
+<c=pk>ÈËá¦<c>	Nh©n PhiÕn
+<c=pk>ÈËá¦»¤·¨Õß<c>	Nh©n PhiÕn Hé Ph¸p Gi¶
+<c=pk>ÈÛÑÒ¶ñ¹í<c>	Dung Nham ¸c Quû
+<c=pk>ÈÛÑÒÊ¹Õß<c>	Dung Nham Sø Gi¶
+<c=pk>É³»êÊ×Áì<c>	Thñ LÜnh Sa Hån
+<c=pk>É³Ä§<c>	Sa Ma
+<c=pk>É½ ûÊ×Áì<c>	Thñ LÜnh Hån S¬n HÇu
+<c=pk>É½÷ÌÊ×Áì<c>	Thñ LÜnh S¬n Tiªu
+<c=pk>Éİ±È·òÈËÊ×Áì<c>	Thñ LÜnh §íi Tr¹i
+<c=pk>Ê¬»ÈÊ×Áì<c>	Thñ LÜnh ThiÕt Trïng
+<c=pk>Ê¯ÒÄÊ×Áì<c>	Thñ LÜnh Th¹ch Di
+<c=pk>ÊÈÉ³ÊŞ<c>	ThŞ Sa T¨ng
+<c=pk>ÊÉ»ê<c>	PhÖ Hån
+<c=pk>ÊÉÀÇÊ×Áì<c>	Thñ LÜnh Sãi
+<c=pk>Ë®²ÎÊ×Áì<c>	Thñ LÜnh H¶i S©m
+<c=pk>ËÀÁéÊ×Áì<c>	Thñ LÜnh Lam Cèt
+<c=pk>Ììá¦<c>	Thiªn PhiÕn
+<c=pk>Ììá¦»¤·¨Õß<c>	Thiªn PhiÕn Hé Ph¸p Gi¶
+<c=pk>Ìú¿øÓãÊ×Áì<c>	Thñ LÜnh ThiÕt Ng­
+<c=pk>ÍÁÁé<c>	Thæ Linh
+<c=pk>ÎŞÃûÊŞÊ×Áì<c>	Thñ LÜnh V« Danh Thó
+<c=pk>ÎäÂŞÉñÊ×Áì<c>	Thñ LÜnh Th¹ch ThÇn
+<c=pk>ÎäÊ¿¹êÊ×Áì<c>	Thñ LÜnh Lôc Quy
+<c=pk>ÏºÈËÊ×Áì<c>	Thñ LÜnh Hµ Cèt
+<c=pk>ÏÄ¸ûÊ¬ÍõÊ×Áì<c>	Thñ LÜnh Cèt Tinh V­¬ng
+<c=pk>ÏÄºóÆôÊ×Áì<c>	Thñ LÜnh H¹ HËu Khëi
+<c=pk>ÏàÁøÉñÊ×Áì<c>	Thñ LÜnh Bè ThÇn
+<c=pk>ĞÌÑ¶¹Ù<c>	H×nh TÊn Quang
+<c=pk>Ñ©»ê<c>	TuyÕt Hån
+<c=pk>ÑÒ½¬ÊŞÊ×Áì<c>	Thñ LÜnh Háa Ma
+<c=pk>Ò°Ã«ÉñÊ×Áì<c>	Thñ LÜnh D· Mao ThÇn
+<c=pk>ÒìÓò·çÑıÊ×Áì<c>	Thñ LÜnh DŞ Vùc Phong Yªu
+<c=pk>ÒìÓò¹¶Ã¢Ê×Áì<c>	Thñ LÜnh DŞ Vùc CÈu Mang
+<c=pk>ÒìÓòÖìİCÊ×Áì<c>	Thñ LÜnh DŞ Vùc Chu LÜnh
+<c=pk>ÕÔÌì¾ı<c>	TriÖu Thiªn Qu©n
+<c=pk>ÕøÊ×Áì<c>	Thñ LÜnh Tr¹nh Nanh
+<c=pk>ÖòÒõÉñÊ×Áì<c>	Thñ LÜnh Chóc ThÇn
+<c=pk>×ÓÑÀÖ®ÆÇ£¨±ù£©<c>	Tö Nh· Chi Ph¸ch(B¨ng)
+<c=pk>×ÓÑÀÖ®ÆÇ£¨·À£©<c>	Tö Nh· Chi Ph¸ch(Phßng)
+<c=pk>×ÓÑÀÖ®ÆÇ£¨»ğ£©<c>	Tö Nh· Chi Ph¸ch(Háa)
+<c=pk>×ÓÑÀÖ®ÆÇ£¨À×£©<c>	Tö Nh· Chi Ph¸ch(L«i)
+<c=pk>×ÓÑÀÖ®ÆÇ£¨ËÙ£©<c>	Tö Nh· Chi Ph¸ch(Tèc)
+<c=pk>×ÓÑÀÖ®ÆÇ£¨ÍÁ£©<c>	Tö Nh· Chi Ph¸ch(Thæ)
+<c=pk>×ÓÑÀÖ®ÆÇ£¨Îï£©<c>	Tö Nh· Chi Ph¸ch(VËt)
+<c=pk>ÙÁÈËÊ×Áì<c>	Thñ LÜnh ¶i Nh©n
+<c=pk>Ú¤¡¤µØá¦<c>	Minh-§Şa PhiÕn
+<c=pk>Ú¤¡¤¶­Ìì¾ı»êÆÇ<c>	Minh-Hån ph¸ch §æng Thiªn Qu©n
+<c=pk>Ú¤¡¤ÈËá¦<c>	Minh-Nh©n PhiÕn
+<c=pk>Ú¤¡¤ÈÛÑÒÊ¹Õß<c>	Minh-Sø gi¶ Dung Nham
+<c=pk>Ú¤¡¤Ììá¦<c>	Minh-Thiªn PhiÕn
+<c=pk>Ú¤¡¤ÕÔÌì¾ı»êÆÇ<c>	Minh-Hån ph¸ch TriÖu Thiªn Qu©n
+<c=pk>êÈÍ¯Ê×Áì<c>	Thñ LÜnh L·o §ång
+<c=pk>ìåÊ×Áì<c>	Thñ LÜnh Phi Thè
+<c=pk>õùõ÷Ê×Áì¡¤»ğ<c>	Thñ LÜnh Tú H­u.Háa
+<c=pk>õùõ÷Ê×Áì¡¤½ğ<c>	Thñ LÜnh Tú H­u .Kim
+<c=pk>õùõ÷Ê×Áì¡¤Ä¾<c>	Thñ LÜnh Tú H­u.Méc
+<c=pk>õùõ÷Ê×Áì¡¤Ë®<c>	Thñ LÜnh Tú H­u.Thñy
+<c=pk>õùõ÷Ê×Áì¡¤ÍÁ<c>	Thñ LÜnhTú H­u.Thæ
+<c=r>ºì¹í<c>	Hång Quû
+<c=r>¾Û»êá¦<c>	Tô Hån Ph­ín
+<c=r>ÇØÌì¾ı<c>	TÇn Thiªn Qu©n
+<c=r>ĞûÕ½Í¼ÌÚ<c>	Tuyªn chiÕn VËt tæ
+<c=r>Ú¤¡¤ÇØÌì¾ı»êÆÇ<c>	Minh-Hån ph¸ch TÇn Thiªn Qu©n
+<c=y>°ØÌì¾ı<c>	B¸ch Thiªn Qu©n
+<c=y>½ğ¹âÊ¥Ä¸<c>	Kim Quang Th¸nh mÉu
+<c=y>ÃùÉ³ÏÉ<c>	Minh Sa Tiªn
+<c=y>É³Áú<c>	Sa Long
+<c=y>ËïÌì¾ı<c>	T«n Thiªn Qu©n
+<c=y>ÍõÌì¾ı<c>	V­¬ng Thiªn Qu©n
+<c=y>Ò¦Ìì¾ı<c>	Diªu Thiªn Qu©n
+<c=y>Ô¬Ìì¾ı<c>	Viªn Thiªn Qu©n
+<c=y>ÕÅÌì¾ı<c>	Tr­¬ng Thiªn Qu©n
+<c=y>Ú¤¡¤°ØÌì¾ı»êÆÇ<c>	Minh-Hån ph¸ch B¸ch Thiªn Qu©n
+<c=y>Ú¤¡¤ËïÌì¾ı»êÆÇ<c>	Minh-Hån ph¸ch T«n Thiªn Qu©n
+<c=y>Ú¤¡¤ÍõÌì¾ı»êÆÇ<c>	Minh-Hån ph¸ch V­¬ng Thiªn Qu©n
+<c=y>Ú¤¡¤Ò¦Ìì¾ı»êÆÇ<c>	Minh-Hån ph¸ch Diªu Thiªn Qu©n
+<c=y>Ú¤¡¤Ô¬Ìì¾ı»êÆÇ<c>	Minh-Hån ph¸ch Viªn Thiªn Qu©n
+<c=yel>±ÏÔÂÎÚ<c>	Hoa NguyÖt ¤
+<c=yel>±ÚË®òõ<c>	Bİch Thñy Du
+<c=yel>²ÎË®Ô³<c>	S©m Thñy Viªn
+<c=yel>³àÑÌÊŞ<c>	Xİch Yªn Thó
+<c=yel>¶·Ä¾õô<c>	§Êu Méc Tr·i
+<c=yel>·¿ÈÕÍÃ<c>	Phßng NhËt Thè
+<c=yel>¸«Í·´óÀĞ<c>	ThiÕt §iÓm thÇn
+<c=yel>¹í½ğÑò<c>	Quû Kim D­¬ng
+<c=yel>»Æ½ğ—ƒè»<c>	Hoµng Kim §µo C¬
+<c=yel>»Æ½ğ´óÅô<c>	Hoµng Kim §¹i §iªu
+<c=yel>»Æ½ğ¸«Í·´óÀĞ<c>	Hoµng Kim ThiÕt §iÓm ThÇn
+<c=yel>»Æ½ğ»ìãç<c>	Hoµng Kim ThiÕt Bè
+<c=yel>»Æ½ğ¾ÅÓ¤<c>	Hoµng Kim Cöu Linh
+<c=yel>»Æ½ğÅÌ¹Å<c>	Hoµng Kim Bµn Cæ
+<c=yel>»Æ½ğÇîÆæ<c>	Hoµng Kim Khèn Kú
+<c=yel>»Æ½ğ÷Ò÷Ñ<c>	Hoµng Kim Thao ThiÕt
+<c=yel>»ğĞ°Éñ<c>	Háa Tµ ThÇn
+<c=yel>»şË®±ª<c>	To¸n Thñy B¸o
+<c=yel>¼ÆÃÉ<c>	KÕ M«ng
+<c=yel>½ÇÄ¾òÔ<c>	Gi¸c Méc Giao
+<c=yel>¾®Ä¾áí<c>	TÜnh Méc Ng¹n
+<c=yel>¿º½ğÁú<c>	Kh¸ng Kim Long
+<c=yel>¿üÄ¾ÀÇ<c>	Khuª Méc Lang
+<c=yel>Á«»¨µÆ	§Ìn hoa sen
+<c=yel>ÁøÍÁâ¯<c>	LiÔu Thæ Ch­¬ng
+<c=yel>Â¦½ğ¹·<c>	L©u Kim CÈu
+<c=yel>ÂüÍÓÂŞ»ª	M¹n §µ la hoa
+<c=yel>ÂüÖéÉ³»ª	M¹n Ch©u Sa hoa
+<c=yel>Ã÷ÒÄ<c>	Minh Di
+<c=yel>Å£½ğÅ£<c>	Ng­u Kim Ng­u
+<c=yel>Å®ÍÁòğ<c>	N÷ Thæ Bøc
+<c=yel>ÊÒ»ğÖí<c>	ThÊt Háa Tr­
+<c=yel>Ì«Î¢Ô«Ê¹ÁéĞé<c>	Th¸i Vi Viªn Sø Linh H­
+<c=yel>ÌìÊĞÔ«Ê¹ÁéÆÆ<c>	Thiªn ThŞ Viªn Sø Linh Ph¸
+<c=yel>Î£ÔÂÑà<c>	Nguy NguyÖt YÕn
+<c=yel>Î²»ğ»¢<c>	VÜ Háa Hæ
+<c=yel>Î¸ÍÁïô<c>	VŞ Thæ TrÜ
+<c=yel>ĞÄÔÂºü<c>	T©m NguyÖt Hå
+<c=yel>ĞÇÈÕÂí<c>	Tinh NhËt M·
+<c=yel>ĞéÈÕÊó<c>	H­ NhËt Thö
+<c=yel>Òí»ğÉß<c>	Dùc Háa Xµ
+<c=yel>Óü·¨É½Éñ<c>	Ngôc Ph¸p thÇn
+<c=yel>ÕÅÔÂÂ¹<c>	Tr­¬ng NguyÖt Léc
+<c=yel>ÖíÁıÉñ<c>	Tr­ Lung
+<c=yel>×ÏÎ¢Ô«Ê¹Áé¿Õ<c>	Tö Vi Viªn Sø Linh Kh«ng
+<c=yel>ØµÍÁºÑ<c>	§Ó Thæ H¹c
+<c=yel>éôË®ò¾<c>	ChÈn Thñy DÉn
+<c=yel>êÄÈÕ¼¦<c>	M·o NhËt Kª
+<c=yel>õş»ğºï<c>	Tuy Háa HÇu
+<color=green>½ğÏ¼ÊŞ<color>	Háa Thó
+<color=yellow>¾ÅÓ¤<color>	Cöu Linh
+A Tai	A Tµi
+An An Tien Tu	An An Tiªn Tö
+Anh Chieu Than Quan	Anh Chiªu ThÇn Qu©n
+Anh Vu	Anh Vò
+Au Thien Hoa	¢u Thiªn Hãa
+Bach Chi Phien	B¹ch ChØ Phiªn
+Bach Hac dao truong	B¹ch H¹c ®¹o tr­ëng
+Bach Ho	B¹ch Hæ
+Bach Ho Tinh Quan	B¹ch Hæ Tinh Qu©n
+Bach Nien Giap Cot Nhan	B¸ch Niªn Gi¸p Cèt Nh©n
+Bach Thien Quan	B¸ch Thiªn Qu©n
+Bach dong	B¹ch ®ång
+Bach hoa sam	B¸ch hoa s©m
+Ban Co	Bµn Cæ
+Ban Long	Bµn Long
+Ban Minh Ton gia	BÇn Minh T«n gi¶
+Ban hang 1	B¸n hµng 1
+Ban hang 10	B¸n hµng 10
+Ban hang 2	B¸n hµng 2
+Ban hang 3	B¸n hµng 3
+Ban hang 4	B¸n hµng 4
+Ban hang 5	B¸n hµng 5
+Ban hang 6	B¸n hµng 6
+Ban hang 7	B¸n hµng 7
+Ban hang 8	B¸n hµng 8
+Ban hang 9	B¸n hµng 9
+Bang Am Huy	B¨ng ¢m Hñy
+Bang Lan	B¨ng L©n
+Bang Lang	B¨ng Lang
+Bang Lang Vuong	B¨ng Lang V­¬ng
+Bang Linh	B¨ng Linh
+Bang Nhien ac Quy	B¨ng Nhiªn ¸c Quû
+Bang Phong Cu Dieu	B¨ng Phong Cù §iÓu
+Banh cung trang	B¸nh cung tr¨ng
+Bao An Tien Sinh	B¶o An Tiªn Sinh
+Bao ruong van tieu	B¶o r­¬ng vËn tiªu
+Bao ruong(Hoa)	B¶o r­¬ng(Háa)
+Bao ruong(Phong)	B¶o r­¬ng(Phong)
+Bao ruong(Thuy)	B¶o r­¬ng(Thñy)
+Bao ruong(tho)	B¶o r­¬ng(thæ)
+Bat Diet Lien Dang	BÊt DiÖt Liªn §¨ng
+Bat Nghia Hau	BÊt NghÜa HÇu
+Bat tu quai	BÊt tö qu¸i
+Bay	BÉy
+Bi Bi Toa	B× B× Táa
+Bia Than phe Chu	Bia ThÇn phe Chu
+Bia Than phe Thuong	Bia ThÇn phe Th­¬ng
+Bich Du Nhan	Bİch Du Nh©n
+Bich Nhan Ma	Bİch Nh·n Ma
+Bich Thuy Du	Bİch Thñy Du
+Bich Tieu Nuong Nuong	Bİch Tiªu N­¬ng N­¬ng
+Bien than Dai Uy Thien Long	BiÕn th©n §¹i Uy Thiªn Long
+Bo Dau	Bé §Çu
+Bo Than	Bè ThÇn
+Bo Thu	Bè Thó
+Bo Thu vuong	Bè Thó v­¬ng
+Bon Hon	Bæn Hån
+Bon hoa Khanh le	Bån hoa Kh¸nh lÔ
+Ca Lanh Duan	Ca L·nh DuÉn
+Cam bay Phong Hoa Luan	C¹m bÉy Phong Háa Lu©n
+Cam ve Quan 1	CÊm vÖ Qu©n 1
+Cam ve quan 2	CÊm vÖ qu©n 2
+Cam ve quan 3	CÊm vÖ qu©n 3
+Cao Giac	Cao Gi¸c
+Cao Huu Can	Cao H÷u Cµn
+Cao Minh	Cao Minh
+Cao giac	Cao gi¸c
+Cap Cap Nhu Luat Lenh	CÊp CÊp Nh­ LuËt LÖnh
+Cat Tuong Tru	C¸t T­êng Tr­
+Cau Mang	CÈu Mang
+Cay 6	C©y 6
+Cay 7	C©y 7
+Cay Tam Tam Tuong an	C©y T©m T©m T­¬ng Ên
+Cay hoa hong	C©y hoa hång
+Cay kho	C©y kh«
+Cay luong duyen	C©y l­¬ng duyªn
+Cay socola	C©y s«cola
+Cay vinh du	C©y vinh dù
+Cham Phat Thach Nhan	Ch©m PhËt Th¹ch Nh©n
+Chan Thuy Dan	ChÈn Thñy DÉn
+Chap Lac Thu Hon	ChÊp L¹c Thô Hån
+Chap Nga Thu Hon	ChÊp Ng· Thô Hån
+Chap Thuong Thu Hon	ChÊp Th­êng Thô Hån
+Chap Tinh Thu Hon	ChÊp TŞnh Thô Hån
+Che dau Ky Nang	Che dÊu Kü N¨ng
+Chi nam xa	ChØ nam xa
+Chien Hon	ChiÕn Hån
+Chien Hon Chi Hon	ChiÕn Hån Chi Hån
+Chien Ky Thi Toc	ChiÕn Kú ThŞ Téc
+Chien ky ma	ChiÕn kú ma
+Chien ky tien	ChiÕn kú tiªn
+Chieu Hon tran(Bang)	Chiªu Hån trËn(B¨ng)
+Chieu Hon tran(Hoa)	Chiªu Hån trËn(Háa)
+Chieu Hon tran(Loi)	Chiªu Hån trËn(L«i)
+Chieu Hon tran(Tho)	Chiªu Hån trËn(Thæ)
+Chieu Than	Chiªu ThÇn
+Chu Kien	Ch­ Kiªn
+Chu Linh	Chu Linh
+Chu Quan Tien Phong	Chu Qu©n TiÒn Phong
+Chu Quan Tuong Linh	Chu Qu©n T­¬ng LÜnh
+Chu Tiem Cam Do	Chñ TiÖm CÇm §å
+Chu Tuu Diem	Chñ Töu §iÕm
+Chu tuu quan Bich Du	Chñ töu qu¸n Bİch Du
+Chuan De Dao Nhan	ChuÈn §Ò §¹o Nh©n
+Chuc Dung	Chóc Dung
+Chuc Long	Chóc Long
+Chuc Ngu	Chóc Ng­
+Chuc Than	Chóc ThÇn
+Chuyen Huc Hau Due	Chuyªn Hóc HËu DuÖ
+Chuyen Sinh Lao Lao	ChuyÓn Sinh L·o L·o
+Chuyen tiep	ChuyÓn tiÕp
+Chuyen tiep 1	ChuyÓn tiÕp 1
+Chuyen tiep 2	ChuyÓn tiÕp 2
+Co Chu	Cê Chu
+Co Dieu	Cæ §iªu
+Co Lau	Cæ L©u
+Co Quan	C¬ Qu©n
+Co Thuong	Cê Th­¬ng
+Con Bac	Con B¹c
+Con Boi	C«n Bèi
+Con Boi ao canh	C«n Bèi ¶o c¶nh
+Cong Cong	Céng C«ng
+Cong thanh	Cæng thµnh
+Cot Tinh	Cèt Tinh
+Cot Tinh Vuong	Cèt Tinh V­¬ng
+Cu Cot Thiet Ngu	Cù Cèt ThiÖt Ng­
+Cu Da	Cù D·
+Cu Dai Sa Hon	Cù §¹i Sa Hån
+Cu Luu Ton	Cô L­u T«n
+Cu Ma	Cù M·
+Cu Thach	Cù Th¹ch
+Cu Vien	Cù Viªn
+Cu Vien Lao	Cù Viªn L·o
+Cua chuyen tiep	Cöa chuyÓn tiÕp
+Cua phong	Cöa phßng
+Cuong Chieu hon tran(Bang)	C­êng Chiªu hån trËn(B¨ng)
+Cuong Chieu hon tran(Hoa)	C­êng Chiªu hån trËn(Háa)
+Cuong Chieu hon tran(Loi)	C­êng Chiªu hån trËn(L«i)
+Cuong Chieu hon tran(Tho)	C­êng Chiªu hån trËn(Thæ)
+Cuong Chieu hon tran(Vat ly)	C­êng Chiªu hån trËn(VËt lı)
+Cuong Dao Te	Cuång §µo TÕ
+Cuong Dieu	Cuång §iªu
+Cuong hoa Cot Tinh Vuong	C­êng hãa Cèt Tinh V­¬ng
+Cuong hoa Cu Thach	C­êng hãa Cô Th¹ch
+Cuong hoa Hoa Ta	C­êng hãa Háa Tµ
+Cuong hoa Lam Quai	C­êng hãa Lam Qu¸i
+Cuong hoa Son Duong Yeu	C­êng hãa S¬n D­¬ng Yªu
+Cuong hoa Thach Than	C­êng hãa Th¹ch ThÇn
+Cuong hoa Thu Khong Ten	C­êng hãa Thó Kh«ng Tªn
+Cuong hoa Tien Dao Than	C­êng hãa TiÔn §ao ThÇn
+Cuu Anh	Cöu Anh
+Cuu Di	Cöu Di
+Cuu Linh	Cöu Linh
+Cuu Moc	Cöu Méc
+Cuu Thien Huyen Nu	Cöu Thiªn HuyÒn N÷
+Da Mao	D· Mao
+Da Mao than	D· Mao thÇn
+Da Xoa	D¹ Xoa
+Da ngan nam	§¸ ngµn n¨m
+Dac Ky	§¸t Kû
+Dac Thu Tuong Phong	§Æc Thï T­êng Phong
+Dai Dau Ngu	§¹i §Çu Ng­
+Dai Dieu	§¹i §iªu
+Dai Phu	§¹i Phu
+Dai Thach than_Tho	§¹i Th¹ch thÇn_Thæ
+Dai Trung sinh	§µi Trïng sinh
+Dai chuyen tiep	§µi chuyÓn tiÕp
+Dai phu	§¹i phu
+Dai thach than_Hoa	§¹i th¹ch thÇn_Háa
+Dai thach than_Phong	§¹i th¹ch thÇn_Phong
+Dai thach than_Thuy	§¹i th¹ch thÇn_Thñy
+Dang Cuu Cong	§Æng Cöu C«ng
+Dang Hon	§¨ng Hån
+Dang Huyet	§»ng HuyÕt
+Dang Thien Ngoc	§Æng ThiÒn Ngäc
+Dao Cam	§ao CÇm
+Dao Nghien Trang	§µo Nghiªn Trang
+Dao Nguu_ Tho	§ao Ng­u_ Thæ
+Dao Nguu_Hoa	§ao Ng­u_Háa
+Dao Nguu_Phong	§ao Ng­u_Phong
+Dao Nguu_Thuy	§ao Ng­u_Thñy
+Dau Dau Ho	§Ëu §Ëu Hå
+Dau Moc Trai	§Êu Méc Tr·i
+De Tho Hac	§Ó Thæ H¹c
+Den hoa sen	§Ìn hoa sen
+Den long	§Ìn lång
+Di Dau Kiem Tien	Di §Çu KiÕm Tiªn
+Di Vuc Cau Mang	DŞ Vùc CÈu Mang
+Di long	Di long
+Dia Hon	§Şa Hån
+Dia Liet Ho Ve	§Şa LiÖt Hé VÖ
+Dia Liet Thu Ve	§Şa LiÖt Thñ VÖ
+Dia Phien	§Şa PhiÕn
+Dia Phien Ho Phap Gia	§Şa PhiÕn Hé Ph¸p Gi¶
+Dien Luan hoi	§iÖn Lu©n håi
+Dien Phong than	§iÖn Phong thÇn
+Dieu Thien Quan	Diªu Thiªn Qu©n
+Dieu Tuong 1(Chien dau)	§iªu T­îng 1(ChiÕn ®Êu)
+Dieu Tuong 1(Doi Thoai)	§iªu T­îng 1(§èi Tho¹i)
+Dieu Tuong 2(Chien dau)	§iªu T­îng 2(ChiÕn ®Êu)
+Dieu Tuong 2(Doi Thoai)	§iªu T­îng 2(§èi Tho¹i)
+Dieu Tuong 3(Chien dau)	§iªu T­îng 3(ChiÕn ®Êu)
+Dieu Tuong 3(Doi thoai)	§iªu T­îng 3(§èi tho¹i)
+Dieu Tuong 4(Chien dau)	§iªu T­îng 4(ChiÕn ®Êu)
+Dieu Tuong 4(Doi thoai)	§iªu T­îng 4(§èi tho¹i)
+Doc Luc quai	§éc Lôc qu¸i
+Doc lan thao	§éc lan th¶o
+Doi Trai	§íi Tr¹i
+Don Sac Than Thach	§¬n S¾c ThÇn Th¹ch
+Don Tieu Tien tu	§¬n Tiªu Tiªn tö
+Dong Tam ket	§ång T©m kÕt
+Dong Thien Quan	§ång Thiªn Qu©n
+Dong Vi Dieu	§èng VŞ §iÒu
+Duc Cao Vong Trong	§øc Cao Väng Träng
+Duc Hoa Xa	Dùc Háa Xµ
+Dung Nham Su Gia	Dung Nham Sø Gi¶
+Dung Nham ac Quy	Dung Nham ¸c Quû
+Duoc Su Ma	D­îc S­ Ma
+Duoc Su Tien	D­îc S­ Tiªn
+Duoc diem	D­îc ®iÕm
+Duong Hoa Huy	D­¬ng Háa Hñy
+Duong Nham	D­¬ng NhËm
+Duong Sam	D­¬ng S©m
+Duong Thuc	D­¬ng Thóc
+Duong Tien	D­¬ng TiÔn
+Giac Moc Giao	Gi¸c Méc Giao
+Giac Thu chien hon	Gi¸c Thó chiÕn hån
+Giang Quy	Giang Quy
+Giao Long	Giao Long
+Giao Su	Gi¸o S­
+Giap Cot	Gi¸p Cèt
+Go Bang Long	Gß B¨ng Long
+Go Hoa Long	Gß Háa Long
+Go Hong Ne(Ma)	Gß Hång Nª(Ma)
+Go Hong Ne(Tien)	Gß Hång Nª(Tiªn)
+Go Loi Long	Gß L«i Long
+Go Tho Long	Gß Thæ Long
+Go Viem Sa(Ma)	Gß Viªm Sa(Ma)
+Go Viem Sa(Tien)	Gß Viªm Sa(Tiªn)
+Go Xich Tho(Ma)	Gß Xİch Thæ(Ma)
+Go Xich Tho(Tien)	Gß Xİch Thæ(Tiªn)
+Goi thu	Gäi thó
+Ha Canh Thi	H¹ Canh Thi
+Ha Cot	Hµ Cèt
+Ha Hau Khoi	H¹ HËu Khëi
+Ha Quang Khai	H¹ Quang Kh¶i
+Hac Lao Nhan	H¹c L·o Nh©n
+Hac Lao nhan	H¹c L·o nh©n
+Hac Phong	H¾c Phong
+Hac Sa Tinh Linh	H¾c Sa Tinh Linh
+Hac Sat Phong	H¾c S¸t Phong
+Hai Sam	H¶i S©m
+Hai Tam Thao	H¶i T©m Th¶o
+Ham Chi Tien Tu	Hµm Chi Tiªn Tö
+Ham Long Phuon	Hµm Long Ph­ín
+Han Bang Ho Ve	Hµn B¨ng Hé VÖ
+Han Bang Tran Linh	Hµn B¨ng TrËn Linh
+Hang Nga	H»ng Nga
+Hau Nghe	HËu NghÖ
+Hau Tho	HËu Thæ
+He Chan	HÖ Ch©n
+He Nghiep	HÖ NghiÖp
+Hien Vien Hau Due	Hiªn Viªn HËu DuÖ
+Hieu uy	HiÖu óy
+Hinh Tan Quang	H×nh TÊn Quang
+Hinh Thien	H×nh Thiªn
+Ho Hy Mi	Hå Hû MŞ
+Ho Ma thap	H« Ma th¸p
+Ho Nhan	Hæ Nh©n
+Ho Phap Luc Giap Phuoc Hon tran	Hé Ph¸p Lôc Gi¸p Ph­îc Hån trËn
+Ho Tien thap	H« Tiªn th¸p
+Ho Tro Tan Thu	Hç Trî T©n Thñ
+Hoa Dan Le My Nu	Hoa §µn LÔ Mü N÷
+Hoa Dien	Háa DiÖn
+Hoa Doan Cam Toc	Hoa §oµn CÈm Téc
+Hoa Hong	Hoa Hång
+Hoa Hong xanh	Hoa Hång xanh
+Hoa Huyet Ho Ve	Hãa HuyÕt Hé VÖ
+Hoa Huyet Tran Linh	Hãa HuyÕt TrËn Linh
+Hoa Huyet Vu Su	Hãa HuyÕt Vu S­
+Hoa Loi Te	Háa L«i TÕ
+Hoa Ma	Háa Ma
+Hoa Ma nu	Háa Ma n÷
+Hoa Ngu	Háa Ng­
+Hoa Nguyet O	Hoa NguyÖt ¤
+Hoa Ta	Háa Tµ
+Hoa Ta Than	Háa Tµ ThÇn
+Hoa Thien Dieu	Hoa Thiªn §iÓu
+Hoa Thu	Háa Thó
+Hoa Tru	Hoa Tr­
+Hoa Tuong 1	Háa T­êng 1
+Hoa Tuong 2	Háa T­êng 2
+Hoa loa ken	Hoa loa kÌn
+Hoa mau don	Hoa mÉu ®¬n
+Hoa truong lao	Háa tr­ëng l·o
+Hoa vien	Hoa viªn
+Hoan Cau	Hoµn CÈu
+Hoan Cau Soai	Hoµn CÈu So¸i
+Hoan Cau Tinh	Hoµn CÈu Tinh
+Hoan Cau dang nghi	Hoµn CÈu ®¸ng nghi
+Hoan Cau tinh	Hoµn CÈu tinh
+Hoan Cau vuong	Hoµn CÈu v­¬ng
+Hoang Can Luc Si	Hoµng C©n Lùc SÜ
+Hoang Kim Ban Co	Hoµng Kim Bµn Cæ
+Hoang Kim Cuu Linh	Hoµng Kim Cöu Linh
+Hoang Kim Dai Dieu	Hoµng Kim §¹i §iªu
+Hoang Kim Dao Co	Hoµng Kim §µo C¬
+Hoang Kim Di Long	Hoµng Kim Di Long
+Hoang Kim Duong Tien	Hoµng Kim D­¬ng TiÔn
+Hoang Kim Giao Long	Hoµng Kim Giao Long
+Hoang Kim Khon Ky	Hoµng Kim Khèn Kú
+Hoang Kim Ly Long	Hoµng Kim Ly Long
+Hoang Kim Quat Dia Thu	Hoµng Kim QuËt §Şa Thö
+Hoang Kim Thao Thiet	Hoµng Kim Thao ThiÕt
+Hoang Kim Thiet Bo	Hoµng Kim ThiÕt Bè
+Hoang Kim Thiet Diem Than	Hoµng Kim ThiÕt §iÓm ThÇn
+Hoang Long	Hoµng Long
+Hoang Long Chan Nhan	Hoµng Long Ch©n Nh©n
+Hoang Phi Ho	Hoµng Phi Hæ
+Hoang Thien Hoa	Hoµng Thiªn Hãa
+Hon Dung si co dai	Hån Dòng sÜ cæ ®¹i
+Hong Ho Lo	Hång Hå L«
+Hong Hoang Than Thu	Hång Hoang ThÇn Thó
+Hong Lu Don Khach	Hång L­ §¬n Kh¸ch
+Hong Phien	Hång PhiÕn
+Hong Quy	Hång Quû
+Hong Sa Thu Ve	Hång Sa Thñ VÖ
+Hong Sa Tien	Hång Sa TiÔn
+Hong Sa Tran Hon	Hång Sa TrËn Hån
+Hong Sa Tran Linh	Hång Sa Tr©n Linh
+Hong Sa Tran Mon	Hång Sa TrËn M«n
+Hong Sa Tran Mon 1	Hång Sa TrËn M«n 1
+Hong Sa Tran Mon 2	Hång Sa TrËn M«n 2
+Hong Sac Sa Linh	Hång S¾c Sa Linh
+Hong Sat	Hång S¸t
+Hong Thuy Dao Do	Hång Thñy §¹o §å
+Hong Thuy Thu Ve	Hång Thñy Thñ VÖ
+Hong Thuy Tran Linh	Hång Thñy TrËn Linh
+Hong Ty	Hång Tû
+Hong quai 1	Hång qu¸i 1
+Hong quai 2	Hång qu¸i 2
+Hong quai 3	Hång qu¸i 3
+Hu Nhat Thu	H­ NhËt Thö
+Hung Tien	Hung Tiªn
+Huyen Bang Chi Tuong	HuyÒn B¨ng Chi T­êng
+Huyen Do	HuyÒn §«
+Huyen Do Dai Phap Su	HuyÒn §« §¹i Ph¸p S­
+Huyen Tu*Tran Hanh Su	HuyÒn Tö*TrÊn Hµnh Sø
+Huyen Vu	HuyÒn Vò
+Huyen Vu Kiem Linh	HuyÒn Vò KiÕm Linh
+Huyen dan	HuyÒn ®µn
+Huyet Dang	HuyÕt §»ng
+Huyet Yeu	HuyÕt Yªu
+Hy vien	Hı viÖn
+Ke Mau Bi	Kª MÉu B×
+Ke Mong	KÕ M«ng
+Ket qua ngot ngao	KÕt qu¶ ngät ngµo
+Khai Minh Tinh Giap	Khai Minh Tinh Gi¸p
+Khang Kim Long	Kh¸ng Kim Long
+Khang Oa Dai Ky	Kh¸ng Oa §¹i Kú
+Khao Co Hoc	Kh¶o Cæ Häc
+Khi nui	KhØ nói
+Khieu Chien Thang Gia	Khiªu ChiÕn Th¾ng Gi¶
+Kho luong	Kho l­¬ng
+Khoac Quy	Kho¸c Quû
+Khoang xa	Kho¸ng xa
+Khoi Tho Chi Nguyen	Kh«i Thæ Chi Nguyªn
+Khong che Kinh Thien thap	Khèng chÕ K×nh Thiªn th¸p
+Khue Moc Lang	Khuª Méc Lang
+Khuong Ngu Tich	Kh­¬ng Ng­ Tİch
+Khuong Tu Nha	Kh­¬ng Tö Nha
+Kiem Nhan	KiÕm Nh©n
+Kiem Nhan tuong quan	KiÕm Nh©n t­íng qu©n
+Kieu	KiÖu
+Kim Ha Dong Tu	Kim Hµ §ång Tö
+Kim Ha Thu	Kim Hµ Thó
+Kim Kinh Bac	Kim Kinh B¾c
+Kim Kinh Dong	Kim Kİnh §«ng
+Kim Kinh Dong Bac	Kim Kİnh §«ng B¾c
+Kim Kinh Dong Nam	Kim Kİnh §«ng Nam
+Kim Kinh Nam	Kim Kİnh Nam
+Kim Kinh Tay	Kim Kİnh T©y
+Kim Kinh Tay Bac	Kim Kİnh T©y B¾c
+Kim Kinh Tay Nam	Kim Kİnh T©y Nam
+Kim Quang Ho Ve	Kim Quang Hé VÖ
+Kim Quang Kiem Tien	Kim Quang KiÕm Tiªn
+Kim Quang Thanh Thu	Kim Quang Th¸nh Thó
+Kim Quang Thanh mau	Kim Quang Th¸nh mÉu
+Kim Tra	Kim Tra
+Kim Trai	Kim Tr¹i
+Kim Trai ao canh	Kim Tr¹i ¶o c¶nh
+Kinh No	Kİnh N«
+Kinh Thien thap trung lap	K×nh Thiªn th¸p trung lËp
+Ky Binh Nha Thuong	Kş Binh Nhµ Th­¬ng
+Ky Binh Trieu Thuong	Kş Binh TriÒu Th­¬ng
+Ky Ha Quan	Kú H¹ Qu©n
+Ky Lan	Kú L©n
+Ky Tran Khoang Thach	Kú Tr©n Kho¸ng Th¹ch
+Ky nu te	Kú n÷ tÕ
+La Hau	La HÇu
+Lac Co	L¹c C¬
+Lac da	L¹c ®µ
+Lam Ba	Lam B¸
+Lam Ba ao canh	Lam B¸ ¶o c¶nh
+Lam Cot	Lam Cèt
+Lam Phong Trang	L©m Phong Trang
+Lam Quy	Lam Quû
+Lam bach	Lam b¸ch
+Lam quai	Lam qu¸i
+Lang Vuong Hon	Lang V­¬ng Hån
+Lao Dong	L·o §ång
+Lao Ho lo	L·o Hå l«
+Lao Rua	L·o Rïa
+Lau Kim Cau	L©u Kim CÈu
+Le Linh Thi	Lª Linh Thi
+Le Linh Thi phu chu	Lª Linh Thi phï chó
+Le Quan	LÔ Quan
+Lien Dang Ho Su	Liªn §¨ng Hé Sø
+Lien Dang Toa	Liªn §¨ng Täa
+Lien Dang toi mo	Liªn §¨ng tèi mê
+Lien Hoa Su Gia	Liªn Hoa Sø Gi¶
+Lien Hoa Thu Ho Gia	Liªn Hoa Thñ Hé Gi¶
+Lien No Te	Liªn Nç TÕ
+Lien dang ma	Liªn ®¨ng ma
+Lien dang tien	Liªn ®¨ng tiªn
+Liet Diem Ho Ve	LiÖt Diªm Hé VÖ
+Lieu Tho Chuong	LiÔu Thæ Ch­¬ng
+Linh Bao Dai Phap Su	Linh B¶o §¹i Ph¸p S­
+Linh Nha Kiem Tien	Linh Nha KiÕm Tiªn
+Linh Xa	Linh Xµ
+Linh Xa thu	Linh Xµ thñ
+Linh chi	Linh chi
+Linh thach	Linh th¹ch
+Linh thu	Linh thó
+Lo Hung	Lç Hïng
+Lo luyen don	Lß luyÖn ®¬n
+Loan tam ngu	Lo¹n tam ng­
+Loc Tinh	Léc Tinh
+Loi Bo Thien Binh	L«i Bé Thiªn Binh
+Loi Chan Tu	L«i ChÊn Tö
+Loi Minh Thu	L«i Minh Thó
+Loi Mon	L«i M«n
+Loi Trach Yeu	L«i Tr¹ch Yªu
+Loi Trach than	L«i Tr¹ch thÇn
+Loi ra mat dao	Lèi ra mËt ®¹o
+Long Cat Cong Chua	Long C¸t C«ng Chóa
+Long Diet	Long §iÖt
+Long Huyet Linh Chi	Long HuyÕt Linh Chi
+Long Huyet Linh Chi Tinh	Long HuyÕt Linh Chi Tinh
+Long hon	Long hån
+Long thiet lan	Long thiÖt lan
+Lua trai	Löa tr¹i
+Luc Giap Phuoc Hon tran	Lôc Gi¸p Ph­îc Hån trËn
+Luc Lam Hao Han	Lôc L©m H¶o H¸n
+Luc Ngo Than	Lôc Ng« ThÇn
+Luc Quai	Lôc Qu¸i
+Luc Quai Vuong	Lôc Qu¸i V­¬ng
+Luc Quy Dau Linh	Lôc Quy §Çu LÜnh
+Luc Si te	Lùc SÜ tÕ
+Luu Thanh Han	L­u Thanh H·n
+Luu Tinh te	L­u Tinh tÕ
+Luu huynh	L­u huúnh
+Luu lien thao	L­u liªn th¶o
+Ly Hung Ba	Lı H­ng B¸
+Ly Long	Ly Long
+Ly Nhau Ton Gia	Ly Nh©u T«n Gi¶
+Ly Nhuu Ton Gia	Ly Nhùu T«n Gi¶
+Ly Tinh	Lı TŞnh
+Ma - Le Linh Thi	Ma - Lª Linh Thi
+Ma Kham Nguyen	Ma Kh©m Nguyªn
+Ma Kham Nguyen(Son)	Ma Kh©m Nguyªn(S¬n)
+Ma Le Hai	Ma LÔ H¶i
+Ma Le Hong	Ma LÔ Hång
+Ma Le Thanh	Ma LÔ Thanh
+Ma Le Tho	Ma LÔ Thä
+Ma Ly Chau	Ma Ly Ch©u
+Ma Nu	Ma N÷
+Ma Phach	Ma Ph¸ch
+Ma Phong Yeu	Ma Phong Yªu
+Ma Phong thu son hon	Ma Phong thó s¬n hån
+Ma Su	Ma Sø
+Ma gioi thu ve 1	Ma giíi thñ vÖ 1
+Ma gioi thu ve 2	Ma giíi thñ vÖ 2
+Ma gioi thu ve 3	Ma giíi thñ vÖ 3
+Ma ky	Ma kú
+Ma phong	Ma phßng
+Ma-Chu Linh	Ma-Chu LÜnh
+Mam cay	MÇm c©y
+Mam cay tinh nhan	MÇm c©y t×nh nh©n
+Man Chau Sa Hoa chua no hoa	M¹n Ch©u Sa Hoa ch­a në hoa
+Man Chau Sa hoa	M¹n Ch©u Sa hoa
+Man Da La Hoa chua no hoa	M¹n §µ La Hoa ch­a në hoa
+Man Da la hoa	M¹n §µ la hoa
+Manh moi	Manh mèi
+Mao Nhat Ke	M·o NhËt Kª
+Mat Tham Ma Gioi	MËt Th¸m Ma Giíi
+Mat Tham Tien Gioi	MËt Th¸m Tiªn Giíi
+Mat dao huy bo	MËt ®¹o hñy bá
+Mat tham Ma gioi	MËt th¸m Ma giíi
+Mat tham Tien gioi	MËt th¸m Tiªn giíi
+Menh Hon	MÖnh Hån
+Mien Chuyen Ma Phap	MiÔn ChuyÓn Ma Ph¸p
+Minh Di	Minh Di
+Minh Sa Tien	Minh Sa Tiªn
+Minh-Dia Phien	Minh-§Şa PhiÕn
+Minh-Hon phach Bach Thien Quan	Minh-Hån ph¸ch B¸ch Thiªn Qu©n
+Minh-Hon phach Dieu Thien Quan	Minh-Hån ph¸ch Diªu Thiªn Qu©n
+Minh-Hon phach Dong Thien Quan	Minh-Hån ph¸ch §æng Thiªn Qu©n
+Minh-Hon phach Tan Thien Quan	Minh-Hån ph¸ch TÇn Thiªn Qu©n
+Minh-Hon phach Ton Thien Quan	Minh-Hån ph¸ch T«n Thiªn Qu©n
+Minh-Hon phach Trieu Thien Quan	Minh-Hån ph¸ch TriÖu Thiªn Qu©n
+Minh-Hon phach Vien Thien Quan	Minh-Hån ph¸ch Viªn Thiªn Qu©n
+Minh-Hon phach Vuong Thien Quan	Minh-Hån ph¸ch V­¬ng Thiªn Qu©n
+Minh-Nhan Phien	Minh-Nh©n PhiÕn
+Minh-Su gia Dung Nham	Minh-Sø gi¶ Dung Nham
+Minh-Thien Phien	Minh-Thiªn PhiÕn
+Mo khoang	Má kho¸ng
+Mo phap tran	Më ph¸p trËn
+Moc Ma nu	Méc Ma n÷
+Moc Tra	Méc Tra
+Moc than	Méc thÇn
+NPC Trao Thuong	NPC Trao Th­ëng
+NPC VIP	NPC VIP
+NPC Vang Bac Dong	NPC Vµng B¹c §ång
+Na Tra	Na Tra
+Nam Cuc Tien Ong	Nam Cùc Tiªn ¤ng
+Nam Minh Tu	Nam Minh Tö
+Nam Thien mon	Nam Thiªn m«n
+Nam om nu	Nam «m n÷
+Nanh Vuong Hon	Nanh V­¬ng Hån
+Ngan can Quang Kieu	Ng¨n c¹n Quang KiÒu
+Ngan can Thuong Chu	Ng¨n c¹n Th­¬ng Chu
+Ngo Chan Nhan	Ngé Ch©n Nh©n
+Ngo Long	Ng« Long
+Ngoc Nu	Ngäc N÷
+Ngoc Tho	Ngäc Thè
+Ngon Doai	Ng«n §o¸i
+Ngu Hanh Thien Nguc tran	Ngò Hµnh Thiªn Ngôc trËn
+Ngu Hien Linh Quan	Ngò HiÖn Linh Quan
+Ngu Sau Bao Phong	Ngù SËu B¹o Phong
+Ngu Thong Than(Bac)	Ngò Th«ng ThÇn(B¾c)
+Ngu Thong Than(Dong)	Ngò Th«ng ThÇn(§«ng)
+Ngu Thong Than(Nam)	Ngò Th«ng ThÇn(Nam)
+Ngu Thong Than(Tay)	Ngò Th«ng ThÇn(T©y)
+Ngu Thong Than(Trung)	Ngò Th«ng ThÇn(Trung)
+Nguc Phap than	Ngôc Ph¸p thÇn
+Nguoi Quang Ba	Ng­êi Qu¶ng B¸
+Nguoi Tay Vuc	Ng­êi T©y Vùc
+Nguoi Than Bi 3	Ng­êi ThÇn Bİ 3
+Nguoi hai thuoc	Ng­êi h¸i thuèc
+Nguoi huynh de hai thuoc	Ng­êi huynh ®Ö h¸i thuèc
+Nguoi rong	Ng­êi rång
+Nguoi soi	Ng­êi sãi
+Nguoi tuyet	Ng­êi tuyÕt
+Nguu Bi xa	Ng­u B× xa
+Nguu Kim Nguu	Ng­u Kim Ng­u
+Nguu Sat	Ng­u S¸t
+Nguy Nguyet Yen	Nguy NguyÖt YÕn
+Nguyen Lam	NguyÔn L©m
+Nguyen Soai	Nguyªn So¸i
+Nguyen Tham Tinh	Nguyªn Tham Tinh
+Nguyen than cua Qui ta yeu nhan	Nguyªn thÇn cña QuØ tµ yªu nh©n
+Nguyet Lao	NguyÖt L·o
+Nham Dai Ca	NhËm §¹i Ca
+Nham Dai Tau	NhËm §¹i TÈu
+Nhan Phien	Nh©n PhiÕn
+Nhan Phien Ho Phap Gia	Nh©n PhiÕn Hé Ph¸p Gi¶
+Nhan Su	Nh©n S­
+Nhan Vien Quan ly Pho ban	Nh©n Viªn Qu¶n lı Phã b¶n
+Nhan loc	Nh©n léc
+Nhan ma	Nh©n m·
+Nhi Lang Than	NhŞ Lang ThÇn
+Nhi Lang than	NhŞ Lang thÇn
+Nhi Thu.Di	NhÜ Thö.Di
+Nhi Thu.Ly	NhÜ Thö.Ly
+Nhien Dang	Nhiªn §¨ng
+Nhien Dang Dao Nhan	Nhiªn §¨ng §¹o Nh©n
+Nhim Co	Nhİm Cá
+Nhim Lao Gia	Nhİm L·o Gia
+Nien Thu 1	Niªn Thó 1
+Nien Thu 2	Niªn Thó 2
+Ninh Mieu	Ninh Miªu
+No xa	Nç xa
+Nong Dien	N«ng §iÒn
+Nu Oa Nuong Nuong	N÷ Oa N­¬ng N­¬ng
+Nu Te	N÷ TÕ
+Nu Tho Buc	N÷ Thæ Bøc
+Nu Xu	N÷ Xó
+Nuoc suoi	N­íc suèi
+O Van Kiem Tien	¤ V©n KiÕm Tiªn
+O dong	¤ ®ång
+Ong gia noel	¤ng giµ noel
+Pha giap quai	Ph¸ gi¸p qu¸i
+Pham Nghia	Ph¹m NghÜa
+Phan Hoa Do Dang	PhÇn Háa §å §»ng
+Phan don can chien 1	Ph¶n ®ßn cËn chiÕn 1
+Phan don can chien 2	Ph¶n ®ßn cËn chiÕn 2
+Phan don xa 1	Ph¶n ®ßn xa 1
+Phan don xa 2	Ph¶n ®ßn xa 2
+Phan than Tho Hanh Ton	Ph©n th©n Thæ Hµnh T«n
+Phao	Ph¸o
+Phap Tran Dao Si Nam	Ph¸p TrËn §¹o SÜ Nam
+Phap Tran Dao Si Nu	Ph¸p TrËn §¹o SÜ N÷
+Phap Tran Di Nhan Nam	Ph¸p TrËn DŞ Nh©n Nam
+Phap Tran Di Nhan Nu	Ph¸p TrËn DŞ Nh©n N÷
+Phap Tran Giap Si Nam	Ph¸p TrËn Gi¸p SÜ Nam
+Phap Tran Giap Si Nu	Ph¸p TrËn Gi¸p SÜ N÷
+Phap Tru(Bac)	Ph¸p Trô(B¾c)
+Phap Tru(Dong)	Ph¸p Trô(§«ng)
+Phap Tru(Nam)	Ph¸p Trô(Nam)
+Phap Tru(Tay)	Ph¸p Trô(T©y)
+Phap tran	Ph¸p trËn
+Phe Hon	PhÖ Hån
+Phi Giap	Phi Gi¸p
+Phi Tho	Phi Thè
+Phi Tho Ma	Phi Thè Ma
+Phi Truat	PhØ TruÊt
+Phong Ba	Phong B¸
+Phong Hoa Luan	Phong Háa Lu©n
+Phong Hong Ho Phap	Phong Hãng Hé Ph¸p
+Phong Hong Thu Ve	Phong Hãng Thñ VÖ
+Phong Lam	Phong L©m
+Phong Liet Phap Than	Phong LiÖt Ph¸p Th©n
+Phong Nhat Tho	Phßng NhËt Thè
+Phong Quyen Tan Van	Phong QuyÓn Tµn V©n
+Phong Tuong	Phong T­êng
+Phong chien xa	Phßng chiÕn xa
+Phong dao cu	Phßng ®¹o cô
+Phong luyen thuoc	Phßng luyÖn thuèc
+Phong thu son hon	Phong thó s¬n hån
+Phong truong lao	Phong tr­ëng l·o
+Phu An Su	Phï Ên S­
+Phu Bat Dao Nhan	Phï BËt §¹o Nh©n
+Phuc Hi Hau Due	Phôc Hi HËu DuÖ
+Phuc Tinh	Phóc Tinh
+Phung hoang	Phông hoµng
+Phuong Bat Chi Hon	Ph­¬ng BËt Chi Hån
+Phuong Tuong Hon	Ph­¬ng T­íng Hån
+Qua Binh Nha Thuong	Qua Binh Nhµ Th­¬ng
+Quai Bo Thu	Qu¸i Bè Thó
+Quai Hon	Qu¸i Hån
+Quai thach ngan nam	Qu¸i th¹ch ngµn n¨m
+Quan Ly Kho	Qu¶n Lı Kho
+Quan ly	Qu¶n lı
+Quang Am Liet Phung	Quang ¢m LiÖt Phïng
+Quang Kieu	Quang KiÒu
+Quang Quy	Quang Quû
+Quang Tuong 1	Quang T­¬ng 1
+Quang Tuong 2	Quang T­êng 2
+Quat Dia Thu	QuËt §Şa Thö
+Que	QuÕ
+Qui ta yeu nhan	QuØ tµ yªu nh©n
+Quy Kim Duong	Quû Kim D­¬ng
+Quy Lan Dang	Quû L©n §¨ng
+Quy Mi	Quû MŞ
+Quy Ngu	Quû Ng­
+Quy Nguu	Quú Ng­u
+Quy Vuong_ Tho	Quy V­¬ng_ Thæ
+Quy Vuong_Hoa	Quy V­¬ng_Háa
+Quy Vuong_Phong	Quy V­¬ng_Phong
+Quy Vuong_Thuy	Quy V­¬ng_Thñy
+Quynh Tieu Nuong Nuong	Quúnh Tiªu N­¬ng N­¬ng
+Rong doi mau	Rång ®æi mµu
+Ruong chua do	R­¬ng chøa ®å
+Sa Hon	Sa Hån
+Sa Long	Sa Long
+Sa Ma	Sa Ma
+Sa Tho Giam Lao	Sa Thæ Gi¸m Lao
+Sa cau	Sa cÇu
+Sam Thuy Vien	S©m Thñy Viªn
+San luyen thu	S©n luyÖn thó
+Sat Ma	S¸t Ma
+Si Van	Si VÉn
+Sinh Hoat Su	Sinh Ho¹t S­
+Soc	Sãc
+Soi	Sãi
+Soi chua	Sãi chóa
+Son Duong yeu	S¬n D­¬ng yªu
+Son Than Hong Bac	S¬n ThÇn Hång B¸c
+Son Tieu	S¬n Tiªu
+Song Sac Than Thach	Song S¾c ThÇn Th¹ch
+Su Gia Tam Long	Sø Gi¶ Tam Long
+Sui cao	Sñi c¶o
+Sung Hac Ho	Sïng H¾c Hæ
+Sung Hau Ho	Sïng HÇu Hæ
+Sung Ung Buu	Sïng øng B­u
+Sung Ung Loan	Sïng øng Loan
+Sung Vat 13	Sñng VËt 13
+Suong Ma nu	S­¬ng Ma n÷
+Ta Lang	Tµ Lang
+Tai Than	Tµi ThÇn
+Tam Ma 100 Nam-Dao	T©m Ma 100 Nam-§¹o
+Tam Ma 100 Nam-Di	T©m Ma 100 Nam-DŞ
+Tam Ma 100 Nam-Giap	T©m Ma 100 Nam-Gi¸p
+Tam Ma 100 Nu-Dao	T©m Ma 100 N÷-§¹o
+Tam Ma 100 Nu-Di	T©m Ma 100 N÷-DŞ
+Tam Ma 100 Nu-Giap	T©m Ma 100 N÷-Gi¸p
+Tam Ma 50 Nam-Dao	T©m Ma 50 Nam-§¹o
+Tam Ma 50 Nam-Di	T©m Ma 50 Nam-DŞ
+Tam Ma 50 Nam-Giap	T©m Ma 50 Nam-Gi¸p
+Tam Ma 50 Nu-Dao	T©m Ma 50 N÷-§¹o
+Tam Ma 50 Nu-Di	T©m Ma 50 N÷-DŞ
+Tam Ma 50 Nu-Giap	T©m Ma 50 N÷-Gi¸p
+Tam Ma 60 Nam-Dao	T©m Ma 60 Nam-§¹o
+Tam Ma 60 Nam-Di	T©m Ma 60 Nam-DŞ
+Tam Ma 60 Nam-Giap	T©m Ma 60 Nam-Gi¸p
+Tam Ma 60 Nu-Dao	T©m Ma 60 N÷-§¹o
+Tam Ma 60 Nu-Di	T©m Ma 60 N÷-DŞ
+Tam Ma 60 Nu-Giap	T©m Ma 60 N÷-Gi¸p
+Tam Ma 70 Nam-Dao	T©m Ma 70 Nam-§¹o
+Tam Ma 70 Nam-Di	T©m Ma 70 Nam-DŞ
+Tam Ma 70 Nam-Giap	T©m Ma 70 Nam-Gi¸p
+Tam Ma 70 Nu-Dao	T©m Ma 70 N÷-§¹o
+Tam Ma 70 Nu-Di	T©m Ma 70 N÷-DŞ
+Tam Ma 70 Nu-Giap	T©m Ma 70 N÷-Gi¸p
+Tam Ma 80 Nam-Dao	T©m Ma 80 Nam-§¹o
+Tam Ma 80 Nam-Di	T©m Ma 80 Nam-DŞ
+Tam Ma 80 Nam-Giap	T©m Ma 80 Nam-Gi¸p
+Tam Ma 80 Nu-Dao	T©m Ma 80 N÷-§¹o
+Tam Ma 80 Nu-Di	T©m Ma 80 N÷-DŞ
+Tam Ma 80 Nu-Giap	T©m Ma 80 N÷-Gi¸p
+Tam Ma 90 Nam-Dao	T©m Ma 90 Nam-§¹o
+Tam Ma 90 Nam-Di	T©m Ma 90 Nam-DŞ
+Tam Ma 90 Nam-Giap	T©m Ma 90 Nam-Gi¸p
+Tam Ma 90 Nu-Dao	T©m Ma 90 N÷-§¹o
+Tam Ma 90 Nu-Di	T©m Ma 90 N÷-DŞ
+Tam Ma 90 Nu-Giap	T©m Ma 90 N÷-Gi¸p
+Tam Nguyet Ho	T©m NguyÖt Hå
+Tam Sac Than Thach	Tam S¾c ThÇn Th¹ch
+Tam Tam Tuong an	T©m T©m T­¬ng Ên
+Tan Thien Quan	TÇn Thiªn Qu©n
+Tan Thu Thi Luyen	T©n Thñ Thİ LuyÖn
+Tan lang	T©n lang
+Tao Bao	Tµo B¶o
+Tap Hoa Thuong	T¹p Hãa Th­¬ng
+Tap Hoa Thuong Nhan	T¹p Hãa Th­¬ng Nh©n
+Tap hoa Thuong	T¹p hãa Th­¬ng
+Tat Hanh Quy	TËt Hµnh Quû
+Tay Vuong Mau	T©y V­¬ng MÉu
+Te Uyen Coc	TÕ Uyªn Cèc
+Te dan	TÕ ®µn
+Thach Di	Th¹ch Di
+Thach Mieu	Th¹ch Miªu
+Thach Quy	Th¹ch Quy
+Thach than	Th¹ch thÇn
+Thai Thuong Lao Quan	Th¸i Th­îng L·o Qu©n
+Thai Van Tien Tu	Th¸i V©n Tiªn Tö
+Thai Vi Vien Su Linh Hu	Th¸i Vi Viªn Sø Linh H­
+Thai at chien hon	Th¸i Êt chiÕn hån
+Than Cong Bao	Th©n C«ng B¸o
+Than Long	ThÇn Long
+Than Moc	ThÇn Méc
+Than Nong Hau Due	ThÇn N«ng HËu DuÖ
+Than Oanh	ThÇn Oanh
+Than bang	ThÇn b¨ng
+Than hoa	ThÇn háa
+Than loi	ThÇn l«i
+Than tho	ThÇn thæ
+Thanh Dia Bach Hop	Th¸nh §Şa B¸ch Hîp
+Thanh Hu dao truong	Thanh H­ ®¹o tr­ëng
+Thanh thi Tieu xa	Thµnh thŞ Tiªu xa
+Thao Tien	Th¶o Tiªn
+Thao Tien Ba Ba	Th¶o Tiªn Bµ Bµ
+Thao truong	Thao tr­êng
+That Hoa Tru	ThÊt Háa Tr­
+That Thach cau	ThÊt Th¹ch cÇu
+That sac Thach Cau(Hoang)	ThÊt s¾c Th¹ch CÇu(Hoµng)
+That sac Thach Cau(Hong)	ThÊt s¾c Th¹ch CÇu(Hång)
+That sac Thach Cau(Lam)	ThÊt s¾c Th¹ch CÇu(Lam)
+That sac Thach Cau(Luc)	ThÊt s¾c Th¹ch CÇu(Lôc)
+That sac Thach Cau(Quang)	ThÊt s¾c Th¹ch CÇu(Quang)
+That sac Thach Cau(Trang)	ThÊt s¾c Th¹ch CÇu(Tr¾ng)
+Thay Tuong So	ThÇy T­íng Sè
+The Ngu	ThÓ Ng­
+The Van Lenh	ThÓ V©n LÖnh
+Thi Luyen Than Su	Thİ LuyÖn ThÇn Sø
+Thi Sa Tang	ThŞ Sa T¨ng
+Thi thu	Thi thó
+Thien Cuong Tinh	Thiªn C­¬ng Tinh
+Thien Cuong anh	Thiªn C­¬ng ¶nh
+Thien Hao	Thiªn H¹o
+Thien Hon	Thiªn Hån
+Thien Nhac nguc tot	Thiªn Nh¹c ngôc tèt
+Thien Nien Yeu Ho	Thiªn Niªn Yªu Hå
+Thien Phien	Thiªn PhiÕn
+Thien Phien Ho Phap Gia	Thiªn PhiÕn Hé Ph¸p Gi¶
+Thien Sat Tinh	Thiªn S¸t Tinh
+Thien Thi Vien Su Linh Pha	Thiªn ThŞ Viªn Sø Linh Ph¸
+Thien Thu	Thiªn Thï
+Thien Thuy Chi Nguyen	ThiÖn Thñy Chi Nguyªn
+Thien Tuyet Ho Ve	Thiªn TuyÖt Hé VÖ
+Thien Tuyet Thu Ve	Thiªn TuyÖt Thñ VÖ
+Thien Vu te	Thiªn Vò tÕ
+Thien Yet	Thiªn YÕt
+Thiet Bo	ThiÕt Bè
+Thiet Bo ao canh	ThiÕt Bè ¶o c¶nh
+Thiet Diem than	ThiÕt §iÓm thÇn
+Thiet Kinh than_Hoa	ThiÕt Kinh thÇn_Háa
+Thiet Kinh than_Phong	ThiÕt Kinh thÇn_Phong
+Thiet Kinh than_Tho	ThiÕt Kinh thÇn_Thæ
+Thiet Kinh than_Thuy	ThiÕt Kinh thÇn_Thñy
+Thiet Ngu	ThiÕt Ng­
+Thiet Ngu vuong	ThiÕt Ng­ v­¬ng
+Thiet Quan Dao Nhan	ThiÕt Qu¸n §¹o Nh©n
+Thiet Tho	ThiÕt Thè
+Thiet Tinh	ThiÕt Tinh
+Thiet Tinh dai vuong	ThiÕt Tinh ®¹i v­¬ng
+Thiet Trung	ThiÕt Trïng
+Thiet trung	ThiÕt trïng
+Thieu Hao	ThiÕu H¹o
+Thieu Hao Hau Due	ThiÕu H¹o HËu DuÖ
+Tho Dong	Thî §ång
+Tho Hanh Ton	Thæ Hµnh T«n
+Tho Linh	Thæ Linh
+Tho Ngu	Thè Ng­
+Tho Tinh	Thä Tinh
+Tho dong	Thî ®ång
+Tho truong lao	Thæ tr­ëng l·o
+Thoan Nhuong	Tho¸n Nh­îng
+Thoan Uyen	Tho¸n UyÓn
+Thong Giang sinh	Th«ng Gi¸ng sinh
+Thong That Tau	Th«ng ThÊt TÈu
+Thong Thien_Hoa	Th«ng Thiªn_Háa
+Thong Thien_Phong	Th«ng Thiªn_Phong
+Thong Thien_Thuy	Th«ng Thiªn_Thñy
+Thong Thien_tho	Th«ng Thiªn_thæ
+Thong giang sinh cao cap	Th«ng gi¸ng sinh cao cÊp
+Thu Duong Than Moc	Thñ D­¬ng ThÇn Méc
+Thu Ho thu	Thñ Hé thó
+Thu Kho	Thñ Khè
+Thu Linh  Huyen Linh	Thñ LÜnh  HuyÔn Linh
+Thu Linh Bang Linh	Thñ LÜnh B¨ng Linh
+Thu Linh Bo Than	Thñ LÜnh Bè ThÇn
+Thu Linh Cau Mang	Thñ Linh CÈu Mang
+Thu Linh Chuc Than	Thñ LÜnh Chóc ThÇn
+Thu Linh Co Quan	Thñ LÜnh C¬ Qu©n
+Thu Linh Cot Tinh Vuong	Thñ LÜnh Cèt Tinh V­¬ng
+Thu Linh Cu Trach	Thñ LÜnh Cù Tr¹ch
+Thu Linh Da Mao Than	Thñ LÜnh D· Mao ThÇn
+Thu Linh Dang Hon	Thñ LÜnh §¨ng Hån
+Thu Linh Dao Cam	Thñ LÜnh §ao CÇm
+Thu Linh Di Vuc Cau Mang	Thñ LÜnh DŞ Vùc CÈu Mang
+Thu Linh Di Vuc Chu Linh	Thñ LÜnh DŞ Vùc Chu LÜnh
+Thu Linh Di Vuc Phong Yeu	Thñ LÜnh DŞ Vùc Phong Yªu
+Thu Linh Doi Trai	Thñ LÜnh §íi Tr¹i
+Thu Linh Ha Cot	Thñ LÜnh Hµ Cèt
+Thu Linh Ha Hau Khoi	Thñ LÜnh H¹ HËu Khëi
+Thu Linh Hai Sam	Thñ LÜnh H¶i S©m
+Thu Linh Hoa Ma	Thñ LÜnh Háa Ma
+Thu Linh Hoa Ngu	Thñ LÜnh Háa Ng­
+Thu Linh Hoa Ta	Thñ LÜnh Háa Tµ
+Thu Linh Hoa Tru	Thñ LÜnh Hoa Tr­
+Thu Linh Hon Son Hau	Thñ LÜnh Hån S¬n HÇu
+Thu Linh Huyet Yeu	Thñ LÜnh HuyÕt Yªu
+Thu Linh Khai Minh Than	Thñ LÜnh Khai Minh ThÇn
+Thu Linh Lam Cot	Thñ LÜnh Lam Cèt
+Thu Linh Lam Quai	Thñ LÜnh Lam Qu¸i
+Thu Linh Lao Dong	Thñ LÜnh L·o §ång
+Thu Linh Lao Ho Lo	Thñ LÜnh L·o Hå L«
+Thu Linh Loi Trach Than	Thñ LÜnh L«i Tr¹ch ThÇn
+Thu Linh Luc Ngo Than	Thñ LÜnh Lôc Ng« ThÇn
+Thu Linh Luc Quy	Thñ LÜnh Lôc Quy
+Thu Linh Ngoc Nu	Thñ LÜnh Ngäc N÷
+Thu Linh Ninh Mieu	Thñ LÜnh Ninh Miªu
+Thu Linh Nu Te	Thñ LÜnh N÷ TÕ
+Thu Linh Nu Xu	Thñ LÜnh N÷ Xó
+Thu Linh Phi Giap	Thñ LÜnh Phi Gi¸p
+Thu Linh Phi Tho	Thñ LÜnh Phi Thè
+Thu Linh Quang Quy	Thñ LÜnh Quang Quû
+Thu Linh Sa Hon	Thñ LÜnh Sa Hån
+Thu Linh Soi	Thñ LÜnh Sãi
+Thu Linh Son Duong Yeu	Thñ LÜnh S¬n D­¬ng Yªu
+Thu Linh Son Tieu	Thñ LÜnh S¬n Tiªu
+Thu Linh Thach Di	Thñ LÜnh Th¹ch Di
+Thu Linh Thach Than	Thñ LÜnh Th¹ch ThÇn
+Thu Linh Thiet Ngu	Thñ LÜnh ThiÕt Ng­
+Thu Linh Thiet Tinh	Thñ LÜnh ThiÕt Tinh
+Thu Linh Thiet Trung	Thñ LÜnh ThiÕt Trïng
+Thu Linh Tranh Nanh	Thñ LÜnh Tr¹nh Nanh
+Thu Linh Ty Huu .Kim	Thñ LÜnh Tú H­u .Kim
+Thu Linh Ty Huu.Hoa	Thñ LÜnh Tú H­u.Háa
+Thu Linh Ty Huu.Moc	Thñ LÜnh Tú H­u.Méc
+Thu Linh Ty Huu.Thuy	Thñ LÜnh Tú H­u.Thñy
+Thu Linh Vo Danh Thu	Thñ LÜnh V« Danh Thó
+Thu Linh ai Nhan	Thñ LÜnh ¶i Nh©n
+Thu LinhTy Huu.Tho	Thñ LÜnhTú H­u.Thæ
+Thu kho	Thñ khè
+Thu khong ten	Thó kh«ng tªn
+Thu quy 1	Thó quı 1
+Thu quy 2	Thó quı 2
+Thu quy 3	Thó quı 3
+Thu quy 4	Thó quı 4
+Thu quy 5	Thó quı 5
+Thu quy 6	Thó quı 6
+Thuc Duoc Thu	Thùc D­îc Thó
+Thuc Khi Quy	Thùc Khİ Quû
+Thuc Thuy Quy	Thùc Thñy Quû
+Thuoc Kim Chi Nguyen	Th­íc Kim Chi Nguyªn
+Thuong Diem	Th­¬ng §iÕm
+Thuong Hao	Th­êng H¹o
+Thuong Nhan Tay Vuc	Th­¬ng Nh©n T©y Vùc
+Thuong Xa	Th­¬ng Xa
+Thuong quan	Th­¬ng qu©n
+Thuy than	Thñy thÇn
+Thuy tinh-1	Thñy tinh-1
+Thuy tinh-2	Thñy tinh-2
+Thuy tinh-3	Thñy tinh-3
+Thuy truong lao	Thñy tr­ëng l·o
+Thuyen be	ThuyÒn bÌ
+Tich Ta	TŞch Tµ
+Tien - Le Linh Thi	Tiªn - Lª Linh Thi
+Tien Dao than	TiÔn §ao thÇn
+Tien Hon	Tiªn Hån
+Tien Kham Nguyen	Tiªn Kh©m Nguyªn
+Tien Ly Chau	Tiªn Ly Ch©u
+Tien Phong Yeu	Tiªn Phong Yªu
+Tien Phong thu son hon	Tiªn Phong thó s¬n hån
+Tien gioi thu ve 1	Tiªn giíi thñ vÖ 1
+Tien gioi thu ve 2	Tiªn giíi thñ vÖ 2
+Tien gioi thu ve 3	Tiªn giíi thñ vÖ 3
+Tien ky	Tiªn kú
+Tien thap	TiÔn th¸p
+Tien-Chu Linh	Tiªn-Chu LÜnh
+Tiep Dan Chu	TiÕp DÉn Chu
+Tiep Dan Thuong	TiÕp DÉn Th­¬ng
+Tiep Dan dao nhan	TiÕp DÉn ®¹o nh©n
+Tieu Bao	TiÓu B¶o
+Tieu Giao Long	TiÓu Giao Long
+Tieu Loi	TiÕu L«i
+Tieu Su	Tiªu Sö
+Tieu Thang	Tiªu Th¨ng
+Tieu Vien	Tiªu Viªn
+Tieu xa than bi	Tiªu xa thÇn bİ
+Tinh Cang chien hon	Tinh Cang chiÕn hån
+Tinh Minh Quy	Tinh Minh Quy
+Tinh Moc Ngan	TÜnh Méc Ng¹n
+Tinh Nhat Ma	Tinh NhËt M·
+Tinh Phong	TŞnh Phong
+Tinh ky chien	Tinh kú chiÕn
+To Ho	T« Hé
+Toa Lien 1	Táa Liªn 1
+Toa Lien 2	Táa Liªn 2
+Toa Yeu Tran	Táa Yªu TrËn
+Toai Cot te	To¸i Cèt tÕ
+Toai phien cuc lon	To¸i phiÕn cùc lín
+Toai phien lon	To¸i phiÕn lín
+Toai phien nho	To¸i phiÕn nhá
+Toai phien trung	To¸i phiÕn trung
+Toan Thuy Bao	To¸n Thñy B¸o
+Toc nguoi mat tich	Téc ng­êi mÊt tİch
+Ton Thien Quan	T«n Thiªn Qu©n
+Tong Di Nhan	Tèng DŞ Nh©n
+Tra Tra Dieu	Tra Tra §iÓu
+Trai linh	Tr¹i lİnh
+Tran Nguyen Dai Tien	TrÊn Nguyªn §¹i Tiªn
+Tran Tuong quan	TrÊn T­íng qu©n
+Tran phap mon	TrËn ph¸p m«n
+Trang phuc nam 1	Trang phôc nam 1
+Trang phuc nam 2	Trang phôc nam 2
+Trang phuc nu 1	Trang phôc n÷ 1
+Trang phuc nu 2	Trang phôc n÷ 2
+Trau Cuc	Tr©u Cóc
+Triet La Ngu	TriÕt La Ng­
+Trieu Cong Minh	TriÖu C«ng Minh
+Trieu Dien	TriÖu §iÒn
+Trieu Loi	TriÖu L«i
+Trieu Phong	TriÒu Phong
+Trieu Thien Quan	TriÖu Thiªn Qu©n
+Trieu thien hoe	TriÒu thiªn hße
+Trinh Luan	TrŞnh Lu©n
+Trong Tien thap 2	Trong TiÔn th¸p 2
+Trong Tien thap 3	Trong TiÔn th¸p 3
+Trong tien thap 1	Trong tiÔn th¸p 1
+Tru Khoi	Trô Kh«i
+Tru Lung	Tr­ Lung
+Tru Tinh	Tr­ Tinh
+Tru Vuong	Trô V­¬ng
+Trung Hon	Trïng Hån
+Truong Bach Sam Tinh	Tr­êng B¹ch S©m Tinh
+Truong Cam	Tr­ëng CÇm
+Truong Cam Am hon	Tr­ëng CÇm ¢m hån
+Truong Cam Duong Hon	Tr­ëng CÇm D­¬ng Hån
+Truong Cung te	Tr­êng Cung tÕ
+Truong Nguyet Loc	Tr­¬ng NguyÖt Léc
+Truong Thien Quan	Tr­¬ng Thiªn Qu©n
+Truy Hon te	Truy Hån tÕ
+Truyen Lenh Quan chien truong	TruyÒn LÖnh Quan chiÕn tr­êng
+Truyen Lenh Quang	TruyÒn LÖnh Quang
+Truyen Tong Phap Tran	TruyÒn Tèng Ph¸p TrËn
+Tu Bat Tuong	Tø BÊt T­íng
+Tu Dien	T­ DiÔn
+Tu Hang	Tõ Hµng
+Tu Hang Dao Nhan	Tõ Hµng §¹o Nh©n
+Tu Hanh Su	Tu Hµnh S­
+Tu Hanh Su Ma	Tu Hµnh S­ Ma
+Tu Hanh Su Tien	Tu Hµnh S­ Tiªn
+Tu Hon Phuon	Tô Hån Ph­ín
+Tu Hon tran	Tô Hån trËn
+Tu Nguu	Tï Ng­u
+Tu Nha Chi Phach(Bang)	Tö Nh· Chi Ph¸ch(B¨ng)
+Tu Nha Chi Phach(Hoa)	Tö Nh· Chi Ph¸ch(Háa)
+Tu Nha Chi Phach(Loi)	Tö Nh· Chi Ph¸ch(L«i)
+Tu Nha Chi Phach(Phong)	Tö Nh· Chi Ph¸ch(Phßng)
+Tu Nha Chi Phach(Tho)	Tö Nh· Chi Ph¸ch(Thæ)
+Tu Nha Chi Phach(Toc)	Tö Nh· Chi Ph¸ch(Tèc)
+Tu Nha Chi Phach(Vat)	Tö Nh· Chi Ph¸ch(VËt)
+Tu Vi Vien Su Linh Khong	Tö Vi Viªn Sø Linh Kh«ng
+Tu hoa thao	Tó hoa th¶o
+Tung xanh	Tïng xanh
+Tuong Chi	T­îng ChØ
+Tuong Lieu Tu Than	T­¬ng LiÔu Tö ThÇn
+Tuong Linh Chu	T­íng LÜnh Chu
+Tuong Linh Thuong	T­íng LÜnh Th­¬ng
+Tuong Linh phe tim	T­íng LÜnh phe tİm
+Tuong Truc	T­îng Trôc
+Tuong dai	T­íng ®µi
+Tuong linh phe vang	T­íng lÜnh phe vµng
+Tuong tu thao	T­¬ng t­ th¶o
+Tuy Hoa Hau	Tuy Háa HÇu
+Tuyen Phong	TuyÒn Phong
+Tuyen chien Vat to	Tuyªn chiÕn VËt tæ
+Tuyet Hon	TuyÕt Hån
+Tuyet quai	TuyÕt qu¸i
+Ty	Tú
+U Hon	U Hån
+U Tich	U TŞch
+Uu Trung	¦u Trïng
+Van Dinh	V¨n §Ønh
+Van Quang thu	V©n Quang thó
+Van Thai Su	V¨n Th¸i S­
+Van Tieu Nuong Nuong	V©n Tiªu N­¬ng N­¬ng
+Van Trong	V¨n Träng
+Van Trung Tu	V©n Trung Tö
+Van xa	V©n xa
+Vat kha nghi	VËt kh¶ nghi
+Vat to Chu	VËt tæ Chu
+Vat to Cuu Han	VËt tæ Cõu HËn
+Vat to Dinh Hai	VËt tæ §Şnh H¶i
+Vat to Huu Tinh	VËt tæ H÷u T×nh
+Vat to Phi Hung	VËt tæ Phi Hïng
+Vat to Than Tinh	VËt tæ Th©n T×nh
+Vat to Thanh nguu	VËt tæ Thanh ng­u
+Vat to The Tuc	VËt tæ ThÕ Tôc
+Vat to Thuong	VËt tæ Th­¬ng
+Vat to Thuong Lang	VËt tæ Th­¬ng Lang
+Vat to ai Tinh	VËt tæ ¸i T×nh
+Vat to ma kiep	VËt tæ ma kiÕp
+Vat to tien kiep	VËt tæ tiªn kiÕp
+Vi Hoa Ho	VÜ Háa Hæ
+Vi Tho Tri	VŞ Thæ TrÜ
+Vien Thien Quan	Viªn Thiªn Qu©n
+Vo Cat	Vâ C¸t
+Vo Dung Ngoan Thach	V« Dông Ngoan Th¹ch
+Vo Hon	Vâ Hån
+Vo Uong Tu	V« ¦¬ng Tö
+Vo Vuong	Vò V­¬ng
+Vo Vuong(Chien Dau)	Vâ V­¬ng(ChiÕn §Êu)
+Vo Vuong(Doi thoai)	Vâ V­¬ng(§èi tho¹i)
+Vo uu thao	V« ­u th¶o
+Vong quan hoe	Väng qu©n hße
+Vu Bo Thien Binh	Vò Bé Thiªn Binh
+Vu Ho	Vò Hé
+Vu La Than Y	Vò La ThÇn Y
+Vu La Tu Than	Vò La Tö ThÇn
+Vu Trach Than La	Vò Tr¹ch ThÇn La
+Vuong Ma	V­¬ng Ma
+Vuong Thien Quan	V­¬ng Thiªn Qu©n
+Xa Nhan	X¹ Nh©n
+Xac vat to-Hoa	X¸c vËt tæ-Háa
+Xac vat to-Kim	X¸c vËt tæ-Kim
+Xac vat to-Moc	X¸c vËt tæ-Méc
+Xac vat to-Tho	X¸c vËt tæ-Thæ
+Xac vat to-Thuy	X¸c vËt tæ-Thñy
+Xay Kinh Thien thap	X©y K×nh Thiªn th¸p
+Xe chuyen ruou	Xe chuyÓn r­îu
+Xe chuyen ruou cao cap	Xe chuyÓn r­îu cao cÊp
+Xe luong	Xe l­¬ng
+Xich Hoa Chi Nguyen	Xİch Háa Chi Nguyªn
+Xich Lang	Xİch Lang
+Xich Ngo Phong Tuc Su	Xİch Ngä Phong Tøc Sø
+Xich Tinh Tu	Xİch Tinh Tö
+Xich Tung Tu	Xİch Tïng Tö
+Xich Yen Thu	Xİch Yªn Thó
+Xich nhan ma	Xİch nh·n ma
+Xuat Khieu Nguyen Than Ma 1	XuÊt KhiÕu Nguyªn ThÇn Ma 1
+Xuat Khieu Nguyen Than Ma 2	XuÊt KhiÕu Nguyªn ThÇn Ma 2
+Xuat Khieu Nguyen Than Ma 3	XuÊt KhiÕu Nguyªn ThÇn Ma 3
+Xuat Khieu Nguyen Than Ma 4	XuÊt KhiÕu Nguyªn ThÇn Ma 4
+Xuat Khieu Nguyen Than Ma 5	XuÊt KhiÕu Nguyªn ThÇn Ma 5
+Xuat Khieu Nguyen Than Ma 6	XuÊt KhiÕu Nguyªn ThÇn Ma 6
+Xuat Khieu Nguyen Than Ma 7	XuÊt KhiÕu Nguyªn ThÇn Ma 7
+Xuat Khieu Nguyen Than Tien 1	XuÊt KhiÕu Nguyªn ThÇn Tiªn 1
+Xuat Khieu Nguyen Than Tien 2	XuÊt KhiÕu Nguyªn ThÇn Tiªn 2
+Xuat Khieu Nguyen Than Tien 3	XuÊt KhiÕu Nguyªn ThÇn Tiªn 3
+Xuat Khieu Nguyen Than Tien 4	XuÊt KhiÕu Nguyªn ThÇn Tiªn 4
+Xuat Khieu Nguyen Than Tien 5	XuÊt KhiÕu Nguyªn ThÇn Tiªn 5
+Xuat Khieu Nguyen Than Tien 6	XuÊt KhiÕu Nguyªn ThÇn Tiªn 6
+Xuat Khieu Nguyen Than Tien 7	XuÊt KhiÕu Nguyªn ThÇn Tiªn 7
+Xung xa	Xung xa
+Y Bat T Truyen	Y B¸t T TruyÒn
+Y Giap Ma	Y Gi¸p Ma
+Y Giap Tien	Y Gi¸p Tiªn
+Y Sinh	Y Sinh
+Yem Hoa dang nghi	YÓm Háa ®¸ng nghi
+Yem Ma	YÓm Ma
+Yen Ba Ich	Yªn B¸ İch
+Yen Ba ich	YÓn B¸ İch
+Yen Phong	YÓn Phong
+Yen Thuc Di	YÓn Thóc Di
+Yen Tu Minh	YÓn Tö Minh
+Yen Van	YÓn V©n
+ai Nhan	¶i Nh©n
+am Giao Long	¸m Giao Long
+ani062	ani062
+ani063	ani063
+ani064	ani064
+ani065	ani065
+ani066	ani066
+ani067	ani067
+ani068	ani068
+ani069	ani069
+ani070	ani070
+ani071	ani071
+ani072	ani072
+ani073	ani073
+ani074	ani074
+ani075	ani075
+ani076	ani076
+ani077	ani077
+ani078	ani078
+ani079	ani079
+ani080	ani080
+ani081	ani081
+ani082	ani082
+ao Canh Luc Quy	¶o C¶nh Lôc Quy
+ao khoac nam	¸o kho¸c nam
+ao khoac nu	¸o kho¸c n÷
+human015	human015
+human016	human016
+human017	human017
+human018	human018
+human019	human019
+human020	human020
+human021	human021
+human022	human022
+human023	human023
+human024	human024
+human025	human025
+human026	human026
+human027	human027
+human028	human028
+human029	human029
+human030	human030
+human031	human031
+human032	human032
+human033	human033
+human034	human034
+human035	human035
+human036	human036
+human037	human037
+human038	human038
+human039	human039
+human040	human040
+human041	human041
+human042	human042
+human043	human043
+human044	human044
+human045	human045
+material006	material006
+material007	material007
+passerby001	passerby001
+passerby002	passerby002
+passerby003	passerby003
+passerby004	passerby004
+passerby005	passerby005
+passerby006	passerby006
+passerby007	passerby007
+passerby008	passerby008
+passerby009	passerby009
+passerby010	passerby010
+passerby011	passerby011
+passerby012	passerby012
+passerby013	passerby013
+passerby014	passerby014
+passerby015	passerby015
+passerby016	passerby016
+passerby017	passerby017
+passerby018	passerby018
+passerby019	passerby019
+passerby020	passerby020
+passerby021	passerby021
+passerby022	passerby022
+passerby023	passerby023
+passerby024	passerby024
+passerby025	passerby025
+passerby026	passerby026
+passerby027	passerby027
+passerby028	passerby028
+passerby029	passerby029
+passerby030	passerby030
+passerby031	passerby031
+passerby032	passerby032
+passerby033	passerby033
+passerby034	passerby034
+passerby035	passerby035
+passerby036	passerby036
+passerby037	passerby037
+passerby038	passerby038
+passerby039	passerby039
+passerby040	passerby040
+passerby041	passerby041
+passerby042	passerby042
+passerby043	passerby043
+passerby044	passerby044
+passerby045	passerby045
+passerby046	passerby046
+passerby047	passerby047
+passerby048	passerby048
+passerby049	passerby049
+passerby050	passerby050
+passerby051	passerby051
+passerby052	passerby052
+passerby053	passerby053
+passerby054	passerby054
+passerby055	passerby055
+passerby056	passerby056
+passerby057	passerby057
+passerby058	passerby058
+passerby059	passerby059
+passerby060	passerby060
+passerby061	passerby061
+passerby062	passerby062
+passerby063	passerby063
+passerby064	passerby064
+passerby065	passerby065
+passerby066	passerby066
+passerby067	passerby067
+passerby068	passerby068
+passerby069	passerby069
+passerby070	passerby070
+passerby071	passerby071
+passerby072	passerby072
+passerby073	passerby073
+passerby074	passerby074
+passerby075	passerby075
+passerby076	passerby076
+passerby077	passerby077
+passerby078	passerby078
+passerby079	passerby079
+passerby080	passerby080
+passerby081	passerby081
+passerby082	passerby082
+passerby083	passerby083
+passerby084	passerby084
+passerby085	passerby085
+passerby086	passerby086
+passerby087	passerby087
+passerby088	passerby088
+passerby089	passerby089
+passerby090	passerby090
+passerby091	passerby091
+passerby092	passerby092
+passerby093	passerby093
+passerby094	passerby094
+passerby095	passerby095
+passerby096	passerby096
+passerby097	passerby097
+passerby098	passerby098
+passerby099	passerby099
+passerby100	passerby100
+passerby101	passerby101
+passerby102	passerby102
+passerby103	passerby103
+passerby104	passerby104
+passerby105	passerby105
+passerby106	passerby106
+passerby108	passerby108
+passerby109	passerby109
+passerby110	passerby110
+passerby111	passerby111
+passerby112	passerby112
+passerby113	passerby113
+passerby114	passerby114
+passerby115	passerby115
+passerby116	passerby116
+passerby117	passerby117
+passerby118	passerby118
+passerby119	passerby119
+passerby120	passerby120
+passerby121	passerby121
+passerby122	passerby122
+passerby123	passerby123
+passerby124	passerby124
+passerby125	passerby125
+passerby126	passerby126
+passerby127	passerby127
+passerby128	passerby128
+passerby129	passerby129
+passerby130	passerby130
+passerby131	passerby131
+passerby132	passerby132
+passerby133	passerby133
+passerby134	passerby134
+passerby135	passerby135
+passerby136	passerby136
+passerby137	passerby137
+passerby138	passerby138
+passerby139	passerby139
+passerby140	passerby140
+passerby141	passerby141
+passerby142	passerby142
+passerby143	passerby143
+passerby144	passerby144
+passerby145	passerby145
+passerby146	passerby146
+passerby147	passerby147
+passerby148	passerby148
+passerby149	passerby149
+passerby150	passerby150
+tieu yeu Doat Bao	tiÓu yªu §o¹t B¶o
+uc Moc Chi Nguyen	óc Méc Chi Nguyªn
+…è	Tú
+—ƒè»	Lam B¸
+—ƒè»»ÃÏó	Lam B¸ ¶o c¶nh
+°®ÇéÍ¼ÌÚ	VËt tæ ¸i T×nh
+°²¾ÓÊŞ	Cù D·
+°µµ­µÄÁ«µÆ	Liªn §¨ng tèi mê
+°µòÔÁú	¸m Giao Long
+°Ğ³¡	Thao tr­êng
+°×º×µÀ³¤	B¹ch H¹c ®¹o tr­ëng
+°×»¢	B¹ch Hæ
+°×»¢ĞÇ¾ı	B¹ch Hæ Tinh Qu©n
+°×Í©	B¹ch ®ång
+°×Ö½á¦	B¹ch ChØ Phiªn
+°ØÌì¾ı	B¸ch Thiªn Qu©n
+°ÙºÏ	Hoa loa kÌn
+°Ù»¨²Î	B¸ch hoa s©m
+°ÙÄê¼×¿ÇÈË	B¸ch Niªn Gi¸p Cèt Nh©n
+°ÚÌ¯1	B¸n hµng 1
+°ÚÌ¯10	B¸n hµng 10
+°ÚÌ¯2	B¸n hµng 2
+°ÚÌ¯3	B¸n hµng 3
+°ÚÌ¯4	B¸n hµng 4
+°ÚÌ¯5	B¸n hµng 5
+°ÚÌ¯6	B¸n hµng 6
+°ÚÌ¯7	B¸n hµng 7
+°ÚÌ¯8	B¸n hµng 8
+°ÚÌ¯9	B¸n hµng 9
+±¦Ïä£¨·ç£©	B¶o r­¬ng(Phong)
+±¦Ïä£¨»ğ£©	B¶o r­¬ng(Háa)
+±¦Ïä£¨Ë®£©	B¶o r­¬ng(Thñy)
+±¦Ïä£¨ÍÁ£©	B¶o r­¬ng(thæ)
+±¬Öñ	Ph¸o
+±±º£ÅÑ¾ü	X¹ Nh©n
+±±º£Éñİº	ThÇn Oanh
+±»Á÷·ÅµÄÌìî¸ĞÇ	Thiªn C­¬ng Tinh
+±ÌÏöÄïÄï	Bİch Tiªu N­¬ng N­¬ng
+±ÌÑÛÄ§	Bİch Nh·n Ma
+±ÌÓÎ¾Æ±£	Chñ töu qu¸n Bİch Du
+±ÌÓÎÉñÃØÈË	Bİch Du Nh©n
+±ÏÔÂÎÚ	Hoa NguyÖt ¤
+±ÙĞ°	TŞch Tµ
+±ÚË®òõ	Bİch Thñy Du
+±âÈµÇ°ÊÀ	S­¬ng Ma n÷
+±äÉ«Áú	Rång ®æi mµu
+±ù·âµÄ¾ŞÄñ	B¨ng Phong Cù §iÓu
+±ù½¾³æ	B¨ng Lang
+±ù½¾³æÍõ	B¨ng Lang V­¬ng
+±ùÁ×	B¨ng L©n
+±ùÁé	B¨ng Linh
+±ùÁéÊ×Áì	Thñ LÜnh B¨ng Linh
+±ùÁú¶Õ	Gß B¨ng Long
+±ùÈ¼¶ñ¹í	B¨ng Nhiªn ¸c Quû
+±ùÉñ	ThÇn b¨ng
+±ùÒõÙî	B¨ng ¢m Hñy
+²¢·â	TŞnh Phong
+²»ÃğÁ«µÆ	BÊt DiÖt Liªn §¨ng
+²»ËÀÉñÄ¾	ThÇn Méc
+²»ËÀĞ¡¹Ö	BÊt tö qu¸i
+²»Òåºî	BÊt NghÜa HÇu
+²ÆÉñ	Tµi ThÇn
+²ÉÒ©ÈË	Ng­êi h¸i thuèc
+²ÉÒ©ÈËµÄĞÖµÜ	Ng­êi huynh ®Ö h¸i thuèc
+²ÊÔÆÁî	ThÓ V©n LÖnh
+²ÊÔÆÏÉ×Ó	Th¸i V©n Tiªn Tö
+²ÎË®Ô³	S©m Thñy Viªn
+²ÔÀÇÍ¼ÌÚ	VËt tæ Th­¬ng Lang
+²Ö¿â¹ÜÀíÔ±	Thñ khè
+²Ü±¦	Tµo B¶o
+²İÏÉ	Th¶o Tiªn
+²İÏÉÆÅÆÅ	Th¶o Tiªn Bµ Bµ
+³£Ê¤ìºÆì	Tinh kú chiÕn
+³£ê»	Th­êng H¹o
+³¤°×²Î¾«	Tr­êng B¹ch S©m Tinh
+³¤³ËÉñ	S¬n D­¬ng yªu
+³¤³ËÉñÊ×Áì	Thñ LÜnh S¬n D­¬ng Yªu
+³¤¹­¼À	Tr­êng Cung tÕ
+³¤ÇÙ	Tr­ëng CÇm
+³¤ÇÙÑô»ê	Tr­ëng CÇm D­¬ng Hån
+³¤ÇÙÒõ»ê	Tr­ëng CÇm ¢m hån
+³¬´óËéÆ¬	To¸i phiÕn cùc lín
+³¬¼¶Ê¥µ®Ê÷	Th«ng gi¸ng sinh cao cÊp
+³¯Ìì»±	TriÒu thiªn hße
+³°·ç	TriÒu Phong
+³µÂí·¿	Phßng chiÕn xa
+³ÇÃÅ	Cæng thµnh
+³ÇÊĞ²Ö¿â	Kho l­¬ng
+³ÇÊĞÂæÍÕ	L¹c ®µ
+³ÇÊĞïÚ³µ	Thµnh thŞ Tiªu xa
+³Ë»Æ	ThiÕt Tinh
+³Ë»Æ´óÍõ	ThiÕt Tinh ®¹i v­¬ng
+³Ë»ÆÊ×Áì	Thñ LÜnh ThiÕt Tinh
+³à»ğÖ®Ô´	Xİch Háa Chi Nguyªn
+³à¾«×Ó	Xİch Tinh Tö
+³àÀË	Xİch Lang
+³àËÉ×Ó	Xİch Tïng Tö
+³àÍÁ¶Ñ(Ä§)	Gß Xİch Thæ(Ma)
+³àÍÁ¶Ñ(ÏÉ)	Gß Xİch Thæ(Tiªn)
+³àÎç¡¤·âÏ¢Ê¹	Xİch Ngä Phong Tøc Sø
+³àÑÌÊŞ	Xİch Yªn Thó
+³àÑÛÄ§	Xİch nh·n ma
+³å³µ	Xung xa
+³æ¹í	Trïng Hån
+³çºÚ»¢	Sïng H¾c Hæ
+³çºî»¢	Sïng HÇu Hæ
+³çÓ¦±ë	Sïng øng B­u
+³çÓ¦ğ½	Sïng øng Loan
+³èÎï1	Thó quı 1
+³èÎï13	Sñng VËt 13
+³èÎï2	Thó quı 2
+³èÎï3	Thó quı 3
+³èÎï4	Thó quı 4
+³èÎï5	Thó quı 5
+³èÎï6	Thó quı 6
+³ğºŞÍ¼ÌÚ	VËt tæ Cõu HËn
+³öÇÏÔªÉñÄ§1	XuÊt KhiÕu Nguyªn ThÇn Ma 1
+³öÇÏÔªÉñÄ§2	XuÊt KhiÕu Nguyªn ThÇn Ma 2
+³öÇÏÔªÉñÄ§3	XuÊt KhiÕu Nguyªn ThÇn Ma 3
+³öÇÏÔªÉñÄ§4	XuÊt KhiÕu Nguyªn ThÇn Ma 4
+³öÇÏÔªÉñÄ§5	XuÊt KhiÕu Nguyªn ThÇn Ma 5
+³öÇÏÔªÉñÄ§6	XuÊt KhiÕu Nguyªn ThÇn Ma 6
+³öÇÏÔªÉñÄ§7	XuÊt KhiÕu Nguyªn ThÇn Ma 7
+³öÇÏÔªÉñÏÉ1	XuÊt KhiÕu Nguyªn ThÇn Tiªn 1
+³öÇÏÔªÉñÏÉ2	XuÊt KhiÕu Nguyªn ThÇn Tiªn 2
+³öÇÏÔªÉñÏÉ3	XuÊt KhiÕu Nguyªn ThÇn Tiªn 3
+³öÇÏÔªÉñÏÉ4	XuÊt KhiÕu Nguyªn ThÇn Tiªn 4
+³öÇÏÔªÉñÏÉ5	XuÊt KhiÕu Nguyªn ThÇn Tiªn 5
+³öÇÏÔªÉñÏÉ6	XuÊt KhiÕu Nguyªn ThÇn Tiªn 6
+³öÇÏÔªÉñÏÉ7	XuÊt KhiÕu Nguyªn ThÇn Tiªn 7
+³û¾Õ	Tr©u Cóc
+´«Áî¹Ù	TruyÒn LÖnh Quang
+´«ËÍ·¨Õó	TruyÒn Tèng Ph¸p TrËn
+´«ËÍÃÅ	Cöa chuyÓn tiÕp
+´«ËÍÃÅ1	ChuyÓn tiÕp 1
+´«ËÍÃÅ2	ChuyÓn tiÕp 2
+´«ËÍÌ¨	§µi chuyÓn tiÕp
+´Èº½µÀÈË	Tõ Hµng
+´óÅô	§¹i §iªu
+´óËéÆ¬	To¸i phiÕn lín
+´óÍ·Óã	§¹i §Çu Ng­
+´óÍşÌìÁúµÄ»¯Éí	BiÕn th©n §¹i Uy Thiªn Long
+´óõàÈË	Háa DiÖn
+µ¤ÏöÏÉ×Ó	§¬n Tiªu Tiªn tö
+µ¥É«ÉñÊ¯	§¬n S¾c ThÇn Th¹ch
+µ±ÆÌÀÏ°å	Chñ TiÖm CÇm §å
+µ¶Çİ	§ao CÇm
+µ¶ÇİÊ×Áì	Thñ LÜnh §ao CÇm
+µÂ¸ßÍûÖØ	§øc Cao Väng Träng
+µË¾Å¹«	§Æng Cöu C«ng
+µËæ¿Óñ	§Æng ThiÒn Ngäc
+µØ»ê	§Şa Hån
+µØÁÒ»¤·¨	§Şa LiÖt Hé VÖ
+µØÁÒÊØÎÀ	§Şa LiÖt Thñ VÖ
+µØá¦	§Şa PhiÕn
+µØá¦»¤·¨Õß	§Şa PhiÕn Hé Ph¸p Gi¶
+µñÏñ1£¨¶Ô»°£©	§iªu T­îng 1(§èi Tho¹i)
+µñÏñ1£¨Õ½¶·£©	§iªu T­îng 1(ChiÕn ®Êu)
+µñÏñ2£¨¶Ô»°£©	§iªu T­îng 2(§èi Tho¹i)
+µñÏñ2£¨Õ½¶·£©	§iªu T­îng 2(ChiÕn ®Êu)
+µñÏñ3£¨¶Ô»°£©	§iªu T­îng 3(§èi tho¹i)
+µñÏñ3£¨Õ½¶·£©	§iªu T­îng 3(ChiÕn ®Êu)
+µñÏñ4£¨¶Ô»°£©	§iªu T­îng 4(§èi tho¹i)
+µñÏñ4£¨Õ½¶·£©	§iªu T­îng 4(ChiÕn ®Êu)
+¶¨º£·½±®	VËt tæ §Şnh H¶i
+¶«º£ÉñÁú	ThÇn Long
+¶«Ê©ÊŞ	Thi thó
+¶­Ìì¾ı	§ång Thiªn Qu©n
+¶³Î´Ìõ	§èng VŞ §iÒu
+¶·Ä¾õô	§Êu Méc Tr·i
+¶¹¶¹ºü	§Ëu §Ëu Hå
+¶¾À¼²İ	§éc lan th¶o
+¶¾Ì¦Ñı	§éc Lôc qu¸i
+¶ÄÍ½	Con B¹c
+¶á±¦Ğ¡Ñı	tiÓu yªu §o¹t B¶o
+¶úÊó¡¤ò°	NhÜ Thö.Di
+¶úÊó¡¤ó¤	NhÜ Thö.Ly
+¶şÀÉÉñ	NhŞ Lang thÇn
+·¨Õó	Ph¸p trËn
+·¨ÕóµÀÊ¿ÄĞ	Ph¸p TrËn §¹o SÜ Nam
+·¨ÕóµÀÊ¿Å®	Ph¸p TrËn §¹o SÜ N÷
+·¨Õó¼×Ê¿ÄĞ	Ph¸p TrËn Gi¸p SÜ Nam
+·¨Õó¼×Ê¿Å®	Ph¸p TrËn Gi¸p SÜ N÷
+·¨ÕóÒìÈËÄĞ	Ph¸p TrËn DŞ Nh©n Nam
+·¨ÕóÒìÈËÅ®	Ph¸p TrËn DŞ Nh©n N÷
+·¨Öù(±±)	Ph¸p Trô(B¾c)
+·¨Öù(¶«)	Ph¸p Trô(§«ng)
+·¨Öù(ÄÏ)	Ph¸p Trô(Nam)
+·¨Öù(Î÷)	Ph¸p Trô(T©y)
+·½ÏàÖ®»ê	Ph­¬ng T­íng Hån
+·½åöÖ®»ê	Ph­¬ng BËt Chi Hån
+·¿¼äÃÅ	Cöa phßng
+·¿ÈÕÍÃ	Phßng NhËt Thè
+·É¼×	Phi Gi¸p
+·É¼×Ê×Áì	Thñ LÜnh Phi Gi¸p
+·ÉÊó	Phi Thè
+·ÉĞÜÍ¼ÌÚ	VËt tæ Phi Hïng
+·ÏÆúµÄÃÜµÀ	MËt ®¹o hñy bá
+·Ù»ğÍ¼ÌÚ	PhÇn Háa §å §»ng
+·âÉñµî	§iÖn Phong thÇn
+·ç²®Í¼ÌÚ	Phong B¸
+·ç³¤ÀÏ	Phong tr­ëng l·o
+·çºğ»¤·¨	Phong Hãng Hé Ph¸p
+·çºğÊØÎÀ	Phong Hãng Thñ VÖ
+·ç»ğÂÖ	Phong Háa Lu©n
+·ç»ğÂÖÏİÚå	C¹m bÉy Phong Háa Lu©n
+·ç¾í²ĞÔÆ	Phong QuyÓn Tµn V©n
+·çÁÖ	Phong L©m
+·çÇ½	Phong T­êng
+·çÊŞÉ½çõ	Phong thó s¬n hån
+·ï»Ë	Phông hoµng
+·öåöµÀÈË	Phï BËt §¹o Nh©n
+·üôËºóÒá	Phôc Hi HËu DuÖ
+¸£ĞÇ	Phóc Tinh
+¸«Í·´óÀĞ	Phñ §Çu §¹i L·o
+¸±±¾¹ÜÀíÔ±	Nh©n Viªn Qu¶n lı Phã b¶n
+¸½ÔÚÏä×ÓÑı»ê	Qu¸i Hån
+¸É½«Ç°ÊÀ	Háa Ma n÷
+¸ß¼¶ÔË¾Æ³µ	Xe chuyÓn r­îu cao cÊp
+¸ß¾õ	Cao gi¸c
+¸ßÃ÷	Cao Minh
+¸ßÓÑÇ¬	Cao H÷u Cµn
+¹²¹¤ÊÏ	Céng C«ng
+¹²¹¤Í¼ÌÚ	Céng C«ng
+¹¶Ã¢Éñ	CÈu Mang
+¹¶Ã¢ÉñÊ×Áì	Thñ Linh CÈu Mang
+¹ÄÂ¥	Cæ L©u
+¹Å´úÓÂÊ¿Ö®»ê	Hån Dòng sÜ cæ ®¹i
+¹Æµñ	Cæ §iªu
+¹ÖÎïÄÁ³¡	S©n luyÖn thó
+¹â¹í	Quang Quû
+¹â¹íÊ×Áì	Thñ LÜnh Quang Quû
+¹âÇ½1	Quang T­¬ng 1
+¹âÇ½2	Quang T­êng 2
+¹âÇÅ	Quang KiÒu
+¹âÇÅ×èµ²	Ng¨n c¹n Quang KiÒu
+¹âÒõÁÑ·ì	Quang ¢m LiÖt Phïng
+¹åÍÁÖ®Ô´	Kh«i Thæ Chi Nguyªn
+¹í²ÀÊŞ	Bè Thó
+¹í²ÀÊŞÍõ	Bè Thó v­¬ng
+¹íµÆ	§¨ng Hån
+¹íµÆÊ×Áì	Thñ LÜnh §¨ng Hån
+¹í½ğÑò	Quû Kim D­¬ng
+¹íÁ×µÆ	Quû L©n §¨ng
+¹íĞ°ÑıÈË	QuØ tµ yªu nh©n
+¹íĞ°ÑıÈËµÄÔªÉñ	Nguyªn thÇn cña QuØ tµ yªu nh©n
+¹íÔ¦	D¹ Xoa
+¹í÷È	Quû MŞ
+¹úÇì»¨Ì³	Bån hoa Kh¸nh lÔ
+º£´¬	ThuyÒn bÌ
+º£ĞÄ²İ	H¶i T©m Th¶o
+º®±ù»¤ÎÀ	Hµn B¨ng Hé VÖ
+º®±ùÕóÁé	Hµn B¨ng TrËn Linh
+º¯Ö¥ÏÉ×Ó	Hµm Chi Tiªn Tö
+º³Áúá¦	Hµm Long Ph­ín
+ºµ¹ê	Giang Quy
+ºÀÖíÀÏµù	Nhİm L·o Gia
+º×ÀÏÈË	H¹c L·o nh©n
+ºÚÉ³¾«Áé	H¾c Sa Tinh Linh
+ºÚÉ··ä	H¾c Phong
+ºé»ÄÉñÊŞ	Hång Hoang ThÇn Thó
+ºéÂ¯µ¤¿Í	Hång L­ §¬n Kh¸ch
+ºéÄà¶Ñ(Ä§)	Gß Hång Nª(Ma)
+ºéÄà¶Ñ(ÏÉ)	Gß Hång Nª(Tiªn)
+ºì¹í	Hång Quû
+ºìºùÂ«	Hång Hå L«
+ºìÃûµºµÄ¹Ö1	Hång qu¸i 1
+ºìÃûµºµÄ¹Ö2	Hång qu¸i 2
+ºìÃûµºµÄ¹Ö3	Hång qu¸i 3
+ºìÉ«É³Áé	Hång S¾c Sa Linh
+ºìÉ°¼ı	Hång Sa TiÔn
+ºìÉ°ÊØÎÀ	Hång Sa Thñ VÖ
+ºìÉ°Õó»ê	Hång Sa TrËn Hån
+ºìÉ°ÕóÁé	Hång Sa Tr©n Linh
+ºìÉ°ÕóÃÅ	Hång Sa TrËn M«n
+ºìÉ°ÕóÃÅ1	Hång Sa TrËn M«n 1
+ºìÉ°ÕóÃÅ2	Hång Sa TrËn M«n 2
+ºìÉ·	Ng­u S¸t
+ºìË®µÀÍ½	Hång Thñy §¹o §å
+ºìË®ÊØÎÀ	Hång Thñy Thñ VÖ
+ºìË®ÕóÁé	Hång Thñy TrËn Linh
+ºìá¦	Hång PhiÕn
+ºóÍÁÍ¼ÌÚ	HËu Thæ
+ºóôà	HËu NghÖ
+ºôÏÉËş	H« Tiªn th¸p
+ºúÏ²ÃÄ	Hå Hû MŞ
+»¢ÈË	Hæ Nh©n
+»¨ÆÔ	Hoa viªn
+»¨Éñ¾ÅÒÄ	Cöu Di
+»¨ÍÅ½õ´Ø	Hoa §oµn CÈm Téc
+»¨Ö®»ÄÖí	Hoa Tr­
+»¯Ñª»¤ÎÀ	Hãa HuyÕt Hé VÖ
+»¯ÑªÎ×Ê¦	Hãa HuyÕt Vu S­
+»¯ÑªÕóÁé	Hãa HuyÕt TrËn Linh
+»·¹·	Hoµn CÈu
+»·¹·´óË§	Hoµn CÈu So¸i
+»·¹·¶Ó³¤	Hoµn CÈu Tinh
+»·¹·½«¾ü	Hoµn CÈu v­¬ng
+»½Ä§Ëş	H« Ma th¸p
+»Ã¾«	Ma N÷
+»Ã¾«Ê×Áì	Thñ LÜnh  HuyÔn Linh
+»ÃÁé	Lam Cèt
+»ÄÖí	Tr­ Tinh
+»ÄÖíÊ×Áì	Thñ LÜnh Hoa Tr­
+»Æ·½½«Áì	T­íng lÜnh phe vµng
+»Æ·É»¢	Hoµng Phi Hæ
+»Æ½íÁ¦Ê¿	Hoµng C©n Lùc SÜ
+»Æ½ğ—ƒè»	Hoµng Kim §µo C¬
+»Æ½ğ´óÅô	Hoµng Kim §¹i §iªu
+»Æ½ğ¸«Í·´óÀĞ	Hoµng Kim ThiÕt §iÓm ThÇn
+»Æ½ğ»ìãç	Hoµng Kim ThiÕt Bè
+»Æ½ğ¾ÅÓ¤	Hoµng Kim Cöu Linh
+»Æ½ğ¾òµØÊó	Hoµng Kim QuËt §Şa Thö
+»Æ½ğÅÌ¹Å	Hoµng Kim Bµn Cæ
+»Æ½ğÇîÆæ	Hoµng Kim Khèn Kú
+»Æ½ğÑîê¯	Hoµng Kim D­¬ng TiÔn
+»Æ½ğò°Áú	Hoµng Kim Di Long
+»Æ½ğòÔÁú	Hoµng Kim Giao Long
+»Æ½ğó¤Áú	Hoµng Kim Ly Long
+»Æ½ğ÷Ò÷Ñ	Hoµng Kim Thao ThiÕt
+»ÆÁúÕæÈË	Hoµng Long
+»ÆÌì»¯	Hoµng Thiªn Hãa
+»ìãç	ThiÕt Bè
+»ìãç»ÃÏó	ThiÕt Bè ¶o c¶nh
+»ğ³¤ÀÏ	Háa tr­ëng l·o
+»ğÀ×¼À	Háa L«i TÕ
+»ğÀëĞ¡Ñı	L·o Hå l«
+»ğÀëĞ¡ÑıÊ×Áì	Thñ LÜnh L·o Hå L«
+»ğÁú¶Õ	Gß Háa Long
+»ğÇ½1	Háa T­êng 1
+»ğÇ½2	Háa T­êng 2
+»ğÉñ	ThÇn háa
+»ğĞ°	Háa Tµ
+»ğĞ°Éñ	Háa Tµ ThÇn
+»ğĞ°Ê×Áì	Thñ LÜnh Háa Tµ
+»ğÓã	Háa Ng­
+»ğÓãÊ×Áì	Thñ LÜnh Háa Ng­
+»şË®±ª	To¸n Thñy B¸o
+¼¦Ä¸Æ¤	Kª MÉu B×
+¼ªÏéÖí	C¸t T­êng Tr­
+¼±¼±ÈçÂÉÁî	CÊp CÊp Nh­ LuËt LÖnh
+¼²ĞĞ¹í	TËt Hµnh Quû
+¼³ÑªÑı	HuyÕt Yªu
+¼³ÑªÑıÊ×Áì	Thñ LÜnh HuyÕt Yªu
+¼¼ÄÜÒş²Ø	Che dÊu Kü N¨ng
+¼ÀÌ³	TÕ ®µn
+¼ÀÔ¨¹È	TÕ Uyªn Cèc
+¼ÆÃÉ	KÕ M«ng
+¼×¿ÇÈË	Gi¸p Cèt
+¼ıËş	TiÔn th¸p
+½£³İÍÃ	ThiÕt Thè
+½¨ÉèÖĞÇæÌìËş	X©y K×nh Thiªn th¸p
+½ª×ÓÑÀ	Kh­¬ng Tö Nha
+½«Ì¨	T­íng ®µi
+½·Ô°	Tiªu Viªn
+½ÇÄ¾òÔ	Gi¸c Méc Giao
+½È×Ó	Sñi c¶o
+½ÌÊ¦	Gi¸o S­
+½Î×Ó	KiÖu
+½ÓÒıµÀÈË	TiÕp DÉn ®¹o nh©n
+½ğ¹â»¤ÎÀ	Kim Quang Hé VÖ
+½ğ¹â½£ÏÉ	Kim Quang KiÕm Tiªn
+½ğ¹âÊ¥Ä¸	Kim Quang Th¸nh mÉu
+½ğ¹âÊ¥ÊŞ	Kim Quang Th¸nh Thó
+½ğ¹âÏÉ·ç	ThiÕt Kinh thÇn_Phong
+½ğ¹âÏÉ»ğ	ThiÕt Kinh thÇn_Háa
+½ğ¹âÏÉË®	ThiÕt Kinh thÇn_Thñy
+½ğ¹âÏÉÍÁ	ThiÕt Kinh thÇn_Thæ
+½ğ¾µ±±	Kim Kinh B¾c
+½ğ¾µ¶«	Kim Kİnh §«ng
+½ğ¾µ¶«±±	Kim Kİnh §«ng B¾c
+½ğ¾µ¶«ÄÏ	Kim Kİnh §«ng Nam
+½ğ¾µÄÏ	Kim Kİnh Nam
+½ğ¾µÎ÷	Kim Kİnh T©y
+½ğ¾µÎ÷±±	Kim Kİnh T©y B¾c
+½ğ¾µÎ÷ÄÏ	Kim Kİnh T©y Nam
+½ğÏ¼ÊŞ	Háa Thó
+½ğÏ¼Í¯×Ó	Kim Hµ §ång Tö
+½ğß¸	Kim Tra
+½ü³Ì·´µ¯1	Ph¶n ®ßn cËn chiÕn 1
+½ü³Ì·´µ¯2	Ph¶n ®ßn cËn chiÕn 2
+¾«Ã÷¹ê	Tinh Minh Quy
+¾®Ä¾áí	TÜnh Méc Ng¹n
+¾µÅ«	Kİnh N«
+¾¸ÈË	KiÕm Nh©n
+¾¸ÈË½«¾ü	KiÕm Nh©n t­íng qu©n
+¾ÅÄ¾	Cöu Méc
+¾ÅÌìĞşÅ®	Cöu Thiªn HuyÒn N÷
+¾ÅÓ¤	Cöu Linh
+¾ÆµêÀÏ°å	Chñ Töu §iÕm
+¾Û»êÕó	Tô Hån trËn
+¾Û»êá¦	Tô Hån Ph­ín
+¾ÜÂí	Cù M·
+¾Ş´óÉ³»ê	Cù §¹i Sa Hån
+¾Ş¹ÇÉàÓã	Cù Cèt ThiÖt Ng­
+¾ŞÊ¯Éñ	Cù Th¹ch
+¾ŞÊ¯ÉñÊ×Áì	Thñ LÜnh Cù Tr¹ch
+¾ŞÔ³	Cù Viªn
+¾ŞÔ³³¤ÀÏ	Cù Viªn L·o
+¾åÁôËï	Cô L­u T«n
+¾òµØÊó	QuËt §Şa Thö
+¾úÈË	L¹c C¬
+¿§ÀäËñ	Ca L·nh DuÉn
+¿ªÃ÷¾«¼×	Khai Minh Tinh Gi¸p
+¿ªÃ÷Éñ	TiÔn §ao thÇn
+¿ªÃ÷ÉñÊ×Áì	Thñ LÜnh Khai Minh ThÇn
+¿ªÆôµÄ·¨Õó	Më ph¸p trËn
+¿¹ÙÁ´óÆì	Kh¸ng Oa §¹i Kú
+¿º½ğÁú	Kh¸ng Kim Long
+¿ÉÒÉµÄ»·¹·	Hoµn CÈu ®¸ng nghi
+¿ÉÒÉµÄÑ©Ô­¾ŞÊŞ	YÓm Háa ®¸ng nghi
+¿ÉÒÉÎï	VËt kh¶ nghi
+¿ØÖÆÖĞÇæÌìËş	Khèng chÕ K×nh Thiªn th¸p
+¿İÊ÷	C©y kh«
+¿ç¶ª¹í	Kho¸c Quû
+¿ñÄñ	Cuång §iªu
+¿ñÌÎ¼À	Cuång §µo TÕ
+¿ó³µ	Kho¸ng xa
+¿ó¾®	Má kho¸ng
+¿üÄ¾ÀÇ	Khuª Méc Lang
+À¶°Ø	Lam b¸ch
+À¶¹í	Lam Quû
+À¶É«Ñı¼§	Hoa Hång xanh
+ÀÇÈË	Ng­êi sãi
+ÀÇÍõÖ®»ê	Lang V­¬ng Hån
+À×²¿Ìì±ø	L«i Bé Thiªn Binh
+À×Áú¶Õ	Gß L«i Long
+À×ÃÅ	L«i M«n
+À×ÃùÊŞ	L«i Minh Thó
+À×Éñ	ThÇn l«i
+À×ÔóÉñ	L«i Tr¹ch thÇn
+À×ÔóÉñÊ×Áì	Thñ LÜnh L«i Tr¹ch ThÇn
+À×ÔóÑı	L«i Tr¹ch Yªu
+À×Õğ×Ó	L«i ChÊn Tö
+ÀçÁéÊ¬	Lª Linh Thi
+Àë¹¸×ğÕß	Ly Nhùu T«n Gi¶
+Àî¾¸	Lı TŞnh
+ÀîĞË°Ô	Lı H­ng B¸
+Àñ¹Ù	LÔ Quan
+Á¦Ê¿¼À	Lùc SÜ tÕ
+Á«µÆÄ§	Liªn ®¨ng ma
+Á«µÆÏÉ	Liªn ®¨ng tiªn
+Á«µÆ×ù	Liªn §¨ng Täa
+Á«»¨µÆ	§Ìn hoa sen
+Á«»¨Ê¹Õß	Liªn Hoa Sø Gi¶
+Á«»¨ÊØ»¤Õß	Liªn Hoa Thñ Hé Gi¶
+Á¬ÀíÊ÷	C©y l­¬ng duyªn
+Á¬åó¼À	Liªn Nç TÕ
+Á¶µ¤·¿	Phßng luyÖn thuèc
+Á¶µ¤Â¯	Lß luyÖn ®¬n
+Á¸âÃ³µ	Xe l­¬ng
+ÁÒ·ç·¨Éí	Phong LiÖt Ph¸p Th©n
+ÁÒÑæ»¤ÎÀ	LiÖt Diªm Hé VÖ
+ÁÒÑæÔÆ¹âÊŞ	V©n Quang thó
+Á×Ñı	Lam qu¸i
+Á×ÑıÊ×Áì	Thñ LÜnh Lam Qu¸i
+ÁÙ·ç×°	L©m Phong Trang
+Áé±¦´ó·¨Ê¦	Linh B¶o §¹i Ph¸p S­
+ÁéÉß	Linh Xµ
+ÁéÉßÊ÷	Linh Xµ thñ
+ÁéÊ¯	Linh th¹ch
+ÁéÊŞ	Linh thó
+ÁéÑÀ½£ÏÉ	Linh Nha KiÕm Tiªn
+ÁéÑÀÏÉ·ç	§¹i th¹ch thÇn_Phong
+ÁéÑÀÏÉ»ğ	§¹i th¹ch thÇn_Háa
+ÁéÑÀÏÉË®	§¹i th¹ch thÇn_Thñy
+ÁéÑÀÏÉÍÁ	§¹i Th¹ch thÇn_Thæ
+ÁéÖ¥¿ó	Linh chi
+Áò»Ç¿ó	L­u huúnh
+Á÷Á¬²İ	L­u liªn th¶o
+Á÷Çàº¹	L­u Thanh H·n
+Á÷ĞÇ¼À	L­u Tinh tÕ
+ÁøÍÁâ¯	LiÔu Thæ Ch­¬ng
+Áù¼×¸¿»êÕó	Lôc Gi¸p Ph­îc Hån trËn
+Áù¼×¸¿»êÕó»¤·¨	Hé Ph¸p Lôc Gi¸p Ph­îc Hån trËn
+Áú»ê	Long hån
+Áú¼ª¹«Ö÷	Long C¸t C«ng Chóa
+ÁúÈË	Ng­êi rång
+ÁúÉàÀ¼	Long thiÖt lan
+ÁúÑªÁéÖ¥	Long HuyÕt Linh Chi
+ÁúÑªÁéÖ¥¾«	Long HuyÕt Linh Chi Tinh
+ÁúòÎ	Long §iÖt
+Â¦½ğ¹·	L©u Kim CÈu
+Â³ĞÛ	Lç Hïng
+Â»ĞÇ	Léc Tinh
+Â½Îá´óÉñ	Lôc Ng« ThÇn
+Â½Îá´óÉñÊ×Áì	Thñ LÜnh Lôc Ng« ThÇn
+ÂÌ¹í	Lôc Quû
+ÂÌÁÖºÃºº	Lôc L©m H¶o H¸n
+ÂÖ»Øµî	§iÖn Lu©n håi
+ÂŞºí	La HÇu
+ÂŞÉ²Ä§Éñ	S¸t Ma
+ÂüÍÓÂŞ»ª	M¹n §µ la hoa
+ÂüÖéÉ³»ª	M¹n Ch©u Sa hoa
+Ãµ¹å»¨	Hoa Hång
+Ãµ¹å»¨Ê÷	C©y hoa hång
+ÃÀÅ®°ö	Ngäc N÷
+ÃÀÅ®°öÊ×Áì	Thñ LÜnh Ngäc N÷
+ÃÀÅ®½Ú»¨Ì³	Hoa §µn LÔ Mü N÷
+ÃÉÆ¤³µ	Ng­u B× xa
+ÃÜµÀ³ö¿Ú	Lèi ra mËt ®¹o
+Ã÷ÒÄ	Minh Di
+ÃùÉ³ÏÉ	Minh Sa Tiªn
+Ãü»ê	MÖnh Hån
+Ä¥·¿	Ma phßng
+Ä§¡¤·çÊŞÉ½çõ	Ma Phong thó s¬n hån
+Ä§¡¤·çÑı	Ma Phong Yªu
+Ä§¡¤ÀçÁéÊ¬	Ma - Lª Linh Thi
+Ä§¡¤ÀëÖì	Ma Ly Ch©u
+Ä§¡¤ÇÕÔ­	Ma Kh©m Nguyªn
+Ä§¡¤ÇÕÔ­£¨É½£©	Ma Kh©m Nguyªn(S¬n)
+Ä§¡¤ÖìİC	Ma-Chu LÜnh
+Ä§½ÙÍ¼ÌÚ	VËt tæ ma kiÕp
+Ä§½çÃÜÌ½	MËt th¸m Ma giíi
+Ä§½çÊØÎÀ¶ş	Ma giíi thñ vÖ 2
+Ä§½çÊØÎÀÈı	Ma giíi thñ vÖ 3
+Ä§½çÊØÎÀÒ»	Ma giíi thñ vÖ 1
+Ä§Àñº£	Ma LÔ H¶i
+Ä§Àñºì	Ma LÔ Hång
+Ä§ÀñÇà	Ma LÔ Thanh
+Ä§ÀñÊÙ	Ma LÔ Thä
+Ä§ÆÇ	Ma Ph¸ch
+Ä§Æì	Ma kú
+Ä§Ê¹	Ma Sø
+Äµµ¤	Hoa mÉu ®¬n
+Ä¾ß¸	Méc Tra
+ÄÄß¸	Na Tra
+ÄÏ¼«ÏÉÎÌ	Nam Cùc Tiªn ¤ng
+ÄÏÌìÃÅ	Nam Thiªn m«n
+ÄÏÚ¤×Ó	Nam Minh Tö
+ÄĞ±§Å®	Nam «m n÷
+ÄĞ×°1	Trang phôc nam 1
+ÄĞ×°2	Trang phôc nam 2
+ÄÚÖÃ¼ıËş1	Trong tiÔn th¸p 1
+ÄÚÖÃ¼ıËş2	Trong TiÔn th¸p 2
+ÄÚÖÃ¼ıËş3	Trong TiÔn th¸p 3
+ÄêÊŞ1	Niªn Thó 1
+ÄêÊŞ2	Niªn Thó 2
+Äü	Ninh Miªu
+ÄüÊ×Áì	Thñ LÜnh Ninh Miªu
+ÄüÍõÖ®»ê	Nanh V­¬ng Hån
+Å£½ğÅ£	Ng­u Kim Ng­u
+Å©Ìï	N«ng §iÒn
+Å®³ó	N÷ Xó
+Å®³óÊ×Áì	Thñ LÜnh N÷ Xó
+Å®¼À	N÷ TÕ
+Å®¼ÀÊ×Áì	Thñ LÜnh N÷ TÕ
+Å®ÍÁòğ	N÷ Thæ Bøc
+Å®×°1	Trang phôc n÷ 1
+Å®×°2	Trang phôc n÷ 2
+Å®æ´ÄïÄï	N÷ Oa N­¬ng N­¬ng
+ÅÄÂôÊ¦	Qu¶n lı
+ÅÌ¹Å	Bµn Cæ
+ÅÑ¾ü¶Ó³¤	Hoµn CÈu tinh
+Æ¤Æ¤´ì	B× B× Táa
+ÆÆ¼×Ğ¡¹Ö	Ph¸ gi¸p qu¸i
+Æß²Êµ°	ThÊt Th¹ch cÇu
+Æß²Êµ°£¨°×£©	ThÊt s¾c Th¹ch CÇu(Tr¾ng)
+Æß²Êµ°£¨¹â£©	ThÊt s¾c Th¹ch CÇu(Quang)
+Æß²Êµ°£¨ºì£©	ThÊt s¾c Th¹ch CÇu(Hång)
+Æß²Êµ°£¨»Æ£©	ThÊt s¾c Th¹ch CÇu(Hoµng)
+Æß²Êµ°£¨À¶£©	ThÊt s¾c Th¹ch CÇu(Lam)
+Æß²Êµ°£¨ÂÌ£©	ThÊt s¾c Th¹ch CÇu(Lôc)
+ÆæÅ®¼À	Kú n÷ tÕ
+ÆæÏÄëÅ	Kú H¹ Qu©n
+ÆæëÅ	C¬ Qu©n
+ÆæëÅÊ×Áì	Thñ LÜnh C¬ Qu©n
+Ç§ÄêÊ¯¹Ö	Qu¸i th¹ch ngµn n¨m
+Ç§ÄêÊ¯Í·	§¸ ngµn n¨m
+Ç§ÄêÑıºü	Thiªn Niªn Yªu Hå
+Ç¿»¯³¤³ËÉñ	C­êng hãa S¬n D­¬ng Yªu
+Ç¿»¯·É¼×	Phi Gi¸p
+Ç¿»¯¹í²ÀÊŞ	Qu¸i Bè Thó
+Ç¿»¯»Ã¾«	Ma N÷
+Ç¿»¯»ğĞ°	C­êng hãa Háa Tµ
+Ç¿»¯¾ŞÊ¯Éñ	C­êng hãa Cô Th¹ch
+Ç¿»¯¿ªÃ÷Éñ	C­êng hãa TiÔn §ao ThÇn
+Ç¿»¯Á×Ñı	C­êng hãa Lam Qu¸i
+Ç¿»¯Â½Îá´óÉñ	Lôc Ng« ThÇn
+Ç¿»¯ÃÀÅ®°ö	Ngäc N÷
+Ç¿»¯Éİ±È·òÈË	§íi Tr¹i
+Ç¿»¯Ê¬»È	ThiÕt trïng
+Ç¿»¯ËÀÁé	Lam Cèt
+Ç¿»¯ÎŞÃûÊŞ	C­êng hãa Thó Kh«ng Tªn
+Ç¿»¯ÎäÂŞÉñ	C­êng hãa Th¹ch ThÇn
+Ç¿»¯ÏÄ¸ûÊ¬Íõ	C­êng hãa Cèt Tinh V­¬ng
+Ç¿»¯Ò°Ã«Éñ	D· Mao
+Ç¿ÕĞ»êÕó£¨±ù£©	C­êng Chiªu hån trËn(B¨ng)
+Ç¿ÕĞ»êÕó£¨»ğ£©	C­êng Chiªu hån trËn(Háa)
+Ç¿ÕĞ»êÕó£¨À×£©	C­êng Chiªu hån trËn(L«i)
+Ç¿ÕĞ»êÕó£¨ÍÁ£©	C­êng Chiªu hån trËn(Thæ)
+Ç¿ÕĞ»êÕó£¨Îï£©	C­êng Chiªu hån trËn(VËt lı)
+ÇÉ¿ËÁ¦Ê÷	C©y s«cola
+Ç×ÇéÍ¼ÌÚ	VËt tæ Th©n T×nh
+ÇØÌì¾ı	TÇn Thiªn Qu©n
+ÇàÅ£Í¼ÌÚ	VËt tæ Thanh ng­u
+ÇàÊ÷	Tïng xanh
+ÇàĞéµÀ³¤	Thanh H­ ®¹o tr­ëng
+ÇéÈËÊ÷Ê÷Ãç	MÇm c©y t×nh nh©n
+ÇíÏöÄïÄï	Quúnh Tiªu N­¬ng N­¬ng
+ÇîÆæ	Kim Tr¹i
+ÇîÆæ»ÃÏó	Kim Tr¹i ¶o c¶nh
+Çô»ê	Bæn Hån
+Çô»ê±¾Ìå	Bæn Hån
+ÇôÅ£	Tï Ng­u
+ÈªË®	N­íc suèi
+È¼µÆµÀÈË	Nhiªn §¨ng
+ÈËÂ¹	Nh©n léc
+ÈËÂí	Nh©n m·
+ÈËÊ¨	Nh©n S­
+ÈËÊ¨ 	Nh©n S­
+ÈËá¦	Nh©n PhiÕn
+ÈËá¦»¤·¨Õß	Nh©n PhiÕn Hé Ph¸p Gi¶
+ÈÎ´ó¸ç	NhËm §¹i Ca
+ÈÎ´óÉ©	NhËm §¹i TÈu
+ÈÙÊ÷	C©y vinh dù
+ÈÛÑÒ¶ñ¹í	Dung Nham ¸c Quû
+ÈÛÑÒÊ¹Õß	Dung Nham Sø Gi¶
+ÈıÁúÊ¹Õß	Sø Gi¶ Tam Long
+ÈıÉ«ÉñÊ¯	Tam S¾c ThÇn Th¹ch
+ÈıÓãÖ®ÂÒ	Lo¹n tam ng­
+ÈıÓãÖ®ÂÒ<¶Ô»°ÓÃ>	Lo¹n tam ng­
+É³»ê	Sa Hån
+É³»êÊ×Áì	Thñ LÜnh Sa Hån
+É³Áú	Sa Long
+É³Ä§	Sa Ma
+É³Çò	Sa cÇu
+É³ÍÁ¼àÀÎ	Sa Thæ Gi¸m Lao
+É½ û	KhØ nói
+É½ ûÊ×Áì	Thñ LÜnh Hån S¬n HÇu
+É½Éñºè²«	S¬n ThÇn Hång B¸c
+É½÷Ì	S¬n Tiªu
+É½÷ÌÊ×Áì	Thñ LÜnh S¬n Tiªu
+ÉÆË®Ö®Ô´	ThiÖn Thñy Chi Nguyªn
+ÉË±ø	Th­¬ng qu©n
+ÉÌ³¯¸ê±ø	Qua Binh Nhµ Th­¬ng
+ÉÌ³¯Æï±ø	Kş Binh TriÒu Th­¬ng
+ÉÌ³¯Í¼ÌÚ	VËt tæ Th­¬ng
+ÉÌ³µ	Th­¬ng Xa
+ÉÌ¾üÆï±ø	Kş Binh Nhµ Th­¬ng
+ÉÌ¾üĞ£Î¾	HiÖu óy
+ÉÌÆì	Cê Th­¬ng
+ÉÌÖÜ×èµ²	Ng¨n c¹n Th­¬ng Chu
+ÉÏ¹Å½ÇÊŞÕ½»ê	Gi¸c Thó chiÕn hån
+ÉÏ¹ÅÌ«ÒÒÕ½»ê	Th¸i Êt chiÕn hån
+ÉÏ¹ÅĞÇ¸ÙÕ½»ê	Tinh Cang chiÕn hån
+ÉÙê»ºóÒá	ThiÕu H¹o HËu DuÖ
+ÉÙê»Í¼ÌÚ	ThiÕu H¹o
+Éİ±È·òÈË	§íi Tr¹i
+Éİ±È·òÈËÊ×Áì	Thñ LÜnh §íi Tr¹i
+Éê¹«±ª	Th©n C«ng B¸o
+ÉñÃØïÚ³µ	Tiªu xa thÇn bİ
+ÉñÅ©ºóÒá	ThÇn N«ng HËu DuÖ
+Éú»î¼¼ÄÜÀÏÊ¦£¨´óÓª£©	Sinh Ho¹t S­
+Éú»î¼¼ÄÜÀÏÊ¦£¨ÓñĞé£©	Sinh Ho¹t S­
+Éú»î¼¼ÄÜÀÏÊ¦£¨ò¿ÓÈÄ¹£©	Sinh Ho¹t S­
+ÉúÈÕÍâ×°ÄĞ	¸o kho¸c nam
+ÉúÈÕÍâ×°Å®	¸o kho¸c n÷
+Ê¥µ®ÀÏÈË	¤ng giµ noel
+Ê¥µ®Ê÷	Th«ng Gi¸ng sinh
+Ê¥µØ°ÙºÏ	Th¸nh §Şa B¸ch Hîp
+Ê§×ÙµÄ×åÈË	Téc ng­êi mÊt tİch
+Ê¬»È	ThiÕt Trïng
+Ê¬»ÈÊ×Áì	Thñ LÜnh ThiÕt Trïng
+Ê¯Ãç	Th¹ch Miªu
+Ê¯ÒÄ	Th¹ch Di
+Ê¯ÒÄÊ×Áì	Thñ LÜnh Th¹ch Di
+Ê³Æø¹í	Thùc Khİ Quû
+Ê³Ë®¹í	Thùc Thñy Quû
+Ê³Ò©ÊŞ	Thùc D­îc Thó
+ÊÀË×Í¼ÌÚ	VËt tæ ThÕ Tôc
+ÊÈÉ³ÊŞ	ThŞ Sa T¨ng
+ÊÈÑª¾ŞÌÙ	§»ng HuyÕt
+ÊÈÑªÌÙ	HuyÕt §»ng
+ÊÉ»ê	PhÖ Hån
+ÊÉ»êÕß	U Hån
+ÊÉÀÇ	Sãi
+ÊÉÀÇÊ×Áì	Thñ LÜnh Sãi
+ÊÉÀÇÍ·Áì	Sãi chóa
+ÊÏ×åÕ½Æì	ChiÕn Kú ThŞ Téc
+ÊÒ»ğÖí	ThÊt Háa Tr­
+ÊÔÁ¶ÉñÊ¹	Thİ LuyÖn ThÇn Sø
+Ê×ÑôÉñÄ¾	Thñ D­¬ng ThÇn Méc
+ÊØ³Ç¾«±ø1	CÊm vÖ Qu©n 1
+ÊØ³Ç¾«±ø2	CÊm vÖ qu©n 2
+ÊØ³Ç¾«±ø3	CÊm vÖ qu©n 3
+ÊØ»¤ÊŞ	Thñ Hé thó
+ÊÙĞÇ	Thä Tinh
+Ê÷6	C©y 6
+Ê÷7	C©y 7
+Ê÷Ãç	MÇm c©y
+Ë«É«ÉñÊ¯	Song S¾c ThÇn Th¹ch
+Ë®²Î	H¶i S©m
+Ë®²ÎÊ×Áì	Thñ LÜnh H¶i S©m
+Ë®³¤ÀÏ	Thñy tr­ëng l·o
+Ë®¾§¿ó-1	Thñy tinh-1
+Ë®¾§¿ó-2	Thñy tinh-2
+Ë®¾§¿ó-3	Thñy tinh-3
+Ë®Éñ	Thñy thÇn
+Ë®ÖóÓã	Chóc Ng­
+Ë¸½ğÖ®Ô´	Th­íc Kim Chi Nguyªn
+ËÀÁé	Lam Cèt
+ËÀÁéÊ×Áì	Thñ LÜnh Lam Cèt
+ËÄ²»Ïñ	Tø BÊt T­íng
+ËÎÒìÈË	Tèng DŞ Nh©n
+ËÑË÷¶Ó³¤	Bé §Çu
+ËÕ»¤	T« Hé
+Ëá²ËÓã	ThÓ Ng­
+ËãÃüÏÈÉú	ThÇy T­íng Sè
+Ëé¹Ç¼À	To¸i Cèt tÕ
+ËïÌì¾ı	T«n Thiªn Qu©n
+ËïÎäÇ°ÊÀ	Méc Ma n÷
+ËøÁ´1	Táa Liªn 1
+ËøÁ´2	Táa Liªn 2
+ËøÑıÕó	Táa Yªu TrËn
+Ì¦Ñı	Lôc Qu¸i
+Ì¦ÑıÍõ	Lôc Qu¸i V­¬ng
+Ì«ÉÏÀÏ¾ı	Th¸i Th­îng L·o Qu©n
+Ì«Î¢Ô«Ê¹ÁéĞé	Th¸i Vi Viªn Sø Linh H­
+Ì°Ã÷×ğÕß	BÇn Minh T«n gi¶
+ÌÇ´×Óã	Thè Ng­
+ÌÒåû×°	§µo Nghiªn Trang
+ÌØÊâĞı·ç	§Æc Thï T­êng Phong
+Ìì»ê	Thiªn Hån
+Ìì¾ø»¤·¨	Thiªn TuyÖt Thñ VÖ
+Ìì¾øÊØÎÀ	Thiªn TuyÖt Hé VÖ
+ÌìÊĞÔ«Ê¹ÁéÆÆ	Thiªn ThŞ Viªn Sø Linh Ph¸
+ÌìÌÃÄñ	Hoa Thiªn §iÓu
+ÌìÎâ	Thiªn H¹o
+ÌìĞ«	Thiªn YÕt
+ÌìÓŞ	Thiªn Thï
+ÌìÓğ¼À	Thiªn Vò tÕ
+ÌìÔÀÓü×ä	Thiªn Nh¹c ngôc tèt
+Ììá¦	Thiªn PhiÕn
+Ììá¦»¤·¨Õß	Thiªn PhiÕn Hé Ph¸p Gi¶
+Ììî¸Ä§ĞÇ	Thiªn C­¬ng Tinh
+Ììî¸ĞÇ	Thiªn S¸t Tinh
+Ììî¸ĞÇµÄÓ°×Ó	Thiªn C­¬ng ¶nh
+ÌğÃÛĞ§¹û	KÕt qu¶ ngät ngµo
+ÌôÕ½Ê¥Õß	Khiªu ChiÕn Th¾ng Gi¶
+Ìú¹ÚµÀÈË	ThiÕt Qu¸n §¹o Nh©n
+Ìú¿øÓã	ThiÕt Ng­
+Ìú¿øÓãÊ×Áì	Thñ LÜnh ThiÕt Ng­
+Ìú¿øÓãÍõ	ThiÕt Ng­ v­¬ng
+Í¨Ìì½ÌÖ÷·ç	Th«ng Thiªn_Phong
+Í¨Ìì½ÌÖ÷»ğ	Th«ng Thiªn_Háa
+Í¨Ìì½ÌÖ÷Ë®	Th«ng Thiªn_Thñy
+Í¨Ìì½ÌÖ÷ÍÁ	Th«ng Thiªn_thæ
+Í¬ĞÄ½á	§ång T©m kÕt
+Í­½³	Thî ®ång
+Í¼ÌÚ²Ğº¡¡¤»ğ	X¸c vËt tæ-Háa
+Í¼ÌÚ²Ğº¡¡¤½ğ	X¸c vËt tæ-Kim
+Í¼ÌÚ²Ğº¡¡¤Ä¾	X¸c vËt tæ-Méc
+Í¼ÌÚ²Ğº¡¡¤Ë®	X¸c vËt tæ-Thñy
+Í¼ÌÚ²Ğº¡¡¤ÍÁ	X¸c vËt tæ-Thæ
+ÍÁ³¤ÀÏ	Thæ tr­ëng l·o
+ÍÁÁé	Thæ Linh
+ÍÁÁú¶Õ	Gß Thæ Long
+ÍÁÉñ	ThÇn thæ
+ÍÁĞĞËï	Thæ Hµnh T«n
+ÍÁĞĞËï·ÖÉí	Ph©n th©n Thæ Hµnh T«n
+ÍÆ¹ãÔ±	Ng­êi Qu¶ng B¸
+ÍõÄ§	V­¬ng Ma
+ÍõÌì¾ı	V­¬ng Thiªn Qu©n
+Íû¾ı»±	Väng qu©n hße
+Î£ÔÂÑà	Nguy NguyÖt YÕn
+Î²»ğ»¢	VÜ Háa Hæ
+Î´¿ª»¨µÄÂüÍÓÂŞ»ª	M¹n §µ La Hoa ch­a në hoa
+Î´¿ª»¨µÄÂüÖéÉ³»ª	M¹n Ch©u Sa Hoa ch­a në hoa
+Î¸ÍÁïô	VŞ Thæ TrÜ
+ÎÄ¶¦	V¨n §Ønh
+ÎÅÌ«Ê¦	V¨n Th¸i S­
+ÎÅÖÙ	V¨n Träng
+ÎÚÍ©	¤ ®ång
+ÎÚÔÆ½£ÏÉ	¤ V©n KiÕm Tiªn
+ÎÚÔÆÏÉ·ç	Quy V­¬ng_Phong
+ÎÚÔÆÏÉ»ğ	Quy V­¬ng_Háa
+ÎÚÔÆÏÉË®	Quy V­¬ng_Thñy
+ÎÚÔÆÏÉÍÁ	Quy V­¬ng_ Thæ
+ÎŞÃûÊŞ	Thó kh«ng tªn
+ÎŞÃûÊŞÊ×Áì	Thñ LÜnh V« Danh Thó
+ÎŞÓÃÍçÊ¯	V« Dông Ngoan Th¹ch
+ÎŞÓÇ²İ	V« ­u th¶o
+ÎŞ÷±×Ó	V« ¦¬ng Tö
+ÎâÁú	Ng« Long
+Îä»ê	Vâ Hån
+Îä¼ª	Vâ C¸t
+ÎäÂŞÉñ	Th¹ch thÇn
+ÎäÂŞÉñÊ×Áì	Thñ LÜnh Th¹ch ThÇn
+ÎäÂŞÉñÒÂ	Vò La ThÇn Y
+ÎäÂŞËÀÉñ	Vò La Tö ThÇn
+ÎäÊ¿¹ê	Lôc Quy
+ÎäÊ¿¹ê»ÃÏó	¶o C¶nh Lôc Quy
+ÎäÊ¿¹êÊ×Áì	Thñ LÜnh Lôc Quy
+ÎäÊ¿¹êÍ·Áì	Lôc Quy §Çu LÜnh
+ÎäÍõ	Vò V­¬ng
+ÎäÍõ(¶Ô»°)	Vâ V­¬ng(§èi tho¹i)
+ÎäÍõ(Õ½¶·)	Vâ V­¬ng(ChiÕn §Êu)
+ÎäÔóÉñÂŞ	Vò Tr¹ch ThÇn La
+ÎåÍ¨Éñ£¨±±£©	Ngò Th«ng ThÇn(B¾c)
+ÎåÍ¨Éñ£¨¶«£©	Ngò Th«ng ThÇn(§«ng)
+ÎåÍ¨Éñ£¨ÄÏ£©	Ngò Th«ng ThÇn(Nam)
+ÎåÍ¨Éñ£¨Î÷£©	Ngò Th«ng ThÇn(T©y)
+ÎåÍ¨Éñ£¨ÖĞ£©	Ngò Th«ng ThÇn(Trung)
+ÎåÏÔÁé¹Ù	Ngò HiÖn Linh Quan
+ÎåĞĞÌìÓüÕó	Ngò Hµnh Thiªn Ngôc trËn
+ÎïÃâ×ªÄ§Ãâ	MiÔn ChuyÓn Ma Ph¸p
+ÎòÕæÈË	Ngé Ch©n Nh©n
+Î÷ÍõÄ¸	T©y V­¬ng MÉu
+ÏµÒ³	HÖ NghiÖp
+ÏµÕæ	HÖ Ch©n
+Ï·Ôº	Hı viÖn
+ÏºÈË	Hµ Cèt
+ÏºÈËÊ×Áì	Thñ LÜnh Hµ Cèt
+ÏÄ¸ûÊ¬	Cèt Tinh
+ÏÄ¸ûÊ¬Íõ	Cèt Tinh V­¬ng
+ÏÄ¸ûÊ¬ÍõÊ×Áì	Thñ LÜnh Cèt Tinh V­¬ng
+ÏÄ¹âÆô	H¹ Quang Kh¶i
+ÏÄºóÆô	H¹ HËu Khëi
+ÏÄºóÆôÊ×Áì	Thñ LÜnh H¹ HËu Khëi
+ÏÉ¡¤·çÊŞÉ½çõ	Tiªn Phong thó s¬n hån
+ÏÉ¡¤·çÑı	Tiªn Phong Yªu
+ÏÉ¡¤ÀçÁéÊ¬	Tiªn - Lª Linh Thi
+ÏÉ¡¤ÀëÖì	Tiªn Ly Ch©u
+ÏÉ¡¤ÇÕÔ­	Tiªn Kh©m Nguyªn
+ÏÉ¡¤ÖìİC	Tiªn-Chu LÜnh
+ÏÉ»ê	Tiªn Hån
+ÏÉ½ÙÍ¼ÌÚ	VËt tæ tiªn kiÕp
+ÏÉ½çÃÜÌ½	MËt th¸m Tiªn giíi
+ÏÉ½çÊØÎÀ¶ş	Tiªn giíi thñ vÖ 2
+ÏÉ½çÊØÎÀÈı	Tiªn giíi thñ vÖ 3
+ÏÉ½çÊØÎÀÒ»	Tiªn giíi thñ vÖ 1
+ÏÉÆì	Tiªn kú
+ÏİÚå	BÉy
+ÏàÁøÉñ	Bè ThÇn
+ÏàÁøÉñÊ×Áì	Thñ LÜnh Bè ThÇn
+ÏàÁøËÀÉñ	T­¬ng LiÔu Tö ThÇn
+ÏàË¼²İ	T­¬ng t­ th¶o
+Ïä×Ó	R­¬ng chøa ®å
+ÏóÖ¹	T­îng ChØ
+ÏóÖğ	T­îng Trôc
+ÏôÉı	Tiªu Th¨ng
+Ğ¡±¦	TiÓu B¶o
+Ğ¡ºÀÖí	Nhİm Cá
+Ğ¡ËÉÊó	Sãc
+Ğ¡ËéÆ¬	To¸i phiÕn nhá
+Ğ¡òÔÁú	TiÓu Giao Long
+Ğ¥À×	TiÕu L«i
+Ğ°ÀÇ	Tµ Lang
+ĞÂÀÉ	T©n lang
+ĞÄÄ§100ÄĞµÀ	T©m Ma 100 Nam-§¹o
+ĞÄÄ§100ÄĞ¼×	T©m Ma 100 Nam-Gi¸p
+ĞÄÄ§100ÄĞÒì	T©m Ma 100 Nam-DŞ
+ĞÄÄ§100Å®µÀ	T©m Ma 100 N÷-§¹o
+ĞÄÄ§100Å®¼×	T©m Ma 100 N÷-Gi¸p
+ĞÄÄ§100Å®Òì	T©m Ma 100 N÷-DŞ
+ĞÄÄ§50ÄĞµÀ	T©m Ma 50 Nam-§¹o
+ĞÄÄ§50ÄĞ¼×	T©m Ma 50 Nam-Gi¸p
+ĞÄÄ§50ÄĞÒì	T©m Ma 50 Nam-DŞ
+ĞÄÄ§50Å®µÀ	T©m Ma 50 N÷-§¹o
+ĞÄÄ§50Å®¼×	T©m Ma 50 N÷-Gi¸p
+ĞÄÄ§50Å®Òì	T©m Ma 50 N÷-DŞ
+ĞÄÄ§60ÄĞµÀ	T©m Ma 60 Nam-§¹o
+ĞÄÄ§60ÄĞ¼×	T©m Ma 60 Nam-Gi¸p
+ĞÄÄ§60ÄĞÒì	T©m Ma 60 Nam-DŞ
+ĞÄÄ§60Å®µÀ	T©m Ma 60 N÷-§¹o
+ĞÄÄ§60Å®¼×	T©m Ma 60 N÷-Gi¸p
+ĞÄÄ§60Å®Òì	T©m Ma 60 N÷-DŞ
+ĞÄÄ§70ÄĞµÀ	T©m Ma 70 Nam-§¹o
+ĞÄÄ§70ÄĞ¼×	T©m Ma 70 Nam-Gi¸p
+ĞÄÄ§70ÄĞÒì	T©m Ma 70 Nam-DŞ
+ĞÄÄ§70Å®µÀ	T©m Ma 70 N÷-§¹o
+ĞÄÄ§70Å®¼×	T©m Ma 70 N÷-Gi¸p
+ĞÄÄ§70Å®Òì	T©m Ma 70 N÷-DŞ
+ĞÄÄ§80ÄĞµÀ	T©m Ma 80 Nam-§¹o
+ĞÄÄ§80ÄĞ¼×	T©m Ma 80 Nam-Gi¸p
+ĞÄÄ§80ÄĞÒì	T©m Ma 80 Nam-DŞ
+ĞÄÄ§80Å®µÀ	T©m Ma 80 N÷-§¹o
+ĞÄÄ§80Å®¼×	T©m Ma 80 N÷-Gi¸p
+ĞÄÄ§80Å®Òì	T©m Ma 80 N÷-DŞ
+ĞÄÄ§90ÄĞµÀ	T©m Ma 90 Nam-§¹o
+ĞÄÄ§90ÄĞ¼×	T©m Ma 90 Nam-Gi¸p
+ĞÄÄ§90ÄĞÒì	T©m Ma 90 Nam-DŞ
+ĞÄÄ§90Å®µÀ	T©m Ma 90 N÷-§¹o
+ĞÄÄ§90Å®¼×	T©m Ma 90 N÷-Gi¸p
+ĞÄÄ§90Å®Òì	T©m Ma 90 N÷-DŞ
+ĞÄĞÄÏàÓ¡	T©m T©m T­¬ng Ên
+ĞÄĞÄÏàÓ¡Ê÷	C©y T©m T©m T­¬ng Ên
+ĞÄÔÂºü	T©m NguyÖt Hå
+ĞÇÈÕÂí	Tinh NhËt M·
+ĞÌÌì	H×nh Thiªn
+ĞÌÑ¶¹Ù	H×nh TÊn Quang
+Ğ×ÏÉ	Hung Tiªn
+ĞŞĞĞÊ¦	Tu Hµnh S­
+Ğå»¨²İ	Tó hoa th¶o
+ĞéÈÕÊó	H­ NhËt Thö
+ĞòÑÜ	T­ DiÔn
+ĞùÔ¯ºóÒá	Hiªn Viªn HËu DuÖ
+ĞûÕ½Í¼ÌÚ	Tuyªn chiÕn VËt tæ
+Ğı·ç	TuyÒn Phong
+Ğş±ùÖ®Ç½	HuyÒn B¨ng Chi T­êng
+Ğş¶¼´ó·¨Ê¦	HuyÒn §«
+ĞşÌ³	HuyÒn ®µn
+ĞşÎä	HuyÒn Vò
+ĞşÎä½£Áé	HuyÒn Vò KiÕm Linh
+Ğş×Ó¡¤ÕòĞĞÊ¹	HuyÒn Tö*TrÊn Hµnh Sø
+Ñ©»ê	TuyÕt Hån
+Ñ©ÈË	Ng­êi tuyÕt
+Ñ©Ñı	TuyÕt qu¸i
+Ñ©Ô­¾ŞÊŞ	YÓm Háa
+ÑÒ½¬ÊŞ	Háa Ma
+ÑÒ½¬ÊŞÊ×Áì	Thñ LÜnh Háa Ma
+ÑÔ¶Ò	Ng«n §o¸i
+Ñ×É³¶Ñ(Ä§)	Gß Viªm Sa(Ma)
+Ñ×É³¶Ñ(ÏÉ)	Gß Viªm Sa(Tiªn)
+Ñá»ğ	YÓm Ho¶
+ÑîÈÎ	D­¬ng NhËm
+ÑîÉ­	D­¬ng S©m
+ÑîÊå	D­¬ng Thóc
+Ñîê¯	D­¬ng TiÔn
+Ñô»ğÙî	D­¬ng Háa Hñy
+Ò¦Ìì¾ı	Diªu Thiªn Qu©n
+Ò©µê	D­îc ®iÕm
+Ò©Â¨×Ó	Cù Th¹ch
+Ò°Ã«Éñ	D· Mao thÇn
+Ò°Ã«ÉñÊ×Áì	Thñ LÜnh D· Mao ThÇn
+Ò±Á¶·¿	Phßng ®¹o cô
+Ò½Éú	§¹i phu
+ÒÂ²§Ïà´«	Y B¸t T TruyÒn
+ÒìÓò·çÑıÊ×Áì	Thñ LÜnh DŞ Vùc Phong Yªu
+ÒìÓò¹¶Ã¢	DŞ Vùc CÈu Mang
+ÒìÓò¹¶Ã¢Ê×Áì	Thñ LÜnh DŞ Vùc CÈu Mang
+ÒìÓòÖìİCÊ×Áì	Thñ LÜnh DŞ Vùc Chu LÜnh
+Òí»ğÉß	Dùc Háa Xµ
+Ó¢ÕĞÉñ	Chiªu ThÇn
+Ó¢ÕĞÉñ¾ı	Anh Chiªu ThÇn Qu©n
+Ó¶±øÓª	Tr¹i lİnh
+ÓÄ¼Å	U TŞch
+ÓÅ³æ	¦u Trïng
+ÓÑÇéÍ¼ÌÚ	VËt tæ H÷u T×nh
+Óê²¿Ìì±ø	Vò Bé Thiªn Binh
+Óê»§	Vò Hé
+ÓñÍÃ	Ngäc Thè
+ÓôÄ¾Ö®Ô´	óc Méc Chi Nguyªn
+Óü·¨É½Éñ	Ngôc Ph¸p thÇn
+Ôª²Î¾«	Nguyªn Tham Tinh
+Ô¬Ìì¾ı	Viªn Thiªn Qu©n
+Ô¶³Ì´«ËÍµã	ChuyÓn tiÕp
+Ô¶³Ì·´µ¯1	Ph¶n ®ßn xa 1
+Ô¶³Ì·´µ¯2	Ph¶n ®ßn xa 2
+Ô¶¹ÅÁÑÏ¶	Manh mèi
+ÔÂ¹¬ÔÂ±ı	B¸nh cung tr¨ng
+ÔÂ¹ğ×Ó	QuÕ
+ÔÂÀÏ	NguyÖt L·o
+ÔÆ³µ	V©n xa
+ÔÆÏöÄïÄï	V©n Tiªu N­¬ng N­¬ng
+ÔÆÖĞ×Ó	V©n Trung Tö
+ÔË¾Æ³µ	Xe chuyÓn r­îu
+ÔËïÚ±¦Ïä	B¶o r­¬ng vËn tiªu
+ÔÓ»õÉÌ	T¹p hãa Th­¬ng
+ÔûÔûÄñ	Tra Tra §iÓu
+Õ½³¡´«Áî¹Ù	TruyÒn LÖnh Quan chiÕn tr­êng
+Õ½»ê	ChiÕn Hån
+Õ½»êÖ®»ê	ChiÕn Hån Chi Hån
+Õ½ÆìÄ§	ChiÕn kú ma
+Õ½ÆìÏÉ	ChiÕn kú tiªn
+ÕÅÌì¾ı	Tr­¬ng Thiªn Qu©n
+ÕÅÔÂÂ¹	Tr­¬ng NguyÖt Léc
+ÕĞ»êÕó£¨±ù£©	Chiªu Hån trËn(B¨ng)
+ÕĞ»êÕó£¨»ğ£©	Chiªu Hån trËn(Háa)
+ÕĞ»êÕó£¨À×£©	Chiªu Hån trËn(L«i)
+ÕĞ»êÕó£¨ÍÁ£©	Chiªu Hån trËn(Thæ)
+ÕÔ¹«Ã÷	TriÖu C«ng Minh
+ÕÔÌì¾ı	TriÖu Thiªn Qu©n
+ÕÙ»½ÊŞ	Gäi thó
+ÕÜÂŞÓã	TriÕt La Ng­
+ÕäÆæ¿óÊ¯	Kú Tr©n Kho¸ng Th¹ch
+ÕèíÉÊ¯ÈË	Ch©m PhËt Th¹ch Nh©n
+Õòµî½«¾ü	TrÊn T­íng qu©n
+ÕòÔª´óÏÉ	TrÊn Nguyªn §¹i Tiªn
+Õó·¨ÃÅ	TrËn ph¸p m«n
+Õø	Méc thÇn
+ÕøÊ×Áì	Thñ LÜnh Tr¹nh Nanh
+Ö£Â×	TrŞnh Lu©n
+Ö´³£Ê÷»ê	ChÊp Th­êng Thô Hån
+Ö´¾»Ê÷»ê	ChÊp TŞnh Thô Hån
+Ö´ÀÖÊ÷»ê	ChÊp L¹c Thô Hån
+Ö´ÎÒÊ÷»ê	ChÊp Ng· Thô Hån
+Ö¸ÄÏ³µ	ChØ nam xa
+ÖĞ¹úµÆ	§Ìn lång
+ÖĞÁ¢ÇæÌìËş	K×nh Thiªn th¸p trung lËp
+ÖĞËéÆ¬	To¸i phiÕn trung
+ÖØÉúÌ¨	§µi Trïng sinh
+ÖÜ³¯Í¼ÌÚ	VËt tæ Chu
+ÖÜ¾ü½«Áì	Chu Qu©n T­¬ng LÜnh
+ÖÜ¾üÇ°·æ	Chu Qu©n TiÒn Phong
+ÖÜÆì	Cê Chu
+ÖèÓê±©·ç	Ngù SËu B¹o Phong
+ÖìİC	Chu Linh
+ÖíÁıÉñ	Tr­ Lung ThÇn
+Öîêù	Ch­ Kiªn
+ÖòÁú	Chóc Long
+ÖòÒõÉñ	Chóc ThÇn
+ÖòÒõÉñÊ×Áì	Thñ LÜnh Chóc ThÇn
+Öù¿ı	Trô Kh«i
+×£ÈÚ	Chóc Dung
+×£ÈÚÍ¼ÌÚ	Chóc Dung
+×·»ê¼À	Truy Hån tÕ
+×¼ÌáµÀÈË	ChuÈn §Ò §¹o Nh©n
+×Ï·½½«Áì	T­íng LÜnh phe tİm
+×ÏÎ¢Ô«Ê¹Áé¿Õ	Tö Vi Viªn Sø Linh Kh«ng
+×ÓÑÀÖ®ÆÇ£¨±ù£©	Tö Nh· Chi Ph¸ch(B¨ng)
+×ÓÑÀÖ®ÆÇ£¨·À£©	Tö Nh· Chi Ph¸ch(Phßng)
+×ÓÑÀÖ®ÆÇ£¨»ğ£©	Tö Nh· Chi Ph¸ch(Háa)
+×ÓÑÀÖ®ÆÇ£¨À×£©	Tö Nh· Chi Ph¸ch(L«i)
+×ÓÑÀÖ®ÆÇ£¨ËÙ£©	Tö Nh· Chi Ph¸ch(Tèc)
+×ÓÑÀÖ®ÆÇ£¨ÍÁ£©	Tö Nh· Chi Ph¸ch(Thæ)
+×ÓÑÀÖ®ÆÇ£¨Îï£©	Tö Nh· Chi Ph¸ch(VËt)
+×çÖäÖ®ÀçÁéÊ¬	Lª Linh Thi phï chó
+ØµÍÁºÑ	§Ó Thæ H¹c
+ÙÁÈË	¶i Nh©n
+ÙÁÈËÊ×Áì	Thñ LÜnh ¶i Nh©n
+ÙÈ²®Òæ	YÓn B¸ İch
+ÙÈ·ç	YÓn Phong
+ÙÈÊåÒÄ	YÓn Thóc Di
+ÙÈÔÆ	YÓn V©n
+ÙÈ×ÓÃ÷	YÓn Tö Minh
+ÙçÅ£	Quú Ng­u
+ÚPŒÁ	Th¹ch Quy
+Ú¤¡¤°ØÌì¾ı»êÆÇ	Minh-Hån ph¸ch B¸ch Thiªn Qu©n
+Ú¤¡¤µØá¦	Minh-§Şa PhiÕn
+Ú¤¡¤¶­Ìì¾ı»êÆÇ	Minh-Hån ph¸ch §æng Thiªn Qu©n
+Ú¤¡¤ÇØÌì¾ı»êÆÇ	Minh-Hån ph¸ch TÇn Thiªn Qu©n
+Ú¤¡¤ÈËá¦	Minh-Nh©n PhiÕn
+Ú¤¡¤ÈÛÑÒÊ¹Õß	Minh-Sø gi¶ Dung Nham
+Ú¤¡¤ËïÌì¾ı»êÆÇ	Minh-Hån ph¸ch T«n Thiªn Qu©n
+Ú¤¡¤Ììá¦	Minh-Thiªn PhiÕn
+Ú¤¡¤ÍõÌì¾ı»êÆÇ	Minh-Hån ph¸ch V­¬ng Thiªn Qu©n
+Ú¤¡¤Ò¦Ìì¾ı»êÆÇ	Minh-Hån ph¸ch Diªu Thiªn Qu©n
+Ú¤¡¤Ô¬Ìì¾ı»êÆÇ	Minh-Hån ph¸ch Viªn Thiªn Qu©n
+Ú¤¡¤ÕÔÌì¾ı»êÆÇ	Minh-Hån ph¸ch TriÖu Thiªn Qu©n
+ÚùÎÄ»¯	¢u Thiªn Hãa
+åèÈÃ	Tho¸n Nh­îng
+åèÍñ	Tho¸n UyÓn
+åó³µ	Nç xa
+æ§¼º	§¸t Kû
+æÏ¶ğ	H»ng Nga
+æûÍõ	Trô V­¬ng
+éôË®ò¾	ChÈn Thñy DÉn
+êÄÈÕ¼¦	M·o NhËt Kª
+êÈÍ¯	L·o §ång
+êÈÍ¯Ê×Áì	Thñ LÜnh L·o §ång
+êËÀ×	TriÖu L«i
+êËÌï	TriÖu §iÒn
+ìå	Phi Thè
+ìåÄ§	Phi Thè Ma
+ìåÊ×Áì	Thñ LÜnh Phi Thè
+ïÚÊ¦	Tiªu Sö
+ğĞğÄ	Anh Vò
+ò§çïºóÒá	Chuyªn Hóc HËu DuÖ
+ò°Áú	Di long
+ò°Ê×½£ÏÉ	Di §Çu KiÕm Tiªn
+ò°Ê×ÏÉ·ç	§ao Ng­u_Phong
+ò°Ê×ÏÉ»ğ	§ao Ng­u_Háa
+ò°Ê×ÏÉË®	§ao Ng­u_Thñy
+ò°Ê×ÏÉÍÁ	§ao Ng­u_ Thæ
+òÔÁú	Giao Long
+òã÷í	PhØ TruÊt
+ó¤Áú	Ly Long
+ó¤ÎÇ	Si VÉn
+ó´Áú	Bµn Long
+óô»ğ	Löa tr¹i
+õùõ÷Ê×Áì¡¤»ğ	Thñ LÜnh Tú H­u.Háa
+õùõ÷Ê×Áì¡¤½ğ	Thñ LÜnh Tú H­u .Kim
+õùõ÷Ê×Áì¡¤Ä¾	Thñ LÜnh Tú H­u.Méc
+õùõ÷Ê×Áì¡¤Ë®	Thñ LÜnh Tú H­u.Thñy
+õùõ÷Ê×Áì¡¤ÍÁ	Thñ LÜnhTú H­u.Thæ
+õş»ğºï	Tuy Háa HÇu
+÷ÊÄ§	YÓm Ma
+÷Ò÷Ñ	C«n Bèi
+÷Ò÷Ñ»ÃÏó	C«n Bèi ¶o c¶nh
+÷è÷ë	Kú L©n
+T« §¾c Kû	T« §¾c Kû
+TriÖu Bİnh	TriÖu Bİnh
+Mai Vò	Mai Vò
+T«n Tö Vò	T«n Tö Vò
+Kim Quú	Kim Quú
+Hoµng Nguyªn TÕ	Hoµng Nguyªn TÕ
+TrÇn Kú	TrÇn Kú

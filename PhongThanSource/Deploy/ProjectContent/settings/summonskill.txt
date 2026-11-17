@@ -1,0 +1,13 @@
+id	name	summonnpcid	costtype	costvalue	costparam	casttime	adddamagescale	scaleparam	maxcorpse	maxcorpserparam	castani	castsnd	icon	desc
+450	#Lùc SÜ tÕ	359	0	29	1024	270	1	512	6	512	\spr\skill\magic\dark-cast.spr		\spr\skill\Í¼±ê\Á¦Ê¿¼À.spr	#Gäi mét Hoµng Kim Lùc SÜ ra trî chiÕn
+451	#Tr­êng Cung tÕ	360	0	59	2048	270	1	512	6	512	\spr\skill\magic\dark-cast.spr		\spr\skill\Í¼±ê\Ìì¾ı¼À.spr	#Gäi mét Tr­êng Cung lùc sÜ ra trî chiÕn
+452	#Thiªn Vò tÕ	361	0	79	4096	270	1	512	6	512	\spr\skill\magic\dark-cast.spr		\spr\skill\Í¼±ê\ĞÇ¾ı¼À.spr	#Gäi mét Thiªn Vò lùc sÜ ra trî chiÕn
+453	#Liªn Nç TÕ	362	0	99	8192	270	1	512	6	512	\spr\skill\magic\dark-cast.spr		\spr\skill\Í¼±ê\Á¬åó¼À.spr	#Gäi mét Liªn Nç lùc sÜ ra trî chiÕn
+454	#Háa L«i TÕ	403	0	119	12288	270	1	512	6	512	\spr\skill\magic\dark-cast.spr		\spr\skill\Í¼±ê\»ğÀ×¼À.spr	#Gäi mét Háa L«i lùc sÜ ra trî chiÕn
+455	#To¸i Cèt tÕ	404	0	139	16384	270	1	512	6	512	\spr\skill\magic\dark-cast.spr		\spr\skill\Í¼±ê\Ëé¹Ç¼À.spr	#Gäi mét To¸i Cèt lùc sÜ ra trî chiÕn
+456	#L­u Tinh tÕ	405	0	159	20480	270	1	512	6	512	\spr\skill\magic\dark-cast.spr		\spr\skill\Í¼±ê\Á÷ĞÇ¼À.spr	#Gäi mét L­u Tinh lùc sÜ ra trî chiÕn
+457	#Truy Hån tÕ	406	0	179	24576	270	1	512	6	512	\spr\skill\magic\dark-cast.spr		\spr\skill\Í¼±ê\×·»ê¼À.spr	#Gäi mét Truy Hån lùc sÜ ra trî chiÕn
+458	#Phong QuyÓn Tµn V©n	407	0	199	28672	270	1	512	6	512	\spr\skill\magic\dark-cast.spr		\spr\skill\Í¼±ê\·ç¾í²ĞÔÆ.spr	#Gäi mét Phong QuyÓn Tµn V©n ra trî chiÕn
+459	#Cuång §µo TÕ	1345	0	180	24576	270	1	512	6	512	\spr\skill\magic\dark-cast.spr		\spr\skill\Í¼±ê\¿ñÌÎ¼À.spr	#TriÖu håi 1 Cuång §µo Lùc SÜ
+460	#Ngù SËu B¹o Phong	1346	0	250	36864	270	1	512	6	512	\spr\skill\magic\dark-cast.spr		\spr\skill\Í¼±ê\ÖèÓê±©·ç.spr	#TriÖu håi 1 Ngù SËu B¹o Phong
+461	#HuyÒn ¶nh Tµn Hoa	2032	0	250	36864	270	1	512	6	512	\spr\skill\magic\dark-cast.spr		\spr\skill\magic\fs_icon_huyen_anh_tan_hoa.spr	#TriÖu Håi Tiªn N÷ HuyÒn ¶nh T¸n Hoa<c=red>VNG<c>

@@ -1,0 +1,40 @@
+﻿{
+    "Scope":  "LOOSE_ONLY",
+    "Backup":  "E:\\ProjectAI\\PhongThan\\PT\\analysis\\giao_revive_followup_20261102\\runtime-before-20261102_105201",
+    "Result":  "PASS",
+    "Files":  [
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\GiaoReviveFollowup20261102\\binaries\\Client\\CoreClient.dll",
+                      "Path":  "Client/CoreClient.dll",
+                      "Done":  false,
+                      "After":  "B7DC1989052F04B767529D851CFF5C23D8FA6A0C44A3686CA5D5DBE799F92342",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Client\\CoreClient.dll",
+                      "Before":  "E7F57E53EBAE85721D322023625F0CC6AD4E81D583D015391FFFCBDAEAB808F2"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\GiaoReviveFollowup20261102\\binaries\\Server\\CoreServer.dll",
+                      "Path":  "Server/CoreServer.dll",
+                      "Done":  false,
+                      "After":  "CC3E02B50328A82EF161DB6E597D6F042A6FF7261E0323D45FCB920FF37B1722",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\CoreServer.dll",
+                      "Before":  "C4C5BAF95F034F2D941D2333082A02F40E519591C60EA4D172885C2067BFF5AE"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\GiaoReviveFollowup20261102\\binaries\\Server\\script\\phongthan\\realm\\boat_dong_doanh.lua",
+                      "Path":  "Server/script/phongthan/realm/boat_dong_doanh.lua",
+                      "Done":  false,
+                      "After":  "ED4A48CE4AB127B7A3F7DCFA9BD915D6736CB21B51AE83D5E7CD49FC4CFC6758",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\script\\phongthan\\realm\\boat_dong_doanh.lua",
+                      "Before":  "A42118C3A38DBA0BFD6F9AC355F90D4DD609FE5B2DC439BE5FAADABAD39018CB"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\GiaoReviveFollowup20261102\\binaries\\Server\\script\\phongthan\\realm\\boat_tran_duong.lua",
+                      "Path":  "Server/script/phongthan/realm/boat_tran_duong.lua",
+                      "Done":  false,
+                      "After":  "ED4A48CE4AB127B7A3F7DCFA9BD915D6736CB21B51AE83D5E7CD49FC4CFC6758",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\script\\phongthan\\realm\\boat_tran_duong.lua",
+                      "Before":  "A42118C3A38DBA0BFD6F9AC355F90D4DD609FE5B2DC439BE5FAADABAD39018CB"
+                  }
+              ],
+    "PublishedAtUtc":  "2026-11-02T03:52:03.5498877Z"
+}

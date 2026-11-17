@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "scope": "LOOSE_ONLY",
+  "classification": "GUARDED_GIAPSI_CO_KIM_REENTRY",
+  "files": [
+    {
+      "relative": "script/phongthan/giapsi/npc_tay.lua",
+      "before_sha256": "2c1e86f1c3928db135478a60c2dd33f2bac02ed066dd0c37b2449629c40c7f99",
+      "sha256": "5718389aa22e9fb0b01ff4e182c24079a3996f7137d442f899f480c5747034b8"
+    },
+    {
+      "relative": "script/phongthan/giapsi/npc_dac_future.lua",
+      "before_sha256": "7c4e3016596ed6008c96cff70796e1cd3fe827c7df858b36a005b19cc0c93643",
+      "sha256": "64f1c102c715f825bf5545858775342be0d8e377fb0d94651ebfe065dc879de8"
+    }
+  ],
+  "backup": "E:\\ProjectAI\\PhongThan\\PT\\analysis\\giapsi_future_portal_20261102\\backup-20261102T164134Z",
+  "utc": "2026-11-02T16:41:35.322424+00:00"
+}

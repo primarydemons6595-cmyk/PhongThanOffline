@@ -1,0 +1,35 @@
+{
+  "scope": "DAO_SI_ONLY: Mao Lu real NPC handoff and Ke Tuc preserved on native warehouse binding; no Giap Si/Di Nhan scripts or character edits",
+  "files": [
+    {
+      "path": "Server/script/phongthan/restoration/dao_maolu.lua",
+      "sha256": "8ce1713d628f8777dae4d0229328451a2b425c3309225bd4e33a04504f97ee0c",
+      "before_sha256": null
+    },
+    {
+      "path": "Server/script/ÓñÐé¹¬/´Èº½µÀÈË.lua",
+      "sha256": "c657a49bc893a6071f68b6af4b631b71c161c4b81e4c85ec7e15a11de194fcea",
+      "before_sha256": "904b7e1443fc64142fe4e8fd22165b71769d03f01d8d47315afd0b001549790f"
+    },
+    {
+      "path": "Server/script/phongthan/npc_recovered_batch/1003_7006c6a9.lua",
+      "sha256": "c166b5a48b1ceae368c24aa5705d0a3038efef17a777df821ea562aef062088a",
+      "before_sha256": "92ac71faf664c5d6af8b321d2c172e94416232e5eed6112d0220c3d76283e7b8"
+    },
+    {
+      "path": "Server/script/phongthan/npc_recovered_batch/1003_acdf0300.lua",
+      "sha256": "7ed86d247294c1a7da15393c46c258f0386c4d6e9185ea9c4e66d01555b66e5b",
+      "before_sha256": "97bd5bcafbd10bfa611630a06fb709ef7578cbf98a96310ebae31bee35076568"
+    },
+    {
+      "path": "Server/script/phongthan/restoration/maolu_store_dao.lua",
+      "sha256": "7ed86d247294c1a7da15393c46c258f0386c4d6e9185ea9c4e66d01555b66e5b",
+      "before_sha256": "c4b8d546956bb056aeab1d0e128d1cc3f3aaa04c19319d775200275ac3426b1e"
+    },
+    {
+      "path": "Server/script/phongthan/restoration/maolu_giao_dao.lua",
+      "sha256": "0d3032ac479e1590a23509e6be0bf5c382ed2bbf122d8ebeaccdcdaa4e190234",
+      "before_sha256": "773d2537459fd86e96d23151f18ca7d16c948d1cf7dc9e01680c31161e82cc21"
+    }
+  ]
+}

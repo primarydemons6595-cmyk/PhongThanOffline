@@ -1,0 +1,421 @@
+titleid	titletype	titlecycle	titlesystemid	tielecamp	titlename	titleInfo	titletypevalue	IsQualiTimeLimit
+1	1	0	0	0	#Anh hïng c¸i thÕ	#Tiªu diÖt Di Long, gi¶i tho¸t khİ m¹ch Cµn kh«n, khai th«ng thiªn lé	spr\Ui4\³ÆºÅ\Í¼Æ¬\¸ÇÊÀÓ¢ĞÛ.spr	0
+2	2	0	1	1	#Tiªn Vò Kh¸ch	#Cã Danh väng Tiªn giíi vµ ®¼ng cÊp Nh©n giíi ®¹t 110 míi cã thÓ nhËn	#Tiªn Vò Kh¸ch	0
+3	2	0	1	1	#Tiªn §¹i S­	#Danh väng Tiªn giíi ®¹t ®Õn 5000, ®¼ng cÊp Nh©n giíi ®¹t 121 míi cã thÓ nhËn	#Tiªn §¹i S­	0
+4	2	0	1	1	#Du T¸n Tiªn	#Danh väng Tiªn giíi ®¹t ®Õn 15000, ®· hoµn thµnh nhiÖm vô §é KiÕp cÊp 30 míi cã thÓ nhËn	#Du T¸n Tiªn	0
+5	2	0	2	2	#Ma U Sø	#Cã Danh väng Ma giíi vµ ®¼ng cÊp Nh©n giíi ®¹t 110 míi cã thÓ nhËn	#Ma U Sø	0
+6	2	0	2	2	#Tiªn LuyÖn S­	#Danh väng Ma giíi ®¹t ®Õn 5000, ®¼ng cÊp Nh©n giíi ®¹t 121 míi cã thÓ nhËn	#Tiªn LuyÖn S­	0
+7	2	0	2	2	#D¹ Du Ma	#Danh väng Ma giíi ®¹t ®Õn 15000, ®· hoµn thµnh nhiÖm vô §é KiÕp cÊp 30 míi cã thÓ nhËn	#D¹ Du Ma	0
+8	1	0	0	0	#V¹n Nh©n Mª	#VËt phÈm lÔ t×nh nh©n, cã thÓ ®Õn gÆp NguyÖt L·o ®Ó nhËn (lÆp l¹i)	spr\Ui4\³ÆºÅ\Í¼Æ¬\ÍòÈËÃÔ.spr	0
+9	1	0	0	0	#Ma Lùc V« H¹n	#VËt phÈm lÔ t×nh nh©n, cã thÓ ®Õn gÆp NguyÖt L·o ®Ó nhËn (lÆp l¹i)	spr\Ui4\³ÆºÅ\Í¼Æ¬\÷ÈÁ¦ÎŞÏŞ.spr	0
+10	1	0	0	0	#Nh©n KiÕn Nh©n ¸i	#VËt phÈm lÔ t×nh nh©n, cã thÓ ®Õn gÆp NguyÖt L·o ®Ó nhËn (lÆp l¹i)	spr\Ui4\³ÆºÅ\Í¼Æ¬\ÈË¼ûÈË°®.spr	0
+11	1	0	0	0	#Ngäc Thô L©m Phong	#VËt phÈm lÔ t×nh nh©n, cã thÓ ®Õn gÆp NguyÖt L·o ®Ó nhËn (lÆp l¹i)	spr\Ui4\³ÆºÅ\Í¼Æ¬\ÓñÊ÷ÁÙ·ç.spr	0
+12	1	0	0	0	#Phong L­u	#VËt phÈm lÔ t×nh nh©n, cã thÓ ®Õn gÆp NguyÖt L·o ®Ó nhËn (lÆp l¹i)	spr\Ui4\³ÆºÅ\Í¼Æ¬\·çÁ÷ÙÃÙÎ.spr	0
+13	1	86400	0	0	#Hoµn Mü Th¾ng Gi¶	#ChØ ng­êi chiÕn th¾ng trong tuÇn míi ®­îc së h÷u	spr\Ui4\³ÆºÅ\Í¼Æ¬\ÍêÃÀÊ¤Õß.spr	0
+14	1	86400	0	0	#Qu¶ng ThÕ Kú Tµi	#X­ng hiÖu Vò V­¬ng th­ëng cho ng­êi h¹ng nhÊt trong ho¹t ®éng V¨n Khóc gi¸ng phµm! (Néi 13 ngµy tİnh tõ lóc l·nh, cã thÓ ®Õn Vò V­¬ng ®Ó ®æi (lÆp l¹i). Qu¸ h¹n sÏ tù mÊt)	spr\Ui4\³ÆºÅ\Í¼Æ¬\¿õÊÀÆæ²Å.spr	0
+15	1	86400	0	0	#Häc Phó Ngò Xa	#X­ng hiÖu Vò V­¬ng th­ëng cho ng­êi h¹ng nh× trong ho¹t ®éng V¨n Khóc gi¸ng phµm! (Néi 13 ngµy tİnh tõ lóc l·nh, cã thÓ ®Õn Vò V­¬ng ®Ó ®æi (lÆp l¹i). Qu¸ h¹n sÏ tù mÊt)	spr\Ui4\³ÆºÅ\Í¼Æ¬\Ñ§¸»Îå³µ.spr	0
+16	1	86400	0	0	#Tµi Hoa Hoµnh DËt	#X­ng hiÖu Vò V­¬ng th­ëng cho ng­êi h¹ng ba trong ho¹t ®éng V¨n Khóc gi¸ng phµm! (Néi 13 ngµy tİnh tõ lóc l·nh, cã thÓ ®Õn Vò V­¬ng ®Ó ®æi (lÆp l¹i). Qu¸ h¹n sÏ tù mÊt)	spr\Ui4\³ÆºÅ\Í¼Æ¬\²Å»ªºáÒç.spr	0
+17	1	0	0	0	#Bµn Cæ Sø Gi¶	#Gióp Bµn Cæ tiªu diÖt ®­îc §¹i §iªu, n¬i ®©y l¹i yªn b×nh	spr\Ui4\³ÆºÅ\Í¼Æ¬\ÅÌ¹ÅÊ¹Õß.spr	0
+18	1	86400	0	0	#B¾t Quû Th¸nh Gi¶	#VËt phÈm chøng minh ®· tham gia thi ®Êu b¾t Quû. (Néi 7 ngµy tİnh tõ lóc l·nh, cã thÓ ®Õn LÔ quan ë Sïng Thµnh ®Ó ®æi (lÆp l¹i). Qu¸ h¹n sÏ tù mÊt)	spr\Ui4\³ÆºÅ\Í¼Æ¬\×½¹íÊ¤Õß.spr	0
+19	1	86400	0	0	#Quû KiÕn SÇu	#VËt phÈm chøng minh ®· tham gia thi ®Êu b¾t Quû. (Néi 7 ngµy tİnh tõ lóc l·nh, cã thÓ ®Õn LÔ quan ë Sïng Thµnh ®Ó ®æi (lÆp l¹i). Qu¸ h¹n sÏ tù mÊt)	spr\Ui4\³ÆºÅ\Í¼Æ¬\¹í¼û³î.spr	0
+20	2	0	1	1	#Linh §éng Tiªn	#Danh väng Tiªn giíi ®¹t ®Õn 45000, hoµn thµnh nhiÖm vô §é KiÕp cÊp 50 míi cã thÓ nhËn	#Linh §éng Tiªn	0
+21	2	0	2	1	#HuyÒn Vùc Ma	#Danh väng Ma giíi ®¹t ®Õn 45000, hoµn thµnh nhiÖm vô §é KiÕp cÊp 50 míi cã thÓ nhËn	#HuyÒn Vùc Ma	0
+22	1	0	0	0	#Vò Néi V« Song	#Kim th©n chİnh ®¹o, nhËp kim thñy kú trËn!	spr\Ui4\³ÆºÅ\Í¼Æ¬\ÓîÄÚÎŞË«.spr	0
+23	1	0	0	0	#Th¸i S¬n B¾c §Èu	#Trong ho¹t ®éng kh¸nh lÔ ®­îc ng­êi ch¬i toµn server bá phiÕu, cã thÓ ®Õn TriÒu Ca t×m LÔ Quan ®æi (lÆp l¹i).	spr\Ui4\³ÆºÅ\Í¼Æ¬\Ì©É½±±¶·.spr	0
+24	1	0	0	0	#V¹n Nh©n Kİnh Ng­ìng	#Trong ho¹t ®éng kh¸nh lÔ ®­îc ng­êi ch¬i toµn server bá phiÕu, cã thÓ ®Õn TriÒu Ca t×m LÔ Quan ®æi (lÆp l¹i).	spr\Ui4\³ÆºÅ\Í¼Æ¬\ÍòÈË¾´Ñö.spr	0
+25	1	0	0	0	#§øc Cao Väng Träng	#Trong ho¹t ®éng kh¸nh lÔ ®­îc ng­êi ch¬i toµn server bá phiÕu, cã thÓ ®Õn TriÒu Ca t×m LÔ Quan ®æi (lÆp l¹i).	spr\Ui4\³ÆºÅ\Í¼Æ¬\µÂ¸ßÍûÖØ.spr	0
+26	1	0	0	0	#Hång Hoang Dòng SÜ	#Dòng sÜ më chiÕn tr­êng liªn server cho toµn server, ®¸nh b¹i Hång Hoang ThÇn Thó.	spr\Ui4\³ÆºÅ\Í¼Æ¬\ºé»ÄÓÂÊ¿.spr	0
+27	1	18000	0	0	#Chóc mõng	#Ho¹t ®éng chóc mõng 21 n¨m thµnh lËp Kim S¬n, nÕu ng­¬i vµ 4 ng­êi ch¬i kh¸c hîp thµnh dßng ch÷ "Chóc mõng 21 n¨m thµnh lËp Kim S¬n", cã thÓ nhËn ®­îc phÇn th­ëng gi¸ trŞ.	spr\Ui4\³ÆºÅ\Í¼Æ¬\¹§×£.spr	0
+28	1	18000	0	0	#VinaGame	#Ho¹t ®éng chóc mõng 21 n¨m thµnh lËp Kim S¬n, nÕu ng­¬i vµ 4 ng­êi ch¬i kh¸c hîp thµnh dßng ch÷ "Chóc mõng 21 n¨m thµnh lËp Kim S¬n", cã thÓ nhËn ®­îc phÇn th­ëng gi¸ trŞ.	spr\Ui4\³ÆºÅ\Í¼Æ¬\½ğÉ½.spr	0
+29	1	18000	0	0	#Thµnh lËp	#Ho¹t ®éng chóc mõng 21 n¨m thµnh lËp Kim S¬n, nÕu ng­¬i vµ 4 ng­êi ch¬i kh¸c hîp thµnh dßng ch÷ "Chóc mõng 21 n¨m thµnh lËp Kim S¬n", cã thÓ nhËn ®­îc phÇn th­ëng gi¸ trŞ.	spr\Ui4\³ÆºÅ\Í¼Æ¬\³ÉÁ¢.spr	0
+30	1	18000	0	0	#21	#Ho¹t ®éng chóc mõng 21 n¨m thµnh lËp Kim S¬n, nÕu ng­¬i vµ 4 ng­êi ch¬i kh¸c hîp thµnh dßng ch÷ "Chóc mõng 21 n¨m thµnh lËp Kim S¬n", cã thÓ nhËn ®­îc phÇn th­ëng gi¸ trŞ.	spr\Ui4\³ÆºÅ\Í¼Æ¬\Ø¥Ò».spr	0
+31	1	18000	0	0	#N¨m	#Ho¹t ®éng chóc mõng 21 n¨m thµnh lËp Kim S¬n, nÕu ng­¬i vµ 4 ng­êi ch¬i kh¸c hîp thµnh dßng ch÷ "Chóc mõng 21 n¨m thµnh lËp Kim S¬n", cã thÓ nhËn ®­îc phÇn th­ëng gi¸ trŞ.	spr\Ui4\³ÆºÅ\Í¼Æ¬\ÖÜÄê.spr	0
+32	1	0	0	0	#Cao thñ c©u c¸	#Chøng nhËn tham gia Héi thi c©u c¸ th¾ng lîi. (Cã thÓ ®Õn TriÒu Ca gÆp Sinh Ho¹t S­ ®Ó ®æi (lÆp l¹i))	spr\Ui4\³ÆºÅ\Í¼Æ¬\µöÓã¸ßÊÖ.spr	0
+33	1	0	0	0	#Phong D­îc S­	#Anh hïng ®¶m ®­¬ng nhiÖm vô lóc l©m nguy, h¸i thuèc cøu ng­êi, ®¸ng ®Ó mäi ng­êi kİnh träng.	spr\Ui4\³ÆºÅ\Í¼Æ¬\·âÉñÒ©Ê¦.spr	0
+34	1	0	0	0	#Ngò Téc HËu DuÖ	#ë §éng Thiªn Phóc §Şa nhËn ®­îc BiÓu t­îng thµnh tùu	spr\Ui4\³ÆºÅ\Í¼Æ¬\Îå×åºóÒá.spr	0
+35	1	0	0	0	#S¬ Thİ Phong Mang	#ë §éng Thiªn Phóc §Şa nhËn ®­îc BiÓu t­îng thµnh tùu	spr\Ui4\³ÆºÅ\Í¼Æ¬\³õÊÔ·æÃ¢.spr	0
+36	1	0	0	0	#Tr¶m Yªu DiÖt Tµ	#ë §éng Thiªn Phóc §Şa nhËn ®­îc BiÓu t­îng thµnh tùu	spr\Ui4\³ÆºÅ\Í¼Æ¬\Õ¶ÑıÃğĞ°.spr	0
+37	1	0	0	0	#Uy Danh HiÓn H¸ch	#ë §éng Thiªn Phóc §Şa nhËn ®­îc BiÓu t­îng thµnh tùu	spr\Ui4\³ÆºÅ\Í¼Æ¬\ÍşÃûºÕºÕ.spr	0
+38	1	0	0	0	#Thõa TËp Ngò §Õ	#ë §éng Thiªn Phóc §Şa nhËn ®­îc BiÓu t­îng thµnh tùu	spr\Ui4\³ÆºÅ\Í¼Æ¬\³ĞÏ®ÎåµÛ.spr	0
+39	1	0	0	0	#ChÊp Ch­ëng Cµn Kh«n	#ë §éng Thiªn Phóc §Şa nhËn ®­îc BiÓu t­îng thµnh tùu	spr\Ui4\³ÆºÅ\Í¼Æ¬\Ö¸ÕÆÇ¬À¤.spr	0
+40	1	86400	0	0	#X­ng B¸ NhÊt Ph­¬ng	#L·nh ®Şa së t¹i trong lóc Quèc ChiÕn ®¸nh ®©u th¾ng ®ã, nhËn ®­îc vŞ trİ cao nhÊt toµn server! (Tr­íc 01-01-2010 cã thÓ ®Õn Phong ThÇn ®µi t×m T­îng L·nh chóa ®Ó ®æi (lÆp l¹i), qu¸ h¹n sÏ kh«ng cßn hiÖc lùc)	spr\Ui4\³ÆºÅ\Í¼Æ¬\³Æ°ÔÒ»·½.spr	0
+41	1	60	0	0	#X­ng B¸ NhÊt Ph­¬ng	#L·nh ®Şa së t¹i trong lóc Quèc ChiÕn ®¸nh ®©u th¾ng ®ã, nhËn ®­îc vŞ trİ cao nhÊt toµn server! (Tr­íc 01-01-2010 cã thÓ ®Õn Phong ThÇn ®µi t×m T­îng L·nh chóa ®Ó ®æi (lÆp l¹i), qu¸ h¹n sÏ kh«ng cßn hiÖc lùc)	spr\Ui4\³ÆºÅ\Í¼Æ¬\³Æ°ÔÒ»·½.spr	0
+42	1	60	0	0	#Ngò Téc HËu DuÖ	#ë §éng Thiªn Phóc §Şa nhËn ®­îc BiÓu t­îng thµnh tùu	spr\Ui4\³ÆºÅ\Í¼Æ¬\Îå×åºóÒá.spr	0
+43	1	60	0	0	#S¬ Thİ Phong Mang	#ë §éng Thiªn Phóc §Şa nhËn ®­îc BiÓu t­îng thµnh tùu	spr\Ui4\³ÆºÅ\Í¼Æ¬\³õÊÔ·æÃ¢.spr	0
+44	1	60	0	0	#Tr¶m Yªu DiÖt Tµ	#ë §éng Thiªn Phóc §Şa nhËn ®­îc BiÓu t­îng thµnh tùu	spr\Ui4\³ÆºÅ\Í¼Æ¬\Õ¶ÑıÃğĞ°.spr	0
+45	1	60	0	0	#Uy Danh HiÓn H¸ch	#ë §éng Thiªn Phóc §Şa nhËn ®­îc BiÓu t­îng thµnh tùu	spr\Ui4\³ÆºÅ\Í¼Æ¬\ÍşÃûºÕºÕ.spr	0
+46	1	60	0	0	#Thõa TËp Ngò §Õ	#ë §éng Thiªn Phóc §Şa nhËn ®­îc BiÓu t­îng thµnh tùu	spr\Ui4\³ÆºÅ\Í¼Æ¬\³ĞÏ®ÎåµÛ.spr	0
+47	1	60	0	0	#ChØ Ch­ëng Cµn Kh«n	#ë §éng Thiªn Phóc §Şa nhËn ®­îc BiÓu t­îng thµnh tùu	spr\Ui4\³ÆºÅ\Í¼Æ¬\Ö¸ÕÆÇ¬À¤.spr	0
+48	1	21600	0	0	#Chµo mõng	#TiÕt Nguyªn §¸n, chµo ®ãn ngµy lÔ, cïng 1 ng­êi ch¬i kh¸c tæ ®éi hîp thµnh dßng ch÷ "Chµo mõng Nguyªn §¸n", cã thÓ b¾t ®Çu ho¹t ®éng Nguyªn §¸n, phÇn th­ëng hÊp dÉn ®ang chê b¹n!	spr\Ui4\³ÆºÅ\Í¼Æ¬\»¶Çì.spr	0
+49	1	21600	0	0	#Nguyªn ®¸n	#TiÕt Nguyªn §¸n, chµo ®ãn ngµy lÔ, cïng 1 ng­êi ch¬i kh¸c tæ ®éi hîp thµnh dßng ch÷ "Chµo mõng Nguyªn §¸n", cã thÓ b¾t ®Çu ho¹t ®éng Nguyªn §¸n, phÇn th­ëng hÊp dÉn ®ang chê b¹n!	spr\Ui4\³ÆºÅ\Í¼Æ¬\Ôªµ©.spr	0
+50	1	86400	0	0	#§Ö nhÊt l·nh ®Şa	#L·nh ®Şa së t¹i trong lóc Quèc ChiÕn ®¸nh ®©u th¾ng ®ã, nhËn ®­îc vŞ trİ cao nhÊt toµn thiªn h¹! (Tr­íc 05-02-2010 cã thÓ ®Õn Phong ThÇn ®µi t×m T­îng L·nh chóa ®Ó ®æi (lÆp l¹i), qu¸ h¹n sÏ kh«ng cßn hiÖu lùc)	spr\Ui4\³ÆºÅ\Í¼Æ¬\ÌìÏÂµÚÒ»¹ú.spr	0
+51	1	60	0	0	#§Ö nhÊt l·nh ®Şa	#L·nh ®Şa së t¹i trong lóc Quèc ChiÕn ®¸nh ®©u th¾ng ®ã, nhËn ®­îc vŞ trİ cao nhÊt toµn thiªn h¹! (Tr­íc 05-02-2010 cã thÓ ®Õn Phong ThÇn ®µi t×m T­îng L·nh chóa ®Ó ®æi (lÆp l¹i), qu¸ h¹n sÏ kh«ng cßn hiÖu lùc)	spr\Ui4\³ÆºÅ\Í¼Æ¬\ÌìÏÂµÚÒ»¹ú.spr	0
+52	1	604800	0	0	#C¬m no ¸o Êm	#TiÕt L¹p B¸t diÖt quû ®em l¹i yªn b×nh, xøng ®¸ng nhËn phÇn th­ëng C¬m no ¸o Êm.	spr\Ui4\³ÆºÅ\Í¼Æ¬\³ÆºÅ_·áÒÂ×ãÊ³.spr	0
+53	1	0	0	0	#Tèi giai ph¸ch ®¸ng	#TiÕt mü n÷ thÓ hiÖn xuÊt s¾c vai trß hé hoa gi¶, ®­îc mäi ng­êi xem träng.	spr\Ui4\³ÆºÅ\Í¼Æ¬\×î¼ÑÅÄµµ.spr	0
+54	1	0	0		#Ch©n thµnh nhiÖt t×nh	#TiÕt mü n÷ vÊt v¶ lµm ng­êi tèt tuyÖt thÕ, ®­îc mäi ng­êi xem träng.	spr\Ui4\³ÆºÅ\Í¼Æ¬\¹ÅµÀÈÈ³¦.spr	0
+55	1	0	0		#Chİch thñ kh¶ nhiÖt	#TiÕt mü n÷ trë thµnh tiªu ®iÓm chó ı, lµ ®èi t­îng nhiÒu mü n÷ muèn hÑn hß, ®­îc mäi ng­êi khen ngîi.	spr\Ui4\³ÆºÅ\Í¼Æ¬\ÖËÊÖ¿ÉÈÈ.spr	0
+56	1	86400	0	0	#Phong ThÇn III	#Ho¹t ®éng ®¹i héi vâ l©m Kim S¬n, nÕu ng­¬i tæ ®éi víi 3 ng­êi ch¬i cã danh hiÖu game kh¸c nhau, cã thÓ gÆp Tiªn Nh©n Vâ L©m ®èi tho¹i vµ nhËn ®­îc phÇn th­ëng hËu hÜ.	spr\Ui4\³ÆºÅ\Í¼Æ¬\·âÉñ°ñÈş.spr	0
+57	1	86400	0	0	#§éc C« Cöu KiÕm	#Ho¹t ®éng ®¹i héi vâ l©m Kim S¬n, nÕu ng­¬i tæ ®éi víi 3 ng­êi ch¬i cã danh hiÖu game kh¸c nhau, cã thÓ gÆp Tiªn Nh©n Vâ L©m ®èi tho¹i vµ nhËn ®­îc phÇn th­ëng hËu hÜ.	spr\Ui4\³ÆºÅ\Í¼Æ¬\¶À¹Â¾Å½£.spr	0
+58	1	86400	0	0	#KiÕm HiÖp ThÕ Giíi	#Ho¹t ®éng ®¹i héi vâ l©m Kim S¬n, nÕu ng­¬i tæ ®éi víi 5 ng­êi ch¬i cã danh hiÖu game kh¸c nhau, cã thÓ gÆp Tiªn Nh©n Vâ L©m ®èi tho¹i vµ nhËn ®­îc phÇn th­ëng hËu hÜ.	spr\Ui4\³ÆºÅ\Í¼Æ¬\½£ÏÀÊÀ½ç.spr	0
+59	1	86400	0	0	#KiÕm HiÖp T×nh Duyªn II	#Ho¹t ®éng ®¹i héi vâ l©m Kim S¬n, nÕu ng­¬i tæ ®éi víi 3 ng­êi ch¬i cã danh hiÖu game kh¸c nhau, cã thÓ gÆp Tiªn Nh©n Vâ L©m ®èi tho¹i vµ nhËn ®­îc phÇn th­ëng hËu hÜ.	spr\Ui4\³ÆºÅ\Í¼Æ¬\½£ÏÀÇéÔµ·¡.spr	0
+60	1	86400	0	0	#KiÕm HiÖp T×nh Duyªn III	#Ho¹t ®éng ®¹i héi vâ l©m Kim S¬n, nÕu ng­¬i tæ ®éi víi 3 ng­êi ch¬i cã danh hiÖu game kh¸c nhau, cã thÓ gÆp Tiªn Nh©n Vâ L©m ®èi tho¹i vµ nhËn ®­îc phÇn th­ëng hËu hÜ.	spr\Ui4\³ÆºÅ\Í¼Æ¬\½£ÏÀÇéÔµÈş.spr	0
+61	1	86400	0	0	#Ph¶n Khñng Hµnh §éng	#Ho¹t ®éng ®¹i héi vâ l©m Kim S¬n, nÕu ng­¬i tæ ®éi víi 3 ng­êi ch¬i cã danh hiÖu game kh¸c nhau, cã thÓ gÆp Tiªn Nh©n Vâ L©m ®èi tho¹i vµ nhËn ®­îc phÇn th­ëng hËu hÜ.	spr\Ui4\³ÆºÅ\Í¼Æ¬\·´¿ÖĞĞ¶¯.spr	0
+62	1	86400	0	0	#§¹i héi Vâ L©m title	#§¹i héi Vâ L©m Kim S¬n title	spr\Ui4\³ÆºÅ\Í¼Æ¬\ÎäÁÖ´ó»átitle.spr	0
+63	1	86400	0	0	#ThÊt TŞch Tµi Tö	#Tham gia ho¹t ®éng ThÊt TŞch, cïng ng­êi yªu nhËn biÓu t­îng T©m H÷u Linh Tª.	spr\Ui4\³ÆºÅ\Í¼Æ¬\ÆßÏ¦²Å×Ó.spr	0
+64	1	86400	0	0	#ThÊt TŞch Giai Nh©n	#Tham gia ho¹t ®éng ThÊt TŞch, cïng ng­êi yªu nhËn biÓu t­îng T©m H÷u Linh Tª.	spr\Ui4\³ÆºÅ\Í¼Æ¬\ÆßÏ¦¼ÑÈË.spr	0
+65	1	0	0	0	#§¹p B×nh ThËp TuyÖt	#Tiªn phong ®¹i ph¸ qu©n Th­¬ng, dòng c¶m san b»ng ThËp TuyÖt trËn.	spr\Ui4\³ÆºÅ\Í¼Æ¬\Ì¤Æ½Ê®¾ø.spr	0
+66	1	86400	0	0	#Vui vÎ gióp ng­êi	#TiÕt mü n÷ trë thµnh tiªu ®iÓm chó ı, lµ ®èi t­îng nhiÒu mü n÷ muèn hÑn hß, ®­îc mäi ng­êi khen ngîi.	spr\Ui4\³ÆºÅ\Í¼Æ¬\ÀÖÓÚÖúÈË.spr	0
+67	1	86400	0	0	#C«ng chİnh liªm minh	#TiÕt mü n÷ trë thµnh tiªu ®iÓm chó ı, lµ ®èi t­îng nhiÒu mü n÷ muèn hÑn hß, ®­îc mäi ng­êi khen ngîi.	spr\Ui4\³ÆºÅ\Í¼Æ¬\´ó¹«ÎŞË½.spr	0
+68	1	86400	0	0	#Ng­êi ng­êi ng­ìng mé	#TiÕt mü n÷ trë thµnh tiªu ®iÓm chó ı, lµ ®èi t­îng nhiÒu mü n÷ muèn hÑn hß, ®­îc mäi ng­êi khen ngîi.	spr\Ui4\³ÆºÅ\Í¼Æ¬\ÍòÈË¾°Ñö.spr	0
+69	1	86400	0	0	#Duy Ng¶ §éc T«n	#PhÇn th­ëng danh hiÖu cña ho¹t ®éng VIP quay vÒ. (H¹n sö dông 1 n¨m) 	spr\Ui4\³ÆºÅ\Í¼Æ¬\Î¨ÎÒ¶À×ğ.spr	0
+70	1	86400	0	0	#Uy ChÊn Th­¬ng Khung	#PhÇn th­ëng danh hiÖu cña ho¹t ®éng VIP quay vÒ. (H¹n sö dông 1 n¨m) 	spr\Ui4\³ÆºÅ\Í¼Æ¬\ÍşÕğ²Ôñ·.spr	0
+71	1	86400	0	0	#SÊt Tr¸ Phong V©n 	#PhÇn th­ëng danh hiÖu cña ho¹t ®éng VIP quay vÒ. (H¹n sö dông 1 n¨m) 	spr\Ui4\³ÆºÅ\Í¼Æ¬\ß³ßå·çÔÆ.spr	0
+72	1	864000	0	0	#¤ng giµ Noel	#Danh hiÖu ¤ng giµ Noel ban tÆng!	spr\Ui4\³ÆºÅ\Í¼Æ¬\Ê¥µ®´ïÈË.spr	0
+73	1	86400	0	0	# Th©n Tho¹i TuyÖt Kü	# Th©n Tho¹i TuyÖt Kü	spr\Ui4\³ÆºÅ\Í¼Æ¬\ÍòÏÉ³ÆºÅ2.spr	0
+74	1	86400	0	0	# Th©n Tho¹i TuyÖt Kü	# Th©n Tho¹i TuyÖt Kü	spr\Ui4\³ÆºÅ\Í¼Æ¬\ÍòÏÉ³ÆºÅ2.spr	0
+75	1	86400	0	0	# NghÜa B¹c V©n Thiªn	# NghÜa B¹c V©n Thiªn	spr\Ui4\³ÆºÅ\Í¼Æ¬\ÍòÏÉ³ÆºÅ3.spr	0
+76	1	86400	0	0	# NghÜa B¹c V©n Thiªn	# NghÜa B¹c V©n Thiªn	spr\Ui4\³ÆºÅ\Í¼Æ¬\ÍòÏÉ³ÆºÅ3.spr	0
+77	1	86400	0	0	# NghÜa B¹c V©n Thiªn	# NghÜa B¹c V©n Thiªn	spr\Ui4\³ÆºÅ\Í¼Æ¬\ÍòÏÉ³ÆºÅ3.spr	0
+78	1	86400	0	0	# Vâ Häc C¸i ThÕ	# Vâ Häc C¸i ThÕ	spr\Ui4\³ÆºÅ\Í¼Æ¬\ÍòÏÉ³ÆºÅ4.spr	0
+79	1	86400	0	0	# Vâ Häc C¸i ThÕ	# Vâ Häc C¸i ThÕ	spr\Ui4\³ÆºÅ\Í¼Æ¬\ÍòÏÉ³ÆºÅ4.spr	0
+80	1	86400	0	0	# Vâ Häc C¸i ThÕ	# Vâ Häc C¸i ThÕ	spr\Ui4\³ÆºÅ\Í¼Æ¬\ÍòÏÉ³ÆºÅ4.spr	0
+81	2	0	0	0	#Qu¸n Qu©n QuÇn Anh Héi	#XuÊt s¾c ®¹t h¹ng nhÊt QuÇn Anh Héi. L­u danh sö s¸ch!	#Qu¸n Qu©n QuÇn Anh Héi	0
+82	2	0	0	0	#H¹ng Hai QuÇn Anh Héi	#XuÊt s¾c ®¹t h¹ng hai QuÇn Anh Héi. L­u danh sö s¸ch!	#H¹ng Hai QuÇn Anh Héi	0
+83	2	0	0	0	#H¹ng Ba QuÇn Anh Héi	#XuÊt s¾c ®¹t h¹ng ba QuÇn Anh Héi. L­u danh sö s¸ch!	#H¹ng Ba QuÇn Anh Héi	0
+84	2	0	0	0	#H¹ng T­ QuÇn Anh Héi	#XuÊt s¾c ®¹t h¹ng t­ QuÇn Anh Héi. L­u danh sö s¸ch!	#H¹ng T­ QuÇn Anh Héi	0
+85	2	0	0	0	#N÷ V­¬ng Phong ThÇn	#§­îc b×nh chän ®¹t h¹ng 1 N÷ V­¬ng Phong ThÇn	#N÷ V­¬ng Phong ThÇn	0
+86	2	0	0	0	#Mü N÷ Phong ThÇn	#§­îc b×nh chän Top 10 N÷ V­¬ng Phong ThÇn	#Mü N÷ Phong ThÇn	0
+87	2	86400	0	0	#Phµm Nh©n TiÒn Kú 1	#Phµm Nh©n TiÒn Kú 1	#Phµm Nh©n TiÒn Kú 1	0
+88	2	86400	0	0	#Phµm Nh©n TiÒn Kú 2	#Phµm Nh©n TiÒn Kú 2	#Phµm Nh©n TiÒn Kú 2	0
+89	2	86400	0	0	#Phµm Nh©n TiÒn Kú 3	#Phµm Nh©n TiÒn Kú 3	#Phµm Nh©n TiÒn Kú 3	0
+90	2	86400	0	0	#Phµm Nh©n TiÒn Kú 4	#Phµm Nh©n TiÒn Kú 4	#Phµm Nh©n TiÒn Kú 4	0
+91	2	86400	0	0	#Phµm Nh©n Trung Kú 1	#Phµm Nh©n Trung Kú 1	#Phµm Nh©n Trung Kú 1	0
+92	2	86400	0	0	#Phµm Nh©n Trung Kú 2	#Phµm Nh©n Trung Kú 2	#Phµm Nh©n Trung Kú 2	0
+93	2	86400	0	0	#Phµm Nh©n Trung Kú 3	#Phµm Nh©n Trung Kú 3	#Phµm Nh©n Trung Kú 3	0
+94	2	86400	0	0	#Phµm Nh©n Trung Kú 4	#Phµm Nh©n Trung Kú 4	#Phµm Nh©n Trung Kú 4	0
+95	2	86400	0	0	#Phµm Nh©n HËu Kú 1	#Phµm Nh©n HËu Kú 1	#Phµm Nh©n HËu Kú 1	0
+96	2	86400	0	0	#Phµm Nh©n HËu Kú 2	#Phµm Nh©n HËu Kú 2	#Phµm Nh©n HËu Kú 2	0
+97	2	86400	0	0	#Phµm Nh©n HËu Kú 3	#Phµm Nh©n HËu Kú 3	#Phµm Nh©n HËu Kú 3	0
+98	2	86400	0	0	#Phµm Nh©n HËu Kú 4	#Phµm Nh©n HËu Kú 4	#Phµm Nh©n HËu Kú 4	0
+99	2	86400	0	0	#Phµm Nh©n Viªn M·n 1	#Phµm Nh©n Viªn M·n 1	#Phµm Nh©n Viªn M·n 1	0
+100	2	86400	0	0	#Phµm Nh©n Viªn M·n 2	#Phµm Nh©n Viªn M·n 2	#Phµm Nh©n Viªn M·n 2	0
+101	2	86400	0	0	#Phµm Nh©n Viªn M·n 3	#Phµm Nh©n Viªn M·n 3	#Phµm Nh©n Viªn M·n 3	0
+102	2	0	0	0	#Phµm Nh©n Viªn M·n 4	#Phµm Nh©n Viªn M·n 4	#Phµm Nh©n Viªn M·n 4	0
+103	1	0	0	0	#Vâ Häc C¸i ThÕ	#Tam Giíi §Ö NhÊt Nh©n	spr\Ui4\³ÆºÅ\Í¼Æ¬\ÈË¼ûÈË°®.spr	0
+104	2	86400	0	0	#LuyÖn Khİ TiÒn Kú 1	#LuyÖn Khİ TiÒn Kú 1	#LuyÖn Khİ TiÒn Kú 1	0
+105	2	86400	0	0	#LuyÖn Khİ TiÒn Kú 2	#LuyÖn Khİ TiÒn Kú 2	#LuyÖn Khİ TiÒn Kú 2	0
+106	2	86400	0	0	#LuyÖn Khİ TiÒn Kú 3	#LuyÖn Khİ TiÒn Kú 3	#LuyÖn Khİ TiÒn Kú 3	0
+107	2	86400	0	0	#LuyÖn Khİ TiÒn Kú 4	#LuyÖn Khİ TiÒn Kú 4	#LuyÖn Khİ TiÒn Kú 4	0
+108	2	86400	0	0	#LuyÖn Khİ Trung Kú 1	#LuyÖn Khİ Trung Kú 1	#LuyÖn Khİ Trung Kú 1	0
+109	2	86400	0	0	#LuyÖn Khİ Trung Kú 2	#LuyÖn Khİ Trung Kú 2	#LuyÖn Khİ Trung Kú 2	0
+110	2	86400	0	0	#LuyÖn Khİ Trung Kú 3	#LuyÖn Khİ Trung Kú 3	#LuyÖn Khİ Trung Kú 3	0
+111	2	86400	0	0	#LuyÖn Khİ Trung Kú 4	#LuyÖn Khİ Trung Kú 4	#LuyÖn Khİ Trung Kú 4	0
+112	2	86400	0	0	#LuyÖn Khİ HËu Kú 1	#LuyÖn Khİ HËu Kú 1	#LuyÖn Khİ HËu Kú 1	0
+113	2	86400	0	0	#LuyÖn Khİ HËu Kú 2	#LuyÖn Khİ HËu Kú 2	#LuyÖn Khİ HËu Kú 2	0
+114	2	86400	0	0	#LuyÖn Khİ HËu Kú 3	#LuyÖn Khİ HËu Kú 3	#LuyÖn Khİ HËu Kú 3	0
+115	2	86400	0	0	#LuyÖn Khİ HËu Kú 4	#LuyÖn Khİ HËu Kú 4	#LuyÖn Khİ HËu Kú 4	0
+116	2	86400	0	0	#LuyÖn Khİ Viªn M·n 1	#LuyÖn Khİ Viªn M·n 1	#LuyÖn Khİ Viªn M·n 1	0
+117	2	86400	0	0	#LuyÖn Khİ Viªn M·n 2	#LuyÖn Khİ Viªn M·n 2	#LuyÖn Khİ Viªn M·n 2	0
+118	2	86400	0	0	#LuyÖn Khİ Viªn M·n 3	#LuyÖn Khİ Viªn M·n 3	#LuyÖn Khİ Viªn M·n 3	0
+119	2	0	0	0	#LuyÖn Khİ Viªn M·n 4	#LuyÖn Khİ Viªn M·n 4	#LuyÖn Khİ Viªn M·n 4	0
+120	2	86400	0	0	#Tróc C¬ TiÒn Kú 1	#Tróc C¬ TiÒn Kú 1	#Tróc C¬ TiÒn Kú 1	0
+121	2	86400	0	0	#Tróc C¬ TiÒn Kú 2	#Tróc C¬ TiÒn Kú 2	#Tróc C¬ TiÒn Kú 2	0
+122	2	86400	0	0	#Tróc C¬ TiÒn Kú 3	#Tróc C¬ TiÒn Kú 3	#Tróc C¬ TiÒn Kú 3	0
+123	2	86400	0	0	#Tróc C¬ TiÒn Kú 4	#Tróc C¬ TiÒn Kú 4	#Tróc C¬ TiÒn Kú 4	0
+124	2	86400	0	0	#Tróc C¬ Trung Kú 1	#Tróc C¬ Trung Kú 1	#Tróc C¬ Trung Kú 1	0
+125	2	86400	0	0	#Tróc C¬ Trung Kú 2	#Tróc C¬ Trung Kú 2	#Tróc C¬ Trung Kú 2	0
+126	2	86400	0	0	#Tróc C¬ Trung Kú 3	#Tróc C¬ Trung Kú 3	#Tróc C¬ Trung Kú 3	0
+127	2	86400	0	0	#Tróc C¬ Trung Kú 4	#Tróc C¬ Trung Kú 4	#Tróc C¬ Trung Kú 4	0
+128	2	86400	0	0	#Tróc C¬ HËu Kú 1	#Tróc C¬ HËu Kú 1	#Tróc C¬ HËu Kú 1	0
+129	2	86400	0	0	#Tróc C¬ HËu Kú 2	#Tróc C¬ HËu Kú 2	#Tróc C¬ HËu Kú 2	0
+130	2	86400	0	0	#Tróc C¬ HËu Kú 3	#Tróc C¬ HËu Kú 3	#Tróc C¬ HËu Kú 3	0
+131	2	86400	0	0	#Tróc C¬ HËu Kú 4	#Tróc C¬ HËu Kú 4	#Tróc C¬ HËu Kú 4	0
+132	2	86400	0	0	#Tróc C¬ Viªn M·n 1	#Tróc C¬ Viªn M·n 1	#Tróc C¬ Viªn M·n 1	0
+133	2	86400	0	0	#Tróc C¬ Viªn M·n 2	#Tróc C¬ Viªn M·n 2	#Tróc C¬ Viªn M·n 2	0
+134	2	86400	0	0	#Tróc C¬ Viªn M·n 3	#Tróc C¬ Viªn M·n 3	#Tróc C¬ Viªn M·n 3	0
+135	2	0	0	0	#Tróc C¬ Viªn M·n 4	#Tróc C¬ Viªn M·n 4	#Tróc C¬ Viªn M·n 4	0
+136	1	86400	0	0	# Gia Häc Uyªn Nguyªn	# Gia Häc Uyªn Nguyªn	spr\Ui4\³ÆºÅ\Í¼Æ¬\ÍòÏÉ³ÆºÅ1.spr	0
+137	1	86400	0	0	# Gia Häc Uyªn Nguyªn	# Gia Häc Uyªn Nguyªn	spr\Ui4\³ÆºÅ\Í¼Æ¬\ÍòÏÉ³ÆºÅ1.spr	0
+138	1	86400	0	0	# Gia Häc Uyªn Nguyªn	# Gia Häc Uyªn Nguyªn	spr\Ui4\³ÆºÅ\Í¼Æ¬\ÍòÏÉ³ÆºÅ1.spr	0
+139	1	86400	0	0	# Th©n Tho¹i TuyÖt Kü	# Th©n Tho¹i TuyÖt Kü	spr\Ui4\³ÆºÅ\Í¼Æ¬\ÍòÏÉ³ÆºÅ2.spr	0
+140	1	0	0	0	#Th¸i S¬n B¾c §Èu	#Th¸i S¬n B¾c §Èu	spr\title\vng\thaisonbacdau.spr	0
+141	1	0	0	0	#B¸t M¹ch Ch©n Kinh	#B¸t M¹ch Ch©n Kinh	spr\title\vng\bat_mach_chan_kinh.spr	0
+142	1	86400	0	0	#abc	#abc	spr\title\vng\quan_quan_cuu_thap_tran.spr	0
+143	1	86400	0	0	#abc	#abc	spr\title\vng\a_quan_cuu_thap_tran.spr	0
+144	1	86400	0	0	#abc	#abc	spr\title\vng\hang_ba_cuu_thap_tran.spr	0
+145	1	86400	0	0	#abc	#abc	spr\title\vng\de_nhat_chien_doi.spr	0
+146	1	86400	0	0	#abc	#abc	spr\title\vng\de_nhat_nhan_toc.spr	0
+147	1	86400	0	0	#abc	#abc	spr\title\vng\de_nhat_vu_toc.spr	0
+148	1	86400	0	0	#abc	#abc	spr\title\vng\de_nhat_yeu_toc.spr	0
+149	1	86400	0	0	#abc	#abc	spr\title\vng\de_nhat_dung_si.spr	0
+150	1	86400	0	0	#abc	#abc	spr\title\vng\de_nhat_lanh_dia.spr	0
+151	1	0	0	0	#abc	#abc	spr\title\vng\de_nhat_tam_gioi.spr	0
+152	1	86400	0	0	#abc	#abc	spr\title\vng\nha_thong_thai.spr	0
+153	1	86400	0	0	#abc	#abc	spr\title\vng\quan_quan_ngu_tuyet_than_quan_3.spr	0
+154	1	86400	0	0	#abc	#abc	spr\title\vng\a_quan_ngu_tuyet_than_quan_3.spr	0
+155	1	86400	0	0	#abc	#abc	spr\title\vng\quy_quan_ngu_tuyet_than_quan_3.spr	0
+156	1	86400	0	0	#abc	#abc	spr\title\vng\giang_linh_thuat_tang_1.spr	0
+157	1	86400	0	0	#abc	#abc	spr\title\vng\quan_quan_qah_9.spr	0
+158	1	86400	0	0	#abc	#abc	spr\title\vng\a_quan_qah_9.spr	0
+159	1	0	0	0	#abc	#abc	spr\title\vng\thien_ha_vo_song.spr	0
+160	1	0	0	0	#abc	#abc	spr\title\vng\than_vuong.spr	0
+161	1	86400	0	0	#abc	#abc	spr\title\vng\vua_banh_keo.spr	0
+162	1	86400	0	0	#abc	#abc	spr\title\vng\quan_quan_thien_dia_nhan_2016.spr	0
+163	1	86400	0	0	#abc	#abc	spr\title\vng\a_quan_thien_dia_nhan_2016.spr	0
+164	1	86400	0	0	#abc	#abc	spr\title\vng\hang_ba_thien_dia_nhan_2016.spr	0
+165	1	36000	0	0	#abc	#abc	spr\title\vng\vip_phong_than.spr	0
+166	1	0	0	0	#abc	#abc	spr\title\vng\giang_linh_thuat_tang_2.spr	0
+167	1	86400	0	0	#abc	#abc	spr\title\vng\van_menh_nhan.spr	0
+168	1	86400	0	0	#abc	#abc	spr\title\vng\nha_tien_tri.spr	0
+169	1	86400	0	0	#abc	#abc	spr\title\vng\nha_thong_thai_2.spr	0
+170	1	0	0	0	#abc	#abc	spr\title\vng\nguyen_anh_chan_nhan.spr	0
+171	1	86400	0	0	#abc	#abc	spr\title\vng\hop_qua_de_nhat.spr	0
+172	1	86400	0	0	#abc	#abc	spr\title\vng\quan_quan_ngu_tuyet_than_quan_4.spr	0
+173	1	86400	0	0	#abc	#abc	spr\title\vng\a_quan_ngu_tuyet_than_quan_4.spr	0
+174	1	86400	0	0	#abc	#abc	spr\title\vng\hang_ba_ngu_tuyet_than_quan_4.spr	0
+175	1	86400	0	0	#abc	#abc	spr\title\vng\quan_quan_qah_10.spr	0
+176	1	86400	0	0	#abc	#abc	spr\title\vng\a_quan_qah_10.spr	0
+177	1	86400	0	0	#Qu¸n Qu©n TDN 2	#XuÊt s¾c ®¹t h¹ng nhÊt Thiªn §Şa Nh©n 2	spr\title\vng\quan_quan_tdn2017.spr	0
+178	1	86400	0	0	#¸ Qu©n TDN 2	#XuÊt s¾c ®¹t h¹ng nh× Thiªn §Şa Nh©n 2	spr\title\vng\a_quan_tdn2017.spr	0
+179	1	86400	0	0	#H¹ng 3 TDN 2	#XuÊt s¾c ®¹t h¹ng ba Thiªn §Şa Nh©n 22	spr\title\vng\hang3_tdn2017.spr	0
+180	1	0	0	0	#GLTT3	#LuyÖn Thµnh GLT TÇng 3	spr\title\vng\giang_linh_thuat_tang_ba.spr	0
+181	1	0	0	0	#Gi¸ng Linh Siªu CÊp	#Gi¸ng Linh Siªu CÊp	spr\title\vng\giang_linh_sieu_cap.spr	0
+182	1	86400	0	0	#Qu¸n Qu©n NTTQ5	#Qu¸n Qu©n NTTQ5	spr\title\vng\quan_quan_nttq5.spr	0
+183	1	86400	0	0	#¸ Qu©n NTTQ5	#¸ Qu©n NTTQ5	spr\title\vng\a_quan_nttq5.spr	0
+184	1	86400	0	0	#H¹ng 3 NTTQ5	#H¹ng 3 NTTQ5	spr\title\vng\hang3_nttq5.spr	0
+185	1	86400	0	0	#Qu¸n Qu©n QAH11	#Qu¸n Qu©n QAH11	spr\title\vng\hang_1_qah11.spr	0
+186	1	86400	0	0	#¸ Qu©n QAH11	#¸ Qu©n QAH11	spr\title\vng\hang_2_qah11.spr	0
+187	1	86400	0	0	#H¹ng 3 QAH11	#H¹ng 3 QAH11	spr\title\vng\hang_3_qah11.spr	0
+188	1	86400	0	0	#U23 VN V« §Şch	#U23 VN V« §Şch	spr\title\vng\viet_nam_quyet_thang.spr	0
+189	1	86400	0	0	#Cöu Ngò Chİ T«n	#Cöu Ngò Chİ T«n	spr\title\vng\cuu_ngu_chi_ton.spr	0
+190	1	86400	0	0	#§Ö NhÊt Phong ThÇn	#§Ö NhÊt Phong ThÇn	spr\title\vng\de_nhat_phong_than.spr	0
+191	1	86400	0	0	#Vip Siªu 2018	#Vip Siªu 2018	spr\title\vng\vip_sieu_fs_2018.spr	0
+192	1	86400	0	0	#Vip 2018	#Vip 2018	spr\title\vng\vip_fs_2018.spr	0
+193	1	86400	0	0	#Siªu Sao S©n Cá	#Siªu Sao S©n Cá	spr\title\vng\sieu_sao_san_co.spr	0
+194	1	86400	0	0	#Thî S¨n Kho B¸u	#Thî S¨n Kho B¸u	spr\title\vng\tho_san_kho_bau.spr	0
+195	1	86400	0	0	#Qu¸n Qu©n TDN3	#Qu¸n Qu©n TDN3	spr\title\vng\tdn3_quan_quan.spr	0
+196	1	86400	0	0	#¸ Qu©n TDN3	#¸ Qu©n TDN3	spr\title\vng\tdn3_a_quan.spr	0
+197	1	86400	0	0	#H¹ng 3 TDN3	#H¹ng 3 TDN3	spr\title\vng\tdn3_hang_3.spr	0
+198	1	86400	0	0	#Mü Nh©n	#Mü Nh©n	spr\title\vng\danh_hieu_my_nhan.spr	0
+199	1	86400	0	0	#U23 VN V« §Şch	#U23 VN V« §Şch	spr\title\vng\danh_hieu_u23_2.spr	0
+200	1	86400	0	0	#Top 1 Tiªu Diªu Cung	#Top 1 Tiªu Diªu Cung	spr\title\vng\top_1_tieu_dieu_cung.spr	0
+201	1	86400	0	0	#Qu¸n Qu©n NTTQ6	#Qu¸n Qu©n NTTQ6	spr\title\vng\danh_hieu_quan_quan_nttq6.spr	0
+202	1	86400	0	0	#¸ Qu©n NTTQ6	#¸ Qu©n NTTQ6	spr\title\vng\danh_hieu_a_quan_nttq6.spr	0
+203	1	86400	0	0	#Top 2 Tiªu Diªu Cung	#Top 2 Tiªu Diªu Cung	spr\title\vng\danh_hieu_top2_tdc.spr	0
+204	1	86400	0	0	#Top 1 Bİch Du Cung	#Top 1 Bİch Du Cung	spr\title\vng\danh_hieu_top1_bdc.spr	0
+205	1	86400	0	0	#Top 2 Bİch Du Cung	#Top 2 Bİch Du Cung	spr\title\vng\danh_hieu_top2_bdc.spr	0
+206	1	86400	0	0	#Top 3 Bİch Du Cung	#Top 3 Bİch Du Cung	spr\title\vng\danh_hieu_top3_bdc.spr	0
+207	1	86400	0	0	#Phong ThÇn DiÔn NghÜa	#Phong ThÇn DiÔn NghÜa	spr\title\vng\phong_than_dien_nghia_do.spr	0
+208	1	86400	0	0	#Phong ThÇn DiÔn NghÜa	#Phong ThÇn DiÔn NghÜa	spr\title\vng\phong_than_dien_nghia_xanh.spr	0
+209	1	86400	0	0	#Qu¸n Qu©n QAH12	#Qu¸n Qu©n QAH12	spr\title\vng\quan_quan_qah12.spr	0
+210	1	86400	0	0	#¸ Qu©n QAH12	#¸ Qu©n QAH12	spr\title\vng\a_quan_qah12.spr	0
+211	1	86400	0	0	#§¹i Sø C«ng Lùc	#§¹i Sø C«ng Lùc	spr\title\vng\dai_su_cong_luc.spr	0
+212	1	86400	0	0	#§¹i Sø Bang Héi	#§¹i Sø Bang Héi	spr\title\vng\dai_su_bang_hoi.spr	0
+213	1	86400	0	0	#§¹i Sø N¹p ThÎ	#§¹i Sø N¹p ThÎ	spr\title\vng\dai_su_nap_the.spr	0
+214	1	86400	0	0	#§¹i Sø Cèng HiÕn	#§¹i Sø Cèng HiÕn	spr\title\vng\dai_su_cong_hien.spr	0
+215	1	60	0	0	#Qu¸n Qu©n TDN4	#Qu¸n Qu©n TDN4	spr\title\vng\quan_quan_tdn4.spr	0
+216	1	60	0	0	#¸ Qu©n TDN4	#¸ Qu©n TDN4	spr\title\vng\a_quan_tdn4.spr	0
+217	1	60	0	0	#H¹ng 3 TDN4	#H¹ng 3 TDN4	spr\title\vng\hang3_tdn4.spr	0
+218	1	86400	0	0	#Qu¸n Qu©n NTTQ7	#Qu¸n Qu©n NTTQ7	spr\title\vng\danh_hieu_quan_quan_nttq7.spr	0
+219	1	86400	0	0	#¸ Qu©n NTTQ7	#¸ Qu©n NTTQ7	spr\title\vng\danh_hieu_a_quan_nttq7.spr	0
+220	1	86400	0	0	#L­ìng Cùc Tam Giíi	#L­ìng Cùc Tam Giíi	spr\title\vng\danh_hieu_luong_cuc_tam_gioi.spr	0
+221	1	86400	0	0	#H¹ng 3 NTTQ7	#H¹ng 3 NTTQ7	spr\title\vng\danh_hieu_hang_3_nttq7.spr	0
+222	1	0	0	0	#Hãa ThÇn Ch©n Nh©n	#Hãa ThÇn Ch©n Nh©n	spr\title\vng\fs_danh_hieu_hoa_than.spr	0
+223	1	0	0	0	#NhÊt KiÕp T¸n Tiªn	#NhÊt KiÕp T¸n Tiªn	spr\title\vng\fs_nhat_kiep_tan_nien.spr	0
+224	1	0	0	0	#ThÊt KiÕp T¸n Tiªn	#ThÊt KiÕp T¸n Tiªn	spr\title\vng\fs_that_kiep_tan_tien.spr	0
+225	1	86400	0	0	#Qu¸n Qu©n QAH13	#Qu¸n Qu©n QAH13	spr\title\vng\fs_danh_hieu_quan_quan_qah13.spr	0
+226	1	86400	0	0	#¸ Qu©n QAH13	#¸ Qu©n QAH13	spr\title\vng\fs_danh_hieu_a_quan_qah13.spr	0
+227	1	86400	0	0	#H¹ng 3 QAH13	#H¹ng 3 QAH13	spr\title\vng\fs_danh_hieu_hang_3_qah13.spr	0
+228	1	86400	0	0	#Oai Phong LÉm LiÖt	#Oai Phong LÉm LiÖt	spr\title\vng\fs_danh_hieu_oai_phong_lam_liet.spr	0
+229	1	86400	0	0	#An Khang ThŞnh V­îng	#An Khang ThŞnh V­îng	spr\title\vng\fs_danh_hieu_an_khang_thinh_vuong.spr	0
+230	1	86400	0	0	#V¹n Sù Nh­ ı	#V¹n Sù Nh­ ı	spr\title\vng\fs_danh_hieu_van_su_nhu_y.spr	0
+231	1	86400	0	0	#Duy Ng· §éc T«n	#Duy Ng· §éc T«n	spr\title\vng\fs_danh_hieu_duy_nga_doc_ton.spr	0
+232	1	86400	0	0	#Tang Kh«ng Linh	#Tang Kh«ng Linh	spr\title\vng\fs_danh_hieu_tang_khong_linh.spr	0
+233	1	86400	0	0	#Top 1 V­¬ng B¸o §iÖn	#Top 1 V­¬ng B¸o §iÖn	spr\title\vng\fs_top_1_vuong_bao_dien.spr	0
+234	1	86400	0	0	#Top 2 V­¬ng B¸o §iÖn	#Top 2 V­¬ng B¸o §iÖn	spr\title\vng\fs_top_2_vuong_bao_dien.spr	0
+235	1	86400	0	0	#Top 3 V­¬ng B¸o §iÖn	#Top 3 V­¬ng B¸o §iÖn	spr\title\vng\fs_top_3_vuong_bao_dien.spr	0
+236	1	86400	0	0	#Top 1 B¨ng Xuyªn §iÖn	#Top 1 B¨ng Xuyªn §iÖn	spr\title\vng\fs_top_1_bang_xuyen_dien.spr	0
+237	1	86400	0	0	#Top 2 B¨ng Xuyªn §iÖn	#Top 2 B¨ng Xuyªn §iÖn	spr\title\vng\fs_top_2_bang_xuyen_dien.spr	0
+238	1	86400	0	0	#Top 3 B¨ng Xuyªn §iÖn	#Top 3 B¨ng Xuyªn §iÖn	spr\title\vng\fs_top_3_bang_xuyen_dien.spr	0
+239	1	86400	0	0	#L­ìng Cùc Tam Giíi	#L­ìng Cùc Tam Giíi	spr\title\vng\danh_hieu_luong_cuc_tam_gioi.spr	0
+240	1	86400	0	0	#Tang Kh«ng Linh	#Tang Kh«ng Linh	spr\title\vng\fs_danh_hieu_tang_khong_linh.spr	0
+241	1	86400	0	0	#Qu¸n Qu©n TDN5	#Qu¸n Qu©n TDN5	spr\title\vng\fs_quan_quan_tdn_5.spr	0
+242	1	86400	0	0	#¸ Qu©n TDN5	#¸ Qu©n TDN5	spr\title\vng\fs_a_quan_tdn_5.spr	0
+243	1	86400	0	0	#§Ö NhŞ Nguyªn Anh	#§Ö NhŞ Nguyªn Anh	spr\title\vng\fs_danh_hieu_nguyen_anh_de_nhi.spr	0
+244	1	86400	0	0	#Qu¸n Qu©n NTTQ8	#Qu¸n Qu©n NTTQ8	spr\title\vng\fs_danh_hieu_quan_quan_nttq_8.spr	0
+245	1	86400	0	0	#¸ Qu©n NTTQ8	#¸ Qu©n NTTQ8	spr\title\vng\fs_danh_hieu_a_quan_nttq_8.spr	0
+246	1	86400	0	0	#H¹ng 3 NTTQ8	#H¹ng 3 NTTQ8	spr\title\vng\fs_danh_hieu_hang_3_nttq_8.spr	0
+247	1	86400	0	0	#Qu¸n Qu©n QAH14	#Qu¸n Qu©n QAH14	spr\title\vng\fs_danh_hieu_quan_quan_qah14.spr	0
+248	1	86400	0	0	#¸ Qu©n QAH14	#¸ Qu©n QAH14	spr\title\vng\fs_danh_hieu_a_quan_qah14.spr	0
+249	1	86400	0	0	#H¹ng 3 QAH14	#H¹ng 3 QAH14	spr\title\vng\fs_danh_hieu_hang_3_qah14.spr	0
+250	1	86400	0	0	#2021	#2021	spr\title\vng\fs_danh_hieu_2021.spr	0
+251	1	86400	0	0	#Hïng B¸ Mét Ph­¬ng	#Hïng B¸ Mét Ph­¬ng	spr\title\vng\fs_danh_hieu_hung_ba_1_phuong.spr	0
+252	1	86400	0	0	#Sø Gi¶ Phong ThÇn	#Sø Gi¶ Phong ThÇn	spr\title\vng\fs_danh_hieu_su_gia_phong_than.spr	0
+253	1	86400	0	0	#§Ö NhÊt Tam Giíi	#§Ö NhÊt Tam Giíi	spr\title\vng\fs_danh_hieu_de_nhat_tam_gioi.spr	0
+254	1	86400	0	0	#Top 1 Th¸i D­¬ng Cung	#Top 1 Th¸i D­¬ng Cung	spr\title\vng\fs_danh_hieu_TOP_1_thai_duong_cung.spr	0
+255	1	86400	0	0	#Top 2 Th¸i D­¬ng Cung	#Top 2 Th¸i D­¬ng Cung	spr\title\vng\fs_danh_hieu_TOP_2_thai_duong_cung.spr	0
+256	1	86400	0	0	#Top 3 Th¸i D­¬ng Cung	#Top 3 Th¸i D­¬ng Cung	spr\title\vng\fs_danh_hieu_TOP_3_thai_duong_cung.spr	0
+257	1	86400	0	0	#Mü N÷ Phong ThÇn	#Mü N÷ Phong ThÇn	spr\title\vng\fs_danh_hieu_my_nu_phong_than.spr	0
+258	1	86400	0	0	#Qu¸n Qu©n TDN6	#Qu¸n Qu©n TDN6	spr\title\vng\fs_danh_hieu_quan_quan_tdn6.spr	0
+259	1	86400	0	0	#¸ Qu©n TDN6	#¸ Qu©n TDN6	spr\title\vng\fs_danh_hieu_a_quan_tdn6.spr	0
+260	1	86400	0	0	#Qu¸n Qu©n NTTQ9	#Qu¸n Qu©n NTTQ9	spr\title\vng\fs_danh_hieu_quan_quan_nttq9.spr	0
+261	1	86400	0	0	#¸ Qu©n NTTQ9	#¸ Qu©n NTTQ9	spr\title\vng\fs_danh_hieu_a_quan_nttq9.spr	0
+262	1	86400	0	0	#H¹ng 3 NTTQ9	#H¹ng 3 NTTQ9	spr\title\vng\fs_danh_hieu_hang_3_nttq9.spr	0
+263	1	0	0	0	#GLTT4	#LuyÖn Thµnh GLT TÇng 4	spr\title\vng\giang_linh_thuat_tang_4.spr	0
+264	1	0	0	0	#Gi¸ng Linh Siªu CÊp	#Gi¸ng Linh Siªu CÊp	spr\title\vng\fs_danh_hieu_giang_linh_sieu_cap.spr	0
+265	1	86400	0	0	#Qu¸n Qu©n QAH15	#Qu¸n Qu©n QAH15	spr\title\vng\fs_danh_hieu_quanquan_qah15.spr	0
+266	1	86400	0	0	#¸ Qu©n QAH15	#¸ Qu©n QAH15	spr\title\vng\fs_danh_hieu_aquan_qah15.spr	0
+267	1	86400	0	0	#H¹ng 3 QAH15	#H¹ng 3 QAH15	spr\title\vng\fs_danh_hieu_hang3_qah15.spr	0
+268	1	86400	0	0	#Top 1 Sù KiÖn 2021	#Top 1 Sù KiÖn 2021	spr\title\vng\fs_danh_hieu_top1_su_kien.spr	0
+269	1	86400	0	0	#Top 1 C«ng Lùc 2021	#Top 1 C«ng Lùc 2021	spr\title\vng\fs_danh_hieu_top1_cong_luc.spr	0
+270	1	86400	0	0	#Top 1 §Êu Gi¸ 2021	#Top 1 §Êu Gi¸ 2021	spr\title\vng\fs_danh_hieu_top1_dau_gia.spr	0
+271	1	86400	0	0	#Top 1 N¹p ThÎ 2021	#Top 1 N¹p ThÎ 2021	spr\title\vng\fs_danh_hieu_top1_nap_the.spr	0
+272	1	86400	0	0	#Top 2 Sù KiÖn 2021	#Top 2 Sù KiÖn 2021	spr\title\vng\fs_danh_hieu_top2_su_kien.spr	0
+273	1	86400	0	0	#Top 2 C«ng Lùc 2021	#Top 2 C«ng Lùc 2021	spr\title\vng\fs_danh_hieu_top2_cong_luc.spr	0
+274	1	86400	0	0	#Top 2 §Êu Gi¸ 2021	#Top 2 §Êu Gi¸ 2021	spr\title\vng\fs_danh_hieu_top2_dau_gia.spr	0
+275	1	86400	0	0	#Top 2 N¹p ThÎ 2021	#Top 2 N¹p ThÎ 2021	spr\title\vng\fs_danh_hieu_top2_nap_the.spr	0
+276	1	86400	0	0	#Top Cèng HiÕn 2021	#Top Cèng HiÕn 2021	spr\title\vng\fs_danh_hieu_top_1_cong_hien.spr	0
+277	1	86400	0	0	#Top ¶nh H­ëng 2021	#Top ¶nh H­ëng 2021	spr\title\vng\fs_danh_hieu_top_1_anh_huong.spr	0
+278	1	86400	0	0	#§¹i Sø Phong ThÇn 2021	#§¹i Sø Phong ThÇn 2021	spr\title\vng\fs_danh_hieu_dai_su_phong_than.spr	0
+279	1	86400	0	0	#Sø Gi¶ Phong ThÇn 2021	#Sø Gi¶ Phong ThÇn 2021	spr\title\vng\fs_danh_hieu_su_gia_phong_than.spr	0
+280	1	86400	0	0	#An Khang ThŞnh V­îng	#An Khang ThŞnh V­îng	spr\title\vng\fs_danh_hieu_an_khang_thinh_vuong.spr	0
+281	1	86400	0	0	#V¹n Sù Nh­ ı	#V¹n Sù Nh­ ı	spr\title\vng\fs_danh_hieu_van_su_nhu_y.spr	0
+282	1	86400	0	0	#Chóc Mõng N¨m Míi	#Chóc Mõng N¨m Míi	spr\title\vng\fs_danh_hieu_chuc_mung_nam_moi.spr	0
+283	1	86400	0	0	#L·nh Chóa Phong ThÇn 2021	#L·nh Chóa Phong ThÇn 2021	spr\title\vng\fs_danh_hieu_lanh_chua.spr	0
+284	1	86400	0	0	#Bæ Chİnh Phong ThÇn 2021	#Bæ Chİnh Phong ThÇn 2021	spr\title\vng\fs_danh_hieu_bo_chinh.spr	0
+285	1	86400	0	0	#§¹i ThÇn Phong ThÇn 2021	#§¹i ThÇn Phong ThÇn 2021	spr\title\vng\fs_danh_hieu_dai_than.spr	0
+286	1	86400	0	0	#Top 1 Kim Quang §iÖn	#Top 1 Kim Quang §iÖn	spr\title\vng\fs_danh_hieu_top_1_kim_quang_dien.spr	0
+287	1	86400	0	0	#Top 2 Kim Quang §iÖn	#Top 2 Kim Quang §iÖn	spr\title\vng\fs_danh_hieu_top_2_kim_quang_dien.spr	0
+288	1	86400	0	0	#Top 3 Kim Quang §iÖn	#Top 3 Kim Quang §iÖn	spr\title\vng\fs_danh_hieu_top_3_kim_quang_dien.spr	0
+289	1	86400	0	0	#Uy Danh Hïng Hån	#Uy Danh Hïng Hån	spr\title\vng\fs_danh_hieu_uy_danh_hung_hon.spr	0
+290	1	86400	0	0	#Duy Ng· §éc T«n	#Duy Ng· §éc T«n	spr\title\vng\fs_duy_nga_doc_ton_bach_chien.spr	0
+291	1	86400	0	0	#X­ng B¸ Tam Giíi	#X­ng B¸ Tam Giíi	spr\title\vng\fs_danh_hieu_xung_ba_tam_gioi.spr	0
+292	1	86400	0	0	#HuyÒn Tho¹i Tam Giíi	#HuyÒn Tho¹i Tam Giíi	spr\title\vng\fs_danh_hieu_huyen_thoai_tam_gioi.spr	0
+293	1	86400	0	0	#Qu¸n Qu©n TDN7	#Qu¸n Qu©n TDN7	spr\title\vng\fs_danh_hieu_quan_quan_tdn_7.spr	0
+294	1	86400	0	0	#¸ Qu©n TDN7	#¸ Qu©n TDN7	spr\title\vng\fs_danh_hieu_a_quan_tdn_7.spr	0
+295	1	86400	0	0	#Top 1 Chİ ¢m §iÖn	#Top 1 Chİ ¢m §iÖn	spr\title\vng\fs_danh_hieu_top_1_chi_am_dien.spr	0
+296	1	86400	0	0	#Top 2 Chİ ¢m §iÖn	#Top 2 Chİ ¢m §iÖn	spr\title\vng\fs_danh_hieu_top_2_chi_am_dien.spr	0
+297	1	86400	0	0	#Top 3 Chİ ¢m §iÖn	#Top 3 Chİ ¢m §iÖn	spr\title\vng\fs_danh_hieu_top_3_chi_am_dien.spr	0
+298	1	86400	0	0	#Qu¸n Qu©n NTTQ10	#Qu¸n Qu©n NTTQ10	spr\title\vng\fs_danh_hieu_quan_quan_nttq_10.spr	0
+299	1	86400	0	0	#¸ Qu©n NTTQ10	#¸ Qu©n NTTQ10	spr\title\vng\fs_danh_hieu_a_quan_nttq_10.spr	0
+300	1	86400	0	0	#Uy Danh Hïng Hån	#Uy Danh Hïng Hån	spr\title\vng\fs_danh_hieu_uy_danh_hung_hon.spr	0
+301	1	86400	0	0	#§Ö NhÊt Lôc L©m	#§Ö NhÊt Lôc L©m	spr\title\vng\fs_de_nhat_dao_tac.spr	0
+302	1	86400	0	0	#§Ö NhŞ Lôc L©m	#§Ö NhŞ Lôc L©m	spr\title\vng\fs_de_nhi_dao_tac.spr	0
+303	1	86400	0	0	#§Ö Tam Lôc L©m	#§Ö Tam Lôc L©m	spr\title\vng\fs_de_tam_dao_tac.spr	0
+304	1	0	0	0	#B¸t KiÕp T¸n Tiªn	#B¸t KiÕp T¸n Tiªn	spr\title\vng\fs_danh_hieu_bat_kiep_tan_tien.spr	0
+305	1	0	0	0	#NhŞ KiÕp T¸n Tiªn	#NhŞ KiÕp T¸n Tiªn	spr\title\vng\fs_danh_hieu_nhi_kiep_tan_tien.spr	0
+306	1	86400	0	0	#B¸ch ChiÕn V­¬ng T«n	#B¸ch ChiÕn V­¬ng T«n	spr\title\vng\fs_danh_hieu_bach_chien_vuong_ton.spr	0
+307	1	86400	0	0	#Qu¸n Qu©n QAH16	#Qu¸n Qu©n QAH16	spr\title\vng\fs_danh_hieu_quan_quan_qah16.spr	0
+308	1	86400	0	0	#¸ Qu©n QAH16	#¸ Qu©n QAH16	spr\title\vng\fs_danh_hieu_a_quan_qah16.spr	0
+309	1	86400	0	0	#H¹ng 3 QAH16	#H¹ng 3 QAH16	spr\title\vng\fs_danh_hieu_hang_3_qah16.spr	0
+310	1	86400	0	0	#§¹i Sø Phong ThÇn 2023	#§¹i Sø Phong ThÇn 2023	spr\title\vng\fs_danh_hieu_dai_su_phong_than_2023.spr	0
+311	1	86400	0	0	#Sø Gi¶ Phong ThÇn 2023	#Sø Gi¶ Phong ThÇn 2023	spr\title\vng\fs_danh_hieu_su_gia_phong_than_2023.spr	0
+312	1	86400	0	0	#Fan Cøng Phong ThÇn 2023	#Fan Cøng Phong ThÇn 2023	spr\title\vng\fs_danh_hieu_fan_cung_phong_than_2023.spr	0
+313	1	86400	0	0	#HËu DuÖ Xi V­u	#HËu DuÖ Xi V­u	spr\title\vng\fs_danh_hieu_hau_due_xi_vuu.spr	0
+314	1	86400	0	0	#HËu DuÖ ThÇn N«ng	#HËu DuÖ ThÇn N«ng	spr\title\vng\fs_danh_hieu_hau_due_than_nong.spr	0
+315	1	86400	0	0	#HËu DuÖ Hiªn Viªn	#HËu DuÖ Hiªn Viªn	spr\title\vng\fs_danh_hieu_hau_due_hien_vien.spr	0
+316	1	86400	0	0	#N÷ V­¬ng Phong ThÇn	#N÷ V­¬ng Phong ThÇn	spr\title\vng\fs_danh_hieu_nu_vuong_fs.spr	0
+317	1	86400	0	0	#Qu¸n Qu©n TDN8	#Qu¸n Qu©n TDN8	spr\title\vng\fs_danh_hieu_quan_quan_tdn_8.spr	0
+318	1	86400	0	0	#¸ Qu©n TDN8	#¸ Qu©n TDN8	spr\title\vng\fs_danh_hieu_a_quan_tdn_8.spr	0
+319	1	86400	0	0	#Top 1 ThuÇn D­¬ng Cung	#Top 1 ThuÇn D­¬ng Cung	spr\title\vng\fs_danh_hieu_top_1_thuan_duong_cung.spr	0
+320	1	86400	0	0	#Top 2 ThuÇn D­¬ng Cung	#Top 2 ThuÇn D­¬ng Cung	spr\title\vng\fs_danh_hieu_top_2_thuan_duong_cung.spr	0
+321	1	86400	0	0	#Top 3 ThuÇn D­¬ng Cung	#Top 3 ThuÇn D­¬ng Cung	spr\title\vng\fs_danh_hieu_top_3_thuan_duong_cung.spr	0
+322	1	86400	0	0	#Tr¨m N¨m H¹nh Phóc	#Tr¨m N¨m H¹nh Phóc	spr\title\vng\fs_danh_hieu_hop_qua_hy_su.spr	0
+323	1	86400	0	0	#§éc T«n Tam Giíi	#§éc T«n Tam Giíi	spr\title\vng\fs_danh_hieu_doc_ton_tam_gioi.spr	0
+324	1	86400	0	0	#Qu¸n Qu©n NTTQ11	#Qu¸n Qu©n NTTQ11	spr\title\vng\fs_danh_hieu_quan_quan_nttq11.spr	0
+325	1	86400	0	0	#¸ Qu©n NTTQ11	#¸ Qu©n NTTQ11	spr\title\vng\fs_danh_hieu_a_quan_nttq11.spr	0
+326	1	86400	0	0	#§Ö NhÊt XTT	#§Ö NhÊt XTT	spr\title\vng\fs_danh_hieu_de_nhat_xich_tung_tu.spr	0
+327	1	86400	0	0	#Ph¸ Gi¸p Thiªn H¹	#Ph¸ Gi¸p Thiªn H¹	spr\title\vng\fs_danh_hieu_phagiapthienha.spr	0
+328	1	86400	0	0	#Anh Hïng Hµo KiÖt	#Anh Hïng Hµo KiÖt	spr\title\vng\fs_danh_hieu_anhhunghaokiet.spr	0
+329	1	0	0	0	#QuÇn Anh Tô Héi	#QuÇn Anh Tô Héi	spr\title\vng\fs_danh_hieu_quananhtuhoi.spr	0
+330	1	86400	0	0	#Thèng So¸i Tam Giíi	#Thèng So¸i Tam Giíi	spr\title\vng\fs_danh_hieu_thongsoaitamgioi.spr	0
+331	1	86400	0	0	#Tù Do Tù T¹i	#Tù Do Tù T¹i	spr\title\vng\fs_danh_hieu_tudotutai.spr	0
+332	1	86400	0	0	#Uy ChÊn Tø Ph­¬ng	#Uy ChÊn Tø Ph­¬ng	spr\title\vng\fs_danh_hieu_uychantuphuong.spr	0
+333	1	86400	0	0	#ViÖt Nam V« §Şch	#ViÖt Nam V« §Şch	spr\title\vng\fs_danh_hieu_uychantuphuong.spr	0
+334	1	86400	0	0	#Qu¸n Qu©n QAH17	#Qu¸n Qu©n QAH17	spr\title\vng\fs_danh_hieu_quan_quan_anh_hoi_17.spr	0
+335	1	86400	0	0	#¸ Qu©n QAH17	#¸ Qu©n QAH17	spr\title\vng\fs_danh_hieu_a_quan_anh_hoi_17.spr	0
+336	1	86400	0	0	#An Khang ThŞnh V­îng 2024	#An Khang ThŞnh V­îng 2024	spr\title\vng\fs_danh_hieu_an_khang_thinh_vuong_2024.spr	0
+337	1	86400	0	0	#Chóc Mõng N¨m Míi 2024	#Chóc Mõng N¨m Míi 2024	spr\title\vng\fs_danh_hieu_chuc_mung_nam_moi_2024.spr	0
+338	1	86400	0	0	#Nh­ ı Ph¸t Tµi 2024	#Nh­ ı Ph¸t Tµi 2024	spr\title\vng\fs_danh_hieu_nhu_y_phat_tai_2024.spr	0
+339	1	86400	0	0	#Top 1 §Êu Gi¸ 2023	#Top 1 §Êu Gi¸ 2023	spr\title\vng\fs_danh_hieu_top_1_dau_gia_2024.spr	0
+340	1	86400	0	0	#Top 2 §Êu Gi¸ 2023	#Top 2 §Êu Gi¸ 2023	spr\title\vng\fs_danh_hieu_top_2_dau_gia_2024.spr	0
+341	1	86400	0	0	#Top 1 §Êu Gi¸ Hoµn Tr¶ 2023	#Top 1 §Êu Gi¸ Hoµn Tr¶ 2023	spr\title\vng\fs_danh_hieu_top_1_dau_gia_hoan_tra_2024.spr	0
+342	1	86400	0	0	#Top 2 §Êu Gi¸ Hoµn Tr¶ 2023	#Top 2 §Êu Gi¸ Hoµn Tr¶ 2023	spr\title\vng\fs_danh_hieu_top_2_dau_gia_hoan_tra_2024.spr	0
+343	1	86400	0	0	#Top 1 Sù KiÖn 2023	#Top 1 Sù KiÖn 2023	spr\title\vng\fs_danh_hieu_top_1_su_kien_2024.spr	0
+344	1	86400	0	0	#Top 2 Sù KiÖn 2023	#Top 2 Sù KiÖn 2023	spr\title\vng\fs_danh_hieu_top_2_su_kien_2024.spr	0
+345	1	86400	0	0	#Top 1 N¹p ThÎ 2023	#Top 1 N¹p ThÎ 2023	spr\title\vng\fs_danh_hieu_top_1_nap_the_2024.spr	0
+346	1	86400	0	0	#Top 2 N¹p ThÎ 2023	#Top 2 N¹p ThÎ 2023	spr\title\vng\fs_danh_hieu_top_2_nap_the_2024.spr	0
+347	1	86400	0	0	#Vui Cïng Euro 2024	#Vui Cïng Euro 2024	spr\title\vng\fs_danh_hieu_vui_cung_euro.spr	0
+348	1	86400	0	0	#Qu¸n Qu©n TDN9	#Qu¸n Qu©n TDN9	spr\title\vng\fs_danh_hieu_quan_quan_tdn_9.spr	0
+349	1	86400	0	0	#¸ Qu©n TDN9	#¸ Qu©n TDN9	spr\title\vng\fs_danh_hieu_a_quan_tdn_9.spr	0
+350	1	86400	0	0	#Bu«n May B¸n §¾t	#Bu«n May B¸n §¾t	spr\title\vng\fs_danh_hieu_mua_may_ban_dat.spr	0
+351	1	86400	0	0	#§¸nh §©u Th¾ng §ã	#§¸nh §©u Th¾ng §ã	spr\title\vng\fs_danh_hieu_danh_dau_thang_do.spr	0
+352	1	86400	0	0	#Bao §á Bao Th¬m	#Bao §á Bao Th¬m	spr\title\vng\fs_danh_hieu_bao_do_bao_thom.spr	0
+353	1	86400	0	0	#§i Mét VÒ M­êi	#§i Mét VÒ M­êi	spr\title\vng\fs_danh_hieu_di_1_ve_10.spr	0
+354	1	86400	0	0	#Tr¨m TrËn Tr¨m Th¾ng	#Tr¨m TrËn Tr¨m Th¾ng	spr\title\vng\fs_danh_hieu_tram_tran_tram_thang.spr	0
+355	1	86400	0	0	#Ngµy Siªu Rùc Rì	#Ngµy Siªu Rùc Rì	spr\title\vng\fs_danh_hieu_ngay_sieu_ruc_ro.spr	0
+356	1	86400	0	0	#Vui Cïng Olympic	#Vui Cïng Olympic	spr\title\vng\fs_danh_hieu_olympic.spr	0
+357	1	86400	0	0	#§¹i Sø Phong ThÇn 2024	#§¹i Sø Phong ThÇn 2024	spr\Ui4\³ÆºÅ\Í¼Æ¬\dai_su_phong_than_2024.spr	0
+358	1	86400	0	0	#Tri ¢n Phong ThÇn 2024	#Tri ¢n Phong ThÇn 2024	spr\Ui4\³ÆºÅ\Í¼Æ¬\tri_an_phong_than_2024.spr	0
+359	1	86400	0	0	#Vinh Dù Phong ThÇn 2024	#Vinh Dù Phong ThÇn 2024	spr\Ui4\³ÆºÅ\Í¼Æ¬\vinh_du_phong_than_2024.spr	0
+360	1	86400	0	0	#§Ö NhÊt Phó Hµo 2024	#§Ö NhÊt Phó Hµo 2024	spr\Ui4\³ÆºÅ\Í¼Æ¬\de_nhat_phu_hao_2024.spr	0
+361	1	86400	0	0	#§Ö NhŞ Phó Hµo 2024	#§Ö NhŞ Phó Hµo 2024	spr\Ui4\³ÆºÅ\Í¼Æ¬\de_nhi_phu_hao_2024.spr	0
+362	1	86400	0	0	#§Ö NhÊt §Êu Gi¸ S­ 2024	#§Ö NhÊt §Êu Gi¸ S­ 2024	spr\Ui4\³ÆºÅ\Í¼Æ¬\de_nhat_dau_gia_su_2024.spr	0
+363	1	86400	0	0	#§Ö NhŞ §Êu Gi¸ S­ 2024	#§Ö NhŞ §Êu Gi¸ S­ 2024	spr\Ui4\³ÆºÅ\Í¼Æ¬\de_nhi_dau_gia_su_2024.spr	0
+364	1	86400	0	0	#§Ö NhÊt §Êu Gi¸ Hoµn Tr¶	#§Ö NhÊt §Êu Gi¸ Hoµn Tr¶ 2024	spr\Ui4\³ÆºÅ\Í¼Æ¬\de_nhat_dau_gia_hoan_tra_2024.spr	0
+365	1	86400	0	0	#§Ö NhŞ §Êu Gi¸ Hoµn Tr¶	#§Ö NhŞ §Êu Gi¸ Hoµn Tr¶ 2024	spr\Ui4\³ÆºÅ\Í¼Æ¬\de_nhi_dau_gia_hoan_tra_2024.spr	0
+366	1	86400	0	0	#§Ö NhÊt Th­¬ng Nh©n 2024	#§Ö NhÊt Th­¬ng Nh©n 2024	spr\Ui4\³ÆºÅ\Í¼Æ¬\de_nhat_thuong_nhan_2024.spr	0
+367	1	86400	0	0	#§Ö NhŞ Th­¬ng Nh©n 2024	#§Ö NhŞ Th­¬ng Nh©n 2024	spr\Ui4\³ÆºÅ\Í¼Æ¬\de_nhi_thuong_nhan_2024.spr	0
+368	1	86400	0	0	#¸ Qu©n 12 ThÇn Qu©n 1	#¸ Qu©n ThËp NhŞ ThÇn Qu©n 1	spr\Ui4\³ÆºÅ\Í¼Æ¬\quan_quan_thap_nhi_than_quan_1.spr	0
+369	1	86400	0	0	#Qu¸n Qu©n 12 ThÇn Qu©n 1	#Qu¸n Qu©n ThËp NhŞ ThÇn Qu©n 1	spr\Ui4\³ÆºÅ\Í¼Æ¬\a_quan_thap_nhi_than_quan_1.spr	0
+370	1	86400	0	0	#¸ Qu©n QAH 18	#¸ Qu©n QuÇn Anh Héi 18	spr\Ui4\³ÆºÅ\Í¼Æ¬\quan_quan_qah_18.spr	0
+371	1	86400	0	0	#Qu¸n Qu©n QAH 18	#Qu¸n Qu©n QuÇn Anh Héi 18	spr\Ui4\³ÆºÅ\Í¼Æ¬\a_quan_qah_18.spr	0
+372	1	86400	0	0	#An Khang ThŞnh V­îng 2025	#An Khang ThŞnh V­îng 2025	spr\title\vng\fs_danh_hieu_an_khang_thinh_vuong_2025.spr	0
+373	1	86400	0	0	#Chóc Mõng N¨m Míi 2025	#Chóc Mõng N¨m Míi 2025	spr\title\vng\fs_danh_hieu_chuc_mung_nam_moi_2025.spr	0
+374	1	86400	0	0	#Fan Cøng PT 2025	#Fan Cøng PT 2025	spr\title\vng\fs_danh_hieu_fan_cung_phong_than.spr	0
+375	1	86400	0	0	#Tµi Léc Dåi Dµo 2025	#Tµi Léc Dåi Dµo 2025	spr\title\vng\fs_danh_hieu_tai_loc_doi_dao_2025.spr	0
+376	1	86400	0	0	#V¹n Sù Nh­ ı 2025	#V¹n Sù Nh­ ı 2025	spr\title\vng\fs_danh_hieu_van_su_nhu_y_2025.spr	0
+377	1	86400	0	0	#Thiªn H¹ V« Song	#Thiªn H¹ V« Song	spr\title\vng\thien_ha_vo_song_ptc.spr	0
+378	1	86400	0	0	#Uy ChÊn Tø H¶i	#Uy ChÊn Tø H¶i	spr\title\vng\uy_chan_tu_hai_ptc.spr	0
+379	1	86400	0	0	#Th¸i S¬n B¾c §Èu	#Th¸i S¬n B¾c §Èu	spr\title\vng\thai_son_bac_dau_ptc.spr	0
+380	1	86400	0	0	#Hïng B¸ Mét Ph­¬ng	#Hïng B¸ Mét Ph­¬ng	spr\title\vng\hung_ba_mot_phuong_ptc.spr	0
+381	1	86400	0	0	#Giang Hå Hµo HiÖp	#Giang Hå Hµo HiÖp	spr\title\vng\giang_ho_hao_hiep_ptc.spr	0
+382	1	86400	0	0	#Gi¸ng Linh Siªu CÊp CS8	#Gi¸ng Linh Siªu CÊp CS8	spr\title\vng\fs_danh_hieu_gl_sieu_cap.spr	0
+383	1	86400	0	0	#Gi¸ng Linh ThuËt T5	#Gi¸ng Linh ThuËt T5	spr\title\vng\fs_danh_hieu_gl_t5.spr	0
+384	1	86400	0	0	#§Ö NhÊt Kú L©n Cung	#§Ö NhÊt Kú L©n Cung	spr\title\vng\de_nhat_ky_lan_cung.spr	0
+385	1	86400	0	0	#§Ö NhŞ Kú L©n Cung	#§Ö NhŞ Kú L©n Cung	spr\title\vng\de_nhi_ky_lan_cung.spr	0
+386	1	86400	0	0	#Qu¸n Qu©n Thiªn §Şa Nh©n 10	#Qu¸n Qu©n Thiªn §Şa Nh©n 10	spr\title\vng\quan_quan_thien_dia_nhan_10.spr	0
+387	1	86400	0	0	#¸ Qu©n Thiªn §Şa Nh©n 10	#¸ Qu©n Thiªn §Şa Nh©n 10	spr\title\vng\a_quan_thien_dia_nhan_10.spr	0
+388	1	86400	0	0	#Qu¸n Qu©n QAH 19	#Qu¸n Qu©n QAH 19	spr\title\vng\quan_quan_qah19.spr	0
+389	1	86400	0	0	#¸ Qu©n QAH 19	#¸ Qu©n QAH 19	spr\title\vng\a_quan_qah19.spr	0
+390	1	86400	0	0	#¸ Qu©n 12 ThÇn Qu©n 2	#¸ Qu©n 12 ThÇn Qu©n 2	spr\title\vng\a_quan_thap_nhi_than_quan_2.spr	0
+391	1	86400	0	0	#Qu¸n Qu©n 12 ThÇn Qu©n 2	#Qu¸n Qu©n 12 ThÇn Qu©n 2	spr\title\vng\quan_quan_thap_nhi_than_quan_2.spr	0
+392	1	86400	0	0	#Top 1 Na Tra	#Top 1 Na Tra	spr\title\vng\top_1_natra.spr	0
+393	1	86400	0	0	#Top 2 Na Tra	#Top 2 Na Tra	spr\title\vng\top_2_natra.spr	0
+394	1	86400	0	0	#Top 3 Na Tra	#Top 3 Na Tra	spr\title\vng\top_3_natra.spr	0
+395	1	86400	0	0	#§¹i Sø Phong ThÇn 2025	#§¹i Sø Phong ThÇn 2025	spr\title\vng\dai_su_phong_than_2025.spr	0
+396	1	86400	0	0	#Tri ¢n Phong ThÇn 2025	#Tri ¢n Phong ThÇn 2025	spr\title\vng\tri_an_phong_than_2025.spr	0
+397	1	86400	0	0	#Vinh Dù Phong ThÇn 2025	#Vinh Dù Phong ThÇn 2025	spr\title\vng\vinh_du_phong_than_2025.spr	0
+398	1	86400	0	0	#§Ö NhÊt Phó Hµo 2025	#§Ö NhÊt Phó Hµo 2025	spr\title\vng\de_nhat_phu_hao_2025.spr	0
+399	1	86400	0	0	#§Ö NhŞ Phó Hµo 2025	#§Ö NhŞ Phó Hµo 2025	spr\title\vng\de_nhi_phu_hao_2025.spr	0
+400	1	86400	0	0	#§Ö NhÊt §Êu Gi¸ S­ 2025	#§Ö NhÊt §Êu Gi¸ S­ 2025	spr\title\vng\de_nhat_dau_gia_su_2025.spr	0
+401	1	86400	0	0	#§Ö NhŞ §Êu Gi¸ S­ 2025	#§Ö NhŞ §Êu Gi¸ S­ 2025	spr\title\vng\de_nhi_dau_gia_su_2025.spr	0
+402	1	86400	0	0	#§Ö NhÊt §Êu Gi¸ Hoµn Tr¶ 2025	#§Ö NhÊt §Êu Gi¸ Hoµn Tr¶ 2025	spr\title\vng\de_nhat_dau_hoan_tra_2025.spr	0
+403	1	86400	0	0	#§Ö NhŞ §Êu Gi¸ Hoµn Tr¶ 2025	#§Ö NhŞ §Êu Gi¸ Hoµn Tr¶ 2025	spr\title\vng\de_nhi_dau_hoan_tra_2025.spr	0
+404	1	86400	0	0	#§Ö NhÊt Th­¬ng Nh©n 2025	#§Ö NhÊt Th­¬ng Nh©n 2025	spr\title\vng\de_nhat_thuong_nhan_2025.spr	0
+405	1	86400	0	0	#§Ö NhŞ Th­¬ng Nh©n 2025	#§Ö NhŞ Th­¬ng Nh©n 2025	spr\title\vng\de_nhi_thuong_nhan_2025.spr	0
+406	1	86400	0	0	#Trung Thu §oµn Viªn	#Trung Thu §oµn Viªn	spr\title\vng\trung_thu_doan_vien.spr	0
+407	1	86400	0	0	#Hµo Khİ Non S«ng	#Hµo Khİ Non S«ng	spr\title\vng\danh_hieu_hao_khi_non_song.spr	0
+408	1	86400	0	0	#§Ö NhÊt Phong ThÇn 2026	#§Ö NhÊt Phong ThÇn 2026	spr\title\vng\danh_hieu_de_nhat_phong_than_2026.spr	0
+409	1	86400	0	0	#VIP §Ö NhÊt Phong ThÇn 2026	#VIP §Ö NhÊt Phong ThÇn 2026	spr\title\vng\danh_hieu_vip_de_nhat_phong_than_2026.spr	0
+410	1	86400	0	0	#Chóc Mõng N¨m Míi 2026	#Chóc Mõng N¨m Míi 2026	spr\title\vng\danh_hieu_chuc_mung_nam_moi.spr	0
+411	1	86400	0	0	#Qu¸n Qu©n Thiªn §Şa Nh©n 11	#Qu¸n Qu©n Thiªn §Şa Nh©n 11	spr\title\vng\fs_DH_QQ_TDN11.spr	0
+412	1	86400	0	0	#¸ Qu©n Thiªn §Şa Nh©n 11	#¸ Qu©n Thiªn §Şa Nh©n 11	spr\title\vng\fs_DH_AQ_TDN11.spr	0
+413	1	86400	0	0	#Qu¸n Qu©n QAH 20	#Qu¸n Qu©n QAH 20	spr\title\vng\fs_DH_QQ_QAH20.spr	0
+414	1	86400	0	0	#¸ Qu©n QAH 20	#¸ Qu©n QAH 20	spr\title\vng\fs_DH_AQ_QAH20.spr	0
+415	1	86400	0	0	#¸ Qu©n 12 ThÇn Qu©n 3	#¸ Qu©n 12 ThÇn Qu©n 3	spr\title\vng\fs_DH_AQ_TNTQ3.spr	0
+416	1	86400	0	0	#Qu¸n Qu©n 12 ThÇn Qu©n 3	#Qu¸n Qu©n 12 ThÇn Qu©n 3	spr\title\vng\fs_DH_QQ_TNTQ3.spr	0
+417	1	86400	0	0	#World Cup 2026	#World Cup 2026	spr\title\vng\fs_DH_WC2026.spr	0
+418	1	86400	0	0	#Ngù Thó Chİ T«n	#Ngù Thó Chİ T«n	spr\title\vng\fs_DH_NTCT.spr	0
+419	1	86400	0	0	#Nhµ Th«ng Th¸i Phong ThÇn	#Nhµ Th«ng Th¸i Phong ThÇn	spr\title\vng\fs_DH_NTTPT.spr	0
+420	1	86400	0	0	#Vò Sü XuÊt ThÕ	#Vò Sü XuÊt ThÕ	spr\title\vng\fs_DH_VSXT.spr	0

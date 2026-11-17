@@ -1,0 +1,599 @@
+{
+  "scope": "LOOSE_ONLY",
+  "reference": "https://tamgioipt.vn/van-tien-tran-tgpt",
+  "files": [
+    {
+      "path": "Server/settings/item/001/material.txt",
+      "sha256": "7bd50a47306cb3c47285ba8522f128ee63aaea487a73c6cdb865c054368bd8ba",
+      "before_sha256": "4f10c2586bab7a8352c829e9c74f261088489cdddfde89e281f51447f4492725"
+    },
+    {
+      "path": "Client/settings/item/001/material.txt",
+      "sha256": "7bd50a47306cb3c47285ba8522f128ee63aaea487a73c6cdb865c054368bd8ba",
+      "before_sha256": "4f10c2586bab7a8352c829e9c74f261088489cdddfde89e281f51447f4492725"
+    },
+    {
+      "path": "Server/EventService/events.json",
+      "sha256": "597ddba5fe8faf9cb92c2765d075f85fa7da605ad10aeca0864ac6f73573c233",
+      "before_sha256": "b28197da2640a56725de2f176f50458b1e2815356531d5a4d67afd5d9d834960"
+    },
+    {
+      "path": "Server/EventService/catalog.json",
+      "sha256": "096c6e410236c7f10ec13e6ad68d11fe76ed7db0634a845a3e856c44f36e697d",
+      "before_sha256": "02736b872940fe787713501b97c03e4c2e60ea96db16d10cab38361c84fbd926"
+    },
+    {
+      "path": "Server/settings/item/droprate/pt_tgpt_tongtian1.ini",
+      "sha256": "51f97a6b95e2a12dc4ac26eb2235920ed070767f8028c8257fab4c5ec023e6bb",
+      "before_sha256": null
+    },
+    {
+      "path": "Server/settings/item/droprate/pt_tgpt_baoxiang1.ini",
+      "sha256": "1aab79806402f7b9e9d23f59f3ee901263a05303b94ff38538e9554af829744f",
+      "before_sha256": null
+    },
+    {
+      "path": "Server/settings/item/droprate/pt_tgpt_tongtian2.ini",
+      "sha256": "2ec2ac0065430fb5c7d03c47c92150cd7e912f462c4d5a5604f8aaea09c798b8",
+      "before_sha256": null
+    },
+    {
+      "path": "Server/settings/item/droprate/pt_tgpt_baoxiang2.ini",
+      "sha256": "416892638a4163dd3abe7341f598d2a83100722dc01e8f1b2c3dc162d561b2b3",
+      "before_sha256": null
+    },
+    {
+      "path": "Server/settings/item/droprate/pt_tgpt_tongtian3.ini",
+      "sha256": "e041a4d19f45dcfe899c1ee56a5f57e308c8b2ac5e6346556846d5e5ad7bb5f5",
+      "before_sha256": null
+    },
+    {
+      "path": "Server/settings/item/droprate/pt_tgpt_baoxiang3.ini",
+      "sha256": "d78c0332c2e9e9dd7e0a59634e9b142345376a17055a6c235ecaad35e5acec24",
+      "before_sha256": null
+    },
+    {
+      "path": "Server/settings/item/droprate/pt_tgpt_tongtian4.ini",
+      "sha256": "b2de9c63e61dfe5f1957ea8a3b663243859ff8dfc7f22c25d18f4b9061b581fc",
+      "before_sha256": null
+    },
+    {
+      "path": "Server/settings/item/droprate/pt_tgpt_baoxiang4.ini",
+      "sha256": "ac556c1cb4e35787c4d6cb0905e57ac2ce737ec50900ff737a2ef19e5c763aaa",
+      "before_sha256": null
+    },
+    {
+      "path": "Server/settings/phongthan/Npcs.txt",
+      "sha256": "3181e8b49b663ce778a333dc203a072a71aa9abb9ff65f07fc553e853aaf9eed",
+      "before_sha256": "143364bc4b4016390ee46f3f4a2477aebd7517317eddd4f1d802d178a5c6a29d"
+    },
+    {
+      "path": "Server/settings/phongthan/NativeDropQuarantine.txt",
+      "sha256": "341f60bf2456646361059c6b61aaae7139b0f82d207caaafacb3cb410dc22a42",
+      "before_sha256": "3d425c528bd7ca7ef926e90a105d7108348c2aca862e6cefcc6931e9ee00f9a6"
+    },
+    {
+      "path": "Server/settings/systemtimetask.txt",
+      "sha256": "15c81dd91a2460a47117831fd729dc09b03b4821ff1f5347904bea9ad791e74c",
+      "before_sha256": "db13255c4dc3f3546c39904f450f3d1f21c7da6ee6e81ee9e45d097ebb5be438"
+    },
+    {
+      "path": "Server/script/servertimer.lua",
+      "sha256": "0750d7a68c24bef4572bcb4dc3f6982d6f474cbeb71edc7cebcf8d317a54400c",
+      "before_sha256": "464df2f4518ff0eb6e09b1e89e5d838126b66c920dfc72d2c2c5c305d44a0297"
+    },
+    {
+      "path": "Server/script/phongthan/van_tien/boss1.lua",
+      "sha256": "10b3340963f6e8c8a1e981caf4609e7ad4494d0c8a55aba40cc4de8cf18b00e2",
+      "before_sha256": "94632f31c1644db9cc8bee088e6e0924bd8d9413a555d41152596798fe745ccf"
+    },
+    {
+      "path": "Server/script/phongthan/van_tien/guard1.lua",
+      "sha256": "9392074cbb11d8a8062b6a18555ceba55c6d54790e1797e2d9d6a762ae269155",
+      "before_sha256": "0fa6034f61c27c8bfcaddcce4999097e33960571e033c68067ef48621136fd18"
+    },
+    {
+      "path": "Server/script/phongthan/van_tien/boss2.lua",
+      "sha256": "9877d7b91b797cba27f9a7715012533efc71a11ccf95fb09ff4fba0c4be7d5f9",
+      "before_sha256": "a7225fb843f15b50d5d001769692d69c122231f5bcb7975932deec9f595b8484"
+    },
+    {
+      "path": "Server/script/phongthan/van_tien/guard2.lua",
+      "sha256": "8cc11bcde742cf4c012b3b1e5425d2999d8be1182cbfd37931e36ba76ab23a3a",
+      "before_sha256": "2bd3261506e2b1f52d4948331c41317a1eba78190b21760ab6d7d38f0214e49d"
+    },
+    {
+      "path": "Server/script/phongthan/van_tien/boss3.lua",
+      "sha256": "b7d757ba681603f6464fc0fdb9fe25c2cead85836b5e6fba964ea46c6c456b97",
+      "before_sha256": "7ff16abe827f715a727db18fb6bc310f367a03a0b8d5b7eb3260ff195179b9e6"
+    },
+    {
+      "path": "Server/script/phongthan/van_tien/guard3.lua",
+      "sha256": "43de9aef0d367285e26a40d67a313524fdddb7cad13ff273499afe279aa1a23a",
+      "before_sha256": "f3d5cb0378660c577f9e51d8074936f546527cab5d8645f5790dff261129051e"
+    },
+    {
+      "path": "Server/script/phongthan/van_tien/boss4.lua",
+      "sha256": "4f63dc582f5a6a98a2483d631ef6440c995b465876a1602362a93b460f62d8eb",
+      "before_sha256": "4782f7dd90e9ef648bc7e6e6a69bc2749d8bc62b14d02ff7b17f2474755be427"
+    },
+    {
+      "path": "Server/script/phongthan/van_tien/guard4.lua",
+      "sha256": "d43596b57bc7098e3d594aa6961ecbb88779e37171f88466a4ea3d4a9ccdd9b4",
+      "before_sha256": "22408102c770b7880e7bb3271161a111dc2c50ed8c55dcd98aae726069a538d6"
+    },
+    {
+      "path": "Server/script/phongthan/van_tien/pearl_chest.lua",
+      "sha256": "e5b8a0eeb40afa8a229298d9c9c2c244a11b680168b5dd4f51f177a1ae64c5d8",
+      "before_sha256": null
+    },
+    {
+      "path": "Server/script/phongthan/npc_recovered_batch/1021_b5deef29.lua",
+      "sha256": "2c2f74ce274e81efa66afd8c724ff423b649bbeb994c79537a54114d4d33dc4c",
+      "before_sha256": "2ea62b552fbd0e6a907748a12a3a9e3d52d0b3aa87909e61f665275c4cd8a1e7"
+    },
+    {
+      "path": "Server/script/phongthan/van_tien/thien_hung.lua",
+      "sha256": "2c2f74ce274e81efa66afd8c724ff423b649bbeb994c79537a54114d4d33dc4c",
+      "before_sha256": "03225843403b9e025f0a5a5759e78e3b122a1148c2dd37424da9e8f0977bf60f"
+    },
+    {
+      "path": "Server/script/phongthan/van_tien/doctor.lua",
+      "sha256": "f02b3c40021ed5a073191a521d0967fcc5ebc3de9cc240aa163e455cfada18b6",
+      "before_sha256": "7f299c02827084cba1056a5cff124fd1775f2bdd1489c1c582a86eda6e172c9c"
+    },
+    {
+      "path": "Server/script/phongthan/npc_services/xich_tung_tu.lua",
+      "sha256": "217d5bc07050304256aead1df1f7e38a18357225988516a983a2b175269aaa8b",
+      "before_sha256": "b413e88edcf48a0e277425b784c4f2265701b138f9bb548627b72517a4a1d3d6"
+    },
+    {
+      "path": "Server/script/phongthan/van_tien/ung_tiem_thuong.lua",
+      "sha256": "039a3a907848f58c21dbe85ecccdc96e060112b25d0d703be82775ce1bf544da",
+      "before_sha256": null
+    },
+    {
+      "path": "Server/settings/item/001/magicscript.txt",
+      "sha256": "5224dcba355c52a97fcc4c8bf307c6297dc833390b20683c34381ada4c95ca1b",
+      "before_sha256": "1330ef159509d1e75854e56216006546995a38b77fbb6e530b647f399cce3800"
+    },
+    {
+      "path": "Client/settings/item/001/magicscript.txt",
+      "sha256": "5224dcba355c52a97fcc4c8bf307c6297dc833390b20683c34381ada4c95ca1b",
+      "before_sha256": "1330ef159509d1e75854e56216006546995a38b77fbb6e530b647f399cce3800"
+    },
+    {
+      "path": "Server/settings/phongthan/npc_regions/1067/v_102/082_region_s.dat",
+      "sha256": "8002e541a878ee8dacbd50a64eb8cd94346159d784d3e5749507626ae82b4ddb",
+      "before_sha256": "234d53d6f379068f1f372f807286423ea4dfb3c5a8214b791e02d053d58c2597"
+    },
+    {
+      "path": "Server/settings/phongthan/npc_regions/1067/v_102/092_region_s.dat",
+      "sha256": "435e4d0201fe3f3e7162d84ac5917295028b633c36c0065f9de460b680537dc6",
+      "before_sha256": null
+    },
+    {
+      "path": "Server/settings/phongthan/npc_regions/1067/v_102/093_region_s.dat",
+      "sha256": "ff68b65f664f56466f4cff859cda96b33d74654473df3b27937ed47b99c9960a",
+      "before_sha256": null
+    },
+    {
+      "path": "Server/settings/phongthan/npc_regions/1004/v_101/096_npc_s.dat",
+      "sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "before_sha256": "d0d2a3c8d7fbeb261cc064ec479c2f0fb8d9cd81e011e659186eccd81b1a0107"
+    },
+    {
+      "path": "Server/settings/phongthan/npc_regions/1004/v_100/097_region_s.dat",
+      "sha256": "403b52dc600db7d9b420968815252e9365e668b79e2029f9999b06a30b349e6a",
+      "before_sha256": null
+    },
+    {
+      "path": "Server/settings/phongthan/npc_regions/1003/v_097/106_npc_s.dat",
+      "sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "before_sha256": "47d647133ca8903214aa899c3777ae98753a441abaca95bb17c3d2b6e84bf0e6"
+    },
+    {
+      "path": "Server/settings/phongthan/npc_regions/1003/v_096/106_region_s.dat",
+      "sha256": "95e45fff916946213ab3da916cf7310d1cfe90efa64a91cee8eca3b44166ae10",
+      "before_sha256": null
+    },
+    {
+      "path": "Server/settings/phongthan/npc_regions/1052/v_098/097_region_s.dat",
+      "sha256": "8c78df7f8fa67b3610275e99ebb3ea3bc083a55f597c4413ba51abc939b8e31a",
+      "before_sha256": null
+    },
+    {
+      "path": "Server/settings/phongthan/npc_regions/1052/v_097/097_region_s.dat",
+      "sha256": "31faf7fffd0593a7bed550c3795552ef9e082f85fb059664196c57fd8f8ce292",
+      "before_sha256": null
+    },
+    {
+      "path": "Server/settings/phongthan/npc_regions/1021/v_095/103_region_s.dat",
+      "sha256": "33282dec9fd59d36ef87882ba4a6b4f4b792e9809436981f58bfff238014ff31",
+      "before_sha256": null
+    },
+    {
+      "path": "Server/script/phongthan/van_tien/mob53.lua",
+      "sha256": "7e9d1413c268386aa1f1ac91eb470ded73595e5192d2008efc8b520160541002",
+      "before_sha256": "a60d00f1c98ea700fd72de487a8319d06729b27f1ba7b2a1258807e534b7db5c"
+    },
+    {
+      "path": "Server/script/phongthan/van_tien/mob54.lua",
+      "sha256": "30611f228302f569bed8ae6985f04b1d000ae98ae55bfb8c66c8323455339025",
+      "before_sha256": "c13b5b4254d4019ef6d3a14b4e3902e5197c7133f2b854a108bdde777afa7057"
+    },
+    {
+      "path": "Server/script/phongthan/npc_recovered_batch/1002_f57647b5.lua",
+      "sha256": "dba7b11486ddd5ba145165906cbf30ecadf0fa7ce4402de8dd01e12192c707fd",
+      "before_sha256": "b2d9a2610725a6b8d9f3236c78de7b2fe7bda9fdb90ea2595f43ca57ad7f425b"
+    },
+    {
+      "path": "Server/script/phongthan/van_tien/mission01.lua",
+      "sha256": "ce98db84ca8ab072732eaaa2c7d26f3c54cca128f6cd6e7d280f9f3acfb6162e",
+      "before_sha256": "52029a0ebead47bc0df6d6352810d83ebe62defd0aea4f61fdcf4cc8727c00a5"
+    },
+    {
+      "path": "Server/script/phongthan/van_tien/mob55.lua",
+      "sha256": "213bd0bbe415f24ca595456edf9b0cb3eb073a0bfded1b3243e896ee9c1775c4",
+      "before_sha256": "640c10bfe202e0624feae14be536a4a980bc1f38afc73af724ba11aa599372a7"
+    },
+    {
+      "path": "Server/script/phongthan/van_tien/mob56.lua",
+      "sha256": "74c6ceb9ae75dfbd24a5bd1b7368f60a54ce2ca02a67020f2a4eb9067ccfb0dc",
+      "before_sha256": "78eac1598302de1aa737773f28fb763fa3d94c76a4afcf34bed2e66bb339cd63"
+    },
+    {
+      "path": "Server/script/phongthan/npc_recovered_batch/1004_281c1583.lua",
+      "sha256": "d66928249e2174a71b7b8dc563014529f79b790a7b2b51c53d34997a25b1886d",
+      "before_sha256": "6fee4fd455e4dec8a958185e33459814eba89f8dd9305b765f12beabc36d6eaa"
+    },
+    {
+      "path": "Server/script/phongthan/van_tien/mission02.lua",
+      "sha256": "2cd312f2700d14084c78548fb028f05c42413e56dfb990056801a35781f3bc9b",
+      "before_sha256": "0010cbc5ad96bfa9df96f3ce3e552fc5d43b659c84d4244d367a043d18095101"
+    },
+    {
+      "path": "Server/script/phongthan/van_tien/mob57.lua",
+      "sha256": "a9cbd856becce1c1105e7585557aab768eb7ca64ec07a6f47fee6bd10b2c7c81",
+      "before_sha256": "63082f8bb4b3e9992e6bb11d34d3ef09eaf945dde42b7f216a15cc97cc9cdfd2"
+    },
+    {
+      "path": "Server/script/phongthan/van_tien/mob58.lua",
+      "sha256": "08d2830c06597cae5df42d41bcbe6d4f6213d6a0fab828e543b48d23d32ae358",
+      "before_sha256": "51b38cf6bfe7d0febe8a835ea01342627fef81e3d07af7dda9c29a4c44ae0091"
+    },
+    {
+      "path": "Server/script/phongthan/npc_recovered_batch/1003_479d2a84.lua",
+      "sha256": "e720e0715f032063ffe072f7d7576e80fa843536010b4e4fee92405b6431fc92",
+      "before_sha256": "63a5d9b1955663eaa083c2c7620d0e15c1dfda89f3ed0f9a091cdb518c3c8169"
+    },
+    {
+      "path": "Server/script/phongthan/van_tien/mission03.lua",
+      "sha256": "7ff7765bd9c2e4dfa361642c01a458e5cc13d01f73fa45966812bd586382e4a5",
+      "before_sha256": "34cb9f971dfaf9b05cb308022db297518c2a6de26ebc06b32b565be996bed0c3"
+    },
+    {
+      "path": "Server/script/phongthan/van_tien/mob59.lua",
+      "sha256": "c395148d3b4036949228281d01b20f436164fcdac594194ea92a0007ff7255d9",
+      "before_sha256": "1ef4d6a3c139b372c8f387fe48f33f85458a1d9cd6e29a6f5cbc4a8cc61aef7c"
+    },
+    {
+      "path": "Server/script/phongthan/van_tien/mob60.lua",
+      "sha256": "e812f296468a3cba14b7a4d256d48022e29e29914ca4cd2606528edcfdd54e7f",
+      "before_sha256": "3abb92ffb87d6ba50a4085aa54faa7e583c23cc34414b7b1174e48a93bf77826"
+    },
+    {
+      "path": "Server/script/phongthan/npc_recovered_batch/1001_41e3ecb2.lua",
+      "sha256": "d7d18f0f5bd54d37d0d304b09e7141941426210dd6e87484cdb516b9225792cc",
+      "before_sha256": "fbf73fa5f1b8c735e10f74ad3cda62ac2500e89b4e67731ef13314c068842dc7"
+    },
+    {
+      "path": "Server/script/phongthan/van_tien/mission04.lua",
+      "sha256": "0eea3ee9b1bbfd07ca935b8c301512b74d2a3b6c9edaf6cd0678ae053332a7a1",
+      "before_sha256": "da165d8250a7653eab468faa37e8606dbc0e934b1ccff20d9ce34836828cd5a6"
+    }
+  ],
+  "pearls": [
+    5743,
+    5744,
+    5745,
+    5746
+  ],
+  "weapons": [
+    [
+      {
+        "id": 4825,
+        "table": "meleeweapon",
+        "row": 44,
+        "genre": 0,
+        "detail": 0,
+        "part": 4,
+        "level": 5,
+        "profession": 0,
+        "tier": 50,
+        "realm": 0,
+        "slot": 0,
+        "quality": 4,
+        "recipe": 0,
+        "category": "weapon_gold",
+        "name": "Hàng Ma đao",
+        "name_hex": "48b56e67204d6120ae616f",
+        "polish_state": "",
+        "image": "\\spr\\pt_test\\9cdb71c7ec3d.spr",
+        "original_icon_hex": "5c7370725c6974656d5c77656170656e5cbdb5c4a7e8c62e737072",
+        "source_row": 45
+      },
+      {
+        "id": 4845,
+        "table": "meleeweapon",
+        "row": 64,
+        "genre": 0,
+        "detail": 0,
+        "part": 6,
+        "level": 5,
+        "profession": 1,
+        "tier": 50,
+        "realm": 0,
+        "slot": 0,
+        "quality": 4,
+        "recipe": 0,
+        "category": "weapon_gold",
+        "name": "Côn Ngô kiếm",
+        "name_hex": "43ab6e204e67ab206b69d56d",
+        "polish_state": "",
+        "image": "\\spr\\pt_test\\e2287ce12bdb.spr",
+        "original_icon_hex": "5c7370725c6974656d5c77656170656e5cc0a5cee1bda32e737072",
+        "source_row": 65
+      },
+      {
+        "id": 4855,
+        "table": "meleeweapon",
+        "row": 74,
+        "genre": 0,
+        "detail": 0,
+        "part": 7,
+        "level": 5,
+        "profession": 2,
+        "tier": 50,
+        "realm": 0,
+        "slot": 0,
+        "quality": 4,
+        "recipe": 0,
+        "category": "weapon_gold",
+        "name": "Lạc Hồn phủ",
+        "name_hex": "4cb9632048e56e207068f1",
+        "polish_state": "",
+        "image": "\\spr\\pt_test\\7c43d8c220ee.spr",
+        "original_icon_hex": "5c7370725c6974656d5c77656170656e5cc2e4bbeaeee12e737072",
+        "source_row": 75
+      }
+    ],
+    [
+      {
+        "id": 4827,
+        "table": "meleeweapon",
+        "row": 46,
+        "genre": 0,
+        "detail": 0,
+        "part": 4,
+        "level": 7,
+        "profession": 0,
+        "tier": 70,
+        "realm": 0,
+        "slot": 0,
+        "quality": 4,
+        "recipe": 0,
+        "category": "weapon_gold",
+        "name": "Đả Thần tiên",
+        "name_hex": "a7b6205468c76e207469aa6e",
+        "polish_state": "",
+        "image": "\\spr\\pt_test\\0df76bf78149.spr",
+        "original_icon_hex": "5c7370725c6974656d5c77656170656e5cb4f2c9f1b1de2e737072",
+        "source_row": 47
+      },
+      {
+        "id": 4847,
+        "table": "meleeweapon",
+        "row": 66,
+        "genre": 0,
+        "detail": 0,
+        "part": 6,
+        "level": 7,
+        "profession": 1,
+        "tier": 70,
+        "realm": 0,
+        "slot": 0,
+        "quality": 4,
+        "recipe": 0,
+        "category": "weapon_gold",
+        "name": "Cự Khuyết kiếm",
+        "name_hex": "43f9204b687579d574206b69d56d",
+        "polish_state": "",
+        "image": "\\spr\\pt_test\\79182c89eb4e.spr",
+        "original_icon_hex": "5c7370725c6974656d5c77656170656e5cbedee3dabda32e737072",
+        "source_row": 67
+      },
+      {
+        "id": 4857,
+        "table": "meleeweapon",
+        "row": 76,
+        "genre": 0,
+        "detail": 0,
+        "part": 7,
+        "level": 7,
+        "profession": 2,
+        "tier": 70,
+        "realm": 0,
+        "slot": 0,
+        "quality": 4,
+        "recipe": 0,
+        "category": "weapon_gold",
+        "name": "Tụ Tiên phủ",
+        "name_hex": "54f4205469aa6e207068f1",
+        "polish_state": "",
+        "image": "\\spr\\pt_test\\e0e2e1e63aa3.spr",
+        "original_icon_hex": "5c7370725c6974656d5c77656170656e5cbedbcfc9eee12e737072",
+        "source_row": 77
+      }
+    ],
+    [
+      {
+        "id": 4829,
+        "table": "meleeweapon",
+        "row": 48,
+        "genre": 0,
+        "detail": 0,
+        "part": 4,
+        "level": 9,
+        "profession": 0,
+        "tier": 90,
+        "realm": 0,
+        "slot": 0,
+        "quality": 4,
+        "recipe": 0,
+        "category": "weapon_gold",
+        "name": "Trục Nhật kiếm",
+        "name_hex": "5472f463204e68cb74206b69d56d",
+        "polish_state": "",
+        "image": "\\spr\\pt_test\\c2efd321bbf4.spr",
+        "original_icon_hex": "5c7370725c6974656d5c77656170656e5cd6f0c8d5b4f3bda32e737072",
+        "source_row": 49
+      },
+      {
+        "id": 4849,
+        "table": "meleeweapon",
+        "row": 68,
+        "genre": 0,
+        "detail": 0,
+        "part": 6,
+        "level": 9,
+        "profession": 1,
+        "tier": 90,
+        "realm": 0,
+        "slot": 0,
+        "quality": 4,
+        "recipe": 0,
+        "category": "weapon_gold",
+        "name": "Kim Quang kiếm",
+        "name_hex": "4b696d205175616e67206b69d56d",
+        "polish_state": "",
+        "image": "\\spr\\pt_test\\6ece06921100.spr",
+        "original_icon_hex": "5c7370725c6974656d5c77656170656e5cbdf0b9e2bda32e737072",
+        "source_row": 69
+      },
+      {
+        "id": 4859,
+        "table": "meleeweapon",
+        "row": 78,
+        "genre": 0,
+        "detail": 0,
+        "part": 7,
+        "level": 9,
+        "profession": 2,
+        "tier": 90,
+        "realm": 0,
+        "slot": 0,
+        "quality": 4,
+        "recipe": 0,
+        "category": "weapon_gold",
+        "name": "Hỗn Thiên phủ",
+        "name_hex": "48e76e20546869aa6e207068f1",
+        "polish_state": "",
+        "image": "\\spr\\pt_test\\6014945f867c.spr",
+        "original_icon_hex": "5c7370725c6974656d5c77656170656e5cbbeccceceee12e737072",
+        "source_row": 79
+      }
+    ],
+    [
+      {
+        "id": 4830,
+        "table": "meleeweapon",
+        "row": 49,
+        "genre": 0,
+        "detail": 0,
+        "part": 4,
+        "level": 10,
+        "profession": 0,
+        "tier": 100,
+        "realm": 0,
+        "slot": 0,
+        "quality": 4,
+        "recipe": 0,
+        "category": "weapon_gold",
+        "name": "Viêm Đế kiếm",
+        "name_hex": "5669aa6d20a7d5206b69d56d",
+        "polish_state": "",
+        "image": "\\spr\\pt_test\\6c98f48016e9.spr",
+        "original_icon_hex": "5c7370725c6974656d5c77656170656e5cd1d7b5dbb4f3bda32e737072",
+        "source_row": 50
+      },
+      {
+        "id": 4850,
+        "table": "meleeweapon",
+        "row": 69,
+        "genre": 0,
+        "detail": 0,
+        "part": 6,
+        "level": 10,
+        "profession": 1,
+        "tier": 100,
+        "realm": 0,
+        "slot": 0,
+        "quality": 4,
+        "recipe": 0,
+        "category": "weapon_gold",
+        "name": "Thái Cực kiếm",
+        "name_hex": "5468b8692043f963206b69d56d",
+        "polish_state": "",
+        "image": "\\spr\\pt_test\\dc81982c7c59.spr",
+        "original_icon_hex": "5c7370725c6974656d5c77656170656e5cccabbcabbda32e737072",
+        "source_row": 70
+      },
+      {
+        "id": 4860,
+        "table": "meleeweapon",
+        "row": 79,
+        "genre": 0,
+        "detail": 0,
+        "part": 7,
+        "level": 10,
+        "profession": 2,
+        "tier": 100,
+        "realm": 0,
+        "slot": 0,
+        "quality": 4,
+        "recipe": 0,
+        "category": "weapon_gold",
+        "name": "Diệt Thần phủ",
+        "name_hex": "4469d674205468c76e207068f1",
+        "polish_state": "",
+        "image": "\\spr\\pt_test\\b6346df3908c.spr",
+        "original_icon_hex": "5c7370725c6974656d5c77656170656e5cc3f0c9f1eee12e737072",
+        "source_row": 80
+      }
+    ]
+  ],
+  "policy": {
+    "chest_count": 5,
+    "channel_seconds": 20,
+    "cooldown_seconds": 60,
+    "pearls_per_chest": [
+      1,
+      5
+    ],
+    "drop_rates": "preserve weights of guide-supported original outcomes in dedicated tables; remove zero-probability/above-tier rows; fix Water/Fire lower bounds",
+    "lottery_per_1000": {
+      "money100000": 1,
+      "money20000": 5,
+      "another_token": 100,
+      "earth_ticket": 100,
+      "water_ticket": 50,
+      "empty": 744
+    },
+    "phong_ticket": [
+      3,
+      65,
+      0
+    ]
+  }
+}

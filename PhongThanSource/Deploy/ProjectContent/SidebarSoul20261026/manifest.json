@@ -1,0 +1,317 @@
+{
+  "files": [
+    {
+      "role": "Client",
+      "relative": "ui/ui3/PtInteractionBar.ini",
+      "before": "6c424d49c015f7e8d2c246e7942f5084eeb00adc2df9b4c911b383fa25594214",
+      "sha256": "6c424d49c015f7e8d2c246e7942f5084eeb00adc2df9b4c911b383fa25594214"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/6c39cb38.spr",
+      "before": null,
+      "sha256": "dcfec8c43d18e5c2bd47c7c4eba03e3088568274451b17687f918c9812ebb704"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/ae480fa3.spr",
+      "before": null,
+      "sha256": "0399492a3a535ff6bd7fe409421b666a6b3509a400a84d1e9f0f7a81d0d1f77c"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/2e688578.spr",
+      "before": null,
+      "sha256": "cb6db4f863dbe6090098b31b4d8cac170b6a27e58071ea20309521dd0afff555"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/a919d0fa.spr",
+      "before": null,
+      "sha256": "e083219244e553a35b8a3d5f8e1354804bb89d96484f2129369538305353ad15"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/e88b7b1c.spr",
+      "before": null,
+      "sha256": "aeeca3a330d9c302dd8bc26a7f8b947edaff6b94cbc3fa117d92281c02f93266"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/3df365b3.spr",
+      "before": null,
+      "sha256": "d8eaa29f0d569d3947106bd409b161964dd9ea4c3d1c832b6682698af74179b9"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/eb6c5522.spr",
+      "before": null,
+      "sha256": "00abf4ace861da55b9c31fca8dfa36f27372673eec989845739d7f17a211dd5c"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/0d54c797.spr",
+      "before": null,
+      "sha256": "3a58d03c898f778fea80e4136e79e7b5687d9ab878ce2973365aea0475cd2054"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/80baf679.spr",
+      "before": null,
+      "sha256": "425a2b63ef07ef65cef60b6dfc9fb86c4472c3a5df7a8e7dad44f89692b290b7"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/568d138a.spr",
+      "before": null,
+      "sha256": "57861a0d2b68f9de52dcbb929034daa35dd7aab37d01f425ea01da5711198fd9"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/8cfa6497.spr",
+      "before": null,
+      "sha256": "01131a1590fc28cb3f6323a63b80e29526cce64522edc104e541ccf4bf891c86"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/c19963cd.spr",
+      "before": null,
+      "sha256": "695a5216bd89357893a2e0d7cf1ce544c3497a5b7d2c7196d7fad09db4b91873"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/cf3d0d05.spr",
+      "before": null,
+      "sha256": "630b1c01808c99548024e40875b9ca31483e9d881bd156ed72e868bd9e682381"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/02745bfa.spr",
+      "before": null,
+      "sha256": "04edfcc99c76bdf87046167f2e0720a9227f4277e4e88b806d1c9d5294da879d"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/c50a143e.spr",
+      "before": null,
+      "sha256": "2adfd2368bd4c3db5668d6526c2061a0c9909087699808059b006f1a45c57d08"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/a392f5cd.spr",
+      "before": null,
+      "sha256": "9e87eb559e9cf7974a5b871d9e154b409ef7737e2e95d271102fcf19bf85d9b7"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/01622e58.spr",
+      "before": null,
+      "sha256": "2500d53d2544786392dcb9dfc75bfec150a8a5fefa0797d6cd26b32d8c18f743"
+    },
+    {
+      "role": "Client",
+      "relative": "ui/ui3/UiStrengthRank.ini",
+      "before": null,
+      "sha256": "957c6cb97de543aa9abd721cbcdd5d1b34a0b63e7eed41094c20c030d85e5e62"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/e838ad1c.spr",
+      "before": null,
+      "sha256": "baf24c39c201cf168f6df627e0e93d63d25cb70183d5a6d3ef165a691c12f6b8"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/aad2587a.spr",
+      "before": null,
+      "sha256": "c6a04a4b24c9abcdb9ed0ef01766330416568664ee9b89e751a5c68afd7e6ab9"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/4c120956.spr",
+      "before": null,
+      "sha256": "426403f2ce652cb455a8c49d394e18640fd0ff99ee276854b219ae1401334176"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/ce2ef9b8.spr",
+      "before": null,
+      "sha256": "f670268953e9817493dead2ce82924eeb752fe0fc5709663aa942c4b59d46cb7"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/a6d7e256.spr",
+      "before": null,
+      "sha256": "1e935902fcf0304bcca6269609c7bc8ccb464d681f1065b43bfb141ddaefd0cc"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/9aafc49e.spr",
+      "before": null,
+      "sha256": "0f486b15136351681e6ffa6bb2245d354ff34b6537652ba24afd08ec797ad388"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/ab182d08.spr",
+      "before": null,
+      "sha256": "f16c3008ff2b818d94d2b61dff248b9ce8aa2efe9ccd0751b8777d7fe337745b"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/a0d4a690.spr",
+      "before": null,
+      "sha256": "ec033306fc2f87427076349eaa5786abf46dc5fa4ba4ebafd0d2336e100ec41a"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/9c69ed7e.spr",
+      "before": null,
+      "sha256": "c0bbbde4b27a9c31f08172a45cedbfcb8d6dacc86ff1b4710e0e048719dd7d10"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/a8caea52.spr",
+      "before": null,
+      "sha256": "5870344dc0486e82fdefadefcadb7ce4ee412d973e3bae32421f45ff170f3a10"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/5977c8ab.spr",
+      "before": null,
+      "sha256": "5cd54392cf5f0705da94ae1f233ccf04eb1e2d81d33d8170cf4d67788687d898"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/bdd4b857.spr",
+      "before": null,
+      "sha256": "431b54606640376f3c9fb5e64b2556399b89cb85c7752da2933bbf53fdda1430"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/8f3b9127.spr",
+      "before": null,
+      "sha256": "36aa43e0a9ca15655a240da692ecd1888281e8e8cdb631bbb0745346457faf04"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/f8b3f056.spr",
+      "before": null,
+      "sha256": "63202527a0d879c4a708d298336a5537232025d6f2d06cb86557681b87b4eb0a"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/cf234684.spr",
+      "before": null,
+      "sha256": "0175528cb221b9fac45516c24859aa3bfa06e5090979ff77f709522254a7b633"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/370e1978.spr",
+      "before": null,
+      "sha256": "3cb87af9163e06b414f6332c49ac69e42e8b61f1c6fca930e2716f23ceab9df4"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/cd08e855.spr",
+      "before": null,
+      "sha256": "7ade8c11ae620a473d0f70bb17364d45a9ce8a7215b26f2b3e892c170ab3cb63"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/eb19b118.spr",
+      "before": null,
+      "sha256": "40f741e9216e9d6012d7e19f656f1b52291c9bad066fda9a1f10d4446e8cb93d"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/5e42c33b.spr",
+      "before": null,
+      "sha256": "9e01b14a09e32833d2987a1dcd079beb84888cc5f2746faae774c5d0317f677d"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/e95565e2.spr",
+      "before": null,
+      "sha256": "090940fdff3556c6418594fc42ea203d34759cdbe5a4ff09baefd35a1d46f00f"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/65fadcef.spr",
+      "before": null,
+      "sha256": "50e9662267fcd76aeda6b5af66147613f90e5deded87aaac18fbcaace4bd9a02"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/c63d8af4.spr",
+      "before": null,
+      "sha256": "db24acef11c6a67981f55c336e2bff9f17c9172033bf348e3bb72f904f24015b"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/b01b2f76.spr",
+      "before": null,
+      "sha256": "838ee5a4c8b96f7a13fa1b0e55fd54517fdcd88e93177c573c992c9a37ae8116"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/37c4abd2.spr",
+      "before": null,
+      "sha256": "d7301c238f06deb659ce33f209047ba24e19728f869bd764a6e1dfaa63faf964"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/05cb9c4e.spr",
+      "before": null,
+      "sha256": "577f81955aff9b2ac04f43241c0c78fc62a7dbb596b2af5ca1395359552caf0e"
+    },
+    {
+      "role": "Client",
+      "relative": "ui/ui3/PtAuction.ini",
+      "before": null,
+      "sha256": "4c5c5337f2070ab16c6d6a4a67fcd90ca4457e17e3d2303c4a310eaaddf19c3c"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/sidebar/8a2712f6.spr",
+      "before": null,
+      "sha256": "6216e820438782748009228ef9942f66999030701dbe53f05e7bbefad30bd1c2"
+    },
+    {
+      "role": "Client",
+      "relative": "ui/ui3/UiWorldMap.ini",
+      "before": null,
+      "sha256": "48a7d443ac21008df03727102599a1a1bf9a3152a5435823c255b628f5cf9895"
+    },
+    {
+      "role": "Client",
+      "relative": "ui/ui3/PtMiniMapLeft.ini",
+      "before": "5d9464b94e8073069f6d5cee98a253ffed8115be28d30dc17e4abbffe88e994e",
+      "sha256": "0ce2662d73008f00745112cff537a518ba92263575d4db835121d0ba759333be"
+    },
+    {
+      "role": "Client",
+      "relative": "ui/RankMap.ini",
+      "before": null,
+      "sha256": "07813fe69d8c8ba4c81cd7b3a7b0b63f84758689887853d04ca1a137048798af"
+    },
+    {
+      "role": "Client",
+      "relative": "Game.exe",
+      "before": "026e06c39b868da0889b9ccd3dd7f5496d7736c3f29b5e815e1108b3317fc445",
+      "sha256": "c633c54cdc69fbf24558a06fc98718cd5d2ebe18ee051f905dd872c4db1f1a21"
+    },
+    {
+      "role": "Server",
+      "relative": "CoreServer.dll",
+      "before": "2ecaa3a779096a4f40a68e16ff9037ae3675a536a7343310b869e338d7944074",
+      "sha256": "3f2ed88e7f3c9d9402ecb4afbcdd3aa74686276073ed55d03e6cf87363587389"
+    },
+    {
+      "role": "Client",
+      "relative": "CoreClient.dll",
+      "before": "010cf499afc8686f69ac62b7e02ca1676237e95a521f2c7cb867b58306268306",
+      "sha256": "571fc4c40b884b00aee2d913ddca63c40e59905c1726c3ce84040a85e90cfe1e"
+    }
+  ],
+  "scope": "Native sidebar positions/background, ranking ladder window, original PT world map, hide-client tray, auction frame only (server auction backend absent); soul circle dialoger visibility and 600 MPS radius"
+}

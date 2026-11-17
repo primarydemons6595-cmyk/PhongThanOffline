@@ -1,0 +1,52 @@
+{
+  "files": [
+    {
+      "role": "Server",
+      "relative": "CoreServer.dll",
+      "before": "aef794e32ee595af9390a05618c5e56b90851cc375cd478cbd2911f2933c9814",
+      "sha256": "b8d8486091a600bfd1b56a49361285090f41baf1a701de80fde4da850f60639c"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/test/event_handbook.lua",
+      "before": "2bd5bbf7e32de0dfe3255994c0626a8133709d0e6569275f43ee52eda700e096",
+      "sha256": "b2287860bd10fff4f81275ad5c7b107ef1baf7078cef66ee9510da3b750977ed"
+    },
+    {
+      "role": "Server",
+      "relative": "settings/phongthan/EventHandbookCatalog.txt",
+      "before": "ae535a782094de721a8938cf6ada03f35325ff18ad87f875c53ef4402be3a841",
+      "sha256": "e85391cc7f4b5eba8e63d7d7b208cdb944c85079f7696a88eacc81f4aba28992"
+    },
+    {
+      "role": "Server",
+      "relative": "script/Ñþ³Ø/À×Õð×Ó.lua",
+      "before": "5dd13d1d7217cf7ec5e9306f236b4227cb10ed35c6a87c70ec7f62d2b7d5d6c4",
+      "sha256": "257524f98f7de4c2fe21dfc31f9034b1685d7198fa514094970951e502f384f5"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/jade/needle.lua",
+      "before": "5f995375fc1878d67c4e173829270dd622b653aec511d195ab5afeedf1e1b6ca",
+      "sha256": "f8eda14c95c104aaa3ff49fbe6706428c5fbd97774ce4a69e999a4daf6035332"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/pt_test/952c5163a049.spr",
+      "before": null,
+      "sha256": "0cb631bd5a07c25d70f0d6cd1df0a9e98156ab3b5ec5674966823c406e2f12d6"
+    },
+    {
+      "role": "Client",
+      "relative": "loose_index.bin",
+      "before": "a0b43789c311a85bf7d9927940e068b455cd417070599d7016c2c5846ad7ccd9",
+      "sha256": "df5eb9dc369d4bf01633054c5c491770672aba7cf914a014736b764006631c92"
+    },
+    {
+      "role": "completion",
+      "relative": "studio_effective_overrides.json",
+      "before": "660918265a1e4d1c57de511d6901e795ec2edd8aff850d8f6523736cc9c5a626",
+      "sha256": "608d14986d251e9b0d3b0daa6309767685880cfca61726e0b2bde4a4e971219b"
+    }
+  ]
+}

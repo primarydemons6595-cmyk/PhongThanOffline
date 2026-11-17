@@ -1,0 +1,26 @@
+import fs from 'node:fs';import path from 'node:path';import crypto from 'node:crypto';
+const workspace=path.resolve(import.meta.dirname,'../../..'),report=path.join(workspace,'analysis/blue_magic_p0_20261018');
+const read=p=>fs.readFileSync(path.resolve(workspace,p));
+const sha=p=>crypto.createHash('sha256').update(read(p)).digest('hex');
+const logText=p=>{const b=fs.readFileSync(p);return b[0]===255&&b[1]===254?b.subarray(2).toString('utf16le'):b.toString('utf8');};
+const results=['write','read'].map(phase=>{
+ const log=logText(path.join(report,phase+'.log'));
+ const m=log.match(/P0_RESULT phase=(\S+) pid=(\d+) blue=(\d+) white=(\d+) checks=(\d+) failures=(\d+) item_record_size=(\d+)/);
+ if(!m||log.includes('FAIL ')||m[3]!=='500'||m[4]!=='40'||m[6]!=='0'||m[7]!=='268')throw Error('P0 acceptance failed: '+phase);
+ return {phase:m[1],pid:+m[2],blue:+m[3],white:+m[4],checks:+m[5],failures:+m[6],itemRecordBytes:+m[7]};
+});
+if(results[0].pid===results[1].pid)throw Error('Separate processes required');
+const build=logText(path.join(report,'build_core.log'));
+if(!/CoreServer\s+0\s/.test(build)||!/CoreClient\s+0\s/.test(build))throw Error('Native core build failed');
+const originalHeaders=['PhongThanCharacter.h','PhongThanProtocol.h'].map(name=>({name,unchanged:sha('analysis/blue_magic_p0_20261018/before/'+name)===sha('PhongThanSource/Headers/'+name)}));
+if(originalHeaders.some(x=>!x.unchanged))throw Error('Canonical/protocol header changed');
+const isolation=JSON.parse(fs.readFileSync(path.join(report,'isolation.json'),'utf8'));
+const runtime=JSON.parse(fs.readFileSync(path.join(report,'runtime_state.json'),'utf8'));
+if(runtime.Pid!==49460||runtime.CoreServerSha256.toLowerCase()!=='bac0354cc1c691f35801a73eb1067a555d6b8e031299dd52aa65dde7a5d79907')throw Error('Running world changed unexpectedly');
+const sourceFiles=['Sources/Core/Src/P0ItemMagicPersistence.h','Sources/Core/Src/KPlayerDBFuns.cpp','Sources/Core/Src/KItemSet.cpp','Sources/Core/Src/KItemSet.h','Sources/Core/Src/KItem.h','Tests/LegacyDropNativeTest/P0PersistenceTests.cpp','Tests/LegacyDropNativeTest/Test-P0Persistence.ps1','Output/LegacyDropNativeTest/P0Persistence/P0PersistenceTests.exe','Output/Server/CoreServer.dll','Output/Client/CoreClient.dll'].map(p=>'PhongThanSource/'+p);
+const files=[...sourceFiles,...fs.readdirSync(path.join(report,'before')).map(p=>'analysis/blue_magic_p0_20261018/before/'+p),...['write.log','read.log','build_core.log','production_bodies.json','isolation.json','runtime_state.json'].map(p=>'analysis/blue_magic_p0_20261018/'+p)];
+const golden=fs.readdirSync(isolation.Root).filter(p=>/^golden\d+\.bin$/.test(p)).map(p=>path.join(isolation.Root,p));
+const manifest=[...files,...golden].map(p=>({path:path.relative(workspace,path.resolve(workspace,p)).replaceAll('\\','/'),bytes:read(p).length,sha256:sha(p)}));
+fs.writeFileSync(path.join(report,'manifest.json'),JSON.stringify(manifest,null,2));
+fs.writeFileSync(path.join(report,'acceptance.json'),JSON.stringify({status:'P0_PASS',scope:'ISOLATED_LOOSE_NATIVE_PERSISTENCE',before:{blueCreated:500,magicPreserved:0},after:{blueCreated:500,magicPreserved:500,whiteTotal:40,oldFormatWhite:20,p0White:20,metadataExact:true,baseRequirementQualityExact:true,persistedSerialExact:true},processes:results,originalHeaders,build:{CoreServer:0,CoreClient:0},faults:{corruptSnapshot:'PASS',missingSnapshot:'PASS',missingSnapshotAndRequiredMarker:'PASS',duplicatePersistentSerial:'PASS',midLoadInsertionRollback:'PASS',saveAfterFailedLoadBlocked:'PASS',retryFullLoad:'PASS',canonicalAtomicReplaceFailure:'PASS',orphanNotApplied:'PASS',immutableSnapshotConflict:'PASS',companionPublicationFailure:'PASS',heapIntegrity:'PASS'},isolation,runtime,limits:['Inventory/network bookkeeping is a fixture; production SavePlayerItemList/LoadPlayerItemList bodies are extracted unchanged except class qualifier.','Actual Goddess CharacterStore and native item generation/ItemSet/public setter run in both processes.','No world/player pickup/UI/relog session test; no deployment, P1-P5 or Kingsoft parity claim.','Old v1 white records have no persisted serial; legacy reassignment remains unchanged.']},null,2));
+console.log('P0_PASS evidence written; '+results.reduce((n,x)=>n+x.checks,0)+' assertions; 500/500 blue, 40/40 white; distinct process IDs');

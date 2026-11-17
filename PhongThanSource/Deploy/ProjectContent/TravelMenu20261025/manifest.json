@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "feature": "TravelMenuLua4",
+  "files": [
+    {
+      "role": "Server",
+      "relative": "script/phongthan/travel_items.lua",
+      "before": "abc699d05f1dd2889bca70e5eddcc20e7d79ab0289f5822de04d9e071fc89ba2",
+      "sha256": "fa9be45bfdcb9da7808b24dcbb69a1f1a3a73814a508b2742d4cb3a52f7d46e0"
+    }
+  ]
+}

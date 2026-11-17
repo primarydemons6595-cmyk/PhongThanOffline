@@ -1,0 +1,10 @@
+{
+  "files": [
+    {
+      "role": "Server",
+      "relative": "CoreServer.dll",
+      "before": "fec064f19b895619e6b4abddd815929ba35e13dad4bbc9c241a04fe491ec6d8b",
+      "sha256": "2ecaa3a779096a4f40a68e16ff9037ae3675a536a7343310b869e338d7944074"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "scope": "LOOSE_ONLY",
+  "files": [
+    {
+      "path": "Client/spr/pt_test/263d143f2e16.spr",
+      "before": null,
+      "after": "f745ffe825db1e6ce14dea1faa068f92a2d70790035de876f87901d1c854e6d6"
+    },
+    {
+      "path": "Client/spr/pt_test/27bc7bab6650.spr",
+      "before": null,
+      "after": "2fecff92a9e29f2c4421c93d1b9563bcfa937b5cf959dfa61545b3139924dfe4"
+    },
+    {
+      "path": "Client/spr/pt_test/cf36a7c6214b.spr",
+      "before": null,
+      "after": "24529c22a0a9b34f5cab83648c2d825b4c1077f3d9d03cd88abc75fcfb55999a"
+    },
+    {
+      "path": "Client/spr/pt_test/c4fdf9aa0be3.spr",
+      "before": null,
+      "after": "3c203472857cc5a9e83feef949f38d264e24d10f46793f64ec26b51c18e0b176"
+    },
+    {
+      "path": "Client/spr/pt_test/634de11a34b7.spr",
+      "before": null,
+      "after": "2fe2d41a5dce05bc358193850ce14f2e262711c2868710ea3536a1506514cc14"
+    },
+    {
+      "path": "Server/settings/item/001/signet.txt",
+      "before": null,
+      "after": "3338ded62b69392638b84849118cd9b1908a929656203c530962c42243f67eb5"
+    },
+    {
+      "path": "Client/settings/item/001/signet.txt",
+      "before": null,
+      "after": "3338ded62b69392638b84849118cd9b1908a929656203c530962c42243f67eb5"
+    },
+    {
+      "path": "Server/script/phongthan/test/event_handbook.lua",
+      "before": "9746709d82cdfae1eb0caf50afbbae8bf31d491d65acdca80233d120228eb73a",
+      "after": "27f8294a20760b3e8c7f1ca6d0739e8c78167efedd0f637e0c38219bfa4028eb"
+    },
+    {
+      "path": "Server/settings/item/001/ibitem.txt",
+      "before": "c77e89d55d8a81a9cfa9948baa3ea8d32b23461376717bfba525e32f3c9cc28f",
+      "after": "5ce772ddaa43e34132c80a9286453ae56c2f25a9014dc577b4baf921911f604e"
+    },
+    {
+      "path": "Server/settings/item/001/magicscript.txt",
+      "before": "5224dcba355c52a97fcc4c8bf307c6297dc833390b20683c34381ada4c95ca1b",
+      "after": "1cd1e6b8daca538b3f9ef5dc1539233972bed92863b5c7174918bec7cdad3c45"
+    },
+    {
+      "path": "Client/settings/item/001/ibitem.txt",
+      "before": "b3a4c2b067ecce0066c928cf3fd0433639ba8e6a035dca0eac9a7c2d1693f254",
+      "after": "8866c32d60c6706ad915879ed66d64d9f3ddefe40435be25e5695fa8c9dd98a8"
+    },
+    {
+      "path": "Client/settings/item/001/magicscript.txt",
+      "before": "5224dcba355c52a97fcc4c8bf307c6297dc833390b20683c34381ada4c95ca1b",
+      "after": "1cd1e6b8daca538b3f9ef5dc1539233972bed92863b5c7174918bec7cdad3c45"
+    },
+    {
+      "path": "Client/Ui/ui3/PtConsumableBuff.ini",
+      "before": "272a642439e2946e82c865f6855b84b1fa6fb34e99186569e1641248fc4e2a22",
+      "after": "ef8eb658cf8552108e38d1268eb1ec84dc6c24ae3ac88898179e4c414c65eb55"
+    },
+    {
+      "path": "Server/script/phongthan/items/treasure_map.lua",
+      "before": null,
+      "after": "2ee699df3088efc24323062d0ac35dd06ebd8ed31279846f3c57215d93aac3f6"
+    },
+    {
+      "path": "Server/script/phongthan/npc/fortune_teller.lua",
+      "before": null,
+      "after": "518796c8d2e3a55cebd49882677c9b2ddc47251e57cc353c4820e58fb261efe9"
+    },
+    {
+      "path": "Server/settings/phongthan/npc_regions/1021/v_093/106_npc_s.dat",
+      "before": null,
+      "after": "e5b4cd124d60d9966f0ab665414e12b8849dc7ba7436e02be2ce0e178a09a4a8"
+    },
+    {
+      "path": "Server/settings/phongthan/NpcDisplayNames.txt",
+      "before": "e65762a27e198412ccaceb1d6c1c63ba19b121efe7dcdbb0b3dd392fdf4dc36c",
+      "after": "922787dd3d0d6682ff836e53bdfa2386f94bbddfb5546174f234f42dc340ba22"
+    },
+    {
+      "path": "Client/settings/phongthan/NpcDisplayNames.txt",
+      "before": "bdfe862358c51c8625df74e1ba227400268b24bc929ccfeea04167ac2ff1d5d8",
+      "after": "f24f4079eb0217a4309981804b71573eab6b899a466500253254aa67fcfb40c7"
+    }
+  ],
+  "seals": 160,
+  "seal_first_id": 28171,
+  "fortune": {
+    "map": 1021,
+    "template": 150,
+    "x": 54400,
+    "y": 96000
+  }
+}

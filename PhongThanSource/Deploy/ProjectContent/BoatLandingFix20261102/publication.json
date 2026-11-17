@@ -1,0 +1,16 @@
+﻿{
+    "Scope":  "LOOSE_ONLY",
+    "Backup":  "E:\\ProjectAI\\PhongThan\\PT\\analysis\\boat_landing_fix_20261102\\runtime-before-20261102_091302",
+    "Result":  "PASS",
+    "Files":  [
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\BoatLandingFix20261102\\binaries\\Server\\CoreServer.dll",
+                      "Path":  "Server/CoreServer.dll",
+                      "Done":  false,
+                      "After":  "334453F90F571C57B07D28CBC2EA681530A9A889BE7834271AED3814835C31A4",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\CoreServer.dll",
+                      "Before":  "154786185122B4F04A414E17A3116325FE203DBF638151C54C5F23468531E6F6"
+                  }
+              ],
+    "PublishedAtUtc":  "2026-11-02T02:13:04.5883485Z"
+}

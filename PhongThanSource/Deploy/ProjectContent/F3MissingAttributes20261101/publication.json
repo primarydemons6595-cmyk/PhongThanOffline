@@ -1,0 +1,48 @@
+﻿{
+    "Scope":  "LOOSE_ONLY",
+    "Backup":  "E:\\ProjectAI\\PhongThan\\PT\\analysis\\f3_missing_attributes_20261101\\runtime-before-20261101_223612",
+    "Result":  "PASS",
+    "Files":  [
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\F3MissingAttributes20261101\\compiled\\Client\\CoreClient.dll",
+                      "Path":  "Client/CoreClient.dll",
+                      "Done":  false,
+                      "After":  "ABD89DADB46AA13AC0E7865BA9E5B10318B1B4E9F0861C6AF162DCF40153349E",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Client\\CoreClient.dll",
+                      "Before":  "60C9F01DA4394D73345C6B313755F99354FD11499CAD11F011D0AE4FB1C2B333"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\F3MissingAttributes20261101\\compiled\\Server\\CoreServer.dll",
+                      "Path":  "Server/CoreServer.dll",
+                      "Done":  false,
+                      "After":  "22C94FADA05BA338AC5AF24D4F619C96C263FFC3D96609FACD3377713FA749E7",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\CoreServer.dll",
+                      "Before":  "71C5B80A3EC23ECCD5E767087F93B6AA38D6AE94C1ACE606A0C9051BBBDF63DB"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\F3MissingAttributes20261101\\compiled\\Client\\Game.exe",
+                      "Path":  "Client/Game.exe",
+                      "Done":  false,
+                      "After":  "DD58E8DCB563384EFEF8EB503CA8E178D94711E983048B10028A3EDD88C93AEE",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Client\\Game.exe",
+                      "Before":  "6990DBE2033A573B47CED38FCAEB07F96E3BD569DDDB91FB719659C41BF10C0D"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\F3MissingAttributes20261101\\compiled\\Client\\settings\\MagicDesc.Ini",
+                      "Path":  "Client/settings/MagicDesc.Ini",
+                      "Done":  false,
+                      "After":  "3E8EEA36C230E2F06BB86DD0FB86B02A3C2F14340EE087CACDBF0B3A1821ED80",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Client\\settings\\MagicDesc.Ini",
+                      "Before":  "41CD67B1A14116479163D80488135DB92718BEEC226105E40265C372737E097C"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\F3MissingAttributes20261101\\compiled\\Server\\settings\\MagicDesc.Ini",
+                      "Path":  "Server/settings/MagicDesc.Ini",
+                      "Done":  false,
+                      "After":  "3E8EEA36C230E2F06BB86DD0FB86B02A3C2F14340EE087CACDBF0B3A1821ED80",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\settings\\MagicDesc.Ini",
+                      "Before":  "41CD67B1A14116479163D80488135DB92718BEEC226105E40265C372737E097C"
+                  }
+              ],
+    "PublishedAtUtc":  "2026-11-01T15:36:14.9225013Z"
+}

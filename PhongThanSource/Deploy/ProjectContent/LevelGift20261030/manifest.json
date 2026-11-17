@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "files": [
+    {
+      "role": "Server",
+      "relative": "settings/item/001/ibitem.txt",
+      "sha256": "277ed1b0da510b5b3efd3ef0478bbdb2f735c94d213a62ff0568c154f10c98e5",
+      "before": "9fc0995b27f41f6876572f892d015e1876c608a9a1265c3726b984ae50b2c297"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/rewards/level_gift.lua",
+      "sha256": "c2ef00288ab8b5925a323bc69e7470a9894f92171300652f1eee8e69d21cd1c9",
+      "before": "c2ef00288ab8b5925a323bc69e7470a9894f92171300652f1eee8e69d21cd1c9"
+    },
+    {
+      "role": "Client",
+      "relative": "settings/item/001/ibitem.txt",
+      "sha256": "c7049a58390412ea8b07d8925c6a34c7b30561cfe394f31d4586e26f21ddf2c3",
+      "before": "62c33b4b18f77799b24d712765f674f0d961c23ba1bf09e2a813497cf3e8dcac"
+    },
+    {
+      "role": "Client",
+      "relative": "script/phongthan/rewards/level_gift.lua",
+      "sha256": "c2ef00288ab8b5925a323bc69e7470a9894f92171300652f1eee8e69d21cd1c9",
+      "before": "c2ef00288ab8b5925a323bc69e7470a9894f92171300652f1eee8e69d21cd1c9"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/escort/lequan.lua",
+      "sha256": "4998f5abd698090f74ed220fac2fa9850af0dcf64bb2fd7f71f0e3405b6a5dba",
+      "before": "4998f5abd698090f74ed220fac2fa9850af0dcf64bb2fd7f71f0e3405b6a5dba"
+    },
+    {
+      "role": "Server",
+      "relative": "script/item/camnangtanthu.lua",
+      "sha256": "d7f3d3e82dcb62a32be0fa1dfbca0b9b34bfcb6c9915148fda3f4271d55aa537",
+      "before": "d7f3d3e82dcb62a32be0fa1dfbca0b9b34bfcb6c9915148fda3f4271d55aa537"
+    },
+    {
+      "role": "Server",
+      "relative": "script/\u00d3\u00f1\u00d0\u00e9\u00b9\u00ac/\u00bd\u00cc\u00ca\u00a6.lua",
+      "sha256": "373bf9eca2c0328bc9d4027943ad3125834c3d4e4a10198576c79268764e40bb",
+      "before": "373bf9eca2c0328bc9d4027943ad3125834c3d4e4a10198576c79268764e40bb"
+    },
+    {
+      "role": "Client",
+      "relative": "script/\u00d3\u00f1\u00d0\u00e9\u00b9\u00ac/\u00bd\u00cc\u00ca\u00a6.lua",
+      "sha256": "373bf9eca2c0328bc9d4027943ad3125834c3d4e4a10198576c79268764e40bb",
+      "before": "373bf9eca2c0328bc9d4027943ad3125834c3d4e4a10198576c79268764e40bb"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_recovered_batch/1003_176efdac.lua",
+      "sha256": "373bf9eca2c0328bc9d4027943ad3125834c3d4e4a10198576c79268764e40bb",
+      "before": "373bf9eca2c0328bc9d4027943ad3125834c3d4e4a10198576c79268764e40bb"
+    },
+    {
+      "role": "Server",
+      "relative": "loose_index.bin",
+      "sha256": "4182e1982dd08b24102dec0b0de150142b263f5c68ca7bf13125461e14193c7b",
+      "before": "4182e1982dd08b24102dec0b0de150142b263f5c68ca7bf13125461e14193c7b"
+    },
+    {
+      "role": "Client",
+      "relative": "loose_index.bin",
+      "sha256": "dcd41173109e23213b0289ddac0a2a2ec097389c1eb205efcc167fdbcf3dfc1c",
+      "before": "dcd41173109e23213b0289ddac0a2a2ec097389c1eb205efcc167fdbcf3dfc1c"
+    }
+  ]
+}

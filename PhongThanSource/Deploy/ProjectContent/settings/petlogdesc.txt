@@ -1,0 +1,13 @@
+¼ÇÂ¼ÀàĞÍ	ÃèÊöÎÄ×Ö
+»¤Ö÷	#Trong lóc nguy cÊp Linh Thó ®· gióp b¹n chÆn ®­îc mét ®ßn chİ m¹ng cña <c=g>%s<c> <\n>H«m nay cßn <c=g>%d<c> lÇn hé chñ
+ËÀÍö	#B¹n bŞ träng th­¬ng d­íi tay <c=r>%s<c>
+ĞŞÀí	#Linh Thó tiªu hao b¹c gióp b¹n håi phôc %i
+ĞŞÁ¶	#Linh thó Tu luyÖn gióp b¹n nhËn ®­îc <c=g>%d<c> ®iÓm kinh nghiÖm
+×Ô¶¯ÁÔÉ±	#Më Tù ®éng cõu s¸t<\n>
+ĞŞÀíÊ§°Ü	#Kh«ng ®ñ b¹c, Linh Thó gióp b¹n håi phôc %i thÊt b¹i
+ÁÔÉ±Íê±Ï	#§ãng chøc n¨ng Tù ®éng cõu s¸t
+»¤Ö÷×Ü	#Linh Thó ®· kh«i phôc n¨ng lùc <\n>H«m nay cßn <c=g>%d<c> lÇn hé chñ
+ËÀÍö¹Ö	#B¹n kh«ng cÈn thËn bŞ <c=g>%s<c> ®¸nh b¹i
+ÁÔÉ±À¶¹Ö	#B¹n ®· ®¸nh b¹i <c=hblue>%s<c>X1
+É±ËÀÍæ¼Ò	#B¹n ®· ®¸nh b¹i %s
+ÁÔÉ±½á¹û	#§¸nh b¹i <c=g>%d<c> giê <c=g>%d<c> phót <\n>%s<\n> nhËn ®­îc tæng céng %s<c=g>%d<c><\n>Linh Thó gióp b¹n b¸n vËt phÈm nhËn ®­îc <c=g>%d<c> l­îng

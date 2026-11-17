@@ -1,0 +1,32 @@
+﻿{
+    "Scope":  "LOOSE_ONLY",
+    "Backup":  "E:\\ProjectAI\\PhongThan\\PT\\analysis\\boat_revival_fix_20261102\\runtime-before-20261102_103219",
+    "Result":  "PASS",
+    "Files":  [
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\BoatRevivalFix20261102\\binaries\\Server\\CoreServer.dll",
+                      "Path":  "Server/CoreServer.dll",
+                      "Done":  false,
+                      "After":  "C4C5BAF95F034F2D941D2333082A02F40E519591C60EA4D172885C2067BFF5AE",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\CoreServer.dll",
+                      "Before":  "58EBF5B3C05F681EACB9CA5567D2F4887E7395CCCED9A55EF746996A5D94CC5A"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\BoatRevivalFix20261102\\binaries\\Server\\script\\phongthan\\realm\\boat_dong_doanh.lua",
+                      "Path":  "Server/script/phongthan/realm/boat_dong_doanh.lua",
+                      "Done":  false,
+                      "After":  "A42118C3A38DBA0BFD6F9AC355F90D4DD609FE5B2DC439BE5FAADABAD39018CB",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\script\\phongthan\\realm\\boat_dong_doanh.lua",
+                      "Before":  "676592EF7AC169E25B6AD875C135C4A2EC115D6D46EE915A88DA47B6CD22012F"
+                  },
+                  {
+                      "Source":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanSource\\Deploy\\ProjectContent\\BoatRevivalFix20261102\\binaries\\Server\\script\\phongthan\\realm\\boat_tran_duong.lua",
+                      "Path":  "Server/script/phongthan/realm/boat_tran_duong.lua",
+                      "Done":  false,
+                      "After":  "A42118C3A38DBA0BFD6F9AC355F90D4DD609FE5B2DC439BE5FAADABAD39018CB",
+                      "Target":  "E:\\ProjectAI\\PhongThan\\PT\\PhongThanRuntime-Loose\\Server\\script\\phongthan\\realm\\boat_tran_duong.lua",
+                      "Before":  "676592EF7AC169E25B6AD875C135C4A2EC115D6D46EE915A88DA47B6CD22012F"
+                  }
+              ],
+    "PublishedAtUtc":  "2026-11-02T03:32:21.2052588Z"
+}

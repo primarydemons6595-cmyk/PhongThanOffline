@@ -1,0 +1,16 @@
+{
+  "files": [
+    {
+      "role": "Client",
+      "relative": "Game.exe",
+      "before": "033255b50bd8359f79b98ee7fea6a517322212312efe61fb29ff235bdf1630e2",
+      "sha256": "b3ddc50411e6abbb53c7587847c7f7515039140fe7e27264025f2c69ddf5d2ef"
+    },
+    {
+      "role": "Client",
+      "relative": "ui/ui3/PtMiniMapLeft.ini",
+      "before": "0a464720854ca1151dc679b6f17ff2ffa93fe1da04ac761cb23321a41e0f87cd",
+      "sha256": "5c22054f3949dc212f33df37d9ea62a2939a180ac5eac0f0e4df4ed8713408d4"
+    }
+  ]
+}

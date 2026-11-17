@@ -1,0 +1,22 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';import path from 'node:path';
+import {analyze,writeReport} from '../../Tools/LegacyDropLogAnalyzer.mjs';
+const e=(event,death_id,fields={})=>({event,death_id,...fields});
+const death=id=>e('NPC_DEATH',id,{template:'125',npc_level:'10',player_level:'80',npc_special:'0',mode:'LIVE_TEST',test_scope:'FIXTURE'});
+const events=[death('dup'),death('dup'),e('DROP_END','dup',{reason:'ALL_ROLLS_MISS_OR_ZERO_TREASURE'}),death('missing'),e('ITEM_CREATE','missing',{result:'CREATED',serial:'1',genre:'0',level:'10',magic_lines:'2',quality:'1'}),e('DROP_END','missing',{reason:'GROUND_FAILURE'}),death('attempt'),e('ITEM_CREATE','attempt',{result:'CREATED',serial:'2',genre:'3',level:'0'}),e('GROUND_SPAWN','attempt',{result:'SPAWNED',serial:'2',object:'4'}),e('ITEM_PICKUP','attempt',{serial:'2',result:'ATTEMPT'}),e('DROP_END','attempt',{reason:'LIVE_ITEMS_SPAWNED'}),death('pending'),e('GROUND_SPAWN','pending',{result:'SPAWNED',serial:'3'}),e('DROP_END','pending',{reason:'LIVE_ITEMS_SPAWNED'}),death('rollback'),e('ITEM_CREATE','rollback',{result:'CREATED',serial:'4'}),e('ITEM_ROLLBACK','rollback',{serial:'4'}),e('DROP_ERROR','rollback',{reason:'GENERATOR_REJECT'}),death('picked'),e('GROUND_SPAWN','picked',{result:'SPAWNED',serial:'5'}),e('ITEM_PICKUP','picked',{result:'PICKED_UP',serial:'5'}),e('DROP_END','picked',{reason:'LIVE_ITEMS_SPAWNED'})];
+const result=analyze(events);assert.equal(result.deaths,6);assert.equal(result.pickupEvidence,'OBSERVED');
+assert(result.issues.some(i=>i.kind==='DUPLICATE_DEATH_EVENT'&&i.death_id==='dup'));
+assert(result.issues.some(i=>i.kind==='CREATED_WITHOUT_GROUND'&&i.serial==='1'));
+assert(result.issues.some(i=>i.kind==='PICKUP_ATTEMPT_WITHOUT_SUCCESS'&&i.serial==='2'));
+assert(result.issues.some(i=>i.kind==='REVIEW_LOW_NPC_HIGH_ITEM_TIER'));
+assert(!result.issues.some(i=>i.kind==='CREATED_WITHOUT_GROUND'&&i.serial==='4'));
+assert.equal(result.pickup.find(p=>p.serial==='3').status,'PENDING_NO_ATTEMPT');
+assert(result.zero.some(z=>z.death_id==='rollback'&&z.reason==='ERROR:GENERATOR_REJECT'&&z.rolled_back===1)); // Zero Legacy ground, despite one allocation before rollback.
+const equipmentTrace=(id,actual,required)=>[death(id),e('DROP_PROFILE',id,{level_rule:'MONSTER_EQUIPMENT_CATALOG'}),e('ITEM_CREATE',id,{result:'CREATED',serial:id,genre:'0',level:'1',actual_native_level:actual,required_player_level:required}),e('GROUND_SPAWN',id,{result:'SPAWNED',serial:id}),e('DROP_END',id,{reason:'LIVE_ITEMS_SPAWNED'})];
+const levels=analyze([...equipmentTrace('valid','1','10'),...equipmentTrace('wrong-native','10','10'),...equipmentTrace('over-required','1','94')]);
+assert(!levels.issues.some(i=>i.death_id==='valid'));
+assert(levels.issues.some(i=>i.death_id==='wrong-native'&&i.kind==='MONSTER_EQUIPMENT_NATIVE_LEVEL_OR_REQUIREMENT_INVALID'));
+assert(levels.issues.some(i=>i.death_id==='over-required'&&i.kind==='MONSTER_EQUIPMENT_NATIVE_LEVEL_OR_REQUIREMENT_INVALID'));
+const out=path.resolve(import.meta.dirname,'../../../analysis/legacy_drop_20261018_live/analyzer_fixture');writeReport(result,out);
+writeReport(result,path.join(out,'compare'),path.join(out,'summary.json'));assert(fs.existsSync(path.join(out,'compare/comparison.csv')));
+console.log('PASS LegacyDropLogAnalyzer: duplicate, missing-ground, failed/pending/success pickup, rollback, high-tier review, CSV/Markdown comparison');

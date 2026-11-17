@@ -1,0 +1,148 @@
+{
+  "files": [
+    {
+      "role": "Client",
+      "relative": "CoreClient.dll",
+      "before": "259d2c1b3bf69966e3ea7d576e01cc33fa181039423b2d41a8e366beb527c8ff",
+      "sha256": "b172183f2259ad3d3cd80739201d9c5a4bcbf708c62cc30426b1210fa41442af"
+    },
+    {
+      "role": "Client",
+      "relative": "Game.exe",
+      "before": "0243e177e7e8143469d301a3892a873607878b6dc583fd335600408e1001e94d",
+      "sha256": "3ed000f8c337833f112e409b4eb00ac702c35e817c1e7cf8e855125fdc6edc51"
+    },
+    {
+      "role": "Client",
+      "relative": "loose_index.bin",
+      "before": "a97312db8d5bb467cadf22c6eeff7d1ee1d427eb09757a8e448ce342d2b5f5f1",
+      "sha256": "f4d195b6f433a1f19df1f340ed4a320443078a9009b91983ab48dc0195298363"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/ranking/166c0aafc25b9fe4.spr",
+      "before": null,
+      "sha256": "00abf4ace861da55b9c31fca8dfa36f27372673eec989845739d7f17a211dd5c"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/ranking/21ceecb4664a45cf.spr",
+      "before": null,
+      "sha256": "d8eaa29f0d569d3947106bd409b161964dd9ea4c3d1c832b6682698af74179b9"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/ranking/38b68404e51a5d85.spr",
+      "before": null,
+      "sha256": "cb6db4f863dbe6090098b31b4d8cac170b6a27e58071ea20309521dd0afff555"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/ranking/449b514c45463baf.spr",
+      "before": null,
+      "sha256": "01131a1590fc28cb3f6323a63b80e29526cce64522edc104e541ccf4bf891c86"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/ranking/4bd1ce336ee96f61.spr",
+      "before": null,
+      "sha256": "57861a0d2b68f9de52dcbb929034daa35dd7aab37d01f425ea01da5711198fd9"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/ranking/5123831293791583.spr",
+      "before": null,
+      "sha256": "9e87eb559e9cf7974a5b871d9e154b409ef7737e2e95d271102fcf19bf85d9b7"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/ranking/7172eaf1811a323d.spr",
+      "before": null,
+      "sha256": "630b1c01808c99548024e40875b9ca31483e9d881bd156ed72e868bd9e682381"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/ranking/7a3980467e6db4d9.spr",
+      "before": null,
+      "sha256": "2adfd2368bd4c3db5668d6526c2061a0c9909087699808059b006f1a45c57d08"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/ranking/7e8cb020f47778f2.spr",
+      "before": null,
+      "sha256": "695a5216bd89357893a2e0d7cf1ce544c3497a5b7d2c7196d7fad09db4b91873"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/ranking/8cc987ef710847b0.spr",
+      "before": null,
+      "sha256": "3a58d03c898f778fea80e4136e79e7b5687d9ab878ce2973365aea0475cd2054"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/ranking/922b9d5f54844ad5.spr",
+      "before": null,
+      "sha256": "aeeca3a330d9c302dd8bc26a7f8b947edaff6b94cbc3fa117d92281c02f93266"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/ranking/a228e503e8726ad7.spr",
+      "before": null,
+      "sha256": "04edfcc99c76bdf87046167f2e0720a9227f4277e4e88b806d1c9d5294da879d"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/ranking/a5b53531474da623.spr",
+      "before": null,
+      "sha256": "e083219244e553a35b8a3d5f8e1354804bb89d96484f2129369538305353ad15"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/ranking/cbc3bbc7db2334a5.spr",
+      "before": null,
+      "sha256": "425a2b63ef07ef65cef60b6dfc9fb86c4472c3a5df7a8e7dad44f89692b290b7"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/ranking/dd0067c3785f115b.spr",
+      "before": null,
+      "sha256": "dcfec8c43d18e5c2bd47c7c4eba03e3088568274451b17687f918c9812ebb704"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/ranking/e777f630cf07f17f.spr",
+      "before": null,
+      "sha256": "2500d53d2544786392dcb9dfc75bfec150a8a5fefa0797d6cd26b32d8c18f743"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/ranking/f9e35cd9a867143c.spr",
+      "before": null,
+      "sha256": "0399492a3a535ff6bd7fe409421b666a6b3509a400a84d1e9f0f7a81d0d1f77c"
+    },
+    {
+      "role": "Client",
+      "relative": "Ui/ui3/PtAuction.ini",
+      "before": "4c5c5337f2070ab16c6d6a4a67fcd90ca4457e17e3d2303c4a310eaaddf19c3c",
+      "sha256": "9eeb18f8167a261b2da109c061739e48cf645a665de7fa4e3ee1033f3b47d573"
+    },
+    {
+      "role": "Client",
+      "relative": "Ui/ui3/PtRanking.ini",
+      "before": null,
+      "sha256": "b05be3e6a3c73700d2c8b2df23236f2ceac5e7cdf61620fbff1261cb95edcfea"
+    },
+    {
+      "role": "completion",
+      "relative": "studio_effective_overrides.json",
+      "before": "aaa04781a71e0b661a54821c8d9216454d25df0b7f6dbc19fa306297f6af4efa",
+      "sha256": "a48c7869387fc4d50b1e3c603e411954339a3d176e8f48678e724830c310a9d0"
+    },
+    {
+      "role": "Server",
+      "relative": "CoreServer.dll",
+      "before": "3f2ed88e7f3c9d9402ecb4afbcdd3aa74686276073ed55d03e6cf87363587389",
+      "sha256": "6fa277092231dd32ad93fa75ea6d2567d29a32bc38f0f2d32a50c1f3f095f904"
+    }
+  ]
+}

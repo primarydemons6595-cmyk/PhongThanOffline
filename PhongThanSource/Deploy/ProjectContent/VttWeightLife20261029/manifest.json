@@ -1,0 +1,179 @@
+{
+  "schema": 1,
+  "files": [
+    {
+      "role": "Client",
+      "relative": "CoreClient.dll",
+      "sha256": "237afa90f57c8f035e18034159518861d1271b742a1bdf94b00346c15c80cf13",
+      "before": "a442a95a1ad32605bfa20269cc3ba56853523983823050d4b05bf9fddec9b3c6"
+    },
+    {
+      "role": "Client",
+      "relative": "Game.exe",
+      "sha256": "3afa9ea2897ca523229d482b4efb81c107ac34d56ed669af804f7a811792777a",
+      "before": "4a0f6f5c2323c6be1a041be9432e53ecf4de7c5bb38028481a6940b9e7b1bbd8"
+    },
+    {
+      "role": "Server",
+      "relative": "CoreServer.dll",
+      "sha256": "e544633bb83a901bbb6dee5017c9df1bc63a7af3e78b94e363c041ad77d88ec5",
+      "before": "c9bffb9294e144852b01710c583e74ddbf8aa69bf5a318d1e2061e6da557dca0"
+    },
+    {
+      "role": "Server",
+      "relative": "settings/phongthan/spawn_domains/1067.bin",
+      "sha256": "4d3dde7b93c2608d2b8ade72704194b5baeb33211e181e75f964fe058dfea9d5",
+      "before": "6335367fd47513dae4a79d3443c592e6d3096b72743205f701249cb77c8a79b0"
+    },
+    {
+      "role": "Server",
+      "relative": "settings/phongthan/spawn_domains/1068.bin",
+      "sha256": "f981510c2c97bb92e3030ffd4e12dcdb9f690cb77c95db0c9a6ad493ba51cf4e",
+      "before": "5885ffa3e5c15ce975129d2e8ccb518ce8e625e9efacdc741e48cf7f6451d417"
+    },
+    {
+      "role": "Server",
+      "relative": "settings/phongthan/spawn_domains/1069.bin",
+      "sha256": "cd5e7d1f3ba9bfcacdce2f2debd3f82701e46c505ee8781f90fc251db0a1559e",
+      "before": "5d6ce0a4799c0dcec12c8931bb0d801dc15ae12f6553af281e196bd8b10ea53d"
+    },
+    {
+      "role": "Server",
+      "relative": "settings/phongthan/spawn_domains/1070.bin",
+      "sha256": "3b558334dd4b1436acef5db53b889f0c975de4e7f6b9dbad20ec03d257cb7133",
+      "before": "840e7315d748efb55cb0649cd8a63925fec995d587a69ff745dcfca1fdc828bf"
+    },
+    {
+      "role": "Server",
+      "relative": "script/Î÷áª/ÄÄß¸.lua",
+      "sha256": "8767d16588ba7d2c04a9e0dd4e3b545a0b7aa94d6f2e3404989c8a3dbd3d3d52",
+      "before": "0a116a8c65410c1eab27f5b66639a49ba590994bcb25d7fb85750f69059d8988"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/daily/runtime.lua",
+      "sha256": "04c08d3e1036d200d5e1be99333ed896d89ad969a76a12d5bd99e3e46936053e",
+      "before": "431b8ef07771e16909641f51316aa220c9451fc1fc64d3d4441043ddd56eeaa3"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_recovered_batch/1001_41e3ecb2.lua",
+      "sha256": "fbf73fa5f1b8c735e10f74ad3cda62ac2500e89b4e67731ef13314c068842dc7",
+      "before": "6b66eca3e5fb09c0e093d06c3004f518ba7c831c648ca6aaf2546fffa0676df7"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/npc_recovered_batch/1020_0cf87e2d.lua",
+      "sha256": "f6c4961419f1b6210c6b0ea347259460a8192312bdaf666d8a8656d77258f93c",
+      "before": "6e0a53757433530a0cdbde3c59298fa5ee3de1182cdfafac7d1845fd5d2bb7e8"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/van_tien/boss1.lua",
+      "sha256": "94632f31c1644db9cc8bee088e6e0924bd8d9413a555d41152596798fe745ccf",
+      "before": "94632f31c1644db9cc8bee088e6e0924bd8d9413a555d41152596798fe745ccf"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/van_tien/boss2.lua",
+      "sha256": "a7225fb843f15b50d5d001769692d69c122231f5bcb7975932deec9f595b8484",
+      "before": "fe869b7f03dfb4646a3a43ba36be0b831a5558c5e32e663af0ee0456de494b55"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/van_tien/boss3.lua",
+      "sha256": "7ff16abe827f715a727db18fb6bc310f367a03a0b8d5b7eb3260ff195179b9e6",
+      "before": "bd86828f42346950fdf91ffc6e8f53cbc093df40c011e81b2abf99399828880c"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/van_tien/boss4.lua",
+      "sha256": "4782f7dd90e9ef648bc7e6e6a69bc2749d8bc62b14d02ff7b17f2474755be427",
+      "before": "a2ea22cd807cd10381b7862a5bbd2e5a2ac239354d2ab81064a949463d0498ba"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/van_tien/guard1.lua",
+      "sha256": "0fa6034f61c27c8bfcaddcce4999097e33960571e033c68067ef48621136fd18",
+      "before": "0fa6034f61c27c8bfcaddcce4999097e33960571e033c68067ef48621136fd18"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/van_tien/guard2.lua",
+      "sha256": "2bd3261506e2b1f52d4948331c41317a1eba78190b21760ab6d7d38f0214e49d",
+      "before": "8d340c7e2b95e50e71237275f0b8d9033c476787a6b0815032b30fb5f40b1512"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/van_tien/guard3.lua",
+      "sha256": "f3d5cb0378660c577f9e51d8074936f546527cab5d8645f5790dff261129051e",
+      "before": "0a0c9b384a458cebd4b46a7c5e640876a01bcb7f92d6592b2d3bd9bb6be2b976"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/van_tien/guard4.lua",
+      "sha256": "22408102c770b7880e7bb3271161a111dc2c50ed8c55dcd98aae726069a538d6",
+      "before": "d9c62ff6d92d1d9d60bdcc691d238e67ed4f959469df3ac0b2e18a632cd015c6"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/van_tien/mission01.lua",
+      "sha256": "78c332075129290f822c8ff119213f4b830527d4626644509b3532147cc2ed7d",
+      "before": "78c332075129290f822c8ff119213f4b830527d4626644509b3532147cc2ed7d"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/van_tien/mission02.lua",
+      "sha256": "15e22aeadf67ca35ba8c39d04f17c926ac154fcf7552bb397b2b2e4199770f32",
+      "before": "0cc699df7d2b123d94b7f928f9649ebf81448846a56d3850af42a0134b747816"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/van_tien/mission03.lua",
+      "sha256": "34cb9f971dfaf9b05cb308022db297518c2a6de26ebc06b32b565be996bed0c3",
+      "before": "845933f8c2715692f996d9939e3f80ad648ddccc794630710e96e1f46963119f"
+    },
+    {
+      "role": "Server",
+      "relative": "script/phongthan/van_tien/mission04.lua",
+      "sha256": "b07eed9332a0761d3c783facd7b789c50527eb651871733c744b001641596a21",
+      "before": "26976abff799c926cf7f65ea5ec7d3c0347d8d05fb54ea88b1249876a9d3e8f5"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/vtt/fence_down.spr",
+      "sha256": "1977bd80ee3fc3f4d85ae74b9d44b846dfe3394b3d243f39e3b322fd64dc77bd",
+      "before": "c40af45f5133e85d3682590afc37ddd81a17b960305fb9d8f3439f09b3c4436c"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/vtt/fence_up.spr",
+      "sha256": "4529227b96a8d33caa285a33006e0b5759b4af05d333ee03f15e8e664828fdf2",
+      "before": "95412b5c7237624bda79f029db4185666d8c2e27b4ac51f7a5f80566529b173d"
+    },
+    {
+      "role": "Client",
+      "relative": "spr/phongthan/vtt/gate_closed.spr",
+      "sha256": "0eeb140baa9fc32868b4e0191135f0f808c0db309dc1d996b8d0581006e5cc75",
+      "before": "2443afd7ff920ccef1b02376f688a378b473910f7691258f83d6ea10da43b1d7"
+    },
+    {
+      "role": "Client",
+      "relative": "Ui/ui3/taskinfo.ini",
+      "sha256": "00558b4c077d02c467a3aa71430355881f3c26046e4931dc759aef0765959825",
+      "before": "ec3c7ffc3a3f1d1ffcb5d05fccb2ed08a65b5f242f28b23ea1862a4050fc580d"
+    },
+    {
+      "role": "Client",
+      "relative": "Ui/ui4/taskinfo.ini",
+      "sha256": "7b0191bdb4ef35e8d90f034321e033f8ce80611ed98d3008529ea440582643db",
+      "before": "7fb7142739526615f56a18e09740ffb69aca8eeec64712e37cb466271475e2d1"
+    },
+    {
+      "role": "Client",
+      "relative": "Engine.dll",
+      "sha256": "2ce41bd9e65f8e356aa769d67cfa82c6fdac8f06f070b474a0fe5ae1bac8dbf0",
+      "before": "a59ab6c2d228319d867a06d66df4d5a3fee0a08575e785b948419955604291cd"
+    }
+  ]
+}

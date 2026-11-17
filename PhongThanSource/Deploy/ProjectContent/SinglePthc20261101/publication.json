@@ -1,0 +1,142 @@
+{
+  "Scope": "LOOSE_ONLY",
+  "Backup": "E:\\ProjectAI\\PhongThan\\PT\\analysis\\single_pthc_20261101\\runtime-before-20261101_010032.zip",
+  "Result": "PASS",
+  "Files": [
+    {
+      "Path": "Client/spr/pt_test/263d143f2e16.spr",
+      "Before": null,
+      "After": "f745ffe825db1e6ce14dea1faa068f92a2d70790035de876f87901d1c854e6d6"
+    },
+    {
+      "Path": "Client/spr/pt_test/27bc7bab6650.spr",
+      "Before": null,
+      "After": "2fecff92a9e29f2c4421c93d1b9563bcfa937b5cf959dfa61545b3139924dfe4"
+    },
+    {
+      "Path": "Client/spr/pt_test/cf36a7c6214b.spr",
+      "Before": null,
+      "After": "24529c22a0a9b34f5cab83648c2d825b4c1077f3d9d03cd88abc75fcfb55999a"
+    },
+    {
+      "Path": "Client/spr/pt_test/c4fdf9aa0be3.spr",
+      "Before": null,
+      "After": "3c203472857cc5a9e83feef949f38d264e24d10f46793f64ec26b51c18e0b176"
+    },
+    {
+      "Path": "Client/spr/pt_test/634de11a34b7.spr",
+      "Before": null,
+      "After": "2fe2d41a5dce05bc358193850ce14f2e262711c2868710ea3536a1506514cc14"
+    },
+    {
+      "Path": "Server/settings/item/001/signet.txt",
+      "Before": null,
+      "After": "3338ded62b69392638b84849118cd9b1908a929656203c530962c42243f67eb5"
+    },
+    {
+      "Path": "Client/settings/item/001/signet.txt",
+      "Before": null,
+      "After": "3338ded62b69392638b84849118cd9b1908a929656203c530962c42243f67eb5"
+    },
+    {
+      "Path": "Server/script/phongthan/test/event_handbook.lua",
+      "Before": "9746709d82cdfae1eb0caf50afbbae8bf31d491d65acdca80233d120228eb73a",
+      "After": "27f8294a20760b3e8c7f1ca6d0739e8c78167efedd0f637e0c38219bfa4028eb"
+    },
+    {
+      "Path": "Server/settings/item/001/ibitem.txt",
+      "Before": "c77e89d55d8a81a9cfa9948baa3ea8d32b23461376717bfba525e32f3c9cc28f",
+      "After": "5ce772ddaa43e34132c80a9286453ae56c2f25a9014dc577b4baf921911f604e"
+    },
+    {
+      "Path": "Server/settings/item/001/magicscript.txt",
+      "Before": "5224dcba355c52a97fcc4c8bf307c6297dc833390b20683c34381ada4c95ca1b",
+      "After": "1cd1e6b8daca538b3f9ef5dc1539233972bed92863b5c7174918bec7cdad3c45"
+    },
+    {
+      "Path": "Client/settings/item/001/ibitem.txt",
+      "Before": "b3a4c2b067ecce0066c928cf3fd0433639ba8e6a035dca0eac9a7c2d1693f254",
+      "After": "8866c32d60c6706ad915879ed66d64d9f3ddefe40435be25e5695fa8c9dd98a8"
+    },
+    {
+      "Path": "Client/settings/item/001/magicscript.txt",
+      "Before": "5224dcba355c52a97fcc4c8bf307c6297dc833390b20683c34381ada4c95ca1b",
+      "After": "1cd1e6b8daca538b3f9ef5dc1539233972bed92863b5c7174918bec7cdad3c45"
+    },
+    {
+      "Path": "Client/Ui/ui3/PtConsumableBuff.ini",
+      "Before": "272a642439e2946e82c865f6855b84b1fa6fb34e99186569e1641248fc4e2a22",
+      "After": "ef8eb658cf8552108e38d1268eb1ec84dc6c24ae3ac88898179e4c414c65eb55"
+    },
+    {
+      "Path": "Server/script/phongthan/items/treasure_map.lua",
+      "Before": null,
+      "After": "2ee699df3088efc24323062d0ac35dd06ebd8ed31279846f3c57215d93aac3f6"
+    },
+    {
+      "Path": "Server/script/phongthan/npc/fortune_teller.lua",
+      "Before": null,
+      "After": "518796c8d2e3a55cebd49882677c9b2ddc47251e57cc353c4820e58fb261efe9"
+    },
+    {
+      "Path": "Server/settings/phongthan/npc_regions/1021/v_093/106_npc_s.dat",
+      "Before": null,
+      "After": "e5b4cd124d60d9966f0ab665414e12b8849dc7ba7436e02be2ce0e178a09a4a8"
+    },
+    {
+      "Path": "Server/settings/phongthan/NpcDisplayNames.txt",
+      "Before": "e65762a27e198412ccaceb1d6c1c63ba19b121efe7dcdbb0b3dd392fdf4dc36c",
+      "After": "922787dd3d0d6682ff836e53bdfa2386f94bbddfb5546174f234f42dc340ba22"
+    },
+    {
+      "Path": "Client/settings/phongthan/NpcDisplayNames.txt",
+      "Before": "bdfe862358c51c8625df74e1ba227400268b24bc929ccfeea04167ac2ff1d5d8",
+      "After": "f24f4079eb0217a4309981804b71573eab6b899a466500253254aa67fcfb40c7"
+    },
+    {
+      "Path": "Server/CoreServer.dll",
+      "Before": "81c0e437298f98aa8f47ba5ee9fb16e85a44586083785ac658eeac2d5e6f5bb6",
+      "After": "f8d5aa3cd5deb0978311460daf44ac97e425986df96233af238df640b3d7afa1"
+    },
+    {
+      "Path": "Client/CoreClient.dll",
+      "Before": "d4e82b235d000d33988b65fddf3e8b5f57e19702c0d0ba8e612f6d96ed936916",
+      "After": "7b8f2570119ff1144b8a116bc03aed90f9e241fab949eb972c031280a5175e18"
+    },
+    {
+      "Path": "Client/Game.exe",
+      "Before": "2bbe3f24db809475bd9d479f503d6a598e84a0dc490cb0b84f786e254fcade0d",
+      "After": "7b8522acdbd1324c96def9db5697ad0266fa11c7af9bff4364e90ab15382250e"
+    },
+    {
+      "Path": "Server/GameServer.exe",
+      "Before": "21d70b22247e8b610be1912661ab9ed2691cade7b2503286fc4f6cce5a6cf0fd",
+      "After": "6e9f27d08818d5cb4dcd3bc5b0820878f3bed6981e67c87abf1f875f0a420452"
+    },
+    {
+      "Path": "Server/Goddess.exe",
+      "Before": "0060cd451c00b44471e78f91b789b36c350c11a83fe9f8385eaf50d48f7c9f53",
+      "After": "16ddd197e034a3eb2796be2eee0f225e8215aade92f74992d9e4a5e79270d014"
+    },
+    {
+      "Path": "ManagerStudio/Release/PhongThanCharacterEditor.dll",
+      "Before": "ff8feb15b6de4e50fcd7124b161fe8aa6fb370cd190fc74258a762dd80319a34",
+      "After": "1e018d437304545a6b3f19f5a310439cbd8533b068ce7a238d2dc856a11bc9cf"
+    },
+    {
+      "Path": "ManagerStudio/Release/PhongThanStudio.Character.dll",
+      "Before": "019d3b3cc45d1fc0cfd9d2a4738582f89510e65e1ef7bd77a6abba8e0aec9a41",
+      "After": "ef88821e9a2ac41488d37ebac0a4499a24cd35b9492a0c5a06f2513e0f8a0846"
+    },
+    {
+      "Path": "ManagerStudio/Release/PhongThanStudio.Core.dll",
+      "Before": "9713a5906c49f5199b9fce8449db90aecc52e4439b580e8b5b18f8cd38fb3c3d",
+      "After": "2e4d60227c9eb176ea9c7a85df2d440017c936e227e6d035d49bb91f194e0654"
+    },
+    {
+      "Path": "ManagerStudio/Release/PhongThanStudio.dll",
+      "Before": "73c02b2204bdd03e12f1ce98af0dcc6bf6e57f1af0f926f671840bec56956696",
+      "After": "db78293b462e97939d57e0c33df5445acde5ececc49522345120aadfefe0f690"
+    }
+  ]
+}

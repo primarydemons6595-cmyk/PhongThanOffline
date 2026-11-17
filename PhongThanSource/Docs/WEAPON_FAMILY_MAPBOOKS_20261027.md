@@ -1,0 +1,14 @@
+# Vũ khí 1x, sách bản đồ và thú cưỡi Nghịch Thiên — 27/10/2026
+
+Gói `Deploy/ProjectContent/WeaponFamilyMapBooks20261027` gồm CoreClient.dll và hai cặp bảng Client/Server: VNG_WeaponPart.txt, PhongThanHorseVisual.txt (5 file). Chỉ coi là đã triển khai khi có receipt `analysis/weapon_family_mapbooks_20261027/publication.json`.
+
+- Sách Mini/Tab dùng primitive thu nhỏ SPR có alpha của Represent2 đang chạy: khung 32×32 thành 16×16; điểm giữa giữ đúng tọa độ NPC. Không đổi sách trên đầu NPC, màu hay điều kiện nhận nhiệm vụ. Runtime dùng Represent=2; kích thước vẽ đã kiểm tra ở painter và mã scaler hiện hữu, chưa nghiệm thu ảnh client sau triển khai.
+- Các dòng đầu của một số họ vũ khí Hoàng Kim dùng nhầm chỉ số: Đạo Sĩ Tích Lịch Kiếm chọn resource 31 trong bảng chỉ có 27 dòng, nên không có model; Giáp Sĩ Tam Tiêm chọn resource 11 của vũ khí ngắn thay cho resource 21 của vũ khí dài cấp đầu. Đối chiếu 80 record của họ Particular 0..7, tier 1..10: Giáp ngắn 1..10, Giáp dài 21..30, Đạo/Dị 1..10, cả hai họ thường/vàng. Chỉ 6 cell Client và 5 cell Server cần sửa; các cell đúng giữ nguyên. Không dịch toàn bảng một đơn vị. Giữ sửa trước cho Đại đao/Pháp kiếm/Hỗn thế phủ tân thủ key 91/101/111.
+- Nghịch Lân/Long/Lôi – Tinh: 30 record 4001..4030 trước đây rơi về VNG resource 7, chọn dòng Hổ/Phượng/Bướm. Override riêng về resource 6, tức native row 5: jsx06 (Kỳ Lân), ssx06 (Rồng), yrx06 (cánh Nghịch Lôi). Đã giải mã và xem contact sheet SPR gốc, không suy luận chỉ từ tên file.
+- Bạch Kim Nghịch Thiên – Phong Lôi Song Dực: thêm cùng sửa cho 10 record 291..300, bỏ ánh xạ cánh bướm yrx07 và dùng yrx06. Giữ palette riêng của từng record và mọi override thú cưỡi khác.
+
+Xác minh: CoreClient Release build exit 0; native painter kiểm tra viewport Mini/Tab, màu, map, expiry và khung 16×16. Native WeaponFamilyTests liên kết object production KPhongThanAppearance + KNpcResNode và Engine: 960 trường hợp của 80 vũ khí, ba nghề nam/nữ, đứng/chạy/đánh, cưỡi/không cưỡi; assert đúng tên nhóm SPR cho 1x và đọc header SPR thật. Kiểm tra 40 record thú cưỡi về row 5; kiểm tra lớp hh/hb/ht thực sự tồn tại cho nam/nữ ba nghề ở ba hành động. Những layer rỗng có chủ đích không được thay bằng model giả. Không thay chỉ số hay dữ liệu nhân vật.
+
+Publisher sao lưu và kiểm tra hash trước/sau, dừng world sạch, đối chiếu toàn bộ role_*.pthc, rồi nạp lại world để server đọc bảng appearance mới. Client và editor phải đóng khi thay file. Sau triển khai vẫn cần người chơi kiểm tra hình ảnh trong game.
+
+?? tri?n khai th?nh c?ng ng?y 27/10/2026. World PID 127696, 4054 NPC; d? li?u nh?n v?t kh?ng ??i; ??i chi?u l?i ?? 5 hash runtime. Ch?y l?i WeaponFamilyTests tr?c ti?p qua loose loader Client runtime sau c?p nh?t: PASS 960 tr??ng h?p v? kh? v? 40 record th? c??i. Ch?a nghi?m thu h?nh ?nh phi?n ??ng nh?p m?i.

@@ -1,0 +1,355 @@
+{
+  "scope": "LOOSE_ONLY",
+  "files": [
+    {
+      "path": "Server/settings/item/001/ibitem.txt",
+      "sha256": "b5801f43cfdc1c6a13011a94872c3583569c41f1e73fb6b202aa93d39d105fa8",
+      "before_sha256": "277ed1b0da510b5b3efd3ef0478bbdb2f735c94d213a62ff0568c154f10c98e5"
+    },
+    {
+      "path": "Server/script/phongthan/items/f2_gifts.lua",
+      "sha256": "fd6b019b38ef0d8321f2c2f3822bf0c54135126bbe9f11316f9813adcad3a98f",
+      "before_sha256": null
+    },
+    {
+      "path": "Server/script/phongthan/items/experience_lock.lua",
+      "sha256": "762e55b29151d1b7e651b44772cc6fe12facf9a02dd33a963a8689b7558cd44c",
+      "before_sha256": null
+    },
+    {
+      "path": "Server/settings/ibshop/ibshopgoods.txt",
+      "sha256": "d29e603d23200ef764b7d5eed26d032d2374cf5821bc5600ec35e5f27e8a7475",
+      "before_sha256": "099af5fe17ad61d55859c4932ea92541afd4389edf9f258cb8afd154b943091c"
+    },
+    {
+      "path": "Server/settings/ibshop/micsgoods.txt",
+      "sha256": "c850b580da29cc5c931de154baad7621e3c42a490c8bad92387e6856e59a67cc",
+      "before_sha256": "768668f8bb4f778f4e3d33ba3fabb2f1aa7a99127af64d7dcd23e60b2a04aa75"
+    },
+    {
+      "path": "Server/settings/phongthan/ConsumableEffects.txt",
+      "sha256": "341953aae7fa10a179e3482eb8c8db0c3f402d2866645978617de0f031811abb",
+      "before_sha256": "e77730afbd1dfea651b237fbe50cd41d2dcc0baf558c69fce462c4aa3a624719"
+    },
+    {
+      "path": "Client/settings/item/001/ibitem.txt",
+      "sha256": "a44d086de0c89e71491457914a4b8a0d7a8e1734849a9c745a29482541fd22ec",
+      "before_sha256": "c7049a58390412ea8b07d8925c6a34c7b30561cfe394f31d4586e26f21ddf2c3"
+    },
+    {
+      "path": "Client/settings/ibshop/ibshopgoods.txt",
+      "sha256": "d29e603d23200ef764b7d5eed26d032d2374cf5821bc5600ec35e5f27e8a7475",
+      "before_sha256": "099af5fe17ad61d55859c4932ea92541afd4389edf9f258cb8afd154b943091c"
+    },
+    {
+      "path": "Client/settings/ibshop/micsgoods.txt",
+      "sha256": "c850b580da29cc5c931de154baad7621e3c42a490c8bad92387e6856e59a67cc",
+      "before_sha256": "768668f8bb4f778f4e3d33ba3fabb2f1aa7a99127af64d7dcd23e60b2a04aa75"
+    },
+    {
+      "path": "Client/settings/phongthan/ConsumableEffects.txt",
+      "sha256": "341953aae7fa10a179e3482eb8c8db0c3f402d2866645978617de0f031811abb",
+      "before_sha256": "e77730afbd1dfea651b237fbe50cd41d2dcc0baf558c69fce462c4aa3a624719"
+    },
+    {
+      "path": "Client/Ui/ui3/PtNativeTimedItems.ini",
+      "sha256": "60ec2fd32d6742a5648860d41e1f5139ad022113aa1987d8902f9a35e3fd41a8",
+      "before_sha256": "15976eb5190eb7afdf7a95e5a13eb495b408200363d47e88275abe334df6ec4d"
+    },
+    {
+      "path": "Server/script/phongthan/items/compass.lua",
+      "sha256": "190cecd9d09efae4ce2c46d6513aee0592d4c4e360de26b61fa3abe86551c824",
+      "before_sha256": null
+    },
+    {
+      "path": "Server/script/phongthan/travel_items.lua",
+      "sha256": "1cd69681e7c4ad9f26c53ce455e6ce7b2ff2ed96a57ee79140cbd0b7b2645168",
+      "before_sha256": "fa9be45bfdcb9da7808b24dcbb69a1f1a3a73814a508b2742d4cb3a52f7d46e0"
+    },
+    {
+      "path": "Client/Ui/ui3/PtConsumableBuff.ini",
+      "sha256": "d576a6aaa55eb7f200bac134a93957abbdf8ae3a0730aed6fd557c56c648db51",
+      "before_sha256": "6ddd62740f4c4e7bd6be00ffda855772848d1b8e8afcf709a28f5ca77ff18549"
+    }
+  ],
+  "gifts": {
+    "295": [
+      [
+        3,
+        41,
+        0,
+        0,
+        9
+      ]
+    ],
+    "213": [
+      [
+        3,
+        3,
+        0,
+        0,
+        100
+      ]
+    ],
+    "288": [
+      [
+        3,
+        15,
+        0,
+        0,
+        5
+      ],
+      [
+        3,
+        16,
+        0,
+        0,
+        5
+      ],
+      [
+        3,
+        17,
+        0,
+        0,
+        5
+      ],
+      [
+        3,
+        18,
+        0,
+        0,
+        5
+      ],
+      [
+        3,
+        19,
+        0,
+        0,
+        5
+      ],
+      [
+        3,
+        20,
+        0,
+        0,
+        5
+      ],
+      [
+        3,
+        21,
+        0,
+        0,
+        5
+      ]
+    ],
+    "285": [
+      [
+        3,
+        8,
+        0,
+        0,
+        100
+      ],
+      [
+        3,
+        9,
+        0,
+        0,
+        100
+      ],
+      [
+        3,
+        10,
+        0,
+        0,
+        100
+      ],
+      [
+        3,
+        11,
+        0,
+        0,
+        100
+      ],
+      [
+        3,
+        12,
+        0,
+        0,
+        100
+      ],
+      [
+        3,
+        13,
+        0,
+        0,
+        100
+      ]
+    ],
+    "286": [
+      [
+        3,
+        22,
+        0,
+        0,
+        100
+      ],
+      [
+        3,
+        23,
+        0,
+        0,
+        100
+      ],
+      [
+        3,
+        24,
+        0,
+        0,
+        100
+      ],
+      [
+        3,
+        25,
+        0,
+        0,
+        100
+      ]
+    ],
+    "287": [
+      [
+        0,
+        4,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        4,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        4,
+        2,
+        1,
+        1
+      ],
+      [
+        0,
+        4,
+        3,
+        1,
+        1
+      ],
+      [
+        0,
+        4,
+        4,
+        1,
+        1
+      ],
+      [
+        0,
+        4,
+        5,
+        1,
+        1
+      ]
+    ],
+    "448": [
+      [
+        0,
+        4,
+        6,
+        1,
+        1
+      ],
+      [
+        0,
+        4,
+        7,
+        1,
+        1
+      ],
+      [
+        0,
+        4,
+        8,
+        1,
+        1
+      ],
+      [
+        0,
+        4,
+        9,
+        1,
+        1
+      ]
+    ],
+    "449": [
+      [
+        0,
+        4,
+        10,
+        1,
+        1
+      ],
+      [
+        0,
+        4,
+        11,
+        1,
+        1
+      ],
+      [
+        0,
+        4,
+        12,
+        1,
+        1
+      ],
+      [
+        0,
+        4,
+        13,
+        1,
+        1
+      ]
+    ],
+    "1408": [
+      [
+        0,
+        4,
+        14,
+        1,
+        1
+      ],
+      [
+        0,
+        4,
+        15,
+        1,
+        1
+      ],
+      [
+        0,
+        4,
+        16,
+        1,
+        1
+      ],
+      [
+        0,
+        4,
+        17,
+        1,
+        1
+      ]
+    ]
+  },
+  "confirmed_special_bag_price_xu": 6
+}

@@ -1,0 +1,129 @@
+{
+  "scope": "LOOSE_ONLY",
+  "files": [
+    {
+      "path": "Server/script/phongthan/van_tien/thien_hung.lua",
+      "sha256": "03225843403b9e025f0a5a5759e78e3b122a1148c2dd37424da9e8f0977bf60f",
+      "before_sha256": null
+    },
+    {
+      "path": "Server/script/phongthan/van_tien/mission01.lua",
+      "sha256": "52029a0ebead47bc0df6d6352810d83ebe62defd0aea4f61fdcf4cc8727c00a5",
+      "before_sha256": "78c332075129290f822c8ff119213f4b830527d4626644509b3532147cc2ed7d"
+    },
+    {
+      "path": "Server/settings/phongthan/npc_regions/1067/v_102/082_region_s.dat",
+      "sha256": "234d53d6f379068f1f372f807286423ea4dfb3c5a8214b791e02d053d58c2597",
+      "before_sha256": "6be5b9478015848009ef2c4eeb50375b0c860de45fea338a7ec9a04778c71a83"
+    },
+    {
+      "path": "Server/script/phongthan/van_tien/mission02.lua",
+      "sha256": "0010cbc5ad96bfa9df96f3ce3e552fc5d43b659c84d4244d367a043d18095101",
+      "before_sha256": "15e22aeadf67ca35ba8c39d04f17c926ac154fcf7552bb397b2b2e4199770f32"
+    },
+    {
+      "path": "Server/settings/phongthan/npc_regions/1068/v_111/109_region_s.dat",
+      "sha256": "0aa526caf768bea57851cab65368aaaa9a47dbbd3555eed542f0fb3cd7f49b5c",
+      "before_sha256": "e9038b0ab1a6d86492ed03bd1ea62d2e0d7f841bdd3dd9bdfeb7b8acb564d80c"
+    },
+    {
+      "path": "Server/script/phongthan/van_tien/mission03.lua",
+      "sha256": "34cb9f971dfaf9b05cb308022db297518c2a6de26ebc06b32b565be996bed0c3",
+      "before_sha256": "34cb9f971dfaf9b05cb308022db297518c2a6de26ebc06b32b565be996bed0c3"
+    },
+    {
+      "path": "Server/settings/phongthan/npc_regions/1069/v_106/103_region_s.dat",
+      "sha256": "007055e65e581de9aa5c9e31ac677c412e3f9df48c036f2a619b78b800ac358a",
+      "before_sha256": "74c8c7bf80c6111855d5116b40a6384fdc7fa9c9b9d22a4f4b0be87cf8c1ab59"
+    },
+    {
+      "path": "Server/script/phongthan/van_tien/mission04.lua",
+      "sha256": "da165d8250a7653eab468faa37e8606dbc0e934b1ccff20d9ce34836828cd5a6",
+      "before_sha256": "b07eed9332a0761d3c783facd7b789c50527eb651871733c744b001641596a21"
+    },
+    {
+      "path": "Server/settings/phongthan/npc_regions/1070/v_094/104_region_s.dat",
+      "sha256": "29b2e7cd19d6d1586c205652f9a5e46254d2a2163be6e9e89b9c00677bc0e52c",
+      "before_sha256": "4d77bb8ad621ae7426448e0e0d56927560ab040ba67fe6ef06954ec58427e8d1"
+    }
+  ],
+  "placements": [
+    {
+      "world": 1067,
+      "template": 155,
+      "x": 42464,
+      "y": 104928,
+      "display": [
+        165,
+        204
+      ],
+      "doctor": [
+        42336,
+        104928
+      ],
+      "override": "settings/phongthan/npc_regions/1067/v_102/082_region_s.dat",
+      "coordinate_provenance": "authored walkable point adjacent to existing doctor; original Thien Hung template and callbacks"
+    },
+    {
+      "world": 1068,
+      "template": 155,
+      "x": 56128,
+      "y": 114112,
+      "display": [
+        219,
+        222
+      ],
+      "doctor": [
+        56000,
+        114112
+      ],
+      "override": "settings/phongthan/npc_regions/1068/v_111/109_region_s.dat",
+      "coordinate_provenance": "authored walkable point adjacent to existing doctor; original Thien Hung template and callbacks"
+    },
+    {
+      "world": 1069,
+      "template": 155,
+      "x": 52864,
+      "y": 108768,
+      "display": [
+        206,
+        212
+      ],
+      "doctor": [
+        52736,
+        108768
+      ],
+      "override": "settings/phongthan/npc_regions/1069/v_106/103_region_s.dat",
+      "coordinate_provenance": "authored walkable point adjacent to existing doctor; original Thien Hung template and callbacks"
+    },
+    {
+      "world": 1070,
+      "template": 155,
+      "x": 53536,
+      "y": 97088,
+      "display": [
+        209,
+        189
+      ],
+      "doctor": [
+        53408,
+        97088
+      ],
+      "override": "settings/phongthan/npc_regions/1070/v_094/104_region_s.dat",
+      "coordinate_provenance": "authored walkable point adjacent to existing doctor; original Thien Hung template and callbacks"
+    }
+  ],
+  "registration_timers": [
+    3001,
+    3003,
+    3005,
+    3007
+  ],
+  "combat_timers": [
+    3002,
+    3004,
+    3006,
+    3008
+  ],
+  "npc_script_source": "script/phongthan/npc_recovered_batch/1021_b5deef29.lua"
+}

@@ -1,0 +1,54 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import crypto from 'node:crypto';
+import {fileURLToPath} from 'node:url';
+const source=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../..');
+const workspace=path.dirname(source);
+const server=path.join(workspace,'PhongThanRuntime-Loose','Server');
+const output=path.join(workspace,'analysis','legacy_drop_20261017');
+fs.mkdirSync(output,{recursive:true});
+const hash=b=>crypto.createHash('sha256').update(b).digest('hex');
+const read=p=>fs.readFileSync(p);
+const drop=path.join(server,'settings','item','droprate');
+if(!fs.statSync(drop).isDirectory())throw Error('Loose drop directory missing');
+const dec=new TextDecoder('gbk');
+const fields=['Treasure','Treasure1','DropRateFile','DropRateFile1','DropRateFile2','DropRateFile3','DeathScript','LevelScript'];
+const text=read(path.join(server,'settings','phongthan','Npcs.txt')).toString('latin1');
+const lines=text.split(/\r?\n/);const headers=lines.shift().split('\t');
+for(const f of fields)if(!headers.includes(f))throw Error(`NPC column missing ${f}`);
+const files=fs.readdirSync(drop).filter(n=>/\.ini$/i.test(n)).sort();
+const parse=buffer=>{const sections=[];let current;const issues=[];
+  for(const [lineNo,raw] of buffer.toString('latin1').split(/\r?\n/).entries()){
+    const line=raw.trim();if(!line||/^[;#]/.test(line))continue;
+    const m=line.match(/^\[(.*)\]$/);if(m){if(sections.some(s=>s.name===m[1]))issues.push(`DUPLICATE_SECTION:${m[1]}`);current={name:m[1],fields:{},rawFields:[]};sections.push(current);continue;}
+    const eq=line.indexOf('=');if(!current||eq<0){issues.push(`MALFORMED_LINE:${lineNo+1}`);continue;}
+    const key=line.slice(0,eq).trim(),value=line.slice(eq+1).trim();
+    if(Object.hasOwn(current.fields,key))issues.push(`DUPLICATE_KEY:${key}`);
+    current.rawFields.push([key,value]);current.fields[key]=value;
+  }return {sections,issues};};
+const tables=files.map(name=>{const bytes=read(path.join(drop,name)),p=parse(bytes),main=p.sections.find(s=>s.name==='Main')?.fields??{};
+  const rows=p.sections.filter(s=>s.name!=='Main'),sum=rows.reduce((s,r)=>s+Number(r.fields.RandRate??0),0);
+  if(Number(main.Count)!==rows.length)p.issues.push('COUNT_MISMATCH');
+  return {name,sha256:hash(bytes),size:bytes.length,...p,sum,range:Number(main.RandRange),overflow:sum>Number(main.RandRange)};});
+const npcs=lines.filter(l=>l.trim()).map((l,id)=>{const cols=l.split('\t');const result={id,nameCP936:dec.decode(Buffer.from(cols[0]??'','latin1')),rawNameHex:Buffer.from(cols[0]??'','latin1').toString('hex')};
+ for(const f of fields)result[f]=cols[headers.indexOf(f)]??'';
+ result.links=[0,1,2,3].map(slot=>{const raw=result[slot?'DropRateFile'+slot:'DropRateFile'];const bytes=Buffer.from(raw,'latin1');
+   const gbk=dec.decode(bytes),verbatim=raw;const normalized=raw.replaceAll('\\','/');
+   const base=normalized.split('/').at(-1);const gbkBase=dec.decode(Buffer.from(base,'latin1'));
+   const exact=files.find(f=>f===gbkBase)||files.find(f=>f===base);
+   return {slot,rawHex:bytes.toString('hex'),cp936:gbk,verbatim,expectedPath:normalized,exists:!raw||raw==='0'?null:!!exact,file:exact??null,lookup:exact===gbkBase?'EXACT_CP936':exact?'EXACT_LATIN1':'MISSING',containsDirectory:normalized.includes('/')};});return result;});
+const missing=npcs.flatMap(n=>n.links.filter(l=>l.exists===false).map(l=>({npc:n.id,...l})));
+const fingerprints=[];
+function record(p){if(fs.existsSync(p)&&fs.statSync(p).isFile())fingerprints.push({path:path.relative(workspace,p),sha256:hash(read(p))});}
+for(const f of files)record(path.join(drop,f));record(path.join(server,'settings','phongthan','Npcs.txt'));
+const compareRoots=['Client_Original','PhongThanRuntime-Loose/Client'];
+const comparisons=compareRoots.map(root=>{const dir=path.join(workspace,root,'settings/item/droprate');if(!fs.existsSync(dir))return {root,present:false};const names=fs.readdirSync(dir).filter(f=>/\.ini$/i.test(f));return {root,present:true,files:names.length,same:tables.filter(t=>fs.existsSync(path.join(dir,t.name))&&hash(read(path.join(dir,t.name)))===t.sha256).length};});
+const report={server,output,source,npcCount:npcs.length,columnIndexes:Object.fromEntries(fields.map(f=>[f,headers.indexOf(f)+1])),npc82:npcs.find(n=>n.id===82),tableCount:tables.length,overflow:tables.filter(t=>t.overflow).map(t=>({file:t.name,sum:t.sum,range:t.range})),missing,comparisons,tables,npcs,fingerprints};
+fs.writeFileSync(path.join(output,'audit.json'),JSON.stringify(report,null,2));
+const csv=rows=>rows.map(row=>row.map(v=>'"'+String(v??'').replaceAll('"','""')+'"').join(',')).join('\n')+'\n';
+fs.writeFileSync(path.join(output,'npc_drop_manifest.csv'),csv([['npc','name_cp936',...fields,'slot','raw_path_hex','path_cp936','file','lookup'],...npcs.flatMap(n=>n.links.map(l=>[n.id,n.nameCP936,...fields.map(f=>f.startsWith('DropRate')||f.endsWith('Script')?dec.decode(Buffer.from(n[f],'latin1')):n[f]),l.slot,l.rawHex,l.cp936,l.file,l.lookup]))]));
+fs.writeFileSync(path.join(output,'input_hashes.json'),JSON.stringify(fingerprints,null,2));
+const tuples=new Set(tables.flatMap(t=>t.sections.filter(s=>s.name!=='Main').map(s=>[s.fields.Genre,s.fields.Detail,s.fields.Particular,s.fields.Level??'-1']).filter(t=>t.every(v=>/^-?\d+$/.test(v))).map(t=>t.join(' '))));
+fs.writeFileSync(path.join(output,'tuples.txt'),[...tuples].sort().join('\n')+'\n');
+fs.writeFileSync(path.join(output,'references.hex'),npcs.flatMap(n=>n.links.filter(l=>l.exists!==null).map(l=>`${n.id} ${l.slot} ${l.rawHex}`)).join('\n')+'\n');
+console.log(JSON.stringify({server,tables:tables.length,npcs:npcs.length,overflow:report.overflow.length,missing:missing.length,issues:tables.filter(t=>t.issues.length).map(t=>({name:t.name,issues:t.issues})),npc82:report.npc82,comparisons},null,2));

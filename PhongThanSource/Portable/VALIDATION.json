@@ -1,0 +1,37 @@
+{
+  "tested_utc": "2026-11-10T10:27:19.895131+00:00",
+  "scope": "Relocated copy on current Windows x64 host; not a fresh-machine VM",
+  "sql_restore": {
+    "source": "SQL Server 2022 Express account COPY_ONLY backup",
+    "target": "dedicated LocalDB 17.0 test instance",
+    "accounts": 14,
+    "habitus": 14,
+    "server_list": 4,
+    "table_checksums_match": true,
+    "dbcc_checkdb": true,
+    "native_32bit_sql_driver_connection": true
+  },
+  "state": {
+    "files_sha256_verified": 423,
+    "sqlite_integrity_check": true,
+    "model_reassembled_sha256_verified": true
+  },
+  "repeat_setup": {
+    "existing_database_sentinel_preserved": true,
+    "existing_player_state_preserved": true,
+    "no_restore_over_existing_database": true
+  },
+  "build": {
+    "relocated_vc6_lualibdll_release": "passed",
+    "relocated_studio_app_release": "passed; 0 warnings, 0 errors"
+  },
+  "prerequisites": {
+    "all_installers_microsoft_signature_valid": true,
+    "installer_execution_on_clean_windows": "not tested"
+  },
+  "not_exercised": [
+    "full client/server startup on fresh Windows",
+    "GPU driver/Vulkan readiness on another GPU",
+    "online API keys and publisher DPAPI migration"
+  ]
+}

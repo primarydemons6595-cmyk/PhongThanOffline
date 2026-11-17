@@ -1,0 +1,15 @@
+{
+  "scope": "Original exit dialog only; no extra ESC row or manual offline reward menu",
+  "files": [
+    {
+      "path": "Client/Ui/ui3/UiESCDlg.ini",
+      "sha256": "a30366724f29ba14df252b6ac67d4cba4ccd27d47b4506dfa8c7aabb1cf7afe8",
+      "before_sha256": "5cab55c8620898a7f7de93e0d83d22f9a59e3a1bb76c9e38f9bfe00d9d9f88dd"
+    },
+    {
+      "path": "Server/script/system/uythac.lua",
+      "sha256": "d856635efd548fe25572105720bff862d3fe478d61f80a85a80f93def48ddc08",
+      "before_sha256": "9fd35bccc0a3cf8ffc6f476ab45a428aa4e22c333418d9402c78ba0a4e51176c"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+﻿{
+    "scope":  "Whole-map task books; story gold and daily/side blue; read-only roulette/scout availability; F11/F6 attention",
+    "files":  [
+                  {
+                      "role":  "Client",
+                      "relative":  "CoreClient.dll",
+                      "before":  "dc30d929ceb34369307eeec3330c49ad3914a98d68f58d56bd3d15b33f2b4256",
+                      "sha256":  "e15d92f2d6b43db21383f470011c6bb0c7fa3e3e87f0a8611031f95798d0b076"
+                  },
+                  {
+                      "role":  "Client",
+                      "relative":  "Game.exe",
+                      "before":  "3447346d1bf7103b43556da55a865e181ee8c725681bdb3e30171f72a3516b3e",
+                      "sha256":  "ac713bb96f24068a9ea9603587327bc11c4124eed96b4901a3e6b209a033f756"
+                  },
+                  {
+                      "role":  "Server",
+                      "relative":  "CoreServer.dll",
+                      "before":  "0785a724547b0a9735e6d5e5b9c749a94de4f0d1a9074666e77dab3e4b04b564",
+                      "sha256":  "65d2a008dd0c8ba0fd8ae64ad49b94ec8fd2ff3760305c019eb75642104921c4"
+                  },
+                  {
+                      "role":  "Server",
+                      "relative":  "script/phongthan/npc_recovered_batch/1020_828485f4.lua",
+                      "before":  "d3bd5b1d5b7cefc2c7ffd29e732e220db8ff72c292f6c44625f678f15d0f9bce",
+                      "sha256":  "dbcfae1064eb97ce382a403eeb68330f29cc832db2e12da0cfcccfe3753f9a0b"
+                  },
+                  {
+                      "role":  "Server",
+                      "relative":  "script/phongthan/npc_recovered_batch/1021_828485f4.lua",
+                      "before":  "0317f3115165ce5da8c592acbec9d207080fa9a196ceb692b43b3f419850785f",
+                      "sha256":  "c8892aa016af9ee2344233408f35f7e1a1485a2f9971f9151f2d58bda9e5a9da"
+                  },
+                  {
+                      "role":  "Server",
+                      "relative":  "script/phongthan/npc_restore/1021_16.lua",
+                      "before":  "786d7efdb0bdddb4fecdbae25e5691bd048d66fa1115456814b27025159bac90",
+                      "sha256":  "9264d8274b575fc2ea17a0c57d48cd5b4811cecdef8011e047dfbdff1a7d54db"
+                  },
+                  {
+                      "role":  "Server",
+                      "relative":  "script/³¯¸è/»ÆÌì»¯.lua",
+                      "before":  "a01b0dbe8e8e20469c7b92989111db26ea521e2d7a26b7f1e5647aa328f37bb4",
+                      "sha256":  "c9a56aab8d70d3649f97f67315f26e9c4028db4e12466fca20199eb0dcb85358"
+                  },
+                  {
+                      "role":  "Server",
+                      "relative":  "script/Ñþ³Ø/º¯Ö¥ÏÉ×Ó.lua",
+                      "before":  "decbcba44d5975bab158ea76189cfd6771e268211c39655a13ba0883ebf105fe",
+                      "sha256":  "a1ccdd06db85fd98af2106a048e1434b1c3ed1b2f9c625214c5e8d2a6b245d52"
+                  }
+              ]
+}
