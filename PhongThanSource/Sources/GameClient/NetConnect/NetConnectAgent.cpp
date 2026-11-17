@@ -426,7 +426,6 @@ void KNetConnectAgent::Breathe() {
                             Msg.byParamSize = 0;
                             Msg.byPriority = 0;
                             Msg.eType = SMT_NORMAL;
-                            Msg.nMsgID = -1;
                             Msg.uReservedForUi = 0;
                             strcpy(Msg.szMessage, pSave->Result == 0
                                 ? "Da luu game." : "Luu game that bai!");
