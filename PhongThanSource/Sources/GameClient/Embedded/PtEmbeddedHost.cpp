@@ -20,6 +20,17 @@
 
 #include <stdio.h>
 
+// The client project does not list the server-side libraries, so pull
+// them in here. Bare names with a config subfolder: the link step
+// already searches ..\..\Lib through its /libpath setting.
+#ifdef _DEBUG
+#pragma comment(lib, "debug\\CoreServer.lib")
+#pragma comment(lib, "debug\\common.lib")
+#else
+#pragma comment(lib, "release\\CoreServer.lib")
+#pragma comment(lib, "release\\common.lib")
+#endif
+
 extern KSwordOnLineSever g_SOServer;
 
 // Globals that GameServer.cpp (the standalone entry point, not part of
