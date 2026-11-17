@@ -2395,6 +2395,26 @@ void KSwordOnLineSever::PlayerMessageProcess(const unsigned long lnID, const cha
 	{
 		if (!m_pCoreServerShell->CheckProtocolSize(pData, (int)dataLength))
 			return;
+		const PHONGTHAN_WIRE_HEADER* pSaveHeader = (const PHONGTHAN_WIRE_HEADER*)pData;
+		if (pSaveHeader->MessageType == PHONGTHAN_MSG_WORLD_SAVE_REQUEST)
+		{
+			// Offline manual save / autosave: persist the character now and
+			// answer on the same connection; never reaches the Core shell.
+			if (nGameStatus == enumPlayerPlaying && nIndex > 0 &&
+				pSaveHeader->PacketSize == sizeof(PHONGTHAN_WORLD_SAVE_REQUEST) &&
+				(pSaveHeader->Flags & PHONGTHAN_WIRE_FLAG_REQUEST) != 0)
+			{
+				PHONGTHAN_WORLD_SAVE_RESPONSE SaveResponse;
+				ZeroMemory(&SaveResponse, sizeof(SaveResponse));
+				PhongThanInitializeWireHeader(&SaveResponse.Header,
+					PHONGTHAN_MSG_WORLD_SAVE_RESPONSE, sizeof(SaveResponse),
+					PHONGTHAN_WIRE_FLAG_RESPONSE, pSaveHeader->Sequence);
+				SaveResponse.Result = SavePlayerData(nIndex, false) ? 0 : 1;
+				if (m_pServer)
+					m_pServer->SendData(lnID, &SaveResponse, sizeof(SaveResponse));
+			}
+		return;
+		}
 		if (nGameStatus == enumPlayerPlaying)
 		{
 			if (nIndex > 0)

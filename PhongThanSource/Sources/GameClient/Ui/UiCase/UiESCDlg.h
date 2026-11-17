@@ -44,6 +44,7 @@ private:
     KWndLabeledButton m_SelectPlayerBtn;
     KWndLabeledButton m_OptionsBtn;
     KWndLabeledButton m_ContinueGameBtn;        // continue game
+    KWndLabeledButton m_SaveGameBtn;            // offline: manual save
     KWndImage m_ESCBg;
 
     static KUiESCDlg *m_pSelf;

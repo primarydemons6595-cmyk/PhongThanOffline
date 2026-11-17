@@ -43,7 +43,16 @@ KUiSelPlayer *KUiSelPlayer::m_pSelf = NULL;
 //--------------------------------------------------------------------------
 //	功能：析构函数
 //--------------------------------------------------------------------------
+// Rows that fit the SelPlayer list window (PlayListWnd height / row
+// spacing of the shipped UiSelPlayer.ini). Pages follow the selection;
+// PageUp / PageDown flip pages directly.
+#define PT_SELPLAYER_PAGE_SIZE 8
+
 KUiSelPlayer::KUiSelPlayer() {
+    m_nListPage = 0;
+    m_nRowBaseX = 0;
+    m_nRowBaseY = 0;
+    m_nRowSpacing = 58;
     m_nSelPlayer = -1;
     m_nNumPlayer = 0;
     m_szLoginBg[0] = 0;
@@ -196,6 +205,11 @@ void KUiSelPlayer::LoadScheme(const char *pScheme) {
             m_RoleListButton[row].GetPosition(&x, &y);
             int listX, listY;
             m_RoleListBg.GetPosition(&listX, &listY);
+            if (row == 0) {
+                m_nRowBaseX = listX + x;
+                m_nRowBaseY = listY + y;
+                m_nRowSpacing = spacing;
+            }
             m_RoleListButton[row].SetPosition(listX + x, listY + y + row * spacing);
             // Buttons notify their immediate parent. The decorative image
             // does not forward selection notifications to this window.
@@ -279,7 +293,7 @@ void KUiSelPlayer::UpdateData() {
             m_RowName[i].SetPosition(5, 6); m_RowName[i].SetSize(171, 15);
             m_RowCareer[i].SetPosition(5, 24); m_RowCareer[i].SetSize(171, 15);
             m_RowLevel[i].SetText("");
-            m_RoleListButton[i].Show();
+            // Visibility is decided by ApplyListPage() (paging).
             AddChild(&m_player[i]);
             m_Gender[i] = Info.Gender;
             m_Profession[i] = Info.Profession;
@@ -397,6 +411,18 @@ int KUiSelPlayer::OnKeyDown(unsigned int uKey) {
                 pToActive = &m_btnCancel;
             nRet = 1;
             break;
+        case VK_PRIOR: // PageUp
+            if (m_nSelPlayer > 0)
+                OnSelectPlayer(max(0, m_nSelPlayer - PT_SELPLAYER_PAGE_SIZE));
+            m_btnDel.Enable(m_nSelPlayer >= 0);
+            nRet = 1;
+            break;
+        case VK_NEXT: // PageDown
+            if (m_nSelPlayer >= 0 && m_nSelPlayer < m_nNumPlayer - 1)
+                OnSelectPlayer(min(m_nNumPlayer - 1, m_nSelPlayer + PT_SELPLAYER_PAGE_SIZE));
+            m_btnDel.Enable(m_nSelPlayer >= 0);
+            nRet = 1;
+            break;
         case VK_LEFT:
             if (m_nSelPlayer > 0)
                 OnSelectPlayer(m_nSelPlayer - 1);
@@ -420,6 +446,24 @@ int KUiSelPlayer::OnKeyDown(unsigned int uKey) {
     if (pToActive)
         pToActive->SetCursorAbove();
     return nRet;
+}
+
+void KUiSelPlayer::ApplyListPage() {
+    int nPage = (m_nSelPlayer > 0) ? (m_nSelPlayer / PT_SELPLAYER_PAGE_SIZE) : 0;
+    m_nListPage = nPage;
+    int nFirst = nPage * PT_SELPLAYER_PAGE_SIZE;
+    int nLast = nFirst + PT_SELPLAYER_PAGE_SIZE;
+    if (nLast > m_nNumPlayer)
+        nLast = m_nNumPlayer;
+    for (int i = 0; i < m_nNumPlayer; i++) {
+        if (i >= nFirst && i < nLast) {
+            m_RoleListButton[i].SetPosition(m_nRowBaseX,
+                m_nRowBaseY + (i - nFirst) * m_nRowSpacing);
+            m_RoleListButton[i].Show();
+        } else {
+            m_RoleListButton[i].Hide();
+        }
+    }
 }
 
 void KUiSelPlayer::OnSelectPlayer(int nSel, bool bPlaySound) {
@@ -483,6 +527,7 @@ void KUiSelPlayer::OnSelectPlayer(int nSel, bool bPlaySound) {
     m_bJustClicked = true;
     if (bPlaySound)
         UiSoundPlay(m_szSelPlayerSound[m_nSelPlayer]);
+    ApplyListPage();
 }
 
 // -------------------------------------------------------------------------

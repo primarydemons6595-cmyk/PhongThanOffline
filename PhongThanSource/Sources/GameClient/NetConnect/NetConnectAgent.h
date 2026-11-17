@@ -50,6 +50,10 @@ public:
     //发送消息
     int SendMsg(const void *pBuffer, int nSize);
 
+    // Offline: ask the world server to save the current character now
+    // (manual Save button + autosave on scene change).
+    int SendSaveRequest();
+
     //持续性行为
     void Breathe();
 //	void	Breathe(DWORD nGameCounter);

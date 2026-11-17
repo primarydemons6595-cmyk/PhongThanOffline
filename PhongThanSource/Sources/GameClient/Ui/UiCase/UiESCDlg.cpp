@@ -10,6 +10,7 @@
 #include "../Elem/WndMessage.h"
 #include "../Elem/Wnds.h"
 #include "UiESCDlg.h"
+#include "../../NetConnect/NetConnectAgent.h"
 #include "UiSelPlayer.h"
 #include "UiInit.h"
 #include "UiOptions.h"
@@ -123,13 +124,19 @@ void KUiESCDlg::LoadScheme(const char *pScheme) {
     if (Ini.Load(Buff)) {
         int width,height;Wnd_GetScreenSize(width,height);
         Ini.WriteInteger("Main","Left",(width-296)/2);
-        Ini.WriteInteger("Main","Top",(height-156)/2);
-        Ini.WriteInteger("Main","Width",296);Ini.WriteInteger("Main","Height",156);
+        Ini.WriteInteger("Main","Top",(height-183)/2);
+        Ini.WriteInteger("Main","Width",296);Ini.WriteInteger("Main","Height",183);
         // Explicitly centre actual 240px buttons inside the compact frame.
-        const char* rows[]={"ContiumeGame","Options","GameToSelPlayer","ExitGame"};
-        for(int row=0;row<4;++row){Ini.WriteInteger(rows[row],"Left",28);Ini.WriteInteger(rows[row],"Top",20+row*27);}
+        const char* rows[]={"ContiumeGame","SaveGame","Options","GameToSelPlayer","ExitGame"};
+        for(int row=0;row<5;++row){Ini.WriteInteger(rows[row],"Left",28);Ini.WriteInteger(rows[row],"Top",20+row*27);}
+        // Offline Save button: text-only labeled button (no baked-image
+        // sprite exists for it); sized like the other rows.
+        Ini.WriteInteger("SaveGame","Width",240);
+        Ini.WriteInteger("SaveGame","Height",26);
+        Ini.WriteString("SaveGame","Label","Luu Game");
         Init(&Ini, "Main");
         m_ContinueGameBtn.Init(&Ini, "ContiumeGame");
+        m_SaveGameBtn.Init(&Ini, "SaveGame");
         m_OptionsBtn.Init(&Ini, "Options");
         m_SelectPlayerBtn.Init(&Ini, "GameToSelPlayer");
         //m_ExitBtn.Init(&Ini, "CloseGame");
@@ -168,13 +175,13 @@ int KUiESCDlg::OnKeyDown(unsigned int uKey) {
     } else if (uKey == VK_ESCAPE)
         CloseWindow(false);
     else if (uKey == VK_UP || uKey == VK_DOWN) {
-        KWndButton *buttons[] = { &m_ContinueGameBtn, &m_OptionsBtn,
+        KWndButton *buttons[] = { &m_ContinueGameBtn, &m_SaveGameBtn, &m_OptionsBtn,
                                   &m_SelectPlayerBtn, &m_ExitGameBtn };
         pActive = GetActiveBtn();
         int index = 0;
-        for (int i = 0; i < 4; ++i)
+        for (int i = 0; i < 5; ++i)
             if (buttons[i] == pActive) index = i;
-        pToActive = buttons[(index + (uKey == VK_DOWN ? 1 : 3)) % 4];
+        pToActive = buttons[(index + (uKey == VK_DOWN ? 1 : 4)) % 5];
     } else
         nRet = 0;
     if (pToActive) {
@@ -195,6 +202,11 @@ int KUiESCDlg::OnKeyDown(unsigned int uKey) {
 void KUiESCDlg::OnClickButton(KWndWindow *pWnd) {
     if (pWnd == (KWndWindow *) &m_ContinueGameBtn)
         Hide();
+    else if (pWnd == (KWndWindow *) &m_SaveGameBtn) {
+        // Offline manual save; the server answers with a system message.
+        if (g_NetConnectAgent.SendSaveRequest())
+            Hide();
+    }
     else if (pWnd == (KWndWindow *) &m_OptionsBtn) {
         Hide();
         KUiOptions::OpenWindow();
@@ -217,6 +229,8 @@ KWndButton *KUiESCDlg::GetActiveBtn() {
     KWndButton *pBtn = NULL;
     if (m_ContinueGameBtn.IsButtonActive())
         pBtn = &m_ContinueGameBtn;
+    else if (m_SaveGameBtn.IsButtonActive())
+        pBtn = &m_SaveGameBtn;
     else if (m_OptionsBtn.IsButtonActive())
         pBtn = &m_OptionsBtn;
         //else if (m_ExitBtn.IsButtonActive())

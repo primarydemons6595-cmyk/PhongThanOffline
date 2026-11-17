@@ -50,6 +50,10 @@ private:
 
     void OnSelectPlayer(int nSel, bool bPlaySound = true);
 
+    // Offline: the role list is paged (PT_SELPLAYER_PAGE_SIZE rows fit the
+    // list window); ApplyListPage shows the page holding the selection.
+    void ApplyListPage();
+
     void OnEnterGame();
 
     virtual void Breathe(); // them
@@ -101,6 +105,10 @@ private:
     int m_ChildWndYOffset;
 
 private:
+    int m_nListPage;
+    int m_nRowBaseX;
+    int m_nRowBaseY;
+    int m_nRowSpacing;
     int m_bJustClicked;
     short m_nNumPlayer;
     short m_nSelPlayer;    // 当前选中的是第几个角色

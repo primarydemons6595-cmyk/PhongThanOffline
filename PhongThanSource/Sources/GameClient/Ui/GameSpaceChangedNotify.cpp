@@ -1,4 +1,5 @@
 #include "KWin32.h"
+#include "../NetConnect/NetConnectAgent.h"
 #include "../../../Headers/PhongThanBankSecurity.h"
 #include "UiBase.h"
 #include "UiCase/UiEscDlg.h"
@@ -420,6 +421,9 @@ void CoreDataChangedCallback(unsigned int uDataId, unsigned int uParam, int nPar
             KUiExpandItem::OpenWindow();
             break;
         case GDCNI_SWITCHING_SCENEPLACE:
+            // Offline autosave: persist the character on every scene /
+            // map change (the embedded server answers on this channel).
+            g_NetConnectAgent.SendSaveRequest();
             break;
         case GDCNI_SWITCHING_MAPMODE:
             if (uParam)

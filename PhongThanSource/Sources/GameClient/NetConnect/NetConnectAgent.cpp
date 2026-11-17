@@ -273,6 +273,17 @@ void KNetConnectAgent::DisconnectGameSvr() {
 //--------------------------------------------------------------------------
 //	??????????????
 //--------------------------------------------------------------------------
+int KNetConnectAgent::SendSaveRequest() {
+    if (!m_bIsGameServConnecting || !m_pGameSvrClient)
+        return false;
+    PHONGTHAN_WORLD_SAVE_REQUEST Request;
+    ZeroMemory(&Request, sizeof(Request));
+    PhongThanInitializeWireHeader(&Request.Header,
+        PHONGTHAN_MSG_WORLD_SAVE_REQUEST, sizeof(Request),
+        PHONGTHAN_WIRE_FLAG_REQUEST, 0);
+    return SUCCEEDED(m_pGameSvrClient->SendPackToServer(&Request, sizeof(Request)));
+}
+
 int KNetConnectAgent::SendMsg(const void *pBuffer, int nSize) {
     if (m_pClient) {
         m_pClient->SendPackToServer((BYTE *) pBuffer, nSize);
@@ -405,6 +416,23 @@ void KNetConnectAgent::Breathe() {
                                 sizeof(PHONGTHAN_WORLD_TRANSFER_RESPONSE)) {
                             ProcessSwitchGameSvrMsg((void*)pCurrent);
                             break;
+                        }
+                        if (Header.MessageType == PHONGTHAN_MSG_WORLD_SAVE_RESPONSE &&
+                            Header.PacketSize == sizeof(PHONGTHAN_WORLD_SAVE_RESPONSE)) {
+                            const PHONGTHAN_WORLD_SAVE_RESPONSE *pSave =
+                                (const PHONGTHAN_WORLD_SAVE_RESPONSE *) pCurrent;
+                            KSystemMessage Msg;
+                            Msg.byConfirmType = SMCT_NONE;
+                            Msg.byParamSize = 0;
+                            Msg.byPriority = 0;
+                            Msg.eType = SMT_NORMAL;
+                            Msg.nMsgID = -1;
+                            Msg.uReservedForUi = 0;
+                            strcpy(Msg.szMessage, pSave->Result == 0
+                                ? "Da luu game." : "Luu game that bai!");
+                            KUiSysMsgCentre::AMessageArrival(&Msg, NULL);
+                            pCurrent += Header.PacketSize;
+                            continue;
                         }
                         if (Header.MessageType == PHONGTHAN_MSG_INVENTORY_ITEM_MOVE ||
                             Header.MessageType == PHONGTHAN_MSG_INVENTORY_ITEM_AUTO_MOVE) {
