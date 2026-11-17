@@ -102,36 +102,44 @@ trước khi đóng gói, như với bản Loose.)
 
 ## Bản phát hành bảo mật (catalog PTSEC002)
 
-Dùng được theo cách: **client đọc catalog bảo mật như bản phát hành, server
-nhúng đọc dữ liệu rời trong `ServerData`** — vẫn một exe, không chạy server
-riêng. Dữ liệu phía server không mã hóa; muốn mã hóa cả phía server là một
-đợt khác (mở rộng PtSecure thành hai namespace mount), chưa làm.
+Cả hai phía đều đọc catalog đã ký như bản phát hành: client mount chuỗi
+Client ở thư mục game, server nhúng mount chuỗi Server ở
+`ServerData\Data\release.catalog` — vẫn một exe, không chạy server riêng,
+dữ liệu gameplay hai phía đều không sửa được bằng file rời.
 
-Cơ chế: loader PtSecure của Engine chỉ mount được một catalog (một role)
-cho cả tiến trình, nên `KPakList` nay **ghim chế độ dữ liệu theo từng
-instance** tại thời điểm `Open()` — quyết định bởi thư mục gốc đang hoạt
-động lúc mở: phía client mở ở thư mục game (có `Data\\release.catalog`,
-không có `loose_only.flag`) → chế độ catalog; phía server mở ở `ServerData`
-(có `loose_only.flag`) → chế độ Loose. Tiến trình độc lập (client/server
-online gốc) chỉ có một instance dưới một gốc nên hành vi không đổi.
+Cơ chế: PtSecure vốn chỉ mount một catalog (một role) cho cả tiến trình,
+nay mount **theo từng thư mục gốc dữ liệu** (namespace theo root): ngữ
+cảnh mặc định là thư mục exe (chuỗi Client, hành vi cũ giữ nguyên);
+host nhúng chuyển ngữ cảnh sang `ServerData` mỗi khi server chạy (cùng
+điểm với path guard có sẵn), nên mọi tra cứu phía server vào chuỗi
+Server. `KPakList` ghim chế độ theo từng instance tại `Open()` như đã
+nói ở mục Pak phía trên. Gateway tạo nhân vật cũng đọc template
+`newplayerini` qua release reader khi ServerData là Server Base (trên
+cây Loose thì tự lùi về đọc đĩa như cũ).
+
+Phần **vẫn để rời** trong `ServerData` (theo đúng thiết kế của bản phát
+hành, Studio cũng loại khỏi patch): `CharacterStore` (dữ liệu nhân vật
+phải ghi được) và các file vận hành như `ServerCfg.ini`, `MapSleep.ini`.
 
 Đóng gói:
 
-1. Build bản offline như thường (profile Dev) — binary Dev đọc được dữ
-   liệu bảo mật nhờ cơ chế tự phát hiện `Data\\release.pak` của Engine.
-2. Qua Studio tạo sẵn Client Base của bản phát hành.
-3. Thay Game.exe và các DLL trong thư mục Client Base bằng bản build
-   offline ở bước 1 (giữ nguyên `Data\\release.catalog` và các `.pak`).
-4. Đóng gói trỏ `-ClientRoot` vào thư mục Client Base đó; `ServerData`
-   vẫn lấy từ cây Server Loose như cũ:
+1. Build bản offline như thường (profile Dev đọc được cả hai catalog
+   nhờ cơ chế tự phát hiện `Data\release.pak` theo từng root).
+2. Qua Studio tạo sẵn Client Base và Server Base.
+3. Thay Game.exe và các DLL trong Client Base bằng bản build offline
+   (giữ nguyên `Data\` của cả hai Base).
+4. Đóng gói trỏ cả hai phía:
 
 ```powershell
-.\Offline\DongGoi-PhongThanOffline.ps1 -ClientRoot D:\PhongThanRelease\ClientBase
+.\Offline\DongGoi-PhongThanOffline.ps1 -ClientRoot D:\PhongThanRelease\ClientBase -ServerRoot D:\PhongThanRelease\ServerBase
 ```
 
-Lưu ý: thư mục game **không** được có `loose_only.flag` (có cờ này Engine
-sẽ tắt chế độ catalog và client không đọc được pak bảo mật); script đóng
-gói tự đảm bảo `ServerData` luôn có cờ này.
+Script tự xử lý cờ `loose_only.flag`: thư mục game và Server Base đều
+**không** được có cờ này; chỉ ServerData Loose mới có.
+
+Sau khi build bản này, nên chạy lại `Tests\SecureRelease` (đặc biệt
+`Test-NativeSecurePak.ps1`) để chắc chắn thay đổi ở loader không phá
+chuỗi ký/xác thực của các tiến trình độc lập.
 
 ## Dữ liệu nhân vật
 

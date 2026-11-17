@@ -7,7 +7,12 @@ param(
     # Thu muc client nguon: mac dinh la Client ban Loose trong RuntimeRoot.
     # Ban Pak: chi vao thu muc client Pak (kieu Client_Original, co data\*.pak
     # va package.ini liet ke pak o thu muc goc) - ServerData van lay ban Loose.
-    [string]$ClientRoot = ''
+    [string]$ClientRoot = '',
+    # Thu muc du lieu server nguon: mac dinh la Server ban Loose trong
+    # RuntimeRoot. Ban phat hanh bao mat: chi vao Server Base (co
+    # Data\release.catalog va cac pak server da ky) - ServerData se doc
+    # catalog phia server, khong con file roi.
+    [string]$ServerRoot = ''
 )
 
 $ErrorActionPreference = 'Stop'
@@ -15,7 +20,7 @@ $ErrorActionPreference = 'Stop'
 $RuntimeRoot = [IO.Path]::GetFullPath($RuntimeRoot)
 $OutputDir = [IO.Path]::GetFullPath($OutputDir)
 $clientSrc = if ($ClientRoot) { [IO.Path]::GetFullPath($ClientRoot) } else { Join-Path $RuntimeRoot 'Client' }
-$serverSrc = Join-Path $RuntimeRoot 'Server'
+$serverSrc = if ($ServerRoot) { [IO.Path]::GetFullPath($ServerRoot) } else { Join-Path $RuntimeRoot 'Server' }
 
 if (-not (Test-Path -LiteralPath (Join-Path $clientSrc 'Game.exe'))) {
     throw "Khong thay Game.exe trong $clientSrc. Hay build target GameClient truoc (Build\Build-PhongThan.ps1 -Targets Common,CoreServer,GameClient)."
@@ -44,11 +49,16 @@ if (Test-Path -LiteralPath $mapSleep) {
     [IO.File]::WriteAllText($mapSleep, $text)
 }
 
-# 3b) ServerData bat buoc co loose_only.flag: server nhung ghim che do du lieu
-# theo co nay (doc file roi trong ServerData), ke ca khi nua client la ban
-# phat hanh bao mat doc catalog. Thieu co nay server se tra du lieu sai cho.
-$looseFlag = Join-Path $serverData 'loose_only.flag'
-if (-not (Test-Path -LiteralPath $looseFlag)) { Set-Content -LiteralPath $looseFlag -Value 'LOOSE_ONLY' -Encoding ASCII }
+# 3b) Co loose_only.flag quyet dinh che do du lieu phia server:
+# - ServerData la Server Base (co Data\release.catalog): KHONG duoc co co
+#   nay - co no Engine se tat che do catalog phia server va doc sai cho.
+# - ServerData Loose: bat buoc co co nay de server doc file roi.
+if (Test-Path -LiteralPath (Join-Path $serverData 'Data\release.catalog')) {
+    Remove-Item -LiteralPath (Join-Path $serverData 'loose_only.flag') -Force -ErrorAction SilentlyContinue
+} else {
+    $looseFlag = Join-Path $serverData 'loose_only.flag'
+    if (-not (Test-Path -LiteralPath $looseFlag)) { Set-Content -LiteralPath $looseFlag -Value 'LOOSE_ONLY' -Encoding ASCII }
+}
 
 # 4) Thu muc chua nhan vat (moi nhan vat 1 file .pthc trong CharacterStore\<tai khoan>\)
 $store = Join-Path $serverData 'CharacterStore'

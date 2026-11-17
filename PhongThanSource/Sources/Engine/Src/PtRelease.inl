@@ -117,15 +117,32 @@ struct State {
  State():mounted(0){}
  ~State(){for(std::map<FILE*,Stream*>::iterator s=streams.begin();s!=streams.end();++s)delete s->second;for(unsigned e=0;e<allEntries.size();++e)delete allEntries[e];for(unsigned i=0;i<packs.size();++i)delete packs[i];}
 };
-static State& Data(){static State s;return s;}
+static State& Data();
+static std::string Lower(const std::string& value);
 static std::string ExeRoot(){char path[MAX_PATH];DWORD n=GetModuleFileNameA(NULL,path,sizeof(path));if(!n||n>=sizeof(path))return "";char* slash=strrchr(path,'\\');if(!slash)return "";*slash=0;return path;}
 static bool Exists(const std::string& p){DWORD a=GetFileAttributesA(p.c_str());return a!=(DWORD)-1&&!(a&FILE_ATTRIBUTE_DIRECTORY);}
 static bool Required(){
 #ifdef PT_SECURE_RELEASE_PROFILE
  return true;
 #else
- std::string root=ExeRoot();return !Exists(root+"\\loose_only.flag")&&Exists(root+"\\Data\\release.pak");
+ std::string root=ContextRoot();return !Exists(root+"\\loose_only.flag")&&Exists(root+"\\Data\\release.pak");
 #endif
+}
+// One mount namespace per data root. The default context root is the exe
+// folder (the client chain, exactly the historical behavior). An embedded
+// (offline) process additionally mounts the server chain from its
+// ServerData root: the host switches the context root while server code
+// runs, and every lookup then resolves against that root's catalog.
+// States are keyed by lower-cased root path and mount lazily on first use.
+static std::string s_ptContextRoot;
+static std::map<std::string,State*>& PtStates(){static std::map<std::string,State*> states;return states;}
+static std::string ContextRoot(){return s_ptContextRoot.empty()?ExeRoot():s_ptContextRoot;}
+static void SetContextRoot(const char* root){s_ptContextRoot=root?root:"";}
+static State& Data(){
+ std::map<std::string,State*>& states=PtStates();std::string key=Lower(ContextRoot());
+ std::map<std::string,State*>::iterator it=states.find(key);
+ if(it!=states.end())return *it->second;
+ State* created=new State;states[key]=created;return *created;
 }
 // Archive I/O consistently uses the CRT descriptor. VC6 stdio may retain a
 // single look-ahead byte even with _IONBF; mixing fread with _lseeki64 shifts
@@ -167,7 +184,7 @@ static bool LoadPack(Pack* p,std::vector<Entry*>& entries){
 static bool PackOrder(const Pack* a,const Pack* b){return a->sequence<b->sequence;}
 static std::string Lower(const std::string& value){std::string name=value;for(unsigned i=0;i<name.size();++i)if(name[i]>='A'&&name[i]<='Z')name[i]+='a'-'A';return name;}
 static bool Mount(){
- State& s=Data();if(s.mounted)return s.mounted==1;s.mounted=-1;s.root=ExeRoot();
+ State& s=Data();if(s.mounted)return s.mounted==1;s.mounted=-1;s.root=ContextRoot();
  if(!PT_SECURE_KEYS_READY||s.root.empty()||!s.crypto.Init())return false;
  // The signed catalog pins every required Base and Patch, including the tail.
  // Removing the newest file must never silently roll the game back.
@@ -229,7 +246,7 @@ static bool Mount(){
 static DWORD HashName(const std::string& path){DWORD hash=0;int n=0;for(unsigned i=0;i<path.size();++i){signed char c=path[i];if(c>='A'&&c<='Z')c+='a'-'A';hash=(hash+(++n)*c)%0x8000000b*0xffffffef;}return hash^0x12345678;}
 static bool Logical(const char* input,std::string& name){
  if(!input||!*input)return false;name=input;for(unsigned i=0;i<name.size();++i)if(name[i]=='/')name[i]='\\';
- std::string root=ExeRoot();if(name.size()>root.size()&&!_strnicmp(name.c_str(),root.c_str(),root.size())&&name[root.size()]=='\\')name=name.substr(root.size()+1);
+ std::string root=ContextRoot();if(name.size()>root.size()&&!_strnicmp(name.c_str(),root.c_str(),root.size())&&name[root.size()]=='\\')name=name.substr(root.size()+1);
  while(name.size()>2&&name.substr(0,2)==".\\")name=name.substr(2);if(name.empty())return false;if(name[0]!='\\')name="\\"+name;return NameValid(name);
 }
 static bool ResourceName(const std::string& logical){
@@ -279,6 +296,7 @@ static bool Diagnostic(const char* path){
 
 bool PtReleaseEnabled(){return PtSecure::Required();}
 bool PtReleaseMount(){PtSecure::Guard guard;return PtSecure::Required()&&PtSecure::Mount();}
+void PtReleaseSetContextRoot(const char* root){PtSecure::SetContextRoot(root);}
 unsigned long PtReleaseNextName(unsigned long cursor,const char* prefix,char* name,unsigned long capacity){
  PtSecure::Guard guard;if(!prefix||!name||!capacity||!PtSecure::Required()||!PtSecure::Mount())return 0;
  PtSecure::State& state=PtSecure::Data();unsigned length=strlen(prefix);

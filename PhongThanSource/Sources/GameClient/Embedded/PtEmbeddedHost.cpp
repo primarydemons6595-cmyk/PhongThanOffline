@@ -14,6 +14,7 @@
 #include "PtEmbedded.h"
 
 #include "KFilePath.h"
+#include "PtRelease.h"
 #include "KSOServer.h"
 #include "../../MultiServer/Goddess/PhongThanCharacterStore.h"
 
@@ -92,9 +93,11 @@ struct CPtServerPathGuard
 		SetCurrentDirectoryA(PtEmbedded_GetServerDataDir());
 		g_SetRootPath(NULL); // root := CWD = ServerData
 		g_SetFilePath("\\");
+		PtReleaseSetContextRoot(PtEmbedded_GetServerDataDir());
 	}
 	void Restore()
 	{
+		PtReleaseSetContextRoot(NULL);
 		SetCurrentDirectoryA(szOldCwd);
 		g_SetRootPath(szOldRoot);
 		g_SetFilePath(szOldFile);

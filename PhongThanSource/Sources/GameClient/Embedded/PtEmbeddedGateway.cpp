@@ -5,6 +5,7 @@
 // KSOServer and the gateway. See PtEmbedded.h.
 #include "KWin32.h"
 #include "PtEmbedded.h"
+#include "PtRelease.h"
 
 #include "../../../Headers/PhongThanProtocol.h"
 #include "../../../Headers/PhongThanCharacter.h"
@@ -407,10 +408,13 @@ void CPtGatewayEmbed::StartAttach(const char* pRoleName)
 	PtEmbedded_GetGatewayLink()->InjectToServer(&packet[0], nPacketSize);
 }
 
-// Reads one starter template (settings\npc\player\newplayeriniNN.ini from
-// the ServerData tree) with plain profile APIs and fills the service-level
-// create request, mirroring CPlayerCreator + CGamePlayer::
-// _CreateNewPlayer_ToDBRole in Bishop.
+// Reads one starter template (settings\npc\player\newplayeriniNN.ini
+// from the ServerData tree) and fills the service-level create request,
+// mirroring CPlayerCreator + CGamePlayer:: _CreateNewPlayer_ToDBRole in
+// Bishop. When ServerData is a secure Server Base the template lives
+// inside the signed catalog and is read through the release reader under
+// the server context root, then parsed in memory; on the Loose tree the
+// catalog lookup misses and the plain profile APIs are used, as before.
 bool CPtGatewayEmbed::BuildCreateRequest(const void* pSessionRequest,
 	void* pServiceRequestOut)
 {
@@ -427,17 +431,100 @@ bool CPtGatewayEmbed::BuildCreateRequest(const void* pSessionRequest,
 		(int)(pCreate->Profession * PHONGTHAN_GENDER_COUNT + pCreate->Gender));
 	szIniPath[sizeof(szIniPath) - 1] = 0;
 
+	std::string sCatalogText;
+	bool bFromCatalog = false;
+	{
+		char szResource[MAX_PATH];
+		_snprintf(szResource, sizeof(szResource) - 1,
+			"\\settings\\npc\\player\\newplayerini%02d.ini",
+			(int)(pCreate->Profession * PHONGTHAN_GENDER_COUNT + pCreate->Gender));
+		szResource[sizeof(szResource) - 1] = 0;
+		PtReleaseSetContextRoot(PtEmbedded_GetServerDataDir());
+		if (PtReleaseEnabled())
+		{
+			unsigned long nEntry = 0, nLength = 0;
+			if (PtReleaseLocate(0, szResource, &nEntry, &nLength) &&
+				nLength > 0 && nLength <= 1024 * 1024)
+			{
+				sCatalogText.resize(nLength);
+				if (PtReleaseReadEntry(nEntry, 0, &sCatalogText[0],
+					nLength) == nLength)
+					bFromCatalog = true;
+				else
+					sCatalogText.clear();
+			}
+		}
+		PtReleaseSetContextRoot(NULL);
+	}
+
 	struct IniReader
 	{
 		const char* path;
+		const char* mem;
+		size_t memLen;
+		int Mem(const char* section, const char* key, int def) const
+		{
+			// Minimal read-only INI scan over the catalog bytes:
+			// [section] headers and key=value lines, case-insensitive,
+			// ';' and '#' comment lines skipped.
+			bool inSection = false;
+			size_t pos = 0;
+			while (pos < memLen)
+			{
+				size_t eol = pos;
+				while (eol < memLen && mem[eol] != '\n' && mem[eol] != '\r')
+					++eol;
+				const char* line = mem + pos;
+				size_t len = eol - pos;
+				pos = (eol < memLen) ? eol + 1 : memLen;
+				while (len > 0 && (*line == ' ' || *line == '\t'))
+					{ ++line; --len; }
+				if (len == 0 || *line == ';' || *line == '#')
+					continue;
+				if (*line == '[')
+				{
+					const char* close =
+						(const char*)memchr(line, ']', len);
+					inSection = close != NULL &&
+						(size_t)(close - line - 1) == strlen(section) &&
+						_strnicmp(line + 1, section,
+							strlen(section)) == 0;
+					continue;
+				}
+				if (!inSection)
+					continue;
+				const char* eq = (const char*)memchr(line, '=', len);
+				if (eq == NULL)
+					continue;
+				size_t keyLen = (size_t)(eq - line);
+				while (keyLen > 0 &&
+					(line[keyLen - 1] == ' ' || line[keyLen - 1] == '\t'))
+					--keyLen;
+				if (keyLen != strlen(key) ||
+					_strnicmp(line, key, keyLen) != 0)
+					continue;
+				char szValue[32];
+				size_t valLen = len - (size_t)(eq + 1 - line);
+				if (valLen >= sizeof(szValue))
+					valLen = sizeof(szValue) - 1;
+				memcpy(szValue, eq + 1, valLen);
+				szValue[valLen] = 0;
+				return atoi(szValue);
+			}
+			return def;
+		}
 		int Role(const char* key, int def) const
-			{ return GetPrivateProfileIntA("ROLE", key, def, path); }
+			{ return mem ? Mem("ROLE", key, def)
+				: GetPrivateProfileIntA("ROLE", key, def, path); }
 		int Skill(const char* key, int def) const
-			{ return GetPrivateProfileIntA("FSKILLS", key, def, path); }
+			{ return mem ? Mem("FSKILLS", key, def)
+				: GetPrivateProfileIntA("FSKILLS", key, def, path); }
 	};
 	IniReader ini;
 	ini.path = szIniPath;
-	if (GetFileAttributesA(szIniPath) == 0xFFFFFFFF)
+	ini.mem = bFromCatalog ? sCatalogText.c_str() : NULL;
+	ini.memLen = bFromCatalog ? sCatalogText.size() : 0;
+	if (!bFromCatalog && GetFileAttributesA(szIniPath) == 0xFFFFFFFF)
 		return false;
 
 	PhongThanInitializeWireHeader(&pRequest->Header,

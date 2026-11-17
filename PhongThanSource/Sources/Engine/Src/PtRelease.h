@@ -4,6 +4,11 @@
 // No class-layout changes: virtual stdio handles are owned entirely by Engine.
 ENGINE_API bool PtReleaseEnabled();
 ENGINE_API bool PtReleaseMount();
+// Selects the catalog namespace used by subsequent PtRelease calls:
+// the root folder whose Data\\release.catalog chain is mounted and
+// searched. NULL or empty restores the exe folder (client chain). An
+// embedded server switches this to its ServerData root while it runs.
+ENGINE_API void PtReleaseSetContextRoot(const char* root);
 ENGINE_API bool PtReleaseFind(unsigned long id, unsigned long* length);
 ENGINE_API bool PtReleaseLocate(unsigned long id, const char* name, unsigned long* entry, unsigned long* length);
 ENGINE_API unsigned long PtReleaseReadEntry(unsigned long entry, unsigned long offset, void* buffer, unsigned long length);
