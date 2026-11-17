@@ -3,14 +3,18 @@ param(
     # Thu muc PhongThanRuntime-Loose (ban runtime dang chay duoc cua ban online)
     [string]$RuntimeRoot = (Join-Path (Split-Path -Parent $PSScriptRoot) '..\PhongThanRuntime-Loose'),
     # Thu muc game offline se duoc tao
-    [string]$OutputDir = (Join-Path (Split-Path -Parent $PSScriptRoot) '..\PhongThanOffline-Play')
+    [string]$OutputDir = (Join-Path (Split-Path -Parent $PSScriptRoot) '..\PhongThanOffline-Play'),
+    # Thu muc client nguon: mac dinh la Client ban Loose trong RuntimeRoot.
+    # Ban Pak: chi vao thu muc client Pak (kieu Client_Original, co data\*.pak
+    # va package.ini liet ke pak o thu muc goc) - ServerData van lay ban Loose.
+    [string]$ClientRoot = ''
 )
 
 $ErrorActionPreference = 'Stop'
 
 $RuntimeRoot = [IO.Path]::GetFullPath($RuntimeRoot)
 $OutputDir = [IO.Path]::GetFullPath($OutputDir)
-$clientSrc = Join-Path $RuntimeRoot 'Client'
+$clientSrc = if ($ClientRoot) { [IO.Path]::GetFullPath($ClientRoot) } else { Join-Path $RuntimeRoot 'Client' }
 $serverSrc = Join-Path $RuntimeRoot 'Server'
 
 if (-not (Test-Path -LiteralPath (Join-Path $clientSrc 'Game.exe'))) {

@@ -76,6 +76,30 @@ Muốn chỉ định đường dẫn khác:
 .\Offline\DongGoi-PhongThanOffline.ps1 -RuntimeRoot D:\PhongThan\PhongThanRuntime-Loose -OutputDir D:\Game\PhongThanOffline
 ```
 
+## Dùng với bản Release (Pak)
+
+Được. Hai nửa độc lập nhau:
+
+- **Phía client** nạp dữ liệu qua hệ thống package của Engine, chế độ tính
+  theo thư mục gốc đang hoạt động: có file `loose_only.flag` thì đọc file
+  rời, không có thì mount các `.pak` liệt kê trong `package.ini`. Code
+  offline không đụng vào tầng này, và `config.ini` ở bản Pak vẫn là file
+  rời ở thư mục game nên cổng bật `[Offline]` giữ nguyên.
+- **Phía server nhúng** dùng bản sao `g_PakList` riêng của CoreServer.dll
+  (khác bản của client), mở theo thư mục `ServerData` lúc host khởi động —
+  `ServerData` có `loose_only.flag` nên server luôn chạy chế độ Loose trên
+  dữ liệu rời, bất kể client đang ở chế độ Pak hay Loose.
+
+Vì vậy khi đóng gói bản Pak, chỉ thay nửa client; `ServerData` giữ nguyên
+bản Loose (dữ liệu nhân vật phải ghi được, pak thì chỉ đọc):
+
+```powershell
+.\Offline\DongGoi-PhongThanOffline.ps1 -ClientRoot D:\PhongThan\Client_Original
+```
+
+(Game.exe và các DLL trong thư mục client Pak phải là bản đã build offline
+trước khi đóng gói, như với bản Loose.)
+
 ## Dữ liệu nhân vật
 
 - Lưu tại `ServerData\CharacterStore\<tài khoản>\*.pthc` — mang cả thư mục
