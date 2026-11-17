@@ -247,7 +247,7 @@ CPtGatewayEmbed::CPtGatewayEmbed()
 void CPtGatewayEmbed::Attach(CPtVirtualClient* pClient)
 {
 	m_pClient = pClient;
-	m_sAccount.clear();
+	m_sAccount.erase();
 	m_bHasPendingAttach = false;
 	m_InPackets.Clear();
 }
@@ -257,7 +257,7 @@ void CPtGatewayEmbed::Detach(CPtVirtualClient* pClient)
 	if (m_pClient == pClient)
 	{
 		m_pClient = NULL;
-		m_sAccount.clear();
+		m_sAccount.erase();
 		m_bHasPendingAttach = false;
 		m_InPackets.Clear();
 	}
@@ -451,7 +451,7 @@ bool CPtGatewayEmbed::BuildCreateRequest(const void* pSessionRequest,
 					nLength) == nLength)
 					bFromCatalog = true;
 				else
-					sCatalogText.clear();
+					sCatalogText.erase();
 			}
 		}
 		PtReleaseSetContextRoot(NULL);

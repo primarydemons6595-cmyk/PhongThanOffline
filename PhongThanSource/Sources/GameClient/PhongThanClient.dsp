@@ -41,7 +41,7 @@ RSC=rc.exe
 # PROP Ignore_Export_Lib 0
 # PROP Target_Dir ""
 # ADD BASE CPP /nologo /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /YX /FD /c
-# ADD CPP /nologo /MD /W3 /GX /Zi /O2 /I "../Engine/src" /I "../Core/src" /I "../Engine/include" /I "../../Headers" /I "../MultiServer/GameServer" /I "../MultiServer/Common" /I "../MultiServer/Goddess" /D "WIN32" /D "NDEBUG_WINDOWS" /D "_MBCS" /D "PHONGTHAN_USE_MD5_PASSWORD" /Yu"KWin32.h" /FD /c
+# ADD CPP /nologo /MD /W3 /GX /Zi /O2 /I "../Engine/src" /I "../Core/src" /I "../Engine/include" /I "../../Headers" /I "../Engine" /I "../MultiServer/GameServer" /I "../MultiServer/Common" /I "../MultiServer/Goddess" /D "WIN32" /D "NDEBUG_WINDOWS" /D "_MBCS" /D "PHONGTHAN_USE_MD5_PASSWORD" /Yu"KWin32.h" /FD /c
 # ADD BASE MTL /nologo /D "NDEBUG" /mktyplib203 /win32
 # ADD MTL /nologo /D "NDEBUG" /mktyplib203 /win32
 # ADD BASE RSC /l 0x804 /d "NDEBUG"
@@ -71,7 +71,7 @@ PostBuild_Cmds=md ..\..\Output\Client\release\	copy Release\Game.exe ..\..\Outpu
 # PROP Ignore_Export_Lib 0
 # PROP Target_Dir ""
 # ADD BASE CPP /nologo /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /YX /FD /GZ /c
-# ADD CPP /nologo /MDd /W3 /Gm /GX /Zi /Od /I "../Engine/src" /I "../Core/src" /I "../Engine/include" /I "../../Headers" /I "../MultiServer/GameServer" /I "../MultiServer/Common" /I "../MultiServer/Goddess" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "PHONGTHAN_SHOW_DEBUG_INFO" /D "PHONGTHAN_USE_MD5_PASSWORD" /FR /Yu"KWin32.h" /FD /GZ /c
+# ADD CPP /nologo /MDd /W3 /Gm /GX /Zi /Od /I "../Engine/src" /I "../Core/src" /I "../Engine/include" /I "../../Headers" /I "../Engine" /I "../MultiServer/GameServer" /I "../MultiServer/Common" /I "../MultiServer/Goddess" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "PHONGTHAN_SHOW_DEBUG_INFO" /D "PHONGTHAN_USE_MD5_PASSWORD" /FR /Yu"KWin32.h" /FD /GZ /c
 # ADD BASE MTL /nologo /D "_DEBUG" /mktyplib203 /win32
 # ADD MTL /nologo /D "_DEBUG" /mktyplib203 /win32
 # ADD BASE RSC /l 0x804 /d "_DEBUG"
@@ -1132,32 +1132,6 @@ SOURCE=..\..\Lib\debug\CoreClient.lib
 !ENDIF 
 
 # End Source File
-# Begin Source File
-
-SOURCE=..\..\Lib\debug\CoreServer.lib
-
-!IF  "$(CFG)" == "PhongThanClient - Win32 Release"
-
-# PROP Exclude_From_Build 1
-
-!ELSEIF  "$(CFG)" == "PhongThanClient - Win32 Debug"
-
-!ENDIF 
-
-# End Source File
-# Begin Source File
-
-SOURCE=..\..\Lib\debug\common.lib
-
-!IF  "$(CFG)" == "PhongThanClient - Win32 Release"
-
-# PROP Exclude_From_Build 1
-
-!ELSEIF  "$(CFG)" == "PhongThanClient - Win32 Debug"
-
-!ENDIF 
-
-# End Source File
 # End Group
 # Begin Group "release"
 
@@ -1188,68 +1162,8 @@ SOURCE=..\..\Lib\release\CoreClient.lib
 !ENDIF 
 
 # End Source File
-# Begin Source File
-
-SOURCE=..\..\Lib\release\CoreServer.lib
-
-!IF  "$(CFG)" == "PhongThanClient - Win32 Debug"
-
-# PROP Exclude_From_Build 1
-
-!ELSEIF  "$(CFG)" == "PhongThanClient - Win32 Release"
-
-!ENDIF 
-
-# End Source File
-# Begin Source File
-
-SOURCE=..\..\Lib\release\common.lib
-
-!IF  "$(CFG)" == "PhongThanClient - Win32 Debug"
-
-# PROP Exclude_From_Build 1
-
-!ELSEIF  "$(CFG)" == "PhongThanClient - Win32 Release"
-
-!ENDIF 
-
-# End Source File
 # End Group
-# Begin Source File
-
-SOURCE=.\Embedded\PtEmbedded.h
-# End Source File
-# Begin Source File
-
-SOURCE=.\Embedded\PtEmbeddedTransport.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\Embedded\PtEmbeddedGateway.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\Embedded\PtEmbeddedHost.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=..\MultiServer\GameServer\KSOServer.cpp
-# ADD CPP /Y-
-# End Source File
-# Begin Source File
-
-SOURCE=..\MultiServer\GameServer\KSOServer.h
-# End Source File
-# Begin Source File
-
-SOURCE=..\MultiServer\GameServer\PhongThanRelayClient.cpp
-# ADD CPP /Y-
-# End Source File
-# Begin Source File
-
-SOURCE=..\MultiServer\Goddess\PhongThanCharacterStore.cpp
-# ADD CPP /Y-
-# End Source File
+# End Group
 # Begin Source File
 
 SOURCE=.\ErrorCode.cpp
@@ -1306,6 +1220,41 @@ SOURCE=.\Ui\UiCase\UiTrembleItem.h
 # Begin Source File
 
 SOURCE=.\PhongThan.ico
+# End Source File
+# Begin Source File
+
+SOURCE=.\Embedded\PtEmbedded.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\Embedded\PtEmbeddedTransport.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Embedded\PtEmbeddedGateway.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Embedded\PtEmbeddedHost.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=..\MultiServer\GameServer\KSOServer.cpp
+# ADD CPP /Y-
+# End Source File
+# Begin Source File
+
+SOURCE=..\MultiServer\GameServer\KSOServer.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\MultiServer\GameServer\PhongThanRelayClient.cpp
+# ADD CPP /Y-
+# End Source File
+# Begin Source File
+
+SOURCE=..\MultiServer\Goddess\PhongThanCharacterStore.cpp
+# ADD CPP /Y-
 # End Source File
 # End Target
 # End Project
